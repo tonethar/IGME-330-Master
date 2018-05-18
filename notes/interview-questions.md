@@ -22,7 +22,7 @@
 </html>
 ```
 
-2. 
+2. Selecting and changing the style of DOM elements
 
 ```html
 <!DOCTYPE html>
@@ -37,7 +37,7 @@
 	</style>
 </head>
 <body>
-<h1>Selecting Dom Elements</h1>
+<h1>Selecting DOM Elements</h1>
 <p id="content">???</p>
 <p>Copyright 2018 Ace Coder</p>
 
