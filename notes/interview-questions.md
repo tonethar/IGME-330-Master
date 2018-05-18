@@ -56,6 +56,7 @@
 
 3. Write functions
 
+**interview-questions-3.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -86,7 +87,7 @@
 
 4. Search an array
 
-**interview-questions-3.html**
+**interview-questions-4.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -116,5 +117,38 @@
 </script>
 </body>
 </html>
+```
 
+5. Fibonacci Numbers
+
+**interview-questions-5.html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<script>
+	
+	// write code that generates the first 20 Fibonacci numbers
+	// https://en.wikipedia.org/wiki/Fibonacci_number
+	
+	
+	// 1 - use a standard for loop
+	let numbers = [0,1];
+	// you write the code
+	// ...
+	console.log(numbers);
+		
+	// 2 - use recursion
+	let numbers2 = [];
+	// you write the code
+	// ...
+	console.log(numbers2);
+	
+</script>
+</body>
+</html>
 ```
