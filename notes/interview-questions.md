@@ -54,4 +54,37 @@
 
 <hr>
 
-3. 
+3. Search an array
+
+**interview-questions-3.html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<script>
+	let colors = ["red","green","blue","red","green","blue"];
+	
+	// write code that loops through the `colors` array, looks for all instances of the string "red", 
+	//  and stores them in a new array named `colors2`
+	
+	// 1 - use a regular `for` loop
+	
+	// 2 - use a `for...of`
+	
+	// 3 - use `array.forEach()`
+	
+	// 4 - use `array.find()`
+	
+	// 5 - use `array.filter()`
+	
+	// 6 - use `array.map()`
+
+</script>
+</body>
+</html>
+
+```
