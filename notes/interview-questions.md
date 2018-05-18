@@ -108,11 +108,9 @@
 	
 	// 3 - use `array.forEach()`
 	
-	// 4 - use `array.find()`
+	// 4 - use `array.filter()`
 	
-	// 5 - use `array.filter()`
-	
-	// 6 - use `array.map()`
+	// 5 - use `array.map()`
 
 	console.log(colors2);
 </script>
