@@ -38,14 +38,14 @@
 	</style>
 </head>
 <body>
-<h1>Selecting DOM Elements</h1>
-<p id="content">???</p>
-<p>Copyright 2018 Ace Coder</p>
+  <h1>Selecting DOM Elements</h1>
+  <p id="content">???</p>
+  <p>Copyright 2018 Ace Coder</p>
 
-<script>
-// give at least 5 different ways to change the text color of the <h1> above to red
-// Hint: use a variety of DOM methods, properties, and CSS selectors, and use the `hilite` class.
-</script>
+  <script>
+  // give at least 5 different ways to change the text color of the <h1> above to red
+  // Hint: use a variety of DOM methods, properties, and CSS selectors, and use the `hilite` class.
+  </script>
 </body>
 </html>
 ```
