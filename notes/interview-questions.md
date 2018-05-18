@@ -119,6 +119,8 @@
 </html>
 ```
 
+<hr>
+
 5. Fibonacci Numbers
 
 **interview-questions-5.html**
