@@ -22,6 +22,8 @@
 </html>
 ```
 
+<hr>
+
 2. Selecting and changing the style of DOM elements
 
 **interview-questions-2.html**
@@ -49,3 +51,7 @@
 </body>
 </html>
 ```
+
+<hr>
+
+3. 
