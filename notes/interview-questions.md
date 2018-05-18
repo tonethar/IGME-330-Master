@@ -97,9 +97,10 @@
 <body>
 <script>
 	let colors = ["red","green","blue","red","green","blue"];
+	let colors2 = [];
 	
 	// write code that loops through the `colors` array, looks for all instances of the string "red", 
-	//  and stores them in a new array named `colors2`
+	//  and stores them in the `colors2` array
 	
 	// 1 - use a regular `for` loop
 	
@@ -113,6 +114,7 @@
 	
 	// 6 - use `array.map()`
 
+	console.log(colors2);
 </script>
 </body>
 </html>
