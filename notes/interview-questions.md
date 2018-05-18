@@ -2,6 +2,7 @@
 
 
 1. Selecting and modifying DOM elements
+
 **interview-questions-1.html**
 ```html
 <!DOCTYPE html>
@@ -14,7 +15,8 @@
   <p id="content">???</p>
 
   <script>
-  // give at least 5 different ways to change the text of the above paragraph to 'Hello!'
+  // Give at least 5 different ways to change the text of the above paragraph to 'Hello!'
+  // Hint: use a variety of DOM methods, properties, and CSS selectors
   </script>
 </body>
 </html>
