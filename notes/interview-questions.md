@@ -24,6 +24,7 @@
 
 2. Selecting and changing the style of DOM elements
 
+**interview-questions-2.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
