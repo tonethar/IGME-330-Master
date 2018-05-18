@@ -75,7 +75,7 @@
 	
   // 3 - ES6 arrow function style
 	
-  // 4 - ES5 function declaration (i.e. do default arguments the hard way
+  // 4 - ES5 function declaration (i.e. do default arguments the hard way)
 	
 </script>
 </body>
