@@ -1,7 +1,7 @@
 # Interview-style Questions
 
 
-1. Selecting and modifying DOM elements
+## 1. Selecting and modifying DOM elements
 
 **interview-questions-1.html**
 ```html
@@ -24,7 +24,7 @@
 
 <hr>
 
-2. Selecting and changing the style of DOM elements
+## 2. Selecting and changing the style of DOM elements
 
 **interview-questions-2.html**
 ```html
@@ -54,7 +54,8 @@
 
 <hr>
 
-3. Write functions
+
+## 3. Write functions
 
 **interview-questions-3.html**
 ```html
@@ -85,7 +86,7 @@
 
 <hr>
 
-4. Search an array
+## 4. Search an array
 
 **interview-questions-4.html**
 ```html
@@ -121,7 +122,7 @@
 
 <hr>
 
-5. Fibonacci Numbers
+## 5. Fibonacci Numbers
 
 **interview-questions-5.html**
 ```html
