@@ -54,7 +54,37 @@
 
 <hr>
 
-3. Search an array
+3. Write functions
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<script>
+	
+  // write code for a function named `addThem` that accepts 2 Number arguments and returns their sum
+  // if no value is passed in for an argument, give it a default value of 0
+	
+  // 1 - ES6 function declaration style
+	
+  // 2 - ES6 function expression style
+	
+  // 3 - ES6 arrow function style
+	
+  // 4 - ES5 function declaration (i.e. do default arguments the hard way
+	
+</script>
+</body>
+</html>
+```
+
+<hr>
+
+4. Search an array
 
 **interview-questions-3.html**
 ```html
