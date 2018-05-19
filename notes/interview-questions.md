@@ -1,4 +1,4 @@
-# Interview-style Questions
+# Interview-style questions
 
 
 ## 1. Selecting and modifying DOM elements
