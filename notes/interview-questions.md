@@ -155,3 +155,6 @@
 </body>
 </html>
 ```
+
+
+## 6. Sum numbers in an array
