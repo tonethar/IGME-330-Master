@@ -18,29 +18,26 @@ https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/H
 
 and answer the following questions:
 
-A. You can add a Canvas element with a few lines of code 
+**A. You can add a Canvas element with a few lines of code**
 
 *(no answer required - we'll do this in the next section)*
 
 
-B. There are Methods for Drawing _______
-
-
+**B. There are Methods for Drawing ______**
 
 *You draw shapes other than rectangles by creating a path, adding line segments, curves, or arcs, and closing the path. Begin a path using beginPath(). Set the starting point, or start a discontinuous subpath, by calling the moveTo(x, y) method. The closePath() method draws a line from the current endpoint to the starting point of the path, creating a closed shape.*
 
-The path is not actually drawn until you _______
+**B-i. The path is not actually drawn until you _______**
 
-Canvas supports matrix transforms—anything you draw can be _______
+**B-ii. Canvas supports matrix transforms — anything you draw can be _______**
 
-C. It's Easy To Include _______
+**C. It's Easy To Include _______**
 
-D. You Can Also Render _______
+**D. You Can Also Render _______**
 
-E. Canvas is Great for InfoGraphics - give examples:
+**E. Canvas is Great for InfoGraphics - give examples:**
 
-
-F. Canvas Can Create Fast, Lightweight Animations.
+**F. Canvas Can Create Fast, Lightweight Animations.**
 
 *(no answer required  - note: Apple's examples use `setInterval()` for animation - we’ll instead be using `requestAnimationFrame()` in our examples)*
 
