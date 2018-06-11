@@ -72,8 +72,8 @@ J. Export to Canvas is Possible from Illustrator or Flash
 - Create a Drawing Context
 
 - Support Retina Displays from the Start
-(a good practice, but we're not going to worry about this in the course)
+  - *a good practice, but we're not going to worry about this in the course*
 
 - Save and Restore the Context
-(we'll get into this soon)
+  - *we'll get into this soon*
 
