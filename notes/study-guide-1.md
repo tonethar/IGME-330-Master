@@ -5,7 +5,7 @@
 - The &lt;canvas> tag defines an area on the page that we can draw into using a procedural drawing API. This bitmap drawing API has methods for drawing lines, paths, rectangles, arcs, circles, curves, text, images, and video. 
 - Apple invented the canvas 2D drawing API in 2004 as a way to add customized dashboard widgets to OS X. It has since been adopted by all major desktop and mobile  browsers and is supported by the current versions of Chrome, Firefox, Internet Explorer (8>), Konquerer, and Opera.
 - The canvas drawing API allows a developer to create Flash-like (do you remember Adobe Flash?) games and experiences without using the Flash SDK and with no need for a browser plug-in.
-- We will be utlizing the online canvas tutorial located here: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- We will be utlizing the online MDN canvas tutorial located here: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
 ### I-A. Hello World
 
@@ -48,9 +48,10 @@ Here is a full version of the example - note that we are using a slightly differ
 </html>
 ```
 
-## Resources
+## I-B. Resources
 - The canvas API is focused on drawing, and is fairly lightweight. The full specification is here: http://www.w3.org/TR/2dcontext/
 - Another great online reference is here: https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html
+- Note the 
 
 
 
