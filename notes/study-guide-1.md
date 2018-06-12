@@ -17,11 +17,35 @@
 - Change the height of the rectangle from `100` to `50`
 - Change the x and y values of the rectangle from `10,10` to `25,25`
 
-Here is a full version of the example - note that we are using 
+Here is a full version of the example - note that we are using a slightly different JavaScript style than the examples, but the core canvas concepts are the same.
+
 **sg1-1.html**
 
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
 
+<canvas id="canvas"></canvas>
+<script>
+	// get reference to <canvas> element>
+	let canvas = document.querySelector('#canvas');
+	
+	// get reference to drawing "context" (i.e. the canvas API)
+	let ctx = canvas.getContext('2d');
+
+	// set all "fill" operations to green
+	ctx.fillStyle = 'green';
+	
+	// create a green rectangle starting at 10,10 - and make it 50x50 pixels
+	ctx.fillRect(10, 10, 100, 100);
+</script>
+</body>
+</html>
 ```
 
 ## Resources
