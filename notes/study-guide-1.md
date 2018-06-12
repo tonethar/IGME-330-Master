@@ -1,20 +1,41 @@
 # Study Guide 1
 
-## Overview
+## I. Overview
 
-- The &lt;canvas> tag defines an area on the page that we can draw into using a procedural drawing API. This bitmap drawing API has methods for drawing lines, paths, rectangles, arcs, circles, curves, and text. 
+- The &lt;canvas> tag defines an area on the page that we can draw into using a procedural drawing API. This bitmap drawing API has methods for drawing lines, paths, rectangles, arcs, circles, curves, text, images, and video. 
 - Apple invented the canvas 2D drawing API in 2004 as a way to add customized dashboard widgets to OS X. It has since been adopted by all major desktop and mobile  browsers and is supported by the current versions of Chrome, Firefox, Internet Explorer (8>), Konquerer, and Opera.
 - The canvas drawing API allows a developer to create Flash-like (do you remember Adobe Flash?) games and experiences without using the Flash SDK and with no need for a browser plug-in.
+- We will be utlizing the online canvas tutorial located here: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+
+### I-A. Hello World
+
+- Take a look at the canvas example here - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API - note that you can manipulate the examples here and get live updates. 
+
+**Things to try:**
+- Go ahead and modify the `.fillStyle` property to change the color of the rectangle from `green` to `purple`
+- Now change the color of the rectangle to a dark gray - use a hexidecimal value like `#333`
+- Change the height of the rectangle from `100` to `50`
+- Change the x and y values of the rectangle from `0,0` to `25,25`
+
+Here is a full version of the example - note that we are using 
+**sg1-1.html**
+
+```
+
+```
 
 ## Resources
 - The canvas API is focused on drawing, and is fairly lightweight. The full specification is here: http://www.w3.org/TR/2dcontext/
-- Our free canvas "textbook" is located here: https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html
-- Another great online reference is here: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+- Another great online reference is here: https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html
+
+
+
+
 
 ## I. About Canvas
-**Read the "At a glance" section under *About Canvas*** - 
 
-https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html 
+
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
 and answer the following questions:
 
