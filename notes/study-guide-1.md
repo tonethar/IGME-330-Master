@@ -18,7 +18,7 @@
 - Change the x and y values of the rectangle from `10,10` to `25,25`
 
 
-## I-B. Example
+### I-B. Example
 Here is a full working version of the example - note that we are using a slightly different JavaScript style than the examples, but the core canvas concepts are the same.
 
 **sg1-1.html**
@@ -50,10 +50,10 @@ Here is a full working version of the example - note that we are using a slightl
 </html>
 ```
 
-## I-C. Resources
+### I-C. Resources
 - The canvas API is focused on drawing, and is fairly lightweight. The full specification is here: http://www.w3.org/TR/2dcontext/
 - Another great online reference is here: https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html
-- Note the 
+- Note the list of resources at the end of this page.
 
 
 
