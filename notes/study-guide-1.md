@@ -15,11 +15,11 @@
 - Go ahead and modify the `.fillStyle` property to change the color of the rectangle from `green` to `purple`
 - Now change the color of the rectangle to a dark gray - use a hexidecimal value like `#333`
 - Change the height of the rectangle from `100` to `50`
+- Change the width of the rectangle from `100` to `600` (which makes it wider than the available space)
 - Change the x and y values of the rectangle from `10,10` to `25,25`
 
-
 ### I-B. Example
-Here is a full working version of the example - note that we are using a slightly different JavaScript style than the examples, but the core canvas concepts are the same.
+Here is a full working version of the MDN example - note that we are using a slightly different JavaScript style than the examples, but the core canvas concepts are the same.
 
 **sg1-1.html**
 
@@ -53,7 +53,7 @@ Here is a full working version of the example - note that we are using a slightl
 ### I-C. Resources
 - The canvas API is focused on drawing, and is fairly lightweight. The full specification is here: http://www.w3.org/TR/2dcontext/
 - Another great online reference is here: https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html
-- Note the list of resources at the end of this page.
+- Also note the list of resources at the end of the MDN page.
 
 
 
