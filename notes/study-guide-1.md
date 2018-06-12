@@ -15,7 +15,7 @@
 - Go ahead and modify the `.fillStyle` property to change the color of the rectangle from `green` to `purple`
 - Now change the color of the rectangle to a dark gray - use a hexidecimal value like `#333`
 - Change the height of the rectangle from `100` to `50`
-- Change the x and y values of the rectangle from `0,0` to `25,25`
+- Change the x and y values of the rectangle from `10,10` to `25,25`
 
 Here is a full version of the example - note that we are using 
 **sg1-1.html**
