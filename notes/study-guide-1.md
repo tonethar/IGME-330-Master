@@ -56,6 +56,30 @@ Here is a full working version of the MDN example - note that we are using a sli
 - Also note the list of resources at the end of the MDN page.
 
 
+## II. Basic Usage
+
+MDN Page: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+
+### II-A. Review Questions
+
+Read this page over an answer the following questions:
+
+A. What is the default size of the &lt;canvas> element?
+
+B. Give at least 3 CSS properties that can be set for the &lt;canvas>
+
+C. How would you specify "fallback" text - for example "Get a real browser!" - for browsers that do not support &lt;canvas>? Give an example.
+
+
+### II-B. A Simple Example
+
+Here is our version of the MDN "simple example". Note that we are NOT testing for the existance of canvas as it is already widely supported by modern web browsers.
+
+**sg1-2.html**
+
+```
+
+```
 
 
 
