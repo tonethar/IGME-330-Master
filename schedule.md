@@ -47,6 +47,7 @@
 ## <a id="week12">Week 12 (Nov 13/15) : ???
   
 ## <a id="tweek">T-Week (Nov 20) : Catch up & Thanksgiving Break
+- Thanksgiving Break Begins Wednesday 11/21 @ 2PM - University is closed
   
 ## <a id="week13">Week 13 (Nov 27/29) : ???
   
