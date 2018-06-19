@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Week 1 (Aug 28/30) : Course Intro](#week1)
+- [Week 1 (Aug 28/30) : Course Intro & Review](#week1)
 - [Week 2 (Sep 04/06) : ???](#week2)
 - [Week 3 (Sep 11/13) : ???](#week3)
 - [Week 4 (Sep 18/20) : ???](#week4)
@@ -20,7 +20,7 @@
 - [Finals Week Meeting](#finalsweek)
 
 
-## <a id="week1">Week 1 (Aug 28/30) : Course Intro
+## <a id="week1">Week 1 (Aug 28/30) : Course Intro & Review
 
 ## <a id="week2">Week 2 (Sep 04/06) : ???
 
@@ -54,3 +54,29 @@
 ## <a id="week14">Week 14 (Dec 04/06) : Review & Final Exam
   
 ## <a id="finalsweek">Finals Week Meeting
+  
+
+## All Topics
+
+1. Canvas
+  - immediate mode drawing
+  - drawing rectangles, arcs, poygons, lines, curves, text, and images
+  - drawing state variables and stack
+  - transformations
+ 
+2. Objects
+ - literals
+ - prototypical inheritance
+ - function constructors
+ - ES6 classes
+
+3. Modules
+- no modules
+- ES5 revealing module pattern
+- ES6 Modules
+- CommonJS modules
+
+4. Web Audio API
+
+
+5. 
