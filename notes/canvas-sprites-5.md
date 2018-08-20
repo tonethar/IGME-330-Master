@@ -498,7 +498,7 @@ Make the HTML file look like this:
 
 In the last 2 chapters we have seen 2 distinct approaches to creating modularized code in JavaScript - and there are other approaches you can read about here: https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
 
-You probably found the this chapter's ES6 version to be less intuitive than the ES6 version we did last chapter - and going forward a couple of years you may end up using the ES6 version of modules more than the ES5 version - but there is still value in seeing how to accomplish modules in this ES5 "way".
+You probably found the this chapter's ES5 version to be *less intuitive* than the ES6 version we did last chapter - and going forward a couple of years you may end up using the ES6 version of modules more than the ES5 version - but there is still value in seeing how to accomplish modules in the "classic" ES5 way.
 	
 ## VI. <a id="section6">Review Questions
 1. What would be a disadvantage of writing all of our code using ES6 modules?

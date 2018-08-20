@@ -101,7 +101,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm install npm@latest -g
  ```
  
- **Note: Mac OS users will often have to have `sudo` at the beginning of the command whenever they are installing applications or packages.**
+ **Note: Mac OS users will often be required to have `sudo` at the beginning of the command whenever they are installing applications or packages.**
  
  **2) Change directory to your project folder**
  

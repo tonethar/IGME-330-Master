@@ -5,7 +5,7 @@ In the last chapter we utilized **prototype-based inheritance** (and factory fun
 
 In this chapter we will utilize ES6 class syntax to more or less do the same thing.
 
-**Note: If you need a refresher on JavaScript ES6 classes, please read the first 3 sections of his tutorial page: [ES6 Classes & PixiJS Animation](pixi-js-2.md)**
+**Note: If you need a refresher on JavaScript ES6 classes, please read the first 3 sections of his tutorial page: [ES6 Classes & PixiJS Animation](https://github.com/tonethar/IGME-230-Master/blob/master/notes/pixi-js-2.md)**
 
 ## Contents
 <!--- Local Navigation --->
