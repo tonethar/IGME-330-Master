@@ -6,7 +6,7 @@
   - how to get a drawing *context* with `canvas.getContext('2d')`
   - drawing rectangles via the `ctx.fillRect()` and `ctx.strokeRect()` convenience methods
   - drawing text with `ctx.fillText()` and `ctx.strokeText()`
-  - setting the drawing state attributes of `.fillStyle`,`.strokeStyle`,`.lineWidth`
+  - setting the drawing state attributes of `.fillStyle`,`.strokeStyle`, and `.lineWidth`
   - creating paths, and stroking/filling lines, polygons, arcs and circles with:
     - `ctx.beginPath()`, `ctx.moveTo()`, `ctx.lineTo()`, `ctx.closePath()`
     - `ctx.arc()`, `ctx.fill()`, `ctx.stroke()`
