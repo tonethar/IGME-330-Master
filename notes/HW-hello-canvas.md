@@ -9,7 +9,7 @@
   - methods of the *drawing state stack*:
     - `ctx.save()`
     - `ctx.restore()`
-  - preloading a web font for canvas to draw:
+  - preloading a web font for canvas to use:
     - the exercise gives you one technique to accomplish this that involves utilizing invisible divs
     - another way to do so is the use the [webfontloader](https://github.com/typekit/webfontloader) project - here is a post - [Stack Overflow - Load Custom Font](https://stackoverflow.com/questions/46218500/pixijs-load-custom-font/47299469#47299469) - that explains how to do this for both PixiJS and canvas
   
