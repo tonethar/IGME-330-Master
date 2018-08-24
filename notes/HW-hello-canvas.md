@@ -3,9 +3,16 @@
 ## I. Overview
 - This exercise will cover the following concepts:
   - the canvas drawing state:
-    - drawing state attributes: .font, .fillStyle, 
+    - drawing state attributes: `.font`, `.shadowColor`, `shadowOffsetX`, `.shadowOffsetY`, `.shadowBlur`, `textAlign`, `textBaseline`
   - drawing state methods:
-    - 
+    - `ctx.measureText()`
+  - methods of the *drawing state stack*:
+    - `ctx.save()`
+    - `ctx.restore()`
+  - preloading a web font for canvas to draw:
+    - the exercise gives you one technique to accomplish this that involves utilizing invisible &lt;div>s
+    - another way to do so is the use the *webfontloader* project - here is a post - [Stack Overflow - Load Custom Font](https://stackoverflow.com/questions/46218500/pixijs-load-custom-font/47299469) - that explains how to do this for both PixiJS and canvas
+  
   
   ## II. Submission
 - the start files and instructions are here -> [???](_files/)
