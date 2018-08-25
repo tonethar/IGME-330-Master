@@ -7,6 +7,6 @@
   - creating bezier curvers - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
   
   
-  ## II. Submission
+## II. Submission
 - the start files and instructions are here -> [SG-2-files.zip](_files/SG-2-files.zip)
 - see mycourses.rit.edu for due date
