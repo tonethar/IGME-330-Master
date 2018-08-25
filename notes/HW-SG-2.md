@@ -1,7 +1,7 @@
 # HW - Study Guide #2
 
 ## I. Overview
-- You will be reading another 1-1/2 chapters of our "textbook" - the [Safari HTML5 Canvas Guide](https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html) and writing some JavaScript & Canvas code. The major concepts that will be covered in this exercise:
+- You will be reading another 1-1/2 chapters of our "textbook" - the [Safari HTML5 Canvas Guide](https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/Introduction/Introduction.html) - and writing some JavaScript & Canvas code. The major concepts that will be covered in this exercise:
   - setting caps and joins on lines - `ctx.lineCap`, `ctx.lineJoin`, `ctx.setLineDash()`
   - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient(`), and `ctx.addColorStop()`
   - creating bezier curvers - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
