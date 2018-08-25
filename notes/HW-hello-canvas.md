@@ -6,7 +6,7 @@
     - drawing state attributes: `.font`, `.shadowColor`, `shadowOffsetX`, `.shadowOffsetY`, `.shadowBlur`, `textAlign`, `textBaseline`
   - drawing state methods:
     - `ctx.measureText()`
-  - methods of the *drawing state stack*:
+  - methods of the drawing context that push and pop the *drawing state stack*:
     - `ctx.save()`
     - `ctx.restore()`
   - preloading a web font for canvas to use:
