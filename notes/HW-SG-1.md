@@ -11,6 +11,6 @@
     - `ctx.beginPath()`, `ctx.moveTo()`, `ctx.lineTo()`, `ctx.closePath()`
     - `ctx.arc()`, `ctx.fill()`, `ctx.stroke()`
   
-  ## II. Submission
+## II. Submission
 - the start files and instructions are here -> [SG-1-files.zip](_files/SG-1-files.zip)
 - see mycourses.rit.edu for due date
