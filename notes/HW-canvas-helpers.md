@@ -98,4 +98,4 @@ Here's an example that meets requirements (you can definitely come up with somet
 
 
 ## IV. Rubric
-- Work 2 HW assignments
+- Worth 2 HW assignments
