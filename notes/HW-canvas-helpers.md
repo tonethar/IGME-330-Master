@@ -14,7 +14,8 @@
     - the doesn't necessarily need to be "beautiful" - the crude example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](http://vart.institute/mondrian/) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas. Other possible themes include a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
 - Hints:
   - your recent lecture notes should come in very handy for the code portion of this assignment
-  - feel free to add parameters to these functions if you wish - for example, adding a `lineCap` parameter to `drawTriangle()`
+  - outside of your helper functions, go ahead and set other global canvas attributes like `ctx.globalAlpha` and `ctx.shadowColor` etc to get the effects that you want. 
+  - feel free to add additional parameters to these functions if you wish - for example, adding a `lineCap` parameter to `drawTriangle()`
   - feel free to create additional helper functions
 
 ## II. Start Code
