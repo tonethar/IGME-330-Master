@@ -34,7 +34,7 @@
 		drawRectangle(ctx,100,100,250,250,"red","yellow",10);
 	}
 	
-	
+	// we took care of drawRectangle() for you - now you need to complete the other 4 functions
 	function drawRectangle(ctx,x=0,y=0,width=25,height=25,fillStyle="red",strokeStyle="black",lineWidth=0){
 		ctx.save();                
 		ctx.beginPath();            
@@ -76,7 +76,7 @@ Here's an example that meets requirements (you can probably come up with somethi
 - The head is made with `drawRectangle()`
 - The eyes and pupils are made with `drawCircle()`
 - The hair is made with `drawLine()` and a `for` loop, with a little `Math.random()` to slightly vary the length of the strands
-- The nose is done with 2 `drawLine()` calls
+- The nose is done with two `drawLine()` calls
 - The mouth is done with `drawArc()`
 - The teeth are done with `drawTriangle()` and here we used `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` to make it MUCH easier to position the teeth
 
