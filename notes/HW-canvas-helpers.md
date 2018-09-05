@@ -1,9 +1,9 @@
 # HW - Canvas Helper Functions
 
-## I. Overview
+## I. Overview & Requirements
 
 
-## II. Start File
+## II. Start Code
 
 **canvas-helpers-start.html**
 ```html
