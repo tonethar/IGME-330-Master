@@ -84,7 +84,7 @@
 
 ## III. Example
 
-Here's an example that meets requirements (you can probably come up with something better):
+Here's an example that meets requirements (you can definitely come up with something better):
 - The head is made with `drawRectangle()`
 - The eyes and pupils are made with `drawCircle()`
 - The hair is made with `drawLine()` and a `for` loop, with a little `Math.random()` to slightly vary the length of the strands
