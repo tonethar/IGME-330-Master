@@ -80,4 +80,4 @@ Here's an example that meets requirements (you can probably come up with somethi
 - The mouth is done with `drawArc()`
 - The teeth are done with `drawTriangle()` and here we used `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` to make it MUCH easier to position the teeth
 
-![monster](./images/canvas-helpers-done.jpg)
+![monster](./_images/HW-canvas-helpers-done.jpg)
