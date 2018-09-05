@@ -1,5 +1,9 @@
+# HW - Canvas Helper Functions
+
+## I. Overview
 
 
+## II. Start File
 
 **canvas-helpers-start.html**
 ```html
@@ -63,4 +67,17 @@
 	</script>
 </body>
 </html>
-``
+```
+
+
+## III. Example
+
+Here's an example that meets requirements (you can probably come up with something better):
+- The head is made with `drawRectangle()`
+- The eyes and pupils are made with `drawCircle()`
+- The hair is made with `drawLine()` and a `for` loop, with a little `Math.random()` to slightly vary the length of the strands
+- The nose is done with 2 `drawLine()` calls
+- The mouth is done with `drawArc()`
+- The teeth are done with `drawTriangle()` and here we used `ctx.translate()`/`ctx.rotate()`/`ctx.scale()` to make it MUCH easier to position the teeth
+
+
