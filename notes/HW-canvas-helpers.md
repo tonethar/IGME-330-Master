@@ -11,9 +11,9 @@
     - use a `for` loop (or other iterative construct) at least once to create multiple shapes (see the "hair" in the example below)
     - use all three canvas transformations (`ctx.translate()`, `ctx.rotate()`, `ctx.scale()`) at least one time. Don't forget to `ctx.save()` before you use the transformations, and `ctx.restore()` when you are done.
     - the art work must have a coherent theme, and not simply be a random jumble of shapes
-    - the doesn't necessarily need to be "beautiful" - the crude example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas, a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
+    - the doesn't necessarily need to be "beautiful" - the crude example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas. Other possible themes include a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
 - Hints:
-  - your recent lecture notes should come in very handy for this
+  - your recent lecture notes should come in very handy for the code portion of this assignment
   - feel free to add parameters to these functions if you wish - for example, adding a `lineCap` parameter to `drawTriangle()`
   - feel free to create additional helper functions
 
