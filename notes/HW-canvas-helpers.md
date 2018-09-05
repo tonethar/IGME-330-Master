@@ -78,6 +78,6 @@ Here's an example that meets requirements (you can probably come up with somethi
 - The hair is made with `drawLine()` and a `for` loop, with a little `Math.random()` to slightly vary the length of the strands
 - The nose is done with 2 `drawLine()` calls
 - The mouth is done with `drawArc()`
-- The teeth are done with `drawTriangle()` and here we used `ctx.translate()`/`ctx.rotate()`/`ctx.scale()` to make it MUCH easier to position the teeth
+- The teeth are done with `drawTriangle()` and here we used `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` to make it MUCH easier to position the teeth
 
-
+![monster](./images/canvas-helpers-done.jpg)
