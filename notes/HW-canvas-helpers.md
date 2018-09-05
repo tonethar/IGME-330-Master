@@ -5,6 +5,7 @@
 - In the starter code below, we have implemented `drawRectangle(ctx,x=0,y=0,width=25,height=25,fillStyle="red",strokeStyle="black",lineWidth=0)` for you, and added two tests of the function, one of which uses default arguments, the other uses all of the available parameters
 - Requirements:
   - complete the implementation of these stubbed methods (see below): `drawCircle()`, `drawLine()`, `drawTriangle()` and `drawArc()`. The function signatures are all done for you, you just have to write the code that goes inside the functions
+  - be sure to comment out or delete any "test code" that you used to verify that your functions work as intended
   - artwork requirements:
     - use each of the 5 functions at least once, and you must draw at least a dozen distinct shappes on the screen
     - use a `for` loop (or other iterative construct) at least once to create multiple shapes (see the "hair" in the example below)
