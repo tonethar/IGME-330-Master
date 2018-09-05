@@ -1,7 +1,19 @@
 # HW - Canvas Helper Functions
 
 ## I. Overview & Requirements
-
+- In this assignment you will begin to build a library of canvas "helper" functions, and then test them by creating a simple procedural work of art. These functions will come in very handy once you begin to work on the Audio Visualizer project.
+- In the starter code below, we have implemented `drawRectangle(ctx,x=0,y=0,width=25,height=25,fillStyle="red",strokeStyle="black",lineWidth=0)` for you, and added two tests of the function, one of which uses default arguments, the other uses all of the available parameters
+- Requirements:
+  - complete the implementation of these stubbed methods (see below): `drawCircle()`, `drawLine()`, `drawTriangle()` and `drawArc()`. The function signatures are all done for you, you just have to write the code
+  - art work requirements:
+    - use each of the 5 functions at least once, and you must draw at least a dozen distinct shappes on the screen
+    - use a `for` loop (or other iterative construct) at least once to create multiple shapes (see the "hair" in the example below)
+    - use all three canvas transformations (`ctx.translate()`, `ctx.rotate()`, `ctx.scale()`) at least one time. Don't forget to `ctx.save()` before you use the transformations, and `ctx.restore()` when you are done.
+    - the art work must have a coherent theme, and not simply be a random jumble of shapes
+    - the doesn't necessarily need to be "beautiful" - the crude example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas, a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
+- Hints:
+  - your recent lecture notes should come in very handy for this
+  - feel free to add parameters to these functions if you wish - adding `lineCap` to `drawTriangle()` - for example
 
 ## II. Start Code
 
@@ -81,3 +93,7 @@ Here's an example that meets requirements (you can probably come up with somethi
 - The teeth are done with `drawTriangle()` and here we used `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` to make it MUCH easier to position the teeth
 
 ![monster](./_images/HW-canvas-helpers-done.jpg)
+
+
+## IV. Rubric
+- Work 2 HW assignments
