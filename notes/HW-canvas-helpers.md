@@ -8,10 +8,10 @@
   - be sure to comment out or delete any "test code" that you used to verify that your functions work as intended
   - artwork requirements:
     - use each of the 5 functions at least once, and you must draw at least a dozen distinct shappes on the screen
-    - use a `for` loop (or other iterative construct) at least once to create multiple shapes (see the "hair" in the example below)
+    - use a `for` loop (or other iterative construct) at least once to create multiple shapes (see the "hair" in the first example below)
     - use all three canvas transformations (`ctx.translate()`, `ctx.rotate()`, `ctx.scale()`) at least one time. Don't forget to `ctx.save()` before you use the transformations, and `ctx.restore()` when you are done.
     - the art work must have a coherent theme, and not simply be a random jumble of shapes
-    - the doesn't necessarily need to be "beautiful" - the crude example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](http://vart.institute/mondrian/) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas. Other possible themes include a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
+    - the doesn't necessarily need to be "beautiful" - the crude first example below is sufficient, although we certainly hope you can do better. Example themes include: abstract geometric shapes arranged in a pleasing manner ([Mondrian](http://vart.institute/mondrian/) for example or something like this [Vector work](https://www.123rf.com/photo_85367242_stock-vector-vector-minimal-covers-procedural-design-futuristic-minimalistic-layout-conceptual-generative-backgro.html)) or just google "simple procedural art" for ideas. Other possible themes include a forest scene, a snowy field, an ocean, 2 or 3 houses, simple figures or animals, cars, etc
 - Hints:
   - your recent lecture notes should come in very handy for the code portion of this assignment
   - outside of your helper functions, go ahead and set other global canvas attributes like `ctx.globalAlpha` and `ctx.shadowColor` etc to get the effects that you want. 
@@ -96,6 +96,10 @@ Here's an example that meets requirements (you can definitely come up with somet
 - The teeth are done with `drawTriangle()` and here we used `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` to make it MUCH easier to position the teeth
 
 ![monster](./_images/HW-canvas-helpers-done.jpg)
+
+Here's another example that just uses circles and `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` - you would also need to find a way to use your other helper functions to meet requirements:
+
+![circles](./_images/HW-canvas-helpers-done-2.jpg)
 
 
 ## IV. Rubric
