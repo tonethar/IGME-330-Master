@@ -1,4 +1,4 @@
-# HW - Canvas Artwork with "Helper" Functions
+# HW - Canvas Procedural Artwork with "Helper" Functions
 
 ## I. Overview & Requirements
 - In this assignment you will begin to build a library of canvas "helper" functions, and then test them by creating a simple procedural work of art. These functions will come in very handy once you begin to work on the Audio Visualizer project.
