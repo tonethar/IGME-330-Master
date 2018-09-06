@@ -87,7 +87,7 @@
 
 ## III. Example
 
-Here's an example that meets requirements (you can definitely come up with something better):
+1. Here's an example that meets requirements (you should definitely try to come up with something better):
 - The head is made with `drawRectangle()`
 - The eyes and pupils are made with `drawCircle()`
 - The hair is made with `drawLine()` and a `for` loop, with a little `Math.random()` to slightly vary the length of the strands
@@ -97,7 +97,7 @@ Here's an example that meets requirements (you can definitely come up with somet
 
 ![monster](./_images/HW-canvas-helpers-done.jpg)
 
-Here's another example that just uses circles and `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` - you would also need to find a way to use your other helper functions to meet requirements:
+2. Here's another example that just uses `drawCircle()` and `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` - you would also need to find a way to use your other helper functions to meet requirements:
 
 ![circles](./_images/HW-canvas-helpers-done-2.jpg)
 
