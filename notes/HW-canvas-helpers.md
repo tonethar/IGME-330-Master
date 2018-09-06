@@ -97,7 +97,7 @@
 
 ![monster](./_images/HW-canvas-helpers-done.jpg)
 
-2. Here's another example that just uses `drawCircle()` and `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` - you would also need to find a way to use your other helper functions to meet requirements:
+2. Here's another example that just uses `drawCircle()`, `for` loops, and `ctx.translate()` / `ctx.rotate()` / `ctx.scale()` - you would also need to find a way to use your other helper functions to meet requirements:
 
 ![circles](./_images/HW-canvas-helpers-done-2.jpg)
 
