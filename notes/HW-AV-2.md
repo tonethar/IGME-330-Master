@@ -14,9 +14,7 @@ In this HW we will look at grabbing RGBa data from the canvas, and performing ma
 
 ## II. Links from Exercise
 
-- These examples work best in Chrome
-
-**(9/10/18 - I see the web cam example's below are broken in Chrome right now, I will fix by this weekend ...)**
+**These examples work best in Chrome:**
 
 - Video Filters Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/getImageData-putImageData-demo/video-image-data-demo-3.html
 - Web Cam Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
@@ -25,6 +23,6 @@ In this HW we will look at grabbing RGBa data from the canvas, and performing ma
 - Web Cam sunglasses app: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/JS-Object-Detect/js-objectdetect-master/examples/example_sunglasses_jquery.htm
 - Web Cam head tracker app:  https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
 
-## II. Submission
+## III. Submission
 - the instructions are here: [Audio-Viz-ICE-2.pdf](_files/Audio-Viz-ICE-2.pdf)
 - see the mycourses.rit.edu dropboxes for due date
