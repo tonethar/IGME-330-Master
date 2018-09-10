@@ -2,7 +2,7 @@
 
 ## I. Overview
 In part I, you will be learning about the [HTML5 WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), and how to utilize it to create an audio visualizer. Topics explored:
-- Audio Routing Graph
+- [Audio Routing Graph](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API#Audio_graphs)
 
 ![image](_images/audio-routing-graph.jpg)
 
