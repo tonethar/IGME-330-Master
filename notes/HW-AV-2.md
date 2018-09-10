@@ -1,7 +1,7 @@
 # HW - Audio Visualizer - Part II
 
 ## I. Overview
-In this HW we will look at grabbing RGBa data from the canvas, and performing manipulations on it:
+In part II of this HW we will look at grabbing RGBa data from the canvas, and performing manipulations on it:
 - [`ctx.getImageData(x,y,width,height)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData) returns an [ImageData](https://developer.mozilla.org/en-US/docs/Web/API/ImageData) object
 - `ImageData.data` is a typed array - in this case a `Uint8ClampedArray`
 - "Photoshop-like" color manipulations we will do:
