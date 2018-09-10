@@ -2,16 +2,16 @@
 
 ## I. Overview
 In part I, you will be learning about the [HTML5 WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API), and how to utilize it to create an audio visualizer. Topics explored:
-- [Audio Routing Graph](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API#Audio_graphs)
+1. [Audio Routing Graph](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API#Audio_graphs)
 
 ![image](_images/audio-routing-graph.jpg)
 
-- AnalyzerNode
+2. [AnalyzerNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode)
   - sampling & bins
   - frequency data - `analyserNode.getByteFrequencyData(data);`
   - waveform data  - `analyserNode.getByteTimeDomainData(data);`
-- [JavaScript Typed Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) - frequency and waveform data is passed *by reference* to these non-resizable typed arrays.
-- CORS Restrictions - ("Cross-origin Resource Sharing") means that you can't run the visualizer start files locally off of your hard drive. You might see an error message like this:
+3. [JavaScript Typed Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) - frequency and waveform data is passed *by reference* to these non-resizable typed arrays.
+4. CORS Restrictions - ("Cross-origin Resource Sharing") means that you can't run the visualizer start files locally off of your hard drive. You might see an error message like this:
 
 **`MediaElementAudioSource outputs zeroes due to CORS access restrictions for file:///Users/...../soundfile.mp3`**
 
