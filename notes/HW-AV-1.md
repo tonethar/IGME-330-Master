@@ -11,7 +11,7 @@ In part I, you will be learning about the [HTML5 WebAudio API](https://developer
   - frequency data - `analyserNode.getByteFrequencyData(data);`
   - waveform data  - `analyserNode.getByteTimeDomainData(data);`
 3. [JavaScript Typed Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) - frequency and waveform data is passed *by reference* to these non-resizable typed arrays.
-4. CORS Restrictions - ("Cross-origin Resource Sharing") means that you can't run the visualizer start files locally off of your hard drive. You might see an error message like this:
+4. [CORS Restrictions](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - ("Cross-origin Resource Sharing") means that you can't run the visualizer start files locally off of your hard drive. You might see an error message like this:
 
 **`MediaElementAudioSource outputs zeroes due to CORS access restrictions for file:///Users/...../soundfile.mp3`**
 
