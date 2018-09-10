@@ -24,5 +24,6 @@ In part I of this HW, you will be learning about the HTML5 [WebAudio API](https:
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) turns off CORS by default, so you don't need a web server.
 
 ## II. Submission
-- the start files and instructions are zipped up in mycourses
+- the instructions are here: [Audio-Viz-ICE-1.pdf](_files/Audio-Viz-ICE-1.pdf) 
+- the start files are zipped up in mycourses
 - also see the mycourses.rit.edu dropboxes for due date
