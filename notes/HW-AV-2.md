@@ -26,5 +26,5 @@ In this HW we will look at grabbing RGBa data from the canvas, and performing ma
 - Web Cam head tracker app:  https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
 
 ## II. Submission
-- the instructions are here: [Audio-Viz-ICE-2.pdf](../_files/Audio-Viz-ICE-2.pdf)
+- the instructions are here: [Audio-Viz-ICE-2.pdf](_files/Audio-Viz-ICE-2.pdf)
 - see the mycourses.rit.edu dropboxes for due date
