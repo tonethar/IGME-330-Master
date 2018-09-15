@@ -12,4 +12,5 @@ In this 2-part exercise we are going to build a canvas painting app that has the
   
 ## II. Submission
 - the start files and instructions are here -> [Drawing-App-Start.zip](_files/Drawing-App-Start.zip)
+- note that due to API changes, the *Export* button does not function on Chrome (and don't worry about that for now)
 - see mycourses.rit.edu for due date
