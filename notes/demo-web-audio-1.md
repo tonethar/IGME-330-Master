@@ -97,7 +97,7 @@ Some important notes about the Web Audio API are here:
 </html>
 ```
 
-## III. Audio Visualizer & Canvas
+## IV. Audio Visualizer & Canvas
 
 - In this demo, we are going to get rid of the HTML table and instead use canvas to draw a bar graph that displays the frequency values. 
 - We are going to need to write some code in class to get this to work.
@@ -176,7 +176,7 @@ Some important notes about the Web Audio API are here:
 </html>
 ```
 
-## IV. Adding an Audio Effect Node
+## V. Adding an Audio Effect Node
 
 - In this demo, we are going to add a "high shelf" filter effect node to the audio graph, which should improve the sound quality of the 2 provided samples. It will do this by boosting the higher frequencies, which will improve the clarity of the sounds.
 - Here is the API link: https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode
