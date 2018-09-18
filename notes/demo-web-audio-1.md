@@ -178,7 +178,7 @@ Some important notes about the Web Audio API are here:
 
 ## IV. Adding an Audio Effect Node
 
-- In this demo, we are going to add an effect node to the audio graph, which should improve the sound quality of the 2 provided samples 
+- In this demo, we are going to add a "high shelf" filter effect node to the audio graph, which should improve the sound quality of the 2 provided samples.  Here is the API link: https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode
 - Below is a code snippet that gets you 90% of the way there - can you do the rest yourself by properly connecting this node to the others?
 - Things to try:
   - increase the sampling rate
