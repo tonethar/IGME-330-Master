@@ -185,6 +185,7 @@ Some important notes about the Web Audio API are here:
 - Things to try:
   - increase the sampling rate
   - modify the value of `.gain`
+  - modify the value of `.frequency`
 
 **web-audio-3.html code snippet**
 
