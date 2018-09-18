@@ -10,7 +10,7 @@ Some important notes about the Web Audio API are here:
 
 ## III. First Audio Visualizer
 
-- This demo is going to set up a frequency analyzer and display the audio frequency data in an HTML table. The code is 100% complete and functioning.
+- This demo is going to set up an audio context that is connected to a frequency analyzer, and will display the audio frequency data in an HTML table. The code is 100% complete and functioning.
 - First, make sure you can get this working. See the HW exercise linked above with how to deal with the CORS issue.
 - Things to try:
   - increase the sampling rate
@@ -167,7 +167,7 @@ Some important notes about the Web Audio API are here:
 		
 		// this time, let's visualize the audio data on the canvas
 		
-    /* YOU WRITE THIS */
+     		/* YOU WRITE THIS */
     
 	}
 	
@@ -180,6 +180,9 @@ Some important notes about the Web Audio API are here:
 
 - In this demo, we are going to add an effect node to the audio graph, which should improve the sound quality of the 2 provided samples 
 - Below is a code snippet that gets you 90% of the way there - can you do the rest yourself by properly connecting this node to the others?
+- Things to try:
+  - increase the sampling rate
+  - modify the value of `.gain`
 
 **web-audio-3.html code snippet**
 
