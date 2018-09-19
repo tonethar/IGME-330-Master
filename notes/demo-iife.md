@@ -2,10 +2,10 @@
 
 ## I. Overview
 - Up until now, we have been writing all of our JS code in the top-level of &lt;script> tags, which leads to many issues which we will demonstrate in the demo below:
-  - variables declared with `var` end up in the global scope with the entirety of the browser API, so there is a serious risk of our variable names conflicting and/or overwriting existing symbols
-  - functions declared with `function` end up in the global scope with the entirety of the browser API, so the danger is the same as above
-  - variables or functions declared with `let` or `const` end up in a "global-ish" scope called "script scope". If we have an application with multiple script files where variable names are the same, these duplicate variable declarations will cause a run-time error
-  - code in global or script scope can easily be run directly from the console by *anybody*. While this is great for teaching and debugging code, imagine how a variable like *highscore* could get abused by your players 
+  1. variables declared with `var` end up in the global scope with the entirety of the browser API, so there is a serious risk of our variable names conflicting and/or overwriting existing symbols
+  2. functions declared with `function` end up in the global scope with the entirety of the browser API, so the danger is the same as above
+  3. variables or functions declared with `let` or `const` end up in a "global-ish" scope called "script scope". If we have an application with multiple script files where variable names are the same, these duplicate variable declarations will cause a run-time error
+  4. code in global or script scope can easily be run directly from the console by *anybody*. While this is great for teaching and debugging code, imagine how a variable like *highscore* could get abused by your players 
 
 ## II. The IIFE is a simple and effective solution
 - The [JavaScript IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) (*Immediately Invoked Function Expression*) pronounced "Iffy" - which is used to keep our variables and functions out of global or "script" scope, and instead make them local to the executed function. It looks like this:
