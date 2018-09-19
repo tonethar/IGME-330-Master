@@ -13,7 +13,7 @@ Some important notes about the Web Audio API are here:
 - This demo is going to set up an audio context that is connected to a frequency analyzer, and will display the audio frequency data in an HTML table. The code is 100% complete and functioning.
 - First, make sure you can get this working. See the HW exercise linked above with how to deal with the CORS issue.
 - Things to try:
-  - increase the sampling rate
+  - increase the sampling rate - it needs to be a power-of-2 number like 16, 32, 64 etc
 
 **web-audio-1.html**
 
