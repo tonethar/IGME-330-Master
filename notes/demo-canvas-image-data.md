@@ -7,6 +7,7 @@
   - grab the image data from the canvas, perform manipulations on that data, and copy it back to the canvas
   - see the effects of drawing an insecure image on the canvas 
   - think about you could potentially use all of this in your Audio Visualizer project - including having the audio frequency data effect the motion of sprites
+  - think about how you incorporate moouse movement into this demo or your audio visualizer project. See the *Speed Circles* demo in mycourses for JS code that accesses the mouse position
 - Other stuff to note:
   - be sure to look the code over and ask questions about anything you don't understand - there's a lot here!
   - everything will still work even if we change the `height` and `width` attributes of the &lt;canvas>
