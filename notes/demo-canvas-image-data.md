@@ -110,10 +110,9 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
 				// draw sprites
 				ctx.save();
 				counter ++;
-				if (showBlending){
-					// #2 - show blending
-					
-				}
+	
+				// #2 - show blending
+	
 				s.draw(ctx);
 				ctx.restore();
 		
