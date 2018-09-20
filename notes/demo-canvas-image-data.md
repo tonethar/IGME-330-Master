@@ -8,7 +8,7 @@
   - see the effects of drawing an insecure image on the canvas 
 - Other stuff to note:
   - be sure to look the code over and ask questions about anything you don't understand - there's a lot here!
-  - everything will still work even if we change the height and width attributes of the canvas
+  - everything will still work even if we change the `height` and `width` attributes of the &lt;canvas>
   - an IFFY
   - a handy helper function for creating gradients
   - creating sprite instances using object literals and a factory function. This is the first of the multiple ways to create objects we will be looking at this semester
