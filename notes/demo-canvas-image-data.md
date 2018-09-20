@@ -6,6 +6,11 @@
   - play with blending mode a little more
   - grab the image data from the canvas, perform manipulations on that data, and copy it back to the canvas
   - see the effects of drawing an insecure image on the canvas 
+- Other stuff to note:
+  - an IFFY
+  - a handy helper function for creating gradients
+  - creating sprite instances using object literals and a factory function. This is the first of the multiple ways to create objects we will be looking at this semester
+  - this is a lot of code to put in one file! We will soon look at how to split this into multiple *modules*, and go beyond merely copying chunks of code to distinct JS files
 
 ## II. Start Files
 
