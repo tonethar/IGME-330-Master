@@ -64,17 +64,12 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
 		}
 		
 		function setupUI(){
+			// YOU DO - we will need one of these lines per checkbox
 			document.querySelector('#trailsCB').checked = showTrails;
-			document.querySelector('#blendingCB').checked = showBlending;
-			document.querySelector('#noiseCB').checked = showNoise;
-			document.querySelector('#tintCB').checked = showTint;
-			document.querySelector('#showImageCB').checked = showImage;
 			
+			// YOU DO - we will need one of these lines per checkbox
 			document.querySelector('#trailsCB').onchange = e => showTrails = e.target.checked;
-			document.querySelector('#blendingCB').onchange = e => showBlending = e.target.checked;
-			document.querySelector('#noiseCB').onchange = e => showNoise = e.target.checked;
-			document.querySelector('#tintCB').onchange = e => showTint = e.target.checked;
-			document.querySelector('#showImageCB').onchange = e => showImage = e.target.checked;
+			
 		}
 
 		function loop(){
