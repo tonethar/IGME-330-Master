@@ -13,7 +13,7 @@
   - everything will still work even if we change the `height` and `width` attributes of the &lt;canvas>
   - an IFFE
   - a handy helper function for creating gradients
-  - creating sprite instances using object literals and a factory function. This is the first of the multiple ways to create objects we will be looking at this semester
+  - how to create sprite instances using object literals and a factory function. This is the first of the multiple ways to create objects we will be looking at this semester
   - note that these sprites use vectors for movement - so if you've already taken IGME-202 you can put that some of that flocking code to work if you wish
   - this is a lot of code to put in one file! We will soon look at how to split this into multiple *modules*, and go beyond merely copying chunks of code to distinct JS files
 
