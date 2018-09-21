@@ -32,8 +32,9 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
   - how do we darken the canvas?
   - how do we convert the canvas to a gray scale image?
 - #5  - Show Image
+  - why don't we need a *pre-loader*?
 - #6  - Stop using an insecure image
-- #7  - Try this: grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here
+- Here's an extra challenge: grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here
 
 **sprite-literals-and-filters-start.html**
 
@@ -247,8 +248,4 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
 	</script>
 </body>
 </html>
-
 ```
-
-
-
