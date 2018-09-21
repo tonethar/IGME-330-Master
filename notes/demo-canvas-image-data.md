@@ -33,7 +33,7 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
   - how do we convert the canvas to a gray scale image?
 - #5  - Show Image
 - #6  - Stop using an insecure image
-- #7  - Try this: grab the emboss filter from [Web Audio Visualizer II]() and get it working here
+- #7  - Try this: grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here
 
 **sprite-literals-and-filters-start.html**
 
