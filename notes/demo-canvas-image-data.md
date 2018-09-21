@@ -20,21 +20,21 @@
 ## II. Start Files
 
 See comments #1 - #6 in the source code. We will walk through these steps together in class, but feel free to modify these effects to make them more interesting.
-- #1  - Show Trails
+- #1  - **Show Trails**
   - how can we make the trails longer?
-- #2  - Show Blending
-- #3  - Show Noise
+- #2  - **Show Blending**
+- #3  - **Show Noise**
   - how do we make black noise? White noise?
   - how do we make the noise appear less frequently?
-- #4  - Show Tint
+- #4  - **Show Tint**
   - how do tint the canvas blue?
   - how do we brighten the canvas?
   - how do we darken the canvas?
   - how do we convert the canvas to a gray scale image?
-- #5  - Show Image
+- #5  - **Show Image**
   - why don't we need a *pre-loader*?
-- #6  - Stop using an insecure image
-- Here's an extra challenge: grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here
+- #6  - **Stop using an insecure image**
+- Here's an extra challenge: **grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here**
 
 **sprite-literals-and-filters-start.html**
 
