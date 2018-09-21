@@ -58,7 +58,7 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
 		// #6 - stop using an insecure image
 		image.src = "https://vignette.wikia.nocookie.net/yoshi/images/6/68/Yoshi_Happy.png/revision/latest?cb=20150508143229";
 		//image.src = "Yoshi_Happy.png";
-		let showNoise,showBlending,showTint,showImage,showTrails = false;
+		let showTrails,showBlending,showNoise,showTint,showImage = false;
 
 		init();
 
