@@ -41,7 +41,7 @@ span{margin-right:2em;}
 </p>
 ```
 
-- reload the page, it should now look like the "done" version. You are welcome.
+- reload the page, it should now look like the "done" version above. You are welcome.
 
 ## V. Modifying the highshelf filter (Treble)
 
