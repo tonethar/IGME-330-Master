@@ -9,4 +9,17 @@ Here we are going to build on our [Web Audio Demo](./demo-web-audio-1.md) by cha
   - http://magic.hecanjog.com/Sounds/Words/CMJ-1979-Vol3-No2-June/3680281.pdf
 
 
-## II. Start Files
+## II. Start File
+
+- the start file is the **web-audio-3.html** we built in [Web Audio Demo](./demo-web-audio-1.md)
+
+![screenshot](./_images/web-audio-3.jpg)
+
+## III. Done Version
+
+- Below we have added 3 checkboxes and a slider
+
+![screenshot](./_images/web-audio-4.jpg)
+
+## IV. HTML & CSS
+
