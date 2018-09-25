@@ -61,7 +61,7 @@ function setupUI(){
   toggleHighshelf();
 }
 ```
-3. Now call `setupUI()` right before your &lt;canvas> setup code
+3. Now call `setupUI()` right before your canvas setup code
 
 4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code.
 
