@@ -78,7 +78,7 @@ function toggleHighshelf(){
 }
 ```
 
-6. Lastly, delete the 2 lines of code from the old version that set the frequency and gain of the `biquadFilter` right adter it was first instantiated.
+6. Lastly, delete the 2 lines of code from the old version that set the frequency and gain of the `biquadFilter` right after it was first instantiated.
 
 7. Test your code to be sure that the first checkbox toggles the highshelf (treble) filter on and off
 
