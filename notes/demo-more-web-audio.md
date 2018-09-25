@@ -99,7 +99,7 @@ function toggleLowshelf(){
 }
 ```
 
-2. You should be able to do the rest: set up a `lowshelf` boolean, set up the `lowShelfBiquadFilter` audio node, set up the event listeners for the checkbox in `setupUI()`, etc
+2. You should be able to do the rest: set up a `lowshelf` boolean, set up the `lowShelfBiquadFilter` audio node and its connections, set up the event listeners for the checkbox in `setupUI()`, etc
 
 3. Test your code to be sure that the second checkbox toggles the lowshelf (bass) filter on and off
 
@@ -134,3 +134,8 @@ function makeDistortionCurve(amount=20) {
 
 2. The `WaveShaperNode` looks like this: 
 
+```js
+let distortionFilter = audioCtx.createWaveShaper();
+```
+
+3. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the checkbox in `setupUI()`, etc
