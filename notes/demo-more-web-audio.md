@@ -138,4 +138,14 @@ function makeDistortionCurve(amount=20) {
 let distortionFilter = audioCtx.createWaveShaper();
 ```
 
-3. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the checkbox in `setupUI()`, etc
+3. The '#distortionSlider' code looks like this (put it in `setupUI()`):
+
+```js
+document.querySelector('#distortionSlider').value = distortionAmount;
+document.querySelector('#distortionSlider').onchange = e => {
+  distortionAmount = e.target.value;
+  distortionFilter.curve = null;
+  distortionFilter.curve = makeDistortionCurve(distortionAmount);
+};
+```
+4. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
