@@ -45,11 +45,11 @@ span{margin-right:2em;}
 
 ## V. Modifying the highshelf filter
 
-- before you do anything esle, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
+1. before you do anything else, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
 
 - A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. We build this filter last time, but not in such a way that we could easily turn it on or off
 
-- Add the following JS function to your file:
+2. Add the following JS function to your file:
 
 ```js
 function setupUI(){
@@ -61,9 +61,11 @@ function setupUI(){
   toggleHighshelf();
 }
 ```
+3. Now call this code right before your &lt;canvas> setup code
 
-- You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code.
-- now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
+4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code.
+
+5. now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
 
 ```js
 function toggleHighshelf(){
