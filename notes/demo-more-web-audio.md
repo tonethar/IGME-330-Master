@@ -148,4 +148,13 @@ document.querySelector('#distortionSlider').onchange = e => {
   distortionFilter.curve = makeDistortionCurve(distortionAmount);
 };
 ```
-4. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
+
+4. Declare `distortionAmount`:
+
+```js
+let distortionAmount = 0;
+```
+
+5. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
+
+6. Test it. You should now have distortion working.
