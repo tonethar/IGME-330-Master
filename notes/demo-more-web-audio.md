@@ -107,3 +107,24 @@ function toggleLowshelf(){
 ## VII. Creating the waveshaper filter (Distortion)
 
 
+1. First, you need to add these functions to your file
+
+```js
+function toggleDistortion(){
+  if(distortion){
+    distortionFilter.curve = makeDistortionCurve(distortionAmount);
+  }else{
+    distortionFilter.curve = null;
+  }
+}
+
+// from: https://developer.mozilla.org/en-US/docs/Web/API/WaveShaperNode
+function makeDistortionCurve(amount=20) {
+  let n_samples = 256, curve = new Float32Array(n_samples);
+  for (let i =0 ; i < n_samples; ++i ) {
+    let x = i * 2 / n_samples - 1;
+    curve[i] = (Math.PI + amount) * x / (Math.PI + amount * Math.abs(x));
+  }
+  return curve;
+}
+```
