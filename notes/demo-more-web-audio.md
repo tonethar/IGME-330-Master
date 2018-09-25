@@ -43,7 +43,7 @@ span{margin-right:2em;}
 
 - reload the page, it should now look like the "done" version. You are welcome.
 
-## V. Modifying the highshelf filter
+## V. Modifying the highshelf filter (Treble)
 
 - A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We build this filter last time, but not in such a way that we could easily turn it on or off
 
@@ -83,7 +83,7 @@ function toggleHighshelf(){
 7. Test your code to be sure that the first checkbox toggles the highshelf (treble) filter on and off
 
 
-## VI. Creating the lowshelf filter
+## VI. Creating the lowshelf filter (Bass)
 - With a lowshelf filter, frequencies lower than the `.frequency` get a boost, or an attenuation; higher frequencies are ignored.
 
 1. Here's the `toggleLowshelf()` function:
@@ -99,4 +99,11 @@ function toggleLowshelf(){
 }
 ```
 
-2. You should be able to do the rest: set up a `lowshelf` boolean, set up the `lowShelfBiquadFilter` audio node, set up the event listener for the checkbox in `setupUI()`, etc
+2. You should be able to do the rest: set up a `lowshelf` boolean, set up the `lowShelfBiquadFilter` audio node, set up the event listeners for the checkbox in `setupUI()`, etc
+
+3. Test your code to be sure that the second checkbox toggles the lowshelf (bass) filter on and off
+
+
+## VII. Creating the waveshaper filter (Distortion)
+
+
