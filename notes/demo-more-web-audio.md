@@ -1,7 +1,7 @@
 # Demo - More Web Audio
 
 ## I. Overview
-Here we are going to build on top of what we built in [demo-web-audio-1.md](./demo-web-audio-1.md) by chaining multiple effect nodes:
+Here we are going to build on top of what we built in [demo-web-audio-1.md](./demo-web-audio-1.md) by chaining together multiple audio effect nodes, and giving ourselves the ability to turn them on and off:
 - a checkbox to control the *treble* of the sound (a *highshelf* [BiquadFilterNode](https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode))
 - a checkbox to control the *bass* of the sound (a *lowshelf* [BiquadFilterNode](https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode))
 - a checkbox and a slider to control the *distortion* of the sound (a [WaveShaperNode](https://developer.mozilla.org/en-US/docs/Web/API/WaveShaperNode) filter)
