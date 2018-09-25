@@ -28,7 +28,7 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
     - Canvas sprites via JS Object literals
     - Create multiple objects with a "factory function"
 1. [`Object.create()` & Delegation](./canvas-sprites-2.md)
-    - JavaScript does not have classes
+    - ES5 JavaScript does not have classes
     - Prototype-based inheritance and the "prototype chain"
     - Extending behavior - delegation
     - Overriding behavior - shadowing
