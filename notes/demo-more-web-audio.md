@@ -45,9 +45,9 @@ span{margin-right:2em;}
 
 ## V. Modifying the highshelf filter
 
-1. before you do anything else, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
-
 - A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. We build this filter last time, but not in such a way that we could easily turn it on or off
+
+1. before you do anything else, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
 
 2. Add the following JS function to your file:
 
@@ -77,3 +77,11 @@ function toggleHighshelf(){
   }
 }
 ```
+
+6. Lastly, delete the 2 lines of code from the old version that set the frequency and gain of the `biquadFilter` right adter it was first instantiated.
+
+7. Test your code to be sure that the first checkbox works.
+
+
+## VI. Modifying the lowshelf filter
+
