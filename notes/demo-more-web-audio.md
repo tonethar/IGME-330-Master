@@ -30,7 +30,7 @@ span{margin-right:2em;}
 #distortionSlider{position:relative;top:.7em;}
 ```
 
-- here's your HTML (it goes right before the &lt;canvas> tag:
+- here's your HTML - it goes right before the &lt;canvas> tag:
 
 ```html
 <p>
