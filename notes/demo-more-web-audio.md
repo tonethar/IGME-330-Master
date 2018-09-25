@@ -107,7 +107,7 @@ function toggleLowshelf(){
 ## VII. Creating the waveshaper filter (Distortion)
 
 
-1. First, you need to add these functions to your file
+1. First, you need to add these functions to your file:
 
 ```js
 function toggleDistortion(){
@@ -128,3 +128,9 @@ function makeDistortionCurve(amount=20) {
   return curve;
 }
 ```
+
+- you can read about the curve algorithm above here: https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion
+- you can type in your curve here to see what it looks like: http://kevincennis.github.io/transfergraph/
+
+2. The `WaveShaperNode` looks like this: 
+
