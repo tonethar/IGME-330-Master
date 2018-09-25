@@ -99,4 +99,4 @@ function toggleLowshelf(){
 }
 ```
 
-2. You should be able to do the rest: set up a `lowshelf` boolean, set up the lowshelf audio node, set up the event listeners, etc
+2. You should be able to do the rest: set up a `lowshelf` boolean, set up the `lowShelfBiquadFilter` audio node, set up the event listener for the checkbox in `setupUI()`, etc
