@@ -138,7 +138,7 @@ function makeDistortionCurve(amount=20) {
 let distortionFilter = audioCtx.createWaveShaper();
 ```
 
-3. The '#distortionSlider' code looks like this (put it in `setupUI()`):
+3. The `#distortionSlider` code looks like this (put it in `setupUI()`):
 
 ```js
 document.querySelector('#distortionSlider').value = distortionAmount;
