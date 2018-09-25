@@ -45,7 +45,7 @@ span{margin-right:2em;}
 
 ## V. Modifying the highshelf filter
 
-- A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. We build this filter last time, but not in such a way that we could easily turn it on or off
+- A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We build this filter last time, but not in such a way that we could easily turn it on or off
 
 1. before you do anything else, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
 
@@ -80,8 +80,23 @@ function toggleHighshelf(){
 
 6. Lastly, delete the 2 lines of code from the old version that set the frequency and gain of the `biquadFilter` right adter it was first instantiated.
 
-7. Test your code to be sure that the first checkbox works.
+7. Test your code to be sure that the first checkbox toggles the highshelf (treble) filter on and off
 
 
-## VI. Modifying the lowshelf filter
+## VI. Creating the lowshelf filter
+- With a lowshelf filter, frequencies lower than the `.frequency` get a boost, or an attenuation; higher frequencies are ignored.
 
+1. Here's the `toggleLowshelf()` function:
+
+```js
+function toggleLowshelf(){
+  if(lowshelf){
+    lowShelfBiquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
+    lowShelfBiquadFilter.gain.setValueAtTime(15, audioCtx.currentTime);
+  }else{
+    lowShelfBiquadFilter.gain.setValueAtTime(0, audioCtx.currentTime);
+  }
+}
+```
+
+2. You should be able to do the rest: set up a `lowshelf` boolean, set up the lowshelf audio node, set up the event listeners, etc
