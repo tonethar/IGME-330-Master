@@ -62,5 +62,16 @@ function setupUI(){
 }
 ```
 
-- You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`.
-- 
+- You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code.
+- now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
+
+```js
+function toggleHighshelf(){
+  if(highshelf){
+    biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
+    biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
+  }else{
+    biquadFilter.gain.setValueAtTime(0, audioCtx.currentTime);
+  }
+}
+```
