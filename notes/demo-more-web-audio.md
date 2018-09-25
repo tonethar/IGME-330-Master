@@ -45,9 +45,9 @@ span{margin-right:2em;}
 
 ## V. Modifying the highshelf filter (Treble)
 
-- A highshelf filter boosts (or attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We build this filter last time, but not in such a way that we could easily turn it on or off
+- A *highshelf* filter boosts (or alternatively, attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We build this filter last time, but not in such a way that we could easily turn it on or off
 
-1. before you do anything else, wrap the code in an IIFE to get our variables and fucntions out of the global scope, and then make sure the code still works.
+1. Before you do anything else, wrap the code in an IIFE to get our variables and functions out of the global scope, and then make sure the code still works
 
 2. Add the following JS function to your file:
 
@@ -63,9 +63,9 @@ function setupUI(){
 ```
 3. Now call `setupUI()` right before your canvas setup code
 
-4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code.
+4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code
 
-5. now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
+5. Now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
 
 ```js
 function toggleHighshelf(){
@@ -84,7 +84,7 @@ function toggleHighshelf(){
 
 
 ## VI. Creating the lowshelf filter (Bass)
-- With a lowshelf filter, frequencies lower than the `.frequency` get a boost, or an attenuation; higher frequencies are ignored.
+- With a *lowshelf* filter, frequencies lower than the `.frequency` get a boost (or an attenuation), higher frequencies are ignored
 
 1. Here's the `toggleLowshelf()` function:
 
@@ -105,7 +105,6 @@ function toggleLowshelf(){
 
 
 ## VII. Creating the waveshaper filter (Distortion)
-
 
 1. First, you need to add these functions to your file:
 
@@ -130,7 +129,7 @@ function makeDistortionCurve(amount=20) {
 ```
 
 - you can read about the curve generating algorithm above here: https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion
-- you can type in your curve here to see what it looks like: http://kevincennis.github.io/transfergraph/
+- you can type in your curve formula here to see what it looks like: http://kevincennis.github.io/transfergraph/
 
 2. The `WaveShaperNode` looks like this: 
 
@@ -144,7 +143,7 @@ let distortionFilter = audioCtx.createWaveShaper();
 document.querySelector('#distortionSlider').value = distortionAmount;
 document.querySelector('#distortionSlider').onchange = e => {
   distortionAmount = e.target.value;
-  distortionFilter.curve = null;
+  distortionFilter.curve = null; // being paranoid and trying to trigger garbage collection
   distortionFilter.curve = makeDistortionCurve(distortionAmount);
 };
 ```
@@ -157,4 +156,4 @@ let distortionAmount = 0;
 
 5. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
 
-6. Test it. You should now have distortion working.
+6. Test it. You should now have the distortion effect working.
