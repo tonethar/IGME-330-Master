@@ -111,6 +111,7 @@ function toggleLowshelf(){
 ```js
 function toggleDistortion(){
   if(distortion){
+    distortionFilter.curve = null; // being paranoid and trying to trigger garbage collection
     distortionFilter.curve = makeDistortionCurve(distortionAmount);
   }else{
     distortionFilter.curve = null;
@@ -143,8 +144,7 @@ let distortionFilter = audioCtx.createWaveShaper();
 document.querySelector('#distortionSlider').value = distortionAmount;
 document.querySelector('#distortionSlider').onchange = e => {
   distortionAmount = e.target.value;
-  distortionFilter.curve = null; // being paranoid and trying to trigger garbage collection
-  distortionFilter.curve = makeDistortionCurve(distortionAmount);
+  toggleDistortion();
 };
 ```
 
