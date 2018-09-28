@@ -310,7 +310,7 @@ console.log("loader.js module loaded");
 
 ### III-D. A new HTML file
 
-Finally, we need a new HTML file to load in the script files. Note that all of the application logic has moved out of thre HTML file.
+Finally, we need a new HTML file to load in the script files. Note that all of the application logic has moved out of three HTML files.
 
 **test-2.html**
 
