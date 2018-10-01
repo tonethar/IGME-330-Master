@@ -17,7 +17,11 @@
   - note that these sprites use *vectors* for movement - so if you've already taken IGME-202 you can put that some of that flocking code to work if you wish
   - this is a lot of code to put in one file! We will soon look at how to split this into multiple *modules*, and go beyond merely copying chunks of code to distinct JS files
 
-## II. Start Files
+## II. Screenshot of completed version
+
+![screenshot](./_images/demo-canvas-image-data.jpg)
+
+## III. Start Files
 
 See comments #1 - #6 in the source code. We will walk through these steps together in class, but feel free to modify these effects to make them more interesting.
 - #1  - **Show Trails**
