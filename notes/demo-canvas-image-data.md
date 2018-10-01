@@ -38,7 +38,7 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
 - #5  - **Show Image**
   - why don't we need a *pre-loader*?
 - #6  - **Stop using an insecure image**
-- Here's an extra challenge: **grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here**
+- #7 - Here's an extra challenge: **grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here**
 
 **sprite-literals-and-filters-start.html**
 
