@@ -38,23 +38,23 @@ fillText(ctx,`Goal: ${levelGoal} Nick's!`, screenWidth-180, screenHeight-20, "14
 
 ```js
 switch(currentLevel){
-			case 1:
-				// 3 Nick Cage's, 5 others
-				/*
-				sprites = sprites.concat(	
-					createImageSprites(3,50,60,imageData.cage1,"cage",rect),
-					createImageSprites(5,60,45,imageData.tommy1,"tommy",rect)
-				);
-				*/
-				levelGoal = 3;
-				levelTarget = "cage";
-				vectorChangeProb = .005;
-				levelTimeLimit = 5;
-				break;
+		case 1:
+		// 3 Nick Cage's, 5 others
+		/*
+		sprites = sprites.concat(	
+			createImageSprites(3,50,60,imageData.cage1,"cage",rect),
+			createImageSprites(5,60,45,imageData.tommy1,"tommy",rect)
+		);
+		*/
+		levelGoal = 3;
+		levelTarget = "cage";
+		vectorChangeProb = .005;
+		levelTimeLimit = 5;
+		break;
 				
-			default:
-				throw new Error(MyErrors.loadLevelSwitch);
-		} // end switch
+		default:
+		throw new Error(MyErrors.loadLevelSwitch);
+} // end switch
 ```
 - Note that we are deliberately commenting out the calls to `createImageSprites()` for now
 - When you reload the page, error! There are more variables you need to declare!
