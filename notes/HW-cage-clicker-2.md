@@ -122,9 +122,9 @@ export default class Rect {
 
 - Reload the page. You should get an error - **`Uncaught ReferenceError: createImageSprites is not defined`**
 
-2. Oops, we forgot to `export` `createImageSprites()`:
+2. Oops, we forgot to **export** `createImageSprites()`:
   - head back to *helpers.js* and do that now
-  - you will also need to `import` `createImageSprites()` in *main.js*
+  - you will also need to **import** `createImageSprites()` in *main.js*
 
 <hr><hr>
 
