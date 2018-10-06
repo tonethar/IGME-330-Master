@@ -197,7 +197,7 @@ switch(gameState){
 
 **Reload the page and test it by clicking on the screen**
 - Error! Nothing happens! If you check the console, you will see that `totalScore`, `levelScore`, and `cageCount` were never declared
-- Go to the top section of *main.js* and declare them now - use 'let'
+- Go to the top section of *main.js* and declare them now with the other variables - use `let`
 - Reload the page, and when you click the screen you should now get that initial black rectangle, and we hope this means that the `drawHUD()` case of `case GameState.MAIN:` has been reached - but you should put in a breakpoint to be sure.
 
 
