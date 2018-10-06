@@ -95,23 +95,25 @@ export default class Rect {
 }
 ```
 
-2. Here is our `Sprite` class that inherits from `Rect` - we are going to give you the pleasure of typing it in:
+2. Next, here is our `Sprite` class that inherits from `Rect` - we are going to give you the pleasure of typing it in:
 
 **src/Sprite.js**
 
 ![code listing](./_images/HW-cage-7.jpg)
 
 
-3. Here is our `ImageSprite` class that inherits from `Sprite` - we are going to give you the pleasure of typing it in:
+3. Lastly, this is our `ImageSprite` class that inherits from `Sprite` - we are going to give you the pleasure of typing it in:
 
 **src/ImageSprite.js**
 
 ![code listing](./_images/HW-cage-8.jpg)
 
 
-4. And now we need to implement our helper method that will create instance of Sprite for us. Add the follwoing to *helpers.js*:
+4. And now we need to implement our helper method that will create instance of Sprite for us. Add the following to *helpers.js*:
 
+![code listing](./_images/HW-cage-9.jpg)
 
+5. Be sure to write code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
 
 <hr><hr>
 
