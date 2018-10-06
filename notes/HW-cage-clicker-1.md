@@ -72,7 +72,7 @@ First, [download the start files](./_files/HW-cage-clicker-start.zip), then open
  
  ## V. Get working on the Start Screen
  
- - We are first going to work on implementing parts of `drawHUD()` - note the `gameState` switch.
+ - We are first going to work on implementing parts of `drawHUD()` in *main.js* - note the `gameState` switch.
  - Note that we have already created a "constant" object called `GameState`, and gave it values of type `Symbol` - which is a new primitive type for ES6.
  
  ```js
@@ -90,7 +90,7 @@ const GameState = Object.freeze({
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
  - https://developer.mozilla.org/en-US/docs/Glossary/Symbol
  
- ### V-A. Now Head to `drawHUD()`
+ ### V-A. Now Head to `drawHUD()` in *main.js*
 
 In the  `case GameState.START:` case of `drawHUD()`, let's get our start screen working.
 
