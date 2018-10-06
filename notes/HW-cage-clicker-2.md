@@ -26,7 +26,7 @@ fillText(ctx,`Round: ${currentLevel}`, screenWidth - 110, 20, "14pt courier", "w
 fillText(ctx,`Goal: ${levelGoal} Nick's!`, screenWidth-180, screenHeight-20, "14pt courier", "white");
 ```
 
-- When you reload the page you will get an error - because `levelGoal` was never declared - go ahead and do so near the top of *main.js* - like you did with those other module variables in chapter 1. If you don't give it a value, the HUD will say it's `undefined`, biut that's OK because we are going to give it a value (depending on the `currentLevel`) next.
+- When you reload the page you will get an error and not see the text - because `levelGoal` was never declared - go ahead and do so near the top of *main.js* - like you did with those other module variables in chapter 1. If you don't give it a value, the HUD will say it's `undefined`, biut that's OK because we are going to give it a value (depending on the `currentLevel`) next.
 
 ## II. Implementing `loadLevel()`
 
