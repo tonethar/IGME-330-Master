@@ -105,7 +105,7 @@ ctx.drawImage(imageData.cage2,-20,-30,41,59);
 ctx.restore();
 ```
 
-- Note that above we are using translate(), scale, and drawImage() in those very clever ways we have previously discussed to get them to draw the image from the center. 
+- Note that above we are using `.translate()`, `.scale()`, and `.drawImage()` in those very clever ways we have previously discussed to get them to draw the image from the center. 
 
 **Reload the page, you should see this:**
 
