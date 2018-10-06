@@ -72,6 +72,7 @@ First, [download the start files](./_files/HW-cage-clicker-start.zip), then open
  
  ## V. Get working on the Start Screen
  
+ - There are 4 "screens" for this game: start, main, level over, and game over. We are going to begin with the "start" screen, which introduces the game and gives the user simple instructions
  - We are first going to work on implementing parts of `drawHUD()` in *main.js* - note the `gameState` switch.
  - Note that we have already created a "constant" object called `GameState`, and gave it values of type `Symbol` - which is a new primitive type for ES6.
  
