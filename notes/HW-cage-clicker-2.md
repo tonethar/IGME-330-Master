@@ -68,9 +68,9 @@ switch(currentLevel){
 
 ## III. Creating our Sprite classes
 
-1. The base class for our sprite objects is going to be named `Rect` and contained in a new file naed **Rect.js**, it looks like this:
+1. The base class for our sprite objects is going to be named `Rect` and contained in a new file named **Rect.js**, it looks like this:
 
-**Rect.js**
+**src/Rect.js**
 ```js
 export default class Rect {
   constructor(x,y,width,height) {
