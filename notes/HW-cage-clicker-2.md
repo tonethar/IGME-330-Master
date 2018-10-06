@@ -68,6 +68,12 @@ switch(currentLevel){
 
 ## III. Creating our Sprite classes
 
+We actually have 3 sprite classes that need to be implemented:
+
+- `Rect` - has `.x`, `.y`, `.width`, and `.height` fields
+- `Sprite` - inherits from `Rect` - adds `move()`, `reflectX()`, and `reflectY()` methods
+- `ImageSprite` - inherits from `Sprite` - adds a `draw()` method - so we can actually see it on the screen
+
 1. The base class for our sprite objects (e.g. the Cage, Tommy, Garofolo, and Franco sprites) is going to be named `Rect` and contained in a new file named **Rect.js**, it looks like this:
 
 **src/Rect.js**
@@ -89,11 +95,23 @@ export default class Rect {
 }
 ```
 
-2. Here is our Sprite class - we are going to give you the pleasure of typing it in:
+2. Here is our `Sprite` class that inherits from `Rect` - we are going to give you the pleasure of typing it in:
 
 **src/Sprite.js**
 
 ![code listing](./_images/HW-cage-7.jpg)
+
+
+3. Here is our `ImageSprite` class that inherits from `Sprite` - we are going to give you the pleasure of typing it in:
+
+**src/ImageSprite.js**
+
+![code listing](./_images/HW-cage-8.jpg)
+
+
+4. And now we need to implement our helper method that will create instance of Sprite for us. Add the follwoing to *helpers.js*:
+
+
 
 <hr><hr>
 
