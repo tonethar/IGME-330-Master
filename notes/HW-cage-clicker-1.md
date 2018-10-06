@@ -73,7 +73,7 @@ First, [download the start files](./_files/HW-cage-clicker-start.zip), then open
  ## V. Get working on the Start Screen
  
  - We are first going to work on implementing parts of `drawHUD()` - note the `gameState` switch.
- - Note that we have already created a "constant" object called `GameState`, and gave it value of type `Symbol` - which is a new primitive type for ES6.
+ - Note that we have already created a "constant" object called `GameState`, and gave it values of type `Symbol` - which is a new primitive type for ES6.
  
  ```js
  // fake enum
@@ -85,7 +85,7 @@ const GameState = Object.freeze({
 });
  ```
  
- Every `Symbol` value returned from `Symbol()` is unique.  Another really cool use case is that values of this type can be used to make object properties that are anonymous. 
+ Every `Symbol` value returned from `Symbol()` is unique.  Another really cool use case is that values of this type can be used to make object properties that are anonymous (i.e. "private"). 
  
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
  - https://developer.mozilla.org/en-US/docs/Glossary/Symbol
