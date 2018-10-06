@@ -113,7 +113,16 @@ export default class Rect {
 
 ![code listing](./_images/HW-cage-9.jpg)
 
-5. Be sure to write code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
+5. - **IMPORTANT:** Be sure to write code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
+
+
+## IV. Using our ImageSprite class
+
+1. In *main.js* go ahead and uncomment the code that calls our helper method, creates the sprites and adds them to the `sprites` array
+
+- Reload the page. You should get an error - **`Uncaught ReferenceError: createImageSprites is not defined`**
+
+2. Oops, we forgot to export `createImageSprites()` - head back to *helpers.js* and do that now
 
 <hr><hr>
 
