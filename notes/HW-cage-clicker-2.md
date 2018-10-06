@@ -124,7 +124,7 @@ export default class Rect {
 
 2. Oops, we forgot to **export** `createImageSprites()`:
   - head back to *helpers.js* and do that now
-  - you will also need to **import** `createImageSprites()` in *main.js*
+  - you will also need to **import** `createImageSprites()` at the top of *main.js*
 
 <hr><hr>
 
