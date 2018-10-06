@@ -68,7 +68,7 @@ switch(currentLevel){
 
 ## III. Creating our Sprite classes
 
-1. The base class for our sprite objects is going to be named `Rect` and contained in a new file named **Rect.js**, it looks like this:
+1. The base class for our sprite objects (e.g. the Cage, Tommy, Garofolo, and Franco sprites) is going to be named `Rect` and contained in a new file named **Rect.js**, it looks like this:
 
 **src/Rect.js**
 ```js
@@ -88,6 +88,12 @@ export default class Rect {
   
 }
 ```
+
+2. Here is our Sprite class - we are going to give you the pleasure of typing it in:
+
+**src/Sprite.js**
+
+![code listing](./_images/HW-cage-7.jpg)
 
 <hr><hr>
 
