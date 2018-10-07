@@ -171,6 +171,7 @@ if (gameState == GameState.MAIN){
 
 ```js
 if (Math.random() < vectorChangeProb)	s.fwd = getRandomUnitVector();
+// note: getRandomUnitVector() is imported at the top from utilities.js
 ```
 
 
