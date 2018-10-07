@@ -53,25 +53,25 @@ First, [download the start files](./_files/HW-cage-clicker-start.zip), then open
       - ...
   - src
       - helpers.js
-      - ImageSprite.js
+      - ImageSprite.js 	(to be created)
       - loader.js
       - main.js
-      - Rect.js
-      - Sprite.js
+      - Rect.js		(to be created)
+      - Sprite.js	(to be created)
       - utilities.js
 </pre>
 
 - **index.html** - links to the custom font, and points at *loader.js*
 - **helpers.js** - will have `loadImages()` and `creaetImageSprites()` helper methods
-- **ImageSprite.js** - to be created, contains the `ImageSprite` class
+- **ImageSprite.js** - *to be created*, contains the `ImageSprite` class
 - **loader.js** - the entry point to the application - it pre-loads all of the images we need before calling `init()` (which is located in `main.js`, and starts the game)
 - **main.js** - manages the game state, game screens, scoring, and so on
-- **Rect.js** - to be created, contains the `Rect` class, which is a "convenience" class that is used when we check to see which sprite has been clicked 
-- **Sprite.js** - to be created, contains the `Sprite` class
+- **Rect.js** - *to be created*, contains the `Rect` class, which is a "convenience" class that is used when we check to see which sprite has been clicked 
+- **Sprite.js** - *to be created*, contains the `Sprite` class
 - **utilities.js** - contains `getRandomUnitVector()`, `getRandom()`, and `getMouse()`
 
 ## III. Run the start files
-- because we are using ES6 modules, you will need to run this project off of a web server
+- because we are using ES6 modules, you will need to run this project off of a web server (either locally via python or similar, or remotely on banjo)
 - when you load the page, you should see a black rectangle in the window - this is the main game screen.
 - open the console, you should see logs indicating that 6 of the images have loaded:
     - `loadImages()` is called in *loader.js*, and is defined in *helpers.js*. Look this code over so that you understand what is going on.
