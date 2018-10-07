@@ -153,7 +153,7 @@ if (gameState == GameState.MAIN){
 } // end if
 ```
 
-- Reload the page, you should now see our 8 ImageSprite instances are drawn to the screen:
+- Reload the page, you should now see our 8 `ImageSprite` instances are drawn to the screen:
 
 ![code listing](./_images/HW-cage-11.jpg)
 
