@@ -114,11 +114,11 @@ export default class Rect {
 ![code listing](./_images/HW-cage-8.jpg)
 
 
-4. And now we need to implement our helper method that will create instance of Sprite for us. Add the following to *helpers.js*:
+4. And now we need to implement our helper method that will create instances of `ImageSprite` for us. Add the following to *helpers.js*:
 
 ![code listing](./_images/HW-cage-9.jpg)
 
-5. - **IMPORTANT:** Be sure to write code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
+5. - **IMPORTANT:** Be sure to add code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
 
 
 ## IV. Using our ImageSprite class
@@ -130,6 +130,14 @@ export default class Rect {
 2. Oops, we forgot to **export** `createImageSprites()`:
   - head back to *helpers.js* and do that now
   - you will also need to **import** `createImageSprites` at the top of *main.js*
+
+3. Reload the page, and click the start screen to advance to the main screen. We won't see any sprites on the screen yet (because we haven't drawn them yet), but how can we be sure that the `sprites` array has been populated?
+  - Go ahead and open the JavaScript console and type in `sprites` to see if that works like it used to. FAIL! **`ReferenceError: sprites is not defined`** - this happens because all of our code is scoped to the module where it was declared.
+  - Instead, set a breakpoint at the end of `loadLevel()`, and then verify the contents of the `sprites` array:
+
+![code listing](./_images/HW-cage-10.jpg)
+
+
 
 <hr><hr>
 
