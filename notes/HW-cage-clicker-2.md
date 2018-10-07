@@ -1,8 +1,9 @@
 # HW - *Cage Clicker* Part II
 
 Here we will add:
- - a HUD that displays information on the game such as the game round, level goal, the score, and (eventually) the time remaining for the level
- - game elements that we can insteact with - i.e. sprites!
+ - a visisble game screen with:
+   - a HUD that displays information on the game such as the game round, level goal, the score, and (eventually) the time remaining for the level
+   - game elements that we can insteact with - i.e. sprites!
 
 ## I. Drawing the HUD for the main screen
 
