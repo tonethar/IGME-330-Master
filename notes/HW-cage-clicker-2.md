@@ -37,6 +37,11 @@ fillText(ctx,`Goal: ${levelGoal} Nick's!`, screenWidth-180, screenHeight-20, "14
 1. Add the following to `loadLevel()`:
 
 ```js
+levelScore = 0;
+cageCount = 0;
+let margin = 50;
+let rect = {left: margin, top: margin, width: screenWidth - margin*2, height: screenHeight-margin*3}
+sprites = [];
 switch(currentLevel){
 		case 1:
 		// 3 Nick Cage's, 5 others
