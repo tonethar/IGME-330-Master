@@ -2,7 +2,7 @@
 
 
 ## I. Overview
-You will build this "Nick Cage" clicker game as an exercise. It will cover the following concepts:
+You will build this "Nick Cage Clicker" game as an exercise. It will cover the following concepts:
 
 - ES6 Modules & Classes
 - Custom Sprites
@@ -17,6 +17,25 @@ You will build this "Nick Cage" clicker game as an exercise. It will cover the f
 
 
 - A completed version of the game can be seen and played here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/HW-cage-clicker-dist/
+
+- Here are screen shot of the 4 game screens:
+
+**Start Screen:**
+
+![Screenshot](./_images/HW-cage-done-1.jpg)
+
+**Main Screen:**
+
+![Screenshot](./_images/HW-cage-done-2.jpg)
+
+**Level Over Screen:**
+
+![Screenshot](./_images/HW-cage-done-3.jpg)
+
+**Game Over:**
+
+![Screenshot](./_images/HW-cage-done-4.jpg)
+
 
 ## II. Architecture
 
