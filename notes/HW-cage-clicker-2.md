@@ -164,6 +164,11 @@ if (gameState == GameState.MAIN){
 
 ![code listing](./_images/HW-cage-12.jpg)
 
+- to get thse sprites perioidcally changing direction (and making them harder to click), add this line of code to the sprite loop:
+
+```js
+if (Math.random() < vectorChangeProb)	s.fwd = getRandomUnitVector();
+```
 
 
 <hr><hr>
