@@ -160,7 +160,7 @@ if (gameState == GameState.MAIN){
 
 ## V. Moving our `ImageSprite` instances
 
-- To get these sprites moving and "bouncing", add the following code to the above loop, right before we draw the sprites:
+- To get these sprites moving and "bouncing", add the following code to the "iterate over sprites array" loop above, right before we call `s.draw()`:
 
 ![code listing](./_images/HW-cage-12.jpg)
 
