@@ -118,7 +118,7 @@ export default class Rect {
 
 ![code listing](./_images/HW-cage-9.jpg)
 
-5. - **IMPORTANT:** Be sure to add code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
+- **IMPORTANT:** Be sure to add code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
 
 
 ## IV. Creating `ImageSprite` instances
@@ -156,6 +156,14 @@ if (gameState == GameState.MAIN){
 - Reload the page, you should now see our 8 ImageSprite instances are drawn to the screen:
 
 ![code listing](./_images/HW-cage-11.jpg)
+
+
+## V. Moving our `ImageSprite` instances
+
+- To get these sprites moving and "bouncing", add the following code to the above loop, right before we draw the sprites:
+
+![code listing](./_images/HW-cage-12.jpg)
+
 
 
 <hr><hr>
