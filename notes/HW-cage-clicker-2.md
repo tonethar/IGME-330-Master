@@ -1,6 +1,8 @@
 # HW - *Cage Clicker* Part II
 
-Let's dive right in!
+Here we will add:
+ - a HUD that displays information on the game such as the game round, level goal, the score, and (eventually) the time remaining for the level
+ - game elements that we can insteact with - i.e. sprites!
 
 ## I. Drawing the HUD for the main screen
 
@@ -175,4 +177,4 @@ if (Math.random() < vectorChangeProb)	s.fwd = getRandomUnitVector();
 
 **[Previous Chapter <- Cage Clicker Part I](HW-cage-clicker-1.md)**
 
-**Next Chapter -> Cage Clicker Part III**
+**[Next Chapter -> Cage Clicker Part III](HW-cage-clicker-3.md)**
