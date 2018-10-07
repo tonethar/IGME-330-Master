@@ -3,7 +3,7 @@
 Here we will add:
  - a visible game screen with:
    - a HUD that displays information on the game such as the game round, level goal, the score, and (eventually) the time remaining for the level
-   - game elements that we can insteact with - i.e. sprites!
+   - game elements that we can interact with - i.e. sprites!
 
 ## I. Drawing the HUD for the main screen
 
