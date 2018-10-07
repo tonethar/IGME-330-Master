@@ -121,7 +121,7 @@ export default class Rect {
 5. - **IMPORTANT:** Be sure to add code in *helpers.js* that will `import` the `ImageSprite` class from `ImageSprite.js`
 
 
-## IV. Using our ImageSprite class
+## IV. Creating `ImageSprite` instances
 
 1. In *main.js* go ahead and uncomment the code that calls our helper method, creates the sprites and adds them to the `sprites` array
 
@@ -137,7 +137,7 @@ export default class Rect {
 
 ![code listing](./_images/HW-cage-10.jpg)
 
-
+## IV. Drawing our `ImageSprite` instances
 
 <hr><hr>
 
