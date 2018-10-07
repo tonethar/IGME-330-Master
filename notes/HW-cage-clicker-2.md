@@ -133,7 +133,7 @@ export default class Rect {
 
 3. Reload the page, and click the start screen to advance to the main screen. We won't see any sprites on the screen yet (because we haven't drawn them yet), but how can we be sure that the `sprites` array has been populated?
   - Go ahead and open the JavaScript console and type in `sprites` to see if that works like it used to. FAIL! **`ReferenceError: sprites is not defined`** - this happens because all of our code is scoped to the module where it was declared.
-  - Instead, set a breakpoint at the end of `loadLevel()`, and then verify the contents of the `sprites` array:
+  - Instead, set a breakpoint at the end of `loadLevel()`, and then verify that the contents of the `sprites` array contains multiple `ImageSprite` instances:
 
 ![code listing](./_images/HW-cage-10.jpg)
 
