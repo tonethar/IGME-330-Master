@@ -139,6 +139,25 @@ export default class Rect {
 
 ## IV. Drawing our `ImageSprite` instances
 
+- Now let's write code that calls the `draw()` method of `ImageSprite` - add the following to `loop()` in *main.js*:
+
+```js
+// draw game sprites
+if (gameState == GameState.MAIN){
+	// loop through sprites
+	for (let s of sprites){
+		// draw sprites
+		s.draw(ctx);
+	
+	} // end for
+} // end if
+```
+
+- Reload the page, you should now see our 8 ImageSprite instances are drawn to the screen:
+
+![code listing](./_images/HW-cage-11.jpg)
+
+
 <hr><hr>
 
 **[Previous Chapter <- Cage Clicker Part I](HW-cage-clicker-1.md)**
