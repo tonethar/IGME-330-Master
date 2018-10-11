@@ -66,8 +66,6 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
 
 ## VI. Homework Assignments
 See mycourses dropboxes for due dates.
-- IGME-330 Project 1 - Audio Visualizer
 - [Cage Clicker HW](./HW-cage-clicker-1.md)
-- IGME-330 Project 2 - Game or Interactive Experience
 
 
