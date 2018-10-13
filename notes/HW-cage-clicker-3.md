@@ -3,7 +3,7 @@
 In this chapter we will:
   - add the ability to click the sprites
   - add incidental sound
-  - remove the clicked `not-cage` sprites from the screen
+  - remove the clicked "not-cage" sprites from the screen
   - advance to a new level of the game when all of the cages are clicked
   - end the game once we have completed the 3 levels
   
@@ -90,9 +90,9 @@ When the non-cages are clicked, we need to remove them from the screen.
 2. Reload the page and test it. Clicking on the not-cage sprites will remove them from the array, which means that they won't get draw anymore and will disappear.
 
 
-## IV. Moving on to the next level
+## IV. Ending the level
 
-Once we have clicked the cages, we would like to move onto the next level.
+Once we have clicked the cages, we would like to end the level, and then move on to the next one
 
 1. Add these 2 constants to the top of *main.js*:
 
@@ -119,7 +119,7 @@ if (cageCount == levelGoal){
 
 3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen (for now)
 
-## V. Moving to the next level
+## V. Loading and drawing the next level
 
 Now we would like to load in a new level and display it.
 
@@ -151,10 +151,11 @@ break;
 
 ![Code](_images/HW-cage-15.jpg)
 
-4. Reload the page abd test it:
+4. Reload the page and test it:
 - click all of the cages on level 1, you should now advance to level 2
 - when you click all of the cages on level 2 you will advance to level 3
-- when you click all of the cages on level 3 you will advance to the game ove screen (which is currently blank)
+- when you click all of the cages on level 3 you will advance to the *game over* screen (which is currently blank)
+
 
 ## VI. Drawing the Game Over Screen
 
@@ -168,7 +169,9 @@ fillText(ctx,`Total Score: ${totalScore} out of ${maxScore}`, screenWidth/2, scr
 fillText(ctx,"Click to play again!", screenWidth/2, screenHeight/2 + 55, "20pt courier", "red");
 ```
 
-2. Test it. The game states should now all be functioning, and if you click on all of the cages you will get to the game over screen and see your final score.
+2. Test it. 
+- The game states (screens) should now all be functioning, and if you click on all of the cages you will get to the game over screen and see your final score.
+- When you click the mouse on the *Game Over* screen, you will returned to the *Start Screen*
 
 
 <hr><hr>
