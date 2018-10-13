@@ -49,6 +49,14 @@ if (!startTime) startTime = timestamp; // this runs only once, when the game sta
 
 ![code](_images/HW-cage-16.jpg)
 
+3. Call `checkLevelTimer()` in `loop()`, at the end of the `if (gameState == GameState.MAIN){` conditional:
+
+```js
+displayTime = checkLevelTimer(timestamp);
+```
+
+4. Test it. The countdown timer should now function, and the player's score will be negatively impacted if they run out of time.
+
 
 ## IV. Improvements to this game
 
