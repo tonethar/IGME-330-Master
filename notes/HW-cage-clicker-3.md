@@ -117,7 +117,7 @@ if (cageCount == levelGoal){
 
 3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen (for now)
 
-## IV. Moving to the next level
+## V. Moving to the next level
 
 Now we would like to load in a new level and display it.
 
