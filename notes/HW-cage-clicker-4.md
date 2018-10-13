@@ -59,7 +59,9 @@ There are many, many improvements you could make to this game, here are some pos
     - freeze all not-cages for 2 seconds
     - remove 5 random non-cages from screen
   - powerdowns that will be triggered randomly or when the user makes an error:
-    - 
+    - the cage sprites shrink, the non-cage sprites grow
+    - the sprites speed up
+    - an extra 5 non-cage sprites are added to the screen
   
 3. Scoring & Achievements
   - high score screen, with the top 5 scores saved to WebStorage - there's a tutorial on WebStorage here:  https://github.com/tonethar/IGME-230-GDD-Spring-2018/blob/master/notes/web-apps-9.md
