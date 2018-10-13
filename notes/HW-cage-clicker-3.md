@@ -115,21 +115,7 @@ if (cageCount == levelGoal){
 - the first `if` statement will end the *game* if we hit the goal of clicking 3 cages AND we have finished all 3 levels
 - the second `if` statement will end the *level* if we hit the goal of clicking 3 cages
 
-3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen
-
-4. To draw the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
-
-```js
-case GameState.LEVELOVER:
-ctx.textAlign = "center";
-ctx.textBaseline = "middle";
-fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
-fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
-fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
-break;
-```
-
-5. Test it 
+3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen (for now)
 
 ## V. Moving to the next level
 
@@ -147,11 +133,23 @@ gameState = GameState.MAIN;
 break;
 ```
 
-2. And here's the code that describes what levels 2 and 3 look like - go ahead and type this into `loadLevel()`:
+2. To **draw** the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
+
+```js
+case GameState.LEVELOVER:
+ctx.textAlign = "center";
+ctx.textBaseline = "middle";
+fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
+fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
+fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
+break;
+```
+
+3. And here's the code that describes what levels 2 and 3 look like - go ahead and type this into `loadLevel()`:
 
 ![Code](_images/HW-cage-15.jpg)
 
-3. Reload the page, click all of the cages on level 1, you should now advance to level 2
+4. Reload the page, click all of the cages on level 1, you should now advance to level 2
 
 <hr><hr>
 
