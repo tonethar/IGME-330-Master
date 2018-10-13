@@ -43,13 +43,13 @@ fillText(ctx,`Time remaining: ${displayTime}`, 10, screenHeight-20, "14pt courie
 
 There are many, many improvements you could make to this game, here are some possibilities:
 
-1. Usability/Feedback
+1. **Usability/Feedback:**
   - add a distinct sound "miss" sound for when the player clicks on the background instead of a sprite 
   - when the player clicks on a not-cage, animate that sprite's removal from the screen
   - when the user clicks on a cage, change its appearance slightly (blurred out or altered in some way)
   - when the user has exceeded that level's time limit, change the appearance of the sprites
   
-2. Game Mechanics
+2. **Game Mechanics:**
   - at higher levels, the sprites periodically change their image to camoflauge themselves 
   - as the timer counts down, change the apperance and behvaior of the sprites to make the game harder
   - sprites will get smaller on later screens, and move differently ("wrap", follow a pre-set path, follow other  sprites, etc...)
@@ -63,7 +63,7 @@ There are many, many improvements you could make to this game, here are some pos
     - the sprites speed up
     - an extra 5 non-cage sprites are added to the screen
   
-3. Scoring & Achievements
+3. **Scoring & Achievements:**
   - high score screen, with the top 5 scores saved to WebStorage - there's a tutorial on WebStorage here:  https://github.com/tonethar/IGME-230-GDD-Spring-2018/blob/master/notes/web-apps-9.md
   - a score bonus for completing the level quickly
   - achievements:
@@ -76,10 +76,10 @@ There are many, many improvements you could make to this game, here are some pos
     - "Proud Underachiever" (ended the game with an overall negative score)
     - "Militant Underachiever" (completed every level with a negative score)
 
-4. Change the goal of the game
+4. **Change the goal of the game:**
 Could you use this basic mechanic, but create a different kind of game?
 - a Math game where an answer is displayed, and the player has to click on all the correct equations
-- a trivia style game ala "You Don't Know Jack"-ish
+- a trivia style game - "You Don't Know Jack"-ish
 
 
 
