@@ -87,6 +87,15 @@ When the non-cages are clicked, we need to remove them from the screen.
 
 2. Reload the page and test it. Clicking on the not-cage sprites will remove them from the array, which means that they won't get draw anymore and will disappear.
 
+3. To draw the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
+
+```js
+ctx.textAlign = "center";
+ctx.textBaseline = "middle";
+fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
+fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
+fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
+```
 
 ## IV. Ending the level
 
