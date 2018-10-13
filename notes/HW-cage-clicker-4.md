@@ -37,6 +37,17 @@ fillText(ctx,`Time remaining: ${displayTime}`, 10, screenHeight-20, "14pt courie
 
 ## III. Get the timer working
 
+1. Add the following to `loop()`, right after the call to `requestAnimationFrame(loop)`:
+
+```js
+if (!startTime) startTime = timestamp; // this runs only once, when the game starts up
+```
+
+- `timestamp` is a [DOMHighResTimeStamp](https://developer.mozilla.org/en-US/docs/Web/API/DOMHighResTimeStamp) that is passed by `requestAnimationFrame()` to `loop()`, and is the current timestamp in milliseconds
+
+2. Here is a helper method we will use to both calculate the remaining time for the current level, and penalize the player if they are out of time. Add this to the bottom of *main.js*:
+
+![code](_images/HW-cage-16.jpg)
 
 
 ## IV. Improvements to this game
