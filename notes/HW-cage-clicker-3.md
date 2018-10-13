@@ -149,10 +149,28 @@ break;
 
 ![Code](_images/HW-cage-15.jpg)
 
-4. Reload the page, click all of the cages on level 1, you should now advance to level 2
+4. Reload the page abd test it:
+- click all of the cages on level 1, you should now advance to level 2
+- when you click all of the cages on level 2 you will advance to level 3
+- when you click all of the cages on level 3 you will advance to the game ove screen (which is currently blank)
+
+## VI. Drawing the Game Over Screen
+
+1. Here's the code!
+
+```js
+ctx.textAlign = "center";
+ctx.textBaseline = "middle";
+fillText(ctx,"Game Over!", screenWidth/2, screenHeight/2 - 65, "38pt courier", "red");
+fillText(ctx,`Total Score: ${totalScore} out of ${maxScore}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
+fillText(ctx,"Click to play again!", screenWidth/2, screenHeight/2 + 55, "20pt courier", "red");
+```
+
+2. Test it. The game states should now all be functioning, and if you click on all of the cgaes you will get to the game over screen and see your final score.
+
 
 <hr><hr>
 
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
 
-**Next Chapter -> Cage Clicker Part IV**
+**[Next Chapter -> Cage Clicker Part IV](HW-cage-clicker-4.md))**
