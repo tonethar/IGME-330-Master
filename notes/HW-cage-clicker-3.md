@@ -83,7 +83,7 @@ When the non-cages are clicked, we need to remove them from the screen.
 
 ![Code](_images/HW-cage-14.jpg)
 
-Note that this code uses [array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - which creates a new array with all elements that pass the test implemented by the provided function - which means that unmoving (clicked on) non-cage sprites will not be in the new array.
+- Note that this code uses [array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - which creates a new array with all elements that pass the test implemented by the provided function - which means that unmoving (clicked on) non-cage sprites will not be in the new array.
 
 2. Reload the page and test it. Clicking on the non-cage sprites will remove them from the array, which means that they won't get draw anymore and will disappear.
 
