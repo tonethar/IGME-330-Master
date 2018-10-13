@@ -11,14 +11,22 @@
 - But if they fail to click on all of the cages in time, penalty points will begin to accrue, 1 per second.
 - Thus the "tedious and boring" strategy of waiting for the perfect moment to click a cage will fail, and the player will instead be forced to take risks.
 
-## II. 
+## II. Getting Started
 
+1. To get going on our countdown timer, go ahead and add these 3 variables to the top section of *main.js*:
 
+```js
+let startTime;
+let lastTimeRemaining = 0; // time remaining in integer seconds
+let displayTime;
+```
 
+2. 
 
 ## III. Improvements to this game
 
 There are many, many improvements you could make to this game, here are some possibilities:
+
 
 
 
