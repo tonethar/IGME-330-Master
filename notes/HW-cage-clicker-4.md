@@ -76,7 +76,7 @@ There are many, many improvements you could make to this game, here are some pos
   
 2. **Game Mechanics:**
   - at higher levels, the sprites periodically change their image to camoflauge themselves 
-  - as the timer counts down, change the apperance and behvaior of the sprites to make the game harder
+  - as the timer counts down, change the appearance and behavior of the sprites to make the game harder
   - sprites will get smaller on later screens, and move differently ("wrap", follow a pre-set path, follow other  sprites, etc...)
   - on special levels, cages have to be clicked in the proper order
   - powerups that can collected and triggered:
