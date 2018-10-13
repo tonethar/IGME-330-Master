@@ -89,6 +89,10 @@ missSound = new Howl({ // not using yet
 
 4. Test it - you should now thes sounds play when you click the sprites
 
+
+
+<hr><hr>
+
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
 
 **Next Chapter -> Cage Clicker Part IV**
