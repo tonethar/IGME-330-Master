@@ -88,6 +88,57 @@ When the non-cages are clicked, we need to remove them from the screen.
 2. Reload the page and test it. Clicking on the not-cage sprites will remove them from the array, which means that they won't get draw anymore and will disappear.
 
 
+## IV. Ending the level
+
+Once we have clicked the cages, we would like to move onto the next level.
+
+1. Add these 2 constants to the top of *main.js*:
+
+```js
+const maxLevel = 3;
+const maxScore = 18;
+```
+
+2. Add the following to the end of the `doMousedown` function, under `case GameState.MAIN:`:
+
+```js
+if (cageCount == levelGoal && currentLevel >= maxLevel){
+	gameState = GameState.GAMEOVER;
+	break;
+}
+
+if (cageCount == levelGoal){
+	gameState = GameState.LEVELOVER;
+}
+```
+
+- the first `if` statement will end the *game* if we hit the goal of clicking 3 cages AND we have finished all 3 levels
+- the second `if` statement will end the *level* if we hit the goal of clicking 3 cages
+
+3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen (for now)
+
+## IV. Moving to the next level
+
+Now we would like to load in a new level and display it.
+
+1. Here's the code that will handle the `LEVELOVER` game state - add this to the `doMousedown` function:
+
+```js
+case GameState.LEVELOVER:	
+currentLevel ++;	
+cageCount = 0;
+levelScore = 0;
+loadLevel(currentLevel);
+gameState = GameState.MAIN;
+break;
+```
+
+2. And here's the code that describes what levels 2 and 3 look like - go ahead and type this into `loadLevel()`:
+
+![Code](_images/HW-cage-15.jpg)
+
+3. Reload the page, click all of the cages on level 1, you should now advance to level 2
+
 <hr><hr>
 
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
