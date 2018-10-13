@@ -3,6 +3,7 @@
 In this chapter we will add:
   - the ability to click the sprites
   - incidental sound
+  - remove the clicked `not-cage` sprites from the screen
   
 
 ## I. Clicking Sprites
@@ -48,12 +49,12 @@ for (let i = sprites.length - 1; i >= 0; --i) {
     - up the `cageCount`, which determines when the level is over
   - also check out `loadLevel`, where `levelGoal`, `levelTarget`, `vectorChangeProb` and `levelTimeLimit` are going to be defined with unique values for every level of the game
   
-2. To test this, reload the page, and test the main game screen by clicking all of the sprites. You should earn one point for each "cage", and -1 point for each non-cage. Giving you a final score of -2.
+2. To test this, reload the page, and test the main game screen by clicking all of the sprites. You should earn one point for each "cage", and -1 point for each not-cage. Giving you a final score of -2.
 
 
 ## II. Playing Sound
 
-- In the completed version of the game we have 1 sound playing for clicking a "cage", and another playing when clicking a non-cage. Let's get this working
+- In the completed version of the game we have 1 sound playing for clicking a "cage", and another playing when clicking a not-cage. Let's get this working
 
 1. To play sound, we are going to use the Howler JS library - you can read about it here: https://howlerjs.com
 
