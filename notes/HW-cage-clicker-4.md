@@ -55,7 +55,13 @@ if (!startTime) startTime = timestamp; // this runs only once, when the game sta
 displayTime = checkLevelTimer(timestamp);
 ```
 
-4. Test it. The countdown timer should now function, and the player's score will be negatively impacted if they run out of time.
+4. At the end of `loadLevel()`, reset the `startTime` variable:
+
+```js
+startTime = performance.now();	
+```
+
+5. Test it. The countdown timer should now function, the player's score will be negatively impacted if they run out of time, and a sound will play every second as they lose points
 
 
 ## IV. Improvements to this game
