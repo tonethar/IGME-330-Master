@@ -21,7 +21,16 @@ let lastTimeRemaining = 0; // time remaining in integer seconds
 let displayTime;
 ```
 
-2. 
+2. To draw the time remaining, add this code to `drawHUD()` at `GameState.MAIN`:
+
+```js
+// draw level timer
+let displayColor = "white";
+if (displayTime < 0) displayTime = 0;
+if (displayTime <= 3) displayColor = "yellow";
+if (displayTime == 0) displayColor = "red"
+fillText(ctx,`Time remaining: ${displayTime}`, 10, screenHeight-20, "14pt courier", displayColor);
+```
 
 ## III. Improvements to this game
 
