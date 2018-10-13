@@ -90,14 +90,18 @@ When the non-cages are clicked, we need to remove them from the screen.
 3. To draw the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
 
 ```js
+case GameState.LEVELOVER:
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
 fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
 fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
 fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
+break;
 ```
 
-## IV. Ending the level
+4. Test it 
+
+## IV. Moving on to the next level
 
 Once we have clicked the cages, we would like to move onto the next level.
 
