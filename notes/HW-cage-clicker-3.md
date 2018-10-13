@@ -87,19 +87,6 @@ When the non-cages are clicked, we need to remove them from the screen.
 
 2. Reload the page and test it. Clicking on the not-cage sprites will remove them from the array, which means that they won't get draw anymore and will disappear.
 
-3. To draw the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
-
-```js
-case GameState.LEVELOVER:
-ctx.textAlign = "center";
-ctx.textBaseline = "middle";
-fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
-fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
-fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
-break;
-```
-
-4. Test it 
 
 ## IV. Moving on to the next level
 
@@ -128,7 +115,21 @@ if (cageCount == levelGoal){
 - the first `if` statement will end the *game* if we hit the goal of clicking 3 cages AND we have finished all 3 levels
 - the second `if` statement will end the *level* if we hit the goal of clicking 3 cages
 
-3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen (for now)
+3. Reload the page and test it. Clicking on all 3 cages will end the level, and load a blank screen
+
+4. To draw the *level over* screen, you will need to add this code - go ahead and put it where it belongs:
+
+```js
+case GameState.LEVELOVER:
+ctx.textAlign = "center";
+ctx.textBaseline = "middle";
+fillText(ctx,`Round #${currentLevel} over!`, screenWidth/2, screenHeight/2 - 50, "30pt courier", "red");
+fillText(ctx,`Level Score: ${levelScore} out of ${levelGoal}`, screenWidth/2, screenHeight/2, "26pt courier", "white");
+fillText(ctx,"Click to Continue!", screenWidth/2, screenHeight/2 + 50, "12pt courier", "red");
+break;
+```
+
+5. Test it 
 
 ## V. Moving to the next level
 
