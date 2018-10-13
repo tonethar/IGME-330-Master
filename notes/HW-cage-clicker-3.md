@@ -5,8 +5,8 @@ In this chapter we will add:
 
 ## I. Clicking Sprites
 
-- The `doMousedown` function is already handling navigating from the start screen to the main game screen (though the `case GameState.START`)
-- We now want to get it handling clicking on the main grame screen. Every time the use presses the mouse button, we will check to see if they clicked a sprite
+- The `doMousedown` function is already handling navigating from the *start screen* to the main game screen - that code is in the `case GameState.START` section
+- We now want to get the code handling clicking on the *main game screen*. Every time the use presses the mouse button, we will check to see if they clicked a sprite
 
 1. Add the following to the `doMousedown` function, under `case GameState.MAIN:`
 
@@ -46,7 +46,7 @@ for (let i = sprites.length - 1; i >= 0; --i) {
     - up the `cageCount`, which determines when the level is over
   - also check out `loadLevel`, where `levelGoal`, `levelTarget`, `vectorChangeProb` and `levelTimeLimit` are going to be defined with unique values for every level of the game
   
-2. Reload the page, and test the main game screen by clicking all  
+2. Reload the page, and test the main game screen by clicking all of the sprites. You should earn one point for each "cage", and -1 point for each non cage. Giving you a final score of -2.
 
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
 
