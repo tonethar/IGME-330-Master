@@ -65,23 +65,7 @@ To import this library, add this line of code to the &lt;head> section of *index
 
 2. In the `init()` function of *main.js*, add the following code:
 
-```js
-// Load Sounds
-hitSound = new Howl({
-	src: ['sounds/shoot.wav'],
-	volume: 0.2
-});
-
-hitWrongSound = new Howl({
-	src: ['sounds/bonk.mp3'],
-	volume: 0.1
-});
-
-missSound = new Howl({ // not using yet
-	src: ['sounds/miss.mp3'],
-	volume: 0.2
-});
-```
+![Code](_images/HW-cage-13.jpg)
 
 - You will also have to declare these 3 variables outside of the `init()` function, up top with the others
 
