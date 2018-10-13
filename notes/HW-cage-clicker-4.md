@@ -25,10 +25,10 @@ let displayTime;
 
 ```js
 // draw level timer
-let displayColor = "white";
-if (displayTime < 0) displayTime = 0;
-if (displayTime <= 3) displayColor = "yellow";
-if (displayTime == 0) displayColor = "red"
+let displayColor = "white";           // normal color is white
+if (displayTime < 0) displayTime = 0; // don't display negative time remaining
+if (displayTime <= 3) displayColor = "yellow"; // "warning - running out of time" color
+if (displayTime == 0) displayColor = "red"  // "out of time and losing points!" color
 fillText(ctx,`Time remaining: ${displayTime}`, 10, screenHeight-20, "14pt courier", displayColor);
 ```
 
