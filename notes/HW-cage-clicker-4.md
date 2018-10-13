@@ -67,14 +67,14 @@ There are many, many improvements you could make to this game, here are some pos
   - high score screen, with the top 5 scores saved to WebStorage - there's a tutorial on WebStorage here:  https://github.com/tonethar/IGME-230-GDD-Spring-2018/blob/master/notes/web-apps-9.md
   - a score bonus for completing the level quickly
   - achievements:
-    - *"Completed the Game"* (completed all levels and ended with a positive score)
+    - *"Completed the Game"* - completed all levels and ended with a positive score
     - *"Perfect Level 1"*, *"Perfect Level 2"*, *"Perfect Level 3"*
-    - *"Speedy"* (completed all levels with at least 3 seconds remaining)
-    - *"The Flash"* (completed all levels with at least 5 seconds remaining)
-    - *"Crackerjack Timing"* (completed all levels with 1 second or less remaining)
-    - *"At least you tried"* (completed a level with a negative score)
-    - *"Proud Underachiever"* (ended the game with an overall negative score)
-    - *"Militant Underachiever"* (completed every level with a negative score)
+    - *"Speedy"* - completed all levels with at least 3 seconds remaining
+    - *"The Flash"* - completed all levels with at least 5 seconds remaining
+    - *"Crackerjack Timing"* - completed all levels with 1 second or less remaining
+    - *"At least you tried"* - completed a level with a negative score
+    - *"Proud Underachiever"* - ended the game with an overall negative score
+    - *"Militant Underachiever"* - completed every level with a negative score
 
 4. **Change the goal of the game:**
 Could you use this basic mechanic, but create a different kind of game?
