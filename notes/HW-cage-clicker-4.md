@@ -1,6 +1,6 @@
 # HW - *Cage Clicker* Part IV
 
-- In this chapter we will finish up the game by adding a "countdown timer" that displays how much time is left to complete the level
+- In this chapter we will finish up the game by adding a "countdown timer" that displays how much time is left to complete the current level
 
 
 ## I. Reason for adding a countdown timer
