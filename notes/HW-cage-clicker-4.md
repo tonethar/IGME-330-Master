@@ -77,8 +77,10 @@ There are many, many improvements you could make to this game, here are some pos
     - *"Militant Underachiever"* - completed every level with a negative score
 
 4. **Change the goal of the game:**
-Could you use this basic mechanic, but create a different kind of game?
-- a Math game where an answer is displayed, and the player has to click on all the correct equations
+
+*Could you use this basic mechanic, but create a different kind of game?*
+
+- a math game where an answer is displayed, and the player has to click on all the correct equations
 - a trivia style game - "You Don't Know Jack"-ish
 
 
