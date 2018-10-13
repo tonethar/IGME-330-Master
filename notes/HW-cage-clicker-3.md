@@ -55,7 +55,7 @@ for (let i = sprites.length - 1; i >= 0; --i) {
 
 - In the completed version of the game we have 1 sound playing for clicking a "cage", and another playing when clicking a non-cage. Let's get this working
 
-1. TO play sound, we are going to use the Howler JS library - you can read about it here: https://howlerjs.com
+1. To play sound, we are going to use the Howler JS library - you can read about it here: https://howlerjs.com
 
 To import this library, add this line of code to the &lt;head> section of *index.html*, which will pull in Howler from a CDN:
 
