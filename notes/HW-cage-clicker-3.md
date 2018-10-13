@@ -63,8 +63,31 @@ To import this library, add this line of code to the &lt;head> section of *index
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.9/howler.min.js"></script>
 ```
 
-2. 
+2. In the `init()` function of *main.js*, add the following code:
 
+```js
+// Load Sounds
+hitSound = new Howl({
+	src: ['sounds/shoot.wav'],
+	volume: 0.2
+});
+
+hitWrongSound = new Howl({
+	src: ['sounds/bonk.mp3'],
+	volume: 0.1
+});
+
+missSound = new Howl({ // not using yet
+	src: ['sounds/miss.mp3'],
+	volume: 0.2
+});
+```
+
+- You will also have to declare these variables outside of the `init()`function, up top with the others
+
+3. Uncomment the `hitWrongSound.play();` and `hitSound.play();` lines in `doMousedown`
+
+4. Test it - you should now thes sounds play when you click the sprites
 
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
 
