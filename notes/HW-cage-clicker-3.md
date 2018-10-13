@@ -1,9 +1,11 @@
 # HW - *Cage Clicker* Part III
 
-In this chapter we will add:
-  - the ability to click the sprites
-  - incidental sound
+In this chapter we will:
+  - add the ability to click the sprites
+  - add incidental sound
   - remove the clicked `not-cage` sprites from the screen
+  - advance to a new level of the game when all of the cages are clicked
+  - end the game once we have completed the 3 levels
   
 
 ## I. Clicking Sprites
@@ -166,11 +168,11 @@ fillText(ctx,`Total Score: ${totalScore} out of ${maxScore}`, screenWidth/2, scr
 fillText(ctx,"Click to play again!", screenWidth/2, screenHeight/2 + 55, "20pt courier", "red");
 ```
 
-2. Test it. The game states should now all be functioning, and if you click on all of the cgaes you will get to the game over screen and see your final score.
+2. Test it. The game states should now all be functioning, and if you click on all of the cages you will get to the game over screen and see your final score.
 
 
 <hr><hr>
 
 **[Previous Chapter <- Cage Clicker Part II](HW-cage-clicker-2.md)**
 
-**[Next Chapter -> Cage Clicker Part IV](HW-cage-clicker-4.md))**
+**[Next Chapter -> Cage Clicker Part IV](HW-cage-clicker-4.md)**
