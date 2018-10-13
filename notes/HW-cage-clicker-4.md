@@ -32,10 +32,52 @@ if (displayTime == 0) displayColor = "red"
 fillText(ctx,`Time remaining: ${displayTime}`, 10, screenHeight-20, "14pt courier", displayColor);
 ```
 
-## III. Improvements to this game
+3. Reload the page and play the game. You should see "Time Remaining: undefined" in the lower left side of the screen.
+
+
+## III. Get the timer working
+
+
+
+## IV. Improvements to this game
 
 There are many, many improvements you could make to this game, here are some possibilities:
 
+1. Usability/Feedback
+  - add a distinct sound "miss" sound for when the player clicks on the background instead of a sprite 
+  - when the player clicks on a not-cage, animate that sprite's removal from the screen
+  - when the user clicks on a cage, change its appearance slightly (blurred out or altered in some way)
+  - when the user has exceeded that level's time limit, change the appearance of the sprites
+  
+2. Game Mechanics
+  - at higher levels, the sprites periodically change their image to camoflauge themselves 
+  - as the timer counts down, change the apperance and behvaior of the sprites to make the game harder
+  - sprites will get smaller on later screens, and move differently ("wrap", follow a pre-set path, follow other  sprites, etc...)
+  - on special levels, cages have to be clicked in the proper order
+  - powerups that can collected and triggered:
+    - freeze all cages for 3 seconds
+    - freeze all not-cages for 2 seconds
+    - remove 5 random non-cages from screen
+  - powerdowns that will be triggered randomly or when the user makes an error:
+    - 
+  
+3. Scoring & Achievements
+  - high score screen, with the top 5 scores saved to WebStorage - there's a tutorial on WebStorage here:  https://github.com/tonethar/IGME-230-GDD-Spring-2018/blob/master/notes/web-apps-9.md
+  - a score bonus for completing the level quickly
+  - achievements:
+    - "Completed the Game" (completed all levels and ended with a positive score)
+    - "Perfect Level 1", "Perfect Level 2", "Perfect Level 3"
+    - "Speedy" (completed all levels with at least 3 seconds remaining)
+    - "The Flash" (completed all levels with at least 5 seconds remaining)
+    - "Crackerjack Timing" (completed all levels with 1 second or less remaining)
+    - "At least you tried" (completed a level with a negative score)
+    - "Proud Underachiever" (ended the game with an overall negative score)
+    - "Militant Underachiever" (completed every level with a negative score)
+
+4. Change the goal of the game
+Could you use this basic mechanic, but create a different kind of game?
+- a Math game where an answer is displayed, and the player has to click on all the correct equations
+- a trivia style game ala "You Don't Know Jack"-ish
 
 
 
