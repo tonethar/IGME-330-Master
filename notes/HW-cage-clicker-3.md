@@ -67,12 +67,19 @@ To import this library, add this line of code to the &lt;head> section of *index
 
 ![Code](_images/HW-cage-13.jpg)
 
-- You will also have to declare these 3 variables outside of the `init()` function, up top with the others
+3. You will also have to declare these 3 variables outside of the `init()` function, up top with the others
 
-3. Uncomment the `hitWrongSound.play();` and `hitSound.play();` lines in `doMousedown`
+4. Uncomment the `hitWrongSound.play();` and `hitSound.play();` lines in `doMousedown`
 
-4. Test it - you should now thes sounds play when you click the sprites
+5. Test it - you should now hear these sounds play when you click the sprites
 
+
+## III. Removing Sprites
+
+When the non-cages are clicked, we need remove them from the screen. Add the following code to the end of the `doMousedown` function, under `case GameState.MAIN:`:
+
+
+![Code](_images/HW-cage-14.jpg)
 
 
 <hr><hr>
