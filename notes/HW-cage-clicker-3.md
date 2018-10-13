@@ -83,7 +83,7 @@ missSound = new Howl({ // not using yet
 });
 ```
 
-- You will also have to declare these variables outside of the `init()`function, up top with the others
+- You will also have to declare these 3 variables outside of the `init()` function, up top with the others
 
 3. Uncomment the `hitWrongSound.play();` and `hitSound.play();` lines in `doMousedown`
 
