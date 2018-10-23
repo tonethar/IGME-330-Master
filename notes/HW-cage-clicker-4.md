@@ -63,10 +63,11 @@ startTime = performance.now();
 
 5. Test it. The countdown timer should now function, the player's score will be negatively impacted if they run out of time, and a sound will play every second as they lose points
 
+6. You are done. ZIP and Post to the dropbox.
 
 ## IV. Improvements to this game
 
-There are many, many improvements you could make to this game, here are some possibilities:
+There are many, many potential improvements you could make to this game, here are some possibilities:
 
 1. **Usability/Feedback:**
   - add a distinct sound "miss" sound for when the player clicks on the background instead of a sprite 
