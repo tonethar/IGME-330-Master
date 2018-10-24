@@ -64,7 +64,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - https://www.npmjs.com/package/webpack
 
 - **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
-- **npm** is the package manager for javascript
+- **npm** is the package manager for JavaScript
 - **webpack** is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
@@ -168,6 +168,7 @@ npm install webpack-cli -D --save
 ```
   
 **PS - Mac users will probably need `sudo` again**
+**PPS - You will now see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
 
 **6) Create a new file named *webpack.config.js***
 
