@@ -122,7 +122,7 @@ Head to the command prompt, and `cd` to your project folder.
  npm init -y
  ```
  
- - This will create your **package.json** file with default settings, which are in an object literal, which should look something like this:
+ - This will create your **package.json** file with default metadata about your project, which are in an object literal, which should look something like this:
  
  ```js
  {
@@ -138,8 +138,8 @@ Head to the command prompt, and `cd` to your project folder.
   "license": "ISC"
 }
  ```
-
-Note that the default `name` of the project is the name of the folder that *package.json* is contained in. You can change this if you wish.
+- You can read about *package.json* here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
+- Note that the default `name` of the project is the name of the folder that *package.json* is contained in. You can change this if you wish.
 
 **5) Next we need to install webpack**
 
