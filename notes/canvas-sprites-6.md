@@ -169,6 +169,7 @@ npm install webpack-cli -D --save
 ```
   
 **PS - Mac users will probably need `sudo` again**
+
 **PPS - You will now see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
 
 **6) Create a new file named *webpack.config.js***
