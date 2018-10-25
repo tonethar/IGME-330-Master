@@ -71,6 +71,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 	
 - Go get your *canvas-sprites-4-HW.html* code - this is the one that uses ES6 classes and ES6 modules
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
+- **Important: make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes**
   
  **1) Install Node.js and the Node Package Manager (npm)**
  
