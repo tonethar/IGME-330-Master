@@ -141,7 +141,7 @@ Head to the command prompt, and `cd` to your project folder.
 - You can read about *package.json* here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
 - Note that the default `name` of the project is the name of the folder that *package.json* is contained in. You can change this if you wish.
 
-**5) Next we need to install webpack**
+**5) Next we need to install the webpack module to this folder**
 
 ```js
 npm install webpack --save
