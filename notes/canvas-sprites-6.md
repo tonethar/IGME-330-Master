@@ -258,7 +258,7 @@ When you post this to the web:
 
 - Go ahead and make some changes in *main.js*, like increasing the number of circles. If webpack is still running, it will automatically compile a new *bundle.js* for you.
 
-- because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *init.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
+- Because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *init.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
 
 New **webpack.config.js**
 ```js
@@ -270,13 +270,13 @@ module.exports = {
 };
 ```
 
-- and finally, let's say that later on you have deleted the `node_modules` folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? **YES!** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
+- And finally, let's say that later on you have deleted the **node_modules** folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
 
 ```js
 npm install
 ```
 
-which will downlaod the packages for you.
+which will download the required packages for you. You can then type `npm start` to run the project.
 
 <hr><hr>
 
