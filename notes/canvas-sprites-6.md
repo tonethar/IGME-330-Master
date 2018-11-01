@@ -270,6 +270,13 @@ module.exports = {
 };
 ```
 
+- and finally, let's say that later on you have deleted the `node_modules` folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? **YES!** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
+
+```js
+npm install
+```
+
+which will downlaod the packages for you.
 
 <hr><hr>
 
