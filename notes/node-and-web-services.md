@@ -15,6 +15,13 @@
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
   
+To see if you already have these installed on your computer, type the following in the console:
+
+```js
+node -v
+npm -v
+```
+  
  **1) How to install Node.js and the Node Package Manager (npm)**
  
 - **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
@@ -31,6 +38,7 @@
  nvm install node
  node -v
  npm install npm@latest -g
+ npm -v
  ```
  
  **OR**
@@ -45,6 +53,7 @@
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
  ```js
+ node -v
  npm -v
  ```
  
