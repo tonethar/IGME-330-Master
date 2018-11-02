@@ -33,7 +33,7 @@
  npm install npm@latest -g
  ```
  
- **Or**
+ **OR**
  
  - You can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
