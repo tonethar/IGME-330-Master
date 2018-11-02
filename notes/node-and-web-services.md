@@ -57,3 +57,16 @@
  - ***At this point you should be ready to go!***
  
 ## III. Downloading a simple JSON web service
+
+- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in JSON format.
+
+1. Get started:
+  - create a folder named **joke**
+  - inside of the **joke** folder, create a file named **index.js**
+  
+2. Add the following to **index.js**:
+
+```js
+
+```
+  
