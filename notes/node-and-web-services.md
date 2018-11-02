@@ -18,8 +18,9 @@ II. [Downloading a simple "text" web service](#section2)
 
 III. [Downloading a JSON web service](#section3)
 
+<a id="section1"></a>
 
-## I. Install Node.js and npm (if you need to) <a id="section1"></a>
+## I. Install Node.js and npm (if you need to) 
 
 - **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, **npm**, is the largest ecosystem of open source libraries in the world.
   - https://nodejs.org/en/
@@ -76,7 +77,9 @@ npm -v
  
  - ***At this point you should be ready to go!***
  
-## II. Downloading a simple "text" web service <a id="section2"></a>
+<a id="section2"></a>
+  
+## II. Downloading a simple "text" web service
 
 - we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in plain text format:
   - https://github.com/sameerkumar18/geek-joke-api
@@ -139,6 +142,7 @@ node index.js
 
 **SUCCESS! - You should see a joke in the console - something like `"The First rule of Chuck Norris is: you do not talk about Chuck Norris."`**
 
+<a id="section3"></a>
 
-## III. Downloading a JSON web service <a id="section3"></a>
+## III. Downloading a JSON web service 
 
