@@ -142,7 +142,7 @@ node index.js
 
 **SUCCESS! - You should see a joke in the console - something like:**
 
-```js
+```
 The First rule of Chuck Norris is: you do not talk about Chuck Norris."
 ```
 
