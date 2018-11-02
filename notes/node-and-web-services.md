@@ -15,7 +15,7 @@
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
   
- **1) Install Node.js and the Node Package Manager (npm)**
+ **1) How to install Node.js and the Node Package Manager (npm)**
  
 - **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
  
@@ -39,13 +39,16 @@
  
  https://docs.npmjs.com/getting-started/installing-node
  
+ 
+**2) Test that node and npm are installed**
+ 
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
  ```js
  npm -v
  ```
  
- - After that, you can run the updater on npm itself by typing:
+ - After that, you can run the updater on npm itself by typing (Mac users will need `sudo` again):
  
  ```js
  npm install npm@latest -g
