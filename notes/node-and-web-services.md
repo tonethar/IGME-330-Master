@@ -19,7 +19,7 @@
  
 - **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
  
-- You could install Node.js with nvm (the *Node Version Manager*) like this:
+- You could install Node.js with **nvm** (the *Node Version Manager*) like this:
  
  ```js
  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
