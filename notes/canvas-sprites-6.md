@@ -278,6 +278,12 @@ npm install
 
 which will download the required packages for you. You can then type `npm start` to run the project.
 
+## VI. Reference
+
+- []()
+- []()
+- [`npm install`](https://docs.npmjs.com/cli/install)
+
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & the ES5 *Revealing Module Pattern* (chapter 5)](canvas-sprites-5.md)**
