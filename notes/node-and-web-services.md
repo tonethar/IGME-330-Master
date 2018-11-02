@@ -14,12 +14,12 @@
   - https://nodejs.org/en/
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
-
-- **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
   
  **1) Install Node.js and the Node Package Manager (npm)**
  
-- You could do this with nvm (the Node Version Manager) like this:
+- **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
+ 
+- You could install Node.js with nvm (the *Node Version Manager*) like this:
  
  ```js
  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -29,7 +29,7 @@
  
  ```js
  nvm install node
- nvm -v
+ node -v
  npm install npm@latest -g
  ```
  
@@ -39,16 +39,18 @@
  
  https://docs.npmjs.com/getting-started/installing-node
  
- - When **Node.js** is installed, it also installs **npm** (Node Package Manager). Head to the command prompt to verify that npm is installed by typing:
+ - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
  ```js
  npm -v
  ```
  
- - After that, you can run the updater on npm itslef by typing:
+ - After that, you can run the updater on npm itself by typing:
  
  ```js
  npm install npm@latest -g
  ```
+ 
+ ***At this point you shoukd be ready to go!***
  
 ## III. Downloading a simple JSON web service
