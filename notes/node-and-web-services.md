@@ -4,7 +4,7 @@
 
 - By this point you have seen how we can easily access JSON web services from the web browser using JavaScript:
   - [Web Apps Part 10 - Web Services](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md)
-  - [HW-gif-finder.md](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md)
+  - [Homework: GIF Finder](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md)
   - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
 - We can also download web pages and services from the command line using [Node.js](https://nodejs.org/en/) - let's work through a few examples, giving us more of a chance to work with both web services and Node.js
 
