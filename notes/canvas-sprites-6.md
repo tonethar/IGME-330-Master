@@ -206,7 +206,7 @@ module.exports = {
 },
 ```
 
-- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-builf the bundle.js file automatically for us.
+- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the bundle.js file automatically for us.
 
 **8) Run npm!**
 
