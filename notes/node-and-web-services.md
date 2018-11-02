@@ -90,7 +90,7 @@ request(options, (err, response, body) => {
 });
 ```
   
-3. Open your console, and change directory to the **jokes** folder. Run the app by typing:
+3. Open your console, and change directory to the **joke** folder. Run the app by typing:
 
 ```js
 node index.js
