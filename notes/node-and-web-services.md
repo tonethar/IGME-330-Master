@@ -70,11 +70,11 @@ npm -v
 - we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in plain text format:
   - https://github.com/sameerkumar18/geek-joke-api
 
-1. Get started:
+### 1. Get started:
   - create a folder named **joke**
   - inside of the **joke** folder, create a file named **index.js**
   
-2. Add the following to **index.js**:
+### 2. Add the following to **index.js**:
 
 ```js
 // #1 - import the request module, which is used to download data over http
@@ -99,18 +99,18 @@ request(options, (err, response, body) => {
 });
 ```
   
-3. Open your console, and change directory to the **joke** folder. Run the app by typing:
+### 3. Open your console, and change directory to the **joke** folder. Run the app by typing:
 
 ```js
 node index.js
 ```
 
-4. FAILURE!
+### 4. FAILURE!
 
 - You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
 - This is happening because you never downloaded the files that node needs to actually import the **request** module code.
 
-5. Download the **request** module by typing this (Mac users will need `sudo` again):
+### 5. Download the **request** module by typing this (Mac users will need `sudo` again):
 
 ```js
 npm install request
@@ -120,11 +120,14 @@ npm install request
 - You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
 - You will see one more file **package-lock.json**  - this file keeps track of all of the project modules and dependencies - you won't need to worry about for our examples - but if you wish you can read about it here: https://docs.npmjs.com/files/package-lock.json
 
-6. Try to run the app again by typing:
+### 6. Try to run the app again by typing:
 
 ```js
 node index.js
 ```
 
 **SUCCESS! - You should see a joke in the console - something like `"The First rule of Chuck Norris is: you do not talk about Chuck Norris."`**
+
+
+# IV. 
 
