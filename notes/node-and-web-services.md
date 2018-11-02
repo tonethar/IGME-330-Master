@@ -1,6 +1,6 @@
 # Node.js and Web Services
 
-## I. Overview
+## Overview
 
 - By this point you have seen how we can easily access JSON web services from the web browser using JavaScript:
   - [Web Apps Part 10 - Web Services](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md)
@@ -8,7 +8,12 @@
   - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
 - We can also download web pages and services from the command line using [Node.js](https://nodejs.org/en/) - let's work through a few examples, giving us more of a chance to work with both web services and Node.js
 
-## II. Install Node.js and npm (if you need to)
+## Contents
+
+<!--- Local Navigation --->
+I. [Install Node.js and npm (if you need to)](#section1)
+
+## I. Install Node.js and npm (if you need to) <a id=
 
 - **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, **npm**, is the largest ecosystem of open source libraries in the world.
   - https://nodejs.org/en/
@@ -129,5 +134,5 @@ node index.js
 **SUCCESS! - You should see a joke in the console - something like `"The First rule of Chuck Norris is: you do not talk about Chuck Norris."`**
 
 
-# IV. 
+## IV. 
 
