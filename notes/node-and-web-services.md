@@ -27,7 +27,7 @@ III. [Downloading a JSON web service](#section3)
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
   
-To see if you already have these installed on your computer, type the following in the console:
+To see if you already have node and npm installed on your computer, type the following in the console:
 
 ```js
 node -v
