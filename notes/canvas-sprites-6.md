@@ -66,7 +66,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - https://www.npmjs.com/package/webpack
 
 - **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
-- **npm** is the package manager for JavaScript
+- **npm** is the package (i.e. "library") manager for JavaScript
 - **webpack** is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
@@ -76,9 +76,9 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - **Important: make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes**
 - **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
   
- **1) Install Node.js and the Node Package Manager (npm)**
+ **1) Install Node.js and the *Node Package Manager* (npm)**
  
-- You could do this with nvm (the Node Version Manager) like this:
+- You could do this with nvm (the *Node Version Manager*) like this:
  
  ```js
  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -88,8 +88,9 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  ```js
  nvm install node
- nvm -v
+ node -v
  npm install npm@latest -g
+ npm -v
  ```
  
  **Or**
@@ -104,7 +105,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm -v
  ```
  
- - After that, you can run the updater on npm itslef by typing:
+ - After that, you can run the updater on npm itself by typing:
  
  ```js
  npm install npm@latest -g
