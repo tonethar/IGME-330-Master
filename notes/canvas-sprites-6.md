@@ -280,7 +280,7 @@ which will download the required packages for you. You can then type `npm start`
 
 ## VI. Reference
 
-- []()
+- [`npm init`](https://docs.npmjs.com/cli/init)
 - []()
 - [`npm install`](https://docs.npmjs.com/cli/install)
 
