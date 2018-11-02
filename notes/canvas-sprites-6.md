@@ -16,6 +16,8 @@ IV. [Transpiling an ES6 project down to ES5](#section4)
 
 V. [Discussion](#section5)
 
+VI. [Reference](#section6)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*?
@@ -278,7 +280,7 @@ npm install
 
 which will download the required packages for you. You can then type `npm start` to run the project.
 
-## VI. Reference
+## VI. <a id="section6">Reference
 
 - [`npm install`](https://docs.npmjs.com/cli/install)
 - [`npm init`](https://docs.npmjs.com/cli/init)
