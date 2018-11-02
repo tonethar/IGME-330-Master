@@ -143,7 +143,7 @@ node index.js
 **SUCCESS! - You should see a joke in the console - something like:**
 
 ```
-The First rule of Chuck Norris is: you do not talk about Chuck Norris."
+"The First rule of Chuck Norris is: you do not talk about Chuck Norris."
 ```
 
 <a id="section3"></a>
