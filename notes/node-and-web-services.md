@@ -22,7 +22,7 @@ node -v
 npm -v
 ```
   
- **1) How to install Node.js and the Node Package Manager (npm)**
+### 1) How to install Node.js and the Node Package Manager (npm)
  
 - ***Important Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.***
  
@@ -48,7 +48,7 @@ npm -v
  https://docs.npmjs.com/getting-started/installing-node
  
  
-**2) Test that node and npm are installed**
+### 2) Test that node and npm are installed
  
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
