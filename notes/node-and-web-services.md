@@ -51,6 +51,6 @@
  npm install npm@latest -g
  ```
  
- ***At this point you shoukd be ready to go!***
+ - ***At this point you shoukd be ready to go!***
  
 ## III. Downloading a simple JSON web service
