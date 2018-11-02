@@ -2,18 +2,24 @@
 
 ## Overview
 
-- By this point you have seen how we can easily access JSON web services from the web browser using JavaScript:
+- By this point you have seen how we can access JSON web services from the web browser using JavaScript:
   - [Web Apps Part 10 - Web Services](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md)
   - [Homework: GIF Finder](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md)
   - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
-- We can also download web pages and services from the command line using [Node.js](https://nodejs.org/en/) - let's work through a few examples, giving us more of a chance to work with both web services and Node.js
+- We can also download web pages and services from the **command line** using [Node.js](https://nodejs.org/en/) - below we will work through a few examples, giving us more of a chance to work with both web services and Node.js
+- We will also see how we can create symbolic links and easily run these programs as command line tools
 
 ## Contents
 
 <!--- Local Navigation --->
 I. [Install Node.js and npm (if you need to)](#section1)
 
-## I. Install Node.js and npm (if you need to) <a id=
+II. [Downloading a simple "text" web service](#section2)
+
+III. [Downloading a JSON web service](#section3)
+
+
+## I. Install Node.js and npm (if you need to) <a id="section1"></a>
 
 - **Node.js** is a command-line JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, **npm**, is the largest ecosystem of open source libraries in the world.
   - https://nodejs.org/en/
@@ -70,7 +76,7 @@ npm -v
  
  - ***At this point you should be ready to go!***
  
-## III. Downloading a simple "text" web service
+## II. Downloading a simple "text" web service <a id="section2"></a>
 
 - we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in plain text format:
   - https://github.com/sameerkumar18/geek-joke-api
@@ -134,5 +140,5 @@ node index.js
 **SUCCESS! - You should see a joke in the console - something like `"The First rule of Chuck Norris is: you do not talk about Chuck Norris."`**
 
 
-## IV. 
+## III. Downloading a JSON web service <a id="section3"></a>
 
