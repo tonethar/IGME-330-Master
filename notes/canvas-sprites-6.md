@@ -278,7 +278,9 @@ module.exports = {
 npm install
 ```
 
-which will download the required packages for you. You can then type `npm start` to run the project.
+- Which will, by default, download and install all modules listed as dependencies in package.json. 
+
+- You can then type `npm start` to run the project.
 
 ## VI. <a id="section6">Reference
 
