@@ -74,6 +74,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - Go get your *canvas-sprites-4-HW.html* code - this is the one that uses ES6 classes and ES6 modules
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
 - **Important: make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes**
+- **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.**
   
  **1) Install Node.js and the Node Package Manager (npm)**
  
@@ -93,18 +94,23 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **Or**
  
- - you can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
+ - You can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
  https://docs.npmjs.com/getting-started/installing-node
  
- - once Node.js is installed, head to the command prompt to install npm:
+ - When **Node.js** is installed, it also installs **npm** (Node Package Manager). Head to the command prompt to verify that npm is installed by typing:
  
  ```js
  npm -v
+ ```
+ 
+ - After that, you can run the updater on npm itslef by typing:
+ 
+ ```js
  npm install npm@latest -g
  ```
  
- - **Note: Mac OS users will often be required to have `sudo` at the beginning of the command whenever they are installing applications or packages.**
+
  
  **2) Change directory to your project folder**
  
