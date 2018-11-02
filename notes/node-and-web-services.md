@@ -98,4 +98,24 @@ node index.js
 
 4. FAILURE!
 
-YOu should see a series of error messages 
+- You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
+- This is happening because you never downloaded the files that node needs to actually import the **request** module code.
+
+5. Download the **request** module by typing this (Mac users will need `sudo` again):
+
+```js
+npm install request
+```
+
+- Downloading of files now should begin. Once downloading has completed, you will see a few warnings about a file named **package.json** missing - we will address this in the next section.
+- You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
+- You will see one more file **package-lock.json**  - this file keeps track of all of the project modules and dependencies - you won't need to worry about for our examples - but if you wish you can read about it here: https://docs.npmjs.com/files/package-lock.json
+
+6. Try to run the app again by typing:
+
+```js
+node index.js
+```
+
+**SUCCESS! - You should see a joke in the console - something like `"The First rule of Chuck Norris is: you do not talk about Chuck Norris."`**
+
