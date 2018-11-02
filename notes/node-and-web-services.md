@@ -56,9 +56,10 @@
  
  - ***At this point you should be ready to go!***
  
-## III. Downloading a simple JSON web service
+## III. Downloading a simple "text" web service
 
-- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in JSON format.
+- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in plain text format:
+  - https://github.com/sameerkumar18/geek-joke-api
 
 1. Get started:
   - create a folder named **joke**
@@ -67,6 +68,34 @@
 2. Add the following to **index.js**:
 
 ```js
+// #1 - import the request module, which is used to download data over http
+const request = require('request');
 
+// #2 - set the value of the `options` object, which contains configuration data,
+// including the URL we are interested in downloading
+// https://nodejs.org/docs/latest-v9.x/api/http.html#http_http_request_options_callback
+const options = {
+    url: 'https://geek-jokes.sameerkumar.website/api',
+    method: 'GET'
+}
+
+// #3 - make the request
+// the second parameter below is a callback function (an ES6 arrow function in this case)
+// which is called when the data is downloaded
+request(options, (err, response, body) => {
+		// if there's no error, and if the server's status code is 200 (i.e. "Ok")
+    if(!err && response.statusCode == 200)
+    		// log out the plain-text joke - no parsing required!
+        console.log(body)
+});
 ```
   
+3. Open your console, and change directory to the **jokes** folder. Run the app by typing:
+
+```js
+node index.js
+```
+
+4. FAILURE!
+
+YOu should see a series of error messages 
