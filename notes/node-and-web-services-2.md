@@ -115,7 +115,9 @@ node init.js
 
 ## III. Utilize the "inspirational design quotes" service
 
-So now we have our script working with 
+Now that we have our script and **package.json** file working with the "random chuck norris joke" web service, it's time to get it working with our new "inspirational design quotes" web service.
+
+### A.
 
 <hr><hr>
 
