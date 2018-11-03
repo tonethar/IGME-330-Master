@@ -81,8 +81,13 @@ npm -v
   
 ## II. Downloading and displaying a simple "text" web service
 
-- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random Chuck Norris joke" web service. The web service will return the joke data in plain text format:
+- We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random Chuck Norris joke" web service. The web service will return the joke data in plain text format - here are the docs:
   - https://github.com/sameerkumar18/geek-joke-api
+- and here is the URL to the service:
+  - https://geek-jokes.sameerkumar.website/api
+
+If you test this in a browser, you will see a random plain-text joke such as `"E-mail returned to sender... insufficient voltage."`
+
 
 ### A. Get started:
   - create a folder named **joke**
