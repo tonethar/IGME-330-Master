@@ -80,7 +80,7 @@ npm install request --save
 ```
 
 - This will download and install the **request** module and other dependencies to the **node_modules** folder just like last time
-- The `--save` flag is what tells npm to add a dependency to **package.json**, which you can see if you open the file:
+- The `--save` flag is what tells npm to add a `dependencies:` key to **package.json**, which you can see if you open the file:
 
 ```js
 "dependencies": {
@@ -111,7 +111,11 @@ node init.js
 - to re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `dependencies:` key of **package.json**
 - run your script again - `node init.js` - it succeeds!
 
+<a id="section3"></a>
 
+## III. Utilize the "inspirational design quotes" service
+
+So now we have our script working with 
 
 <hr><hr>
 
