@@ -253,3 +253,8 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
+<hr><hr>
+
+**[Previous Chapter <- Node.js and Web Services (chapter 1)](node-and-web-services-1.md)**
+
+**[Next Chapter -> Node.js and Web Services (chapter 3)](node-and-web-services-3.md)**
