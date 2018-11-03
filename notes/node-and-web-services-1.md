@@ -153,7 +153,7 @@ node index.js
 <a id="section3"></a>
 ## III. Next Steps
 
-- There isn't too much more to do with this example right now, but once you have finished this entire chapter, come back to this example and:
+- There isn't too much more to do with this example right now, but once you have finished this series, come back to this example and:
   - use `npm init -y` to create a **package.json** file
   - using the instructions here as a guide, make this script an executable command named `get-joke`: https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e
 
