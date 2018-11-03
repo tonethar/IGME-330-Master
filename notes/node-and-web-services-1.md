@@ -119,7 +119,7 @@ request(options, (err, response, body) => {
 });
 ```
   
-### C. Open your console, and change directory to the **joke** folder. Run the app by typing:
+### C. Open your console, and change directory to the **joke** folder. Run the script by typing:
 
 ```js
 node index.js
