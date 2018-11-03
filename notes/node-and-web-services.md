@@ -249,3 +249,5 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 
 ![screenshot](_images/)
 
+- If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
