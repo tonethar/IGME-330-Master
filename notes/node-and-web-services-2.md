@@ -44,7 +44,7 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 ### A. Get started:
 
 - create a new folder named **quote**
-- copy over your completed **index.js** file from Part I
+- copy over your completed **index.js** file from Node.js and Web Services - Part I
 
 
 ### B. Create a node project the usual way
@@ -54,7 +54,7 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 npm init -y
 ```
 
-This will create your **package.json** file with default metadata about your project, which are in an object literal, which should look something like this:
+This will create your **package.json** file with the default metadata about your project, which is stored in an object literal, and will look something like this:
 
 ```js
 {
