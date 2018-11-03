@@ -269,7 +269,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
   - Display multiple quotes
   - Parse the first command line argument, and only show that number of quotes
   - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes`
-- Also be sure that everything is formatted nicely - add spacing where appropriate
+- Also be sure that everything is formatted nicely - add spacing where appropriate - reminder `\n` is a new line
 
 **ZIP and POST to Dropbox**
 <hr><hr>
