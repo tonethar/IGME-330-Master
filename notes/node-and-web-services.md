@@ -214,9 +214,21 @@ npm install request --save
 
 - note that we didn't get the warnings about the missing **package.json** file like we did last time
 
-### D. Test it
+### D. Test the script
 
-- Run the 
+- Run the script to be sure that it still works as before:
+
+```js
+node init.js
+```
+ 
+ - Which should print out another Chuck Norris joke such as:
+ 
+ ```
+ 
+ ```
+ 
+### E. Test 
 
 ### XXX. Add the following to **index.js**:
 
