@@ -247,7 +247,7 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 
 - which gives you 1 random inspirational quote, in an array, that looks like this:
 
-![screenshot](_images/)
+![screenshot](_images/node-web-services-1.jpg)
 
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
