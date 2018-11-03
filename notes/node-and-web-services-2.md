@@ -124,17 +124,10 @@ Now that we have our script and **package.json** file working with the "random c
 Change section #2 of **index.js** so it looks like this: 
 
 ```js
-// #2 - set the value of the `options` object, which contains configuration data,
-// including the URL we are interested in downloading
-// https://nodejs.org/docs/latest-v9.x/api/http.html#http_http_request_options_callback
-const options = {
-    url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&',
-    method: 'GET',
-    path: 'filter[posts_per_page]='
-}
-
+// #2 - set our URL
+let url = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=";
 let numResults = 1; // let's make 1 quote the default, but we'll let the user change it later
-options.path += numResults; // concatenate `numResults` to the end of the query string
+url += numResults; // concatenate `numResults` to the end of the query string
 ```
 
 
@@ -148,7 +141,7 @@ options.path += numResults; // concatenate `numResults` to the end of the query 
 // #3 - make the request
 // the second parameter below is a callback function (an ES6 arrow function in this case)
 // which is called when the data is downloaded
-request(options, (err, response, body) => {
+request(url, (err, response, body) => {
     // if there's no error, and if the server's status code is 200 (i.e. "Ok")
     if(!err && response.statusCode == 200){
     	// A - convert the downloaded text to a JavaScript Object (in this case an array)
@@ -180,7 +173,7 @@ This is working great, except for those HTML tags that we don't need to see. Let
 ```js
 // https://stackoverflow.com/questions/5002111/how-to-strip-html-tags-from-string-in-javascript
 function stripTags(str){
-	return str.replace(/<\/?[^>]+(>|$)/g, "");
+   return str.replace(/<\/?[^>]+(>|$)/g, "");
 }
 ```
 
