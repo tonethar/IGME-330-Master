@@ -2,7 +2,7 @@
 
 ## Overview
 
-THis time we are going to look at how to download a different web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
+This time we are going to look at how to download a different web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
 - we are going to create a **package.json** file this time
 - the data is in the JSON format so we will need to parse it before displaying it
 - the web service takes parameters, such as the number of results:
