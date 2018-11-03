@@ -19,6 +19,11 @@ II. [Working with the package.json file](#section2)
 
 III. [Utilize the "inspirational design quotes" service](#section3)
 
+IV. [Turning our script into a command line tool](#section4)
+
+V. [Homework](#section5)
+
+<hr>
 
 <a id="section1"></a>
 
@@ -181,6 +186,8 @@ function stripTags(str){
 - Now call this function in your code in the proper place to get rid of the HTML tags
 - ***Test it!*** The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own
 
+<a id="section4"></a>
+
 ## IV. Turning our script into a command line tool
 
 Things we are going to do in this section:
@@ -252,6 +259,8 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 ***Here is my example:***
 
 ![screenshot](_images/node-web-services-4.jpg)
+
+<a id="section5"></a>
 
 ## V. Homework
 
