@@ -231,7 +231,9 @@ node init.js
 ### E. Test package.json
 
 - delete your **node_modules** folder
-- 
+- if you run your script again - `node init.js` - it fails! - because the **request** module is nowhere to be found
+- to re-install **request** - just type `npm install` - which will re-download the **request** module because it is listed in the `dependencies:` key of **package.json**
+- run your script again - `node init.js` - it succeeds!
 
 
 ### XXX. Add the following to **index.js**:
