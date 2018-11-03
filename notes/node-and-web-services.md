@@ -147,7 +147,7 @@ node index.js
 "The First rule of Chuck Norris is: you do not talk about Chuck Norris."
 ```
 
-![screenshot](_images/node-web-services-2.jpg)
+![screenshot](_images/node-web-services-1.jpg)
 
 ### G. Next Steps
 
