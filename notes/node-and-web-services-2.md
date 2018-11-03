@@ -184,6 +184,10 @@ function stripTags(str){
 }
 ```
 
+
+- Now call this function in your code in the proper place to get rid of the HTML tags
+- ***Test it!*** The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own
+
 ## IV. Turning our script into a command line tool
 
 Things we are going to do in this section:
@@ -201,8 +205,6 @@ Things we are going to do in this section:
 ### C.Parse the first command line argument, and only show that number of quotes
 
 
-- Now call this function in your code in the proper place to get rid of the HTML tags
-- Test it! The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own
 
 <hr><hr>
 
