@@ -18,6 +18,8 @@ I. [Preview our new web service](#section1)
 
 II. [Working with the package.json file](#section2)
 
+III.[Utilize the "inspirational design quotes" service](#section3)
+
 
 <a id="section1"></a>
 
