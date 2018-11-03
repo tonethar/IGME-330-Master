@@ -130,7 +130,7 @@ node index.js
 - You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
 - This is happening because you never downloaded the files that node needs to actually import the **request** module code.
 
-### E. Download the **request** module by typing this (Mac users will need `sudo` again):
+### E. Download the **request** module files by typing this (Mac users will need `sudo` again):
 
 ```js
 npm install request
