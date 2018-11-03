@@ -33,6 +33,8 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 
 ![screenshot](_images/node-web-services-2.jpg)
 
+- as you can see above, we are probably most interested in the `.title` and `.content` properties
+- one wrinkle is that the content has HTML in it - which we are going to need to strip out for this command line application
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
 <a id="section2"></a>
