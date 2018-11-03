@@ -203,7 +203,7 @@ This time, we are going to download the **request** module, and then *save* this
 npm install request --save
 ```
 
-- This will download and install the **request** module just like last time
+- This will download and install the **request** module and other dependencies to the **node_modules** folder just like last time
 - The `--save` flag is what tells npm to add a dependency to **package.json**, which you can see if you open the file:
 
 ```js
@@ -228,7 +228,11 @@ node init.js
 "Chuck Norris can do a roundhouse kick faster than the speed of light. This means that if you turn on a light switch, you will be dead before the lightbulb turns on."
  ```
  
-### E. Test 
+### E. Test package.json
+
+- delete your **node_modules** folder
+- 
+
 
 ### XXX. Add the following to **index.js**:
 
