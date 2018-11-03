@@ -18,6 +18,8 @@ II. [Downloading and displaying a simple "text" web service](#section2)
 
 III. [Next Steps](#section3)
 
+<hr>
+
 <a id="section1"></a>
 
 ## I. Install Node.js and npm (if you need to) 
