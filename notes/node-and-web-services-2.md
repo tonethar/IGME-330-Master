@@ -202,9 +202,23 @@ Things we are going to do in this section:
 ### B. Display mulitiple quotes
 - ***Write a `for` loop and do this!***
 
-### C.Parse the first command line argument, and only show that number of quotes
+### C. Parse the first command line argument, and only show that number of quotes
 
+- Here's a great article walking through how to do this - https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e - but we'll give you specific instructions below
 
+#### i. Add the Shebang line to the top of index.js
+
+```
+#!/usr/bin/env node
+```
+- This is the path to the node executable that will parse and run the code in the **index.js** file
+- (Wikipedia - Shebang)[https://en.wikipedia.org/wiki/Shebang_%28Unix%29]
+
+#### ii. Parse out the first command line argument
+
+```js
+
+```
 
 <hr><hr>
 
