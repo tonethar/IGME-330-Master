@@ -119,7 +119,73 @@ node init.js
 
 Now that we have our script and **package.json** file working with the "random chuck norris joke" web service, it's time to get it working with our new "inspirational design quotes" web service.
 
-### A.
+### A. Modify the code to request a variable number of results
+
+Change section #2 of **index.js** so it looks like this: 
+
+```js
+// #2 - set the value of the `options` object, which contains configuration data,
+// including the URL we are interested in downloading
+// https://nodejs.org/docs/latest-v9.x/api/http.html#http_http_request_options_callback
+const options = {
+    url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&',
+    method: 'GET',
+    path: 'filter[posts_per_page]='
+}
+
+let numResults = 5; // let's make 5 quotes the default, but we'll let the user change it later
+options.path += numResults; // concatenate numResults to the end of the query string
+```
+
+
+### B. Convert the downloaded text to a parsable object
+
+- The "joke" web servie returns plain text, but this one returns the data as a JSON string
+- We need to convert this string to an object before we can parse it - `JSON.parse()` accomplishes this for us
+- Go ahead and change section #3 of **index.js** so it looks like this: 
+
+```js
+// #3 - make the request
+// the second parameter below is a callback function (an ES6 arrow function in this case)
+// which is called when the data is downloaded
+request(options, (err, response, body) => {
+		// if there's no error, and if the server's status code is 200 (i.e. "Ok")
+    if(!err && response.statusCode == 200){
+    		// A - convert the downloaded text to a JavaScript Object (in this case an array)
+        let obj = JSON.parse(body); 
+        // B - grab the first result
+        let result = obj[0];
+        // C - grab the `.content` property of the first result
+        let text = result.content;
+        // D - log it out
+        console.log(text);
+      }
+});
+```
+
+### C. Test the code
+
+- Go ahead and type `node index.js` to run the code - it should successfully download the text, convert it to JSON, parse out the content, and log it to the console. You should see something like this:
+
+```
+<p>Stop looking at yourself as a designer, and start thinking of yourself as a deliverer of ideas.</p>
+```
+
+This is working great, except for those HTML tags that we don't need to see. Let's fix that next
+
+### D. Stripping HTML tags
+
+- Here's a helper function you can add to **index.js**:
+
+```js
+// https://stackoverflow.com/questions/5002111/how-to-strip-html-tags-from-string-in-javascript
+function stripTags(str){
+	return str.replace(/<\/?[^>]+(>|$)/g, "");
+}
+```
+
+- Now call this function in your code in the proper place to get rid of the HTML tags
+- Test it! The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that on your own
 
 <hr><hr>
 
