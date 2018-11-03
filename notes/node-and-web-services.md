@@ -147,6 +147,8 @@ node index.js
 "The First rule of Chuck Norris is: you do not talk about Chuck Norris."
 ```
 
+![screenshot](_images/node-web-services-2.jpg)
+
 ### G. Next Steps
 
 - There isn't too much more to do with this example right now, but once you have finished this entire chapter, come back to this example and:
@@ -247,7 +249,7 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 
 - which gives you 1 random inspirational quote, in an array, that looks like this:
 
-![screenshot](_images/node-web-services-1.jpg)
+![screenshot](_images/node-web-services-2.jpg)
 
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
