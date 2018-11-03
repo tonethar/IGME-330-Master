@@ -158,6 +158,7 @@ node index.js
 ## III. Downloading a JSON web service 
 
 We are going to look at how to download another web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
+- we are going to create a **package.json** file this time
 - the data is in the JSON format so we will need to parse it before displaying it
 - the web service takes parameters, such as the number of results:
   - this means we will need to format the URL differently
@@ -169,6 +170,45 @@ We are going to look at how to download another web service, in this case an "in
 - create a new folder named **quote**
 - copy over your completed **index.js** file from Part I
 
-### B. Add the following to **index.js**:
+
+### B. 
+- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory to the **quote** folder and type:
+
+```js
+npm init -y
+```
+
+This will create your **package.json** file with default metadata about your project, which are in an object literal, which should look something like this:
+
+```js
+{
+  "name": "quote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```
+
+### C. Download the **request** module 
+
+This time, we are going to download the **request** module, and then *save* this dependency into the **package.json** file. Type the following in (Mac users will need `sudo` again):
+
+```js
+npm install request --save
+```
+
+The `--save` flag is what tells npm to add a dependency to **package.json**, which you can see if you open the file:
+
+```js
+
+```
+
+### XXX. Add the following to **index.js**:
 
 
