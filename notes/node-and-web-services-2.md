@@ -231,19 +231,21 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 - type `node index.js 10` and you should see 10 results
 - and so on ...
 
-#### iv. Make the script an executable tool
+### D. Make the script an executable tool (and not have to type `node` first)
 
 - make **index.js** executable by typing (in Unix land) `chmod +x index.js`
-- run **index.js** by typing `./index.js 10` - which should give you 10 results
-- now make **index.js** an executable tool by adding the following key to **package.json**:
+
+- test **index.js** by typing `./index.js 10` - which should give you 10 results
+
+- now make **index.js** globally executable by adding the following key to **package.json**:
 
 ```js
 "bin":{
   	"design-quotes": "./index.js"
   }
 ```
-
-- and by typing `npm link` on the command line
+- `"design-quotes"` is now the name of the command
+- create the link by typing `npm link` on the command line (Mac users will need `sudo` at the beginning again)
 
 ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
 
@@ -253,6 +255,14 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ## V. Homework
 
+- Make sure that everything we asked for in Section IV. is working:
+  - Display the author name
+  - Display multiple quotes
+  - Parse the first command line argument, and only show that number of quotes
+  - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes`
+- Also be sure that everything is formatted nice - add spacing where appropriate
+
+**ZIP and POST to Dropbox**
 <hr><hr>
 
 **[Previous Chapter <- Node.js and Web Services (chapter 1)](node-and-web-services-1.md)**
