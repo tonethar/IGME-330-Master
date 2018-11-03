@@ -237,6 +237,15 @@ node init.js
 - to re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `dependencies:` key of **package.json**
 - run your script again - `node init.js` - it succeeds!
 
-### F. Download our new web service
+### F. Test our new web service in a browser
 
+- Open up a new window in Chrome and open this URL:
+
+```
+http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1
+```
+
+- which gives you 1 random inspirational quote, in an array, that looks like this:
+
+![screenshot](_images/)
 
