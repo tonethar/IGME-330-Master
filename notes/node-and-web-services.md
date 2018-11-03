@@ -34,7 +34,7 @@ node -v
 npm -v
 ```
   
-### 1) How to install Node.js and the Node Package Manager (npm)
+### A) How to install Node.js and the Node Package Manager (npm)
  
 - ***Important Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.***
  
@@ -60,7 +60,7 @@ npm -v
  https://docs.npmjs.com/getting-started/installing-node
  
  
-### 2) Test that node and npm are installed
+### B) Test that node and npm are installed
  
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
@@ -81,14 +81,14 @@ npm -v
   
 ## II. Downloading a simple "text" web service
 
-- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random joke" web service. The web service will return the joke data in plain text format:
+- we are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random Chuck Norris joke" web service. The web service will return the joke data in plain text format:
   - https://github.com/sameerkumar18/geek-joke-api
 
-### 1. Get started:
+### A. Get started:
   - create a folder named **joke**
   - inside of the **joke** folder, create a file named **index.js**
   
-### 2. Add the following to **index.js**:
+### B. Add the following to **index.js**:
 
 ```js
 // #1 - import the request module, which is used to download data over http
@@ -113,18 +113,18 @@ request(options, (err, response, body) => {
 });
 ```
   
-### 3. Open your console, and change directory to the **joke** folder. Run the app by typing:
+### C. Open your console, and change directory to the **joke** folder. Run the app by typing:
 
 ```js
 node index.js
 ```
 
-### 4. FAILURE!
+### D. FAILURE!
 
 - You should see a series of error messages that begin with **`Error: Cannot find module 'request'`** 
 - This is happening because you never downloaded the files that node needs to actually import the **request** module code.
 
-### 5. Download the **request** module by typing this (Mac users will need `sudo` again):
+### E. Download the **request** module by typing this (Mac users will need `sudo` again):
 
 ```js
 npm install request
@@ -134,7 +134,7 @@ npm install request
 - You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
 - You will see one more file **package-lock.json**  - this file keeps track of all of the project modules and dependencies - you won't need to worry about for our examples - but if you wish you can read about it here: https://docs.npmjs.com/files/package-lock.json
 
-### 6. Try to run the app again by typing:
+### F. Try to run the app again by typing:
 
 ```js
 node index.js
@@ -146,7 +146,29 @@ node index.js
 "The First rule of Chuck Norris is: you do not talk about Chuck Norris."
 ```
 
+### G. Next Steps
+
+- There isn't too much more to do with this example right now, but once you have finished this entire chapter, come back to this example and:
+  - use `npm init -y` to create a **package.json** file
+  - using the instructions here as a guide, make this script an executable command named `get-joke`: https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e
+
+
 <a id="section3"></a>
 
 ## III. Downloading a JSON web service 
+
+We are going to look at how to download another web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
+- the data is in the JSON format so we will need to parse it before displaying it
+- the web service takes parameters, such as the number of results:
+  - this means we will need to format the URL differently
+  - we will need to loop though the results
+  - we will need to give the user of this script the ability to choose how many results they want
+
+### A. Get started:
+
+- create a new folder named **quote**
+- copy over your completed **index.js** file from part I
+
+### B. Add the following to **index.js**:
+
 
