@@ -9,7 +9,6 @@ This time we are going to look at how to download a different web service, in th
   - this means we will need to format the URL differently
   - we will need to loop though the results
   - we will need to give the user of this script the ability to choose how many results they want (i.e. pass argments to the web service)
-- the documentation on this web service is here: https://quotesondesign.com/api-v4-0/
 
 ## Contents
 
@@ -24,8 +23,9 @@ III.[Utilize the "inspirational design quotes" service](#section3)
 <a id="section1"></a>
 
 ## I. Preview our new web service
-
-- Open up a new window in Chrome and open this URL:
+- The documentation of this web service is here: https://quotesondesign.com/api-v4-0/
+- An API key is not required to use this web service
+- To see the web service in action, bring up a new window in Chrome and open this URL:
 
 ```
 http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1
