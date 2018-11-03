@@ -171,7 +171,7 @@ We are going to look at how to download another web service, in this case an "in
 - copy over your completed **index.js** file from Part I
 
 
-### B. 
+### B. Create a node project the usual way
 - this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory to the **quote** folder and type:
 
 ```js
@@ -203,11 +203,20 @@ This time, we are going to download the **request** module, and then *save* this
 npm install request --save
 ```
 
-The `--save` flag is what tells npm to add a dependency to **package.json**, which you can see if you open the file:
+- This will download and install the **request** module just like last time
+- The `--save` flag is what tells npm to add a dependency to **package.json**, which you can see if you open the file:
 
 ```js
-
+"dependencies": {
+    "request": "^2.88.0"
+  }
 ```
+
+- note that we didn't get the warnings about the missing **package.json** file like we did last time
+
+### D. Test it
+
+- Run the 
 
 ### XXX. Add the following to **index.js**:
 
