@@ -167,7 +167,7 @@ We are going to look at how to download another web service, in this case an "in
 ### A. Get started:
 
 - create a new folder named **quote**
-- copy over your completed **index.js** file from part I
+- copy over your completed **index.js** file from Part I
 
 ### B. Add the following to **index.js**:
 
