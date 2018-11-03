@@ -164,6 +164,7 @@ We are going to look at how to download another web service, in this case an "in
   - this means we will need to format the URL differently
   - we will need to loop though the results
   - we will need to give the user of this script the ability to choose how many results they want
+- the documentation on this web service is here: https://quotesondesign.com/api-v4-0/
 
 ### A. Get started:
 
@@ -235,6 +236,6 @@ node init.js
 - to re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `dependencies:` key of **package.json**
 - run your script again - `node init.js` - it succeeds!
 
-### XXX. Add the following to **index.js**:
+### F. Download our new web service
 
 
