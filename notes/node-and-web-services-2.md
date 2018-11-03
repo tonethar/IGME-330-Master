@@ -195,6 +195,10 @@ Things we are going to do in this section:
 ### B. Display mulitiple quotes
 - ***Write a `for` loop and do this!***
 
+***Here's what mine looks like - I added a little formatting, and wrote code to strip out the HTML entities:***
+
+![screenshot](_images/node-web-services-3.jpg)
+
 ### C. Parse the first command line argument, and only show that number of quotes
 
 - Here's a great article walking through how to do this - https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e - but we'll give you specific instructions below
