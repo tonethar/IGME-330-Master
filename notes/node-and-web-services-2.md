@@ -247,10 +247,13 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
 
+***Here is my example:***
+
+![screenshot](_images/node-web-services-4.jpg)
+
 ## V. Homework
 
 <hr><hr>
 
 **[Previous Chapter <- Node.js and Web Services (chapter 1)](node-and-web-services-1.md)**
 
-**[Next Chapter -> Node.js and Web Services (chapter 3)](node-and-web-services-3.md)**
