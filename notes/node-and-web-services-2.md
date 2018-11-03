@@ -217,9 +217,37 @@ Things we are going to do in this section:
 
 #### ii. Parse out the first command line argument
 
-```js
+Replace the `numResults` line with this:
 
+```js
+let numResults = process.argv[2] || 1; // 1 will be the default
 ```
+
+- `process.argv` is an array of command line arguments - the third element in the array is the first argument that is passed after the name of the script. Read about this here:  https://nodejs.org/api/process.html#process_process_argv
+
+#### iii. Test the script
+
+- type `node index.js` and you should see 1 result (the default)
+- type `node index.js 10` and you should see 10 results
+- and so on ...
+
+#### iv. Make the script an executable tool
+
+- make **index.js** executable by typing (in Unix land) `chmod +x index.js`
+- run **index.js** by typing `./index.js 10` - which should give you 10 results
+- now make **index.js** an executable tool by adding the following key to **package.json**:
+
+```js
+"bin":{
+  	"design-quotes": "./index.js"
+  }
+```
+
+- and by typing `npm link` on the command line
+
+***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
+
+## V. Homework
 
 <hr><hr>
 
