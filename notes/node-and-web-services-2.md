@@ -133,8 +133,8 @@ const options = {
     path: 'filter[posts_per_page]='
 }
 
-let numResults = 5; // let's make 5 quotes the default, but we'll let the user change it later
-options.path += numResults; // concatenate numResults to the end of the query string
+let numResults = 1; // let's make 1 quote the default, but we'll let the user change it later
+options.path += numResults; // concatenate `numResults` to the end of the query string
 ```
 
 
@@ -149,9 +149,9 @@ options.path += numResults; // concatenate numResults to the end of the query st
 // the second parameter below is a callback function (an ES6 arrow function in this case)
 // which is called when the data is downloaded
 request(options, (err, response, body) => {
-		// if there's no error, and if the server's status code is 200 (i.e. "Ok")
+    // if there's no error, and if the server's status code is 200 (i.e. "Ok")
     if(!err && response.statusCode == 200){
-    		// A - convert the downloaded text to a JavaScript Object (in this case an array)
+    	// A - convert the downloaded text to a JavaScript Object (in this case an array)
         let obj = JSON.parse(body); 
         // B - grab the first result
         let result = obj[0];
@@ -184,8 +184,25 @@ function stripTags(str){
 }
 ```
 
+## IV. Turning our script into a command line tool
+
+Things we are going to do in this section:
+- Display the author name (the `.title` is this case)
+- Display multiple quotes
+- Parse the first command line argument, and only show that number of quotes
+- Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes`
+
+### A. Display the Author's name
+- ***Write the code to do this!***
+
+### B. Display mulitiple quotes
+- ***Write a `for` loop and do this!***
+
+### C.Parse the first command line argument, and only show that number of quotes
+
+
 - Now call this function in your code in the proper place to get rid of the HTML tags
-- Test it! The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that on your own
+- Test it! The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own
 
 <hr><hr>
 
