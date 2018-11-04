@@ -97,7 +97,7 @@ npm -v
 - and here is the URL to the service:
   - https://geek-jokes.sameerkumar.website/api
 
-If you test this in a browser, you will see a random plain-text joke such as `"E-mail returned to sender... insufficient voltage."`
+If you test the above link in a browser, you will see a random plain-text joke such as `"E-mail returned to sender... insufficient voltage."`
 
 
 ### A. Get started:
