@@ -79,6 +79,15 @@ npm -v
  
  - ***At this point you should be ready to go!***
  
+ ### C) "Hello Node"
+ 
+ Let's write a "Hello world" script to be sure everything works:
+ - create a folder named **hello**
+ - inside of this folder create a new file named **index.js**
+ - this file has one line of code in it - `console.log("Hello node!");`
+ - in the console (or Terminal on Mac), chnage directory to the **hello** folder
+ - type `node index.js` - you should see the `"Hello node!"` message printed to the console
+ 
 <a id="section2"></a>
   
 ## II. Downloading and displaying a simple "text" web service
