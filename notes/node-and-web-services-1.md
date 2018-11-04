@@ -7,7 +7,7 @@
   - [Homework: GIF Finder](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md)
   - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
 - We can also download web pages and services from the **command line** using [Node.js](https://nodejs.org/en/) - below we will work through a few examples, giving us more of a chance to work with both web services and Node.js
-- We will also see how we can create symbolic links and easily run these programs as command line tools
+- We will also see how we can easily create symbolic links with node and run these scripts as command line tools
 
 ## Contents
 
@@ -81,11 +81,11 @@ npm -v
  
  ### C) "Hello Node"
  
- Let's write a "Hello world" script to be sure everything works:
+ Let's write a "Hello world" command-line script to be sure everything works:
  - create a folder named **hello**
  - inside of this folder create a new file named **index.js**
  - this file has one line of code in it - `console.log("Hello node!");`
- - in the console (or Terminal on Mac), chnage directory to the **hello** folder
+ - in the console (or Terminal on Mac), change directory to the **hello** folder
  - type `node index.js` - you should see the `"Hello node!"` message printed to the console
  
 <a id="section2"></a>
