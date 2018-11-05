@@ -3,7 +3,7 @@
 ## Overview
 
 This time we are going to look at how to download a different web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
-- this service DOES NOT have cross-domain CORS headers turned on (**`access-control-allow-origin: *`**) - so we can't easily download it directly with a web browser. Good thing that the server-side JS code we are going to write is not restricted by this fact.
+- this service DOES NOT have cross-domain CORS headers turned on (i.e. **`access-control-allow-origin: *`**) - so we can't easily download it directly with a web browser. Good thing that the server-side JS code we are going to write below is not restricted by this fact.
 - we are going to create a **package.json** file this time
 - the data is in the JSON format so we will need to parse it before displaying it
 - the web service takes parameters, such as the number of results:
