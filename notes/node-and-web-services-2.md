@@ -263,7 +263,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ![screenshot](_images/node-web-services-4.jpg)
 
-**PS - And when you want to "unlink" this command, simply run `npm unlink` from the *quotes* folder to remove the alias**
+**PS - And when you want to "unlink" this command, simply run `npm unlink` from the *quotes* folder to remove the `design-quotes` alias**
 
 <a id="section5"></a>
 
