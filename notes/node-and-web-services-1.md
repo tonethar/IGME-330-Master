@@ -16,9 +16,9 @@ I. [Install Node.js and npm (if you need to)](#section1)
 
 II. ["Hello Node"](#section2)
 
-II. [Downloading and displaying a simple "text" web service](#section3)
+III. [Downloading and displaying a simple "text" web service](#section3)
 
-III. [Next Steps](#section4)
+IV. [Next Steps](#section4)
 
 <hr>
 
