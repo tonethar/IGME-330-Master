@@ -33,10 +33,10 @@ III. [Next Steps](#section4)
   
 To see if you already have node and npm installed on your computer, type the following in the console:
 
-```js
-node -v
-npm -v
-```
+  ```js
+  node -v
+  npm -v
+  ```
   
 ### A) How to install Node.js and the Node Package Manager (npm)
  
@@ -44,18 +44,18 @@ npm -v
  
 - You could install Node.js with **nvm** (the *Node Version Manager*) like this:
  
- ```js
- curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
- ```
+   ```js
+   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+   ```
  
  - and then: 
  
- ```js
- nvm install node
- node -v
- npm install npm@latest -g
- npm -v
- ```
+   ```js
+   nvm install node
+   node -v
+   npm install npm@latest -g
+   npm -v
+   ```
  
  **OR**
  
@@ -68,16 +68,16 @@ npm -v
  
  - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
  
- ```js
- node -v
- npm -v
- ```
+   ```js
+   node -v
+   npm -v
+   ```
  
  - After that, you can run the updater on npm itself by typing (Mac users will need `sudo` again):
  
- ```js
- npm install npm@latest -g
- ```
+   ```js
+   npm install npm@latest -g
+   ```
  
  - ***At this point you should be ready to go!***
  
@@ -136,9 +136,9 @@ request(url, (err, response, body) => {
   
 ### C. Open your console, and change directory to the **joke** folder. Run the script by typing:
 
-```js
-node index.js
-```
+  ```js
+  node index.js
+  ```
 
 ### D. FAILURE!
 
@@ -146,10 +146,10 @@ node index.js
 - This is happening because you never downloaded the files that node needs to actually import the **request** module code.
 
 ### E. Download the **request** module files by typing this (Mac users will need `sudo` again):
-
-```js
-npm install request
-```
+  
+  ```js
+  npm install request
+  ```
 
 - Downloading of files now should begin. Once downloading has completed, you will see a few warnings about a file named **package.json** missing - we will address this in the next section.
 - You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
@@ -157,15 +157,15 @@ npm install request
 
 ### F. Try to run the app again by typing:
 
-```js
-node index.js
-```
+  ```js
+  node index.js
+  ```
 
 **SUCCESS! - You should see a joke in the console - something like:**
 
-```
-"The First rule of Chuck Norris is: you do not talk about Chuck Norris."
-```
+  ```
+  "The First rule of Chuck Norris is: you do not talk about Chuck Norris."
+  ```
 
 ![screenshot](_images/node-web-services-1.jpg)
 
