@@ -90,9 +90,9 @@ npm -v
  - inside of this folder create a new file named **index.js**
  - add one line of code to this file:
 
-  ```js
-  console.log("Hello node!");
-  ```
+    ```js
+    console.log("Hello node!");
+    ```
   
  - in the console (or Terminal on Mac), change directory to the **hello** folder
  - type `node index.js` - you should now see the `"Hello node!"` message printed to the console
