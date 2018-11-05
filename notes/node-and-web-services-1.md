@@ -88,7 +88,12 @@ npm -v
  Let's write a "Hello world" command-line script to be sure everything works:
  - create a folder named **hello**
  - inside of this folder create a new file named **index.js**
- - add one line of code to this file - `console.log("Hello node!");`
+ - add one line of code to this file:
+
+  ```js
+  console.log("Hello node!");
+  ```
+  
  - in the console (or Terminal on Mac), change directory to the **hello** folder
  - type `node index.js` - you should now see the `"Hello node!"` message printed to the console
  
