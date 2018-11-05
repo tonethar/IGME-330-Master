@@ -101,7 +101,7 @@ To see if you already have node and npm installed on your computer, type the fol
   
 ## III. Downloading and displaying a simple "text" web service
 
-- We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random Chuck Norris joke" web service. The web service will return the joke data in plain text format - here are the docs:
+- We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random geek joke" web service. The web service will return the joke data in plain text format - here are the docs:
   - https://github.com/sameerkumar18/geek-joke-api
 - and here is the URL to the service:
   - https://geek-jokes.sameerkumar.website/api
