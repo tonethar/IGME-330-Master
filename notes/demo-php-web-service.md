@@ -1,5 +1,12 @@
 # Demo: PHP-driven Web Service
 
+## Overview
+
+- We can use the PHP scripting language to return data in JSON format - thus creating our own web service.
+
+## I. Simple Web Service (JSON only)
+
+This web service returns 
 **get-a-joke.php**
 
 ```php
@@ -34,9 +41,12 @@ $string = json_encode($randomJoke);
 header('content-type:application/json');
 echo $string;
 
-
 ?>
 ```
+
+## II. Web Service with JSON and JSON-P
+
+- This web service accepts a parameter for a named callback function, and will wrap the JSON data inside of that callback function before returning it:
 
 **get-a-joke-2.php**
 
