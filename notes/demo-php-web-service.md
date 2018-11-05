@@ -2,7 +2,9 @@
 
 ## Overview
 
-- We can use the PHP scripting language to return data in JSON format - thus creating our own web service.
+- We can use the PHP scripting language to return data in the JSON and JSON-P formats - thus creating our own web service:
+  - https://en.wikipedia.org/wiki/JSON
+  - https://en.wikipedia.org/wiki/JSONP
 
 ## I. Simple Web Service (JSON only)
 
@@ -93,7 +95,6 @@ if ($callback){
 }
 
 echo $string;
-
 
 ?>
 ```
