@@ -105,7 +105,7 @@ npm install request --save
 node init.js
 ```
  
- - Which should print out another Chuck Norris joke such as:
+ - Which should print out another "geek" joke such as:
  
  ```
 "Chuck Norris can do a roundhouse kick faster than the speed of light. This means that if you turn on a light switch, you will be dead before the lightbulb turns on."
@@ -122,7 +122,7 @@ node init.js
 
 ## III. Utilize the "inspirational design quotes" service
 
-Now that we have our script and **package.json** file working with the "random chuck norris joke" web service, it's time to get it working with our new "inspirational design quotes" web service.
+Now that we have our script and **package.json** file working with the "random geek joke" web service, it's time to get it working with our new "inspirational design quotes" web service.
 
 ### A. Modify the code to request a variable number of results
 
