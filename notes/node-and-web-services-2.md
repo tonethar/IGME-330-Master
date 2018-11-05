@@ -7,8 +7,8 @@ This time we are going to look at how to download a different web service, in th
 - the data is in the JSON format so we will need to parse it before displaying it
 - the web service takes parameters, such as the number of results:
   - this means we will need to format the URL differently
-  - we will need to loop though the results
-  - we will need to give the user of this script the ability to choose how many results they want (i.e. pass argments to the web service)
+  - we will need to loop through the results
+  - we will need to give the user of this script the ability to choose how many results they want (i.e. pass arguments to the web service)
 
 ## Contents
 
@@ -138,7 +138,7 @@ url += numResults; // concatenate `numResults` to the end of the query string
 
 ### B. Convert the downloaded text to a parsable object
 
-- The "joke" web servie returns plain text, but this one returns the data as a JSON string
+- The "Chuck Norris joke" web service returned plain text, but this one returns the data as a JSON string
 - We need to convert this string to an object before we can parse it - `JSON.parse()` accomplishes this for us
 - **Note:** in the web browser, we have been using `jQuery.ajax()` to download the data, and jQuery has been automagically converting the downloaded string to a JSON object for us - wasn't that nice of it?)
 - Go ahead and change section #3 of **index.js** so it looks like this: 
@@ -220,6 +220,7 @@ Things we are going to do in this section:
 ```
 #!/usr/bin/env node
 ```
+
 - This is the path to the node executable that will parse and run the code in the **index.js** file
 - [Wikipedia - Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
 
@@ -231,7 +232,7 @@ Replace the `numResults` line with this:
 let numResults = process.argv[2] || 1; // 1 will be the default
 ```
 
-- `process.argv` is an array of command line arguments - the third element in the array is the first argument that is passed after the name of the script. Read about this here:  https://nodejs.org/api/process.html#process_process_argv
+- `process.argv` is an array of the command line arguments the user typed - the third element in this array is the first argument that is passed *after* the name of the script. Read about this here:  https://nodejs.org/api/process.html#process_process_argv
 
 #### iii. Test the script
 
