@@ -1,9 +1,12 @@
 # HW - Maps Part I
 
 ## I. Overview
-- This exercise gives you a chance to practice and review:
-  - the canvas code needed to create circles, squares, and polygons
+- This exercise gives you a chance to work with the google maps API:
+  - get an API key
+  - set the zoom level and center of the map with buttons
+  - add markers to the map
 - The instructions are here: [Maps-1.pdf](./_files/Maps-1.pdf (6.7 MB))
+- start files are below
 - See mycourses.rit.edu dropbox for due date
   
 ## II. Start Files
