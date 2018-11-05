@@ -14,9 +14,11 @@
 <!--- Local Navigation --->
 I. [Install Node.js and npm (if you need to)](#section1)
 
-II. [Downloading and displaying a simple "text" web service](#section2)
+II. ["Hello Node"](#section2)
 
-III. [Next Steps](#section3)
+II. [Downloading and displaying a simple "text" web service](#section3)
+
+III. [Next Steps](#section4)
 
 <hr>
 
@@ -79,7 +81,9 @@ npm -v
  
  - ***At this point you should be ready to go!***
  
- ### C) "Hello Node"
+ <a id="section2"></a>
+ 
+## II. "Hello Node"
  
  Let's write a "Hello world" command-line script to be sure everything works:
  - create a folder named **hello**
@@ -88,9 +92,9 @@ npm -v
  - in the console (or Terminal on Mac), change directory to the **hello** folder
  - type `node index.js` - you should now see the `"Hello node!"` message printed to the console
  
-<a id="section2"></a>
+<a id="section3"></a>
   
-## II. Downloading and displaying a simple "text" web service
+## III. Downloading and displaying a simple "text" web service
 
 - We are going to keep this as bare-bones as possible (not even using `npm`), so we will just download a joke from a "random Chuck Norris joke" web service. The web service will return the joke data in plain text format - here are the docs:
   - https://github.com/sameerkumar18/geek-joke-api
@@ -161,8 +165,8 @@ node index.js
 ![screenshot](_images/node-web-services-1.jpg)
 
 
-<a id="section3"></a>
-## III. Next Steps
+<a id="section4"></a>
+## IV. Next Steps
 
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
 - But once you have finished this series, come back to this example and:
