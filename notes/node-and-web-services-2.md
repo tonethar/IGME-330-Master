@@ -221,7 +221,7 @@ Things we are going to do in this section:
 #!/usr/bin/env node
 ```
 - This is the path to the node executable that will parse and run the code in the **index.js** file
-- (Wikipedia - Shebang)[https://en.wikipedia.org/wiki/Shebang_%28Unix%29]
+- [Wikipedia - Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
 
 #### ii. Parse out the first command line argument
 
