@@ -33,10 +33,10 @@ III. [Next Steps](#section4)
   
 To see if you already have node and npm installed on your computer, type the following in the console:
 
-    ```js
-    node -v
-    npm -v
-    ```
+  ```js
+  node -v
+  npm -v
+  ```
   
 ### A) How to install Node.js and the Node Package Manager (npm)
  
