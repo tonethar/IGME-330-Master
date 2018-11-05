@@ -264,13 +264,13 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 <a id="section5"></a>
 
 ## V. Homework
-
+Out of 10 points.
 - Make sure that everything we asked for in Section IV. is working:
-  - Display the author name
-  - Display multiple quotes
-  - Parse the first command line argument, and only show that number of quotes
-  - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes`
-- Also be sure that everything is formatted nicely - add spacing where appropriate - reminder `\n` is a new line
+  - Display the author name (1 point)
+  - Display multiple quotes (4 points)
+  - Parse the first command line argument, and only show that number of quotes (2 points)
+  - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes` (2 points)
+- Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (1 point)
 
 **ZIP and POST to Dropbox**
 <hr><hr>
