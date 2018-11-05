@@ -124,7 +124,7 @@ const coffeeShops = [
 ];
 ```
 
-**building-data.js**
+**building-data.js** (for the *optional* oprtion of the HW)
 
 ```js
 const buildings = [
