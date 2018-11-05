@@ -80,7 +80,7 @@ This will create your **package.json** file with the default metadata about your
 
 ### C. Download the **request** module 
 
-This time, we are going to download the **request** module, and then *save* this dependency into the **package.json** file. Type the following in (Mac users will need `sudo` again):
+This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file. Type the following in (Mac users will need `sudo` again):
 
 ```js
 npm install request --save
