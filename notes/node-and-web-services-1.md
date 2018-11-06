@@ -77,7 +77,6 @@ To see if you already have node and npm installed on your computer, type the fol
  
    ```js
    npm install npm@latest -g
-   nvm install stable
    ```
  
  - ***At this point you should be ready to go!***
