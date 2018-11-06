@@ -73,10 +73,11 @@ To see if you already have node and npm installed on your computer, type the fol
    npm -v
    ```
  
- - After that, you can run the updater on npm itself by typing (Mac users will need `sudo` again):
+ - After that, you can run the updater on npm and node by typing (Mac users will need `sudo` again):
  
    ```js
    npm install npm@latest -g
+   nvm install stable
    ```
  
  - ***At this point you should be ready to go!***
