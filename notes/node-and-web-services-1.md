@@ -77,6 +77,7 @@ To see if you already have node and npm installed on your computer, type the fol
  
    ```js
    npm install npm@latest -g
+   nvm install node --latest-npm --reinstall-packages-from=node
    ```
  
  - ***At this point you should be ready to go!***
