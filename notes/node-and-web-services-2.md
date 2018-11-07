@@ -259,7 +259,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
 
-***(Note:  `npm link` will likely fail on the lab machines :-( - this won't hurt your HW grade because we will be looking for the `bin` key in package.json to verify that you tried to get it to work)***
+***(Note:  `npm link` will likely fail on the lab machines :-(  this won't hurt your HW grade because we will be looking for the `bin` key in package.json to verify that you tried to get it to work)***
 
 ***Here is my example:***
 
