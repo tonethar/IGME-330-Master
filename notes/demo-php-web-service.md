@@ -52,7 +52,8 @@ echo $string;
 
 ### I-B. The *client* code (Node.js JavaScript)
 
-- You can create a node project like we did here - [node-and-web-services-2.md](./node-and-web-services-2.md) - and run this code. It will call the web service and print out a random joke:
+- You can create a node project like we did here - [node-and-web-services-2.md](./node-and-web-services-2.md) - and run this code. 
+- **SUCCESS!** - It will call the web service and print out a random joke:
 
 ```
 ***The joke is:***
@@ -89,7 +90,16 @@ request(url, (err, response, body) => {
 });
 ```
 
-### I-C. The *client* code (Web Browser JavaScript)
+### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
+
+- Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
+- **FAIL!** - Here's the error message: 
+
+**
+```
+Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+**
 
 ```html
 TBA
