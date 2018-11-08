@@ -44,6 +44,7 @@ $randomJoke = $jokes[mt_rand(0, $numJokes - 1)];
 $string = json_encode($randomJoke);
 
 // Sends the correct HTTP header
+// header("Access-Control-Allow-Origin: *");
 header('content-type:application/json');
 echo $string;
 
