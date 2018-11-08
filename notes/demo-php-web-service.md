@@ -95,6 +95,8 @@ request(url, (err, response, body) => {
 
 - Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
 
+**get-a-joke-jquery-ajax-json-start.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -189,9 +191,9 @@ header("Access-Control-Allow-Origin: *");
 <hr><hr>
 
 ## II. Web Service with JSON and JSON-P
-- So what if the web service you want to use does not enable CORS, and don't have any control over it? What do you do?
+- So what if the web service you want to use does not enable CORS, and you don't have any control over the service? What do you do?
 - Answer: JSON-P to the rescue!
-- This web service accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it - check it out here: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
+- The web service below accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it - check it out here: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
 - JSON wrapped inside of a callback funciton is called JSON-P
 - JSON-P CAN be downloaded cross-domain, even if CORS is NOT turned on.
 - NOTE: naming the callback function `jsonLoaded` is completely arbitrary - call it whatever you want - just be sure that your JS is changed to match the new function name
@@ -317,7 +319,8 @@ echo $string;
 
 - Now we will see how jQuery is successfully downloading JSON-P from another domain
 - Basically, it dynamically creates a &lt;script> tag and set the `.src` property of that tag to the address of the JSON-P web service. 
-- Once this JSON-P file (which is a JavaScript code file) is downloaded, the callback function in the JSONP-P file that wraps the JSON data is called.
+- Once this JSON-P file (which is a JavaScript code file) is downloaded, the callback function is called, and passes the JSON data that was "Wrapped" in the call
+- thsi technique is alterantively called "DOM Injection", "Script Tag hack", or XSS (Cross-Site Scripting)
 - Below, we will download JSON-P without the help of a library
 
 **get-a-joke-DOM-injection-jsonp-start.html**
