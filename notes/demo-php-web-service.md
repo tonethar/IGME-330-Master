@@ -9,7 +9,7 @@
 ## I. Simple Web Service (JSON only)
 
 - This web service returns a random joke in the JSON format
-- Here is a working vertsion: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
+- Here is a working version: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
 
 ### I-A. The *server* code (in PHP)
 
