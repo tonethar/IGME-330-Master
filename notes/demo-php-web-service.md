@@ -51,7 +51,7 @@ echo $string;
 ## II. Web Service with JSON and JSON-P
 
 - This web service accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
-- JSON wrapped inside of a callback funciton is called JSONP
+- JSON wrapped inside of a callback funciton is called JSON-P
 
 **get-a-joke-2.php**
 
@@ -59,7 +59,7 @@ echo $string;
 <?php
 /*
 	Name: get-a-joke-2.php
-	Description: Returns a single random joke in JSON format
+	Description: Returns a single random joke in JSON or JSON-P format
 	Author: Keyser Soze
 	Last Modified: 11/5/2018
 */
