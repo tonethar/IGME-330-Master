@@ -169,7 +169,7 @@ has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pres
 
 - B. CORS stands for "Cross-Origin Resourse Sharing" 
 
-- "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin. - "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+- "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin." - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 - C. In this case, we can enable CORS for this web service because we are the ones that wrote it. Add this header to your PHP script (*before* the `echo()` statement):
 
@@ -314,7 +314,7 @@ echo $string;
 ### II-C. The *client* code (JavaScript utilizing XSS)
 
 - Now we will see how jQuery is successfully downloading JSON-P from another domain
-- Basically, it dynamically creates a &lt;script> tag and set the `.src. property of that tag to the address of the JSON-P web service. 
+- Basically, it dynamically creates a &lt;script> tag and set the `.src` property of that tag to the address of the JSON-P web service. 
 - Once this JSON-P file (which is a JavaScript code file) is downloaded, the callback function in the JSONP-P file that wraps the JSON data is called.
 
 **get-a-joke-DOM-injection-jsonp-start.html**
