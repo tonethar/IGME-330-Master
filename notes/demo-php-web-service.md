@@ -180,7 +180,7 @@ has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pres
 header("Access-Control-Allow-Origin: *");
 ```
 
-- D. Now check the Network tab in the Web Inspector to see these new headers:
+- D. Now check the Network tab in the Web Inspector to see this new header:
 
 ![Screenshot](_images/php-web-service-1.jpg)
 
