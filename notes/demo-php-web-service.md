@@ -52,6 +52,19 @@ echo $string;
 
 ### I-B. The *client* code (Node.js JavaScript)
 
+- You can create a node project like we did here - [node-and-web-services-2.md](./node-and-web-services-2.md) - and run this code. It will call the web service and print out a random joke:
+
+```
+***The joke is:***
+What do you call a very small valentine?
+
+A valen-tiny!
+```
+
+- Here's the code:
+
+**random-joke/index.js**
+
 ```js
 // #1 - import the request module, which is used to download data over http
 const request = require('request');
