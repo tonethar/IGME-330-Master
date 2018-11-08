@@ -8,7 +8,9 @@
 
 ## I. Simple Web Service (JSON only)
 
-This web service returns 
+- This web service returns a random joke in the JSON format
+- Here is a working vertsion: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
+
 **get-a-joke.php**
 
 ```php
@@ -48,7 +50,8 @@ echo $string;
 
 ## II. Web Service with JSON and JSON-P
 
-- This web service accepts a parameter for a named callback function, and will wrap the JSON data inside of that callback function before returning it:
+- This web service accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
+- JSON wrapped inside of a callback funciton is called JSONP
 
 **get-a-joke-2.php**
 
