@@ -61,7 +61,7 @@ What do you call a very small valentine?
 A valen-tiny!
 ```
 
-- Here's the code:
+- Here's the Node.js code:
 
 **random-joke/index.js**
 
