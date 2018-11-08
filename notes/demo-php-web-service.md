@@ -93,17 +93,95 @@ request(url, (err, response, body) => {
 ### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
 
 - Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
-- **FAIL!** - Here's the error message: 
 
-**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Get a joke JSON!</title>
+
+ <!-- Import jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  
+  <script>
+  	"use strict";
+	const URL = "http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php";
+	window.onload = init;
+	
+	function init(){
+		document.querySelector("#search").onclick = getData;
+	}
+	
+	// MY FUNCTIONS
+	function getData(){
+		let url = URL;
+		console.log("loading " + url);
+		
+		// use jQuery
+	$.ajax({
+		  dataType: "json",
+		  url: url,
+		  data: null,
+		  success: jsonLoaded
+		});
+
+	
+	}
+	
+
+	function jsonLoaded(obj){
+		console.log("obj stringified = " + JSON.stringify(obj));
+
+		/*
+			Write code to display the .q and .a properties of the joke
+		*/
+
+		//document.querySelector("#content").innerHTML = bigString;
+	}
+
+ </script>
+  
+  
+</head>
+<body>
+ <h1>Jokes!</h1>
+
+
+<button type="button" id="search">Get Joke!<br />:-O</button>
+
+<h2>Results</h2>
+ <div id="content">
+ <p>No data yet!</p>
+ </div>
+ 
+
+</body>
+</html>
+```
+
+- A. **FAIL!** - Here's the error message: 
+
 ```
 Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
-**
 
-```html
-TBA
+- B. CORS stands for "Cross-Origin Resourse Sharing" 
+
+- "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin. - "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+- C. In this case, we can enable CORS for this web service because we are the ones that wrote it. Add this header to your PHP script (*before* the `echo()` statement):
+
+```php
+header("Access-Control-Allow-Origin: *");
 ```
+
+- D. Now check the Network tab in the Web Inspector to see these new headers:
+
+![Screenshot](_images/)
+
+- E. ***Summary: Web browsers (NOT Node.js clients) can not directly download directly JSON data from another domain unless CORS is enabled.***
+
 
 ## II. Web Service with JSON and JSON-P
 
