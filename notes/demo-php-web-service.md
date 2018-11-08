@@ -163,7 +163,8 @@ request(url, (err, response, body) => {
 - A. **FAIL!** - Here's the error message: 
 
 ```
-Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null'
+has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
 
 - B. CORS stands for "Cross-Origin Resourse Sharing" 
