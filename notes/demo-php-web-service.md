@@ -184,9 +184,9 @@ header("Access-Control-Allow-Origin: *");
 
 ![Screenshot](_images/php-web-service-1.jpg)
 
-- E. Try your browser client again - you should be able to downloadd the JSON now!
+- E. Try your browser client again - you should be able to download the JSON now!
 
-- F. ***Summary: Web browsers can NOT directly download directly JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
+- F. ***Summary: Web browsers can NOT directly download JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
 
 <hr><hr>
 
