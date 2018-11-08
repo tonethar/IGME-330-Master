@@ -112,7 +112,7 @@ echo $string;
 ?>
 ```
 
-### II-B. The *client* code (JavaScript)
+### II-B. The *client* code (JavaScript utilizing `jQuery.ajax()`)
 
 **get-a-joke-jquery-ajax-jsonp-start.html**
 
