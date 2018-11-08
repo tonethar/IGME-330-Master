@@ -186,6 +186,8 @@ header("Access-Control-Allow-Origin: *");
 
 - F. ***Summary: Web browsers can NOT directly download directly JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
 
+<hr><hr>
+
 ## II. Web Service with JSON and JSON-P
 - So what if the web service you want to use does not enable CORS, and don't have any control over it? What do you do?
 - Answer: JSON-P to the rescue!
