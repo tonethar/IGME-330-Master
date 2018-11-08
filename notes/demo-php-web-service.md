@@ -316,6 +316,7 @@ echo $string;
 - Now we will see how jQuery is successfully downloading JSON-P from another domain
 - Basically, it dynamically creates a &lt;script> tag and set the `.src` property of that tag to the address of the JSON-P web service. 
 - Once this JSON-P file (which is a JavaScript code file) is downloaded, the callback function in the JSONP-P file that wraps the JSON data is called.
+- Below, we will download JSON-P without the help of a library
 
 **get-a-joke-DOM-injection-jsonp-start.html**
 
