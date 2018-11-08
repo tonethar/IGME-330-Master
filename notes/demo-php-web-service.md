@@ -178,7 +178,7 @@ header("Access-Control-Allow-Origin: *");
 
 - D. Now check the Network tab in the Web Inspector to see these new headers:
 
-![Screenshot](_images/)
+![Screenshot](_images/php-web-service-1.jpg)
 
 - E. ***Summary: Web browsers (NOT Node.js clients) can not directly download directly JSON data from another domain unless CORS is enabled.***
 
@@ -187,6 +187,7 @@ header("Access-Control-Allow-Origin: *");
 
 - This web service accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
 - JSON wrapped inside of a callback funciton is called JSON-P
+- JSON-P CAN be downloaded cross-domain, even if CORS is NOT turned on.
 
 ### II-A. The *server* code (in PHP)
 
@@ -306,6 +307,10 @@ echo $string;
 
 
 ### II-C. The *client* code (JavaScript utilizing XSS)
+
+- Now we will see how jQuery is successfully downloading JSON-P from another domain
+- Basically, it dynamically creates a &lt;script> tag and set the `.src. property of that tag to the address of the JSON-P web service. 
+- Once this JSON-P file (which is a JavaScript code file) is downloaded, the callback function in the JSONP-P file that wraps the JSON data is called.
 
 **get-a-joke-DOM-injection-jsonp-start.html**
 
