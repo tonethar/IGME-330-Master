@@ -183,8 +183,7 @@ header("Access-Control-Allow-Origin: *");
 
 - E. Try your browser client again - you should be able to downloadd the JSON now!
 
-- F. ***Summary: Web browsers (NOT Node.js clients) can not directly download directly JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
-
+- F. ***Summary: Web browsers can NOT directly download directly JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
 
 ## II. Web Service with JSON and JSON-P
 - So what if the web service you want to use does not enable CORS, and don't have any control over it? What do you do?
