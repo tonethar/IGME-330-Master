@@ -114,7 +114,7 @@ echo $string;
 
 ### II-B. The *client* code (JavaScript)
 
-**get-a-joke-jquery-ajax-jsonp-start**
+**get-a-joke-jquery-ajax-jsonp-start.html**
 
 ```html
 <!DOCTYPE html>
@@ -171,6 +171,113 @@ echo $string;
  <div id="content">
  <p>No data yet!</p>
  </div>
+ 
+</body>
+</html>
+```
+
+
+### II-C. The *client* code (JavaScript utilizing XSS)
+
+**get-a-joke-DOM-injection-jsonp-start.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Get Joke -  DOM Injection Version</title>
+ 	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+ 	<style>
+ 	*{
+ 		font-family:sans-serif;
+ 	}
+ 	
+ 	header{
+ 		background-color: crimson;
+ 		margin:0;
+ 		padding-left:5px;
+ 	}
+ 	
+ 	h1{
+ 		font-size:4.5em;
+ 		font-family: "Audiowide";
+ 		margin-top:0;
+ 		margin-bottom:0;
+ 		color:black;
+ 		letter-spacing:.025em;
+ 	}
+ 	
+ 	h2{
+ 		font-size:1.5em;
+ 		font-family: "Audiowide";
+ 		margin-top:0;
+ 		color:#eee;
+ 		letter-spacing:.04em;
+ 		white-space: nowrap;
+ 	}
+ 	
+ 	section>div{
+ 		background-color:#ccc;
+ 		margin:1em;
+ 		padding:.5em;
+ 	}
+ 	</style>
+
+  <script>
+  	"use strict";
+	const URL = "http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php";
+	
+	window.onload = init;
+	
+	function init(){
+		document.querySelector("#search").onclick = search;
+	}
+	
+	// MY FUNCTIONS
+	function search(){
+		// build url
+		let url = URL;
+		url += "?callback=jsonLoaded";
+		
+		
+		// create <script> element and add to page
+	
+		console.log("loading: " + url);
+	}
+	
+
+	function jsonLoaded(obj){
+		console.log("obj stringified = " + JSON.stringify(obj));
+		
+		// get rid of <script> tag we made for this request
+		
+		
+		let q = obj.q;
+		let a = obj.a;
+
+		
+		
+		document.querySelector("#content").innerHTML = bigString;
+		
+	}
+
+ </script>
+  
+  
+</head>
+<body>
+<header>
+ <h1>Joker Finder!</h1>
+ <h2>The Joke tool you can trust&reg;</h2>
+</header>
+	<p id='status'><i>Status: Ready to laugh!</i></p>
+	<p>
+		<button id="search">Search!</button>
+	</p>
+	<hr>
+	<h3>Results:</h3>
+	<p id="content">???</p>
  
 </body>
 </html>
