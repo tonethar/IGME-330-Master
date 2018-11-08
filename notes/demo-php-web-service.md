@@ -192,9 +192,10 @@ echo $string;
 	
 	function jsonLoaded(obj){
 		console.log("obj stringified = " + JSON.stringify(obj));
-
+		/*
+			Write code to display the .q and .a properties of the joke
+		*/
 	
-
 		//document.querySelector("#content").innerHTML = bigString;
 	}
 
@@ -295,7 +296,9 @@ echo $string;
 		let q = obj.q;
 		let a = obj.a;
 
-		
+		/*
+			Write code to display the .q and .a properties of the joke
+		*/
 		
 		document.querySelector("#content").innerHTML = bigString;
 		
