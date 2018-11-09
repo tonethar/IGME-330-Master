@@ -194,7 +194,7 @@ header("Access-Control-Allow-Origin: *");
 - So what if the web service you want to use does not enable CORS, and you don't have any control over the service? What do you do?
 - Answer: JSON-P to the rescue!
 - The web service below accepts a parameter for a named callback function, and if one is specified, it will wrap the JSON data inside of that callback function before returning it - check it out here: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke-2.php?callback=jsonloaded
-- JSON wrapped inside of a callback funciton is called JSON-P
+- JSON wrapped inside of a callback function is called JSON-P
 - JSON-P CAN be downloaded cross-domain, even if CORS is NOT turned on.
 - NOTE: naming the callback function `jsonLoaded` is completely arbitrary - call it whatever you want - just be sure that your JS is changed to match the new function name
 
