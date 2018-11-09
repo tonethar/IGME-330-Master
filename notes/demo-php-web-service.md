@@ -170,7 +170,7 @@ Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/ph
 has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
 
-- B. CORS stands for "Cross-Origin Resourse Sharing" 
+- B. CORS stands for "Cross-Origin Resource Sharing" 
 
 - "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin." - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
