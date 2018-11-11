@@ -109,8 +109,8 @@ node init.js
  - Which should print out another "geek" joke such as:
  
  ```
-"Chuck Norris can do a roundhouse kick faster than the speed of light. This means that if you turn on a light switch, 
-you will be dead before the lightbulb turns on."
+"Chuck Norris can do a roundhouse kick faster than the speed of light. This means that if you turn on a 
+light switch, you will be dead before the lightbulb turns on."
  ```
  
 ### E. Test package.json
