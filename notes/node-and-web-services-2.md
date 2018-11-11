@@ -244,7 +244,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ### D. Make the script an executable tool (and not have to type `node` first)
 
-- make **index.js** executable by typing (only required in Unix land, you don't need to do this on Windoze):
+- make **index.js** *executable* by typing (only required in Unix land, you don't need to do this on Windoze):
 
     ```
     chmod +x index.js
@@ -259,7 +259,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
   	"design-quotes": "./index.js"
   }
 ```
-- `"design-quotes"` is now the name of the command
+- `"design-quotes"` above is the name of the command
 - create the link by typing `npm link` on the command line (Mac users will need `sudo` at the beginning again)
 
 - ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
