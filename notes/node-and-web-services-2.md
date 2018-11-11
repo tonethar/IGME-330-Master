@@ -243,7 +243,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
 
 ### D. Make the script an executable tool (and not have to type `node` first)
 
-- make **index.js** executable by typing (in Unix land) `chmod +x index.js`
+- make **index.js** executable by typing (in Unix land, you don't need to do this on Windows) `chmod +x index.js`
 
 - test **index.js** by typing `./index.js 10` - which should give you 10 results
 
