@@ -91,7 +91,7 @@ const app = new Vue({
 	methods:{
 	search(){
 		//if (! this.term.trim()) return;
-		fetch("https://people.rit.edu/~acjvks/330/spring-2018/php-web-services/get-a-joke.php")
+		fetch("http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php")
 		.then(response => {
 			if(!response.ok){
 				throw Error(`ERROR: ${response.statusText}`);
