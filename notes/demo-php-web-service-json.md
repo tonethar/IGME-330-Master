@@ -242,8 +242,8 @@ header("Access-Control-Allow-Origin: *");
 			Write code to display the .q and .a properties of the joke
 		*/
 
-		let bigString = `<p><i>${obj.q}</i><p>`;
-		bigString += `<p><b>${obj.a}</b><p>`;
+		let bigString = `<p><i>${obj.q}</i></p>`;
+		bigString += `<p><b>${obj.a}</b></p>`;
 		document.querySelector("#content").innerHTML = bigString;
 	}
 
