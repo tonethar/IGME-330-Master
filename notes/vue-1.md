@@ -12,7 +12,7 @@
   
 ## 0. Start File
 
-First, we will try to demonstrate one of the problem that Vue and (other reatcive frameworks) solves.
+First, we will try to demonstrate one of the problems that Vue and (other reactive frameworks) solves.
 
 **data-binding-hard-start.html**
 
