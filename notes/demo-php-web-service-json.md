@@ -1,4 +1,4 @@
-# Demo: PHP-driven Web Service
+# Demo: PHP-driven JSON Web Service
 
 ## Overview
 
