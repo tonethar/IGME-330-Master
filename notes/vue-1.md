@@ -64,7 +64,7 @@ let data = {
 1. test it - see the reactivity?
 1. create paragraph binding with handlebar-like syntax `{{ }}`
 1. test it - more reactivity
-1. show binding (2 way reactivity) to `data.message` in console
+1. show binding (2 way reactivity) to `data.message` in Vue Devtools console
 1. we can also access in console through `app.message`
 1. the `data` object is a "single source of truth" in that it always reflects the true value
 
