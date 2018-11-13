@@ -119,6 +119,7 @@ let app = new Vue({
 
   
 ### Demo Instructions
+1. add an array called `names` to your data object, and populate it with 3 names 
 1. use the `v-for` directive to loop through an array and display the contents, then either use the handlebars or the `v-text` directive
 1. add and remove array elements in console
 1. create input field and button using event listener and add new names to the list (i.e. old school)
