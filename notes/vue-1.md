@@ -122,7 +122,7 @@ let app = new Vue({
 1. add an array called `names` to your data object, and populate it with 3 names 
 1. use the `v-for` directive to loop through an array and display the contents, then either use the handlebars or the `v-text` directive
 1. add and remove array elements in console
-1. create input field and button using event listener and add new names to the list (i.e. old school)
+1. create an input field and button, and add new names to the list using an event handler (i.e. do it "old school")
 
   
 <hr><hr>
@@ -133,7 +133,7 @@ let app = new Vue({
 ### Demo Instructions
 1. rename **vue-v-for.html** to **vue-v-for-2.html**
 1. now switch code to use the `v-on:click` directive (`@click` is a shortcut) instead of DOM event listeners
-1. add a `methods` to `data`
+1. add a `methods` key to `data`
 1. we need to use `v-model` on the input field, and create a new property on our `data` model
 
   
