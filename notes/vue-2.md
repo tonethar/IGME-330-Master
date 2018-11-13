@@ -121,6 +121,7 @@ The basics are done here, but there is still some work left to get it functionin
 1. Display the result on the page (instead of just in the console)
 1. Use `data.created()` [lifecycle hook](https://vuejs.org/v2/api/#Options-Lifecycle-Hooks) to call the `search()` method when the app first loads.
 
+<a id="homework"></a>
 
 ## VI. Homework
 - Using our random joke app as a start file:
