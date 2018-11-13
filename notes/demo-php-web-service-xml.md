@@ -106,8 +106,8 @@ echo $string;
 			Write code to display the .q and .a properties of the joke
 		*/
 
-		let bigString = `<p><i>${q}<i><p>`;
-		bigString += `<p><b>${a}<b><p>`;
+		let bigString = `<p><i>${q}</i></p>`;
+		bigString += `<p><b>${a}</b></p>`;
 		document.querySelector("#content").innerHTML = bigString;
 	}
 
