@@ -1,4 +1,4 @@
-# XML Web Services
+# Demo: PHP-driven XML Web Service
 
 - We can use the PHP scripting language to return data in the XML format - thus creating our own web service:
   - https://en.wikipedia.org/wiki/XML
