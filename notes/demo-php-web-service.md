@@ -188,6 +188,85 @@ header("Access-Control-Allow-Origin: *");
 
 - F. ***Summary: Web browsers can NOT directly download JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
 
+### I-D. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
+
+- Here we are going to try to download this JSON data utilizing the standardized [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) method - and we will again succeed because CORS is turned on.
+
+**get-joke-xhr-json.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Get a joke XHR/JSON</title>
+
+  
+  <script>
+  //https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
+  
+  "use strict";
+	const URL = "http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php";
+	window.onload = init;
+	
+	function init(){
+		document.querySelector("#search").onclick = getData;
+	}
+	
+	// MY FUNCTIONS
+	function getData(){
+		let url = URL;
+		console.log("loading " + url);
+		
+		// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+		let xhr = new XMLHttpRequest();
+		xhr.onload = jsonLoaded;
+		xhr.onprogress = (e) => console.log(`PROGRESS: ${e}`); 
+		xhr.onerror = (e) => console.log(`ERROR: ${e}`); 
+		
+		// xhr.open(method, url, async, user, password)
+		xhr.open("GET", url, true);
+		xhr.send();	
+	}
+	
+
+	function jsonLoaded(e){
+			console.log(`LOADED: ${e}`);
+			let responseText = e.target.responseText;
+			console.log(`responseText: ${responseText}`);
+			let obj = JSON.parse(responseText);
+			console.log(obj);
+			
+
+		/*
+			Write code to display the .q and .a properties of the joke
+		*/
+
+		let bigString = `<p><i>${obj.q}<i><p>`;
+		bigString += `<p><b>${obj.a}<b><p>`;
+		document.querySelector("#content").innerHTML = bigString;
+	}
+
+ </script>
+  
+  
+</head>
+<body>
+ <h1>Jokes!</h1>
+
+
+<button type="button" id="search">Get Joke!<br />:-O</button>
+
+<h2>Results</h2>
+ <div id="content">
+ <p>No data yet!</p>
+ </div>
+ 
+
+</body>
+</html>
+```
+
 <hr><hr>
 
 ## II. Web Service with JSON and JSON-P
