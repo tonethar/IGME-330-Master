@@ -52,7 +52,7 @@ echo $string;
 ?>
 ```
 
-## II. XHR client code
+## II. XHR client code for downloading XML
 
 - Here we will use the [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) (XHR) object to download the XML data
 - Because CORS is turned on for our random jokes web service, XHR *will* be able to download this XML cross-domain
