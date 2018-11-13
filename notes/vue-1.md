@@ -62,7 +62,7 @@ let data = {
 1. give it an element
 1. create input field binding with the `v-model` *directive* (which is a custom attribute)
 1. test it - see the reactivity?
-1. create paragraph binding with handlebar-like syntax `{{ }}` or the `v-html` attribute
+1. create paragraph binding with handlebar-like syntax `{{ }}` or the `v-html` or `v-text` attributes
 1. test it - more reactivity
 1. show binding (2 way reactivity) to `data.message` in Vue Devtools console
 1. we can also access in console through `app.message`
