@@ -85,8 +85,8 @@ II. XHR client code
 		// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 		let xhr = new XMLHttpRequest();
 		xhr.onload = xmlLoaded;
-		xhr.onprogress = (e) => console.log(`PROGRESS: ${e}`); 
-		xhr.onerror = (e) => console.log(`ERROR: ${e}`); 
+		xhr.onprogress = e => console.log(`PROGRESS: ${e}`); 
+		xhr.onerror = e => console.log(`ERROR: ${e}`); 
 		
 		// xhr.open(method, url, async, user, password)
 		xhr.open("GET", url, true);
