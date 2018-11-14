@@ -26,7 +26,7 @@ First, we will try to demonstrate one of the problems that Vue and (other reacti
 <body>
 <div id="root">
 	<input type="text" id="input">
-	<p id="output"></p>
+	<p id="output">???</p>
 </div>
 
 <script>
