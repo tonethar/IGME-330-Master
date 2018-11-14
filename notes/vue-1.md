@@ -133,7 +133,7 @@ let app = new Vue({
 ### Demo Instructions
 1. rename **vue-v-for.html** to **vue-v-for-2.html**
 1. now switch code to use the `v-on:click` directive (`@click` is a shortcut) instead of DOM event listeners
-1. add a `methods` key to `data`
+1. add a `methods` key to `app`, and add a `addName()` method to `app.methods`
 1. we need to use `v-model` on the input field, and create a new property on our `data` model
 
   
