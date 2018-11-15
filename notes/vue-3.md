@@ -38,7 +38,7 @@ Vue.component('joke-footer-2',{
 ```
 
 - `props` indicates the variable names that are going to be passed in
-- now add this HTML to the page, and pass in `copyrightYear` and `copyrightName` variables with the `v-bind` directive:
+- now add this HTML to the page, and pass in the `copyrightYear` and `copyrightName` arguments with the `v-bind` directive:
 
   `<joke-footer-2 v-bind:year="copyrightYear" v-bind:name="copyrightName"></joke-footer-2>`
 
