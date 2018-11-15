@@ -24,7 +24,7 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 - https://enable-cors.org/server_apache.html
 
-1. To enable CORS, we need to add the following to the .htaccess file in the same folder as our PHP "Joke Server":
+1. We have already seen how to enable CORS by adding `header()` code to our PHP code. Another way is to add the following to the .htaccess file in the same folder as our PHP "Joke Server":
 
 `Header set Access-Control-Allow-Origin "*"`
 
