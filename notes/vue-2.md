@@ -148,4 +148,4 @@ Hints:
 
 **[Previous Chapter <- Vue Part I - Introduction to Vue.js](vue-1.md)**
 
-**[Next Chapter -> Vue Part III](vue-3.md)**
+**[Next Chapter -> Vue Part III - Simple Vue Components](vue-3.md)**
