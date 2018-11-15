@@ -7,7 +7,7 @@ Let's browse some of the Vue.js documentation here: https://vuejs.org/v2/guide/i
 Today we will create a simple web service app using Vue.js and the Fetch API. This service will download a random joke from our PHP jokes web service located at: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
 
 ## II. The Fetch API
-The Fetch API is a newer browser API that allows us to download network resources. You can read about it here:
+SO far in this course, we have been downloading network resources with **`jQuery.ajax()`**, as well as the **`XMLHttpRequest`** object. Another way to do this is by utilizing the more recently adopted **Fetch** API. You can read about it here:
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
