@@ -60,7 +60,7 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 <body>
 <div id="app">
 	<div class="myheader">
-		<h1 class="display-5"></h1>
+		<h1 class="display-5">???</h1>
 		<p class="lead text-muted">In this example we are hitting our random joke web service located at: https://people.rit.edu/~acjvks/330/spring-2018/php-web-services/get-a-joke.php.</p>
 		<p class="text-muted">Because we are using the Fetch API, we can download ordinary JSON, rather than JSON-P.</p>
 		<p class="text-muted">But to do this with Fetch, we needed to first handle the CORS issue by setting the <code>Access-Control-Allow-Origin</code> header on banjo.</p>
