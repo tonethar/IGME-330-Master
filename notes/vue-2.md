@@ -146,6 +146,6 @@ Hints:
 
 <hr><hr>
 
-**[Previous Chapter <- Vue Part I](vue-1.md)**
+**[Previous Chapter <- Vue Part I - Introduction to Vue.js](vue-1.md)**
 
 **[Next Chapter -> Vue Part III](vue-3.md)**
