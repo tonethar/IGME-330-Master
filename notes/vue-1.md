@@ -1,4 +1,4 @@
-# Introduction to Vue.js
+# Vue Part I - Introduction to Vue.js
 
 [Vue.js](https://vuejs.org) is a JavaScript framework for building user interfaces.
 
