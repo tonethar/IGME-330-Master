@@ -152,4 +152,4 @@ Let's see how we can get nice looking Bootstrap components into our Vue app.
 
 <hr><hr>
 
-**[Next Chapter -> Vue Part II](vue-2.md)**
+**[Next Chapter -> Vue Part II - Ajax and Vue.js](vue-2.md)**
