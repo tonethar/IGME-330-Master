@@ -157,4 +157,4 @@ template: `<div>
 
 <hr><hr>
 
-**[Previous Chapter <- Vue Part III](vue-3.md)**
+**[Previous Chapter <- Vue Part III - Simple Vue Components](vue-3.md)**
