@@ -3,7 +3,7 @@
 ## I. Overview & Example
 
 - Components are reusable Vue instances with a name.
-- Here's an example we can try out on our "random joke" Vue app - add this to the top of the &lt;script> tag, right before we create a new `Vue()` instance:
+- Here's an example we can try out on our "random joke" Vue app - add this to the top of the &lt;script> tag, right before we create the `Vue()` instance:
 
 ```js
 Vue.component('joke-footer',{
