@@ -3,7 +3,7 @@
 ## I. Overview & Example
 
 - Components are reusable Vue instances with a name.
-- Here's an example we can try out on our "random joke" Vue app :
+- Here's an example we can try out on our "random joke" Vue app - add this to the top of the &lt;script> tag, right before we create a new `Vue()` instance:
 
 ```js
 Vue.component('joke-footer',{
@@ -38,9 +38,9 @@ Vue.component('joke-footer-2',{
 ```
 
 - `props` indicates the variable names that are going to be passed in
-- now add this HTML to the page, and pass in `copyrightYear` and `copyrightName` variables
+- now add this HTML to the page, and pass in `copyrightYear` and `copyrightName` variables with the `v-bind` directive:
 
-`<joke-footer-2 v-bind:year="copyrightYear" v-bind:name="copyrightName"></joke-footer-2>`
+  `<joke-footer-2 v-bind:year="copyrightYear" v-bind:name="copyrightName"></joke-footer-2>`
 
 - reload the page - error! - now go ahead and define the `copyrightYear` and `copyrightName` properties on your `data` object.
 - reload the page - it should now work - once again `<joke-footer-2></joke-footer-2>` has been replaced by a valid `<footer></footer>` element.
