@@ -89,4 +89,4 @@ To enable reuse of our component code on multiple pages, and more easily allow m
 
 **[Previous Chapter <- Vue Part II - Ajax and Vue.js](vue-2.md)**
 
-**[Next Chapter -> Vue Part IV](vue-4.md)**
+**[Next Chapter -> Vue Part IV - Nested Components](vue-4.md)**
