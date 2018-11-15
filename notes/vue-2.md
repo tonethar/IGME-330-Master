@@ -125,7 +125,8 @@ The basics are done here, but there is still some work left to get it functionin
 
 ## VI. Homework
 - Using our random joke app as a start file:
-    - Get it working with the Crypto Currency web service below be sure to display at least 3 properties from each result (Crypto name, Crypto symbol, Crypto price, etc ...) **+5 points for adding a &lt;select> that limits the number of results**
+    - Get it working with the Crypto Currency web service below be sure to display at least 3 properties from each result (Crypto name, Crypto symbol, Crypto price, etc ...) 
+    - **+5 points for adding a &lt;select> that limits the number of results** - you will need to use `v-model` to grab this `limit` parameter
     - Documentation: https://coinmarketcap.com/api/
     - "Ticker" endpoint: https://api.coinmarketcap.com/v1/ticker/
     - Hints:
