@@ -128,6 +128,9 @@ The basics are done here, but there is still some work left to get it functionin
     - Get it working with the Crypto Currency web service below be sure to display at least 3 properties from each result (Crypto name, Crypto symbol, Crypto price, etc ...) **+5 points for adding a &lt;select> that limits the number of results**
     - Documentation: https://coinmarketcap.com/api/
     - "Ticker" endpoint: https://api.coinmarketcap.com/v1/ticker/
+    - Hints:
+      - you will be getting an array or object literals back from this web service, not just a single joke object literal, so your `.result` will be an array of object literals , NOT a single object literal
+      - use `v-for` to loop through the results
     - **Extra Credit (worth one HW assignment):** get it working with the iTunes web service, and make sure that the user can search the service by typing in search terms - https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/ - and be sure to display at least 3 properties from each result (artist, track name, etc ...)
 
 Hints:
