@@ -18,7 +18,9 @@ II. ["Hello Node"](#section2)
 
 III. [Downloading and displaying a simple "text" web service](#section3)
 
-IV. [Next Steps](#section4)
+IV. [Have a cow](#section4)
+
+V. [Next Steps](#section5)
 
 <hr>
 
@@ -172,7 +174,29 @@ request(url, (err, response, body) => {
 
 
 <a id="section4"></a>
-## IV. Next Steps
+## IV. Have a cow
+
+- Have some fun with the **cowsay** package: https://www.npmjs.com/package/cowsay
+
+### IV-B. Instructions
+
+- import the package: `const cowsay = require("cowsay");`
+- install the package: `npm install cowsay` (Mac users need `sudo` a the beginning)
+- use the package by replacing - `console.log(body);` - with:
+
+```js
+console.log(cowsay.say({
+	text : body,
+	e : "oO"
+}));
+```
+
+**Which gives:**
+
+![screenshot](_images/)
+
+<a id="section5"></a>
+## V. Next Steps
 
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
 - But once you have finished this series, come back to this example and:
