@@ -283,7 +283,9 @@ Out of 10 points.
   - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes` (2 points)
 - Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (1 point)
 
-**IMPORTANT: Make sure that you are only calling `request()` ONCE, and then looping though the number of requested results. -10 points off if you (for example) call `request()` 10 times when you need 10 design quotes.**  
+**IMPORTANT:**
+- Make sure that you are only calling `request()` ONCE, and then looping though the number of requested results
+- 10 points will be deducted from this assignment if you call `request()` 10 times (for example) when you need 10 design quotes
 
 **ZIP and POST to Dropbox**
 <hr><hr>
