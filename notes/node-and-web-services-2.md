@@ -52,7 +52,7 @@ http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_pa
 ### A. Get started:
 
 - create a new folder named **quote**
-- copy over your completed **index.js** file from Node.js and Web Services - Part I
+- copy over your completed **index.js** file from Node.js and Web Services - Part I (but leave out the **cowsay** `require()` and the call to `cowsay.say()`)
 
 
 ### B. Create a node project the usual way
