@@ -192,7 +192,7 @@ console.log(cowsay.say({
 }));
 ```
 
-**Which gives:**
+**Which gives, when you run this in the console:**
 
 ![screenshot](_images/node-web-services-5.jpg)
 
