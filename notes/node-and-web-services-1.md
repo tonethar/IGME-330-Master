@@ -18,7 +18,7 @@ II. ["Hello Node"](#section2)
 
 III. [Downloading and displaying a simple "text" web service](#section3)
 
-IV. [Have a cow](#section4)
+IV. [Have a cow!](#section4)
 
 V. [Next Steps](#section5)
 
@@ -174,7 +174,8 @@ request(url, (err, response, body) => {
 
 
 <a id="section4"></a>
-## IV. Have a cow
+
+## IV. Have a cow!
 
 - Have some fun with the **cowsay** package: https://www.npmjs.com/package/cowsay
 
