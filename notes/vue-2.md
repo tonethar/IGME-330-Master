@@ -13,7 +13,7 @@ So far in this course, we have been downloading network resources with **`jQuery
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 - https://developers.google.com/web/ilt/pwa/working-with-the-fetch-api
 
-The Fetch API uses [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), which make asynchronous callbacks easier to read, and help us avoid the callback "pyramid of doom". You can read about Promises here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+The Fetch API uses [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), which make asynchronous callbacks easier to read, and help us avoid the nested callback "pyramid of doom". You can read about Promises here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 
 
 ## III. CORS (Cross Origin Resource Sharing)
