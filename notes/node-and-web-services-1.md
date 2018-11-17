@@ -181,7 +181,7 @@ request(url, (err, response, body) => {
 
 ### IV-B. Instructions
 
-- import the package (add this to **index.js**): `const cowsay = require("cowsay");`
+- import the package (add this to the top of **index.js**): `const cowsay = require("cowsay");`
 - install the package (type this on the command line): `npm install cowsay` (Mac users need `sudo` a the beginning)
 - use the package by replacing - `console.log(body);` - with:
 
