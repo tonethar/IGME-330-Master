@@ -193,7 +193,7 @@ console.log(cowsay.say({
 
 **Which gives:**
 
-![screenshot](_images/)
+![screenshot](_images/node-web-services-5.jpg)
 
 <a id="section5"></a>
 ## V. Next Steps
