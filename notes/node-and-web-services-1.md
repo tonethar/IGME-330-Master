@@ -152,7 +152,7 @@ request(url, (err, response, body) => {
   npm install request
   ```
 
-- Downloading of files now should begin. Once downloading has completed, you will see a few warnings about a file named **package.json** missing - we will address this in the next section.
+- Downloading of files now should begin. Once downloading has completed, you will see a few warnings about a file named **package.json** missing - we will address this in the next chapter.
 - You should now see a folder named **node_modules** - open it up and you will that that there are approximately 50 sub-folders, including one named **request**. These additional folders are all of the modules that the **request module** is dependent on.
 - You will see one more file - **package-lock.json**  - this file keeps track of all of the project modules and dependencies - you won't need to worry about for our examples - but if you wish you can read about it here: https://docs.npmjs.com/files/package-lock.json
 
