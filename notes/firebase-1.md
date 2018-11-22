@@ -9,19 +9,21 @@
 
 ## II. Setting up a *Realtime Database*
 
-
 ### II-A. Create a new project
 
 - Head to https://console.firebase.google.com/ and click the *Add Project* button, this will create a pop-up window where you will name your project
 
 ![screenshot](_images/firebase-1.jpg)
 
+<hr>
 
 ### II-B. Name the project
 
 - Name the project **high-scores** and click the **Create Project** button
 
 ![screenshot](_images/firebase-2.jpg)
+
+<hr>
 
 ### II-C. Add a *Firebase for Web* App to your project
 
@@ -31,12 +33,16 @@
 
 ![screenshot](_images/firebase-3.jpg)
 
+<hr>
+
 ### II-D. Copy the code snippet
 
 - A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
 - Go ahead and create an HTML file named **firebase-test.html** and copy/paste this JS code into the &lt;head> section of the document
 
 ![screenshot](_images/firebase-4.jpg)
+
+<hr>
 
 ### II-E. Create a Realtime Database
 
@@ -47,6 +53,7 @@
 
 ![screenshot](_images/firebase-5.jpg)
 
+<hr>
 
 ### II-F. Set the security rules for your database
 
@@ -56,6 +63,7 @@
 
 ![screenshot](_images/firebase-6.jpg)
 
+<hr>
 
 ### II-G. Verify
 
@@ -63,10 +71,11 @@
 
 ![screenshot](_images/firebase-7.jpg)
 
+<hr>
 
 ### II-H. Test your Realtime Database
-- Write code in **firebase-test.html** to write some values to your database
-- add the following to the &lt;script> tag, right after the code that you previously copy/pasted:
+- We need to write code in **firebase-test.html** to write some values to your database
+- To test your database, add the following to the &lt;script> tag, right after the code that you previously copy/pasted:
 
 ```js
   console.log(firebase); // verify that firebase is loaded
@@ -87,6 +96,8 @@
   ref.push(data);
 ```
 
+<hr>
+
 ### II-I. See the changes!
 
 - Head back to your high-scores database, you should see the high score has been posted
@@ -94,6 +105,7 @@
 
 ![screenshot](_images/firebase-8.jpg)
 
+<hr>
 
 ## III. Wrap up
 
