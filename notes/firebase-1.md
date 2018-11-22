@@ -40,9 +40,9 @@
 ### II-E. Create a Realtime Database
 
 - After you have copied the code, close the pop-up window
-- To change to the Databse screen, click on the **Database** tab on the left 
+- To change to the *Database* screen, click on the **Database** tab on the left 
 - Then scroll down the page, and stop at the **Or choose Realtime Database** heading
-- Click the **Create Database** button
+- Click the **Create Database** button, which will open a pop-up window
 
 ![screenshot](_images/firebase-5.jpg)
 
@@ -58,7 +58,7 @@
 
 ### II-G. Verify
 
-- You should now have create an empty Realtime Databse
+- You should now have created an empty *Realtime Database*
 
 ![screenshot](_images/firebase-7.jpg)
 
