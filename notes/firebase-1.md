@@ -23,17 +23,18 @@
 
 ![screenshot](_images/firebase-2.jpg)
 
-### II-C. Add *Firebase for Web* to your project
+### II-C. Add a *Firebase for Web* App to your project
 
 - You should now be on the **Project Overview** screen
 - Click on the *Firebase for Web* button on the right
+- This creates a new web app for this project. Note that there are other options for creating Androif and iOS Apps. The idea here is that the project will have one set of data, and you could have multiple apps (web, Android, iOS) that SHARE this data
 
 ![screenshot](_images/firebase-3.jpg)
 
 ### II-D. Copy the code snippet
 
 - A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
-- Go ahead and create an HTML file named **firebase-test.html** and copy/paste this code into the &lt;head> section of the document
+- Go ahead and create an HTML file named **firebase-test.html** and copy/paste this JS code into the &lt;head> section of the document
 
 ![screenshot](_images/firebase-4.jpg)
 
