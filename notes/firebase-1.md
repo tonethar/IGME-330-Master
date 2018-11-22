@@ -96,4 +96,6 @@
 
 ## III. Wrap up
 
+<hr><hr>
 
+**[Next Chapter -> Firebase Part II - High Score App](firebase-2.md)**
