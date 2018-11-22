@@ -12,7 +12,7 @@
 
 ### II-A. Create a new project
 
-- Head to https://console.firebase.google.com/ and click the *Add Project* button
+- Head to https://console.firebase.google.com/ and click the *Add Project* button, this will create a pop-up window where you will name your project
 
 ![screenshot](_images/firebase-1.jpg)
 
