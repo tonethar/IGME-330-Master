@@ -26,8 +26,8 @@
 ### II-C. Add a *Firebase for Web* App to your project
 
 - You should now be on the **Project Overview** screen
-- Click on the *Firebase for Web* button on the right
-- This creates a new web app for this project. Note that there are other options for creating Androif and iOS Apps. The idea here is that the project will have one set of data, and you could have multiple apps (web, Android, iOS) that SHARE this data
+- Click on the *Firebase for Web* button on the right, which creates a pop-up window
+- This creates a new web app for this project. Note that there are other options for creating Android and iOS Apps. The idea here is that the project will have one set of data, and you could have multiple apps (web, Android, iOS) that SHARE this data
 
 ![screenshot](_images/firebase-3.jpg)
 
