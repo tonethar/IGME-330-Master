@@ -10,59 +10,90 @@
 ## II. Setting up a *Realtime Database*
 
 
-### II-A. XXX
+### II-A. Create a new project
 
-- Blah
+- Head to https://console.firebase.google.com/ and click the *Add Project* button
 
 ![screenshot](_images/firebase-1.jpg)
 
 
-### II-B. XXX
+### II-B. Name the project
 
-- Blah
+- Name the project **high-scores** and click the **Create Project** button
 
 ![screenshot](_images/firebase-2.jpg)
 
-### II-C. XXX
+### II-C. Add *Firebase for Web* to your project
 
-- Blah
+- You should now be on the **Project Overview** screen
+- Click on the *Firebase for Web* button on the right
 
 ![screenshot](_images/firebase-3.jpg)
 
-### II-D. XXX
+### II-D. Copy the code snippet
 
-- Blah
+- A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
+- Go ahead and create an HTML file named **firebase-test.html** and copy/paste this code into the &lt;head> section of the document
 
 ![screenshot](_images/firebase-4.jpg)
 
-### II-E. XXX
+### II-E. Create a Realtime Database
 
-- Blah
+- After you have copied the code, close the pop-up window
+- To change to the Databse screen, click on the **Database** tab on the left 
+- Then scroll down the page, and stop at the **Or choose Realtime Database** heading
+- Click the **Create Database** button
 
 ![screenshot](_images/firebase-5.jpg)
 
 
-### II-F. XXX
+### II-F. Set the security rules for your database
 
-- Blah
+- Choose **Start in test mode**
+- Click the **Enable** Button
+- You can modify these rules later under the "Rules" tab
 
 ![screenshot](_images/firebase-6.jpg)
 
 
-### II-G. XXX
+### II-G. Verify
 
-- Blah
+- You should now have create an empty Realtime Databse
 
 ![screenshot](_images/firebase-7.jpg)
 
 
-### II-H. XXX
+### II-H. Test your Realtime Database
+- Write code in **firebase-test.html** to write some values to your database
+- add the following to the &lt;script> tag, right after the code that you previously copy/pasted:
 
-- Blah
+```js
+  console.log(firebase); // verify that firebase is loaded
+  
+  // #1 - get a reference to the databse
+  let database = firebase.database();
+  
+  // #2 - refer to a root node named `scores`
+  let ref = database.ref('scores');
+ 
+ // #3 - create some data
+  let data = {
+  	name:"Mad Max",
+  	score:99999
+  };
+  
+  // #4 - send data!
+  ref.push(data);
+```
+
+### II-I. See the changes!
+
+- Head back to your high-scores database, you should see the high score has been posted
+- If you reload your HTML, the data will be posted multiple times, each time with a unique UUID
 
 ![screenshot](_images/firebase-8.jpg)
 
 
-
+## III. Wrap up
 
 
