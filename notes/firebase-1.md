@@ -126,6 +126,7 @@
 ## IV. Documentation and Examples
 
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
+- [`firebase.database.ref()`](https://firebase.google.com/docs/reference/js/firebase.database.Database?authuser=0#ref)
 - Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
 - Firebase Web SDK API Reference --> https://firebase.google.com/docs/reference/js/index-all?authuser=0
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/?authuser=0#web
