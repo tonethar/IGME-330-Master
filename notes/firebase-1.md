@@ -39,6 +39,7 @@
 
 - A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
 - Go ahead and create an HTML file named **firebase-test.html** and copy/paste this JS code into the &lt;head> section of the document
+- **Note:** If you need to get this setup code at a later time, go to **Develop > Authentication** in the [Firebase console](https://console.firebase.google.com), then click **Web Setup**
 
 ![screenshot](_images/firebase-4.jpg)
 
