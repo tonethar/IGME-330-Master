@@ -121,6 +121,7 @@
 
 - Go ahead and add a new node to the JSON tree named `users`
 - Then add 2 users to this node - users need to have values for 3 properties: `id`, `firstName`, and `lastName`
+- Now modify the `scores` node so that the score JSON objects have 2 properties: `id` and `score`
 
 ## IV. Documentation and Examples
 
