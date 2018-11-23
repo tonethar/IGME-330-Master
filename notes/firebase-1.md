@@ -1,4 +1,4 @@
-# 1 - Intro to Firebase Realtime Database
+# 1 - Intro to Firebase - the Realtime Database
 
 ## I. Overview
 - Here we will look at setting up a Firebase *Realtime Database*
