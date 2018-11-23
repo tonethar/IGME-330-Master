@@ -101,7 +101,7 @@
 
 ### II-I. See the changes!
 
-- Head back to your high-scores database, you should see the high score has been posted to - "the cloud" - oooh!
+- Head back to your high-scores database, you should see the high score has been posted to "the cloud" - oooh!
 - If you reload your HTML page, the data will be posted multiple times, each time with a unique UUID
 
 ![screenshot](_images/firebase-8.jpg)
