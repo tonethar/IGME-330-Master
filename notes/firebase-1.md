@@ -108,7 +108,11 @@
 
 <hr>
 
-## III. Wrap up
+## III. Documentation and Examples
+
+- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
+- Firebase Web SDK API Reference --> https://firebase.google.com/docs/reference/js/index-all?authuser=0
+- Firebase Web Samples --> https://firebase.google.com/docs/samples/?authuser=0#web
 
 <hr><hr>
 
