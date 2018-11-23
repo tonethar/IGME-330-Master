@@ -101,13 +101,23 @@
 ### II-I. See the changes!
 
 - Head back to your high-scores database, you should see the high score has been posted to "the cloud" - oooh!
-- If you reload your HTML page, the data will be posted multiple times, each time with a unique UUID
+- If you reload your HTML page, the data will be posted multiple times, each time with a unique key (UUID)
 
 ![screenshot](_images/firebase-8.jpg)
 
 <hr>
 
-## III. Documentation and Examples
+### II-J. Discussion
+
+- All Firebase Realtime Database data is stored as JSON objects, and you can think of the database as a cloud-hosted JSON tree
+- Unlike a SQL database, there are no tables or records
+- When you add data to the JSON tree, it becomes a node in the existing JSON structure with an associated key
+- You can provide your own keys, such as user IDs or semantic names, or they can be provided for you using `push()`
+- The Firebase Realtime Database allows nesting data up to 32 levels deep, but you should avoid nesting data for performance reasons - e.g. when you fetch data at a location in your database, you also retrieve all of its child nodes
+
+<hr>
+
+## IV. Documentation and Examples
 
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
 - Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
