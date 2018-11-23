@@ -1,11 +1,10 @@
-# 1 - Intro to Firebase 
-
-- Here we will look at setting up a Firebase *Realtime Database*
+# 1 - Intro to Firebase Realtime Database
 
 ## I. Overview
-- About Firebase
-- https://console.firebase.google.com
-
+- Here we will look at setting up a Firebase *Realtime Database*
+  - The Firebase Realtime Database is a cloud-hosted database
+  - Data is stored as JSON and synchronized in realtime to every connected client
+  - Firebase apps remain responsive even when offline because the Firebase Realtime Database SDK persists your data to disk
 
 ## II. Setting up a *Realtime Database*
 
@@ -110,6 +109,7 @@
 
 ## III. Documentation and Examples
 
+- Firebase Realtime Database --> https://firebase.google.com/docs/database/
 - Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
 - Firebase Web SDK API Reference --> https://firebase.google.com/docs/reference/js/index-all?authuser=0
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/?authuser=0#web
