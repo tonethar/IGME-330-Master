@@ -127,7 +127,7 @@
 
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
 - Methods: 
-    - [`firebase.initializeApp(config)`](https://firebase.google.com/docs/reference/js/firebase#.initializeApp)
+    - Initialize Firebase application --> [`firebase.initializeApp(config)`](https://firebase.google.com/docs/reference/js/firebase#.initializeApp)
     - Get reference to JSON path --> [`firebase.database.ref()`](https://firebase.google.com/docs/reference/js/firebase.database.Database?authuser=0#ref)
     - Push JSON object onto path --> [`firebase.database.ref.push()`](https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#push)
 - Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
