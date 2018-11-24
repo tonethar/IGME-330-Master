@@ -88,8 +88,10 @@
  
  // #3 - create some data
   let data = {
-  	name:"Mad Max",
-  	score:99999
+  	name: "MADMAX",
+    realName: "Maxine Mayfield",
+    gameName: "Dig Dug",
+  	score: 750200
   };
   
   // #4 - send data, in this case we are adding it to the `scores` node
