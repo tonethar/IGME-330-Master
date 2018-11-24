@@ -92,7 +92,7 @@
   	score:99999
   };
   
-  // #4 - send data!
+  // #4 - send data, in this case we are adding it to the `scores` node
   ref.push(data);
 ```
 
