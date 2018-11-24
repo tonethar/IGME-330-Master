@@ -78,7 +78,7 @@
 - To test your database, add the following to the &lt;script> tag, right after the code that you previously copy/pasted:
 
 ```js
-  console.log(firebase); // verify that firebase is loaded
+  console.log(firebase); // verify that firebase is loaded by logging the global it created for us
   
   // #1 - get a reference to the databse
   let database = firebase.database();
