@@ -103,7 +103,7 @@ function dataChanged(data){
 - above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 - **You should now see the contents of the `score2` node in the web browser window:**
 
-![screenshot](_images/firebase-12.jpg)
+![screenshot](_images/firebase-13.jpg)
 
 <hr><hr>
 
