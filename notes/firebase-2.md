@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Here we will see how to posting high scores to Firebase
+- Here we will see how to post high scores to Firebase
 
 ## II. Start code
 
