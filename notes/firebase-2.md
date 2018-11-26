@@ -2,11 +2,13 @@
 
 ## I. Overview
 
-- Here we will look at posting high scores to Firebase
+- Here we will see how to posting high scores to Firebase
 
 ## II. Start code
 
-- This code will 
+- The code below will create the interface for this "clicking" game
+- Be sure to add your firebase setup code in #1 and #2 below
+- Test the app, you should see something like the screenshot below. The "Click Me!" button will work, and you should see the firebase object logged to the console
 
 **firebase-high-score.html**
 
@@ -48,13 +50,14 @@
 
 /* #2 - The rest of the Firebase setup code goes here */
 	
+console.log(firebase); // #3 - make sure firebase is loaded
 	
-	let score = 0;
+let score = 0;
 	
-	clickMeButton.onclick = _ => {
-		score++;
-		scoreElement.innerText = score;
-	};
+clickMeButton.onclick = _ => {
+	score++;
+	scoreElement.innerText = score;
+};
 	
 
 </script>
@@ -62,6 +65,8 @@
 </body>
 </html>
 ```
+
+![screenshot](_images/firebase-9.jpg)
 
 <hr><hr>
 
