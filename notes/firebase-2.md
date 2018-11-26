@@ -7,7 +7,7 @@
 ## II. Start code
 
 - The code below will create the interface for this "clicking" game
-- Be sure to add your firebase setup code in #1 and #2 below
+- Be sure to add your firebase setup code to #1 and #2 below
 - Test the app, you should see something like the screenshot below:
   - The "Click Me!" button will work
   - You should see the firebase object logged to the console
