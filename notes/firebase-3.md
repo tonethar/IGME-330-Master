@@ -113,15 +113,44 @@ function dataChanged(data){
 
 <hr>
 
-## V. Listen to chnages to only one object
+## V. Listen for changes to only one object
 
-- Sometimes you are only interested in whether or not a single JSON object changed a value. To accomplish this you just have to change the node (`ref`) that your `on` handler is observing
+- Sometimes you are only interested in whether or not a single JSON object changed a value. To accomplish this you just have to change the node (`ref`) that your `on` handler is observing:
 
 ```js
+firebase.database().ref("scores2/MADMAX").on("value", madmaxChanged, firebaseError);
 
+function madmaxChanged(data){
+  let obj = data.val();
+  console.log(`madmaxChanged = ${obj}`);
+  console.log(`userName= ${obj.userID}`);
+  console.log(`score= ${obj.score}`);
+}
 ```
 
+- Here we will only get a single "High Score" object back
+- When you first load the page, you will see a log like this:
 
+```
+madmaxChanged = [object Object]
+firebase-admin.html:55 userName= MADMAX
+firebase-admin.html:56 score= 60
+```
+
+- and when you update the MADMAX score either in the firebase console, or in **firebase-high-score.html**, you will see a log like this:
+
+```
+madmaxChanged = [object Object]
+firebase-admin.html:55 userName= MADMAX
+firebase-admin.html:56 score= 110
+```
+
+## VI. Wrap up
+- that's all you need to know about firrebase to fulfill the project 3 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let the JavaScript overwrite your `scores` nodes): 
+  - https://firebase.google.com/docs/database/security/quickstart
+  - https://firebase.google.com/docs/database/security/
+  - https://medium.com/@dftaiwo/understanding-the-power-of-firebase-security-rules-part-1-f46aae773a24
+  
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
