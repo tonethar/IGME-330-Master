@@ -55,6 +55,25 @@
 	
 ![screenshot](_images/firebase-12.jpg)
 
+<hr>
+
+## III. `firebase.database.ref.on`
+
+- Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
+  - `firebase.database.ref.on` is documented here --> 
+  - `scores2` in the node we are listening to for changes
+  - `dataChanged` is the "success" function that will be called when the data changes
+  - `firebaseError` is the "error" function that will be called if there is an error (if the app is offline, for example)
+
+<hr>
+
+## IV. Our `dataChanged` callback function
+
+- when the app (page) first loads, this is called to get an initial list of scores
+- when the data on the `score2` JSON node changes, the changes will be pushed out by firebase to interested
+
+
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
