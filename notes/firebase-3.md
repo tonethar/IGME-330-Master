@@ -78,8 +78,28 @@
 - when the app (page) first loads, this is called to get an initial list of scores
 - when the data on the `score2` JSON node changes, the changes will be pushed out by firebase to interested
 
+## V. Display the score data
 
+- We will display this data in an "old school" fashion, via DOM manipulation
+- For project 3, you will be required to have an admin page like this one, but it will instead use Vue.js to update the page
 
+Make **dataChanged()** look like this:
+
+```js
+function dataChanged(data){
+  let obj = data.val();
+  console.log(obj);
+  let bigString="";
+  for (let key in obj){ // use for..in to interate through object keys
+    let row = obj[key];
+    bigString += `<li>${row.userID } :  ${row.score}</li>`;
+    console.log(row);
+  }	
+  scoresList.innerHTML = bigString;
+}
+```
+
+- above, we used a `for..in` loop to iterate through the object keys 
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
