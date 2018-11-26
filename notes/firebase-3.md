@@ -45,14 +45,14 @@
     console.log(error);
   }
 	
-**Screenshot:**
-	
-![screenshot](_images/firebase-12.jpg)
-	
 </script>
 </body>
 </html>
 ```
+
+**Screenshot:**
+	
+![screenshot](_images/firebase-12.jpg)
 
 <hr><hr>
 
