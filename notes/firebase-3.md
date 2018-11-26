@@ -77,7 +77,7 @@
 ## IV. Our `dataChanged` callback function
 
 - when the app (page) first loads, this is called to get an initial list of scores
-- when the data on the `score2` JSON node changes, the changes will be pushed out by firebase to interested
+- when the data on the `score2` JSON node changes, the changes will be pushed out by firebase to interested applications (i.e. those that setup an "on value" handler for that node
 
 ### IV-A. Display the score data
 
@@ -103,7 +103,24 @@ function dataChanged(data){
 - above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 - **You should now see the contents of the `score2` node in the web browser window:**
 
+### IV-B. Loop through the score data a different way
+
+- Alternatively, you could use `Object.keys()` and a `for..of` loop to do the same thing. Replace the `for..in` line above with this":
+
+`for (let key of Object.keys(obj)){ // use for..of to interate through object keys`
+
 ![screenshot](_images/firebase-13.jpg)
+
+<hr>
+
+## V. Listen to chnages to only one object
+
+- Sometimes you are only interested in whether or not a single JSON object changed a value. To accomplish this you just have to change the node (`ref`) that your `on` handler is observing
+
+```js
+
+```
+
 
 <hr><hr>
 
