@@ -2,7 +2,9 @@
 
 ## I. Overview
 
-- Here we will see how to post high scores to Firebase
+- Here we will see how to post high scores to Firebase 
+
+<hr>
 
 ## II. Start code
 
@@ -69,6 +71,8 @@ clickMeButton.onclick = _ => {
 ```
 
 ![screenshot](_images/firebase-9.jpg)
+
+<hr>
 
 ## III. Save the values to Firebase
 
