@@ -63,8 +63,8 @@
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
   - `firebase.database.ref.on`:
     - is documented here --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#on
-    - listens for data changes at a particular location (i.e. node/reference)
-    - is the primary way to read data from a Database
+    - listens for data changes at a particular *location* (i.e. node/reference)
+    - is the primary way to read data from a database
     - the callback will be triggered for the initial data and again whenever the data changes
     - use `ref.off()` to stop receiving updates
   - `scores2` in the node we are listening to for changes
@@ -82,7 +82,7 @@
 ### IV-A. Display the score data
 
 - We will display this data in an "old school" fashion, via DOM manipulation
-- For project 3, you will be required to have an admin page like this one, but it will instead use Vue.js to update the page
+- For project 3, you are required to have an admin page like this one, but it will instead use Vue.js to update the page
 
 Make **dataChanged()** look like this:
 
