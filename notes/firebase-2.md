@@ -2,6 +2,8 @@
 
 ## Overview
 
+- Here we will look at posting high scores to Firebase
+
 
 <hr><hr>
 
