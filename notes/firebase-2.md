@@ -125,6 +125,12 @@ saveScoreButton.onclick = _ => {
 - Note that the auto-generated key is gone, replaced by the user name
 - Hint: It would probably be better if you generated a GUID as a key, and then saved it in local storage. Then the user's name would not potentially collide with other users with the same name:
   - https://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
+  
+  <hr>
+  
+  ## V. Documentation
+  
+  - https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
 
 <hr><hr>
 
