@@ -100,7 +100,7 @@ saveScoreButton.onclick = _ => {
 ## IV. Save the values to Firebase using `.set()`
 
 - This time we will use the `.set()` method to add objects to firebase, and will provide our own *key*
-- This means that if we re-use the key, we can over-write a previous JSON object
+- This means that if we re-use the key, we can overwrite a previous JSON object
 - Here it means that there will be only one high score per username
 
 ### IV-A. Instructions
@@ -130,7 +130,7 @@ saveScoreButton.onclick = _ => {
   
   ## V. Documentation
   
-  - https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
+  - Overwrite JSON object at path --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
 
 <hr><hr>
 
