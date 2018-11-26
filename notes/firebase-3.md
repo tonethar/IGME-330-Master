@@ -8,6 +8,9 @@
 
 ## II. Start code
 
+- The code below will create the interface for this "admin" page
+- Be sure to add your firebase setup code to #1 and #2 below
+
 **firebase-admin.html**
 
 ```html
@@ -19,7 +22,7 @@
 </head>
 <body>
 <h1>High Scores</h1>
-<ul id="scoresList"></ul>
+<ul id="scoresList"><li>No data yet!</li></ul>
 
 <!-- #1 - link to Firebase goes here  -->
 
