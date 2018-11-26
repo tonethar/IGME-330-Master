@@ -45,6 +45,8 @@
     console.log(error);
   }
 	
+**Screenshot:**
+	
 </script>
 </body>
 </html>
