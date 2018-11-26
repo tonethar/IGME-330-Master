@@ -70,6 +70,27 @@ clickMeButton.onclick = _ => {
 
 ![screenshot](_images/firebase-9.jpg)
 
+## III. Save the values to Firebase
+
+- This is very similar to how we did this in the previous section  
+- We will get a reference to a `scores` node, and push JSON objects onto it
+- The JSON objects will contain the currrent score, and the current typed in user name
+- Go ahead and add this click handler for the "Save High Score" button:
+
+
+```js
+saveScoreButton.onclick = _ => {
+	firebase.database().ref('scores').push({
+		userID: nameField.value,
+		score: score
+	});
+};
+```
+- Test it by running up the score, and then clicking the "Save High Score" button
+- You should now see these changes in the firebase console:
+
+![screenshot](_images/firebase-10.jpg)
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part I - Intro](firebase-1.md)**
