@@ -117,6 +117,7 @@ saveScoreButton.onclick = _ => {
 };
 ```
 
+- Note that we are saving everything under a new node named `scores2`
 - Test it by submitting multiple scores under the same username, and then head to the firebase console, you should only see the last score submitted:
 
 ![screenshot](_images/firebase-11.jpg)
