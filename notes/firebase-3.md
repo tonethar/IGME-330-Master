@@ -13,7 +13,8 @@
 - Test the app, you should see something like the screenshot below:
   - There won't be anything in our unordered list other than the "No data yet!" text
   - You should see the firebase object logged to the console (the first log)
-  - You should also see your `scores2` data logged to the console (the second log) 
+  - You should also see your `scores2` data has been pulled down from firebase and logged to the console (the second log) 
+  - Now open up **firebase-high-score.html** and save some new high score data - both to existing users and new users - you should see the `console.log()` fire again and display the new data 
 
 **firebase-admin.html**
 
