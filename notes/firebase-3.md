@@ -69,6 +69,7 @@
     - use `ref.off()` to stop receiving updates
   - `scores2` in the node we are listening to for changes
   - `dataChanged` is the "success" function that will be called when the data changes
+    - note that `data.val()` is an object (not an array) with named keys like `MADMAX`, `MADMAX2` etc, so we won't be able to `for..of` it later on like we do with arrays
   - `firebaseError` is the "error" function that will be called if there is an error (if the app is offline, for example)
 
 <hr>
@@ -99,7 +100,7 @@ function dataChanged(data){
 }
 ```
 
-- above, we used a `for..in` loop to iterate through the object keys 
+- above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
