@@ -70,6 +70,8 @@ clickMeButton.onclick = _ => {
 </html>
 ```
 
+**Screenshot:**
+
 ![screenshot](_images/firebase-9.jpg)
 
 <hr>
