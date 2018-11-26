@@ -103,13 +103,15 @@ function dataChanged(data){
 - above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 - **You should now see the contents of the `score2` node in the web browser window:**
 
+![screenshot](_images/firebase-13.jpg)
+
+<hr>
+
 ### IV-B. Loop through the score data a different way
 
-- Alternatively, you could use `Object.keys()` and a `for..of` loop to do the same thing. Replace the `for..in` line above with this":
+- Alternatively, you could use `Object.keys()` and a `for..of` loop to do the same thing. Replace the `for..in` line above with this:
 
 `for (let key of Object.keys(obj)){ // use for..of to interate through object keys`
-
-![screenshot](_images/firebase-13.jpg)
 
 <hr>
 
@@ -144,6 +146,8 @@ madmaxChanged = [object Object]
 firebase-admin.html:55 userName= MADMAX
 firebase-admin.html:56 score= 110
 ```
+
+<hr>
 
 ## VI. Wrap up
 - that's all you need to know about firrebase to fulfill the project 3 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let the JavaScript overwrite your `scores` nodes): 
