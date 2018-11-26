@@ -130,7 +130,7 @@ saveScoreButton.onclick = _ => {
   
   ## V. Documentation
   
-  - Overwrite JSON object at path --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
+  - Overwrite JSON object at path by using `.set()` --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
 
 <hr><hr>
 
