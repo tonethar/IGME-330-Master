@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Here we will see two distinct ways to post high scores to Firebase's Realtime Database!
+- Here we will look at two distinct ways to post high scores and user names to Firebase's Realtime Database!
 
 <hr>
 
