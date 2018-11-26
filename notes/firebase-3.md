@@ -12,7 +12,8 @@
 - Be sure to add your firebase setup code to #1 and #2 below
 - Test the app, you should see something like the screenshot below:
   - There won't be anything in our unordered list other than the "No data yet!" text
-  - You should see the firebase object logged to the console
+  - You should see the firebase object logged to the console (the first log)
+  - You should also see your `scores2` data logged to the console (the second log) 
 
 **firebase-admin.html**
 
