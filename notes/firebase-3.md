@@ -60,7 +60,7 @@
 ## III. `firebase.database.ref.on`
 
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
-  - `firebase.database.ref.on` is documented here --> 
+  - `firebase.database.ref.on` is documented here --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#on
   - `scores2` in the node we are listening to for changes
   - `dataChanged` is the "success" function that will be called when the data changes
   - `firebaseError` is the "error" function that will be called if there is an error (if the app is offline, for example)
