@@ -32,18 +32,18 @@
 <script>
   /* #2 - The rest of the Firebase setup code goes here */
 
-	console.log(firebase); // #3 - make sure firebase is loaded
+  console.log(firebase); // #3 - make sure firebase is loaded
 	
   // #4 This is where the magic happens!
-	firebase.database().ref("scores2").on("value", dataChanged, firebaseError);
+  firebase.database().ref("scores2").on("value", dataChanged, firebaseError);
 	
-	function dataChanged(data){
-		console.log(data.val());
-	}
+  function dataChanged(data){
+    console.log(data.val());
+  }
 	
-	function firebaseError(error){
-		console.log(error);
-	}
+  function firebaseError(error){
+    console.log(error);
+  }
 	
 </script>
 </body>
