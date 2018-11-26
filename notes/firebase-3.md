@@ -10,6 +10,9 @@
 
 - The code below will create the interface for this "admin" page
 - Be sure to add your firebase setup code to #1 and #2 below
+- Test the app, you should see something like the screenshot below:
+  - There won't be anything in our unordered list other than the "No data yet!" text
+  - You should see the firebase object logged to the console
 
 **firebase-admin.html**
 
