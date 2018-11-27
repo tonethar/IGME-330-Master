@@ -154,6 +154,10 @@ firebase-admin.html:56 score= 110
   - https://firebase.google.com/docs/database/security/quickstart
   - https://firebase.google.com/docs/database/security/
   - https://medium.com/@dftaiwo/understanding-the-power-of-firebase-security-rules-part-1-f46aae773a24
+  - https://stackoverflow.com/questions/37482366/is-it-safe-to-expose-firebase-apikey-to-the-public
+  - https://stackoverflow.com/questions/35418143/how-to-restrict-firebase-data-modification
+  - https://medium.com/google-cloud/how-secure-is-your-firebase-ec4eb882f34b
+  - https://javebratt.com/hide-firebase-api/
   
 <hr><hr>
 
