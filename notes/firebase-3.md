@@ -135,16 +135,16 @@ function madmaxChanged(data){
 
 ```
 madmaxChanged = [object Object]
-firebase-admin.html:55 userName = MADMAX
-firebase-admin.html:56 score= 60
+userName = MADMAX
+score= 60
 ```
 
 - and when you update the MADMAX score either in the firebase console, or in **firebase-high-score.html**, you will see a log like this:
 
 ```
 madmaxChanged = [object Object]
-firebase-admin.html:55 userName = MADMAX
-firebase-admin.html:56 score= 110
+userName = MADMAX
+score= 110
 ```
 
 <hr>
