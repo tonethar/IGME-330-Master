@@ -149,8 +149,16 @@ firebase-admin.html:56 score= 110
 
 <hr>
 
-## VI. Wrap up
-- that's all you need to know about firrebase to fulfill the project 3 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let the JavaScript overwrite your `scores` nodes): 
+## VI. Try it yourself
+
+- add an &lt;h1> to the page that updates to display the MADMAX score (only) whenever that score changes
+- change our &lt;ul> to an &lt;ol>, and sort the scores from high to low
+- change this app to use Vue.js to update the interface (i.e. get rid of `document.querySelector()` and DOM manipulation)
+
+<hr>
+
+## VII. Wrap up
+- that's all you need to know about firebase to fulfill the project 3 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
   - https://firebase.google.com/docs/database/security/quickstart
   - https://firebase.google.com/docs/database/security/
   - https://medium.com/@dftaiwo/understanding-the-power-of-firebase-security-rules-part-1-f46aae773a24
