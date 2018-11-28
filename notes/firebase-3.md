@@ -125,7 +125,7 @@ firebase.database().ref("scores2/MADMAX").on("value", madmaxChanged, firebaseErr
 function madmaxChanged(data){
   let obj = data.val();
   console.log(`madmaxChanged = ${obj}`);
-  console.log(`userName= ${obj.userID}`);
+  console.log(`userName = ${obj.userID}`);
   console.log(`score= ${obj.score}`);
 }
 ```
@@ -135,7 +135,7 @@ function madmaxChanged(data){
 
 ```
 madmaxChanged = [object Object]
-firebase-admin.html:55 userName= MADMAX
+firebase-admin.html:55 userName = MADMAX
 firebase-admin.html:56 score= 60
 ```
 
@@ -143,7 +143,7 @@ firebase-admin.html:56 score= 60
 
 ```
 madmaxChanged = [object Object]
-firebase-admin.html:55 userName= MADMAX
+firebase-admin.html:55 userName = MADMAX
 firebase-admin.html:56 score= 110
 ```
 
