@@ -24,19 +24,30 @@ Below is an example of a closure that is created, utilized, and quickly destroye
 **closure-0.html**
 
 ```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<script>
 function addThreeAndDouble(num){
-  let newNum = num + 3; 	// local variable
-  newNum = doubleIt(newNum);
+  num += 3; 	// local variable
+  newNum = doubleIt();
   return newNum;
   
-  function doubleIt(n){	// local function
-    return n *2;
+  function doubleIt(){	// local function
+    return num *2;
   }
 }
 
 console.log(addThreeAndDouble(10));
 console.log(addThreeAndDouble(20));
-console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDouble()`
+//console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDouble()`
+</script>
+</body>
+</html>
 ```
 
 - every time `addThreeAndDouble()` is called, a new `newNum` variable and a `doubleIt()` function are created
