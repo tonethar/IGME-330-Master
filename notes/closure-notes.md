@@ -13,6 +13,28 @@
   - its own scope (variables defined between its curly brackets)
   - the outer function's variables
   - global variables.
+  
+
+## II. An "ordinary" closure 
+Below is an example of a closure that is created, utilized, and quickly destroyed. It's not very cool, but it's a closure.
+
+**closure-0.html**
+
+```js
+function addThreeAndDouble(num){
+  let newNum = num + 3;
+  newNum = doubleIt(newNum);
+  return newNum;
+  
+  function doubleIt(num){
+    return num *2;
+  }
+}
+
+console.log(addThreeAndDouble(10));
+console.log(addThreeAndDouble(20));
+```
+
 
 ## II. `makeCounter()` - a simple example
 
@@ -38,7 +60,7 @@ console.log(countUp()); // 2
 - the inner function of `makeCounter()` still has access to `num` and anything else within `makeCounter()`, that reference is called a *closure*.
 
 
-And if we create a new variable named `countMore`, it will get its own copy of `num`:
+And if we create a new variable named `countMore`, we get a new function that has it's own copy of `num`:
 
 ```js
 let countMore = makeCounter();
