@@ -46,11 +46,46 @@ clickButton.addEventListener("click", updateLabel);
 ## III. counter-2.html
 
 - here we are trying an object-oriented approach, and encapsulating our counter logic and state into a `Counter` class
+- this produces issues - and the code fails silently (no error messages!) - see below!
 
 **counter-2.html**
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Counter 2</title>
+</head>
+<body>
+<button id="clickButton">Click Me!</button>
+<p id="label">???</p>
 
+<script>
+"use strict";
+
+class Counter{
+	constructor(){
+		this.counter = 0;
+	}
+	
+	incrementCounter(){
+		this.counter ++;
+	}
+}
+
+function updateLabel(){
+	label.innerText = counterObj.counter;
+}
+
+let counterObj = new Counter();
+
+clickButton.addEventListener("click",counterObj.incrementCounter);
+clickButton.addEventListener("click", updateLabel);
+
+</script>
+</body>
+</html>
 ```
 
 ## Reference
