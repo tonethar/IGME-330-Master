@@ -128,6 +128,8 @@ function makeTimer(element,step){
 
 This example is from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure
 
+**closure-2.html**
+
 ```js
 function makeAdder(x) {
   return function(y) {
@@ -157,7 +159,7 @@ console.log(add10(90)); // 100
 
 ## VI. Can we do something similar with ES6 classes?
 
-**closure-2.html**
+**closure-3.html**
 
 ```js
 class Adder{
@@ -193,7 +195,7 @@ Sure!
 - check out the jsfiddle here: https://jsfiddle.net/vnkuZ/7726/
 - earlier in the semester, we saw how IIFEs allowed us to have private properties and functions, and to only return those properties or functions we wanted to expose (make public)
 
-**closure-3.html**
+**closure-4.html**
 ```js
 	let lib = (function(){
 		let a = "hello";
