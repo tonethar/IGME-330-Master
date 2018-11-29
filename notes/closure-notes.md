@@ -2,7 +2,8 @@
 
 ## I. Closures
 - *A closure is the combination of a function and the lexical environment (i.e. scope) within which that function was declared.*
-- Closures are created whenever a function is declared inside of another function - this means that closures are "everywhere" in your code.
+- Whenever a function is declared, a *closure* which stores both a reference to the function as well as all variables currently in scope for that function is maintained.
+- *Closures* are created whenever a function is declared inside of another function
 - *A closure can also be though of as when a function "remembers" the variables around it even when that function is executed elsewhere (in a different scope).*
 - Nested functions have access to variables declared in their outer scope.
 - There are three scope chains the closure has access to:
@@ -32,6 +33,7 @@ console.log(countUp()); // 2
 
 - `makeCounter()` is basically a factory function - it returns an anonymous "incrementing" function - in this case stored in the `countUp` variable. Everytime we invoke `countUp()`, we can see that the number increases by 1, which means that the value of `num` is being preserved with each call to `countUp()`
 - the inner function of `makeCounter()` still has access to `num` and anything else within `makeCounter()`, that reference is called a *closure*.
+
 
 And if we create a new variable named `countMore`, it will get its own copy of `num`:
 
