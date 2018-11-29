@@ -5,6 +5,9 @@
 - Whenever a function is declared, a *closure* which stores both a reference to the function as well as all variables currently in scope for that function is maintained.
 - *Closures* are created whenever a function is declared inside of another function
 - *A closure can also be though of as when a function "remembers" the variables around it even when that function is executed elsewhere (in a different scope).*
+- Closures can be used as a way to create multiple "bubbles" or "bottles" that hold separate copies of variables and functions, similar to what objects do for us.
+
+## I-A. Variables that closures can access
 - Nested functions have access to variables declared in their outer scope.
 - There are three scope chains the closure has access to:
   - its own scope (variables defined between its curly brackets)
