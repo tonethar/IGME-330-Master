@@ -28,11 +28,11 @@
 let counter = 0;
 	
 function incrementCounter(){
-		counter ++;
+  counter ++;
 }
 
 function updateLabel(){
-	label.innerText = counter;
+  label.innerText = counter;
 }
 
 clickButton.addEventListener("click",incrementCounter);
@@ -65,17 +65,17 @@ clickButton.addEventListener("click", updateLabel);
 "use strict";
 
 class Counter{
-	constructor(){
-		this.counter = 0;
-	}
+  constructor(){
+    this.counter = 0;
+  }
 	
-	incrementCounter(){
-		this.counter ++;
-	}
+  incrementCounter(){
+    this.counter ++;
+  }
 }
 
 function updateLabel(){
-	label.innerText = counterObj.counter;
+  label.innerText = counterObj.counter;
 }
 
 let counterObj = new Counter();
