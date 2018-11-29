@@ -50,6 +50,8 @@ console.log(addThreeAndDouble(20));
 </html>
 ```
 
+- below we can see that Chrome's debugger has detected a closure, which gives the `doubleIt()` function it's own copy of `num`
+
 ![screenshot](./_images/closure-3.jpg)
 
 - every time `addThreeAndDouble()` is called, a new `newNum` variable and a `doubleIt()` function are created
