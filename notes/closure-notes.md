@@ -50,20 +50,20 @@ console.log(addThreeAndDouble(20));
 </html>
 ```
 
-- below we can see that Chrome's debugger has detected a closure, which gives the `doubleIt()` function it's own copy of `num`
+- below we can see that Chrome's debugger has detected a closure, which gives the `doubleIt()` function its own copy of `num`
 
 ![screenshot](./_images/closure-3.jpg)
 
 - every time `addThreeAndDouble()` is called, a new `newNum` variable and a `doubleIt()` function are created
-- when the the `doubleIt()` function is declared, a closure is created, and the `doubleIt()` function gets its own copy of a `newNum` variable
-- once the `addThreeAndDouble()` function returns, both `newNum` and `doubleIt()` are destroyed and memory is reclaimed
+- when the the `doubleIt()` function is declared, a closure is created, and the `doubleIt()` function gets its own copy of the `num` variable
+- once the `addThreeAndDouble()` function returns, both `num` and `doubleIt()` are destroyed and memory is reclaimed
 - so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use, and the code we wrote here is sloppy, but we will still prove to you that this is a closure, in Part IV. below.
 
 <hr>
 
 ## III. `makeCounter()` - a simple closure example
 
-- If we can get the inner function to *persist* in some way after the outer function returns, we can see the closure in action.
+- **If we can get the inner function to *persist* in some way after the outer function returns, we can see a closure in action!**
 - And because we can't just *tell* you about closures, we have to *show* you:
 
 **closure-1.html**
