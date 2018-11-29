@@ -116,8 +116,8 @@ console.log(countMore()); // 2
 	<title></title>
 </head>
 <body>
-<p id="counter1"></p>
-<p id="counter2"></p>
+<p id="counter1">???</p>
+<p id="counter2">???</p>
 	
 <script>
 makeTimer(counter1,10);
