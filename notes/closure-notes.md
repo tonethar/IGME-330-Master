@@ -2,7 +2,7 @@
 
 ## I. Closures
 - *Closures* are created whenever a function is declared inside of another function
-- We have used closures in this course many times - remember the IIFE we used in the AudioVisualizer and in the ES5 module pattern? Those were closures.
+- We have used closures in this course many times - remember the IIFE we used in the AudioVisualizer and in the ES5 module pattern? IIFEs are closures.
 - Whenever a function is declared, a *closure* which stores both a reference to the function as well as all variables currently in scope for that function is maintained.
 - *A closure can also be though of as when a function "remembers" the variables around it even when that function is executed elsewhere (in a different scope).*
 - Closures can be used as a way to create multiple "bubbles" or "bottles" that hold separate copies of variables and functions, similar to what objects do for us.
@@ -48,7 +48,8 @@ console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDoubl
 
 ## III. `makeCounter()` - a simple closure example
 
-We can't just *tell* you about closures, we have to *show* you:
+- If we can get the inner function to *persist* in some way after the outer function returns, we can see the closure in action.
+- And because we can't just *tell* you about closures, we have to *show* you:
 
 **closure-1.html**
 ```js
