@@ -240,7 +240,7 @@ lib.doStuff(); 		// hello again
 ```
 
 - Go ahead and put a breakpoint in `doStuff()` - you will see that `b` is a *closure* variable
-- Can you see how this closure is analagius to an object, with both private and public state and behavior?
+- Can you see how this closure is analagius to an object, with both public and private state and behavior?
 
 <hr>
 
