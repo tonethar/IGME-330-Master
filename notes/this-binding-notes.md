@@ -43,7 +43,7 @@ clickButton.addEventListener("click", updateLabel);
 </html>
 ```
 
-## III. counter-2.html
+## III. counter-2.html - now with OOP
 
 - here we are trying an object-oriented approach, and encapsulating our counter logic and state into a `Counter` class
 - this produces issues - and the code fails silently (no error messages!) - see below!
