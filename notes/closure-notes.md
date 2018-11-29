@@ -1,8 +1,9 @@
 # JavaScript Closures
 
 ## I. Closures
-- Whenever a function is declared, a *closure* which stores both a reference to the function as well as all variables currently in scope for that function is maintained.
 - *Closures* are created whenever a function is declared inside of another function
+- We have used closures in this course many times - remember the IIFE we used in the AudioVisualizer and in the ES5 module pattern? Those were closures.
+- Whenever a function is declared, a *closure* which stores both a reference to the function as well as all variables currently in scope for that function is maintained.
 - *A closure can also be though of as when a function "remembers" the variables around it even when that function is executed elsewhere (in a different scope).*
 - Closures can be used as a way to create multiple "bubbles" or "bottles" that hold separate copies of variables and functions, similar to what objects do for us.
 - *Closures are functions that refer to independent (free) variables (variables that are used locally, but defined in an enclosing scope). In other words, these functions ‘remember’ the environment in which they were created.* —Mozilla Developer Network
