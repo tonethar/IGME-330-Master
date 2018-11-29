@@ -212,7 +212,7 @@ Sure!
 
 **closure-4.html**
 ```js
-	let lib = (function(){
+let lib = (function(){
 		let a = "hello";
 		let b = "private";
 		
@@ -220,19 +220,27 @@ Sure!
 			console.log(`Do Stuff! The value of b is "${b}"`);
 		}
 		
+		function setB(val){
+			b = val;
+		}
+		
 		// our public interface
 		return{
 			a: a,
-			doStuff: doStuff
+			doStuff: doStuff,
+			setB: setB
 		}
 	})();
 	
 lib.doStuff(); 		// Do Stuff! The value of b is "private"
 console.log(lib.a); 	// hello
 console.log(lib.b); 	// undefined
+lib.setB("hello again");
+lib.doStuff(); 		// hello again
 ```
 
-- Go ahead and put a breakpoint in `doStuff()` - you will see that `b` is a *closure* variable.
+- Go ahead and put a breakpoint in `doStuff()` - you will see that `b` is a *closure* variable
+- Can you see how this closure is analagius to an object, with private and public state and behavior?
 
 <hr>
 
