@@ -88,5 +88,12 @@ clickButton.addEventListener("click", updateLabel);
 </html>
 ```
 
-## Reference
+## IV. What happened?
+
+- hint: insert a breakpoint at `incrementCounter()` and check out the value of `this` 
+- what's going on here? 
+- see the links below to see if you can fix the issue on your own
+
+## V. Reference
 - [MDN - `Function.bind()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+- https://javascript.info/bind
