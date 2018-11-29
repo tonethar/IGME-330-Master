@@ -41,7 +41,7 @@ console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDoubl
 - once the `addThreeAndDouble()` function returns, both 'newNum` and `doubleIt()` are destroyed and memory is reclaimed
 - so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use
 
-## II. `makeCounter()` - a simple closure example
+## III. `makeCounter()` - a simple closure example
 
 We can't just *tell* you about closures, we have to *show* you:
 
@@ -75,7 +75,7 @@ console.log(countMore()); // 2
 ```
 
 
-## III. `makeAdder()` - another example
+## IV. `makeAdder()` - another example
 
 This example is from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure
 
@@ -105,7 +105,7 @@ console.log(add10(90)); // 100
 ![screenshot](./_images/closure-2.jpg)
 
 
-## IV. Can we do something similar with ES6 classes?
+## V. Can we do something similar with ES6 classes?
 
 **closure-2.html**
 
@@ -137,7 +137,7 @@ Sure!
   - But in `Adder` instance `add5`, the `x` property is both public and mutable.
   - This means that in some very important ways, the closure is more powerful than the `Adder` instance.
 
-## V. Practical Closures
+## VI. Practical Closures
 - check out the jsfiddle here: https://jsfiddle.net/vnkuZ/7726/
 - earlier in the semester, we saw how IIFEs allowed us to have private properties and functions, and to only return those properties or functions we wanted to expose (make public)
 
