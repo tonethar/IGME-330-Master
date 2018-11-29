@@ -29,8 +29,8 @@ function addThreeAndDouble(num){
   newNum = doubleIt(newNum);
   return newNum;
   
-  function doubleIt(num){	// local function
-    return num *2;
+  function doubleIt(n){	// local function
+    return n *2;
   }
 }
 
