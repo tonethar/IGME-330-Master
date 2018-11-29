@@ -98,5 +98,6 @@ clickButton.addEventListener("click", updateLabel);
 - see the links below to see if you can fix the issue on your own, using more than one technique
 
 ## V. Reference
-- [MDN - `Function.bind()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 - https://javascript.info/bind
+- [MDN - `Function.bind()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+
