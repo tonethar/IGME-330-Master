@@ -121,7 +121,7 @@ function makeTimer(element,step){
 
 <hr>
 
-## IV. `makeAdder()` - another example
+## V. `makeAdder()` - another example
 
 This example is from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure
 
@@ -152,7 +152,7 @@ console.log(add10(90)); // 100
 
 <hr>
 
-## V. Can we do something similar with ES6 classes?
+## VI. Can we do something similar with ES6 classes?
 
 **closure-2.html**
 
@@ -186,7 +186,7 @@ Sure!
 
 <hr>
 
-## VI. Practical Closures
+## VII. Practical Closures
 - check out the jsfiddle here: https://jsfiddle.net/vnkuZ/7726/
 - earlier in the semester, we saw how IIFEs allowed us to have private properties and functions, and to only return those properties or functions we wanted to expose (make public)
 
@@ -214,6 +214,8 @@ console.log(lib.b); 	// undefined
 
 - Go ahead and put a breakpoint in `doStuff()` - you will see that `b` is a *closure* variable.
 
-## VI. References
+<hr>
+
+## VIII. References
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 - [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md)
