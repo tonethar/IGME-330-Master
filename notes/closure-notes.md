@@ -57,7 +57,7 @@ console.log(addThreeAndDouble(20));
 - every time `addThreeAndDouble()` is called, a new `num` parameter and a `doubleIt()` function are created
 - when the the `doubleIt()` function is declared, a closure is created, and the `doubleIt()` function gets its own copy of the `num` parameter
 - once the `addThreeAndDouble()` function returns, both `num` and `doubleIt()` are destroyed and memory is reclaimed
-- so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use, and the code we wrote here is sloppy, but we will still prove to you that this is a closure, in Part IV. below.
+- so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use, and the code we wrote here is sloppy
 
 <hr>
 
