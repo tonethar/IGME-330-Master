@@ -14,6 +14,7 @@
   - the outer function's variables
   - global variables.
   
+<hr>
 
 ## II. An "ordinary" closure 
 Below is an example of a closure that is created, utilized, and quickly destroyed. It's not very cool, but it's a closure.
@@ -40,6 +41,8 @@ console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDoubl
 - when the the `doubleIt()` function is declared, a closure is created, and the `doubleIt()` function gets its own copy of a 'newNum' variable
 - once the `addThreeAndDouble()` function returns, both `newNum` and `doubleIt()` are destroyed and memory is reclaimed
 - so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use ...
+
+<hr>
 
 ## III. `makeCounter()` - a simple closure example
 
@@ -74,6 +77,11 @@ console.log(countMore()); // 1
 console.log(countMore()); // 2
 ```
 
+**Below we can see that the anonymous function has its own copy of `num`:**
+
+![screenshot](./_images/closure-0.jpg)
+
+<hr>
 
 ## IV. `makeAdder()` - another example
 
@@ -104,6 +112,7 @@ console.log(add10(90)); // 100
 
 ![screenshot](./_images/closure-2.jpg)
 
+<hr>
 
 ## V. Can we do something similar with ES6 classes?
 
@@ -136,6 +145,8 @@ Sure!
   - In the closure `add5`, `x` is completely private, and cannot be accessed or changed
   - But in `Adder` instance `add5`, the `x` property is both public and mutable.
   - This means that in some very important ways, the closure is more powerful than the `Adder` instance.
+
+<hr>
 
 ## VI. Practical Closures
 - check out the jsfiddle here: https://jsfiddle.net/vnkuZ/7726/
