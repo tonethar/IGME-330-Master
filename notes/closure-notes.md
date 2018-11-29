@@ -40,7 +40,7 @@ console.log(doubleIt(30)); // error! `doubleIt()` is scoped to `addThreeAndDoubl
 - every time `addThreeAndDouble()` is called, a new `newNum` variable and a `doubleIt()` function are created
 - when the the `doubleIt()` function is declared, a closure is created, and the `doubleIt()` function gets its own copy of a `newNum` variable
 - once the `addThreeAndDouble()` function returns, both `newNum` and `doubleIt()` are destroyed and memory is reclaimed
-- so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use ...
+- so, we got to see a closure (sort of), but it went away pretty quickly and without any apparent practical use ... but we will still prove to you that this is a closure, in Part IV. below.
 
 <hr>
 
