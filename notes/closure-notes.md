@@ -28,7 +28,7 @@ Below is an example of a closure that is created, utilized, and quickly destroye
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title></title>
+	<title>Closure 0</title>
 </head>
 <body>
 <script>
