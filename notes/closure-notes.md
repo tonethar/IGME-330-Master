@@ -83,6 +83,44 @@ console.log(countMore()); // 2
 
 <hr>
 
+## IV. Closures and timers
+
+- can you figure out what's going on here?
+- note that we are not returning anything from `makeTimer()`, but we are getting 2 independent copies of the function because `setInterval()` is keeping a reference to them
+
+**closures-with-timer.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<p id="counter1"></p>
+<p id="counter2"></p>
+	
+<script>
+makeTimer(counter1,10);
+makeTimer(counter2,-10);
+
+function makeTimer(element,step){
+	let counter = 0;
+	setInterval(function(){tick(element,step);},1000);
+	
+	function tick(element,step){
+		counter += step;
+		element.innerText = counter;
+	}
+}
+</script>
+</body>
+</html>
+```
+
+<hr>
+
 ## IV. `makeAdder()` - another example
 
 This example is from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure
