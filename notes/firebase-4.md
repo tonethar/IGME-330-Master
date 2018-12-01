@@ -6,7 +6,7 @@
 - This will enable users to share their drawings with others
 - Below we have the same drawing data loaded from Firebase, and then drawn into 3 different browser windows
 
-![screenshot](./_images/firebase-13.jpg)
+![screenshot](./_images/firebase-14.jpg)
 
 <hr>
 
