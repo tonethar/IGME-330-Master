@@ -138,7 +138,7 @@
 </html>
 ```
 
-## III. Walkthough
+## III. Walkthrough
 
 - Need some ideas on how to make this happen? Watch these videos:
 
