@@ -171,4 +171,4 @@ score= 110
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
 
-**[Next Chapter -> Firebase Part IV - Draw & Share](firebase-3.md)**
+**[Next Chapter -> Firebase Part IV - Draw & Share](firebase-4.md)**
