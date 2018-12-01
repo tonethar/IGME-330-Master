@@ -142,6 +142,7 @@
 
 - Need some ideas on how to make this happen? Watch these videos:
   - [Firebase - Part IV - Draw & Share A](https://video.rit.edu/Watch/Gw84EzLn)
+  - [Firebase - Part IV - Draw & Share B](https://video.rit.edu/Watch/g6F4Mko3)
 
 
 ## IV. Suggested Enhancements
