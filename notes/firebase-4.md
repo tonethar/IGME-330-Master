@@ -15,7 +15,126 @@
 **draw-and-share-start.html**
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Draw & Share!</title>
+	 <style>
+      body{
+         background: #eeeeee;
+         font-family: tahoma, verdana, sans serif;
+      }
 
+      canvas{
+         background: #ffffff;
+         box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+      }
+      
+      #controls{
+      	margin-top:1em;
+      }
+      
+      #controls button{
+      	font-size:1.25em;
+      }
+      
+      #controls button:hover{
+      	background-color:lightgray;
+      }
+     
+    </style>
+</head>
+<body>
+	<h1>Draw & Share!</h1>
+	<canvas id="canvas" width="350" height="250"></canvas>
+	
+	<div id="controls">
+		<span><button id="clearButton">Clear Canvas</button></span>
+	</div>
+
+	<script>
+	"use strict";
+	
+	let ctx,dragging=false,lineWidth,strokeStyle;
+	
+	init();
+
+	// FUNCTIONS
+	function init(){
+		ctx = canvas.getContext('2d');
+		lineWidth = 3;
+		strokeStyle = "red";
+		
+		ctx.lineWidth = lineWidth;
+		ctx.strokeStyle = strokeStyle;
+		ctx.lineCap = "round"; 
+		ctx.lineJoin = "round";
+		
+		// Hook up event handlers
+		canvas.onmousedown = doMousedown;
+		canvas.onmousemove = doMousemove;
+		canvas.onmouseup = doMouseup;
+		canvas.onmouseout = doMouseout;
+		clearButton.onclick = doClear;
+	}
+	
+	
+	
+	// EVENT CALLBACK FUNCTIONS
+	function doMousedown(e){
+		dragging = true;
+		let mouse = getMouse(e);
+		ctx.beginPath();
+		ctx.moveTo(mouse.x, mouse.y);
+	}
+	
+	function doMousemove(e) {
+		// bail out if the mouse button is not down
+		if(!dragging) return;
+		
+		// get location of mouse in canvas coordinates
+		let mouse = getMouse(e);
+		ctx.strokeStyle = strokeStyle;
+		ctx.lineWidth = lineWidth;
+		
+		// draw a line to x,y of mouse
+		ctx.lineTo(mouse.x, mouse.y);
+		
+		// stroke the line
+		ctx.stroke();
+
+	}
+	
+	function doMouseup(e) {
+		ctx.closePath();
+		dragging = false;
+	}
+	
+	// if the user drags out of the canvas
+	function doMouseout(e) {
+	  ctx.closePath();
+		dragging = false;
+	}
+
+	
+	function doClear(){
+		ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+	}
+	
+	
+
+// UTILITIES
+	function getMouse(e){
+		let mouse = {};
+		mouse.x = e.pageX - e.target.offsetLeft;
+		mouse.y = e.pageY - e.target.offsetTop;
+		return mouse;
+	}
+	
+	</script>
+</body>
+</html>
 ```
 
 
