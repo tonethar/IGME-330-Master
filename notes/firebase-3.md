@@ -170,3 +170,5 @@ score= 110
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
+
+**[Next Chapter -> Firebase Part IV - Draw & Share](firebase-3.md)**
