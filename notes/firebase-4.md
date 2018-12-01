@@ -137,6 +137,17 @@
 </html>
 ```
 
+## III. Walkthough
+
+- Need some ideas on how to make this happen? Watch these videos:
+
+
+## IV. Suggested Enhancements
+
+- an **undo** button that removes the last layer that was drawn
+- give each layer its own `strokeStyle`, `lineWidth`, line dash pattern,  etc
+- add more tools: oval, rectangle, line, polygon
+- the above tools have a setting that allows fills
 
 <hr><hr>
 
