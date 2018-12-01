@@ -146,6 +146,7 @@
 ## IV. Suggested Enhancements
 
 - an **undo** button that removes the last layer that was drawn
+- give the images a title and creator string - and display these instead of the firebase assigned *key*
 - give each layer its own `strokeStyle`, `lineWidth`, line dash pattern,  etc
 - add more tools: oval, rectangle, line, polygon
 - the above tools have a setting that allows fills
