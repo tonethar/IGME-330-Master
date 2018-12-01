@@ -4,7 +4,7 @@
 
 - We are going to take a slimmed down version of the [HW-drawing-app.md](./HW-drawing-app.md) we did at the beginning of the semester, and give it the  ability to save to Firebase's Realtime Database!
 - This will enable users to share their drawings with others
-- Below we have the same drawing data loaded from Firebase, and then drawn into 3 different browser windows
+- Below we have the same drawing data loaded from Firebase, and then drawn into 3 different browser windows:
 
 ![screenshot](./_images/firebase-14.jpg)
 
