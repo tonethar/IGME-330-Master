@@ -2,7 +2,7 @@
 
 - How do you integrate google maps & its `callback`  parameter with Vue.js? See below!
 
-# I. Full Working Version
+## I. Full Working Version
 
 ZIP file is here --> [vue-plus-google-maps-need-API-KEY.zip](_files/vue-plus-google-maps-need-API-KEY.zip)
 
