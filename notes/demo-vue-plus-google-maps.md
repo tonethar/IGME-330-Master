@@ -4,7 +4,7 @@
 
 # I. Full Working Version
 
-[vue-plus-google-maps-need-API-KEY.zip](_files/vue-plus-google-maps-need-API-KEY.zip)
+ZIP file is here --> [vue-plus-google-maps-need-API-KEY.zip](_files/vue-plus-google-maps-need-API-KEY.zip)
 
 ## II. HTML & JS Source Code
 
