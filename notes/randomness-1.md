@@ -7,7 +7,7 @@
 
 The Dada art movement from the early 20th century was an "anti-art" movement that challenged conventional notions of aesthetics and cultural norms. It came into being in reaction to the horrors of World War I, and the bourgeois culture that was blamed on bringing the war about.  Pure reason and logic were seen as having failed the world. 
 
-Dadist works often seemed designed to offend and reject logic, while embracing chaos and irrationality. The techniques they used include:
+Dadist works often seem designed to offend and reject logic, while embracing chaos and irrationality. The techniques they used include:
 
 - Collage
 - Cut-up technique
