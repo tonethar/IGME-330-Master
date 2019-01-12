@@ -13,7 +13,7 @@ The Dada art movement from the early 20th century was an "anti-art" movement tha
 - Assemblage
 - Readymades
 
-- https://en.wikipedia.org/wiki/Dada#Art_techniques_developed
+See: https://en.wikipedia.org/wiki/Dada#Art_techniques_developed
 
 ## II. Dada - Chance & Randomness
 
