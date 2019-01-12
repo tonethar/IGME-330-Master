@@ -28,12 +28,11 @@ Watch this video -->  *Dada - Chance & Randomness* (4:05) - https://www.youtube.
 Jean Arp (work seen in video above) was a dadist German-French sculptor, painter, poet, and abstract artist in other media such as torn and pasted paper. 
 
 Works:
-- *Untitled* (Collage with Squares Arranged according to the Laws of Chance)
+- Check out *Untitled* (Collage with Squares Arranged according to the Laws of Chance)
 1916–17 --> https://www.moma.org/collection/works/37013?artist_id=11&locale=en&page=1&sov_referrer=artist
-- https://www.guggenheim.org/artwork/artist/jean-arp
+- Also see --> https://www.guggenheim.org/artwork/artist/jean-arp
 
-
-Danger of Death - https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
+It was pointed out in the video above that his collage of squares did not appear to be fully random, 
 
 ## IV. Tristan Tzara
 
@@ -63,3 +62,4 @@ How "To make a Dadaist Poem" (1920):
 
 ## VI. Moving to the digital realm
 
+We can approximate many of these techniques digitally
