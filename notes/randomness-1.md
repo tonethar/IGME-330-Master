@@ -32,8 +32,6 @@ Works:
 1916–17 --> https://www.moma.org/collection/works/37013?artist_id=11&locale=en&page=1&sov_referrer=artist
 - https://www.guggenheim.org/artwork/artist/jean-arp
 
-https://www.tate.org.uk/art/art-terms/a/automatism
-
 
 Danger of Death - https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
 
@@ -54,3 +52,14 @@ How "To make a Dadaist Poem" (1920):
 - Copy conscientiously in the order in which they left the bag.
 - The poem will resemble you.
 - And there you are - an infinitely original author of charming sensibility, even though unappreciated by the vulgar herd.
+
+
+## V. Automatism
+
+*Automatism* refers to creating art without conscious thought, accessing material from the unconscious mind as part of the creative process - https://www.tate.org.uk/art/art-terms/a/automatism
+
+- Check out *Danger of Death* by Jean Arp - which uses "earthquake lines" to produce an apparently random drawing --> https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
+- As with his collage of squares above, there are indications of premeditation (fainter pencil marks and partial erasures) that suggest that the work is not fully random.
+
+## VI. Moving to the digital realm
+
