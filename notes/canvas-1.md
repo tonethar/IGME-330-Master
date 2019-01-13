@@ -65,7 +65,7 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 
 **Which gives us:**
 
-![screenshot](./_images/canvas-1.gif)
+![screenshot](./_images/canvas-1.jpg)
 
 ### II-A. Handy Helper Functions
 
