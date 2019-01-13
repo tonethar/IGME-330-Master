@@ -31,9 +31,10 @@ The narration at the beginning of this video is hard to understand - here it is:
 Jean Arp (work seen in video above) was a Dadaist German-French sculptor, painter, poet, and abstract artist in other media such as torn and pasted paper. 
 
 Works:
-- Check out *Untitled* (Collage with Squares Arranged according to the Laws of Chance)
+- **Check out** *Untitled* (Collage with Squares Arranged according to the Laws of Chance)
 1916–17 --> https://www.moma.org/collection/works/37013?artist_id=11&locale=en&page=1&sov_referrer=artist
-- Also see --> https://www.guggenheim.org/artwork/artist/jean-arp
+- **Also see** *According to the Laws of Chance* --> https://www.tate.org.uk/art/artworks/arp-according-to-the-laws-of-chance-t05005
+- **And** --> https://www.guggenheim.org/artwork/artist/jean-arp
 
 It was pointed out in the video above that his collage of squares did not appear to be fully random, but instead was curated by modifying where the pieces of paper dropped, or was created many times until an interesting arrangment of squares presented itself. 
 
