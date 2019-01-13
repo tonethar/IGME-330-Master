@@ -70,7 +70,11 @@ You may have heard of the author William Burroughs and his *Naked Lunch* novel, 
 
 ## VI. Moving to the digital medium
 
-- We can easily utilize many of these techniques digitally. Georg Nees was a German academic who was a pioneer of computer art and generative graphics. His *Schotter* piece from the 1960's used randomness to change the position and rotation of squares, more chaotically in the later rows of the work. **Check it out here -->** http://www.medienkunstnetz.de/works/schotter/ and more of his work can be seen here --> http://dada.compart-bremen.de/item/agent/15
+- We can easily utilize many of these techniques digitally. Georg Nees was a German academic who was a pioneer of computer art and generative graphics. His *Schotter* piece from the 1960's used randomness to change the position and rotation of squares, more chaotically in the later rows of the work. 
+
+- **Check it out here -->** http://www.medienkunstnetz.de/works/schotter/
+
+- **And more of his work can be seen here -->** http://dada.compart-bremen.de/item/agent/15
 
 - ***But how much randomness whould we use? What sorts of constrainsts should be applied?***
  
