@@ -22,7 +22,7 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>First Canvas Done</title>
+	<title>First Canvas</title>
 	<style type="text/css">
 	canvas{
 		border:1px solid gray;
@@ -62,8 +62,10 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 </body>
 </html>
 ```
-**Handy Helper Functions:**
 
+### II-A. Handy Helper Functions
+
+These will be useful as we build our screen saver.
 ```js
  // handy helper functions!
     function getRandomColor(){
