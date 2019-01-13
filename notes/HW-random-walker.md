@@ -119,7 +119,7 @@ Try to do something interesting by adding on to the code below - ideas:
 
 **walker-4.html**
 
-- "biased" walkers that tend to go either let, right, up, or down
+- "biased" walkers that tend to go either left, right, up, or down
 
 ![screenshot](./_images/HW-walker-4.gif)
 
