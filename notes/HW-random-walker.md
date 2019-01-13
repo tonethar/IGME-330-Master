@@ -107,4 +107,4 @@ Try to do something interesting by adding on to the code below - ideas:
 
 II. Screenshots
 
-![screenshot](./_images/???.gif)
+![screenshot](./_images/HW-walker-1.gif)
