@@ -15,6 +15,8 @@
   
 ## II. Example
 
+In this example the placement of the shapes is random.
+
 ![screenshot](./_images/HW-hello-canvas-done.jpg)
 
 ## III. Submission
