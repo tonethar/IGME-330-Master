@@ -2,9 +2,10 @@
 
 ## Overview 
 
+**One of the themes of this course will be looking at what role *randomness* can play in the creation of interactive experiences.**
+
 - "Randomness is the lack of pattern or predictability in events." - https://en.wikipedia.org/wiki/Randomness
 - Randomness is sometimes used as a generative principle in art, both traditional and digital.
-- One of our themes for this course will be looking at what role randomness can play in the creation of interactive experiences.
 
 ## I. The Dada movement
 
