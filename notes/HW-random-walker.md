@@ -113,12 +113,18 @@ Try to do something interesting by adding on to the code below - ideas:
 
 **walker-2.html**
 
+ - multiple walkers in an array
+ 
 ![screenshot](./_images/HW-walker-2.gif)
 
 **walker-4.html**
 
+- "biased" walkers that tend to go either let, right, up, or down
+
 ![screenshot](./_images/HW-walker-4.gif)
 
 **walker-6.html**
+
+- controls!
 
 ![screenshot](./_images/HW-walker-6.gif)
