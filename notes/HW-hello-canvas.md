@@ -15,7 +15,7 @@
   
 ## II. Example
 
-![screenshot](HW-hello-canvas-done.jpg)
+![screenshot](./_images/HW-hello-canvas-done.jpg)
 
 ## III. Submission
 - the start files and instructions are here -> [Hello-Canvas-start-files.zip](_files/Hello-Canvas-start-files.zip)
