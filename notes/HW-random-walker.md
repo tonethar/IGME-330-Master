@@ -1,6 +1,6 @@
 # HW - Random Walker
 
-- Random walks are a process consisting of a sequence of steps of whose characteristics (such as magnitude and direction) is determined by chance - https://en.wikipedia.org/wiki/Random_walk
+Random walks are a process consisting of a sequence of steps of whose characteristics (such as magnitude and direction) is determined by chance - https://en.wikipedia.org/wiki/Random_walk
 
 Random walks are studied in many fields:
 - the "random walk hypothesis" is used to model shares prices and other factors.
@@ -114,3 +114,11 @@ II. Screenshots
 **walker-2.html**
 
 ![screenshot](./_images/HW-walker-2.gif)
+
+**walker-4.html**
+
+![screenshot](./_images/HW-walker-4.gif)
+
+**walker-6.html**
+
+![screenshot](./_images/HW-walker-6.gif)
