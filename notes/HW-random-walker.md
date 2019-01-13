@@ -105,7 +105,7 @@ Try to do something interesting by adding on to the code below - ideas:
 </html>
 ```
 
-II. Screenshots
+## II. Screenshots
 
 **walker-1.html**
 
