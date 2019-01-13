@@ -69,13 +69,19 @@ You may have heard of the author William Burroughs and his *Naked Lunch* novel, 
 
 ## VI. Moving to the digital medium
 
-We can easily utilize many of these techniques digitally. Georg Nees was a German academic who was a pioneer of computer art and generative graphics. His *Schotter* piece from the 1960's used randomness to change the position and rotation of squares, more chaotically in the later rows of the work. **Check it out here -->** http://www.medienkunstnetz.de/works/schotter/ and more of his work can be seen here --> http://dada.compart-bremen.de/item/agent/15
+- We can easily utilize many of these techniques digitally. Georg Nees was a German academic who was a pioneer of computer art and generative graphics. His *Schotter* piece from the 1960's used randomness to change the position and rotation of squares, more chaotically in the later rows of the work. **Check it out here -->** http://www.medienkunstnetz.de/works/schotter/ and more of his work can be seen here --> http://dada.compart-bremen.de/item/agent/15
 
-***But how much randomness whould we use? What sorts of constrainsts should be applied?***
+- ***But how much randomness whould we use? What sorts of constrainsts should be applied?***
  
 "The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced." -  Georg Nees (1969)
 
-**A great blog on randomness and digital art is here -->** http://www.tylerlhobbs.com/writings/randomness-in-composition
+- **A great blog on randomness and digital art is here -->** http://www.tylerlhobbs.com/writings/randomness-in-composition - in one post, he lists 5 differentiators that programming brings to art:
+  - Precision
+  - Randomness
+  - Mutability and Iterative Experimentation
+  - Reuse
+  - Scale
+  
 
 ## VII. Randomness in this course
 
