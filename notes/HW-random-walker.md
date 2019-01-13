@@ -1,14 +1,25 @@
 # HW - Random Walker
 
+- Random walks are a process consisting of a sequence of steps of whose characteristics (such as magnitude and direction) is determined by chance - https://en.wikipedia.org/wiki/Random_walk
 
+Random walks are studied in many fields:
+- the "random walk hypothesis" is used to model shares prices and other factors.
+- random walks describe the statistical properties of genetic drift
+- random walks are used as simplified models of physical Brownian motion and diffusion such as the random movement of molecules in liquids and gases
+- random walks are used to describe individual animal movements
 
+## I. Assignment & Start Code
 
-
-## II. Start Code
+Try to do something interesting by adding on to the code below - ideas:
+- multiple walkers & colors
+- biased movements  - ex. tend to move right and down
+- "wrapping" or "bouncing" walkers
+- user controls
 
 **walker-1.html**
 
 ```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -26,10 +37,10 @@
 		color: "black",
 		width: 5,
 		move(){
-			if(flipCoin()){
-				this.x += flipCoin() ? -this.width : this.width;
+			if(flipWeightedCoin()){
+				this.x += flipWeightedCoin() ? -this.width : this.width;
 			}else{
-				this.y += flipCoin() ? -this.width : this.width;
+				this.y += flipWeightedCoin() ? -this.width : this.width;
 			}
 		}
 	};
@@ -81,8 +92,8 @@
 			ctx.clearRect(0,0,640,480);
 		}
 		
-		function flipCoin(){
-			return Math.random() < .5;
+		function flipWeightedCoin(weight = 0.5){
+			return Math.random() < weight;
 		}
 	</script>
 </head>
@@ -93,3 +104,7 @@
 </body>
 </html>
 ```
+
+II. Screenshots
+
+![screenshot](./_images/???.gif)
