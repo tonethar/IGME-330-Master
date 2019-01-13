@@ -53,8 +53,19 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 			// D - fill a rectangle with the current fill color
 			ctx.fillRect(20,20,600,440); 
 		}
-    
-    // handy helper functions!
+	</script>
+</head>
+<body>
+	<canvas width="640" height="480">
+		Get a real browser!
+	</canvas>
+</body>
+</html>
+```
+**Handy Helper Functions:**
+
+```js
+ // handy helper functions!
     function getRandomColor(){
       function getByte(){
         return 55 + Math.round(Math.random() * 200);
@@ -65,17 +76,9 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-	</script>
-</head>
-<body>
-	<canvas width="640" height="480">
-		Get a real browser!
-	</canvas>
-</body>
-</html>
-```
-
-- BTW: what is the *scope* of the `getByte()` function below? Is it visible outside of the `getRandomColor()` function?
+ ```
+ 
+- BTW: what is the *scope* of the `getByte()` function above? Is it visible outside of the `getRandomColor()` function?
 - and if we have time, we might re-factor `getRandomColor()` into something a little more "ES6ish" - for example:
   - replace `getByte()` with an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
   - replace the string concatenation in the return statement above with [string template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
