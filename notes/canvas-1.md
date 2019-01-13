@@ -91,7 +91,7 @@ These will be useful as we build our screen saver.
   
 ## III. Completed versions
 
-We will demo how to draw a variety of shapes in class. Below are a couple of possibilities:
+We will demo how to draw a variety of shapes in class. Below are a couple possibile outcomes:
 
 ![screenshot](./_images/screen-saver-1.gif)
 
