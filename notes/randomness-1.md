@@ -19,7 +19,7 @@ See: https://en.wikipedia.org/wiki/Dada#Art_techniques_developed
 
 ## II. Dada - Chance & Randomness
 
-The Collage and Cut-up techiques frequently involved the use of randomness in the creation of artistic works. **Watch this video -->**  *Dada - Chance & Randomness* (4:05) - https://www.youtube.com/watch?v=k40U4UPiiPs
+The Dadaist *Collage* and *Cut-up* techniques frequently involved the use of randomness in the creation of artistic works. **Watch this video -->**  *Dada - Chance & Randomness* (4:05) - https://www.youtube.com/watch?v=k40U4UPiiPs
 
 The narration at the beginning of this video is hard to understand - here it is:
 
@@ -40,7 +40,7 @@ It was pointed out in the video above that his collage of squares did not appear
 
 ## IV. Tristan Tzara
 
-Tristan Tzara (work seen in video above) was a Romanian and French avant-garde poet, essayist and performance artist. He is best known for being one of the founders and central figures of the Dada movement. He was the pioneer to the "cut up" method of creating procedural text.
+Tristan Tzara (work seen in video above) was a Romanian and French avant-garde poet, essayist and performance artist. He is best known for being one of the founders and central figures of the Dada movement. He was the pioneer of the "cut up" method of creating procedural text.
 
 How "To make a Dadaist Poem" (1920):
 
@@ -61,12 +61,27 @@ You may have heard of the author William Burroughs and his *Naked Lunch* novel, 
 
 *Automatism* refers to creating art without conscious thought, accessing material from the unconscious mind as part of the creative process - https://www.tate.org.uk/art/art-terms/a/automatism
 
-- Check out *Danger of Death* by Jean Arp - which uses "earthquake lines" to produce an apparently random drawing --> https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
+- **Check out *Danger of Death* by Jean Arp - which uses "earthquake lines" to produce an apparently random drawing -->** https://www.tate.org.uk/art/artworks/arp-danger-of-death-t05007
 - As with his collage of squares above, there are indications of premeditation (fainter pencil marks and partial erasures) that suggest that the work is not fully random.
 
-## VI. Moving to the digital realm
+## VI. Moving to the digital medium
 
-Georg Nees was a German academic who was a pioneer of computer art and generative graphics. 
-We can approximate many of these techniques digitally:
+We can easily utilize many of these techniques digitally. Georg Nees was a German academic who was a pioneer of computer art and generative graphics. His *Schotter* piece from the 1960's used randomness to change the position and rotation of squares, more chaotically in the later rows of the work. **Check it out here -->** http://www.medienkunstnetz.de/works/schotter/
+
+***But how much randomness whould we use? What sorts of constrainsts should be applied?***
+ 
+"The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced." -  Georg Nees (1969)
+
+## VII. Randomness in this course
+
+We will give you several opportunities to explore the use of randomness in digital media:
+
+- The "screensaver" exercise
+- The "random walker" exercise
+- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester, using JavaScript libaries like *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/ and *NLP Compromise* --> http://compromise.cool
+
+
+
+
 
 
