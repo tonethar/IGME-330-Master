@@ -79,9 +79,9 @@ We can easily utilize many of these techniques digitally. Georg Nees was a Germa
 
 We will give you several opportunities to explore the use of randomness in digital media:
 
-- The "screensaver" exercise
-- The "random walker" exercise
-- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester, using JavaScript libaries like *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/ and *NLP Compromise* --> http://compromise.cool
+- The "screensaver" exercise (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
+- The "random walker" exercise (inspired by Arp's *Danger of Death*)
+- NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libaries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/ and *NLP Compromise* --> http://compromise.cool to accomplish this.
 
 
 
