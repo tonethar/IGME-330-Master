@@ -1,11 +1,10 @@
 # Intro to the Canvas 2D Drawing API
 
-
-You should have already looked over this presentation:
+The Canvas API provides a means for drawing graphics via JavaScript and the HTML &lt;canvas> element. You should have already looked over this presentation:
 - [Intro-to-Canvas.pdf](../presentations/Intro-to-Canvas.pdf)
 
-## V. Today's Topic - *Intro to the Canvas 2D Drawing API*
-- start file for today's "screen saver" demo is here -> [first-canvas.md](_files/first-canvas.md)
+## I. Demo!
+- Start file for today's "screen saver" demo is here -> [first-canvas.md](_files/first-canvas.md)
 - Concepts covered:
   - Getting a reference to the 2D drawing context with `canvas.getContext('2d')`
   - setting context "state" attributes like `.fillStyle`, `.strokeStyle`, `.lineWidth` and `.globalAlpha`
