@@ -63,6 +63,10 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 </html>
 ```
 
+**Which gives us:**
+
+![screenshot](./_images/canvas-1.gif)
+
 ### II-A. Handy Helper Functions
 
 These will be useful as we build our screen saver.
