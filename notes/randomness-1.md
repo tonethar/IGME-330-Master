@@ -27,7 +27,7 @@ The Dadaist *Collage* and *Cut-up* techniques frequently involved the use of ran
 
 The narration at the beginning of this video is hard to understand - here it is:
 
-"The official belief in the infallability of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elemination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design." - Hans Richter
+*"The official belief in the infallability of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elemination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design."* - Hans Richter
 
 
 ## III. Jean Arp
@@ -74,7 +74,7 @@ You may have heard of the author William Burroughs and his *Naked Lunch* novel, 
 
 - ***But how much randomness whould we use? What sorts of constrainsts should be applied?***
  
-"The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced." -  Georg Nees (1969)
+*"The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced."* -  Georg Nees (1969)
 
 - **A great blog on randomness and digital art is here -->** http://www.tylerlhobbs.com/writings/randomness-in-composition - in one post, he lists 5 differentiators that programming brings to art:
   - Precision
