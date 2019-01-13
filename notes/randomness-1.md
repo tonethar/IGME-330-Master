@@ -1,4 +1,4 @@
-# Randomness
+# Randomness and Aesthetics
 
 - "Randomness is the lack of pattern or predictability in events." - https://en.wikipedia.org/wiki/Randomness
 - One of our themes for this course will be looking at what role randomness can play in the creation of interactive experiences.
