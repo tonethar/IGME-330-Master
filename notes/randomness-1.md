@@ -75,6 +75,8 @@ We can easily utilize many of these techniques digitally. Georg Nees was a Germa
  
 "The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced." -  Georg Nees (1969)
 
+**A great blog on randomness and digital art is here -->** http://www.tylerlhobbs.com/writings/randomness-in-composition
+
 ## VII. Randomness in this course
 
 We will give you several opportunities to explore the use of randomness in digital media:
