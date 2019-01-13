@@ -19,25 +19,27 @@ See: https://en.wikipedia.org/wiki/Dada#Art_techniques_developed
 
 ## II. Dada - Chance & Randomness
 
+The Collage and Cut-up techiques frequently involved the use of randomness in the creation of artistic works. **Watch this video -->**  *Dada - Chance & Randomness* (4:05) - https://www.youtube.com/watch?v=k40U4UPiiPs
+
+The narration at the beginning of this video is hard to understand - here it is:
+
 "The official belief in the infallability of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elemination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design." - Hans Richter
 
-Watch this video -->  *Dada - Chance & Randomness* (4:05) - https://www.youtube.com/watch?v=k40U4UPiiPs
 
 ## III. Jean Arp
 
-Jean Arp (work seen in video above) was a dadist German-French sculptor, painter, poet, and abstract artist in other media such as torn and pasted paper. 
+Jean Arp (work seen in video above) was a Dadaist German-French sculptor, painter, poet, and abstract artist in other media such as torn and pasted paper. 
 
 Works:
 - Check out *Untitled* (Collage with Squares Arranged according to the Laws of Chance)
 1916–17 --> https://www.moma.org/collection/works/37013?artist_id=11&locale=en&page=1&sov_referrer=artist
 - Also see --> https://www.guggenheim.org/artwork/artist/jean-arp
 
-It was pointed out in the video above that his collage of squares did not appear to be fully random, 
+It was pointed out in the video above that his collage of squares did not appear to be fully random, but instead was curated by modifying where the pieces of paper dropped, or was created many times until an interesting arrangment of squares presented itself. 
 
 ## IV. Tristan Tzara
 
-Tristan Tzara (work seen in video above) was a Romanian and French avant-garde poet, essayist and performance artist. He is best known for being one of the founders and central figures of the Dada movement. 
-
+Tristan Tzara (work seen in video above) was a Romanian and French avant-garde poet, essayist and performance artist. He is best known for being one of the founders and central figures of the Dada movement. He was the pioneer to the "cut up" method of creating procedural text.
 
 How "To make a Dadaist Poem" (1920):
 
@@ -52,6 +54,7 @@ How "To make a Dadaist Poem" (1920):
 - The poem will resemble you.
 - And there you are - an infinitely original author of charming sensibility, even though unappreciated by the vulgar herd.
 
+You may have heard of the author William Burroughs and his *Naked Lunch* novel, which also utilized this cut-up method.
 
 ## V. Automatism
 
@@ -62,4 +65,7 @@ How "To make a Dadaist Poem" (1920):
 
 ## VI. Moving to the digital realm
 
-We can approximate many of these techniques digitally
+Georg Nees was a German academic who was a pioneer of computer art and generative graphics. 
+We can approximate many of these techniques digitally:
+
+
