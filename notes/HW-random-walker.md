@@ -107,4 +107,10 @@ Try to do something interesting by adding on to the code below - ideas:
 
 II. Screenshots
 
+**walker-1.html**
+
 ![screenshot](./_images/HW-walker-1.gif)
+
+**walker-2.html**
+
+![screenshot](./_images/HW-walker-2.gif)
