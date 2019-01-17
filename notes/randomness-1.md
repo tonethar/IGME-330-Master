@@ -95,7 +95,7 @@ In this post, he lists 5 differentiators that programming brings to art:
 We will give you several opportunities to explore the use of randomness in digital media:
 
 - The "screensaver" exercise in [canvas-1.md](./canvas-1.md) (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
-- The "random walker" exercise (inspired by Arp's *Danger of Death*)
+- The ["random walker"](./HW-random-walker.md) exercise (inspired by Arp's *Danger of Death*)
 - The [HW-hello-canvas.md](./HW-hello-canvas.md) exercise
 - NLP ("Natural Language Processing") and computational text exercises that we will do later in the semester. These are inspired by Tristan Tzara's "cut-up" method of creating random text.  We will use JavaScript libraries such as *RiTa* (pronounced "Rita") --> https://rednoise.org/rita/ and *NLP Compromise* --> http://compromise.cool to accomplish this.
 
