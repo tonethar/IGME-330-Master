@@ -99,6 +99,8 @@ We will demo how to draw a variety of shapes in class. Below are a couple possib
 
 ![screenshot](./_images/screen-saver-3.gif)
 
+![screenshot](./_images/screen-saver-4.gif)
+
 ## IV. Homework
 Do ONE of the following:
 
