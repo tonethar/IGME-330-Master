@@ -11,9 +11,9 @@ In this 2-part exercise we are going to build a canvas painting app that has the
 
 This assignment is relevant for the Audio Visualizer project:
 - it gives more practice with the canvas drawing API
-- reviews how to hook up canvas to a DOM interface
+- reviews how to hook up canvas drawing to a DOM interface
 - it covers how to create a second temporary canvas and draw to it
-- it reviews how to grab mouse coordinates in "canvas coordinates"
+- it reviews how to convert window mouse coordinates to "canvas coordinates"
   
 ## II. Submission
 - the start files and instructions are here --> [Drawing-App-Start.zip](_files/Drawing-App-Start.zip)
