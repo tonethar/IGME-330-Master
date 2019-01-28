@@ -16,6 +16,6 @@ This assignment is relevant for the Audio Visualizer project:
 - it reviews how to grab mouse coordinates in "canvas coordinates"
   
 ## II. Submission
-- the start files and instructions are here -> [Drawing-App-Start.zip](_files/Drawing-App-Start.zip)
+- the start files and instructions are here --> [Drawing-App-Start.zip](_files/Drawing-App-Start.zip)
 - note that due to API changes, the *Export* button does not function on Chrome (and don't worry about that for now)
 - see mycourses.rit.edu for due date
