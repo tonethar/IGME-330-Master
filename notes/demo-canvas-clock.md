@@ -1,7 +1,8 @@
 # Demo - Canvas Clock
 
-- Can you use `ctx.translate()` and `ctx.rotate()` to draw the clock face, and animate the second hand?
+- Can you use `ctx.translate()` and `ctx.rotate()` to draw the clock face, and animate the seconds hand?
   - Yes you can! Make it so!
+- Note that we are drawing the clock face on the *bottom* canvas (`ctx1`), and the seconds hand on the *top* canvas (`ctx2`)
 
 ## Screenshot of Done Version
 ![screenshot](./_images/clock-demo-1.jpg)
@@ -113,7 +114,7 @@
 	<h1>Garish Canvas Clock</h1>
 	<ul>
 		<li>The clock face is drawn on the bottom canvas, the second hand is drawn on the top canvas</li>
-		<li>The numerals and second hand are positioned with <code>ctx.rotate()</code> and <code>ctx.scale()</code></li>
+		<li>The numerals and seconds hand are positioned with <code>ctx.rotate()</code> and <code>ctx.scale()</code></li>
 	</ul>
 	</div>
 </head>
