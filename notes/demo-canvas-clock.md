@@ -114,7 +114,7 @@
 	<h1>Garish Canvas Clock</h1>
 	<ul>
 		<li>The clock face is drawn on the bottom canvas, the second hand is drawn on the top canvas</li>
-		<li>The numerals and seconds hand are positioned with <code>ctx.rotate()</code> and <code>ctx.scale()</code></li>
+		<li>The numerals and seconds hand are positioned with <code>ctx.rotate()</code> and <code>ctx.translate()</code></li>
 	</ul>
 	</div>
 </head>
