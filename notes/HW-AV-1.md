@@ -31,5 +31,3 @@ In part I of this HW, you will be learning about the HTML5 [WebAudio API](https:
 - the start files are zipped up in mycourses
 - also see the mycourses.rit.edu dropboxes for due date
 
-## III. One more thing
-- this exercise is a few years old, so it declares varibles exclusively with `var`. Go ahead and replace all of the `var` statements with either `let` or `const` as appropriate
