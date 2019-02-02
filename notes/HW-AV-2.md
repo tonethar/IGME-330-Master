@@ -14,7 +14,7 @@ In part II of this HW we will look at grabbing RGBa data from the canvas, and pe
 
 ## II. Links from Exercise
 
-**These examples work best in Chrome:**
+**The examples that rely on a Webcam only work in Chrome:**
 
 - Video Filters Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/getImageData-putImageData-demo/video-image-data-demo-3.html
 - Web Cam Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
