@@ -130,7 +130,7 @@ Some important notes about the Web Audio API are here:
 			
 	// call our helper function and get an analyser node
 	// https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
-	let audioCtx = new AudioContext();
+	let audioCtx = new (window.AudioContext || window.webkitAudioContext); // to support Safari and mobile)
 	
 	// create an analyser node
 	let analyserNode = audioCtx.createAnalyser();
