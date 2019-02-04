@@ -75,7 +75,7 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 			
 		// 9 - create a new array of 8-bit integers (0-255)
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
-		let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.frequencyBinCount
+		let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
 		
 		// 10 - populate the array with the frequency data
 		// notice these arrays are passed *by reference*
@@ -172,7 +172,7 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 		
 	  // 9 - create a new array of 8-bit integers (0-255)
 	  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
-	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.frequencyBinCount
+	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.fftSize/2
 		
 	  // 10 - populate the array with the frequency data
 	  // notice these arrays are passed *by reference*
