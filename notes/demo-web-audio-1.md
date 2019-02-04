@@ -35,29 +35,36 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 
 <script>
 	const NUM_SAMPLES = 32;
-	// get reference to <audio> element on page
+	
+	// 1 - get reference to <audio> element on page
 	let audioElement = document.querySelector('audio');
 			
-	// call our helper function and get an analyser node
+	// 2 - create a new `AudioContext` object
 	// https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
-	let audioCtx = new (window.AudioContext || window.webkitAudioContext); // to support Safari and mobile)
+	let audioCtx = new (window.AudioContext || window.webkitAudioContext); // to support Safari and mobile
 	
-	// create an analyser node
+	// 3 - create a node that points at the <audio> element
+	// https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource
+	let sourceNode = audioCtx.createMediaElementSource(audioElement); 
+	
+	// 4 - create a *analyser node*
+	// https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode
+	// this gets us real-time frequency and time-domain (i.e. waveform) information
 	let analyserNode = audioCtx.createAnalyser();
-	// fft stands for Fast Fourier Transform
+	
+	// 5 - How many samples do we want? fft stands for Fast Fourier Transform
 	analyserNode.fftSize = NUM_SAMPLES;
 	
-	// this is where we hook up the <audio> element to the analyserNode
-	let sourceNode = audioCtx.createMediaElementSource(audioElement); 
+	// 6 - hook up the <audio> element to the analyserNode
 	sourceNode.connect(analyserNode);
 	
-	// here we connect to the destination i.e. speakers
+	// 7 - here we connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
 	update();
 	
 	function update() { 
-		// this schedules a call to the update() method in 1/60 second
+		// 8 - this schedules a call to the update() method in 1/60 second
 		requestAnimationFrame(update);
 		
 		/*
@@ -66,15 +73,15 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 				The array of data we get back is 1/2 the size of the sample rate 
 		*/
 			
-		// create a new array of 8-bit integers (0-255)
+		// 9 - create a new array of 8-bit integers (0-255)
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 		let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.frequencyBinCount
 		
-		// populate the array with the frequency data
-		// notice these arrays are passed "by reference" 
+		// 10 - populate the array with the frequency data
+		// notice these arrays are passed *by reference*
 		analyserNode.getByteFrequencyData(data);
 		
-		// Let's visualize the audio data in an HTML table (lame!)
+		// 11 - Let's visualize the audio data in an HTML table (lame!)
 		let htmlR1="<tr>";
 		let htmlR2="<tr>";
 		let index = 0;
@@ -125,23 +132,29 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 
 <script>
 	const NUM_SAMPLES = 32;
-	// get reference to <audio> element on page
+	// 1 - get reference to <audio> element on page
 	let audioElement = document.querySelector('audio');
 			
-	// call our helper function and get an analyser node
+	// 2 - create a new `AudioContext` object
 	// https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
-	let audioCtx = new (window.AudioContext || window.webkitAudioContext); // to support Safari and mobile)
+	let audioCtx = new (window.AudioContext || window.webkitAudioContext); // to support Safari and mobile
 	
-	// create an analyser node
+	// 3 - create a node that points at the <audio> element
+	// https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource
+	let sourceNode = audioCtx.createMediaElementSource(audioElement); 
+	
+	// 4 - create a *analyser node*
+	// https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode
+	// this gets us real-time frequency and time-domain (i.e. waveform) information
 	let analyserNode = audioCtx.createAnalyser();
-	// fft stands for Fast Fourier Transform
+	
+	// 5 - How many samples do we want? fft stands for Fast Fourier Transform
 	analyserNode.fftSize = NUM_SAMPLES;
 	
-	// this is where we hook up the <audio> element to the analyserNode
-	let sourceNode = audioCtx.createMediaElementSource(audioElement); 
+	// 6 - hook up the <audio> element to the analyserNode
 	sourceNode.connect(analyserNode);
 	
-	// here we connect to the destination i.e. speakers
+	// 7 - here we connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
 	// canvas stuff
@@ -154,20 +167,20 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 	update();
 	
 	function update() { 
-		// this schedules a call to the update() method in 1/60 second
+		// 8 - this schedules a call to the update() method in 1/60 second
 		requestAnimationFrame(update);
 		
-		// create a new array of 8-bit integers (0-255)
+		// 9 - create a new array of 8-bit integers (0-255)
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 		let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.frequencyBinCount
 		
-		// populate the array with the frequency data
-		// notice these arrays are passed "by reference" 
+		// 10 - populate the array with the frequency data
+		// notice these arrays are passed *by reference*
 		analyserNode.getByteFrequencyData(data);
 		
-		// this time, let's visualize the audio data on the canvas
+		// 11 - this time, let's visualize the audio data on the canvas
 		
-     		/* YOU WRITE THIS */
+     		/* YOU WRITE THIS! */
     
 	}
 	
