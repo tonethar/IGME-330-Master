@@ -1,7 +1,7 @@
 # Web Audio Demo
 
 ## I. Background
-Some important notes about the Web Audio API are here:
+Some important notes about the Web Audio API are here, so we will take a quick look at the assignment PDF:
 - [HW - Audio Visualizer - Part I](./HW-AV-1.md)
 
 ## II. Start Files
