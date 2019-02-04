@@ -11,7 +11,7 @@
 - Other stuff to note:
   - be sure to look the code over and ask questions about anything you don't understand - there's a lot here!
   - everything will still work even if we change the `height` and `width` attributes of the &lt;canvas>
-  - an IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression - (pronounced "Iffy") - https://developer.mozilla.org/en-US/docs/Glossary/IIFE - is a JavaScript function that runs as soon as it is defined - and is used to create *scope* and keep variables and function out of global namespace
+  - an IIFE - **I**mmediately **I**nvoked **F**unction **E**xpression - (pronounced "Iffy") - https://developer.mozilla.org/en-US/docs/Glossary/IIFE - is a JavaScript function that runs as soon as it is defined - and is used to create *scope* and keep variables and functions out of global namespace
   - a handy helper function for creating gradients
   - how to create sprite instances using object literals and a factory function. This is the first of the multiple ways to create objects we will be looking at this semester
   - note that these sprites use *vectors* for movement - so if you've already taken IGME-202 you can put that some of that flocking code to work if you wish
