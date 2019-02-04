@@ -167,20 +167,20 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 	update();
 	
 	function update() { 
-		// 8 - this schedules a call to the update() method in 1/60 second
-		requestAnimationFrame(update);
+	  // 8 - this schedules a call to the update() method in 1/60 second
+	  requestAnimationFrame(update);
 		
-		// 9 - create a new array of 8-bit integers (0-255)
-		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
-		let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.frequencyBinCount
+	  // 9 - create a new array of 8-bit integers (0-255)
+	  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
+	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.frequencyBinCount
 		
-		// 10 - populate the array with the frequency data
-		// notice these arrays are passed *by reference*
-		analyserNode.getByteFrequencyData(data);
+	  // 10 - populate the array with the frequency data
+	  // notice these arrays are passed *by reference*
+	  analyserNode.getByteFrequencyData(data);
 		
-		// 11 - this time, let's visualize the audio data on the canvas
+	  // 11 - this time, let's visualize the audio data on the canvas
 		
-     		/* YOU WRITE THIS! */
+     	  /* YOU WRITE THIS! */
     
 	}
 	
