@@ -58,7 +58,7 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 	// 6 - hook up the <audio> element to the analyserNode
 	sourceNode.connect(analyserNode);
 	
-	// 7 - here we connect to the destination i.e. the speakers
+	// 7 - connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
 	update();
@@ -154,7 +154,7 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 	// 6 - hook up the <audio> element to the analyserNode
 	sourceNode.connect(analyserNode);
 	
-	// 7 - here we connect to the destination i.e. the speakers
+	// 7 - connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
 	// canvas stuff
