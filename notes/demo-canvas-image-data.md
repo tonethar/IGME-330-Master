@@ -39,6 +39,9 @@ See comments #1 - #6 in the source code. We will walk through these steps togeth
   - why don't we need a *pre-loader*?
 - #6  - **Stop using an insecure image**
 - #7 - Here's an extra challenge: **grab the *emboss* filter from [Web Audio Visualizer - Part II](./HW-AV-2.md) and get it working here**
+- You can ready more about canvas image manipulation here:
+  - https://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+  - http://html5doctor.com/video-canvas-magic/
 
 **sprite-literals-and-filters-start.html**
 
