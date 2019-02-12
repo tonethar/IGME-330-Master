@@ -41,8 +41,8 @@ if (window) { // for browser
   window['RiTaEvent'] = RiTaEvent;
 ```
 
-- So what is happening is that the RiTa.js library is keeping nearly ALL of its functions and variables *private* and protected in the iffy function, but then assigning 7 top level objects to the `window` object, which makes them available for the developer to use. These 7 objects are `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
-- Let's try out some code to prove to ourselves that code has been "exported" from the iffy. Go ahead and create and open up the *rita-tester.html* page below in a web browser, and open the web inspector: 
+- So what is happening is that the RiTa.js library is keeping nearly ALL of its functions and variables *private* and protected in the Iffy function, but then assigning 7 top level objects to the `window` object, which makes them available for the developer to use. These 7 objects are `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
+- Let's try out some code to prove to ourselves that code has been "exported" from the Iffy. Go ahead and create and open up the *rita-tester.html* page below in a web browser, and open the web inspector: 
 
 **rita-tester.html**
 
@@ -62,6 +62,12 @@ if (window) { // for browser
 **And type:**
 
 - `RiTa.VERSION`
+- `RiTa.rhymes("jart")`
+- `RiTa.pluralize("jart")`
+- `RiTa.alliterations("jart")`
+- `RiTa.isNoun("at")`
+
+- **RiTa.js has literally hundred of functions and variables, and the Iffy is successfully keeping all but 7 of those out of the global scope.**
 
 
 ## IV. Demo Start Files
