@@ -17,3 +17,13 @@
 Follow along if you can - or try it out later!
 
 1. Create a folder named `src`
+2. In the `src` folder, create a file named `utilities.js`, and cut/paste your `UTILITY FUNCTIONS` into it
+3. Reload the HTML page - ERROR!
+4. Create your &lt;script> tag --> `<script src="src/utilities.js"></script>`
+5. Reload the HTML page - ERROR! - **`ReferenceError: ctx is not defined`**
+6. `getLinearGradient()` is looking for a globally scoped `ctx` variable - let's fix that!
+7. Now move all of the `FACTORY FUNCTIONS` to a new file named `sprites.js` and save it into the `src` folder
+8. Go ahead and create a new &lt;script> tag to link to `sprites.js`
+
+
+
