@@ -26,8 +26,8 @@
 ## III. IIFEs in the wild
   - Iffy's are commonly used in JavaScript libraries - let's go check one out:
     - In this course we will soon be using the RiTa.js library - which utilizies an IIFE - head to this page to see where you can download it: https://rednoise.org/rita/download.php
-    - look for the **rita-full.js** - the "non-minified" version - and open it in a new window or tab, which should allow you to view the full source code in a browser window - yes the code is 100% wrapped in an iffy.
-    - So if all of the code is declared inside of this iffy function, how to we use it? Go ahead and scroll to the bottom of the page, and near the bottom you will see code something like this:
+    - look for the **rita-full.js** - the "non-minified" version - and open it in a new window or tab, which should allow you to view the full source code in a browser window - yes the code is 100% wrapped in an Iffy.
+    - So if all of the code is declared inside of this Iffy function, how to we use it? Go ahead and scroll to the bottom of the page, and near the bottom you will see code something like this:
     
 ```js
 if (window) { // for browser
