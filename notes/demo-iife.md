@@ -1,7 +1,7 @@
 # Demo - IIFE - *Immediately Invoked Function Expression*
 
 ## I. Overview
-- Up until now, we have been writing all of our JS code in the top-level of &lt;script> tags, which leads to many issues which we will demonstrate in the demo below:
+- Up until now, we have been writing all of our JS code in the top-level of &lt;script> tags, which leads to many issues which we will demonstrate in the demo files (Section IV.) below:
   1. variables declared with `var` end up in the global scope with the entirety of the browser API, so there is a serious risk of our variable names conflicting and/or overwriting existing symbols
   2. functions declared with `function` end up in the global scope with the entirety of the browser API, so the danger is the same as above
   3. variables or functions declared with `let` or `const` end up in a "global-ish" scope called "script scope". If we have an application with multiple script files where variable names are the same, these duplicate variable declarations will cause a run-time error
@@ -21,7 +21,9 @@
   - the `charlie` variables in the 2 files are now separate and distinct from each other - one is in function (local) scope, the other in global scope
   - `able` and `baker` variables in the 2 files no longer interfere with each other
   - variables in the IIFE are no longer visible from the console
-- IIFEs in the wild:
+  
+
+## III. IIFEs in the wild
   - Iffy's are commonly used in JavaScript libraries - let's go check one out:
     - In this course we will soon be using the RiTa.js library - which utilizies an IIFE - head to this page to see where you can download it: https://rednoise.org/rita/download.php
     - look for the **rita-full.js** - the "non-minified" version - and open it in a new window or tab, which should allow you to view the full source code in a browser window - yes the code is 100% wrapped in an iffy.
@@ -57,10 +59,12 @@ if (window) { // for browser
 </html>
 ```
 
-And type:
+**And type:**
+
 - `RiTa.VERSION`
 
-## III. Demo Start Files
+
+## IV. Demo Start Files
 
 **iife-demo.html**
 ```html
