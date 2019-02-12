@@ -2,7 +2,7 @@
 
 ## I. Overview
 - Here we will learn how to create multiple **modules** in our code by utilizing IIFEs, where the various units of JavaScript can run without interference from the other units
-- In the first part of today's demo, we will take a previous demo where all of the JS code is contained in the HTML file and split the code between 3 JS files, which will improve the readability and organization of the code.
+- In the first part of today's demo, we will take a previous demo where all of the JS code is contained in the HTML file and split the code between 4 JS files, which will improve the readability and organization of the code.
   - However, as far as the JavaScript runtime is concerned, all of this code is still intermingled in the global and "script" scopes.
 - In the second part of today's demo, we will fix this issue by implementing the ***revealing module pattern***. 
   - This pattern uses multiple IIFEs to first hide away all the code in a file that we wish to be *private* and not visible to the outside, and then to only export those variables and functions that we wish to be *public*.
@@ -43,7 +43,22 @@ window.onload = _ =>{
 19. Reload Page - everything should work. So we have great code, right?
 20. Not really! Check the debugger and you'll see that even though all of the code is in separate files, all the functions and variables are still stuck in either global or script scope!
 
+### Part Two - create *modules* with their own scope:
 
+1. At the top of `utilities.js` - add the following `var app = app || {};` - we will explain this - it's also the only time in this course that we MUST use `var`
+2. Now create the utilities module - which is an IIFE - like this at the beginning of the code - `app.utilities = (function(){ ...` - and this at the end - `})();`
+3. Now all of our utilities code is hidden away in an Iffy - obviously this will break everything.
+4. Take a look at `app.utilities` in the debugger it's undefined
+5. So how do we make this utilities code visible to the outside? Return a "public interface" like this:
+
+```js
+return{
+	getRandomUnitVector: getRandomUnitVector,
+	getRandom:getRandom,
+	getRandomColor: getRandomColor,
+	getLinearGradient: getLinearGradient
+};
+```
 
 
 
