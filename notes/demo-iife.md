@@ -39,6 +39,8 @@ if (window) { // for browser
   window['RiWordNet'] = RiWordNet;
   window['RiLexicon'] = RiLexicon;
   window['RiTaEvent'] = RiTaEvent;
+  
+  ...
 ```
 
 - So what is happening is that the RiTa.js library is keeping nearly ALL of its functions and variables *private* and protected in the Iffy function, but then assigning 7 top level objects to the `window` object, which makes them available for the developer to use. These 7 objects are `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
