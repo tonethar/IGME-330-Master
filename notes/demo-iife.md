@@ -67,6 +67,7 @@ if (window) { // for browser
 - `RiTa.alliterations("jart")`
 - `RiTa.isNoun("at")`
 
+
 - **RiTa.js has literally hundred of functions and variables, and the Iffy is successfully keeping all but 7 of those out of the global scope.**
 
 
