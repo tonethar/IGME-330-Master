@@ -28,6 +28,18 @@ Follow along if you can - or try it out later!
 10. Go ahead and fix the `createSprites()` function
 11. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> for it
 12. Delete the empty &lt;script> tag that remains in the HTML file
+13. Reload the page - ERROR! - **`TypeError: document.querySelector(...) is null`**
+14. Create a new JS file named `loader.js` and put this in it:
+
+```js
+window.onload = _ =>{
+	init();
+}
+```
+15. Create a &lt;script> tag for `loader.js`
+16. Delete the `init()` call from `main.js`
+17. Reload the page - multiple ERRORs! Why?
+18. Fix the issues in main.js
 
 
 
