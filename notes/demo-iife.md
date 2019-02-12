@@ -23,9 +23,25 @@
   - variables in the IIFE are no longer visible from the console
 - IIFEs in the wild:
   - Iffy's are commonly used in JavaScript libraries - let's go check one out:
-    - In this course we will soon be using the RiTa library - which utilizies an IIFE - head to this page to see where you can download it: https://rednoise.org/rita/download.php
-    - look for the **rita-full.js** - the "non-minified" version - and open it in a new window or tab, which should allow you to view the full source code in a browser window
-    - scroll
+    - In this course we will soon be using the RiTa.js library - which utilizies an IIFE - head to this page to see where you can download it: https://rednoise.org/rita/download.php
+    - look for the **rita-full.js** - the "non-minified" version - and open it in a new window or tab, which should allow you to view the full source code in a browser window - yes the code is 100% wrapped in an iffy.
+    - So if all of the code is declared inside of this iffy function, how to we use it? Go ahead and scroll to the bottom of the page, and near the bottom you will see code something like this:
+    
+```js
+if (window) { // for browser
+
+  window['RiTa'] = RiTa;
+  window['RiString'] = RiString;
+  window['RiGrammar'] = RiGrammar;
+  window['RiMarkov'] = RiMarkov;
+  window['RiWordNet'] = RiWordNet;
+  window['RiLexicon'] = RiLexicon;
+  window['RiTaEvent'] = RiTaEvent;
+```
+
+- So what is happening is that the RiTa.js library is keeping nearly ALL of its functions and variables *private* and protected in the iffy function, but then assigning 7 top level objects to the `window` object, which makes them available for the developer to use. These 7 objects are `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
+- Let's try out some code to prove to oursleves that code has been "exported" from the iffy. Go ahead and open up the web inspector in the window that has the RiTa.js library open, and type:
+- ``
 
 ## III. Demo Start Files
 
