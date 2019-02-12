@@ -1,4 +1,4 @@
-# IIFE Demo
+# Demo - IIFE - *Immediately Invoked Function Expression*
 
 ## I. Overview
 - Up until now, we have been writing all of our JS code in the top-level of &lt;script> tags, which leads to many issues which we will demonstrate in the demo below:
