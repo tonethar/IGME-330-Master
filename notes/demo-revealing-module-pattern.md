@@ -47,19 +47,31 @@ window.onload = _ =>{
 
 1. At the top of `utilities.js` - add the following `var app = app || {};` - we will explain this - it's also the only time in this course that we MUST use `var`
 2. Now create the utilities module - which is an IIFE - like this at the beginning of the code - `app.utilities = (function(){ ...` - and this at the end - `})();`
-3. Now all of our utilities code is hidden away in an Iffy - obviously this will break everything.
+3. Now all of our utilities code is hidden away in an Iffy - obviously this will break everything - **`ReferenceError: getLinearGradient is not defined`**
 4. Take a look at `app.utilities` in the debugger it's undefined
-5. So how do we make this utilities code visible to the outside? Return a "public interface" like this:
+5. So how do we make this utilities code visible to the outside? Just return a "public interface" like this:
 
 ```js
+// our "public interface"
 return{
 	getRandomUnitVector: getRandomUnitVector,
 	getRandom:getRandom,
 	getRandomColor: getRandomColor,
 	getLinearGradient: getLinearGradient
 };
+// remind us to show you the shorthand way to initilaize and object!
 ```
+6. Now all the utilities functions can get called through `app.utilities`! Fix the errors and make it so!
+7. Add this line to the top of all of the JS files - `var app = app || {};`
+8. Now we will make `sprites.js` a module in a similar way to how we did `app.utilities` - make it so!
+9. Reload the page. Fix the error!
+10. Now make `main.js` a module - and you only need to "export" the `init()` function -0 everything else is "private"
+11. Call `app.main.init()` from `loader.js` and you are good to go!
+12. Put a breakpoint on the `app.main.init()` line in loader - and check out the `app` variable, its modules, and the "public" properties of those modules (i.e. the ones we returned)
 
+## IV. Summary
+
+- We have seen two powerful JS code patterns that will make your code more robust, and work on pretty much any shipping browser!
 
 
 
