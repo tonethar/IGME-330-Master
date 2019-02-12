@@ -16,7 +16,7 @@
 })();
 ```
 
-- so what Iffy's do is to *create scope* separate and distinct from the global scope
+- so what Iffy's do is to ***create scope*** separate and distinct from the global scope
 - things to try:
   - the `charlie` variables in the 2 files are now separate and distinct from each other - one is in function (local) scope, the other in global scope
   - `able` and `baker` variables in the 2 files no longer interfere with each other
