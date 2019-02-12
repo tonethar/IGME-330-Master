@@ -24,6 +24,11 @@ Follow along if you can - or try it out later!
 6. `getLinearGradient()` is looking for a globally scoped `ctx` variable - let's fix that!
 7. Now move all of the `FACTORY FUNCTIONS` to a new file named `sprites.js` and save it into the `src` folder
 8. Go ahead and create a new &lt;script> tag to link to `sprites.js`
+9. Reload the page - ERROR! - **`ReferenceError: canvasWidth is not defined`** 
+10. Go ahead and fix the `createSprites()` function
+11. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> for it
+12. Delete the empty &lt;script> tag that remains in the HTML file
+
 
 
 
