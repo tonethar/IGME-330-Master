@@ -40,8 +40,25 @@ if (window) { // for browser
 ```
 
 - So what is happening is that the RiTa.js library is keeping nearly ALL of its functions and variables *private* and protected in the iffy function, but then assigning 7 top level objects to the `window` object, which makes them available for the developer to use. These 7 objects are `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
-- Let's try out some code to prove to oursleves that code has been "exported" from the iffy. Go ahead and open up the web inspector in the window that has the RiTa.js library open, and type:
-- ``
+- Let's try out some code to prove to ourselves that code has been "exported" from the iffy. Go ahead and create and open up the page below, and open the web inspector: 
+
+**rita-tester.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>RiTa Tester</title>
+</head>
+<body>
+<script src="https://rednoise.org/rita/download/rita-full.js"></script>
+</body>
+</html>
+```
+
+And type:
+- `RiTa.VERSION`
 
 ## III. Demo Start Files
 
