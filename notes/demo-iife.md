@@ -16,6 +16,7 @@
 })();
 ```
 
+- so what Iffy's do is to *create scope* separate and distinct from the global scope
 - very soon we will learn how to create multiple **modules** in our code by utilizing IIFEs, where the various units of JavaScript can run without interference from the other units
 
 ## III. Demo Start Files
