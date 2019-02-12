@@ -17,7 +17,10 @@
 ```
 
 - so what Iffy's do is to *create scope* separate and distinct from the global scope
-- very soon we will learn how to create multiple **modules** in our code by utilizing IIFEs, where the various units of JavaScript can run without interference from the other units
+- things to try:
+  - the `charlie` variables are now separate and distinct from each other - one is in function (local) scope, the other in global scope
+  - `able` and `baker` variables in the 2 files no longer interfere with each other
+  - variables in the IIFE are no longer visible from the console
 
 ## III. Demo Start Files
 
