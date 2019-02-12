@@ -39,7 +39,11 @@ window.onload = _ =>{
 15. Create a &lt;script> tag for `loader.js`
 16. Delete the `init()` call from `main.js`
 17. Reload the page - multiple ERRORs! Why?
-18. Fix the issues in main.js
+18. Fix the issues in `main.js` by initializing certain variables in the `init()` function
+19. Reload Page - everything should work. So we have great code, right?
+20. Not really! Check the debugger and you'll see that even though all of the code is in separate files, all the functions and variables are still stuck in either global or script scope!
+
+
 
 
 
