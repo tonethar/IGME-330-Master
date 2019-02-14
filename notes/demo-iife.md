@@ -17,7 +17,7 @@
 ```
 
 - so what Iffy's do is to ***create scope*** separate and distinct from the global scope
-- things to try:
+- Let's go ahead and creatan Iffy in the **iife-demo.html** file below - then here are some things we'll try:
   - the `charlie` variables in the 2 files are now separate and distinct from each other - one is in function (local) scope, the other in global scope
   - `able` and `baker` variables in the 2 files no longer interfere with each other
   - variables in the IIFE are no longer visible from the console
