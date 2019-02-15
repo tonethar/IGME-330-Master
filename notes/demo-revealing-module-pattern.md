@@ -30,10 +30,10 @@ Follow along if you can - or try it out later!
 10. Reload the page - ERROR! - **`ReferenceError: canvasWidth is not defined`** 
 11. Go ahead and fix the `createSprites()` function by adding `canvasWidth` and `canvasHeight` parameters, and then adding all of the necessary arguments to the `createSprites()` call in the HTML file
 12. Reload the HTML page, it should now work.
-13. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> element for it in the HTML file like we did for the other two modules
-14. Delete the empty &lt;script> tag that remains in the HTML file
-15. Reload the page - ERROR! - **`TypeError: document.querySelector(...) is null`**
-16. Create a new JS file named `loader.js` and put this in it:
+13. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> element for it in the &lt;head> section of the HTML file like we did for the other two modules
+14. Delete the empty &lt;script> tag that remains in the HTML file (the one with the Iffy in it)
+15. Reload the page - ERROR! - **`TypeError: document.querySelector(...) is null`** - we have a problem with some of the code at the top of **main.js** - do you know what it is?
+16. To fix this issue, first create a new JS file named `loader.js` and put this in it:
 
 ```js
 window.onload = _ =>{
