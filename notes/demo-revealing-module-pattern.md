@@ -82,7 +82,22 @@ return{
     - when it calls `app.utilities.getLinearGradient()` AND
     - when it calls `app.sprites.createSprites()`
 2. Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
-3. In **loader.js**
+3. Make **loader.js** look like this:
+
+```js
+var app = app || {};
+window.onload = _ =>{
+  // D.I.
+  app.sprites.utilities = app.utilities;
+	
+  // Start the app
+  app.main.init();
+}
+```
+
+4. Above we have created a new *property* on the "sprites" module named `utilities`, and assigned a value
+5. Reload the HTML page - ERROR!
+6. In **sprites.js**, we need to fix the code so that 
 
 ## IV. Summary
 
