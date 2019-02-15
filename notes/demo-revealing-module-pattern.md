@@ -79,7 +79,7 @@ return {
 
 - The code we wrote in Part Two above works well, but as mentioned in the intro, two of the modules contain hard-coded *dependencies* on the `app` global
 - Some people might stop refactoring at this point and say "good enough" - but that's not how we roll! 
-- To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments into the modules
+- To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments (ex. references to the other modules) into the modules
 - The way we are going to do this also necessitates getting rid of the Iffys
 - So we are going to tear this code apart one last time, but it will be worth it to make the code right!
 
