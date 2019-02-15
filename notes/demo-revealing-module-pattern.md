@@ -103,6 +103,7 @@ const myUtilities = function(){
 And the bottom looks like this (no Iffy!):
 
 ```js
+ // this module's "public" interface
 // note the ES6 "shorthand object literal" syntax
 return {
 	getRandomUnitVector,
