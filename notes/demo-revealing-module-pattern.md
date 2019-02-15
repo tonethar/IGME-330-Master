@@ -7,7 +7,7 @@
 - In the **SECOND part** of today's demo, we will fix this issue by implementing the ***revealing module pattern***. 
   - This pattern uses multiple IIFEs to first hide away all the code in a file that we wish to be *private* and not visible to the outside, and then to only export those variables and functions that we wish to be *public*.
   - ***Issue***: the code is dramatically better than what we had before, but there is still a problem -  two of the  modules contain hard-code *dependencies* on the 'app` global - so let's move on and fix that!
-- In the **THIRD part** of today's demo - we will eliminate these *dependencies* by passing them in as parameters, rather than hard-coding them, which will have the effect of completely *decoupling* our modules, which makes them more re-usable and easier to test and debug. This is a very simple technique, but it comes with fancy names like *inversion of control (IOC)* and *dependency injection (DI)*, which can be summarized as "instantiate and pass in any module dependencies".
+- In the **THIRD part** of today's demo - we will eliminate these *dependencies* by passing them in as parameters, rather than hard-coding them, which will have the effect of completely *decoupling* our modules, which makes them more re-usable and easier to test and debug. This is a very simple technique, but it comes with fancy names like *inversion of control (IOC)* and [*dependency injection (DI)*](https://medium.com/@fleeboy/dependency-injection-in-javascript-9db9ea6e4288), which can be summarized as "instantiate and pass in a module's dependencies"
   
  ## II. Start Files
 - The start file for this presentation is the completed version of the the "Demo - Sprite Literals and Canvas Image Data", we did recently, and it is here --> [filter-plus-bitmap-manip-example.zip](./_files/filter-plus-bitmap-manip-example.zip)
@@ -95,9 +95,21 @@ window.onload = _ =>{
 }
 ```
 
-4. Above we have created a new *property* on the "sprites" module named `utilities`, and assigned a value
-5. Reload the HTML page - ERROR!
-6. In **sprites.js**, we need to fix the code so that 
+4. Above we have created a new *property* on the "sprites" module named `utilities`, and assigned a value. 
+5. In **sprites.js**, we need to modify the 2 lines of code flagged above so that they call `this.utilities` instead of `app.utilities`. Reload the page, it should work as before
+6. So what we did is have the **loader.js** file "inject" the dependency and attach it to a property of the sprites module, rather than rely on the `app` global.
+  - Our implementation is simple, but it works well and follows the spirit of DI, and also avoids the use of a separate module loader library --> https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
+  - one issue though, is the way we created the `.utilities` property above. By creating this property of the sprites module "whole cloth" in **loader.js** , there is no explicit variable declaration (i.e. "contract") for `.utilities` anywhere in **sprites.js**. Let's fix that by changing the top of **sprites.js** to look like this:
+
+```js
+var app = app || {};
+
+app.sprites = (function(utilities){
+	this.utilities = utilities;
+...
+```
+
+Even though we are not utilizing the `utilities` paramater in this case (because we don't know what order these JS files are going to be loaded), we are still alerting other developers (and our future selves) that there IS a `this.utilties` property that needs to be initialized
 
 ## IV. Summary
 
