@@ -73,6 +73,8 @@ return {
 11. Call `app.main.init()` from `loader.js` and you are good to go!
 12. Put a breakpoint on the `app.main.init()` line in loader - and check out the global `app` variable, its modules, and the "public" properties of those modules (i.e. the ones we returned)
 
+![screenshot](./_images/revealing-module-1.png)
+
 ### Part Three - get rid of the remaining dependencies:
 
 - The code we wrote in Part Two above works well, but as mentioned in the intro, two of the modules contain hard-coded *dependencies* on the 'app` global
