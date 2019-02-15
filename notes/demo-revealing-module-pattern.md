@@ -6,7 +6,7 @@
   - ***Issue***: as far as the JavaScript runtime engine is concerned, all of this code is still intermingled in the global and "script" scopes - so variables in different files can still overwrite each other - we need to fix this!
 - In the **SECOND part** of today's demo, we will fix this issue by implementing the ***revealing module pattern***. 
   - This pattern uses multiple IIFEs to first hide away all the code in a file that we wish to be *private* and not visible to the outside, and then to only export those variables and functions that we wish to be *public*.
-  - ***Issue***: the code is dramatically better than what we had before, but there is still a problem -  two of the  modules contain hard-code *dependencies* on the 'app` global - so let's move on and fix that!
+  - ***Issue***: the code is dramatically better than what we had before, but there is still a problem -  two of the  modules contain hard-coded *dependencies* on the 'app` global - so let's move on and fix that!
 - In the **THIRD part** of today's demo - we will eliminate these *dependencies* by passing them in as parameters, rather than hard-coding them, which will have the effect of completely *decoupling* our modules, which makes them more re-usable and easier to test and debug. This is a very simple technique, but it comes with fancy names like *inversion of control (IOC)* and [*dependency injection (DI)*](https://medium.com/@fleeboy/dependency-injection-in-javascript-9db9ea6e4288), which can be summarized as "instantiate and pass in a module's dependencies"
   
  ## II. Start Files
@@ -73,15 +73,21 @@ return{
 
 ### Part Three - get rid of the remaining dependencies:
 
-1. First, we need to look at our modules one at a time to look for any dependencies they would have on global variables:
-  - **utilities.js** does not depend on any global variables or functions. As a matter of fact, all of the functions in this file are highly re-usable ["pure functions"](https://en.wikipedia.org/wiki/Pure_function), which do not produce any side effects. We do not need to fix this module.
+The code we wrote in Part Two above works well, but as mentioned in the intro, two of the modules contain hard-coded *dependencies* on the 'app` global. Some people might stop refactoring at this point and say "good enough" - but that's not how we roll! To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments into the modules. This also necessitates getting rid of the Iffys. So we are going to tear this code apart one last time, but it will be worth it!
+
+1. First, we need to look at our modules one at a time to look for the actual dependencies they have on global variables:
+  - **utilities.js** does not depend on any global variables or functions. As a matter of fact, all of the functions in this file are highly re-usable ["pure functions"](https://en.wikipedia.org/wiki/Pure_function), which do not produce any side effects. 
   - **sprites.js** has two dependencies on the `app` global object:
     - when it calls `app.utilities.getRandomColor()` AND 
     - when it calls `app.utilities.getRandomUnitVector()`
   - **main.js** has two dependencies on the `app` global object:
     - when it calls `app.utilities.getLinearGradient()` AND
     - when it calls `app.sprites.createSprites()`
-2. Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
+2. To really fix this and make it "right", to have truly independent and reusable modules, we are going to 
+3. First, we will head to **utilities.js** - we are going to make it so it's not 
+
+
+Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
 3. Make **loader.js** look like this:
 
 ```js
@@ -98,18 +104,10 @@ window.onload = _ =>{
 4. Above we have created a new *property* on the "sprites" module named `utilities`, and assigned a value. 
 5. In **sprites.js**, we need to modify the 2 lines of code flagged above so that they call `this.utilities` instead of `app.utilities`. Reload the page, it should work as before
 6. So what we did is have the **loader.js** file "inject" the dependency and attach it to a property of the sprites module, rather than rely on the `app` global.
-  - Our implementation is simple, but it works well and follows the spirit of DI, and also avoids the use of a separate module loader library --> https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
-  - one issue though, is the way we created the `.utilities` property above. By creating this property of the sprites module "whole cloth" in **loader.js** , there is no explicit variable declaration (i.e. "contract") for `.utilities` anywhere in **sprites.js**. Let's fix that by changing the top of **sprites.js** to look like this:
+  - Our implementation is simple, but it works well, runs on pretty much any browser ever shipped, and follows the spirit of DI. Our implementation also avoids the use of a separate module loader library --> https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
 
-```js
-var app = app || {};
 
-app.sprites = (function(utilities){
-	this.utilities = utilities;
-...
-```
 
-Even though we are not utilizing the `utilities` paramater in this case (because we don't know what order these JS files are going to be loaded), we are still alerting other developers (and our future selves) that there IS a `this.utilties` property that needs to be initialized
 
 ## IV. Summary
 
