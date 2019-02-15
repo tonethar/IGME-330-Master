@@ -63,7 +63,7 @@ return {
 	getRandomColor: getRandomColor,
 	getLinearGradient: getLinearGradient
 };
-// remind us to show you the shorthand way to initialize an object!
+// remind us to show you the ES6 shorthand way to initialize an object!
 ```
 6. Now all the utilities functions can get called through `app.utilities`! Fix the errors and make it so!
 7. Add this line to the top of all of the JS files - `var app = app || {};`
