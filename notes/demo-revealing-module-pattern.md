@@ -46,6 +46,7 @@ window.onload = _ =>{
 20. Fix the issues in `main.js` by initializing certain variables in the `init()` function
 21. Reload Page - everything should work. So we have great code, right?
 22. Not really! Check the debugger and you'll see that even though all of the code is in separate files, all the functions and variables are still stuck in either global or script scope!
+23. Save a copy of Part One and move on
 
 ### Part Two - create *modules* with their own scope:
 
