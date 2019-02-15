@@ -67,7 +67,7 @@ return {
 ```
 6. Now all the utilities functions can get called through `app.utilities`! Fix the errors in **sprites.js** and **main.js** and make it so!
 7. Add this line to the top of all of the JS files - `var app = app || {};`
-8. Now we will make `sprites.js` a module in a similar way to how we did `app.utilities` - make it so!
+8. Now we will make `sprites.js` a module (name it `.sprites`) in a similar way to how we did `app.utilities` - make it so!
 9. Reload the page. Fix the error!
 10. Now make `main.js` a module - and you only need to "export" the `init()` function - everything else is "private"
 11. Call `app.main.init()` from `loader.js` and you are good to go!
