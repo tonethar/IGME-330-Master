@@ -169,13 +169,13 @@ window.onload = _ =>{
 }
 ```
 
-7. Reload the page - everything should work as before!
+7. Reload the page - everything should work as before! If you check out `app` in the debugger, it will look the same as before because we have not changed the "public interface" of any of the modules
 
 ## IV. Summary
 
-- We have seen now seen how to build a a powerful JS code pattern
-- Go back and look at are original start code (when everything is jammed in one file) and ask yourself:
-  - which version (the start or the end code) will have more reusable chunks of code?
+- We have seen now seen how to build a a powerful JS code pattern - this is how you'll start off your big JS projects, right? In order to avoid a lot of refactoring of code?
+- Go back and look at are original start code (when everything is jammed in the HTML file) and ask yourself:
+  - which version (the start or the end code) will have more reusable units of code?
   - which version (the start or the end code) will be easier to work on with a partner?
   - which version (the start or the end code) will be easier to debug?
   - which version (the start or the end code) will be easier to understand if you came back and looked at this code in 6 months?
