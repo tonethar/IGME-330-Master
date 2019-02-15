@@ -71,7 +71,7 @@ return {
 9. Reload the page. Fix the error in **main.js**!
 10. Now make `main.js` a module (named `.main`) - and you only need to "export" the `init` function - everything else is "private"
 11. Call `app.main.init()` from `loader.js` and you are good to go!
-12. Put a breakpoint on the `app.main.init()` line in loader - and check out the global `app` variable, its modules, and the "public" properties of those modules (i.e. the ones we returned)
+12. Put a breakpoint on the `app.main.init()` line in loader - and check out the global `app` variable, its modules, and the "public" properties of those modules (i.e. the ones we returned). Note that for **main.js** we can only see the `init` function, and not the other variables and functions that we didn't "export"
 
 ![screenshot](./_images/revealing-module-1.png)
 
