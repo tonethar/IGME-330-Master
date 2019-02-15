@@ -21,7 +21,7 @@ Follow along if you can - or try it out later!
 1. Create a folder named `src`
 2. In the `src` folder, create a file named `utilities.js`, and cut/paste your `UTILITY FUNCTIONS` into it
 3. Reload the HTML page - ERROR!
-4. Create your &lt;script> tag --> `<script src="src/utilities.js"></script>`
+4. Create your &lt;script> tag in the &lt;head> section of the HTML page --> `<script src="src/utilities.js"></script>`
 5. Reload the HTML page - ERROR! - **`ReferenceError: ctx is not defined`**
 6. `getLinearGradient()` is looking for a globally scoped `ctx` variable - let's fix that! How? We add a `ctx` parameter to the beginning of the `getLinearGradient()` declaration in **utilities.js**, and then pass `ctx` in when we *call* `getLinearGradient()` in the HTML file 
 7. Reload the HTML page, it should now work.
