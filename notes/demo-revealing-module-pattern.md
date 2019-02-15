@@ -73,7 +73,7 @@ return{
 
 ### Part Three - get rid of the remaining dependencies:
 
-The code we wrote in Part Two above works well, but as mentioned in the intro, two of the modules contain hard-coded *dependencies* on the 'app` global. Some people might stop refactoring at this point and say "good enough" - but that's not how we roll! To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments into the modules. This also necessitates getting rid of the Iffys. So we are going to tear this code apart one last time, but it will be worth it!
+The code we wrote in Part Two above works well, but as mentioned in the intro, two of the modules contain hard-coded *dependencies* on the 'app` global. Some people might stop refactoring at this point and say "good enough" - but that's not how we roll! To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments into the modules. This also necessitates getting rid of the Iffys. So we are going to tear this code apart one last time, but it will be worth it to make the code right!
 
 1. First, we need to look at our modules one at a time to look for the actual dependencies they have on global variables:
   - **utilities.js** does not depend on any global variables or functions. As a matter of fact, all of the functions in this file are highly re-usable ["pure functions"](https://en.wikipedia.org/wiki/Pure_function), which do not produce any side effects. 
@@ -83,8 +83,7 @@ The code we wrote in Part Two above works well, but as mentioned in the intro, t
   - **main.js** has two dependencies on the `app` global object:
     - when it calls `app.utilities.getLinearGradient()` AND
     - when it calls `app.sprites.createSprites()`
-2. To really fix this and make it "right", to have truly independent and reusable modules, we are going to 
-3. First, we will head to **utilities.js** - we are going to get rid of both the `app` global and the Iffy. The top of it looks like this:
+2. First, we will head to **utilities.js** - we are going to get rid of both the `app` global and the Iffy. The top of it looks like this:
 
 ```js
 "use strict";
@@ -106,37 +105,68 @@ return {
 };
 ```
 
-4. If you reload the page everything breaks, so just continue the refactoring. Head to **sprites.js** and make the top look like this:
+3. If you reload the page everything breaks, so just continue the refactoring. Head to **sprites.js** and make the top look like this:
 
 ```js
-
+"use strict";
+const mySprites = function(utilitiesModule){
+   const utilities = utilitiesModule;
+   function createSprites(...
 ```
 
-Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
-3. Make **loader.js** look like this:
+- and be sure to delete the "Iffy" code off of the "end" of **sprites.js** as well
+- note that here we are now passing in an creating a `utilities` local variable for the sprites module
+- to use this variable instead of the `app` global (which we deleted) be sure to:
+  - change the line of code `app.utilities.getRandomColor();` to `utilities.getRandomColor();`
+  - change the line of code `app.utilities.getRandomUnitVector()` to `utilities.getRandomUnitVector()`
+
+5. Head to **main.js** and do some refactoring - make the top look like this:
 
 ```js
-var app = app || {};
+"use strict";
+const myMain = function(utilitiesModule,spritesModule){
+   const utilities = utilitiesModule;
+   const sprites = spritesModule;
+   let ctx;
+   ...
+```
+
+- and be sure to delete the "Iffy" code off of the "end" of **main.js** as well
+- note that here we are now passing in and creating both `utilities` AND `sprites` local variables for the main module
+- go ahead and delete the two references to `app` in the main module, and call the local variables instead
+
+
+6. Finally, head to **loader.js** and make it look like this:
+
+```js
+const app = {};
+
 window.onload = _ =>{
-  // D.I.
-  app.sprites.utilities = app.utilities;
+	// create modules with DI
+	let utilities = myUtilities();
+	let sprites = mySprites(utilities);
+	let main = myMain(utilities,sprites);
 	
-  // Start the app
-  app.main.init();
+	// assign properties and begin program
+	app.utilities = utilities;
+	app.sprites = sprites;
+	app.main = main;
+	app.main.init();
 }
 ```
 
-4. Above we have created a new *property* on the "sprites" module named `utilities`, and assigned a value. 
-5. In **sprites.js**, we need to modify the 2 lines of code flagged above so that they call `this.utilities` instead of `app.utilities`. Reload the page, it should work as before
-6. So what we did is have the **loader.js** file "inject" the dependency and attach it to a property of the sprites module, rather than rely on the `app` global.
-  - Our implementation is simple, but it works well, runs on pretty much any browser ever shipped, and follows the spirit of DI. Our implementation also avoids the use of a separate module loader library --> https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
-
-
-
+7. Reload the page - everything should work as before!
 
 ## IV. Summary
 
-- We have seen two powerful JS code patterns that will make your code more robust, and work on pretty much any shipping browser!
+- We have seen now seen how to build a a powerful JS code pattern
+- Go back and look at are original start code (when everything is jammed in one file) and ask yourself:
+  - which version (the start or the end code) will have more reusable chunks of code?
+  - which version (the start or the end code) will be easier to work on with a partner?
+  - which version (the start or the end code) will be easier to debug?
+  - which version (the start or the end code) will be easier to understand if you came back and looked at this code in 6 months?
+- Our final implementation is simple, but it works well, runs on pretty much any browser ever shipped, and follows the spirit of DI. Our implementation also avoids the use of a separate module loader library --> https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
+
 
 
 
