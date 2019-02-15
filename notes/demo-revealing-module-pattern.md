@@ -113,6 +113,7 @@ return {
 "use strict";
 const mySprites = function(utilitiesModule){
    const utilities = utilitiesModule;
+   
    function createSprites(...
 ```
 
@@ -132,6 +133,7 @@ const mySprites = function(utilitiesModule){
 const myMain = function(utilitiesModule,spritesModule){
    const utilities = utilitiesModule;
    const sprites = spritesModule;
+   
    let ctx;
    ...
 ```
