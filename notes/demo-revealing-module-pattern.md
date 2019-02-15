@@ -23,27 +23,29 @@ Follow along if you can - or try it out later!
 3. Reload the HTML page - ERROR!
 4. Create your &lt;script> tag --> `<script src="src/utilities.js"></script>`
 5. Reload the HTML page - ERROR! - **`ReferenceError: ctx is not defined`**
-6. `getLinearGradient()` is looking for a globally scoped `ctx` variable - let's fix that! How? We add a `ctx` parameter to the beginning of the `getLinearGradient()` declaration in **utilities.js**, and then pass `ctx` in when we *call* `getLinearGradient()` in the HTML file  
-7. Now move all of the `FACTORY FUNCTIONS` to a new file named `sprites.js` and save it into the `src` folder
-8. Go ahead and create a new &lt;script> tag to link to `sprites.js`
-9. Reload the page - ERROR! - **`ReferenceError: canvasWidth is not defined`** 
-10. Go ahead and fix the `createSprites()` function
-11. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> for it
-12. Delete the empty &lt;script> tag that remains in the HTML file
-13. Reload the page - ERROR! - **`TypeError: document.querySelector(...) is null`**
-14. Create a new JS file named `loader.js` and put this in it:
+6. `getLinearGradient()` is looking for a globally scoped `ctx` variable - let's fix that! How? We add a `ctx` parameter to the beginning of the `getLinearGradient()` declaration in **utilities.js**, and then pass `ctx` in when we *call* `getLinearGradient()` in the HTML file 
+7. Reload the HTML page, it should now work.
+8. Now move all of the `FACTORY FUNCTIONS` to a new file named `sprites.js` and save it into the `src` folder
+9. Go ahead and create a new &lt;script> tag to link to `sprites.js`
+10. Reload the page - ERROR! - **`ReferenceError: canvasWidth is not defined`** 
+11. Go ahead and fix the `createSprites()` function by adding `canvasWidth` and `canvasHeight` parameters, and then adding all of the necessary arguments to the `createSprites()` call in **main.js**
+12. Reload the HTML page, it should now work.
+13. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> for it
+14. Delete the empty &lt;script> tag that remains in the HTML file
+15. Reload the page - ERROR! - **`TypeError: document.querySelector(...) is null`**
+16. Create a new JS file named `loader.js` and put this in it:
 
 ```js
 window.onload = _ =>{
 	init();
 }
 ```
-15. Create a &lt;script> tag for `loader.js`
-16. Delete the `init()` call from `main.js`
-17. Reload the page - multiple ERRORs! Why?
-18. Fix the issues in `main.js` by initializing certain variables in the `init()` function
-19. Reload Page - everything should work. So we have great code, right?
-20. Not really! Check the debugger and you'll see that even though all of the code is in separate files, all the functions and variables are still stuck in either global or script scope!
+17. Create a &lt;script> tag for `loader.js`
+18. Delete the `init()` call from `main.js`
+19. Reload the page - multiple ERRORs! Why?
+20. Fix the issues in `main.js` by initializing certain variables in the `init()` function
+21. Reload Page - everything should work. So we have great code, right?
+22. Not really! Check the debugger and you'll see that even though all of the code is in separate files, all the functions and variables are still stuck in either global or script scope!
 
 ### Part Two - create *modules* with their own scope:
 
