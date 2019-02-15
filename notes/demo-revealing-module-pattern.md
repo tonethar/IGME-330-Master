@@ -65,7 +65,7 @@ return {
 };
 // remind us to show you the ES6 shorthand way to initialize an object!
 ```
-6. Now all the utilities functions can get called through `app.utilities`! Fix the errors and make it so!
+6. Now all the utilities functions can get called through `app.utilities`! Fix the errors in **sprites.js** and **main.js** and make it so!
 7. Add this line to the top of all of the JS files - `var app = app || {};`
 8. Now we will make `sprites.js` a module in a similar way to how we did `app.utilities` - make it so!
 9. Reload the page. Fix the error!
