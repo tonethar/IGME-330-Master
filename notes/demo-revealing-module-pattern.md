@@ -28,7 +28,7 @@ Follow along if you can - or try it out later!
 8. Now move all of the `FACTORY FUNCTIONS` to a new file named `sprites.js` and save it into the `src` folder
 9. Go ahead and create a new &lt;script> tag to link to `sprites.js`
 10. Reload the page - ERROR! - **`ReferenceError: canvasWidth is not defined`** 
-11. Go ahead and fix the `createSprites()` function by adding `canvasWidth` and `canvasHeight` parameters, and then adding all of the necessary arguments to the `createSprites()` call in **main.js**
+11. Go ahead and fix the `createSprites()` function by adding `canvasWidth` and `canvasHeight` parameters, and then adding all of the necessary arguments to the `createSprites()` call in the HTML file
 12. Reload the HTML page, it should now work.
 13. Move the rest of the code (minus the Iffy) into a file named `main.js` and create a &lt;script> for it
 14. Delete the empty &lt;script> tag that remains in the HTML file
