@@ -125,7 +125,7 @@ const mySprites = function(utilitiesModule){
 ```
 
 - and be sure to delete the "Iffy" code off of the "end" of **sprites.js** as well
-- note that here we are now passing in an creating a `utilities` local variable for the sprites module
+- note that here we are now passing in and creating a `utilities` local variable for the sprites module
 - to use this variable instead of the `app` global (which we deleted) be sure to:
   - change the line of code `app.utilities.getRandomColor();` to `utilities.getRandomColor();`
   - change the line of code `app.utilities.getRandomUnitVector()` to `utilities.getRandomUnitVector()`
