@@ -73,8 +73,16 @@ return{
 
 ### Part Three - get rid of the remaining dependencies:
 
-1. 
-
+1. First, we need to look at our modules one at a time to look for any dependencies they would have on global variables:
+  - **utilities.js** does not depend on any global variables or functions. As a matter of fact, all of the functions in this file are highly re-usable ["pure functions"](https://en.wikipedia.org/wiki/Pure_function), which do not produce any side effects. We do not need to fix this module.
+  - **sprites.js** has two dependencies on the `app` global object:
+    - when it calls `app.utilities.getRandomColor()` AND 
+    - when it calls `app.utilities.getRandomUnitVector()`
+  - **main.js** has two dependencies on the `app` global object:
+    - when it calls `app.utilities.getLinearGradient()` AND
+    - when it calls `app.sprites.createSprites()`
+2. Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
+3. In **loader.js**
 
 ## IV. Summary
 
