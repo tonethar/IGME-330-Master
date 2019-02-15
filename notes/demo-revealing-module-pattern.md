@@ -84,8 +84,33 @@ The code we wrote in Part Two above works well, but as mentioned in the intro, t
     - when it calls `app.utilities.getLinearGradient()` AND
     - when it calls `app.sprites.createSprites()`
 2. To really fix this and make it "right", to have truly independent and reusable modules, we are going to 
-3. First, we will head to **utilities.js** - we are going to make it so it's not 
+3. First, we will head to **utilities.js** - we are going to get rid of both the `app` global and the Iffy. The top of it looks like this:
 
+```js
+"use strict";
+const myUtilities = function(){
+   function getRandomUnitVector(){
+   ...
+```
+
+And the bottom looks like this (no Iffy!):
+
+```js
+// note the ES6 "shorthand object literal" syntax
+return {
+	getRandomUnitVector,
+	getRandom,
+	getRandomColor,
+	getLinearGradient
+      };
+};
+```
+
+4. If you reload the page everything breaks, so just continue the refactoring. Head to **sprites.js** and make the top look like this:
+
+```js
+
+```
 
 Let's head to **loader.js** where we will address these dependencies by dependency injection - in this case - passing in the dependency rather than hard-coding it.
 3. Make **loader.js** look like this:
