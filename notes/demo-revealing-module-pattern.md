@@ -132,7 +132,7 @@ const mySprites = function(utilitiesModule){
 
 5. Head to **main.js** and do some refactoring:
 
-- first, rename the current `sprites` variable (the one that refers to the array of sprites) to `spriteArray` - you will need to update the code in several places. The reason that we are doing this is that we are going to be using the variable name `sprites` to instead refer to the sprites module
+- first, rename the current `sprites` variable (the one that refers to the array of sprites) to `spriteArray` - you will need to update the code in three places. The reason that we are doing this is that we are going to be using the variable name `sprites` to instead refer to the sprites module
 - next, make the top of **main.js** look like this:
 
 ```js
