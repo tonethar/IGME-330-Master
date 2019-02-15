@@ -82,6 +82,7 @@ return {
 - To fix this properly, we are actually going to re-structure the app one more time so that we can pass arguments (ex. references to the other modules) into the modules
 - The way we are going to do this also necessitates getting rid of the Iffys
 - So we are going to tear this code apart one last time, but it will be worth it to make the code right!
+- Save a copy of Part Two, and move on
 
 1. First, we need to look at our modules one at a time to look for the actual dependencies they have on global variables:
   - **utilities.js** does not depend on any global variables or functions. As a matter of fact, all of the functions in this file are highly re-usable ["pure functions"](https://en.wikipedia.org/wiki/Pure_function), which do not produce any side effects. 
