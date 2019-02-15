@@ -57,7 +57,7 @@ window.onload = _ =>{
 
 ```js
 // our "public interface"
-return{
+return {
 	getRandomUnitVector: getRandomUnitVector,
 	getRandom:getRandom,
 	getRandomColor: getRandomColor,
