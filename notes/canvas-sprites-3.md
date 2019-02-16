@@ -133,10 +133,9 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 
 ## III. <a id="section3">Discussion
 	
-Whether to use or not use ES6 classes is a controversial subject in the JS developer community:
+Whether to use or not use ES6 classes is still a controversial subject in the JS developer community:
 
 - https://www.quora.com/Are-ES6-classes-bad-for-JavaScript
-- https://github.com/joshburgess/not-awesome-es6-classes
 	
 ## IV. <a id="section4">Review Exercise
 - Duplicate *canvas-sprites-2-HW.html* and name it **canvas-sprites-3-HW.html**
