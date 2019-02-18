@@ -155,6 +155,7 @@ const myMain = function(utilitiesModule,spritesModule){
 6. Finally, head to **loader.js** and make it look like this:
 
 ```js
+"use strict";
 const app = {};
 
 window.onload = _ =>{
