@@ -93,7 +93,7 @@ return {
   - **main.js** has two dependencies on the `app` global object:
     - when it calls `app.utilities.getLinearGradient()` AND
     - when it calls `app.sprites.createSprites()`
-2. First, we will head to **utilities.js** - we are going to get rid of both the `app` global and the Iffy. The top of it looks like this:
+2. First, we will head to **utilities.js** - we are going to get rid of both the `app` global declaration and the Iffy. The top of it looks like this:
 
 ```js
 "use strict";
@@ -126,7 +126,7 @@ const mySprites = function(utilitiesModule){
    function createSprites(...
 ```
 
-- and be sure to delete the "Iffy" code off of the "end" of **sprites.js** as well
+- and be sure to delete the `app` global declaration from the top, and the "Iffy" code off of the "end" of **sprites.js** as well
 - note that here we are now passing in and creating a `utilities` local variable for the sprites module
 - to use this variable instead of the `app` global (which we deleted) be sure to:
   - change the line of code `app.utilities.getRandomColor();` to `utilities.getRandomColor();`
@@ -147,7 +147,7 @@ const myMain = function(utilitiesModule,spritesModule){
    ...
 ```
 
-- and be sure to delete the "Iffy" code off of the "end" of **main.js** as well
+- and be sure to delete the `app` global declaration from the top, and the "Iffy" code off of the "end" of **main.js** as well
 - note that here we are now passing in and creating both `utilities` AND `sprites` local variables for the main module
 - go ahead and delete the two references to `app` in the main module, and call the local variables instead
 
