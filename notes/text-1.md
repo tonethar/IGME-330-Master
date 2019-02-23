@@ -3,7 +3,7 @@
 - Today we will first look at a number of ways for our users to load unstructured (plain) text
 - We will then look at some ways to analyze and manipulate the text
 
-I. [Loading Text](#I)
+I. [Six ways to Load Text](#I)
   
   - A. [Using &lt;input type="text">](#I-A) for single-line text
   - B. [Using &lt;textarea>](#I-B) for multi-line text
@@ -20,9 +20,9 @@ II. [Homework](#III)
 
 <a id="I"></a>
 
-## I. Loading Text
+## I. Six ways to load text
 
-We will look at five ways to do this:
+- Let's look at multiple ways the user can load text into our app 
 
 <a id="I-A"></a>
 
