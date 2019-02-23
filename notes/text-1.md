@@ -14,7 +14,7 @@ I. [Six ways to Load Text](#I)
   - E. [Using Drag & Drop another way](#I-E) to load text contained HTML elements
   - F. [Using XMLHttpRequest](#I-F) - (aka XHR) to load files from a web server
   
-II. [Demo](#II)
+II. [Lecture & Demo](#II)
 
 III. [Homework](#III)
 
@@ -399,7 +399,7 @@ function dataLoaded(e){
 
 <a id="II"></a>
 
-## II. Demo
+## II. Lecture & Demo
 
 - JS String docs --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - properties and methods we'll look at:
