@@ -335,7 +335,7 @@ function onDrop(e){
 
 ![screenshot]()
 
-[The data files are here]()
+[The data files are here](_files/data.zip)
 
 **load-text-xhr.html**
 
