@@ -78,7 +78,7 @@ function doChange(e){
 
 - Use a &lt;textarea> element for multi-line text
 
-![screenshot]()
+![screenshot](_images/text-2.png)
 
 **load-text-textarea.html**
 
@@ -127,7 +127,7 @@ function doChange(e){
 
 - This example loads text files from the users hard drive
 
-![screenshot]()
+![screenshot](_images/text-3.png)
 
 **load-text-file-input.html**
 
@@ -175,7 +175,7 @@ function dataLoaded(e){
 
 - This example loads text files from the users hard drive, but in this case they can drag a file onto the drop target
 
-![screenshot]()
+![screenshot](_images/text-4.png)
 
 **load-text-drag-drop.html**
 
@@ -249,7 +249,7 @@ function dataLoaded(e){
 
 - This example loads text files that users drag from elsewhere on the page
 
-![screenshot]()
+![screenshot](_images/text-5.png)
 
 **load-text-drag-drop-2.html**
 
@@ -333,7 +333,7 @@ function onDrop(e){
 
 - `XMLHttpRequest` (XHR) is used to load files from a web server. This example will only work if deployed to a web server.
 
-![screenshot]()
+![screenshot](_images/text-6.png)
 
 [The data files are here](_files/data.zip)
 
