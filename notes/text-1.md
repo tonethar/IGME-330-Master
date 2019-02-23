@@ -5,13 +5,16 @@
 
 I. [Loading Text](#I)
   
-  - A. [Using &lt;input type="text">](#I-A)
-  - B. [Using &lt;textarea>](#I-B)
-  - C. [Using &lt;input type="text">](#I-C)
-  - D. [Using &lt;input type="text">](#I-D)
-  - E. [Using &lt;input type="text">](#I-E)
+  - A. [Using &lt;input type="text">](#I-A) for single-line text
+  - B. [Using &lt;textarea>](#I-B) for multi-line text
+  - C. [Using &lt;file> input](#I-C) to load local files
+  - D. [Using Drag & Drop](#I-D)
+  - E. [Using Drag & Drop another way](#I-E)
+  - F. [Using XMLHttpRequest](#I-E)
   
-II. [Project Requirements](#II)
+II. [Demo](#II)
+
+II. [Homework](#III)
 
 <hr><hr>
 
