@@ -14,7 +14,7 @@ I. [Six ways to Load Text](#I)
   
 II. [Demo](#II)
 
-II. [Homework](#III)
+III. [Homework](#III)
 
 <hr><hr>
 
