@@ -8,9 +8,9 @@ I. [Loading Text](#I)
   - A. [Using &lt;input type="text">](#I-A) for single-line text
   - B. [Using &lt;textarea>](#I-B) for multi-line text
   - C. [Using &lt;file> input](#I-C) to load local files
-  - D. [Using Drag & Drop](#I-D)
-  - E. [Using Drag & Drop another way](#I-E)
-  - F. [Using XMLHttpRequest](#I-E)
+  - D. [Using Drag & Drop](#I-D) to load local files
+  - E. [Using Drag & Drop another way](#I-E) to load text from HTML elements
+  - F. [Using XMLHttpRequest](#I-E) - to load files from a web server
   
 II. [Demo](#II)
 
@@ -121,6 +121,8 @@ function doChange(e){
 
 ```
 
+<a id="I-C"></a>
+
 ### I-C. Using &lt;file> input
 
 - This example loads text files from the users hard drive
@@ -166,6 +168,8 @@ function dataLoaded(e){
 </body>
 </html>
 ```
+
+<a id="I-D"></a>
 
 ### I-D. Using Drag & Drop
 
@@ -239,7 +243,9 @@ function dataLoaded(e){
 </html>
 ```
 
-### I-F. Using Drag & Drop with an HTML element
+<a id="I-E"></a>
+
+### I-E. Using Drag & Drop with an HTML element
 
 - This example loads text files that users drag from elsewhere on the page
 
@@ -320,6 +326,8 @@ function onDrop(e){
 </body>
 </html>
 ```
+
+<a id="I-F"></a>
 
 ### I-F. Using `XMLHttpRequest`
 
