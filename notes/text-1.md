@@ -72,6 +72,8 @@ function doChange(e){
 </html>
 ```
 
+<hr>
+
 <a id="I-B"></a>
 
 ### I-B. Using &lt;textarea>
@@ -121,6 +123,8 @@ function doChange(e){
 
 ```
 
+<hr>
+
 <a id="I-C"></a>
 
 ### I-C. Using &lt;file> input
@@ -168,6 +172,8 @@ function dataLoaded(e){
 </body>
 </html>
 ```
+
+<hr>
 
 <a id="I-D"></a>
 
@@ -242,6 +248,8 @@ function dataLoaded(e){
 </body>
 </html>
 ```
+
+<hr>
 
 <a id="I-E"></a>
 
@@ -326,6 +334,8 @@ function onDrop(e){
 </body>
 </html>
 ```
+
+<hr>
 
 <a id="I-F"></a>
 
