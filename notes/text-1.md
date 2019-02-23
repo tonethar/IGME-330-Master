@@ -347,7 +347,7 @@ function onDrop(e){
 
 ![screenshot](_images/text-6.png)
 
-[The data files are here](_files/data.zip)
+- P.S. The data files you will need for this demo are [here](_files/data.zip)
 
 **load-text-xhr.html**
 
