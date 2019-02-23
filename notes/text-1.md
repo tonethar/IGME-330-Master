@@ -412,7 +412,13 @@ function dataLoaded(e){
   - `.sort()` - sorts arrays
   - `.join()` - turns an array into a string
   - `.trim()` and `.toLowerCase()` can come in handy too
+- We will be using **load-text-input.html** as a start file
+- the following code snippets will help in the demo, and also in your HW. HEre they are for you copy-and-paste pleasure:
 
+```js
+str = str.replace(/\s+/g, ''); // get rid of all repetions of 1 or more white space characters
+str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""); // get rid of all repetions of all of these characters
+```
 
 <hr>
 
