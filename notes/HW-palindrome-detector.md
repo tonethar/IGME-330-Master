@@ -32,7 +32,7 @@
 
 ## II. Hints
 
-- use the [*load-text-input.html* start code](text-1.md#I-A) 
+- use the [*load-text-input.html*](text-1.md#I-A) start code
 - the code snippets we used in our demo will help with stripping out spaces and punctuation, so that our palindrome detector will catch examples like *Madam, in Eden, I'm Adam.*
 - make sure that you convert the string to all lowercase letters before you do the string reversal and comparison
 
