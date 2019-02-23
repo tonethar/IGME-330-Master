@@ -426,3 +426,8 @@ str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of all repe
 ## III. Homework
 
 - [HW - Palindrome Detector](./HW-palindrome-detector.md)
+
+
+<hr><hr>
+
+**[Next Chapter -> Text Part II](text-2.md)**
