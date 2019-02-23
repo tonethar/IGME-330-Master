@@ -400,6 +400,11 @@ function dataLoaded(e){
 
 ## II. Demo
 
+- JS String documentation --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+- properties and methods we'll look at:
+  - `.length`
+  - `indexOf()`
+
 
 <hr>
 
