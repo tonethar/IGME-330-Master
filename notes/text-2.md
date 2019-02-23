@@ -68,4 +68,4 @@ function doInput(){
 
 <hr><hr>
 
-**[Previous Chapter <- Loading plain text (Text 1)](text-1.md)**
+**[Previous Chapter <- Loading Plain Text (Part I)](text-1.md)**
