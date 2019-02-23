@@ -10,7 +10,7 @@ I. [Six ways to Load Text](#I)
   - B. [Using &lt;textarea>](#I-B) for multi-line text
   - C. [Using &lt;file> input](#I-C) to load local files
   - D. [Using Drag & Drop](#I-D) to load local files
-  - E. [Using Drag & Drop another way](#I-E) to load text from HTML elements
+  - E. [Using Drag & Drop another way](#I-E) to load text contained HTML elements
   - F. [Using XMLHttpRequest](#I-F) - to load files from a web server
   
 II. [Demo](#II)
