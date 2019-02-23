@@ -406,9 +406,9 @@ function dataLoaded(e){
   - `.length`
   - `.indexOf()` - finds the first occurence of a string
   - `.substring()` - extracts a string 
-  - `.replace()` - replaces part of a string
+  - `.replace()` - replaces part of a string, takes a regular expression as an argument
   - `.split()` - turns a string into an array
-  - `.reverse()` - actually is a method of array, and it does what you think it does
+  - `.reverse()` - is a method of array, and it does what you think it does
   - `.join()` - turns an array into a string
 
 
