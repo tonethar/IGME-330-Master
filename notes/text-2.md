@@ -64,3 +64,8 @@ function doInput(){
 </body>
 </html>
 ```
+
+
+<hr><hr>
+
+**[Previous Chapter <- Loading plain text (Text 1)](text-1.md)**
