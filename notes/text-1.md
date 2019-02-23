@@ -425,4 +425,4 @@ str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,''); // get rid of all repetion
 
 ## III. Homework
 
-- [HW - Palindrome Detector](./palindrome-detector.md)
+- [HW - Palindrome Detector](./HW-palindrome-detector.md)
