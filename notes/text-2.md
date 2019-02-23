@@ -7,7 +7,7 @@
 
 ## I. The Diastic method
 - The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text. 
-- Let's read about how it works here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
+- "Like the Cubists, Surrealists and Dadaists before him, Mac Low has carved out a new space for poetry, a new space in which future poets may explore." THe quote and a nice desciption of how the technique works is described here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
 - This output is derived from two inputs:
   - The first input is the *source text*, from which all of the words in the output are taken. In our example below it an expert from Poe's *The Fall of the House of Usher*
   - The second input is the *seed text*, typically a sentence or two in length. In our example below the seed is the first name's of this semster's 330 instructors
