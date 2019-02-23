@@ -409,7 +409,9 @@ function dataLoaded(e){
   - `.replace()` - replaces part of a string, takes a regular expression as an argument
   - `.split()` - turns a string into an array
   - `.reverse()` - is a method of array, and it does what you think it does
+  - `.sort()` - sorts arrays
   - `.join()` - turns an array into a string
+  - `.trim()` and `.toLowerCase()` can come in handy too
 
 
 <hr>
