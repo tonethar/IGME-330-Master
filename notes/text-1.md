@@ -400,6 +400,7 @@ function dataLoaded(e){
 <a id="II"></a>
 
 ## II. Lecture & Demo
+- Topic: Manipulating string with JavaScript
 - We will be using [**load-text-input.html**](#I-A) as a start file
 - JS String docs --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - properties and methods we'll look at:
