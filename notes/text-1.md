@@ -412,7 +412,7 @@ function dataLoaded(e){
   - `.sort()` - sorts arrays
   - `.join()` - turns an array into a string
   - `.trim()` and `.toLowerCase()` can come in handy too
-- the following code snippets will help in the demo, and also in your HW. HEre they are for you copy-and-paste pleasure:
+- the following code snippets will help in the demo, and also in your HW. Here they are for you copy-and-paste pleasure:
 
 ```js
 str = str.replace(/\s+/g, ''); // get rid of all repetions of 1 or more white space characters
