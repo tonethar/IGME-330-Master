@@ -1,7 +1,8 @@
 # 1 - Loading plain text
 
-- Today we will first look at a number of ways for our users to load unstructured (plain) text
+- Today we will first look at a number of ways for our users to load *unstructured* (plain) text
 - We will then look at some ways to analyze and manipulate the text
+- N.B. - in a few weeks we will be looking at *structured* text in formats such as CSV, XML, and JSON
 
 I. [Six ways to Load Text](#I)
   
@@ -179,7 +180,7 @@ function dataLoaded(e){
 
 ### I-D. Using Drag & Drop
 
-- This example loads text files from the users hard drive, but in this case they can drag a file onto the drop target
+- This example loads text files from the users hard drive, but in this case they do this by dragging and dropping a file onto the "drop target"
 
 ![screenshot](_images/text-4.png)
 
@@ -255,7 +256,7 @@ function dataLoaded(e){
 
 ### I-E. Using Drag & Drop with an HTML element
 
-- This example loads text files that users drag from elsewhere on the page
+- This example loads text from elements that users drag from elsewhere on the HTML page
 
 ![screenshot](_images/text-5.png)
 
@@ -341,7 +342,8 @@ function onDrop(e){
 
 ### I-F. Using `XMLHttpRequest`
 
-- `XMLHttpRequest` (XHR) is used to load files from a web server. This example will only work if deployed to a web server.
+- `XMLHttpRequest` (XHR) is used to load files from a web server
+- This example will only work if deployed to a web server
 
 ![screenshot](_images/text-6.png)
 
@@ -405,3 +407,4 @@ function dataLoaded(e){
 <a id="III"></a>
 
 ## III. Homework
+
