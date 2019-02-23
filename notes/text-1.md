@@ -344,10 +344,9 @@ function onDrop(e){
 
 - `XMLHttpRequest` (XHR) is used to load files from a web server
 - This example will only work if deployed to a web server
+- P.S. The data files you will need for this demo are [here](_files/data.zip)
 
 ![screenshot](_images/text-6.png)
-
-- P.S. The data files you will need for this demo are [here](_files/data.zip)
 
 **load-text-xhr.html**
 
