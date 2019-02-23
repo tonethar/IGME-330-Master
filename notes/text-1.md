@@ -400,7 +400,7 @@ function dataLoaded(e){
 <a id="II"></a>
 
 ## II. Lecture & Demo
-
+- We will be using [**load-text-input.html**](#I-A) as a start file
 - JS String docs --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - properties and methods we'll look at:
   - `.length`
@@ -412,7 +412,6 @@ function dataLoaded(e){
   - `.sort()` - sorts arrays
   - `.join()` - turns an array into a string
   - `.trim()` and `.toLowerCase()` can come in handy too
-- We will be using **load-text-input.html** as a start file
 - the following code snippets will help in the demo, and also in your HW. HEre they are for you copy-and-paste pleasure:
 
 ```js
