@@ -416,7 +416,7 @@ function dataLoaded(e){
 
 ```js
 str = str.replace(/\s+/g, ''); // get rid of all repetions of 1 or more white space characters
-str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,''); // get rid of all repetions of all of these characters
+str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of all repetions of all of these characters
 ```
 
 <hr>
