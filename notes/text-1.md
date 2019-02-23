@@ -24,6 +24,7 @@ III. [Homework](#III)
 ## I. Six ways to load text
 
 - Let's look at multiple ways the user can load text into our app 
+- We won't need to use all of these text loading methods today - this code is a resource - "start code" - that we will come back to over the next few weeks
 
 <a id="I-A"></a>
 
@@ -400,10 +401,15 @@ function dataLoaded(e){
 
 ## II. Demo
 
-- JS String documentation --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+- JS String docs --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - properties and methods we'll look at:
   - `.length`
-  - `indexOf()`
+  - `.indexOf()` - finds the first occurence of a string
+  - `.substring()` - extracts a string 
+  - `.replace()` - replaces part of a string
+  - `.split()` - turns a string into an array
+  - `.reverse()` - actually is a method of array, and it does what you think it does
+  - `.join()` - turns an array into a string
 
 
 <hr>
