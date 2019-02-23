@@ -61,7 +61,7 @@ input.dispatchEvent(new Event("input")); // calls doInput() when the page first 
 
 function doInput(e){
 	let text = e.target.value;
-	output.innerHTML = input.value;
+	output.innerHTML = text;
 }
 
 function doChange(e){
@@ -111,7 +111,7 @@ input.dispatchEvent(new Event("input")); // calls doInput() when the page first 
 
 function doInput(e){
 	let text = e.target.value;
-	output.innerHTML = input.value;
+	output.innerHTML = text;
 }
 
 function doChange(e){
