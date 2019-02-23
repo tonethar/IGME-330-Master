@@ -17,9 +17,14 @@
 
 ![screenshot](images/HW-palindrome-2.png)
 
+**C. Not required, but here's an enhanced version that lets you keep track of your palindromes**
+
+![screenshot](images/HW-palindrome-3.png)
+
 
 ## II. Required Functionality
 
 - use [this *load-text-input.html* start code](text-1.md#I-A) 
-- make sure that you convert the string to all lowercase letters before you do the comparison
 - the code snippets we used in our demo will help with stripping out spaces and punctuation, so that our palindrome detector will catch examples like *Madam, in Eden, I'm Adam.*
+- make sure that you convert the string to all lowercase letters before you do the string reversal and comparison
+
