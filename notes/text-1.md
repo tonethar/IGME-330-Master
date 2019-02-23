@@ -2,6 +2,7 @@
 
 - Today we will first look at a number of ways for our users to load *unstructured* (plain) text
 - We will then look at some ways to analyze and manipulate the text
+- We won't need to use all of these text loading methods today - this code is a resource - "start code" - that we will come back to over the next few weeks
 - N.B. - in a few weeks we will be looking at *structured* text in formats such as CSV, XML, and JSON
 
 I. [Six ways to Load Text](#I)
@@ -24,7 +25,6 @@ III. [Homework](#III)
 ## I. Six ways to load text
 
 - Let's look at multiple ways the user can load text into our app 
-- We won't need to use all of these text loading methods today - this code is a resource - "start code" - that we will come back to over the next few weeks
 
 <a id="I-A"></a>
 
