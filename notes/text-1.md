@@ -374,8 +374,8 @@ function doChange(e){
 }
 
 function dataLoaded(e){
-		let s = e.target.responseText;
-		output.innerHTML = s;
+  let s = e.target.responseText;
+  output.innerHTML = s;
 }
 
 </script>
