@@ -30,7 +30,7 @@ We will look at five ways to do this:
 
 - Just a text input field
 
-![screenshot]()
+![screenshot](_images/text-1.png)
 
 **load-text-input.html**
 
