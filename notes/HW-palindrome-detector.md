@@ -11,15 +11,21 @@
 
 ![screenshot](_images/HW-palindrome-1.png)
 
+<hr>
+
 **B. Found a palindrome!**
 
 - the text is green, and there is a *success message*
 
 ![screenshot](_images/HW-palindrome-2.png)
 
+<hr>
+
 **C. Not required, but here's an enhanced version that lets you keep track of your palindromes**
 
 ![screenshot](_images/HW-palindrome-3.png)
+
+<hr>
 
 
 ## II. Required Functionality
