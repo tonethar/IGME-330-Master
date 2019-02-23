@@ -9,17 +9,17 @@
 
 - the text is red, and there is an *error message*
 
-![screenshot](images/HW-palindrome-1.png)
+![screenshot](_images/HW-palindrome-1.png)
 
 **B. Found a palindrome!**
 
 - the text is green, and there is a *success message*
 
-![screenshot](images/HW-palindrome-2.png)
+![screenshot](_images/HW-palindrome-2.png)
 
 **C. Not required, but here's an enhanced version that lets you keep track of your palindromes**
 
-![screenshot](images/HW-palindrome-3.png)
+![screenshot](_images/HW-palindrome-3.png)
 
 
 ## II. Required Functionality
