@@ -3,11 +3,25 @@
 - Today we will first look at a number of ways for our users to load unstructured (plain) text
 - We will then look at some ways to analyze and manipulate the text
 
+I. [Loading Text](#I)
+  
+  - A. [Using &lt;input type="text">](#I-A)
+  - B. [Using &lt;textarea>](#I-B)
+  - C. [Using &lt;input type="text">](#I-C)
+  - D. [Using &lt;input type="text">](#I-D)
+  - E. [Using &lt;input type="text">](#I-E)
+  
+II. [Project Requirements](#II)
+
+<hr><hr>
+
+<a id="I"></a>
 
 ## I. Loading Text
 
 We will look at five ways to do this:
 
+<a id="I-A"></a>
 
 ### I-A. Using &lt;input>
 
@@ -54,6 +68,8 @@ function doChange(e){
 </body>
 </html>
 ```
+
+<a id="I-B"></a>
 
 ### I-B. Using &lt;textarea>
 
