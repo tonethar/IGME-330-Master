@@ -356,14 +356,6 @@ function dataLoaded(e){
 </html>
 ```
 
-### I-D. Using Drag & Drop
+## II. Demo
 
-- This example uses 
-
-![screenshot]()
-
-[The data files are here]()
-
-**load-text-xhr.html**
-
-```html
+## III. Homework
