@@ -28,7 +28,7 @@ II. [Homework](#III)
 
 ### I-A. Using &lt;input>
 
-- Just a text input field
+- a text input field for a single line of text
 
 ![screenshot](_images/text-1.png)
 
