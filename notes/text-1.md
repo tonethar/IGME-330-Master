@@ -420,3 +420,4 @@ function dataLoaded(e){
 
 ## III. Homework
 
+- Palindrome Detector
