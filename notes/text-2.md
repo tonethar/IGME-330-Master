@@ -1,11 +1,16 @@
 # 2 - Constrained Writing
 
+## I. Overview
+
 - Last time we looked at six! different ways to bring unstructured (plain) text into our JS applications
 - We also looked at using various string operations to manipulate text, and built as a HW assignment built a "palindrome detector". Palindromes are a form of *Constrained Writing* - https://en.wikipedia.org/wiki/Constrained_writing - which is a literary technique in which the writer is bound by some condition that forbids certain words or imposes a pattern
 - Today we will look at another constrained writing technique for generating text that can be used as part of a creative work, the *Diastic method*
 
 
-## I. The Diastic method
+## II. Constrained writing techniques
+
+
+## III. The Diastic method
 
 - The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text.
 - "Like the Cubists, Surrealists and Dadaists before him, Mac Low has carved out a new space for poetry, a new space in which future poets may explore." The quote and a nice desciption of how the technique works is described here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
@@ -15,7 +20,7 @@
 - The rules of diastic method are as follows (and can either be done "by hand", or with a computer as we are doing):
   
 
-## II. Start File
+## IV. Demo start file
 
 **diastic-machine-start.html**
 
