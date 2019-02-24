@@ -12,6 +12,7 @@
 - Be sure to specify a minimum font size of the words you draw
 - Extras (not required, but if you have time):
   - don't let the words appear on top of each other 
+  - animated words?
   
 ## III. Example
   
