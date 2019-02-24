@@ -2,8 +2,12 @@
 
 ## I. Overview
 
+
 ## II. Lecture & Demo
 
+- We are going to build a word counting application in class. This demo will be the basis for your [HW - Word Cloud](./HW-word-cloud.md) assignment
+- This demo will use the JS methods:
+  - 
 
 
 
