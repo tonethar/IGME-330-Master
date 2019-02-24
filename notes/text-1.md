@@ -431,4 +431,4 @@ str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of all repe
 
 <hr><hr>
 
-**[Next Chapter -> Procedural Poetry (Part II)](text-2.md)**
+**[Next Chapter -> Constrained Writing (Part II)](text-2.md)**
