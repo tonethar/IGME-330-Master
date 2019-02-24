@@ -1,12 +1,13 @@
 # 2 - Procedural Poetry
 
 - Last time we looked at six! different ways to bring unstructured (plain) text into our JS applications
-- We also looked at using various string operations to manipulate text, and built as a HW assignment built a "palindrome detector"
-- This time we will look at some techniques for generating procedural text that can be used as part of a creative work.
+- We also looked at using various string operations to manipulate text, and built as a HW assignment built a "palindrome detector". This assignment was a form of *Constrained writing* - https://en.wikipedia.org/wiki/Constrained_writing - which is a literary technique in which the writer is bound by some condition that forbids certain words or imposes a pattern
+- Today we will look at another technique for generating procedural text that can be used as part of a creative work, the *Diastic method*
 
 
 ## I. The Diastic method
-- The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text. 
+
+- The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text.
 - "Like the Cubists, Surrealists and Dadaists before him, Mac Low has carved out a new space for poetry, a new space in which future poets may explore." The quote and a nice desciption of how the technique works is described here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
 - This output is derived from two inputs:
   - The first input is the *source text*, from which all of the words in the output are taken. In our example below it an expert from Poe's *The Fall of the House of Usher*
