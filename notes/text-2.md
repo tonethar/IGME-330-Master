@@ -10,12 +10,13 @@
 ## II. Constrained writing techniques
 
 Here a a few:
-- The "Cut up" method - created by William Burroughs (who is best know for writing the novel *Naked Lunch* - http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html
+- The "Cut up" and "Fold in" methods - created by William Burroughs (who is best know for writing the novel *Naked Lunch*) - http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html
 - Erasure Poetry - https://en.wikipedia.org/wiki/Erasure_(artform)
 - N+7 - [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR)
 - There are many more listed here --> [http://www.languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/index.php#.XHMIZC2ZPOQ)
 
 ## III. The Diastic method
+Today we'll build a "diastic machine" that will automate this creation process for us.
 
 - The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text.
 - This output is derived from two inputs:
