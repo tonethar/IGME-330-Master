@@ -13,7 +13,7 @@
   - `string.toLowerCase()`
   - `array.sort()`
   - `array.includes()`
-  - `Object.keys`
+  - `Object.keys()`
 - For your copy-and-paste pleasure, here is the array of "stop words" we will need to remove from our text in order to determine what the most common keywords are in the text:
 
 ```js
