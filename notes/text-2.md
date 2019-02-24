@@ -70,3 +70,5 @@ function doInput(){
 <hr><hr>
 
 **[Previous Chapter <- Loading Plain Text (Part I)](text-1.md)**
+
+**[Next Chapter -> Simple Text Analysis (Part III)](text-3.md)**
