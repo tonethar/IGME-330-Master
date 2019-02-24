@@ -33,6 +33,8 @@
 ## II. Hints
 
 - use the [*load-text-input.html*](text-1.md#I-A) start code
-- the code snippets we used in our demo will help with stripping out spaces and punctuation, so that our palindrome detector will catch examples like *Madam, in Eden, I'm Adam.*
+- basically, are the string, and the same string but in reverse, the same?:
+  - does "hello" == "olleh"? - NO!
+  - does "abba" == "abba"? - YES!
 - make sure that you convert the string to all lowercase letters before you do the string reversal and comparison
-
+- the code snippets we used in our demo will help with stripping out spaces and punctuation, so that our palindrome detector will catch examples like *Madam, in Eden, I'm Adam.*
