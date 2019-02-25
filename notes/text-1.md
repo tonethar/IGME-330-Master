@@ -166,8 +166,8 @@ function doChange(e){
 }
 
 function dataLoaded(e){
-		let s = e.target.result;
-		output.innerHTML = s;
+	let s = e.target.result;
+	output.innerHTML = s;
 }
 
 </script>
@@ -233,17 +233,17 @@ function onDrop(e){
 	e.stopPropagation();
   e.preventDefault();
   e.target.classList.remove("hover");
-	let file = e.dataTransfer.files[0];
-	if(file){
-		let reader = new FileReader();
-		reader.onload = dataLoaded;
-		reader.readAsText(file);
-	}
+  let file = e.dataTransfer.files[0];
+  if(file){
+    let reader = new FileReader();
+    reader.onload = dataLoaded;
+    reader.readAsText(file);
+  }
 }
 
 function dataLoaded(e){
-		let s = e.target.result;
-		dropbox.innerHTML = s;
+	let s = e.target.result;
+	dropbox.innerHTML = s;
 }
 
 </script>
@@ -315,22 +315,22 @@ function onDragstart(e){
 
 // events for the dropbox
 function onDragenter(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
   e.target.classList.add("hover");
 }
 
 function onDragover(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
 }
 
 function onDrop(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
   e.target.classList.remove("hover");
   draggedBox.classList.remove("dragging");
-	dropbox.innerHTML = e.dataTransfer.getData("text/plain");
+  dropbox.innerHTML = e.dataTransfer.getData("text/plain");
 }
 </script>
 </body>
@@ -376,13 +376,13 @@ let output = document.querySelector("#output");
 document.querySelector("select").onchange = doChange;
 
 function doChange(e){
-	let xhr = new XMLHttpRequest();
-	let url = e.target.value;
-	if (!url) return;
-	xhr.onload = dataLoaded;
-	xhr.onerror = _ => "There was an error loading the file.";
-	xhr.open("GET",url);
-	xhr.send();
+  let xhr = new XMLHttpRequest();
+  let url = e.target.value;
+  if (!url) return;
+  xhr.onload = dataLoaded;
+  xhr.onerror = _ => "There was an error loading the file.";
+  xhr.open("GET",url);
+  xhr.send();
 }
 
 function dataLoaded(e){
