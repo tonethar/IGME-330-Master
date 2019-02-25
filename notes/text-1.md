@@ -407,7 +407,7 @@ function dataLoaded(e){
   - `string.length`
   - `string.indexOf()` - finds the first occurence of a string
   - `string.substring()` - extracts a string 
-  - `string.replace()` - replaces part of a string, takes a regular expression as an argument
+  - `string.replace()` - replaces part of a string, usually takes a regular expression as an argument
   - `string.split()` - turns a string into an array
   - `array.reverse()` - does what you think it does
   - `array.sort()` - sorts arrays - usually passing in a compare function
@@ -419,6 +419,8 @@ function dataLoaded(e){
 str = str.replace(/\s+/g, ''); // get rid of all repetions of 1 or more white space characters
 str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of all repetions of all of these characters
 ```
+
+- `string.replace()` often uses regular expressions for pattern matching - here's an online tool that is helpful - we will demo this in class sometime this week: https://www.regextester.com/21
 
 <hr>
 
