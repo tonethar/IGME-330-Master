@@ -7,4 +7,4 @@
 
 <hr><hr>
 
-**[Previous Chapter <-  The RiTa.js Computational Text Library](text-4.md)**
+**[Previous Chapter <-  The RiTa.js Computational Text Library(Part IV)](text-4.md)**
