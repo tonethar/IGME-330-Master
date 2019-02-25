@@ -41,7 +41,7 @@ Today we'll build a "diastic machine" that will automate this creation process f
 
 ### IV-B. Done Version
 
-![screenshot](./_images/text-8.png)
+![screenshot](./_images/text-7.png)
 
 ### IV-C. Start Code
 
