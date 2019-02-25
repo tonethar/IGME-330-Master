@@ -23,7 +23,7 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
 
 ## III. Done Version
 
-![screenshot](./_images/text-8.jpg)
+![screenshot](./_images/text-8.png)
 
 <hr><hr>
 
