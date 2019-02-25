@@ -27,7 +27,16 @@ Today we'll build a "diastic machine" that will automate this creation process f
   - "Like the Cubists, Surrealists and Dadaists before him, Mac Low has carved out a new space for poetry, a new space in which future poets may explore." The quote and a nice desciption of how the technique works is described here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
   
 
-## IV. Demo start file
+## IV. Demo
+
+- The demo will use the following JS methods:
+  - `string.trim()` - get rid of spaces on both ends of string
+  - `string.toLowerCase()`
+  - `string.replace(pattern,replacement)` - replaces occurences of `pattern` with `replacement`
+  - `string.split(delimiter)` - turns a string into an array based on the `delimiter`
+  - `string.charAt(index)` - returns the character at the specified `index`
+- `string.replace()` often uses regular expressions for pattern matching - here's an online tool that is helpful - we will demo this in class: https://www.regextester.com/21
+
 
 **diastic-machine-start.html**
 
