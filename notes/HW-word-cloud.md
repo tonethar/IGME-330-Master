@@ -20,7 +20,7 @@
 - To properly determine the size of each word, consider calculating the total number of appearances of all words, then calculate a weight (as a percentage) for each individual word. The words with the highest percentages would then of course be drawn at a larger font size than the words with lower percentage values 
   
 ## IV. Example
-  - Nothing too fancy here - consider this the MVP expected for the HW assignment
+  - Nothing too fancy here - consider the screenshot below to be the MVP expected for the HW assignment
   - P.S. The corpus is *The Call of Cthulhu*
   
   ![screenshot](_images/HW-word-cloud-1.png)
