@@ -1,7 +1,7 @@
 # HW - Word Cloud
 
 ## I. Overview
-- Extend our word counting demo and create a canvas word cloud 
+- Extend our word counting demo and create a canvas "word cloud" 
 - if you extend and polish this HW assignment, it could make a nice portfolio piece
 
 ## II. Requirements
