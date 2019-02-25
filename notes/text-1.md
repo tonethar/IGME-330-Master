@@ -344,7 +344,7 @@ function onDrop(e){
 ### I-F. Using `XMLHttpRequest`
 
 - `XMLHttpRequest` (XHR) is used to load files from a web server
-- This example will only work if deployed to a web server
+- This example will only work if deployed to a web server (or, on [Firefox Quantum: Developer Edition](https://www.mozilla.org/en-US/firefox/developer/))
 - P.S. The data files you will need for this demo are [here](_files/data.zip)
 
 ![screenshot](_images/text-6.png)
