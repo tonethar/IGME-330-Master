@@ -400,19 +400,19 @@ function dataLoaded(e){
 <a id="II"></a>
 
 ## II. Lecture & Demo
-- Topic: Manipulating string with JavaScript
+- Topic: Manipulating strings with JavaScript
 - We will be using [**load-text-input.html**](#I-A) as a start file
 - JS String docs --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 - properties and methods we'll look at:
-  - `.length`
-  - `.indexOf()` - finds the first occurence of a string
-  - `.substring()` - extracts a string 
-  - `.replace()` - replaces part of a string, takes a regular expression as an argument
-  - `.split()` - turns a string into an array
-  - `.reverse()` - is a method of array, and it does what you think it does
-  - `.sort()` - sorts arrays
-  - `.join()` - turns an array into a string
-  - `.trim()` and `.toLowerCase()` can come in handy too
+  - `string.length`
+  - `string.indexOf()` - finds the first occurence of a string
+  - `string.substring()` - extracts a string 
+  - `string.replace()` - replaces part of a string, takes a regular expression as an argument
+  - `string.split()` - turns a string into an array
+  - `array.reverse()` - does what you think it does
+  - `array.sort()` - sorts arrays - usually passing in a compare function
+  - `array.join()` - turns an array into a string
+  - `string.trim()` and `string.toLowerCase()` can come in handy too
 - the following code snippets will help in the demo, and also in your HW. Here they are for your copy-and-paste pleasure:
 
 ```js
