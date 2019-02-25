@@ -8,6 +8,7 @@
 ## II. Lecture & Demo
 - We are going to build a word counting application in class. This demo will be the basis for your [HW - Word Cloud](./HW-word-cloud.md) assignment
 - The start file for the demo is [**load-text-drag-drop.html**](./text-1.md/#I-D)
+- You will also need at least one text file for testing purposes - here are 2 that you can use --> [data.zip](./_files/data.md)
 - This demo will use these JS methods:
   - `string.split()`
   - `string.toLowerCase()`
