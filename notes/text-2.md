@@ -29,6 +29,7 @@ Today we'll build a "diastic machine" that will automate this creation process f
 
 ## IV. Demo
 
+### IV-A. About the Demo
 - The demo will use the following JS methods:
   - `string.trim()` - get rid of spaces on both ends of string
   - `string.toLowerCase()`
@@ -37,6 +38,12 @@ Today we'll build a "diastic machine" that will automate this creation process f
   - `string.charAt(index)` - returns the character at the specified `index`
 - `string.replace()` often uses regular expressions for pattern matching - here's an online tool that is helpful - we will demo this in class: https://www.regextester.com/21
 
+
+### IV-B. Done Version
+
+![screenshot](./_images/text-8.png)
+
+### IV-C. Start Code
 
 **diastic-machine-start.html**
 
