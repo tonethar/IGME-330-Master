@@ -23,3 +23,5 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
 <hr><hr>
 
 **[Previous Chapter <- Constrained Writing (Part II)](text-2.md)**
+
+**[Next Chapter -> The RiTa.js Computational Text Library (Part IV)](text-3.md)**
