@@ -219,18 +219,18 @@ dropbox.ondrop = onDrop;
 
 
 function onDragenter(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
- 	e.target.classList.add("hover");
+  e.target.classList.add("hover");
 }
 
 function onDragover(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
 }
 
 function onDrop(e){
-	e.stopPropagation();
+  e.stopPropagation();
   e.preventDefault();
   e.target.classList.remove("hover");
   let file = e.dataTransfer.files[0];
@@ -242,8 +242,8 @@ function onDrop(e){
 }
 
 function dataLoaded(e){
-	let s = e.target.result;
-	dropbox.innerHTML = s;
+  let s = e.target.result;
+  dropbox.innerHTML = s;
 }
 
 </script>
@@ -308,9 +308,9 @@ document.querySelectorAll(".draggableBox").forEach(element => element.ondragstar
 
 // event for the draggableBox(es)
 function onDragstart(e){
-	e.dataTransfer.setData("text/plain", e.target.innerText);
-	draggedBox = e.target;
-	draggedBox.classList.add("dragging");
+  e.dataTransfer.setData("text/plain", e.target.innerText);
+  draggedBox = e.target;
+  draggedBox.classList.add("dragging");
 }
 
 // events for the dropbox
