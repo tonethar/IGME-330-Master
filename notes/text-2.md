@@ -3,7 +3,7 @@
 ## I. Overview
 
 - Last time we looked at six! different ways to bring unstructured (plain) text into our JS applications
-- We also looked at using various string operations to manipulate text, and built as a HW assignment built a "palindrome detector". Palindromes are a form of *Constrained Writing* - https://en.wikipedia.org/wiki/Constrained_writing - which is a literary technique in which the writer is bound by some condition that forbids certain words or imposes a pattern
+- We also looked at using various string operations to manipulate text, and built as a HW assignment built a "palindrome detector". Palindromes are an example of *Constrained Writing* - https://en.wikipedia.org/wiki/Constrained_writing - which is a literary technique in which the writer is bound by some condition that forbids certain words or imposes a pattern
 - Today we will look at another constrained writing technique for generating text that can be used as part of a creative work, the *Diastic method*
 
 
