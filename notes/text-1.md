@@ -382,6 +382,7 @@ function doChange(e){
   xhr.onload = dataLoaded;
   xhr.onerror = _ => "There was an error loading the file.";
   xhr.open("GET",url);
+  xhr.overrideMimeType('text/plain');
   xhr.send();
 }
 
