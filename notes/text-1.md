@@ -417,8 +417,8 @@ function dataLoaded(e){
 - the following code snippets will help in the demo, and also in your HW. Here they are for your copy-and-paste pleasure:
 
 ```js
-str = str.replace(/\s+/g, ''); // get rid of all repetions of 1 or more white space characters
-str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of all repetions of all of these characters
+str = str.replace(/\s+/g, ''); // get rid of all occurrences of 1 or more white space characters
+str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?'"]+/g,''); // get rid of *all* occurrences of *all* of these characters
 ```
 
 - `string.replace()` often uses regular expressions for pattern matching - here's an online tool that is helpful - we will demo this in class sometime this week: https://www.regextester.com/21
