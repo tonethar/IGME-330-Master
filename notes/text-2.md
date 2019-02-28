@@ -10,7 +10,7 @@
 ## II. Constrained writing techniques
 
 Here a a few:
-- The "Cut up" and "Fold in" methods - created by William Burroughs (who is best know for writing the novel *Naked Lunch*) - http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html
+- The "Cut up" and "Fold in" methods - created by William Burroughs (who is best know for writing the novel [*Naked Lunch*](https://groveatlantic.com/book/naked-lunch/) - http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html
 - Erasure Poetry - https://en.wikipedia.org/wiki/Erasure_(artform)
 - N+7 - [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR)
 - There are many more listed here --> [http://www.languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/index.php#.XHMIZC2ZPOQ)
