@@ -12,7 +12,7 @@
 Here a a few:
 - The ["Cut up" and "Fold in" methods](http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html) - created by William Burroughs (who is best know for writing the novel [*Naked Lunch*](https://groveatlantic.com/book/naked-lunch/))
 - Erasure Poetry - https://en.wikipedia.org/wiki/Erasure_(artform) --> a well-known example of this is [Garfield Minus Garfield](http://garfieldminusgarfield.net)
-- N+7 - [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR)
+- [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR) - where words of a chosen text are replaced with their dictionary definitions
 - There are many more listed here --> [http://www.languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/index.php#.XHMIZC2ZPOQ)
 
 ## III. The Diastic method
