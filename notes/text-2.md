@@ -44,6 +44,8 @@ Today we'll build a "diastic machine" that will automate this creation process f
 
 ![screenshot](./_images/text-7.png)
 
+- And here's a link to an improved version that generates multiple lines of poetry --> [Diastic Machine Plus](http://igm.rit.edu/~acjvks/courses/2019-spring/330/demos/diastic-machine-plus.html)
+
 ### IV-C. Start Code
 
 **diastic-machine-start.html**
