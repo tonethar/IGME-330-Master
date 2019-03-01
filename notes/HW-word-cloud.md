@@ -18,7 +18,7 @@
 ## III. Hints
 - Replace the `#dropbox` paragraph with a &lt;canvas> element, and then add drag-drop to the canvas with: 
 
-`let dropbox = document.querySelector("canvas");`
+    `let dropbox = document.querySelector("canvas");`
 
 - From our previous assignments, both `getRandom()`, and a modified version of `getRandomColor()` (with brighter colors), will be helpful
 - To properly determine the size of each word, consider calculating the total number of appearances of all words, then calculate a weight (as a percentage) for each individual word. The words with the highest percentages would then of course be drawn at a larger font size than the words with lower percentage values 
