@@ -16,7 +16,7 @@
   - animated words?
   
 ## III. Hints
-- Replace the `#dropbox` paragraph with a &lt;canvas> element, and then add drag-drop to the canvas with: 
+- Replace the `#dropbox` paragraph with a &lt;canvas> element, and then add drag-and-drop to the canvas with: 
 
     `let dropbox = document.querySelector("canvas");`
 
