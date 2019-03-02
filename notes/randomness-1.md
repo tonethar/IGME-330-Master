@@ -27,7 +27,7 @@ The Dadaist *Collage* and *Cut-up* techniques frequently involved the use of ran
 
 The narration at the beginning of this video is hard to understand - here it is:
 
-*"The official belief in the infallability of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elemination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design."* - Hans Richter
+*"The official belief in the infallibility of reason, logic and causality seemed to us senseless - as senseless as the destruction of the world and the systematic elimination of every particle of human feeling. This was the reason why were were forced to look for something that would re-establish our humanity. What we needed to find was a balance between heaven and hell. A new unity combining chance and design."* - Hans Richter
 
 
 ## III. Jean Arp
