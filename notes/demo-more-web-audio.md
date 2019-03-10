@@ -129,7 +129,7 @@ function makeDistortionCurve(amount=20) {
 }
 ```
 
-- you can read about the curve generating algorithm above here: https://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion
+- you can read about the curve generating algorithm above here: https://stackoverflow.com/q/22312841/1882446
 - you can type in your curve formula here to see what it looks like: http://kevincennis.github.io/transfergraph/
 
 2. The `WaveShaperNode` looks like this: 
