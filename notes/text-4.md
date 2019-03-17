@@ -25,18 +25,28 @@
 ### III-B. The RiTa.js library
 
 - We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
-- Type in each of these commands to see that they do.
+- Let's type in each of the commands listed below to see that they do.
   - These commands use the RiTa *lexicon* - a lexicon is a set of words. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita/reference/RiLexicon.php
+    - `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: http://rednoise.org/rita/reference/PennTags.html
     - `RiTa.rhymes("computer")`
     - `RiTa.pluralize("computer")`
     - `RiTa.singularize("people")`
     - `RiTa.alliterations("games")`
+    - `RiTa.isRhyme("cat", "hat")`
     - `RiTa.similarByLetter("rochester")`
     - `RiTa.similarBySound("institute")`
     - `RiTa.similarBySoundAndLetter("technology")`
   
-  
-  - `RiTa.isNoun("computer")`
+  - RiTa can also tell us about the parts of speech of a sentence:
+     - `RiTa.isNoun("computer")`
+     - `RiTa.isVerb("take")`
+     - `RiTa.getPastParticiple("take")`
+     - `RiTa.getPresentParticiple("take")`
+     - `let rs = RiString("The elephant took a bite!")` - create a `RiString` object
+     - `rs.pos()` - get the parts-of-speech of the string in an array
+     - `rs.posAt(1)` - get the part-of-speech of the second word
+     - `rs.words()`
+     
 
 
 <hr><hr>
