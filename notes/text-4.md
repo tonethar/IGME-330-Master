@@ -5,6 +5,7 @@
 - Documentation of the JavaScript version of RiTa is here: 
   - http://rednoise.org/rita/
   - http://rednoise.org/rita/reference/index.php
+  - https://github.com/dhowe/RiTaJS
 - Some of RiTa's capabilities:
   - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: http://rednoise.org/rita/reference/PennTags.html
     - https://en.wikipedia.org/wiki/Part-of-speech_tagging
