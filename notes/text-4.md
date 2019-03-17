@@ -79,11 +79,33 @@ function doInput(e){
 - Let's make this a little more human readable - here's a JavaScript dictionary (object) that has the full names for these tags - add this to your JS:
 
 ```js
-
-
+let POS = {
+	"cc":"Coordinating conjunction",
+	"dt":"Determiner",
+	"jj":"Adjective",
+	"nn":"Noun, singular or mass",
+	"prp":"Personal pronoun",
+	"vbd":"Verb, past tense",
+};
 ```
 
+- Reminder - these POS tags are listed here: http://rednoise.org/rita/reference/PennTags.html
+- You will also need to modify the loop to look like this:
 
+```js
+let s = "<ul>";
+for(let item of pos){
+  let desc = POS[item];
+  if(desc == undefined) desc = "??"
+  s += `<li><b>${item}</b> : ${desc}</li>`;
+}
+s += "</ul>";
+output.innerHTML = s;
+```
+
+- Reload the page, here are the results:
+
+![screenshot](_images/text-10.png)
 
 
 
