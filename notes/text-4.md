@@ -43,9 +43,12 @@
      - `RiTa.getPastParticiple("take")`
      - `RiTa.getPresentParticiple("take")`
      - `let rs = RiString("The elephant took a bite!")` - create a `RiString` object
+     - `rs.analyze()` - lot's of info!
+     - `rs._features.phonemes`
+     - `rs._features.syllables`
      - `rs.pos()` - get the parts-of-speech of the string in an array
      - `rs.posAt(1)` - get the part-of-speech of the second word
-     - `rs.words()`
+     - `rs.words()` - tokenizes the sentence
      
 
 
