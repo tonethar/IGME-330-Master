@@ -110,6 +110,15 @@ output.innerHTML = s;
 - try typing in new words - you should see the part-of-speech tags appear for the new words. Obviously you will need to expand the `POS` dictionary to include all of the show the full names of all of these tags
 - to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns true
 
+
+### II-D. Proper Noun "replacer"
+
+- How about trying to replace all of the proper nouns of a sentence with simlar words?
+- Rename **rita-1.html** to **rita-2.html**
+- Give it a try - see below for an example:
+
+![screenshot](_images/text-13.png)
+
 <hr><hr>
 
 ## III. Homework Assignment - *Maddening Libs*
