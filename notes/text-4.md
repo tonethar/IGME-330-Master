@@ -110,7 +110,7 @@ output.innerHTML = s;
 - try typing in new words - you should see the part-of-speech tags appear for the new words. Obviously you will need to expand the `POS` dictionary to include all of the show the full names of all of these tags
 - to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns true
 
-## IV. Homework Assignment - **Maddening Libs**
+## IV. Homework Assignment - *Maddening Libs*
 
 - Rename **rita-1.html** to **maddening-libs.html**
 - Change the &lt;h1> text to "Maddening Libs"
@@ -120,7 +120,7 @@ output.innerHTML = s;
   - replace all verbs (there are 6 tags), with a random verb of the same type
 - Here is a screen shot of an example:
 
-
+![screenshot](_images/text-11.png)
 
 <hr><hr>
 
