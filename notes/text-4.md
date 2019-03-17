@@ -124,6 +124,10 @@ output.innerHTML = s;
 
 ![screenshot](_images/text-11.png)
 
+**OR**
+
+![screenshot](_images/text-12.png)
+
 <hr><hr>
 
 **[Previous Chapter <-  Simple Text Analysis (Part III)](text-3.md)**
