@@ -115,6 +115,7 @@ output.innerHTML = s;
 
 - How about trying to replace all of the proper nouns of a sentence with simlar words?
 - Rename **rita-1.html** to **rita-2.html**
+- Hints: use `RiString()` and `.words()` like we did in the console demo. You don't need the `POS` object anymore
 - Give it a try - see below for an example:
 
 ![screenshot](_images/text-13.png)
@@ -123,7 +124,7 @@ output.innerHTML = s;
 
 ## III. Homework Assignment - *Maddening Libs*
 
-- Rename **rita-1.html** to **maddening-libs.html**
+- Rename **rita-2.html** to **maddening-libs.html**
 - Change the &lt;h1> text to "Maddening Libs"
 - Modify the example above so that it will:
   - replace all nouns and plural nouns, with a random noun or random plural noun
