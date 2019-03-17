@@ -25,7 +25,8 @@
   - `RiTa.VERSION`
   - `RiTa.rhymes("computer")`
   - `RiTa.pluralize("computer")`
-  - `RiTa.alliterations("computer")`
+  - `RiTa.singularize("people")`
+  - `RiTa.alliterations("games")`
   - `RiTa.isNoun("computer")`
 
 
