@@ -18,18 +18,24 @@
 
 ### II-A. Create the Demo File
 - To follow along on the demo and have a start file for the Homework , go ahead and grab the **load-text-textarea.html** file we have at [text-1.md](text-1.md#I-B)
+- delete the `input.onchange = doChange;` line of JS, and the `doChange()` event handler (we don't need them)
 - Now you need to import the RiTa.js library. There is a CDN for RiTa.ja here - look for the **rita-full.js** file here: https://cdnjs.com/libraries/rita - grab the URL and add a &lt;script> tag to the &lt;head> section of your start file
 - Now open up the console - you should see the current version of RiTa logged out - someting like `[INFO] RiTaJS.version [1.3.89]`
 
 ### III-B. The RiTa.js library
 
 - We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
-- Type in each of these commands to see that they do
-  - `RiTa.VERSION`
-  - `RiTa.rhymes("computer")`
-  - `RiTa.pluralize("computer")`
-  - `RiTa.singularize("people")`
-  - `RiTa.alliterations("games")`
+- Type in each of these commands to see that they do.
+  - These commands use the RiTa *lexicon* - a lexicon is a set of words. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita/reference/RiLexicon.php
+    - `RiTa.rhymes("computer")`
+    - `RiTa.pluralize("computer")`
+    - `RiTa.singularize("people")`
+    - `RiTa.alliterations("games")`
+    - `RiTa.similarByLetter("rochester")`
+    - `RiTa.similarBySound("institute")`
+    - `RiTa.similarBySoundAndLetter("technology")`
+  
+  
   - `RiTa.isNoun("computer")`
 
 
