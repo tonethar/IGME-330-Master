@@ -21,6 +21,12 @@
 ### III-B. The RiTa.js librabry
 
 - We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
+- Type in each of these commands to see that they do
+  - `RiTa.VERSION`
+  - `RiTa.rhymes("computer")`
+  - `RiTa.pluralize("computer")`
+  - `RiTa.alliterations("computer")`
+  - `RiTa.isNoun("computer")`
 
 
 <hr><hr>
