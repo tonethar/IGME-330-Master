@@ -12,7 +12,7 @@
   - *verb conjugation* and *pluralization*
   - *text generation* via context-free grammars
   
-
+<hr><hr>
 
 ## II. Demo
 
@@ -24,7 +24,7 @@
 - Now you need to import the RiTa.js library. There is a CDN for RiTa.ja here - look for the **rita-full.js** file here: https://cdnjs.com/libraries/rita - grab the URL and add a &lt;script> tag to the &lt;head> section of your start file
 - Now open up the console - you should see the current version of RiTa logged out - someting like `[INFO] RiTaJS.version [1.3.89]`
 
-### III-B. The RiTa.js library
+### II-B. The RiTa.js library
 
 - We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
 - Let's type in each of the commands listed below into the console, in order to see that they do.
@@ -52,7 +52,7 @@
      - `rs.posAt(1)` - get the part-of-speech of the second word
      - `rs.words()` - tokenizes the sentence and puts the tokens into an array
      
-### III-C. Part-of-speech "displayer"
+### II-C. Part-of-speech "displayer"
 
 - Now let's modify **rita-1.html** and try out some of these RiTa features we tried out above.
 - What we would like to do is to display the part of speech for each word that is in the text area. This is pretty easy, here's what `doInput()` needs to look like:
@@ -110,13 +110,15 @@ output.innerHTML = s;
 - try typing in new words - you should see the part-of-speech tags appear for the new words. Obviously you will need to expand the `POS` dictionary to include all of the show the full names of all of these tags
 - to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns true
 
-## IV. Homework Assignment - *Maddening Libs*
+<hr><hr>
+
+## III. Homework Assignment - *Maddening Libs*
 
 - Rename **rita-1.html** to **maddening-libs.html**
 - Change the &lt;h1> text to "Maddening Libs"
 - Modify the example above so that it will:
   - replace all nouns and plural nouns, with a random noun or random plural noun
-  - replace all proper nouns and plural proper nouns, with a random proper noun or random plural proper noun
+  - replace all adjectives (there are 3 tags), with a random adjective of the same type
   - replace all verbs (there are 6 tags), with a random verb of the same type
 - Here is a screen shot of an example:
 
