@@ -107,9 +107,20 @@ output.innerHTML = s;
 
 ![screenshot](_images/text-10.png)
 
+- try typing in new words - you should see the part-of-speech tags appear for the new words. Obviously you will need to expand the `POS` dictionary to include all of the show the full names of all of these tags
+- to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns true
+
+## IV. Homework Assignment - **Maddening Libs**
+
+- Rename **rita-1.html** to **maddening-libs.html**
+- Change the &lt;h1> text to "Maddening Libs"
+- Modify the example above so that it will:
+  - replace all nouns and plural nouns, with a random noun or random plural noun
+  - replace all proper nouns and plural proper nouns, with a random proper noun or random plural proper noun
+  - replace all verbs (there are 6 tags), with a random verb of the same type
+- Here is a screen shot of an example:
 
 
-## IV. Homework Assignment
 
 <hr><hr>
 
