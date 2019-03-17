@@ -14,7 +14,7 @@
 ## II. Demo
 
 ### II-A. Create the Demo File
-- To follow along on the demo and have a start file for the Homework , go ahead and grab the **load-text-textarea.html** file we have at [text-1.md]([text-1.md#I-B])
+- To follow along on the demo and have a start file for the Homework , go ahead and grab the **load-text-textarea.html** file we have at [text-1.md](text-1.md#I-B)
 - Now you need to import the RiTa.js library. There is a CDN for RiTa.ja here - look for the **rita-full.js** file here: https://cdnjs.com/libraries/rita - grab the URL and add a &lt;script> tag to the &lt;head> section of your start file
 - Now open up the console - you should see the current version of RiTa logged out - someting like `[INFO] RiTaJS.version [1.3.89]`
 
