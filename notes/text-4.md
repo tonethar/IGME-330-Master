@@ -60,6 +60,7 @@
 ```js
 function doInput(e){
 	let text = e.target.value;
+	if (text.length == 0) return;
 	let rs = RiString(text);
 	let pos = rs.pos()
 	
