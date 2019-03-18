@@ -69,7 +69,7 @@ grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as ofte
 ## III. Discussion
 
 - Grammars consist of an alphabet of *terminal* and *non-terminal* symbols
-- When a grammar is expanded, *non-terminal* symbols are replaced by - *terminal* symbols
+- When a grammar is expanded, *non-terminal* symbols are replaced by *terminal* symbols
 - *non-terminal* symbols (like &lt;adj1> and &lt;noun>) and will be expanded into *terminal* symbols
 - *terminal* symbols cannot be expanded, and in the above example words like "bright" and "cold" are *terminal* symbols 
 - Which **rule** is the starting rule? RiTa will begin with a non-terminal symbol named &lt;start>
