@@ -10,6 +10,8 @@
   - A language could be a human language, or a computing language like JavaScript
   - A *Context-Free Grammar* is a set of rules that define the syntax of a language — what is and is not a valid sequence of *tokens*
   - Natural languages can be described using [Context-sensitive grammars](https://en.wikipedia.org/wiki/Context-sensitive_grammar), a concept introduced by Noam Chomsky in the 50s.
+- What can you do with them?
+  - http://rednoise.org/rita/gallery.php
 
 <hr>
 
