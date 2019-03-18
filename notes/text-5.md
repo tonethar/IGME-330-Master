@@ -109,7 +109,7 @@ let darkGrammar = { // NEW
 	"<verb>" : ["was","wasn't"],
 	"<pre-determiner>" : ["such", "rather", "quite"],
 	"<adj1>" : ["bright","cold","cloudy","dark","overcast","sunny"],
-	"<adj2>" : ["dry","frigid","hot","rainy","wet"],
+	"<adj2>" : ["dry","frigid","hot","rainy","stormy","wet"],
 	"<noun>" : ["afternoon","day","mid-day","morning","night","twilight"]
 };
 
