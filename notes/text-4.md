@@ -73,11 +73,11 @@ function doInput(e){
 }
 ```
 
-- Which gives you the PENN tags and looks something like this:
+- Which displays the PENN tags for you and looks something like this:
 
 ![screenshot](_images/text-9.png)
 
-- Let's make this a little more human readable - here's a JavaScript dictionary (object) that has the full names for these tags - add this to your JS:
+- So the first word is a personal pronoun, and the second word is a past tense verb and so on. Let's make this a little more human readable - here's a JavaScript dictionary (object) that has the full names for these tags - add this to your JS:
 
 ```js
 let POS = {
@@ -114,7 +114,7 @@ output.innerHTML = s;
 
 ### II-D. Proper Noun "replacer"
 
-- How about trying to replace all of the proper nouns of a sentence with simlar words?
+- How about trying to replace all of the proper nouns of a sentence with *similar* words pulled from RiTa?
 - Rename **rita-1.html** to **rita-2.html**
 - Change the &lt;title> & &lt;h1> text to "RiTa - 2"
 - Hints: use `RiString()` and `.words()` like we did in the console demo. And you don't need the `POS` object anymore ...
