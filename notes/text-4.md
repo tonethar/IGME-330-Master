@@ -116,6 +116,7 @@ output.innerHTML = s;
 
 - How about trying to replace all of the proper nouns of a sentence with simlar words?
 - Rename **rita-1.html** to **rita-2.html**
+- Change the &lt;title> & &lt;h1> text to "RiTa - 2"
 - Hints: use `RiString()` and `.words()` like we did in the console demo. And you don't need the `POS` object anymore ...
 - Give it a try - see below for an example:
 
