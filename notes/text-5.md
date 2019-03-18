@@ -57,8 +57,8 @@ function doClick(){
 </html>
 ```
 
-- load the page - the text will be "It was a dark and stormy night."
-- click the button. You will get rsults like "It was a bright and dry twilight." and "It was a cloudy and wet afternoon."
+- Load the page - the text will be "It was a dark and stormy night."
+- Click the button. You will get results like "It was a bright and dry twilight." and "It was a cloudy and wet afternoon."
 
 ## III. Discussion
 
