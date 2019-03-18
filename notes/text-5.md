@@ -147,7 +147,6 @@ function doClick(){
   ![screenshot](./_images/text-14.md)
 
  - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy. Here are some examples:
-   - 
 
 <hr><hr>
 
