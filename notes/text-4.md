@@ -44,7 +44,7 @@
      - `RiTa.isVerb("take")`
      - `RiTa.getPastParticiple("take")`
      - `RiTa.getPresentParticiple("take")`
-     - `let rs = RiString("The elephant took a bite!")` - creates a `RiString` object
+     - `let rs = RiString("The elephant took a bite!")` - creates a [`RiString`](http://rednoise.org/rita/reference/RiString.php) object
      - `rs.analyze()` - lot's of info!
      - `rs._features.phonemes`
      - `rs._features.syllables`
