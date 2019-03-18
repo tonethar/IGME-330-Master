@@ -15,7 +15,6 @@
 
 ## II. Demo Start File
 
-- Here is is:
 
 **rita-3.html**
 
