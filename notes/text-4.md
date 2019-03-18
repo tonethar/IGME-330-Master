@@ -115,7 +115,7 @@ output.innerHTML = s;
 ### II-D. Proper Noun "replacer"
 
 - How about trying to replace all of the proper nouns of a sentence with *similar* words pulled from RiTa?
-- Rename **rita-1.html** to **rita-2.html**
+- Make a copy of **rita-1.html** and name it **rita-2.html**
 - Change the &lt;title> & &lt;h1> text to "RiTa - 2"
 - Hints: 
   - use `RiString()` and `.words()` like we did in the console demo
@@ -129,7 +129,7 @@ output.innerHTML = s;
 
 ## III. Homework Assignment - *Maddening Libs*
 
-- Rename **rita-2.html** to **maddening-libs.html**
+- Make a copy of **rita-2.html** and name it **maddening-libs.html**
 - Change the &lt;title> & &lt;h1> text to "Maddening Libs"
 - Modify the example above so that it will:
   - replace all nouns and plural nouns, with a random noun or random plural noun
