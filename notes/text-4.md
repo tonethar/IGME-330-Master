@@ -109,7 +109,7 @@ output.innerHTML = s;
 ![screenshot](_images/text-10.png)
 
 - try typing in new words - you should see the part-of-speech tags appear for the new words. Obviously you will need to expand the `POS` dictionary to include all of the full names of these tags
-- to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns true
+- to get rid of the unwanted punctuation, add a call to `RiTa.isPunctuation()` for each `item`, and then `continue` if it returns `true`
 
 
 ### II-D. Proper Noun "replacer"
