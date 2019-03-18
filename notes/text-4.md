@@ -86,7 +86,7 @@ let POS = {
 	"jj":"Adjective",
 	"nn":"Noun, singular or mass",
 	"prp":"Personal pronoun",
-	"vbd":"Verb, past tense",
+	"vbd":"Verb, past tense"
 };
 ```
 
