@@ -11,7 +11,7 @@
   - A *Context-Free Grammar* is a set of rules that define the syntax of a language — what is and is not a valid sequence of *tokens*
   - Natural languages can be described using [Context-sensitive grammars](https://en.wikipedia.org/wiki/Context-sensitive_grammar), a concept introduced by Noam Chomsky in the 50s.
 
-<hr><hr>
+<hr>
 
 ## II. 1st Demo Start File
 
@@ -65,7 +65,7 @@ function doClick(){
 grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as often as the other <adj2> options
 ```
 
-<hr><hr>
+<hr>
 
 ## III. Discussion
 
@@ -75,7 +75,7 @@ grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as ofte
 - *terminal* symbols cannot be expanded, and in the above example words like "bright" and "cold" are *terminal* symbols 
 - Which **rule** is the starting rule? RiTa will begin with a non-terminal symbol named &lt;start>
 
-<hr><hr>
+<hr>
 
 ## IV. 2nd Demo Start File
 
@@ -130,8 +130,23 @@ function doClick(){
 </html>
 ```
 
-<hr><hr>
+<hr>
 
-## V. Homework
+## V. Homework - easy!
+
+- You will build a fantasy "place name" generator - in this case a random "lost coast" name of some kind
+- Here's the blog post we will use as inspiration and as a source of possible names: https://heredragonsabound.blogspot.com/2018/06/the-naming-of-places-part-3-lost-coast.html
+- Note that the poster has a list of nouns ("coast", "foreshore", "bracks", "shore", ...) and adjectives ("forgotten", "bitter", "trackless", "cursed", ...) we can use (thanks for doing the research!)
+- Use **rita-4.html** as a starting point:
+  - name the file **ill-favored-coast.html**
+  - encode your grammar in a JSON object
+  - use a least 5 nouns and 5 adjectives
+  - see example below:
+  
+  ![screenshot](./_images/text-14.md)
+
+
+
+<hr><hr>
 
 **[Previous Chapter <-  The RiTa.js Computational Text Library (Part IV)](text-4.md)**
