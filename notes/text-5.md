@@ -144,7 +144,7 @@ function doClick(){
   - utilize a loop so that user can see 10 random names everytime they click the button
   - see example below:
   
-  ![screenshot](./_images/text-14.md)
+  ![screenshot](./_images/text-14.png)
 
  - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy. Here are some examples:
 
