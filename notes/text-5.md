@@ -140,12 +140,14 @@ function doClick(){
 - Use **rita-4.html** as a starting point:
   - name the file **ill-favored-coast.html**
   - encode your grammar in a JSON object
-  - use a least 5 nouns and 5 adjectives
+  - use a least 10 nouns and 10 adjectives
+  - utilize a loop so that user can see 10 random names everytime they click the button
   - see example below:
   
   ![screenshot](./_images/text-14.md)
 
-
+ - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy. Here are some examples:
+   - 
 
 <hr><hr>
 
