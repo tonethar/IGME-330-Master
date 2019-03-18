@@ -45,7 +45,7 @@ function doClick(){
 	let grammar = new RiGrammar();
 	grammar.addRule("<start>", "It was a <adj1> and <adj2> <noun>.");
 	grammar.addRule("<adj1>", "bright | cold | cloudy | dark | overcast | sunny");
-	grammar.addRule("<adj2>", "cold | dry | hot | stormy | wet");
+	grammar.addRule("<adj2>", "cold | dry | hot | rainy | wet");
 	grammar.addRule("<noun>", "afternoon | day | mid-day | morning | night | twilight");
 
 	let story = grammar.expand();
@@ -59,10 +59,20 @@ function doClick(){
 
 - Load the page - the text will be "It was a dark and stormy night."
 - Click the button. You will get results like "It was a bright and dry twilight." and "It was a cloudy and wet afternoon."
+- You can also *weight* a rule - add the following to the code above:
+
+```js
+grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as often as the other <adj2> options
+```
+
 
 ## III. Discussion
 
-- Grammars consist of an alphabet of *terminal* and *non-terminal* characters
+- Grammars consist of an alphabet of *terminal* and *non-terminal* symbols
+- When a grammar is expanded, *non-terminal* symbols are replaced by - *terminal* symbols
+- *non-terminal* symbols (like &lt;adj1> and &lt;noun>) and will be expanded into *terminal* symbols
+- *terminal* symbols cannot be expanded, and in the above example words like "bright" and "cold" are *terminal* symbols 
+- Which **rule** is the starting rule? RiTa will begin with a non-terminal symbol named &let;start>
 
 <hr><hr>
 
