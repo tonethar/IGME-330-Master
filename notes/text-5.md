@@ -13,12 +13,12 @@
 
 <hr><hr>
 
-## II. Demo Start File
+## II. 1st Demo Start File
 
 
 **rita-3.html**
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,6 +65,7 @@ function doClick(){
 grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as often as the other <adj2> options
 ```
 
+<hr><hr>
 
 ## III. Discussion
 
@@ -75,5 +76,62 @@ grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as ofte
 - Which **rule** is the starting rule? RiTa will begin with a non-terminal symbol named &lt;start>
 
 <hr><hr>
+
+## IV. 2nd Demo Start File
+
+- Below we will load in a grammar from a JSON object (you could also load it from a file)
+- Note that our `<verb-phrase>` *non-terminal* symbol contains 2 more *non-terminal* symbols (`<verb>` and `<pre-determiner>`) that will be expanded until a *terminal* symbol is reached
+
+**rita-4.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>RiTa - 4</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/rita/1.3.89/rita-full.js"></script>
+	<style>
+		body{font-family:sans-serif;}
+	</style>
+</head>
+<body>
+<h1>RiTa - 4</h1>
+<p>Context-free grammars</p>
+<section>
+	<button>Expand Grammar from &lt;start> symbol !</button>
+	<p id="output">It was quite a dark and stormy night!</p>
+</section>
+<script>
+let darkGrammar = { // NEW
+	"<start>" : ["It <verb-phrase> a <adj1> and <adj2> <noun>!"],
+	"<verb-phrase>" : ["<verb> <pre-determiner>"],
+	"<verb>" : ["was","wasn't"],
+	"<pre-determiner>" : ["such", "rather", "quite"],
+	"<adj1>" : ["bright","cold","cloudy","dark","overcast","sunny"],
+	"<adj2>" : ["dry","frigid","hot","rainy","wet"],
+	"<noun>" : ["afternoon","day","mid-day","morning","night","twilight"]
+};
+
+let output = document.querySelector("#output");
+let grammar = new RiGrammar(darkGrammar); // NEW
+let button = document.querySelector("button");
+button.onclick = doClick;
+button.dispatchEvent(new Event("click"));
+
+
+function doClick(){
+	let story = grammar.expand();
+	output.innerHTML = story;
+}
+
+</script>
+</body>
+</html>
+```
+
+<hr><hr>
+
+## V. Homework
 
 **[Previous Chapter <-  The RiTa.js Computational Text Library (Part IV)](text-4.md)**
