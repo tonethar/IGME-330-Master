@@ -147,7 +147,7 @@ function doClick(){
   
   ![screenshot](./_images/text-14.png)
 
- - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy. Here are some examples:
+ - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy. If we have time, we'll look at a Haiku example.
 
 <hr><hr>
 
