@@ -82,6 +82,7 @@ grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as ofte
 
 - Below we will load in a grammar from a JSON object (you could also load it from a file)
 - Note that our `<verb-phrase>` *non-terminal* symbol contains 2 more *non-terminal* symbols (`<verb>` and `<pre-determiner>`) that will be expanded until a *terminal* symbol is reached
+- **Try it:** - add an *Interjection* symbol to the end of the above sentence. Use words like *Cool*, *Nice*, *Yeah*, *Bummer*
 
 **rita-4.html**
 
