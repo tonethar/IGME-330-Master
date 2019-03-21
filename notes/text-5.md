@@ -148,7 +148,9 @@ function doClick(){
   
   ![screenshot](./_images/text-14.png)
 
- - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy when you are building games or interactive experiences (placenames, dialog, flavor text, and so on). If we have time, we'll look at a [Haiku](https://grammar.yourdictionary.com/style-and-usage/rules-for-writing-haiku.html) example together in class.
+ - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy when you are building games or interactive experiences (placenames, dialog, flavor text, and so on). 
+ - What else could you use this for? These grammars and production rules are used to produce text - but you are not limited to that usage.  The text could also represent (for example) terrain characterstics for a game level, or RGB values for an image, or notes to be used in a MIDI composition and so on
+ - If we have time, we'll look at a [Haiku](https://grammar.yourdictionary.com/style-and-usage/rules-for-writing-haiku.html) example together in class.
 
 <hr><hr>
 
