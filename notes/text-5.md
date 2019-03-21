@@ -147,7 +147,7 @@ function doClick(){
   
   ![screenshot](./_images/text-14.png)
 
- - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy when you are building games or interactive experiences (placenames, dialog, flavor text, and so on). If we have time, we'll look at a [Haiku](https://grammar.yourdictionary.com/style-and-usage/rules-for-writing-haiku.html) example.
+ - obviously, this HW is very simple, and you wouldn't actually need a grammar library to do this, but there are many other applications where libraries like this come in handy when you are building games or interactive experiences (placenames, dialog, flavor text, and so on). If we have time, we'll look at a [Haiku](https://grammar.yourdictionary.com/style-and-usage/rules-for-writing-haiku.html) example together in class.
 
 <hr><hr>
 
