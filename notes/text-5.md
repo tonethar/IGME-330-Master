@@ -131,8 +131,8 @@ function doClick(){
 </html>
 ```
 
-- **Try it:** - add an *Interjection* symbol to the end of the &lt;start> sentence below. Use words like *Cool*, *Nice*, *Yeah*, *Bummer*, *Radical* etc ...
-- See below:
+- **Try it:** - add an *Interjection* non-terminal symbol to the end of the &lt;start> sentence above. Now define the *Interjection* symbol - and use *terminal symbols* (i.e. words like *Cool*, *Nice*, *Yeah*, *Bummer*, *Radical*)
+- See final results below:
 
 ![screenshot](./_images/text-15.png)
 
