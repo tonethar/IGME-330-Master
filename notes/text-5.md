@@ -132,7 +132,9 @@ function doClick(){
 ```
 
 - **Try it:** - add an *Interjection* symbol to the end of the &lt;start> sentence below. Use words like *Cool*, *Nice*, *Yeah*, *Bummer*, *Radical* etc ...
+- See below:
 
+![screenshot](./_images/text-15.png)
 
 <hr>
 
