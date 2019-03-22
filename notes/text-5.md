@@ -78,7 +78,7 @@ grammar.addRule("<adj2>", "stormy",2); // "stormy" will now appear twice as ofte
 
 <hr>
 
-## IV. 2nd Demo Start File
+## IV. Load a grammar from a file, and nested non-terminal symbols
 
 - Below we will load in a grammar from a JSON object (you could also load JSON from a file with `grammar.loadFrom("my-grammar.json", callbackFunction)`)
 - Note that our `<verb-phrase>` *non-terminal* symbol contains 2 more *non-terminal* symbols (`<verb>` and `<pre-determiner>`) that will be expanded until a *terminal* symbol is reached
