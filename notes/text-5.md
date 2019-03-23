@@ -136,7 +136,7 @@ function doClick(){
 
 ![screenshot](./_images/text-15.png)
 
-<hr>
+<hr><hr>
 
 <a id="V"></a>
 
