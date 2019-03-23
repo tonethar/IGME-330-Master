@@ -140,7 +140,7 @@ function doClick(){
 
 <a id="V"></a>
 
-## V. Homework - *Ill-Favored Coast* - easy!
+## V. Homework - *ill-Favored Coast* - easy!
 
 - You will build a fantasy "place name" generator - in this case a random "lost coast" name of some kind
 - Here's the blog post we will use as inspiration and as a source of possible names: https://heredragonsabound.blogspot.com/2018/06/the-naming-of-places-part-3-lost-coast.html
