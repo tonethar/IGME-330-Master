@@ -15,7 +15,7 @@ Here a a few:
 - [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR) - where words of a chosen text are replaced with their dictionary definitions
 - There are many more listed here --> [http://www.languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/index.php#.XHMIZC2ZPOQ)
 
-## III. The Diastic method
+## III. The Diastic method <a id="#III">
 Today we'll build a "diastic machine" that will automate this creation process for us.
 
 - The diastic method is a method for generating procedural text that was created by Jackson Mac Low. It generates output (a stream of words) which can form the basis of a finished poem or text.
