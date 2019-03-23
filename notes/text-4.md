@@ -127,7 +127,9 @@ output.innerHTML = s;
 
 <hr><hr>
 
-## III. Homework Assignment - *Maddening Libs* <a id="III"></a>
+<a id="III"></a>
+ 
+## III. Homework Assignment - *Maddening Libs*
 
 - Make a copy of **rita-2.html** and name it **maddening-libs.html**
 - Change the &lt;title> & &lt;h1> text to "Maddening Libs"
