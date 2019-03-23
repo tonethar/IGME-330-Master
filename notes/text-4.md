@@ -12,7 +12,7 @@
   - *verb conjugation* and *pluralization*
   - *text generation* via context-free grammars
   
-<hr><hr>
+<hr>
 
 ## II. Demo
 
@@ -125,7 +125,7 @@ output.innerHTML = s;
 
 ![screenshot](_images/text-13.png)
 
-<hr><hr>
+<hr>
 
 <a id="III"></a>
  
