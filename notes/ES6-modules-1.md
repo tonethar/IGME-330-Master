@@ -273,7 +273,7 @@ Make the HTML file look like this:
 
 
 ## IV. <a id="section4">Try it out!
-- Everything in "sprite bouncer" should now run exactly as before.
+- Everything in "sprite bouncer" should now run exactly as before (and don't forget that you need to run it off of a web server!)
 - Now set some breakpoints and check the inspector:
     - "script" scope is gone, replaced by Module scope
     - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
