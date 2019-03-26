@@ -41,11 +41,11 @@ VII. [Review Exercise](#section7)
 
 ## I. <a id="section1">Why do we need modularized code?
 
-Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
+Before we get started, grab the demo files: [ES5-no-modules.zip](_files/ES5-no-modules.zip) - these files demonstate (among other things) how to create an inheritance-like hierarchy with `Object.create()`
 
 ### I-A. The costs of not using JS modules
 
-* The JS code is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
+* The JS code in the demo is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
 * But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the web inspector:
 
 **main.js**
