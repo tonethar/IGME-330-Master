@@ -172,6 +172,8 @@ Test it: You should see - "ES6 modules are functioning!" - in the browser window
 
 Note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
 
+For your concenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server (or Firefox Developer) to run
+
 ### II-C. Checking the web inspector
 
 If we add a two breakpoints and step through the code, we can see that we now have "Module" scope:
