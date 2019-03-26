@@ -107,7 +107,7 @@ Clearly not:
 ### II-B. A working example
 ES6 modules have 2 restrictions:
 - they need be hosted on a web server to function (or use the Live Preview mode of Brackets, etc)
-- as of Spring 2018, they are only supported by recent versions of Chrome, Edge and Safari 
+- as of Spring 2019, they are supported by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
 
 Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
 
