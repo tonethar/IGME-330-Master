@@ -323,7 +323,7 @@ Make the HTML file look like this:
 	
 <hr><hr>
 
-**[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
-
+<!--
 **[Next Chapter -> JavaScript & the ES5 Revealing Module Pattern (chapter 5)](canvas-sprites-5.md)**
+-->
 
