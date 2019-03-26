@@ -166,17 +166,15 @@ Be sure to note the following in *test.html*:
 - it is not necessary to "import" the *utilities.js* JS file with a &lt;script> tag - as the `import` statement is doing that for us
 - we have to explicitly import the `addTextToBody()` function to use it
 
-You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
-
-Test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
-
-Note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
-
-For your concenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server (or Firefox Developer) to run
+Try it out:
+- here - http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
+- test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
+- note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
+- for your convenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server (or Firefox Developer) to run
 
 ### II-C. Checking the web inspector
 
-If we add a two breakpoints and step through the code, we can see that we now have "Module" scope:
+If we add a two breakpoints and step through the code, we can see that we now have "Module" scope and privacy:
 
 **test.html**
 
@@ -316,12 +314,6 @@ Make the HTML file look like this:
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
 
-## VII. <a id="section7">Review Exercise
-- Duplicate *canvas-sprites-3-HW.html* and name it **canvas-sprites-4-HW.html**
-- Modify your JS and HTML files to utilize ES6 modules.
-- Everything should work exactly as before.
-- Be sure to delete any unnecessary code from your JavaScript files.
-- **Now you have created a very modern JavaScript application - ES6 classes, inheritance, and modules - cool!**
 	
 <hr><hr>
 
