@@ -35,8 +35,6 @@ V. [Reference](#section5)
 
 VI. [Review Questions](#section6)
 
-VII. [Review Exercise](#section7)
-
 <hr>
 
 ## I. <a id="section1">Why do we need modularized code?
@@ -315,7 +313,6 @@ Make the HTML file look like this:
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
 
 	
-<hr><hr>
 
 <!--
 **[Next Chapter -> JavaScript & the ES5 Revealing Module Pattern (chapter 5)](canvas-sprites-5.md)**
