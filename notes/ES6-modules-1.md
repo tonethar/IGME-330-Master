@@ -76,7 +76,7 @@ Before we get started, grab the demo files: [ES5-no-modules.zip](_files/ES5-no-m
 
 ### I-B. How about functions?
 
-Similarly, declared functions (and variables declared with `var`) all show up in the shared *global* scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can not only the random functions are available, but also the functions declared in *classes.js* and *main.js*:
+Similarly, declared functions (and variables declared with `var`) all show up in the shared *global* scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can not only see the random functions are available, but also the functions declared in *classes.js* and *main.js*:
 
 **utilities.js**
 
