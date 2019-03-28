@@ -1,4 +1,4 @@
-# 6 - Transpiling ES6 to ES5
+Transpiling ES6 to ES5
 
 ## Overview
 
