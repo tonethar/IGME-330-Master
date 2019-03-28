@@ -1,9 +1,5 @@
 # Transpiling ES6 to ES5
 
-## Overview
-
-
-
 ## Contents
 <!--- Local Navigation --->
 I. [What is *transpiling*?](#section1)
