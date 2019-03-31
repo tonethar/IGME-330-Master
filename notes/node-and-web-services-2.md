@@ -81,7 +81,7 @@ This will create your **package.json** file with the default metadata about your
 
 ### C. Download the **request** module 
 
-This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file. Type the following in (Mac users will need `sudo` again):
+This time, we are going to download the **request** module, and then *save this dependency* into the **package.json** file. Type the following in:
 
 ```js
 npm install request --save
@@ -260,7 +260,7 @@ let numResults = process.argv[2] || 1; // 1 will be the default
   }
 ```
 - `"design-quotes"` above is the name of the command
-- create the link by typing `npm link` on the command line (Mac users will need `sudo` at the beginning again)
+- create the link by typing `npm link` on the command line (Mac users will need `sudo` at the beginning)
 
 - ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
 
