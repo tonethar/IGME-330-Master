@@ -103,7 +103,7 @@ npm install request --save
 - Run the script to be sure that it still works as before:
 
 ```js
-node init.js
+node index.js
 ```
  
  - Which should print out another "geek" joke such as:
