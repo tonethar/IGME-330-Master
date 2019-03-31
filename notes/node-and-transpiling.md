@@ -12,7 +12,7 @@ IV. [Transpiling an ES6 project down to ES5](#section4)
 
 V. [Discussion](#section5)
 
-VI. [Homework](#section6)
+VI. [Try This](#section6)
 
 VII. [Reference](#section7)
 
@@ -268,10 +268,11 @@ npm install
 - You can then type `npm start` to run the project.
 
 
-## VI. <a id="section6">Homework
+## VI. <a id="section6">Try This
 	
-- Transpile the GIF Finder HW - the "ES6 Modules & Classes" version from last time
-- It works the same way as we did above, except that the `entry` key in **webpack.config.js** will be **loader.js** NOT **init.js**
+- We are not collecting this, but you should do this:
+  - Transpile the GIF Finder HW - the "ES6 Modules & Classes" version from last time
+  - It works the same way as we did above, except that the `entry` key in **webpack.config.js** will be **loader.js** NOT **init.js**
 
 
 ## VII. <a id="section7">Reference
