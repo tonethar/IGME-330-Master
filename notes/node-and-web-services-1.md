@@ -32,6 +32,12 @@ V. [Next Steps](#section5)
   - https://nodejs.org/en/
 - **npm** is the package (i.e. "library") manager for JavaScript
   - https://www.npmjs.com
+  - There are user-contributed packages for nearly *everything* that a JavaScript dev might want to do - where are links to some packages that we are using in this class:
+    - https://www.npmjs.com/package/request
+    - https://www.npmjs.com/package/cowsay
+    - https://www.npmjs.com/package/webpack
+    - https://www.npmjs.com/package/webpack-cli
+    
   
 To see if you already have node and npm installed on your computer, type the following in the console:
 
