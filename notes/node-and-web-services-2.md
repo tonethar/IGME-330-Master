@@ -187,7 +187,7 @@ function stripTags(str){
 
 
 - Now call this function in your code in the proper place to get rid of the HTML tags
-- ***Test it!*** The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own
+- ***Test it!*** The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own (hint: `string.replace()` works nicely)
 
 <a id="section4"></a>
 
