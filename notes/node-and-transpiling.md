@@ -74,24 +74,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
   
  **1) Install Node.js and the *Node Package Manager* (npm)**
  
-- You could do this with nvm (the *Node Version Manager*) like this:
- 
- ```js
- curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
- ```
- 
- - and then: 
- 
- ```js
- nvm install node
- node -v
- npm install npm@latest -g
- npm -v
- ```
- 
- **OR**
- 
- - You can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
+ - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
  https://docs.npmjs.com/getting-started/installing-node
  
@@ -106,8 +89,6 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  ```js
  npm install npm@latest -g
  ```
- 
-
  
  **2) Change directory to your project folder**
  
