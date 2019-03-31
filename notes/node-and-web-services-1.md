@@ -40,26 +40,7 @@ To see if you already have node and npm installed on your computer, type the fol
   npm -v
   ```
   
-### A) How to install Node.js and the Node Package Manager (npm)
- 
-- ***Important Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications or packages.***
- 
-- You could install Node.js with **nvm** (the *Node Version Manager*) like this:
- 
-   ```js
-   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
-   ```
- 
- - and then: 
- 
-   ```js
-   nvm install node
-   node -v
-   npm install npm@latest -g
-   npm -v
-   ```
- 
- **OR**
+### A) How to install Node.js 
  
  - You can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
@@ -75,11 +56,10 @@ To see if you already have node and npm installed on your computer, type the fol
    npm -v
    ```
  
- - After that, you can run the updater on npm and node by typing (Mac users will need `sudo` again):
+ - After that, you can run the updater on npm by typing (Mac users will need `sudo` at the beginning of this command):
  
    ```js
    npm install npm@latest -g
-   nvm install node --latest-npm --reinstall-packages-from=node
    ```
  
  - ***At this point you should be ready to go!***
@@ -150,7 +130,7 @@ request(url, (err, response, body) => {
 
 ### E. Download the **request** module files by typing this: 
 
-(Make sure that you are still in the **joke** folder. Also, Mac users will need `sudo` again)
+(Make sure that you are still in the **joke** folder)
   
   ```js
   npm install request
@@ -184,7 +164,7 @@ request(url, (err, response, body) => {
 ### IV-B. Instructions
 
 - import the package (add this to the top of **index.js**): `const cowsay = require("cowsay");`
-- install the package (type this on the command line): `npm install cowsay` (Mac users need `sudo` at the beginning)
+- install the package (type this on the command line): `npm install cowsay`
 - use the package by replacing - `console.log(body);` - with:
 
 ```js
