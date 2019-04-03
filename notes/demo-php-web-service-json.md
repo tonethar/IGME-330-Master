@@ -2,9 +2,8 @@
 
 ## Overview
 
-- We can use the PHP scripting language to return data in the JSON and JSON-P formats - thus creating our own web service:
+- We can use the PHP scripting language to return data in the JSON format - thus creating our own web service:
   - https://en.wikipedia.org/wiki/JSON
-  - https://en.wikipedia.org/wiki/JSONP
 
 ## I. Simple Web Service (JSON only)
 
@@ -208,8 +207,14 @@ header("Access-Control-Allow-Origin: *");
 <hr><hr>
 
 
-## II. Web Service with JSON and JSON-P
-- So what if the web service you want to use does not enable CORS, and you don't have any control over the service? What do you do?
+## II. Utilizing a Proxy Server to download web services
+- So what if the web service you want to use does NOT enable CORS, and you don't have any control over the service? What do you do?
 - Answer: Use a [Proxy Server](https://en.wikipedia.org/wiki/Proxy_server) to fetch the web service data for us!
--
+- Here is an example of a free proxy server that we can use: https://cors-anywhere.herokuapp.com
+- This service has CORS enabled, so the JS running in the browser will be able to contact the service using XHR
+- If our JS passes along the URL of the "Random Joke" web service, the proxy service will donwload the JSON data for us, and then send the results back to our browser
+- Try it out. In **get-joke-xhr-json.html**, change the URL to this:
+  - `const URL = "https://cors-anywhere.herokuapp.com/http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php";`
+  - Test it. The JSON data should download with no issues, regardless of whether CORS is enabled for the web service
+  
 
