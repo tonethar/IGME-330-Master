@@ -69,7 +69,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
-- Go get your *canvas-sprites-4-HW.html* code - this is the one that uses ES6 classes and ES6 modules
+- Go get your *canvas-sprites-4-HW.html* demo code from [ES6-modules-1.md](./ES6-modules-1.md) - this is the demo we build in class that uses ES6 modules
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
 - **Important:** make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes
 - **Note: Mac OS users will often be required to have `sudo` typed at the beginning of any commands whenever they are installing applications**
