@@ -54,13 +54,11 @@ echo $string;
 ### I-B. The *client* code (Node.js JavaScript)
 
 - You can create a node project like we did here - [node-and-web-services-2.md](./node-and-web-services-2.md) - and run this code. 
-- **SUCCESS!** - It will call the web service and print out a random joke:
 
 ```
-***The joke is:***
-What do you call a very small valentine?
-
-A valen-tiny!
+npm init -y
+npm install request
+node index.js
 ```
 
 - Here's the Node.js code:
@@ -91,81 +89,16 @@ request(url, (err, response, body) => {
 });
 ```
 
-<!---
+- **SUCCESS!** - It will call the web service and print out a random joke:
 
-### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
+```
+***The joke is:***
+What do you call a very small valentine?
 
-- Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
-
-**get-a-joke-jquery-ajax-json-start.html**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
- 	<title>Get a joke JSON!</title>
-
- <!-- Import jQuery -->
-  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-  
-  <script>
-  	"use strict";
-	const URL = "http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php";
-	window.onload = init;
-	
-	function init(){
-		document.querySelector("#search").onclick = getData;
-	}
-	
-	// MY FUNCTIONS
-	function getData(){
-		let url = URL;
-		console.log("loading " + url);
-		
-		// use jQuery
-	$.ajax({
-		  dataType: "json",
-		  url: url,
-		  data: null,
-		  success: jsonLoaded
-		});
-
-	
-	}
-	
-
-	function jsonLoaded(obj){
-		console.log("obj stringified = " + JSON.stringify(obj));
-
-		/*
-			Write code to display the .q and .a properties of the joke
-		*/
-
-		//document.querySelector("#content").innerHTML = bigString;
-	}
-
- </script>
-  
-  
-</head>
-<body>
- <h1>Jokes!</h1>
-
-
-<button type="button" id="search">Get Joke!<br />:-O</button>
-
-<h2>Results</h2>
- <div id="content">
- <p>No data yet!</p>
- </div>
- 
-
-</body>
-</html>
+A valen-tiny!
 ```
 
---->
+
 
 - A. **FAIL!** - Here's the error message: 
 
