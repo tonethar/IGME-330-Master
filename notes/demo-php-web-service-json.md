@@ -92,6 +92,7 @@ request(url, (err, response, body) => {
 ```
 
 <!--
+
 ### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
 
 - Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
