@@ -216,5 +216,6 @@ header("Access-Control-Allow-Origin: *");
 - Try it out. In **get-joke-xhr-json.html**, change the URL to this:
   - `const URL = "https://cors-anywhere.herokuapp.com/http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php";`
   - Test it. The JSON data should download with no issues, regardless of whether CORS is enabled for the web service
+  - **Fun Fact:** Note that the "cors-anywhere" service uses a "RESTful" API style where the parameters are passed in as a regular URL, rather than as a query string like most of the services we have seen ex. `http://joker.com/getJoke.php?limit=10`
   
 
