@@ -91,6 +91,7 @@ request(url, (err, response, body) => {
 });
 ```
 
+<!--
 ### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
 
 - Here we are going to try to download this JSON data utilizing `jQuery.ajax()`
@@ -162,6 +163,8 @@ request(url, (err, response, body) => {
 </body>
 </html>
 ```
+
+-->
 
 - A. **FAIL!** - Here's the error message: 
 
