@@ -207,6 +207,7 @@ header("Access-Control-Allow-Origin: *");
 
 <hr><hr>
 
+<!--
 ## II. Web Service with JSON and JSON-P
 - So what if the web service you want to use does not enable CORS, and you don't have any control over the service? What do you do?
 - Answer: JSON-P to the rescue!
@@ -445,3 +446,4 @@ echo $string;
 </body>
 </html>
 ```
+-->
