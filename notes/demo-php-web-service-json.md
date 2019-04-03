@@ -51,7 +51,9 @@ echo $string;
 ?>
 ```
 
-### I-B. The *client* code (Node.js JavaScript)
+<hr>
+
+## II. The *client* code (Node.js JavaScript)
 
 - You can create a node project like we did here - [node-and-web-services-2.md](./node-and-web-services-2.md) - and run this code. 
 
@@ -98,7 +100,9 @@ What do you call a very small valentine?
 A valen-tiny!
 ```
 
-### I-C. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
+<hr>
+
+## III. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
 
 - Here we are going to try to download this JSON data utilizing the standardized [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) method
 
@@ -203,11 +207,9 @@ header("Access-Control-Allow-Origin: *");
 - F. ***Summary: Web browsers can NOT directly download JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
 
 
+<hr>
 
-<hr><hr>
-
-
-## II. Utilizing a Proxy Server to download web services
+## IV. Utilizing a Proxy Server to download web services
 - So what if the web service you want to use does NOT enable CORS, and you don't have any control over the service? What do you do?
 - Answer: Use a [Proxy Server](https://en.wikipedia.org/wiki/Proxy_server) to fetch the web service data for us!
 - Here is an example of a free proxy server that we can use: https://cors-anywhere.herokuapp.com
