@@ -91,7 +91,7 @@ request(url, (err, response, body) => {
 });
 ```
 
-<!--
+<!---
 
 ### I-C. The *client* code (Web Browser JavaScript - `jQuery.ajax()`)
 
@@ -165,7 +165,7 @@ request(url, (err, response, body) => {
 </html>
 ```
 
--->
+--->
 
 - A. **FAIL!** - Here's the error message: 
 
