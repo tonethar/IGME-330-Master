@@ -153,7 +153,7 @@ score= 110
 
 - add an &lt;h1> to the page that updates to display the MADMAX score (only) whenever that score changes
 - change our &lt;ul> to an &lt;ol>, and sort the scores from high to low
-- change this app to use Vue.js to update the interface (i.e. get rid of `document.querySelector()` and DOM manipulation)
+- Future challenge once you learn some Vue.js: change this app to use Vue.js to update the interface (i.e. get rid of `document.querySelector()` and DOM manipulation)
 
 <hr>
 
