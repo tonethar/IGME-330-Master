@@ -10,6 +10,7 @@
 
 - This web service returns a random joke in the JSON format
 - Here is a working version: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
+- We will explain this code in class - but as you can see - at a bare minimum a web service just needs to emit a `content-type` header and some text
 
 ### I-A. The *server* code (in PHP)
 
