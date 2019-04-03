@@ -98,34 +98,7 @@ What do you call a very small valentine?
 A valen-tiny!
 ```
 
-
-
-- A. **FAIL!** - Here's the error message: 
-
-```
-Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null'
-has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-```
-
-- B. CORS stands for "Cross-Origin Resource Sharing" 
-
-- "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin." - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-
-- C. In this case, we can enable CORS for this web service because we are the ones that wrote it. Add this header to your PHP script (*before* the `echo()` statement):
-
-```php
-header("Access-Control-Allow-Origin: *");
-```
-
-- D. Now check the Network tab in the Web Inspector to see this new header:
-
-![Screenshot](_images/php-web-service-1.jpg)
-
-- E. Try your browser client again - you should be able to download the JSON now!
-
-- F. ***Summary: Web browsers can NOT directly download JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
-
-### I-D. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
+### I-C. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
 
 - Here we are going to try to download this JSON data utilizing the standardized [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) method - and we will again succeed because CORS is turned on.
 
@@ -203,6 +176,33 @@ header("Access-Control-Allow-Origin: *");
 </body>
 </html>
 ```
+
+- A. **FAIL!** - Here's the error message: 
+
+```
+Access to XMLHttpRequest at 'http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php' from origin 'null'
+has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
+- B. CORS stands for "Cross-Origin Resource Sharing" 
+
+- "Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin." - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+- C. In this case, we can enable CORS for this web service because we are the ones that wrote it. Add this header to your PHP script (*before* the `echo()` statement):
+
+```php
+header("Access-Control-Allow-Origin: *");
+```
+
+- D. Now check the Network tab in the Web Inspector to see this new header:
+
+![Screenshot](_images/php-web-service-1.jpg)
+
+- E. Try your browser client again - you should be able to download the JSON now!
+
+- F. ***Summary: Web browsers can NOT directly download JSON data from another domain unless CORS is enabled (or the browser's security restrictions are turned off).***
+
+
 
 <hr><hr>
 
