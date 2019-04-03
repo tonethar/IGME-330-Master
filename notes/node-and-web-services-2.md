@@ -142,7 +142,6 @@ url += numResults; // concatenate `numResults` to the end of the query string
 
 - The "Chuck Norris joke" web service returned plain text, but this one returns the data as a JSON string
 - We need to convert this string to an object before we can parse it - `JSON.parse()` accomplishes this for us
-- **Note:** in the web browser, we have been using `jQuery.ajax()` to download the data, and jQuery has been automagically converting the downloaded string to a JSON object for us - wasn't that nice of it?)
 - Go ahead and change section #3 of **index.js** so it looks like this: 
 
 ```js
