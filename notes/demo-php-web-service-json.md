@@ -5,7 +5,7 @@
 - We can use the PHP scripting language to return data in the JSON format - thus creating our own web service:
   - https://en.wikipedia.org/wiki/JSON
 
-## I. Simple Web Service (JSON only)
+## I. Simple Web Service (JSON format)
 
 - This web service returns a random joke in the JSON format
 - Here is a working version: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
