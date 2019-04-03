@@ -101,7 +101,7 @@ A valen-tiny!
 
 ### I-C. The *client* code (Web Browser JavaScript - `XMLHttpRequest`)
 
-- Here we are going to try to download this JSON data utilizing the standardized [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) method - and we will again succeed because CORS is turned on.
+- Here we are going to try to download this JSON data utilizing the standardized [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) method
 
 **get-joke-xhr-json.html**
 
