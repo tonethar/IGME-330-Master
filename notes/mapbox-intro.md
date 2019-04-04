@@ -45,12 +45,12 @@ Screenshot of **mapbox-simple.html** (I changed the width & height in my version
 
 ## I-A. Some things to try
 
-- Change the map's style - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
+- Change the map's `style` - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
   - `light-v10` OR
   - `dark-v10` OR
   - `outdoors-v11` OR
   - `satellite-v9`
-- Change the center and zoom of the map:
+- Change the `center` and `zoom` of the map:
 
 ```js
 map.setZoom(9);
@@ -59,7 +59,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 <hr>
 
-II. Add Markers
+## II. Add Markers
 
 - https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
 
