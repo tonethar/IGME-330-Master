@@ -9,10 +9,10 @@
 1. Sign up for an account here: https://account.mapbox.com/auth/signup/
 2. On the account page - https://account.mapbox.com - set up a Maps SDK (Web) Account
   - Use the Mapbox CDN
-  - Follow the instructions to build a simple map HTML page - be sure to copy over your *access token**
+  - Follow the instructions to build a simple map HTML page - be sure to copy over your ***access token***
 
 
-Here's what the HTML page will look like - you'll need to add your access token to it:
+Here's what the HTML page will look like - you'll need to add your ***access token*** to it:
 
 **mapbox-simple.html**
 
