@@ -34,7 +34,6 @@ Here's what the HTML page will look like - you'll need to add your ***access tok
 		style: 'mapbox://styles/mapbox/streets-v11'
 	});
 	
-	L.marker([38.913184, -77.031952]).addTo(map);
 </script>
 </body>
 </html>
