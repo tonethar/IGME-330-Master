@@ -72,7 +72,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 ## III. RIT Coffee Map
 
 - Here is a marker icon you will need (right-click to download) --> <img src="_images/coffee-icon.png" height="50" width="50" >
-- To get started on the RIT coffee map, we just have to slightly modify the above turorial - here's a screenshot of the code, and the final result (with 3 coffee shops showing)
+- To get started on the RIT coffee map, we just have to slightly modify the above tutorial - here's a screenshot of the code, and the final result (with 3 coffee shops showing)
 
 **rit-coffee-mapbox.html**
 
