@@ -39,6 +39,10 @@ Here's what the HTML page will look like - you'll need to add your ***access tok
 </html>
 ```
 
+Screenshot of **mapbox-simple.html** (I changed the width & height in my version):
+
+![screenshot](./_images/mapbox-1.png)
+
 ## I-A. Some things to try
 
 - Change the map's style - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
@@ -53,10 +57,7 @@ map.setZoom(9);
 map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude - which is opposite of Google Maps
 ```
 
-Screenshot of **mapbox-simple.html** (I changed the width & height in my version):
-
-![screenshot](./_images/mapbox-1.png)
-
+<hr>
 
 II. Add Markers
 
