@@ -39,7 +39,7 @@ Here's what the HTML page will look like - you'll need to add your ***access tok
 </html>
 ```
 
-Screenshot of **mapbox-simple.html** (I changed the width & height in my version):
+Screenshot of **mapbox-simple.html** (I changed the `width` & `height` in my version):
 
 ![screenshot](./_images/mapbox-1.png)
 
