@@ -39,8 +39,20 @@ Here's what the HTML page will look like - you'll need to add your ***access tok
 </html>
 ```
 
+## I-A. Some things to try
+
+- Change the map's style - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
+  - `light-v10` OR
+  - `dark-v10` OR
+  - `outdoors-v11` OR
+  - `satellite-v9`
 
 Screenshot of **mapbox-simple.html** (I changed the width & height in my version):
 
 ![screenshot](./_images/mapbox-1.png)
+
+
+II. Add Markers
+
+- https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
 
