@@ -61,10 +61,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## II. Add Clickable Markers
 
-- Here is a marker icon you will need --> <img src="_images/mapbox-icon.png" align="left" height="50" width="50" >
-
-
-![](_images/mapbox-icon.png | width=50)
+- Here is a marker icon you will need --> <img src="_images/mapbox-icon.png" align="right" height="50" width="50" >
 
 - Follow this tutorial here - https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/ - which give you something that looks like this:
 
@@ -74,7 +71,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## III. RIT Coffee Map
 
-- Here is a marker icon you will need --> ![](_images/coffee-icon.png =50x50)
+- Here is a marker icon you will need --> <img src="_images/coffee-icon.png" align="right" height="50" width="50" >
 - To get started on the RIT coffee map, we just have to slightly modify the above turorial - here's a screenshot of the code, and the final result (with 3 coffee shops showing)
 
 **rit-coffee-mapbox.html**
