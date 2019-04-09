@@ -67,6 +67,7 @@ let data = {
 1. show binding (2 way reactivity) to `data.message` in Vue Devtools console
 1. we can also access in console through `app.message`
 1. the `data` object is a "single source of truth" in that it always reflects the true value
+1. Take a look in the web inspector and see what the DOM looks like. Then do a "view source" and compare
 
 #### Summary
 - Create a new `Vue()` instance
