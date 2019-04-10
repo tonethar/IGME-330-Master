@@ -148,10 +148,6 @@ Hints:
 
 ![screenshot](./_images/vue-ajax-2.jpg)
 
-## VIII. Video Link
-
-- Here's the lecture on video --> [Vue & Ajax - (26:29)](https://video.rit.edu/Watch/Ao8n6ZFf)
-
 <hr><hr>
 
 **[Previous Chapter <- Vue Part I - Introduction to Vue.js](vue-1.md)**
