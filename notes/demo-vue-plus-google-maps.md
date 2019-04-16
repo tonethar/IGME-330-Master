@@ -39,7 +39,7 @@ ZIP file is here --> [vue-plus-google-maps-need-API-KEY.zip](_files/vue-plus-goo
 <script>
 "use strict";
 /*
-	Make `app` a global by using `var`, now we can ...&callback=app.initMap from the link above
+	Make `app` a global by using `var`, now we can ...&callback=app.initMap from the google map script near the bottom of this file
 */
 var app = new Vue({
 	el: "#root",
