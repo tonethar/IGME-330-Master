@@ -15,4 +15,4 @@
 
 <hr><hr>
 
-**[Next Chapter -> Snake Part I](HW-snake-0.md)**
+**[Next Chapter -> Snake Part I - Mobile HTML](HW-snake-0.md)**
