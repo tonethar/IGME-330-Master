@@ -5,6 +5,7 @@
 - "Mobile First" HTML/CSS
 - Basic JavaScript Review
 - Canvas API Overview
+- Snake Logic
 - Writing Modular Library Code (ES5 Style)
 - Interactivity
   - Handling keyboard events
