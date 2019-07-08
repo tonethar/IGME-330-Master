@@ -1,4 +1,4 @@
-# Snake HW Part 1 - Mobile Layout
+# Snake HW Part I - Mobile Layout
 
 ## I. Overview
 
