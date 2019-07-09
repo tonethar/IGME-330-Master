@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- "Mobile First" HTML/CSS
+- Responsive HTML/CSS & "Mobile First"
 - Basic JavaScript Review
 - Canvas API Overview
 - Snake Logic
