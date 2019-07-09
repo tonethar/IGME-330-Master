@@ -7,4 +7,4 @@
 
 **[Previous Chapter <- Snake Part 0](HW-snake-0.md)**
 
-**[Next Chapter -> Snake Part II](HW-snake-2.md)**
+**[Next Chapter -> Snake Part II - Desktop Layout](HW-snake-2.md)**
