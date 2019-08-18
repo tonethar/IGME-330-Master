@@ -1,10 +1,16 @@
-# Snake HW Part I - Desktop Layout A
+# Snake HW Part I - Styling & Layout - A
 
 ## I. Overview
 
+- The *Snake* start code is below. Go ahead and create and name the file **snake-1.html**  
+- Load the file into a web browser, and then check it out both on a desktop browser and on a mobile browser (or use the Chrome developer tools). You can also refer to the screenshots below.
+- You should have noted that the the layout on the desktop version is missing the "2 column layout with header & footer" that we saw in the completed version
+- You should note that the page doesn't look too good on mobile compared to the "done version" we showed you in Part O. This is because the browser window 
+
+## I-A. Reference
+
 - Responsive design - https://developers.google.com/web/fundamentals/design-and-ux/responsive/
 - viewport `<meta>` tag - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
-- `id` attribute
 
 ## II. Start Code
 
@@ -17,7 +23,7 @@
 	<meta charset="utf-8" />
 	<title>Snake</title>
 	<style>
-		/* 	Layout & Colors from here:	https://flaviocopes.com/css-grid/ */
+		/* Layout & Colors from here: https://flaviocopes.com/css-grid/ */
 		header {
 			background-color: #fed330;
 			padding: 10px;
@@ -59,6 +65,10 @@
 </html>
 
 ```
+
+
+## III. Screenshots
+
 
 <hr><hr>
 
