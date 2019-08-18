@@ -78,15 +78,21 @@
 ### III-A. Desktop
 ![Screenshot](./_images/HW-snake-1.jpg)
 
+<hr>
+
 ### III-B. Smartphone
 ![Screenshot](./_images/HW-snake-2.jpg)
 
 ![Screenshot](./_images/HW-snake-3.jpg)
 
+<hr>
+
 ### III-C. Tablet
 ![Screenshot](./_images/HW-snake-4.jpg)
 
 ![Screenshot](./_images/HW-snake-5.jpg)
+
+<hr>
 
 ### III-D. Small Smartphone
 ![Screenshot](./_images/HW-snake-6.jpg)
