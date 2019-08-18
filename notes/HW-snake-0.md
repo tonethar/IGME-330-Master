@@ -73,6 +73,8 @@
 - setting breakpoints
 - viewing values of variables
 
+## III. Screenshots
+
 <hr><hr>
 
 **[Next Chapter -> Snake Part I - Mobile HTML](HW-snake-1.md)**
