@@ -1,4 +1,4 @@
-# Snake HW Part 0 - Intro
+# Snake HW Part 0 - Overview
 
 ## I. Overview
 
@@ -99,4 +99,4 @@
 
 <hr><hr>
 
-**[Next Chapter -> Snake Part I - Mobile HTML](HW-snake-1.md)**
+**[Next Chapter -> Snake Part I - Layout & Styling](HW-snake-1.md)**
