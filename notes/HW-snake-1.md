@@ -12,6 +12,8 @@
 - Responsive design - https://developers.google.com/web/fundamentals/design-and-ux/responsive/
 - viewport `<meta>` tag - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 
+<hr>
+
 ## II. Start Code
 
 **snake-start.html**
@@ -66,8 +68,13 @@
 
 ```
 
+<hr>
 
 ## III. Screenshots
+
+![Screenshot](./_images/HW-snake-7.jpg)
+
+![Screenshot](./_images/HW-snake-8.jpg)
 
 
 <hr><hr>
