@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Overall goal - to architect a responsive web application that runs on both mobile and desktop devices, without the use of any JavaScript libraries or dependencies. The *snake* game was chosen because although the version we will build here is fairly simple, it does support mobile devices and is therefore not a throwaway or trivial example.
+- Overall goal - to architect an interactive,  media-rich responsive web application that runs on both mobile and desktop devices, without the use of any JavaScript libraries or dependencies. The *Snake* game was chosen because although the version we will build here is fairly simple, it does support mobile devices and is therefore not a throwaway or trivial example.
 - The architecture we will use is in the "classic" style, and we will modify this architecture as we move through the course (by using ES6 classes and modules)
 
 ## II. Walkthrough Topics
