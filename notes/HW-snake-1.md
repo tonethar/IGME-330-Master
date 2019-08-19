@@ -76,7 +76,7 @@
 
 ![Screenshot](./_images/HW-snake-7.jpg)
 
-**This layout makes all of the elements so small that the page is unreable and unusable unless the use zooms in:**
+**This layout makes all of the elements so small that the page is unreadable and unusable unless the user zooms in:**
 
 ![Screenshot](./_images/HW-snake-8.jpg)
 
