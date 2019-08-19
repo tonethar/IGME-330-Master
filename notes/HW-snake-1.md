@@ -83,6 +83,6 @@
 
 <hr><hr>
 
-**[Previous Chapter <- Snake Part 0](HW-snake-0.md)**
+**[Previous Chapter <- Snake Part 0 - Overview](HW-snake-0.md)**
 
 **[Next Chapter -> Snake Part II - Desktop Layout](HW-snake-2.md)**
