@@ -4,7 +4,7 @@
 
 - The *Snake* start code is below. Go ahead and create and name the file **snake-1.html**  
 - Load the file into a web browser, and then check it out both on a desktop browser and on a mobile browser (or use the Chrome developer tools). You can also refer to the screenshots below.
-- You should have noted that the the layout on the desktop version is missing the "2 column layout with header & footer" that we saw in the completed version.
+- You should have noted that the the layout on the desktop version is missing the "2 column layout with header & footer" that we saw in the completed version in [Part 0](./HW-snake-0.md).
 - You should note that the page doesn't look too good on mobile compared to the "done version" we showed you in Part O. This is because the mobile browser assumes that the web page is 980-pixels wide, which means that all of the elements have to be scaled down (too much!) in order to fit. Thus the mobile versoin of the site is not very usable, unless the user pinches and zooms in.
 
 ## I-A. Reference
