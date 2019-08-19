@@ -73,6 +73,8 @@
 - setting breakpoints
 - viewing values of variables
 
+<a id="part3"/>
+
 ## III. Screenshots
 
 ### III-A. Desktop
