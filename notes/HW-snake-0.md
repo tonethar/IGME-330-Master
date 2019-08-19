@@ -99,4 +99,4 @@
 
 <hr><hr>
 
-**[Next Chapter -> Snake Part I - Layout & Styling](HW-snake-1.md)**
+**[Next Chapter -> Snake Part I - Styling & Layout - A](HW-snake-1.md)**
