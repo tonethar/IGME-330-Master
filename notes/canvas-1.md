@@ -65,9 +65,9 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 
 **Which gives us:**
 
-![screenshot](./_images/canvas-1.jpg)
+**(Not really! Actually, we'll only get a red rectangle!)**
 
-**Not really! Actually, we'll only get a red rectangle!**
+![screenshot](./_images/canvas-1.jpg)
 
 <hr>
 
@@ -93,6 +93,7 @@ These will be useful as we build our screen saver.
   - replace `getByte()` with an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
   - replace the string concatenation in the return statement above with [string template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   
+<hr>
   
 ## III. Completed versions
 
