@@ -95,6 +95,7 @@
 		
 		function drawSecondHand(ctx){
 			let seconds = new Date().getSeconds(); // returns 0-59
+			//let seconds = (new Date().getMilliseconds()/1000) + new Date().getSeconds();
 			// Hints
 			// 1 - calc rotation amount based on seconds
 			// 2 - translate to center of screen
