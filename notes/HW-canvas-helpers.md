@@ -102,5 +102,3 @@
 ![circles](./_images/HW-canvas-helpers-done-2.jpg)
 
 
-## IV. Rubric
-- Worth 2 HW assignments
