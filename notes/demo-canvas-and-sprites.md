@@ -209,3 +209,7 @@
 </body>
 </html>
 ```
+
+## III. Demo & In-class Exercise
+
+- See comments in HTML file above
