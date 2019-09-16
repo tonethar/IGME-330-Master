@@ -41,7 +41,7 @@
 	1) First we'll walk though the app and make sure we understand all of this code
 			
 	2) We have 5 major sections of code for this demo - all jammed into the same file,
-	as well as the variables and functions all being in the same scope or namespace.
+	as well as the variables and functions all being in the same "global" scope (namespace).
 			
 	3) Soon we will look at how we can re-factor code like this into modules to make it 
 	easier to work on, especially for a team, and how to place code into distinct modules
