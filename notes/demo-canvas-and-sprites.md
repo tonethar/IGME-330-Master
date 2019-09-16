@@ -22,7 +22,7 @@
 	<meta charset="utf-8" />
 	<title>ES6 Sprites & Canvas</title>
 	<style>
-		body{font-family:sans-serif;}
+		body{font-family:sans-serif;margin:2%;}
 		code{font-size:1.1em;}
 	</style>
 </head>
