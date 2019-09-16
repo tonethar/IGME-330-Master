@@ -2,9 +2,9 @@
 
 ## I. Overview
 - Code Architecture:
-  - Writing more reusable code is hopefully a big take-away of this exercise
-  - Note that the code in this example has been split out into multiple files
-  - The code is not yet truly *modular*, but we'll address that next week by converting it to ES6 module syntax
+  - This semester we have been keeping most of our JS in a single HTML file. This has worked fine for simple examples, but as our JS projects grow in scope, this just isn't going to cut it anymore
+  - Note that the code in this demo has been split out into multiple files - which is a first step in creating code that is more reliable, maintainable, and easier for multiple people to work on
+  - The code in this demo is not yet truly *modular*, but we'll address that next week by converting it to ES6 module syntax
 - Also, we will:
   - review hooking up DOM controls to canvas
   - play with blending mode a little more
