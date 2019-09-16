@@ -32,32 +32,32 @@
 	<li>General Utility Functions: <code>getRandom()</code>, <code>getRandomColor</code>, <code>getRandomUnitVector()</code></li>
 </ul>
 	<script>
-		/*
-			DISCUSSION: 
-			1) First we'll walk though the app and make sure we understand all of this code
+	/*
+	DISCUSSION: 
+	1) First we'll walk though the app and make sure we understand all of this code
 			
-			2) We have 5 major sections of code for this demo - all jammed into the same file,
-			as well as the variables and functions all being in the same scope or namespace.
+	2) We have 5 major sections of code for this demo - all jammed into the same file,
+	as well as the variables and functions all being in the same scope or namespace.
 			
-			3) Soon we will look at how we can re-factor code like this into modules to make it 
-			easier to work on, especially for a team, and how to place code into distinct modules
-			to make it more extensible and reliable
+	3) Soon we will look at how we can re-factor code like this into modules to make it 
+	easier to work on, especially for a team, and how to place code into distinct modules
+	to make it more extensible and reliable
 			
-			IN-CLASS EXERCISE:
-			1) Create a new class named `RingSprite` that extends `Sprite`
+	IN-CLASS EXERCISE:
+	1) Create a new class named `RingSprite` that extends `Sprite`
 			
-			2) In RingSprite, create a draw() method that will override the draw method in Sprite.
-			It will draw a circle using ctx.arc() - Hint: use this.span/2 to get the radius 
+	2) In RingSprite, create a draw() method that will override the draw method in Sprite.
+	It will draw a circle using ctx.arc() - Hint: use this.span/2 to get the radius 
 			
-			3) In your sprite creation loop, modify the code to create a ring instead of
-			a circle
+	3) In your sprite creation loop, modify the code to create a ring instead of
+	a circle
 			
-			4) After you get that working, see Week 2A for an example of where we drew a ring by 
-			altering the counterClockwise parameter of ctx.arc()
+	4) After you get that working, see Week 2A for an example of where we drew a ring by 
+	altering the counterClockwise parameter of ctx.arc()
 			
-			5) Finished early? Bored? Create another subclass of Sprite and add rotations or 
-			other behaviors to it. 
-		*/
+	5) Finished early? Bored? Create another subclass of Sprite and add rotations or 
+	other behaviors to it. 
+	*/
 		
 		// I. CLASSES
 		class Sprite{
