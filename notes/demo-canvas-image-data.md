@@ -1,11 +1,14 @@
 # Demo Canvas Image Data (and Sprites!)
 
 ## I. Overview
-- Note that the code in this example has been split out into multiple files
-- Here we will:
+- Code Architecture:
+  - Writing more reusable code is hopefully a big take-away of this exercise
+  - Note that the code in this example has been split out into multiple files
+  - The code is not yet truly *modular*, but we'll address that next week by converting it to ES6 module syntax
+- Also, we will:
   - review hooking up DOM controls to canvas
   - play with blending mode a little more
-  - grab the image data from the canvas, perform manipulations on that data, and copy it back to the canvas
+  - grab the image data from the canvas, perform manipulations on that data, and copy it back to the canvas (this is also coverd in AV-2)
   - see the effects of drawing an insecure image on the canvas 
   - think about you could potentially use all of this in your Audio Visualizer project - including having the audio frequency data effect the motion of sprites
   - think about how you incorporate mouse movement into this demo or your audio visualizer project. See the *Speed Circles* demo in mycourses for JS code that accesses the mouse position
@@ -37,8 +40,11 @@ See comments #1 - #6 in the **main.js** source file. We will walk through these 
   - how do we *brighten* the canvas?
   - how do we *darken* the canvas?
   - how do we convert the canvas to a *gray scale* image?
+  
+# IV Homework
+- see the comments in the **index.html** - these will explain what you need to do - and see dropbox for due date
 
-## IV. Reference
+## V. Reference
 - You can ready more about canvas image manipulation here:
   - https://www.html5rocks.com/en/tutorials/canvas/imagefilters/
   - http://html5doctor.com/video-canvas-magic/
