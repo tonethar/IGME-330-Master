@@ -88,7 +88,7 @@
 			move(){
 				this.x += this.fwd.x * this.speed;
 				this.y += this.fwd.y * this.speed;
-			};
+			}
 
 			reflectX(){
 				this.fwd.x *= -1;
