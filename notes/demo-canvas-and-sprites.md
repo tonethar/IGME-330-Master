@@ -43,9 +43,9 @@
 	2) We have 5 major sections of code for this demo - all jammed into the same file,
 	as well as the variables and functions all being in the same "global" scope (namespace).
 			
-	3) Soon we will look at how we can re-factor code like this into modules to make it 
-	easier to work on, especially for a team, and how to place code into distinct modules
-	to make it more extensible and reliable
+	3) Soon we will look at how we can re-factor code like this into separate files to 
+	make it easier to work on, especially for a team, and how to place code into distinct 
+	*modules* to make it more extensible and reliable
 			
 	IN-CLASS EXERCISE:
 	1) Create a new class named `RingSprite` that extends `Sprite`
