@@ -58,8 +58,10 @@
 			
 	4) After you get that working, see Week 2A for an example of where we drew a ring by 
 	altering the counterClockwise parameter of ctx.arc()
+		
+	5) Move the JS code to 4 separate files (named **src/utils.js**, **src/canvas-utils.js**, **src/sprites.js**,     **src/main.js**) and link to them via multiple `<script>` tags. Hint: Lo 
 			
-	5) Finished early? Bored? Create another subclass of Sprite and add rotations or 
+	6) Finished early? Bored? Create another subclass of Sprite and add rotations or 
 	other behaviors to it. 
 	*/
 		
