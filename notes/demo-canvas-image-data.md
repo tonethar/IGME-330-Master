@@ -1,4 +1,4 @@
-# Canvas Image Data Demo
+# Sprites & Canvas Image Data Demo
 
 ## I. Overview
 - Here we will:
