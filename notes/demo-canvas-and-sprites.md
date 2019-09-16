@@ -51,13 +51,11 @@
 	1) Create a new class named `RingSprite` that extends `Sprite`
 			
 	2) In RingSprite, create a draw() method that will override the draw method in Sprite.
-	It will draw a circle using ctx.arc() - Hint: use this.span/2 to get the radius 
+	It will draw a circle using ctx.arc() - Hint: use `this.span/2` to get the radius 
 			
-	3) In your sprite creation loop, modify the code to create a ring instead of
-	a circle
-			
-	4) After you get that working, see Week 2A for an example of where we drew a ring by 
-	altering the counterClockwise parameter of ctx.arc()
+	3) In your sprite creation loop, modify the code to create a *ring* instead of
+	a circle. See Week 2A for an example of where we drew a ring by 
+	altering the `counterClockwise` parameter of ctx.arc()
 		
 	5) Move the JS code to 4 separate files (named **src/utils.js**, **src/canvas-utils.js**, 
 	**src/sprites.js**,     **src/main.js**) and link to them via multiple `<script>` tags. 
