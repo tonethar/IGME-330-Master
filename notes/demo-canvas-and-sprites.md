@@ -217,3 +217,8 @@
 ## III. Demo & In-class Exercise
 
 - See comments in HTML file above
+
+## IV. Reference
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+- https://2ality.com/2015/02/es6-classes-final.html
