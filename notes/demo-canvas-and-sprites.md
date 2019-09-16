@@ -4,7 +4,7 @@
 - Today we will:
   - review ES6 class syntax and how to make a `Sprite` class
   - render these sprites to the screen using drawing context methods
-  - look at how to utilize *inheritance* and method overriding to extend the functionality of the `Sprite` class
+  - look at how to utilize *inheritance* and *method overriding* to extend the functionality of the `Sprite` class
   - look at some handy utility methods that might come in useful when working on Project 1
 - Helpful stuff (reusable code!) in demo file:
   - ES6 class: `Sprite`
