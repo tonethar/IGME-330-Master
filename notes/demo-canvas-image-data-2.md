@@ -2,7 +2,6 @@
 
 ## I. Overview
 - Here we will:
-  - review ES6 class syntax and how to make a sprite
   - review hooking up DOM controls to canvas
   - play with blending mode a little more
   - grab the image data from the canvas, perform manipulations on that data, and copy it back to the canvas
