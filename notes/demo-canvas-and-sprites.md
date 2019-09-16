@@ -1,11 +1,15 @@
 # Demo: Canvas & Sprites
 
 ## I. Overview
-- Here we will:
+- Today we will:
   - review ES6 class syntax and how to make a `Sprite` class
   - render these sprites to the screen using drawing context methods
   - look at how to utilize *inheritance* and method overriding to extend the functionality of the `Sprite` class
   - look at some handy utility methods that might come in useful when working on Project 1
+- Helpful stuff (reusable code!) in demo file:
+  - ES6 class: `Sprite`
+  - Canvas Utility Functions: `createLinearGradient()`
+  - General Utility Functions: `getRandom()`, `getRandomColor()`, `getRandomUnitVector()`
   
 ## II. Start Code
 
@@ -29,7 +33,7 @@
 <ul>
 	<li>ES6 class: <code>Sprite</code></li>
 	<li>Canvas Utility Functions: <code>createLinearGradient()</code></li>
-	<li>General Utility Functions: <code>getRandom()</code>, <code>getRandomColor</code>, <code>getRandomUnitVector()</code></li>
+	<li>General Utility Functions: <code>getRandom()</code>, <code>getRandomColor()</code>, <code>getRandomUnitVector()</code></li>
 </ul>
 	<script>
 	/*
