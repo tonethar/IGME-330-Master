@@ -1,4 +1,4 @@
-# Canvas Image Data Demo
+# Canvas Image Data Demo II
 
 ## I. Overview
 - Here we will:
