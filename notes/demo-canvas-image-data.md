@@ -41,7 +41,7 @@ See comments #1 - #6 in the **main.js** source file. We will walk through these 
   - how do we *darken* the canvas?
   - how do we convert the canvas to a *gray scale* image?
   
-## IV Homework
+## IV. Homework
 - see the comments in the **index.html** - these will explain what you need to do - and see dropbox for due date
 
 ## V. Reference
