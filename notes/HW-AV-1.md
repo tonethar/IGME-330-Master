@@ -22,7 +22,7 @@ In part I of this HW, you will be learning about the HTML5 [WebAudio API](https:
 - Run the code off of a web server, which you can do by uploading your code to Banjo
 - Use an IDE like [Brackets](http://brackets.io) - which creates a local web server for you to run your code on
 - [You can also create a web server using Python](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) on your local machine
-- NodeJS can run a web server for you: https://www.npmjs.com/package/http-server
+- NodeJS can also run a local web server for you: https://www.npmjs.com/package/http-server
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) turns off CORS by default, so you don't need a web server
 
 ## II. Submission
