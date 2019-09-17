@@ -1,6 +1,7 @@
 # Demo Canvas Image Data (and Sprites!)
 
 ## I. Overview
+- We are building on what we did last time with [Demo: Canvas & Sprites](./demo-canvas-and-sprites.md)
 - Code Architecture:
   - This semester we have been keeping most of our JS in a single HTML file. This has worked fine for simple examples, but as our JS projects grow in scope, this just isn't going to cut it anymore
   - Note that the code in this demo has been split out into multiple files - which is a first step in creating code that is more reliable, maintainable, and easier for multiple people to work on
