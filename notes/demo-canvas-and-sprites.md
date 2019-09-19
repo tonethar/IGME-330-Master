@@ -1,7 +1,7 @@
 # Demo: Canvas & Sprites
 
 ## I. Overview
-- Today we will:
+- Here we will:
   - review ES6 class syntax and how to make a `Sprite` class
   - render these sprites to the screen using drawing context methods
   - look at how to utilize *inheritance* and *method overriding* to extend the functionality of the `Sprite` class
