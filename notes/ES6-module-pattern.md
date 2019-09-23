@@ -81,7 +81,7 @@ VI. [Review Questions](#section6)
 
 - **To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
 
-`let sprites = []; // sprites.js needs an array to cache some sprites` 
+`let sprites = []; // sprites.js needs an array to cache some sprites! I'll go ahead and add it!` 
 
 - **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
