@@ -76,6 +76,7 @@ VI. [Review Questions](#section6)
 ![Screenshot](_images/es6-module-pattern-3.jpg)
 
 **main.js**
+
 ![Screenshot](_images/es6-module-pattern-4.jpg)
 
 - **To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
