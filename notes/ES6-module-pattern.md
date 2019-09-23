@@ -39,7 +39,8 @@ VI. [Review Questions](#section6)
 
 ## I. <a id="section1">Why do we need modularized code?
 
-Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip](_files/sprites-plus-bitmap-manip-start.zip)
+- Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip](_files/sprites-plus-bitmap-manip-start.zip)
+- go ahead and test the files to be sure they work - you probably want to go ahead and run them off of a web server (because you will have to later on to complete this exercise)
 
 ### I-A. The costs of not using JS modules
 
