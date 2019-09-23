@@ -258,9 +258,9 @@ And delete the *call* to the `init();` function - not the function itself. This 
 - above we are importing the 3 sprite creation functions we need from *classes.js*
 - the only function or variable we are exposing to other scripts is `init()'
 
-### III-D. New file: *js/init.js*
+### III-D. New file: *src/loader.js*
 
-Make *init.js* look like this:
+Make *loader.js* look like this:
 
 ```javascript
 import {init} from './main.js';
@@ -282,7 +282,7 @@ Make the HTML file look like this:
 </head>
 <body>
 <canvas width="600" height="400"></canvas>
-<script src="js/init.js" type="module"></script>
+<script src="js/loader.js" type="module"></script>
 </body>
 </html>
 ```
