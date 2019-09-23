@@ -48,7 +48,7 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 **main.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-1.jpg)
+![Screenshot](_images/es6-module-pattern-1.jpg)
 
 - above you can see that the `let` declared variables of *main.js* of `ctx`, `screenWidth`, `screenHeight`, and `sprites` are all visible in Script scope ...
 - and we can also see the `sprite` variable that is declared over in *classes.js* ...
