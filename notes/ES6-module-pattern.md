@@ -214,37 +214,43 @@ In *test.html*:
 	
 Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you download the folder, rename it to **sprites-now-with-modules**
 
-### III-A. Changes to *utilities.js*
+### III-A. Changes to *utils.js*
 
 Add the following to the top:
 
-```javascript
-export {getRandomUnitVector};
+```js
+export {getRandomUnitVector,getRandom,getRandomColor};
 ```
 
 - you can also delete the `"use strict";` line because ES6 modules always run in strict mode
 - above we are making `getRandomUnitVector()` public, but keeping `getRandom()` private to this module
 - if you test the app now, will see errors, so just move on
 
-### III-B. Changes to *classes.js*
+
+### III-B. Changes to *canvas-utils.js*
 
 Add the following to the top:
 
-```javascript
-import {getRandomUnitVector} from './utilities.js';
-export {createCircleSprites,createSquareSprites,createImageSprites};
+```js
+export {createLinearGradient};
 ```
 
-- above we see the `import` statement for the first time - *classes.js* needs access to `getRandomUnitVector()` - and the `import` statement makes this dependency very explicit.
-- we are making the 3 sprite creation functions public, but the `sprite` object private to this module
-
-### III-C. Changes to *main.js*
+### III-C. Changes to *classes.js*
 
 Add the following to the top:
 
-```javascript
-import {createCircleSprites,createSquareSprites,createImageSprites} from './classes.js';
-export {init};
+```js
+export {Sprite};
+```
+
+### III-D. Changes to *main.js*
+
+Add the following to the top:
+
+```js
+import {Sprite} from './classes.js';
+import {getRandomUnitVector,getRandom,getRandomColor} from './utils.js';
+import {createLinearGradient} from './canvas-utils.js';
 ```
 
 And delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10. In the next section, we will instead call `init()` from **init.js**. 
