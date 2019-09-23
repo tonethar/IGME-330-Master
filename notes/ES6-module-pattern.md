@@ -53,14 +53,19 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 - above you can see that the Sprite symbol (declared with `class` over in **sprites.js**) is visible in Script scope
 - this might not seem like a bad thing, but look at the next example
 
-![Screenshot](_images/es6-module-pattern-2.jpg)
-
 **sprites.js**
 
-- above you can see that the `let` declared variables of *main.js* of `ctx`, `screenWidth`, `screenHeight`, and `sprites` are all visible in Script scope ...
-- and we can also see the `sprite` variable that is declared over in *classes.js* ...
-- this means that *main.js* can "see" all of the `let` declared  variables in *classes.js*. The converse is also true - *classes.js* has access to all of the *main.js* variables. Place a breakpoint at the top of `createCircleSprites()` in *classes.js*, and you will see that the available Script scoped variables are identical to what we saw in *main.js*.
-- similarly, placing a breakpoint in the `getRandom()` function of *utilities.js* will reveal an identical list of script scoped variables.
+![Screenshot](_images/es6-module-pattern-2.jpg)
+
+- above you can see that the `let` declared variables of *main.js* of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in Script scope
+- this means that *sprites.js* can "see" all of the `let` declared  variables in *main.js*. The converse is also true - *main.js* has access to all of the *sprites.js* variables
+
+
+
+**utils.js** & **main.js**
+
+- functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (and also as properties of the `window` object)
+- in the two screenshots below, see how 
 
 **To see how this sharing of variables can cause problems, add the following line of code to the top section of *main.js***
 
