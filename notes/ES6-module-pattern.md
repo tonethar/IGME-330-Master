@@ -71,8 +71,11 @@ VI. [Review Questions](#section6)
 - functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (PS - they also end up as properties of the `window` object)
 - in the two screenshots below, see how functions declared in one file, are visible in the other, and vice-versa:
 
+**utils.js**
+
 ![Screenshot](_images/es6-module-pattern-3.jpg)
 
+**main.js**
 ![Screenshot](_images/es6-module-pattern-4.jpg)
 
 - **To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
