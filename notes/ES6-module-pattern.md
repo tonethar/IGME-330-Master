@@ -120,7 +120,7 @@ Clearly not:
 ### II-B. A working example
 ES6 modules have 2 restrictions:
 - they need be hosted on a web server to function (or use the Live Preview mode of Brackets, etc)
-- as of Spring 2019, they are supported by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
+- as of Fall 2019, they are supported by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
 
 Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
 
@@ -185,7 +185,7 @@ Try it out:
 
 ### II-C. Checking the web inspector
 
-If we add a two breakpoints and step through the code, we can see that we now have "Module" scope and privacy:
+If we add two breakpoints and step through the code, we can see that we now have "Module" scope and privacy:
 
 **test.html**
 
