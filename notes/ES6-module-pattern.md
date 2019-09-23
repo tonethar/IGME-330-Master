@@ -71,23 +71,23 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 ![Screenshot](_images/es6-module-pattern-4.jpg)
 
-**To see how this kluging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
+**To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
 
 `let sprites = []; // sprites.js needs an array to cache some sprites` 
 
 **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
-`Uncaught SyntaxError: Identifier 'sprite' has already been declared at main.js:1`
+`Uncaught SyntaxError: Identifier 'sprites' has already been declared at main.js:1`
 
-**So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we just do this in *main.js*:**
+**So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we redeclare a function in *main.js*:**
 
-`sprite = {};` 
+`function getRandomColor(){
+	return `red`;
+}` 
 
-**Reload the page, you will get an error in the console, and nothing drawn to the screen:**
+**Reload the page, all the sprites are red:**
 
-`Uncaught TypeError: s.move is not a function`
-
-**... which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
+**... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
 
 
 ### I-B. How about functions?
