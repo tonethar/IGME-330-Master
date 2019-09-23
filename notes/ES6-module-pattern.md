@@ -251,6 +251,7 @@ Add the following to the top:
 import {Sprite} from './classes.js';
 import {getRandomUnitVector,getRandom,getRandomColor} from './utils.js';
 import {createLinearGradient} from './canvas-utils.js';
+export{init};
 ```
 
 And delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10. In the next section, we will instead call `init()` from **init.js**. 
