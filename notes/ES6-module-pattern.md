@@ -39,7 +39,7 @@ VI. [Review Questions](#section6)
 
 ## I. <a id="section1">Why do we need modularized code?
 
-Before we get started, grab the demo files: [ES5-no-modules.zip](_files/ES5-no-modules.zip) - these files demonstate (among other things) how to create an inheritance-like hierarchy with `Object.create()`
+Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip](_files/sprites-plus-bitmap-manip-start.zip)
 
 ### I-A. The costs of not using JS modules
 
