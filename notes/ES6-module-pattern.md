@@ -82,10 +82,11 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 - **So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we redeclare a previously declared function in *main.js*:**
 
-`function getRandomColor(){
+```js
+function getRandomColor(){
 	return `red`;
-}` 
-
+}
+```
 - **Reload the page, all the sprites are red:**
 
 - **... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
