@@ -98,7 +98,7 @@ function getRandomColor(){
 ### I-C. Is the above code *modular*?
 
 Clearly not:
-- regardless of the script file we write code in, all of our `let` variables are mashed together into the "Script" namespace, and all of our functions and `var` variables are in the *Global* scope
+- regardless of the script file we write code in, all of our classes and `let` variables are mashed together into the *Script* namespace, and all of our functions and `var` variables are in the *Global* scope
 - there are *dependencies* between modules which are not explicit. For example, *classes.js* depends on *utilities.js* for the `getRandomColor()` function. Because this was not explicit, we accidentally overwrote it above with another implementation. 
 - adding variables to one module can cause name collisions with variables in other modules. If one developer added a `gradient` or `screenWidth` variable to *classes.js*, it could easily break what the other developer was doing in *main.js*. In a larger application, these would be hard errors to track down. 
 - some of the properies and functions - for example all of the `let` variables from *main.js* - should NOT be visible outside their respective modules - but because of the way the code is written none of these can be **private** to a script.
