@@ -45,7 +45,8 @@ VI. [Review Questions](#section6)
 ### I-A. The costs of not using JS modules
 
 * The JS code in the demo is nicely organized and split into 4 files: **main.js**, **sprites.js**, **utls.js** and **canvas-utils.js**
-* But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of **main.js** and check the web inspector:
+* But is the JS runtime aware of our organizational structure? **TLDR - even though we have declared a bunch of variables, functions, and classes in separate files, the Browser's JavaScript runtime is still munging all of these variable into a shared global namespace!**
+* Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of **main.js** and check the web inspector:
 
 **main.js**
 
