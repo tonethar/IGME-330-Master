@@ -50,15 +50,15 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 ![Screenshot](_images/es6-module-pattern-1.jpg)
 
-- above you can see that the Sprite symbol (declared with `class` over in **sprites.js**) is visible in Script scope
-- this might not seem like a bad thing, but look at the next example
+- above you can see that the `Sprite` symbol (declared with `class` over in **sprites.js**) is visible in "Script scope"
+- this might not seem like such a bad thing, but look at the next example
 
 **sprites.js**
 
 ![Screenshot](_images/es6-module-pattern-2.jpg)
 
-- above you can see that the `let` declared variables of *main.js* of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in Script scope
-- this means that *sprites.js* can "see" all of the `let` declared  variables in *main.js*. The converse is also true - *main.js* has access to all of the *sprites.js* variables
+- above you can see that the `let` declared variables of *main.js* of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in **sprites.js** file in "Script" scope 
+- this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. The converse is also true - **main.js** has access to all of the **sprites.js** variables
 
 
 
