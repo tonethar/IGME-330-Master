@@ -210,9 +210,9 @@ In *test.html*:
 <hr>
 
 
-## III. <a id="section3">Adding ES6 Modules to our "bouncing objects" application
+## III. <a id="section3">Adding ES6 Modules to our "sprites plus bitmap manipulation" application
 	
-Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you download the folder, rename it to **ES5-now-with-modules**
+Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you download the folder, rename it to **sprites-now-with-modules**
 
 ### III-A. Changes to *utilities.js*
 
