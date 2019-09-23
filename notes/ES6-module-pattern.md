@@ -61,6 +61,7 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 - this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. The converse is also true - **main.js** has access to all of the **sprites.js** variables
 
 
+### I-B. How about functions?
 
 **utils.js** & **main.js**
 
@@ -71,32 +72,24 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 ![Screenshot](_images/es6-module-pattern-4.jpg)
 
-**To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
+- **To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
 
 `let sprites = []; // sprites.js needs an array to cache some sprites` 
 
-**Reload the page, you will get an error in the console, and nothing drawn to the screen:**
+- **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
 `Uncaught SyntaxError: Identifier 'sprites' has already been declared at main.js:1`
 
-**So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we redeclare a function in *main.js*:**
+- **So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we redeclare a previously declared function in *main.js*:**
 
 `function getRandomColor(){
 	return `red`;
 }` 
 
-**Reload the page, all the sprites are red:**
+- **Reload the page, all the sprites are red:**
 
-**... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
+- **... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
 
-
-### I-B. How about functions?
-
-Similarly, declared functions (and variables declared with `var`) all show up in the shared *global* scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can not only see the random functions are available, but also the functions declared in *classes.js* and *main.js*:
-
-**utilities.js**
-
-![Screenshot](_images/canvas-sprites-ES-6-modules-2.jpg)
 
 
 ### I-C. Is the above code *modular*?
