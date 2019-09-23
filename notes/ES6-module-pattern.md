@@ -248,7 +248,7 @@ export {Sprite};
 Add the following to the top:
 
 ```js
-import {Sprite} from './classes.js';
+import {Sprite} from './sprites.js';
 import {getRandomUnitVector,getRandom,getRandomColor} from './utils.js';
 import {createLinearGradient} from './canvas-utils.js';
 export{init};
