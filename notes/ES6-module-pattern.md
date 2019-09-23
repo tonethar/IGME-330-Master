@@ -59,7 +59,7 @@ VI. [Review Questions](#section6)
 
 ![Screenshot](_images/es6-module-pattern-2.jpg)
 
-- above you can see that the `let` declared variables of *main.js* of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in **sprites.js** file in "Script" scope 
+- above you can see that the `let` declared variables of **main.js** of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in **sprites.js** file in "Script" scope 
 - this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. The converse is also true - **main.js** has access to all of the **sprites.js** variables
 - Note: classes declared with `class` and `let` variables declared outside of functions end up in "Script Scope"
 
