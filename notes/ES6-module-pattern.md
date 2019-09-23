@@ -1,4 +1,4 @@
-# ES6 Modules -1
+# ES6 Module Pattern
 
 ## Overview
 Applications that are written in a **modular** fashion are [loosely coupled](https://en.wikipedia.org/wiki/Loose_coupling), with minimal [dependencies](https://en.wikipedia.org/wiki/Dependency_hell) between modules, which makes the process of designing and maintaining them much easier and less error prone. 
