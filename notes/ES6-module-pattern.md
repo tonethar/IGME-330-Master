@@ -59,13 +59,14 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 - above you can see that the `let` declared variables of *main.js* of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in **sprites.js** file in "Script" scope 
 - this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. The converse is also true - **main.js** has access to all of the **sprites.js** variables
+- Note: classes declared with `class` and `let` variables declared outside of functions end up in "Script Scope"
 
 
 ### I-B. How about functions?
 
 **utils.js** & **main.js**
 
-- functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (and also as properties of the `window` object)
+- functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (PS - they also end up as properties of the `window` object)
 - in the two screenshots below, see how functions declared in one file, are visible in the other, and vice-versa:
 
 ![Screenshot](_images/es6-module-pattern-3.jpg)
