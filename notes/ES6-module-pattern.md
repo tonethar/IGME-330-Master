@@ -65,11 +65,15 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 **utils.js** & **main.js**
 
 - functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (and also as properties of the `window` object)
-- in the two screenshots below, see how 
+- in the two screenshots below, see how functions declared in one file, are visible in the other, and vice-versa:
 
-**To see how this sharing of variables can cause problems, add the following line of code to the top section of *main.js***
+![Screenshot](_images/es6-module-pattern-3.jpg)
 
-`let sprite = {}; // main.js needs it own sprite variable!` 
+![Screenshot](_images/es6-module-pattern-4.jpg)
+
+**To see how this kluging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
+
+`let sprites = []; // sprites.js needs an array to cache some sprites` 
 
 **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
