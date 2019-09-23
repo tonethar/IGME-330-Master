@@ -43,8 +43,8 @@ Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip
 
 ### I-A. The costs of not using JS modules
 
-* The JS code in the demo is nicely organized and split into 4 files: *main.js*, *sprites.js*, *utls.js* and *canvas-utils.js*
-* But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the web inspector:
+* The JS code in the demo is nicely organized and split into 4 files: **main.js**, **sprites.js**, **utls.js** and **canvas-utils.js**
+* But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of **main.js** and check the web inspector:
 
 **main.js**
 
