@@ -307,21 +307,31 @@ init();
 
 **loader.js**
 
+- **only `init` (which was inported from main.js) is visible:**
+
 ![Screenshot](_images/es6-module-pattern-5.jpg)
 
 **main.js**
+
+- **everything that we imported is visible:**
 
 ![Screenshot](_images/es6-module-pattern-6.jpg)
 
 **sprites.js**
 
+- **Only `Sprite` is visible:**
+
 ![Screenshot](_images/es6-module-pattern-7.jpg)
 
 **utils.js**
 
+- **Only the 3 local helper functions are visible:**
+
 ![Screenshot](_images/es6-module-pattern-8.jpg)
 
 **canvas-utils.js**
+
+- **Only the 1 local helper function is visible:**
 
 ![Screenshot](_images/es6-module-pattern-9.jpg)
 
