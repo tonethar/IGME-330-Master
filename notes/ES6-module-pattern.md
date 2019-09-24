@@ -93,7 +93,7 @@ VI. [Review Questions](#section6)
 
 `Uncaught SyntaxError: Identifier 'sprites' has already been declared at main.js:1`
 
-- **So the JS compiler won't allow us to re-declare `let` variables in the same scope
+- **So the JS compiler won't allow us to re-declare `let` variables in the same scope**
 - **How about if we redeclare a previously declared function in *main.js*:**
 
 ```js
