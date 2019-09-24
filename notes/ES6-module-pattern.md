@@ -307,23 +307,23 @@ init();
 
 **loader.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
+![Screenshot](_images/es6-module-pattern-5.jpg)
 
 **main.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-6.jpg)
+![Screenshot](_images/es6-module-pattern-6.jpg)
 
 **sprites.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-7.jpg)
+![Screenshot](_images/es6-module-pattern-7.jpg)
 
 **utils.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-8.jpg)
+![Screenshot](_images/es6-module-pattern-8.jpg)
 
 **canvas-utils.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-9.jpg)
+![Screenshot](_images/es6-module-pattern-9.jpg)
 
 <hr><hr>
 
