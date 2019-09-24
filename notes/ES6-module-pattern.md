@@ -346,14 +346,16 @@ init();
 <hr><hr>
 
 ## V. <a id="section5">Reference
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
-- http://exploringjs.com/es6/ch_modules.html#sec_mixing-named-and-default-exports
-- http://2ality.com/2014/09/es6-modules-final.html
-- https://jakearchibald.com/2017/es-modules-in-browsers/\
-- https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
-- https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
-- https://www.ecma-international.org/ecma-262/6.0/#sec-imports
+
+- Definitely check out how to do *named imports* below (i.e. so you could write `main.init()` instead of just `init()`):
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+  - http://exploringjs.com/es6/ch_modules.html#sec_mixing-named-and-default-exports
+  - http://2ality.com/2014/09/es6-modules-final.html
+  - https://jakearchibald.com/2017/es-modules-in-browsers/\
+  - https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
+  - https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
+  - https://www.ecma-international.org/ecma-262/6.0/#sec-imports
 
 	
 ## VI. <a id="section6">Review Questions
