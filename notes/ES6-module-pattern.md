@@ -281,7 +281,7 @@ init();
 
 - **Replace these &lt;script> tags:**
 
-```js
+```html
 <script src="src/canvas-utils.js"></script>
 <script src="src/utils.js"></script>
 <script src="src/sprites.js"></script>
@@ -289,7 +289,7 @@ init();
 ```
 
 - **With this:**
-```js
+```html
 <script src="js/loader.js" type="module"></script>
 ```
 
