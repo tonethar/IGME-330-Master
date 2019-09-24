@@ -122,8 +122,7 @@ Clearly not:
 
 [Exploring ES6](http://exploringjs.com/es6/ch_modules.html#sec_overview-modules) has a nice overview of ES6 modules:
 
-- JavaScript has had modules for a long time
-- However, they were implemented via libraries, not built into the language
+- JavaScript has had modules for a long time - however, they were implemented via libraries, not built into the language
 - ES6 is the first time that JavaScript has built-in modules
 - ES6 modules are stored in files
 - ***There is exactly one module per file and one file per module***
