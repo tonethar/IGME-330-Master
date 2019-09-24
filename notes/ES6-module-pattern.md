@@ -302,6 +302,8 @@ init();
 - Now set some breakpoints and check the inspector:
     - "Script" scope is gone, replaced by "Module" scope
     - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
+	
+<hr><hr>
 
 **loader.js**
 
@@ -315,10 +317,15 @@ init();
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-7.jpg)
 
-
 **utils.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-8.jpg)
+
+**canvas-utils.js**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-9.jpg)
+
+<hr><hr>
 
 ## V. <a id="section5">Reference
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
