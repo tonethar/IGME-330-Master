@@ -27,7 +27,7 @@ I. [Why do we need modularized code?](#section1)
 
 II. [ES6 Modules to the rescue!](#section2)
 
-III. [Adding ES6 Modules to our "bouncing objects" application](#section3)
+III. [Adding ES6 Modules to our "sprites plus bitmap manipulation" app](#section3)
 
 IV. [Try it out!](#section4)
 
@@ -216,7 +216,7 @@ In *test.html*:
 <hr>
 
 
-## III. <a id="section3">Adding ES6 Modules to our "sprites plus bitmap manipulation" application
+## III. <a id="section3">Adding ES6 Modules to our "sprites plus bitmap manipulation" app
 	
 Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you download the folder, rename it to **sprites-now-with-modules**
 
