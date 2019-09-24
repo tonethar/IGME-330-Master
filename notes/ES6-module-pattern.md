@@ -307,7 +307,7 @@ init();
 
 **loader.js**
 
-- **only `init` (which was inported from main.js) is visible:**
+- **only `init` (which was imported from main.js) is visible:**
 
 ![Screenshot](_images/es6-module-pattern-5.jpg)
 
@@ -315,7 +315,7 @@ init();
 
 **main.js**
 
-- **everything that we imported is visible:**
+- **everything that we imported from the other modules is visible:**
 
 ![Screenshot](_images/es6-module-pattern-6.jpg)
 
