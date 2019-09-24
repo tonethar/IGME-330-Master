@@ -290,7 +290,7 @@ init();
 
 - **With this:**
 ```html
-<script src="js/loader.js" type="module"></script>
+<script src="src/loader.js" type="module"></script>
 ```
 
 - above we got rid of those 4 &lt;script> tags that were doing the importing
