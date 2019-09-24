@@ -311,11 +311,15 @@ init();
 
 ![Screenshot](_images/es6-module-pattern-5.jpg)
 
+<hr>
+
 **main.js**
 
 - **everything that we imported is visible:**
 
 ![Screenshot](_images/es6-module-pattern-6.jpg)
+
+<hr>
 
 **sprites.js**
 
@@ -323,11 +327,15 @@ init();
 
 ![Screenshot](_images/es6-module-pattern-7.jpg)
 
+<hr>
+
 **utils.js**
 
 - **Only the 3 local helper functions are visible:**
 
 ![Screenshot](_images/es6-module-pattern-8.jpg)
+
+<hr>
 
 **canvas-utils.js**
 
