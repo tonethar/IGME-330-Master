@@ -122,7 +122,7 @@ Clearly not:
 
 [Exploring ES6](http://exploringjs.com/es6/ch_modules.html#sec_overview-modules) has a nice overview of ES6 modules:
 
-*JavaScript has had modules for a long time. However, they were implemented via libraries, not built into the language. ES6 is the first time that JavaScript has built-in modules. ES6 modules are stored in files. There is exactly one module per file and one file per module.*
+*JavaScript has had modules for a long time. However, they were implemented via libraries, not built into the language. ES6 is the first time that JavaScript has built-in modules. ES6 modules are stored in files. **There is exactly one module per file and one file per module.***
 
 ### II-A. `export` and `import`
 [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
