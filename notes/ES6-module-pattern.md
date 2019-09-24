@@ -106,7 +106,7 @@ function getRandomColor(){
 
 - **... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
 
-
+<hr>
 
 ### I-C. Is the above code *modular*?
 
@@ -116,7 +116,7 @@ Clearly not:
 - adding variables to one module can cause name collisions with variables in other modules. If one developer added a `gradient` or `screenWidth` variable to **classes.js**, it could easily break what the other developer was doing in *main.js*. In a larger application, these would be hard errors to track down. 
 - some of the properies and functions should NOT be visible outside their respective modules - for example all of the `let` variables from **main.js**  - but because of the way the code is written none of these can be **private** to a script
 
-
+<hr>
 
 ## II. <a id="section2">ES6 Modules to the rescue!
 
@@ -128,6 +128,8 @@ Clearly not:
 [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
+
+<hr>
 
 ### II-B. A working example
 ES6 modules have 2 restrictions:
@@ -194,6 +196,8 @@ Try it out:
 - test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
 - note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
 - for your convenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server (or Firefox Developer) to run
+
+<hr>
 
 ### II-C. Checking the web inspector
 
