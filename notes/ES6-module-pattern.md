@@ -343,6 +343,19 @@ init();
 
 ![Screenshot](_images/es6-module-pattern-9.jpg)
 
+<hr>
+
+- Now go ahead and add some "private" new functions and variables to **canvas-utils.js**
+
+```js
+const secret = 42;
+function amazing(){
+  console.log("Doing amazing thisngs here!");
+}
+```
+
+- and check the debugger - you will see that they are not visible outside of  **canvas-utils.js**
+
 <hr><hr>
 
 ## V. <a id="section5">Reference
