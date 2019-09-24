@@ -350,7 +350,7 @@ init();
 ```js
 const secret = 42;
 function amazing(){
-  console.log("Doing amazing thisngs here!");
+  console.log("Doing amazing things here!");
 }
 ```
 
