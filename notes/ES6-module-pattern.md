@@ -264,7 +264,7 @@ export{init};
 - above we are importing the 3 sprite creation functions we need from **classes.js**
 - the only function or variable we are exposing to other scripts is `init()`
 
-### III-D. New file: *src/loader.js*
+### III-E. New file: *src/loader.js*
 
 Make **loader.js** look like this:
 
@@ -276,34 +276,34 @@ init();
 ```
 
 
-### III-E. Changes to the HTML file:
-Make the HTML file look like this:
+### III-F. Changes to the HTML file:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Modules: Canvas & OLOO</title>
-</head>
-<body>
-<canvas width="600" height="400"></canvas>
-<script src="js/loader.js" type="module"></script>
-</body>
-</html>
+
+- **Replace these &lt;script> tags:**
+
+```js
+<script src="src/canvas-utils.js"></script>
+<script src="src/utils.js"></script>
+<script src="src/sprites.js"></script>
+<script src="src/main.js"></script>
 ```
 
-- above we got rid of those 3 &lt;script> tags that were doing the importing
+- **With this:**
+```js
+<script src="js/loader.js" type="module"></script>
+```
+
+- above we got rid of those 4 &lt;script> tags that were doing the importing
 - the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
 
 
 ## IV. <a id="section4">Try it out!
-- Everything in "sprite bouncer" should now run exactly as before (and don't forget that you need to run it off of a web server!)
+- Everything in the app should now run exactly as before (and don't forget that you need to run it off of a web server!)
 - Now set some breakpoints and check the inspector:
     - "script" scope is gone, replaced by Module scope
     - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
 
-**init.js**
+**loader.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
 
@@ -311,12 +311,12 @@ Make the HTML file look like this:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-6.jpg)
 
-**classes.js**
+**sprites.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-7.jpg)
 
 
-**utilities.js**
+**utils.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-8.jpg)
 
