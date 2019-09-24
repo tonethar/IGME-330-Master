@@ -42,6 +42,8 @@ VI. [Review Questions](#section6)
 - Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip](_files/sprites-plus-bitmap-manip-start.zip)
 - go ahead and test the files to be sure they work - you probably want to go ahead and run them off of a web server (because you will have to later on to complete this exercise)
 
+<hr>
+
 ### I-A. The costs of not using JS modules
 
 * The JS code in the demo is nicely organized and split into 4 files: **main.js**, **sprites.js**, **utls.js** and **canvas-utils.js**
@@ -56,6 +58,8 @@ VI. [Review Questions](#section6)
 - above you can see that the `Sprite` symbol (declared with `class` over in **sprites.js**) is visible in "Script scope"
 - this might not seem like such a bad thing, but look at the next example
 
+<hr>
+
 **sprites.js**
 
 ![Screenshot](_images/es6-module-pattern-2.jpg)
@@ -64,6 +68,7 @@ VI. [Review Questions](#section6)
 - this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. Above we saw that the converse is also true - **main.js** has access to all of the **sprites.js** variables
 - Note: classes declared with `class`, and `let` variables declared outside of functions, end up in "Script Scope"
 
+<hr>
 
 ### I-B. How about functions?
 
