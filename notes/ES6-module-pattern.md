@@ -254,7 +254,7 @@ Add the following to the top:
 export {createLinearGradient};
 ```
 
-### III-C. Changes to *classes.js*
+### III-C. Changes to *sprites.js*
 
 Add the following to the top:
 
