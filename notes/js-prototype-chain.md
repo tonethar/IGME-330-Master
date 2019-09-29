@@ -1,4 +1,4 @@
-# 2 - `Object.create()` & Delegation
+# JavaScript Prototype Chain
 
 ## Overview
 In the last chapter we used object literals and a factory function to create multiple object instances of "circle sprite" objects.
@@ -524,12 +524,15 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 
 **Note: If you are interested in creating "inheritance hierarchies" with `Object.create()`, check out this post: http://techsith.com/category/object-setprototypeof/**
 
-**Here is a screenshot of an example of the completed homework:**
 
-![Screenshot](_images/canvas-sprites-object-create-6.jpg)
+## Add this
 
-<hr><hr>
-
-**[Previous Chapter <- Intro to Canvas Sprites (chapter 1)](canvas-sprites-1.md)**
-
-**[Next Chapter -> Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
+ - isn't this inefficient, storing multiple copies of all of these properties and methods?
+    - In a class-based environment, each instance of a class would have their own copies of instance variables (like `x` and `y`), but share all of the methods (like `move()`, `reflectX()`, and `reflectY()`)
+    - interestingly, all major JavaScript engines already perform this optimization on object literals, and basically generate a "super class/super object" for you. The concept is called *shapes*, and you can read about it here: https://mathiasbynens.be/notes/shapes-ics
+    -  No matter how many objects there are, as long as they have the same *shape*, they only have to store the shape and property information once. All JavaScript engines use shapes as an optimization, but they don't all call them shapes:
+        - Academic papers call them *Hidden Classes* (confusing w.r.t. JavaScript classes)
+        - [V8](https://github.com/v8/v8) calls them *Maps* (confusing w.r.t. JavaScript Maps)
+        - [Chakra](https://github.com/Microsoft/ChakraCore) calls them *Types* (confusing w.r.t. JavaScript’s dynamic types and typeof)
+        - [JavaScriptCore](https://trac.webkit.org/wiki/JavaScriptCore) calls them *Structures*
+        - [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) calls them *Shapes*
