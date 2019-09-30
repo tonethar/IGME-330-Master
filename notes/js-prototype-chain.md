@@ -34,7 +34,7 @@ VII. [Review Exercise](#section7)
 
 <a id="section1"> 
 	
-## II.`Object.prototype`
+## I.`Object.prototype`
 
 The `Object.prototype` property points at the *Object prototype object*. (what?)
 
@@ -48,13 +48,13 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 **Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
-**canvas-sprites-object-create-1.html**
+**vehicle-object-dot-create-1.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Canvas Sprites - Object Create</title>
+	<title>Vehicle-1 Object.create()</title>
 </head>
 <body>
 <script>
@@ -101,13 +101,13 @@ in the console - which isn't too exciting, but indicates that `vehicle` "inherit
 ### I-D. Property shadowing
 You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will "shadow" the default implementation of `toString()` in the prototype object.
 
-**canvas-sprites-object-create-2.html**
+**vehicle-object-dot-create-2.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Canvas Sprites - Object Create</title>
+	<title>Vehicle-2 Object.create()</title>
 </head>
 <body>
 <script>
@@ -147,14 +147,14 @@ The `Object.create()` method creates a new object with the specified prototype o
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
 	
-**canvas-sprites-object-create-3.html**
+**vehicle-object-dot-create-3.html**
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Canvas Sprites - Object Create</title>
+	<title>Vehicle-3 Object.create() plus .prototype</title>
 </head>
 <body>
 <script>
