@@ -208,6 +208,7 @@ debugger;
 4
 Moving the vehicle now
 {cylinders: 4, fuelCapacity: 12}
+true
 ```
 
 <hr>
@@ -230,25 +231,85 @@ These posts are required reading:
 
 <hr>
 
-## <a id="section3">III. Creating `Vehicle` & `GasVehicle`  classes
+<a id="section3">
+	
+## III. Creating `Vehicle` & `GasVehicle`  classes
+
+- Below we will now use ES6 classes to model the same inheritance hierarchy
 
 **vehicle-classes-4.html**
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Vehicle-4 ES6 Classes & Inheritance</title>
+</head>
+<body>
+<script>
 
+class Vehicle{
+	constructor(year,numWheels){
+		this.year = year;
+		this.numWheels = numWheels;
+	}
+	
+	move(){
+    console.log("Moving the vehicle now");
+  }
+  
+  toString(){
+  	return "Year: " + this.year + ", numWheels: " + this.numWheels;
+  }
+}
+
+class GasVehicle extends Vehicle{
+	constructor(year,numWheels,cylinders,fuelCapacity){
+		super();
+		// slick way to assign values to properties
+		Object.assign(this, {year,numWheels,cylinders,fuelCapacity});
+	}
+}
+
+let gasVehicle = new GasVehicle(2018,4,4,12);
+
+console.log(gasVehicle.cylinders);
+gasVehicle.move();
+console.log(gasVehicle.valueOf());
+console.log(gasVehicle.__proto__.__proto__.constructor == Vehicle); // true;
+
+debugger;
+</script>
+</body>
+</html>
 ```
+
+**Gives us this in the debugger (the left side is OLOO, the right side is ES6 classes):**
+
+![Screenshot](_images/object-create-1.png)
+
+
+**And this in the console:**
+
+```js
+4
+Moving the vehicle now
+GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
+true
+```
+
+### II-A. Discussion
+- In the screenshot above we can see that the left side (OLOO & delegation) and the right side (ES6 classes and inheritance) are nearly identical, except:
+  - the properties from the class version are all on the top level object ...
+  - we have additional `Constructor` functions in the class version ...
+  - but behind the scenes, the two object construction approaches both use the JavaScript prototype chain 
+
+
+<hr>
 
 **Note: If you are interested in creating "inheritance hierarchies" with `Object.create()`, check out this post: http://techsith.com/category/object-setprototypeof/**
 
 
-## Add this
 
- - isn't this inefficient, storing multiple copies of all of these properties and methods?
-    - In a class-based environment, each instance of a class would have their own copies of instance variables (like `x` and `y`), but share all of the methods (like `move()`, `reflectX()`, and `reflectY()`)
-    - interestingly, all major JavaScript engines already perform this optimization on object literals, and basically generate a "super class/super object" for you. The concept is called *shapes*, and you can read about it here: https://mathiasbynens.be/notes/shapes-ics
-    -  No matter how many objects there are, as long as they have the same *shape*, they only have to store the shape and property information once. All JavaScript engines use shapes as an optimization, but they don't all call them shapes:
-        - Academic papers call them *Hidden Classes* (confusing w.r.t. JavaScript classes)
-        - [V8](https://github.com/v8/v8) calls them *Maps* (confusing w.r.t. JavaScript Maps)
-        - [Chakra](https://github.com/Microsoft/ChakraCore) calls them *Types* (confusing w.r.t. JavaScript’s dynamic types and typeof)
-        - [JavaScriptCore](https://trac.webkit.org/wiki/JavaScriptCore) calls them *Structures*
-        - [SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey) calls them *Shapes*
+
