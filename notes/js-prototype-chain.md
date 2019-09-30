@@ -146,7 +146,9 @@ If you check the debugger, you will also see that there is a `toString` property
 
 <hr>
 
-## <a id="section2">II. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
+<a id="section2">
+	
+## II. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
 
 Now let's see how `Object.create()` will allow us to specify an instance's prototype object, rather than relying on the default prototype object.
 
@@ -230,155 +232,11 @@ These posts are required reading:
 
 ## <a id="section3">III. Creating `Vehicle` & `GasVehicle`  classes
 
+**vehicle-classes-4.html**
 
+```html
 
-### III-A. Discussion
-- **Run the code, and you will get 20 red bouncing circles**
-- One new thing above that was not yet mentioned is `Object.assign()`, which is a convenient method for copying properties onto objects.
-- You can read about how to use `Object.assign()` here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
-- Lastly, take a look in the debugger to see the prototype chain from "Circle Sprite" -> `sprite` Object -> Default Prototype Object:
-
-![Screenshot](_images/canvas-sprites-object-create-5.jpg)
-
-## <a id="section4">IV. Square Sprites
-Now that we've set up this `sprite` object to delegate from, it's now super easy to create another factory method to make "square sprites".
-
-**Add the following to classes.js:**
-
-```javascript
-function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
-	let sprites = [];
-	for(let i=0;i<num;i++){
-		// create Object literal with a prototype object of `sprite`
-		let s = Object.create(sprite);
-		
-		// add properties to `s`
-		s = Object.assign(s,{
-			width: 25, // NEW and unique to "Square Sprite"
-			height: 25, // NEW and unique to "Square Sprite"
-			color: "red",
-			x: Math.random() * rect.width + rect.left,
-			y: Math.random() * rect.height + rect.top,
-			fwd: getRandomUnitVector(),
-			speed: 2,
-			draw(ctx){ // NEW implementation for "Square Sprite"
-				ctx.save();
-				ctx.fillStyle = this.color;
-				ctx.fillRect(this.x, this.y, this.width, this.height);
-				ctx.restore();
-			}
-		});
-	
-		sprites.push(s);
-	}
-	
-	return sprites; 
-}
 ```
-
-### IV-A. Test the factory functions
-
-**To call both of our factory functions, replace this line of code in *main.js*:**
-
-`sprites = createCircleSprites(10,rect);`
-
-**With this:**
-
-`sprites = sprites.concat(createCircleSprites(10,rect),createSquareSprites(10,rect));`
-
-**Which looks like this:**
-
-![Screenshot](_images/canvas-sprites-object-create-3.jpg)
-
-### IV-B. Fix bouncing
-Our square sprites don't bounce because they don't have a `.radius` property. Let's fix this issue. Make the "check bounce" code in *main.js* look like this:
-
-```javascript
-if(s.radius){
-	// a circle
-	if (s.x <= s.radius || s.x >= screenWidth-s.radius){
-		s.reflectX();
-		s.move();
-	}
-	if (s.y <= s.radius || s.y >= screenHeight-s.radius){
-		s.reflectY();
-		s.move();
-	}
-}else{ // `s` is NOT a circle
-	// left and right
-	if (s.x <= 0 || s.x >= screenWidth-s.width){
-		s.reflectX();
-		s.move();
-	}
-	
-	// top and bottom
-	/* YOU DO THIS - recall that rectangles are drawn from the upper-left corner */
-	
-} // end if s.radius
-```
-
-## <a id="section5">V. Image Sprites
-
-How about creating "Image Sprite" objects that is also linked to `sprite`?
-
-**Right-click to save this image, and place it in an *images/* folder:**
-
-![Screenshot](_images/Sean.png)
-
-**Now add the following to classes.js:**
-```javascript
-function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
-	let sprites = [];
-	for(let i=0;i<num;i++){
-		// create Object literal with a prototype object of `sprite`
-		let s = Object.create(sprite);
-		
-		let image = new Image();
-		image.src = "images/Sean.png"; // making an image 20 times here when we only to once!
-		
-		// add properties to `s`
-		s = Object.assign(s,{
-			width: 50,
-			height: 93,
-			x: Math.random() * rect.width + rect.left,
-			y: Math.random() * rect.height + rect.top,
-			fwd: getRandomUnitVector(),
-			speed: 2,
-			image: image,
-			draw(ctx){
-				ctx.save();
-				ctx.drawImage(this.image,this.x,this.y,this.width,this.height);
-				ctx.restore();
-			}
-		});
-	
-		sprites.push(s);
-	}
-	
-	return sprites; 
-}
-```
-
-**You will need to call this new factory function from *main.js* - make it so!**
-
-![Screenshot](_images/canvas-sprites-object-create-4.jpg)
-
-Note: You will have to adjust the passed in `rect` value for these image sprites because they are taller than the squares and circles, and thus will get "stuck" on the top and bottom of the screen.
-
-## <a id="section6">VI. Review Questions
-1. We have been calling a function that returns newly instantiated objects a _________ function.
-1. JavaScript does not utilize class-based inheritance to override or extend object behavior, it instead uses _________
-1. What does `Object.create()` do?
-1. What does `Object.assign()` do?
-1. What does **OLOO** stand for?
-	
-	
-## <a id="section7">VII. Review Exercise
-1. Make a copy of your completed files from section V. above, and name the HTML file **canvas-sprites-2-HW.html**
-1. Modify `createCircleSprites()` so that it will take `num`, `color` and `radius` arguments, and utilize these when creating the circle sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in.
-1. Modify `createSquareSprites()` so that it will take `num`, `color`, `width` and `height` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in.
-1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in, including a second image file.
-1. In *classes.js*, create an additional factory function that creates a different kind of sprite. This sprite could either move significantly differently (maybe by wrapping, continuously rotating, etc), or look different (such as a triangle, diamond, or other shape). Call this new factory function from *main.js* at least 2 times with different values passed in.
 
 **Note: If you are interested in creating "inheritance hierarchies" with `Object.create()`, check out this post: http://techsith.com/category/object-setprototypeof/**
 
