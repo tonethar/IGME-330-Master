@@ -20,15 +20,8 @@ I. [`Object.prototype`](#section1)
 
 II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#section2)
 
-III. [Sprites & Circle Sprites](#section3)
+III. [Creating `Vehicle` & `GasVehicle`  classes](#section3)
 
-IV. [Square Sprites](#section4)
-
-V. [Image Sprites](#section5)
-
-VI. [Review Questions](#section6)
-
-VII. [Review Exercise](#section7)
 
 <hr>
 
@@ -299,7 +292,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 true
 ```
 
-### II-A. Discussion
+### II-A. Discussion - are these the same?
 - In the screenshot above we can see that the left side (OLOO & delegation) and the right side (ES6 classes and inheritance) are nearly identical, except:
   - the properties from the class version are all on the top level object ...
   - we have additional `Constructor` functions in the class version ...
