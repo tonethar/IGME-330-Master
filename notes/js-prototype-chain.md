@@ -12,6 +12,8 @@
 
 To learn how to override or extend object behavior in JavaScript - read below!
 
+<hr>
+
 ## Contents
 <!--- Local Navigation --->
 I. [`Object.prototype`](#section1)
@@ -28,8 +30,6 @@ VI. [Review Questions](#section6)
 
 VII. [Review Exercise](#section7)
 
-
-
 <hr>
 
 <a id="section1"> 
@@ -43,6 +43,8 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 *A typical object inherits properties (including methods) from Object.prototype, although these properties may be shadowed (a.k.a. overridden).*
 
 *Changes to the Object prototype object are seen by all objects through prototype chaining, unless the properties and methods subject to those changes are overridden further along the prototype chain.  This provides a very powerful although potentially dangerous mechanism to override or extend object behavior.*
+
+<hr>
 
 ### I-A. The "default" prototype chain
 
@@ -77,6 +79,8 @@ debugger;
 
 ![Screenshot](_images/canvas-sprites-object-create-1.jpg)
 
+<hr>
+
 ### I-B. Discussion
 
 - above we see that the `year`, `numWheels` and `move` properties are on the main part of the object, and that under the `__proto__` property is the *prototype object*, which gives us the implicit built-in in properties (methods in this case) of `Object`. 
@@ -86,6 +90,8 @@ debugger;
 Below is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
 **Each object has a private property which holds a link to another object called its *prototype*. That prototype object has a prototype of its own, and so on until an object is reached with `null` as its prototype. By definition, `null` has no prototype, and acts as the final link in this prototype chain.**
+
+<hr>
 
 ### I-C. An example of the prototype chain in action
 So what do we get when we call `toString()` on `vehicle` like this:
@@ -97,6 +103,8 @@ We get:
 `[object Object]`
 
 in the console - which isn't too exciting, but indicates that `vehicle` "inherited" `toString()` from its prototype object.
+
+<hr>
 
 ### I-D. Property shadowing
 You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will "shadow" the default implementation of `toString()` in the prototype object.
@@ -136,8 +144,7 @@ in the console, and confirms that vehicle's version of `toString()` shadowed the
 
 If you check the debugger, you will also see that there is a `toString` property on the top level of the object (as an "own" property).
 
-
-
+<hr>
 
 ## <a id="section2">II. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
 
@@ -200,11 +207,14 @@ Moving the vehicle now
 {cylinders: 4, fuelCapacity: 12}
 ```
 
+<hr>
+
 ### II-A. Discussion
 - Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
 - we can implement a form of overriding through property "shadowing" - properties added to `gasVehicle` will replace properties that are declared in its prototype objects. 
 - but "inheritance" isn't really the right term for this extending of object behavior, "delegation" is a better term - read on!
 
+<hr>
 
 ### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
 In JavaScript, the prototype chain **links objects to other objects** - there are no classes in the language - not even in ES6, as we will see in the next chapter.
@@ -215,6 +225,7 @@ These posts are required reading:
 - https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
 - https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
 
+<hr>
 
 ## <a id="section3">III. Sprites & Circle Sprites
 
