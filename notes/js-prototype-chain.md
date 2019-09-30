@@ -218,9 +218,9 @@ Moving the vehicle now
 <hr>
 
 ### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
-In JavaScript, the prototype chain **links objects to other objects** - there are no classes in the language - not even in ES6, as we will see in the next chapter.
+In JavaScript, the prototype chain **links objects to other objects** 
 
-The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above,   `gasVehicle` *delegated*  its `move()` method to `vehicle`. 
+The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above, `gasVehicle` *delegated*  its `move()` method to `vehicle`. 
 
 These posts are required reading:
 - https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
@@ -228,154 +228,9 @@ These posts are required reading:
 
 <hr>
 
-## <a id="section3">III. Sprites & Circle Sprites
-
-Let's build a concrete example of OLOO by refactoring our "circle sprite factory" code from the previous chapter to instead use a `sprite` object as a prototype object. This `sprite` object will implement shared properties and methods such as `move()` and `reflectX()` and `reflectY()`.
+## <a id="section3">III. Creating `Vehicle` & `GasVehicle`  classes
 
 
-**canvas-sprites-object-create-4.html**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Canvas & OLOO</title>
-</head>
-<body>
-<canvas width="600" height="400"></canvas>
-	<script src="js/utilities.js"></script>
-	<script src="js/classes.js"></script>
-	<script src="js/main.js"></script>
-</body>
-</html>
-```
-
-**js/utilities.js**
-```javascript
-"use strict";
-// these 2 helpers are used by classes.js
-function getRandomUnitVector(){
-	let x = getRandom(-1,1);
-	let y = getRandom(-1,1);
-	let length = Math.sqrt(x*x + y*y);
-	if(length == 0){ // very unlikely
-		x=1; // point right
-		y=0;
-		length = 1;
-	} else{
-		x /= length;
-		y /= length;
-	}
-
-	return {x:x, y:y};
-}
-
-function getRandom(min, max) {
-	return Math.random() * (max - min) + min;
-}
-```
-
-**js/main.js**
-```javascript
-"use strict";
-// these variables are in "Script scope" and will be available in this and other .js files
-const ctx = document.querySelector("canvas").getContext("2d");
-const screenWidth = 600;
-const screenHeight = 400;
-let sprites = [];
-
-
-init();
-
-function init(){
-	let margin = 50;
-	let rect = {left: margin, top: margin, width: screenWidth - margin*2, height: screenHeight-margin*2}
-	sprites = createCircleSprites(10,rect);
-	loop();
-}
-
-function loop(){
-	// schedule a call to loop() in 1/60th of a second
-	requestAnimationFrame(loop);
-	
-	// draw background
-	ctx.fillRect(0,0,screenWidth,screenHeight)
-	
-	// loop through sprites
-	for (let s of sprites){
-		// move sprites
-		s.move();
-		
-		// check sides and bounce
-		if (s.x <= s.radius || s.x >= screenWidth-s.radius){
-			s.reflectX();
-			s.move();
-		}
-		if (s.y <= s.radius || s.y >= screenHeight-s.radius){
-			s.reflectY();
-			s.move();
-		}
-	
-	// draw sprites
-		s.draw(ctx);
-		
-	} // end for
-} // end loop()
-```
-
-**js/classes.js**
-```javascript
-"use strict";
-let sprite = {
-		// properties
-		x: 0,
-		y: 0,
-		fwd:{x:0,y:1},
-		speed:0,
-		//  methods
-		move(){
-				this.x += this.fwd.x * this.speed;
-				this.y += this.fwd.y * this.speed;
-		},
-		reflectX(){
-			this.fwd.x *= -1;
-		},
-		reflectY(){
-			this.fwd.y *= -1;
-		}
-}
-
-function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
-	let sprites = [];
-	for(let i=0;i<num;i++){
-		// create Object literal with a prototype object of `sprite`
-		let s = Object.create(sprite);
-		
-		// add properties to `s`
-		s = Object.assign(s,{
-			radius: 20,
-			color: "red",
-			x: Math.random() * rect.width + rect.left,
-			y: Math.random() * rect.height + rect.top,
-			fwd: getRandomUnitVector(),
-			speed: 2,
-			draw(ctx){
-				ctx.save();
-				ctx.beginPath();
-				ctx.arc(this.x, this.y, this.radius, 0, Math.PI*2, false);
-				ctx.closePath();
-				ctx.fillStyle = this.color;
-				ctx.fill();
-				ctx.restore();
-			}
-		});
-	
-		sprites.push(s);
-	}
-	
-	return sprites; 
-}
-```
 
 ### III-A. Discussion
 - **Run the code, and you will get 20 red bouncing circles**
