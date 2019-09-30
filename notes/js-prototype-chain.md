@@ -22,6 +22,7 @@ II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#
 
 III. [Creating `Vehicle` & `GasVehicle`  classes](#section3)
 
+IV. [Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)](#section4)
 
 <hr>
 
@@ -278,12 +279,16 @@ debugger;
 </html>
 ```
 
-**Gives us this in the debugger (the left side is OLOO, the right side is ES6 classes):**
+<a id="section4">
+	
+## IV. Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)
+
+**In the debugger (the left side is OLOO, the right side is ES6 classes):**
 
 ![Screenshot](_images/object-create-1.png)
 
 
-**And this in the console:**
+**In the console:**
 
 ```js
 4
@@ -292,7 +297,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 true
 ```
 
-### II-A. Discussion - are these the same?
+### IV-A. Discussion - are these the same?
 - In the screenshot above we can see that the left side (OLOO & delegation) and the right side (ES6 classes and inheritance) are nearly identical, except:
   - the properties from the class version are all on the top level object ...
   - we have additional `Constructor` functions in the class version ...
