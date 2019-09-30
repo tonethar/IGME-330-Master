@@ -301,7 +301,7 @@ true
 - In the screenshot above we can see that the left side (OLOO & delegation) and the right side (ES6 classes and inheritance) are nearly identical, except:
   - the properties from the class version are all on the top level object ...
   - we have additional `Constructor` functions in the class version ...
-  - but behind the scenes, the two object construction approaches both use the JavaScript prototype chain 
+  - but behind the scenes, **the two object construction approaches both use the JavaScript prototype chain**
 
 
 <hr>
