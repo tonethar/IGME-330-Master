@@ -188,6 +188,7 @@ gasVehicle.fuelCapacity = 12;
 console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
 gasVehicle.move(); 			// .move() is in the prototype (i.e. `vehicle`)
 console.log(gasVehicle.valueOf()); 	// .valueOf() is in the prototype's prototype (the default prototype object)
+console.log(gasVehicle.__proto__ == vehicle); // true!
 debugger;
 </script>
 </body>
