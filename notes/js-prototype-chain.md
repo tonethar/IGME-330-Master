@@ -5,7 +5,7 @@
   - MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 ### So how do JavaScript classes work?
-- Behind the scenes, the JavaScrpt compiler uses JavaScript's *prototype-based inheritance* as a way to override or extend object behavior. 
+- Behind the scenes, the JavaScript compiler uses JavaScript's *prototype-based inheritance* as a way to override or extend object behavior. 
 - Below is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
 **JavaScript objects are dynamic "bags" of properties (referred to as *own* properties). JavaScript objects have a link to a *prototype object*. When trying to access a property of an object, the property will not only be sought on the object but on the *prototype* of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.**
