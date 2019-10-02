@@ -222,7 +222,7 @@ The technique we have shown above uses *behavior delegation* to either extend or
 
 These posts are required reading:
 - https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
-- https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
+- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch6.md#delegation-theory
 
 <hr>
 
