@@ -75,6 +75,20 @@ debugger;
 
 <hr>
 
+**\*\*Try this\*\***
+
+- Go ahead and type this into the HTML file above - here we are adding properties one at a time - rather than all at the same time as above
+- Take a look in the debugger - what's the difference between `vehicle` AND `objVehicle`
+
+```js
+let objVehicle = {};
+objVehicle.year = 2019;
+objVehicle.numWheels = 6;
+objVehicle.move = function() { console.log("move!!"); };
+```
+
+<hr>
+
 ### I-B. Discussion
 
 - above we see that the `year`, `numWheels` and `move` properties are on the main part of the object, and that under the `__proto__` property is the *prototype object*, which gives us the implicit built-in in properties (methods in this case) of `Object`. 
