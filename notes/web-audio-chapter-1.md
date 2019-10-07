@@ -54,7 +54,7 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 13. *Pulse-code modulation* (PCM) treats sounds as _______________
 
-14. When we load/analyze/manipulate an existing sound file using WebAudio, the loading code for a sound that is in a *lossy* or *lossless* format is the same. But it is still important to know the differences
+14. When we load/analyze/manipulate an existing sound file using WebAudio, the loading code for a sound that is in a *lossy* or *lossless* format is the same. But it is still important to know the differences:
 
 - With _______________ compression the bits are identical before and after the compression process
 
