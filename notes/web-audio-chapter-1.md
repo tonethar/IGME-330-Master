@@ -42,3 +42,27 @@ The WebAudio API can be used to build a variety of audio-related applications an
 7. In terms of physics, sound is a _______________ wave (sometimes called a pressure wave) that travels through air or another medium. 
 
 8. Mathematically, sound can be represented as a _______________, which ranges over pressure values across the domain of _______________.
+
+9. According to the author, what is the most common *sample rate* and *bit depth* for typical digital audio?
+
+10. The process of converting analog signals into digital ones is called _______________ or _______________
+
+11. According to the author, what is the typical sample rate for a telephone system?
+
+12. What is the benefit (and associated trade-off) of increasing the sample rate of a sound?
+
+13. *Pulse-code modulation* (PCM) treats sounds as _______________
+
+14. When we load/analyze/manipulate an existing sound file using WebAudio, the loading code for a sound that is in a *lossy* or *lossless* format is the same. But it is still important to know the differences
+
+- With _______________ compression the bits are identical before and after the compression process
+
+- With _______________ compression some bits are thrown away (the ones we hope the user won't hear anyway)
+
+- Give an example of a *lossless* audio file format _______________
+
+- Give an example of a *lossy* audio file format _______________
+
+15. 
+
+
