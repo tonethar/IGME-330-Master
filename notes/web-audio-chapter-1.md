@@ -35,8 +35,8 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 - Destination nodes:
 
-6. *Note that Figure 1.3 is the simplest possible audio graph that actually does something besides simply playing the sound (no answer required)*
-
-*Also note Figure 1-4. Multiple sources with individual gain control as well as a master gain (no answer required)*
+6. *Note*:
+- *Figure 1.3 is the simplest possible audio graph that actually does something besides simply playing the sound (no answer required)*
+- *Figure 1-4. Multiple sources with individual gain control as well as a master gain (no answer required)*
 
 7. 
