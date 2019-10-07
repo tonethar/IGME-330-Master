@@ -28,17 +28,17 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 5. Give at least 2 examples of each of the following node types:
 
-- Source nodes:
+  - Source nodes:
 
-- Modification nodes:
+  - Modification nodes:
 
-- Analysis nodes:
+  - Analysis nodes:
 
-- Destination nodes:
+  - Destination nodes:
 
 6. *Note*:
-- *Figure 1.3 is the simplest possible audio graph that actually does something besides simply playing the sound (no answer required)*
-- *Figure 1-4. Multiple sources with individual gain control as well as a master gain (no answer required)*
+  - *Figure 1.3 is the simplest possible audio graph that actually does something besides simply playing the sound (no answer required)*
+  - *Figure 1-4. Multiple sources with individual gain control as well as a master gain (no answer required)*
 
 7. In terms of physics, sound is a _______________ wave (sometimes called a pressure wave) that travels through air or another medium. 
 
@@ -56,13 +56,13 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 14. When we load/analyze/manipulate an existing sound file using WebAudio, the loading code for a sound that is in a *lossy* or *lossless* format is the same. But it is still important to know the differences:
 
-- With _______________ compression the bits are identical before and after the compression process
+  - With _______________ compression the bits are identical before and after the compression process
 
-- With _______________ compression some bits are thrown away (the ones we hope the user won't hear anyway)
+  - With _______________ compression some bits are thrown away (the ones we hope the user won't hear anyway)
 
-- Give an example of a *lossless* audio file format _______________
+  - Give an example of a *lossless* audio file format _______________
 
-- Give an example of a *lossy* audio file format _______________
+  - Give an example of a *lossy* audio file format _______________
 
 15. 
 
