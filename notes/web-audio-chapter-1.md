@@ -2,7 +2,7 @@
 
 ## Overview
 
-The WebAudio API can be used to build a variety of audio-related applications and games, that utilize advanced music synthesis and visualizations.
+The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) can be used to build a variety of audio-related applications and games, that utilize advanced music synthesis and visualizations.
 
 - Some handy links:
   - The book we are referencing is online and free in HTML and PDF formats: https://webaudioapi.com/book/
