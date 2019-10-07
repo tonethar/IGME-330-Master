@@ -64,6 +64,14 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
     - Give an example of a *lossy* audio file format _______________
 
-15. 
+15. ...
+
+A new version of *Putting It All Together*:
+ - the sound files are in myCourses
+
+```html
+
+```
+
 
 
