@@ -17,3 +17,22 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 2. The Web Audio API is built around the concept of an ________________. The audio context is a directed graph of ________________ that defines how the audio stream flows from its ________________ (often an audio file) to its ________________ (often your speakers). As audio passes through each node, its properties can be ________________. The simplest audio context is a connection directly from a ________________ to a ________________ 
 
+3. Note the more complicated web audio graph in Figure 1-2. What do the terms "wet" and "dry" mean in the context of the processing of audio sound signals? (google it!)
+
+4. *Note the cross-platform way of obtaining an AudioContext - in this class we'll use the following version (no answer required)*:
+
+```js
+	let audioCtx = new (window.AudioContext || window.webkitAudioContext);
+```
+
+5. Give at least 2 examples of each of the following node types:
+
+- Source nodes:
+
+- Modification nodes:
+
+- Analysis nodes:
+
+- Destination nodes:
+
+6. 
