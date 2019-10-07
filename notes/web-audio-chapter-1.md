@@ -15,11 +15,11 @@ The WebAudio API can be used to build a variety of audio-related applications an
 
 1. Which technology does the author claim was the first cross-platform way to play audio on the web?
 
-2. The Web Audio API is built around the concept of an ________________. The audio context is a directed graph of ________________ that defines how the audio stream flows from its ________________ (often an audio file) to its ________________ (often your speakers). As audio passes through each node, its properties can be ________________. The simplest audio context is a connection directly from a ________________ to a ________________ 
+2. The Web Audio API is built around the concept of an _______________. The audio context is a directed graph of _______________ that defines how the audio stream flows from its _______________ (often an audio file) to its _______________ (often your speakers). As audio passes through each node, its properties can be ______________. The simplest audio context is a connection directly from a ______________ to a _______________
 
 3. Note the more complicated web audio graph in Figure 1-2. What do the terms "wet" and "dry" mean in the context of the processing of audio sound signals? (google it!)
 
-4. *Note the cross-platform way of obtaining an AudioContext - in this class we'll use the following version (no answer required)*:
+4. *Note the cross-platform way of obtaining an `AudioContext` - in this class we'll use the following version (no answer required)*:
 
 ```js
 	let audioCtx = new (window.AudioContext || window.webkitAudioContext);
@@ -39,4 +39,6 @@ The WebAudio API can be used to build a variety of audio-related applications an
 - *Figure 1.3 is the simplest possible audio graph that actually does something besides simply playing the sound (no answer required)*
 - *Figure 1-4. Multiple sources with individual gain control as well as a master gain (no answer required)*
 
-7. 
+7. In terms of physics, sound is a _______________ wave (sometimes called a pressure wave) that travels through air or another medium. 
+
+8. Mathematically, sound can be represented as a _______________, which ranges over pressure values across the domain of _______________.
