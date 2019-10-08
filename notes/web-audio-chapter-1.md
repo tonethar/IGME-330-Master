@@ -64,12 +64,135 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
 
     - Give an example of a *lossy* audio file format _______________
 
-15. ...
 
-A new version of *Putting It All Together*:
- - the sound files are in myCourses
+## Example Code
+
+- Below is an expanded version of *Putting It All Together*:
+  - the sound files are in myCourses
+  - a live version is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/putting-it-all-together.html
+- Note that here we are loading 2 files from disk and playing them at the same time. In your Audio Visualizer projecrs, it's more likely that you will be playing just one sound (song) at a time using the `<audio>` element
+- Thus there is quite a bit of file loading code here that yoou likely won't need in the future (class `BufferLoader`) - so try to concentrate instead on the `createAudioGraph()` function
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<button id="startButton">Click me to hear 2 audio tracks played at the same time</button>
+<button id="stopButton">Click me to stop both tracks</button>
+<script>
+
+/*
+https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
+The AudioContext interface represents an audio-processing graph built from audio modules linked together, each represented by an AudioNode. 
+An audio context controls both the creation of the nodes it contains and the execution of the audio processing, or decoding. 
+You need to create an AudioContext before you do anything else, as everything happens inside a context.
+*/
+let audioCtx;
+
+ // if we keep a reference to these we can .start() and .stop() them
+let source1,source2;
+
+const trackPaths = { // we'll name our sound files to make it easier to keep track of them
+		'mainTrack' : './sounds/hyper-reality/br-jam-loop.wav',
+		'laughTrack' : './sounds/hyper-reality/laughter.wav',
+ };
+
+
+startButton.onclick = init;
+stopButton.onclick = stopAudio;
+
+function init(){
+	if(audioCtx){
+		audioCtx.close();
+	}
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  let bufferLoader = new BufferLoader(audioCtx,trackPaths,createAudioGraph);
+  bufferLoader.loadTracks();
+}
+
+function stopAudio(){
+	if (source1) source1.stop();
+  if (source2) source2.stop();
+}
+
+function createAudioGraph(bufferObj) {
+  // Create two sources and play them both together.
+	source1 = audioCtx.createBufferSource();
+  source2 = audioCtx.createBufferSource();
+  
+  source1.buffer = bufferObj["mainTrack"];
+  source2.buffer = bufferObj["laughTrack"];
+
+  source1.connect(audioCtx.destination);
+  source2.connect(audioCtx.destination);
+  
+  source1.start(0);
+  source2.start(0);
+}
+
+
+
+class BufferLoader{
+	constructor(ctx, trackPaths, callback) {
+		this.ctx = ctx;
+		this.trackPaths = trackPaths; // ex. {"trackName" :"trackURL", ...}
+		this.callback = callback;
+		this.trackBuffers = {};				// will be populated with {"trackName" : buffer, ...}
+		this.loadCount = 0;
+		this.numToLoad = Object.keys(this.trackPaths).length;
+	}
+	
+	loadTracks(){
+		for (let trackName of Object.keys(this.trackPaths)){
+			let trackURL = this.trackPaths[trackName];
+			this.loadBuffer(trackName,trackURL);
+		}
+	}
+	
+	loadBuffer(trackName,trackURL) {
+		const request = new XMLHttpRequest();
+		request.responseType = "arraybuffer";
+		
+		// if there is an error with fetching the audio files, log it out
+		request.onerror = e => console.error('BufferLoader: XHR error');
+
+		request.onload = e => {
+			// the audio file data is in request.response
+			const arrayBuffer = request.response;
+			
+			const decodeSuccess = buffer => {
+				if(buffer) {
+					this.trackBuffers[trackName] = buffer;
+					if (++this.loadCount == this.numToLoad){
+						this.callback(this.trackBuffers);
+					}
+				}else{
+					console.error('error decoding file data: ' + url);
+					return;
+				}
+				
+			};
+				
+			const decodeError = e => {
+					console.error('decodeAudioData error', e);
+			};
+			
+			this.ctx.decodeAudioData(arrayBuffer,decodeSuccess,decodeError);
+		};
+		
+		request.open("GET", trackURL, true);
+		request.send();
+	} // end method loadBuffer()
+	
+} // end class BufferLoader
+	
+</script>
+</body>
+</html>
 
 ```
 
