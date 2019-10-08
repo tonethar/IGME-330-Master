@@ -97,8 +97,8 @@ let audioCtx;
 let source1,source2;
 
 const trackPaths = { // we'll name our sound files to make it easier to keep track of them
-		'mainTrack' : './sounds/hyper-reality/br-jam-loop.wav',
-		'laughTrack' : './sounds/hyper-reality/laughter.wav',
+	'mainTrack' : './sounds/hyper-reality/br-jam-loop.wav',
+	'laughTrack' : './sounds/hyper-reality/laughter.wav',
  };
 
 
@@ -106,16 +106,16 @@ startButton.onclick = init;
 stopButton.onclick = stopAudio;
 
 function init(){
-	if(audioCtx){
-		audioCtx.close();
-	}
+  if(audioCtx){
+    audioCtx.close();
+  }
   audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   let bufferLoader = new BufferLoader(audioCtx,trackPaths,createAudioGraph);
   bufferLoader.loadTracks();
 }
 
 function stopAudio(){
-	if (source1) source1.stop();
+  if (source1) source1.stop();
   if (source2) source2.stop();
 }
 
