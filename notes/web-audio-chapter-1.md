@@ -11,6 +11,7 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
   - Web Audio Documentation:
     - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
     - https://www.w3.org/TR/webaudio/
+  - http://www.differencebetween.net/technology/difference-between-wet-and-dry-signals-or-sounds/
 
 ## II. Chapter 1 - Fundamentals
 
