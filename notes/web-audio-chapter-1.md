@@ -1,6 +1,6 @@
 # WebAudio Study Guide - Chapter 1
 
-## Overview
+## I. Overview
 
 The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) can be used to build a variety of audio-related applications and games, that utilize advanced music synthesis and visualizations.
 
@@ -12,7 +12,7 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
     - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
     - https://www.w3.org/TR/webaudio/
 
-## Chapter 1 - Fundamentals
+## II. Chapter 1 - Fundamentals
 
 1. Which technology does the author claim was the first cross-platform way to play audio on the web?
 
@@ -65,13 +65,13 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
     - Give an example of a *lossy* audio file format _______________
 
 
-## Example Code
+## III. Example Code
 
-- Below is an expanded version of *Putting It All Together*:
-  - the sound files are in myCourses
+- Below is an expanded version of the *Putting It All Together* example from the book:
   - a live version is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/putting-it-all-together.html
 - Note that here we are loading 2 files from disk and playing them at the same time. In your Audio Visualizer projecrs, it's more likely that you will be playing just one sound (song) at a time using the `<audio>` element
 - Thus there is quite a bit of file loading code here that yoou likely won't need in the future (class `BufferLoader`) - so try to concentrate instead on the `createAudioGraph()` function
+- P.S. the sound files are in myCourses
 
 ```html
 <!DOCTYPE html>
