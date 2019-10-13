@@ -70,8 +70,8 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
 
 - Below is an expanded version of the *Putting It All Together* example from the book:
   - a live version is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/putting-it-all-together.html
-- Note that here we are loading 2 files from disk and playing them at the same time. In your Audio Visualizer projecrs, it's more likely that you will be playing just one sound (song) at a time using the `<audio>` element
-- Thus there is quite a bit of file loading code here that yoou likely won't need in the future (class `BufferLoader`) - so try to concentrate instead on the `createAudioGraph()` function
+- Note that here we are loading 2 files from disk and playing them at the same time. In your Audio Visualizer projects, it's more likely that you will be playing just one sound (song) at a time using the `<audio>` element
+- Thus there is quite a bit of file loading code here that you might not need in the future (class `BufferLoader`) - so try to concentrate instead on the `createAudioGraph()` function
 - P.S. the sound files are in myCourses
 
 ```html
