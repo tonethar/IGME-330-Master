@@ -1,5 +1,17 @@
 # WebAudio Study Guide - Chapter 1
 
+## Contents
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [Questions on Chapter 1 - Fundamentals](#section2)
+
+III. [Example Code](#section3)
+
+IV. [Homework](#section4)
+
+<a id="section1"></a>
+
 ## I. Overview
 
 The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) can be used to build a variety of audio-related applications and games, that utilize advanced music synthesis and visualizations.
@@ -12,6 +24,8 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
     - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
     - https://www.w3.org/TR/webaudio/
   - http://www.differencebetween.net/technology/difference-between-wet-and-dry-signals-or-sounds/
+
+<a id="section2"></a>
 
 ## II. Chapter 1 - Fundamentals
 
@@ -65,6 +79,7 @@ The [WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_AP
 
     - Give an example of a *lossy* audio file format _______________
 
+<a id="section3"></a>
 
 ## III. Example Code
 
@@ -222,8 +237,15 @@ class BufferLoader{
 </script>
 </body>
 </html>
-
 ```
 
+<a id="section4"></a>
 
+## IV. Homework
+
+- Real Simple:
+  - get the above example working on your banjo account
+  - create another `AudioBufferSourceNode` named `source3` and be sure to load a different sound file for it
+  - be sure that all 3 source nodes will play and stop simultaneously
+ 
 
