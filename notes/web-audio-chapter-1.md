@@ -110,7 +110,11 @@ function init(){
   if(audioCtx){
     audioCtx.close();
   }
+  // 1 - create a new `AudioContext` - https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
   audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+	
+  // 2 - create a new instance of our sound file loader and then load the files
+  // `createAudioGraph()` will be called once the files are loaded
   let bufferLoader = new BufferLoader(audioCtx,trackPaths,createAudioGraph);
   bufferLoader.loadTracks();
 }
@@ -121,16 +125,19 @@ function stopAudio(){
 }
 
 function createAudioGraph(bufferObj) {
-  // Create two sources and play them both together.
-	source1 = audioCtx.createBufferSource();
+  // 15 - Create two `AudioBufferSourceNodes`
+  source1 = audioCtx.createBufferSource();
   source2 = audioCtx.createBufferSource();
   
+  // 16 - Give them their data
   source1.buffer = bufferObj["mainTrack"];
   source2.buffer = bufferObj["laughTrack"];
 
+  // 17 - set up our audio routing graph, which is 2 `AudioBufferSourceNodes` connected to the speakers
   source1.connect(audioCtx.destination);
   source2.connect(audioCtx.destination);
   
+  // 18 - start playing the sounds at the beginning
   source1.start(0);
   source2.start(0);
 }
@@ -154,26 +161,41 @@ class BufferLoader{
 	}
 	
 	loadTracks(){
-		for (let trackName of Object.keys(this.trackPaths)){
-			let trackURL = this.trackPaths[trackName];
-			this.loadBuffer(trackName,trackURL);
-		}
+	   // 3 - loop through the sound file names and load each sound file with its own XHR object
+	  for (let trackName of Object.keys(this.trackPaths)){
+	    let trackURL = this.trackPaths[trackName];
+	    this.loadBuffer(trackName,trackURL);
+	  }
 	}
 	
 	loadBuffer(trackName,trackURL) {
+		//  4 - make a new XHR
 		const request = new XMLHttpRequest();
+	
+	        // 5 - this responseType is an `ArrayBuffer` containing binary data - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseType
 		request.responseType = "arraybuffer";
+	
+		// 6 - sned the request
+		request.open("GET", trackURL, true);
+		request.send();
 		
-		// if there is an error with fetching the audio files, log it out
+		/* Callbacks */
+	
+		// 7 - if there is an error with fetching the audio files, log it out
 		request.onerror = e => console.error('BufferLoader: XHR error');
 
+		// 8 - if we successfully loaded the sound file ...
 		request.onload = e => {
-			// the audio file data is in request.response
+			// 9 - the audio file data is in request.response - if it's null then the file we loaded was not a compatible sound
 			const arrayBuffer = request.response;
 			
+			// 10 - the "sound decoding success" callback
 			const decodeSuccess = buffer => {
 				if(buffer) {
+					// 13 - if successfull, add the buffer to our object
 					this.trackBuffers[trackName] = buffer;
+	
+					// 14 - if this is the last bufer to load, callback to `createAudioGraph()`
 					if (++this.loadCount == this.numToLoad){
 						this.callback(this.trackBuffers);
 					}
@@ -183,16 +205,16 @@ class BufferLoader{
 				}
 				
 			};
-				
+			
+			// 11 - the "sound decoding success" callback
 			const decodeError = e => {
 					console.error('decodeAudioData error', e);
 			};
 			
+			// 12 - try to decode the ArrayBuffer
 			this.ctx.decodeAudioData(arrayBuffer,decodeSuccess,decodeError);
 		};
 		
-		request.open("GET", trackURL, true);
-		request.send();
 	} // end method loadBuffer()
 	
 } // end class BufferLoader
