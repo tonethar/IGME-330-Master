@@ -136,13 +136,19 @@ function createAudioGraph(bufferObj) {
 }
 
 
-
+/*
+  Class BufferLoader:
+    - loads multiple sound files utilizing XHR
+    - converts them to AudioBufferSourceNodes: https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode 
+    - returns them in the `trackBuffers` dictionary (Object)
+*/
+	
 class BufferLoader{
 	constructor(ctx, trackPaths, callback) {
 		this.ctx = ctx;
 		this.trackPaths = trackPaths; // ex. {"trackName" :"trackURL", ...}
 		this.callback = callback;
-		this.trackBuffers = {};				// will be populated with {"trackName" : buffer, ...}
+		this.trackBuffers = {};	      // will be populated with {"trackName" : buffer, ...}
 		this.loadCount = 0;
 		this.numToLoad = Object.keys(this.trackPaths).length;
 	}
