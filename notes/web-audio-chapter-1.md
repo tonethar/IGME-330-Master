@@ -175,7 +175,7 @@ class BufferLoader{
 	        // 5 - this responseType is an `ArrayBuffer` containing binary data - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseType
 		request.responseType = "arraybuffer";
 	
-		// 6 - sned the request
+		// 6 - send the request
 		request.open("GET", trackURL, true);
 		request.send();
 		
