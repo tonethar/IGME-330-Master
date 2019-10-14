@@ -50,7 +50,7 @@ IV. [Homework](#section4)
 
 ### II-B. Clipping and Metering
 
-11. Note that mixing sounds together or utilizing too much gain can cause the amplitude of the waves to become too large and *clipping* will result - see Figure 3.5. Also see the `checkClipping(buffer)` function for code that can detect clipping. Check out the clipping example here  (*no answer required*): https://webaudioapi.com/samples/metering/
+11. Note that mixing sounds together or utilizing too much gain can cause the amplitude of the waves to become too large and *clipping* will result - see Figure 3.5. Also see the `checkClipping(buffer)` function for code that can detect clipping. Check out the clipping example here  (view source to see the code, *no answer required*): https://webaudioapi.com/samples/metering/
 
 ### II-C. Dynamic Range
 
