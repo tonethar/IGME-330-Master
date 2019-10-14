@@ -51,9 +51,13 @@ IV. [Homework](#section4)
 
 11. Note that mixing sounds together or utilizing too much gain can cause the amplitude of the waves to become too large and *clipping* will result - see Figure 3.5. Also see the `checkClipping(buffer)` function for code that can detect clipping   (*no answer required*)
 
-### II-C. Clipping and Metering
+### II-C. Dynamic Range
 
-12. 
+12. In audio, *dynamic range* refers to the difference between ______________
+
+13. According to the author, which music genres tend to have a small dynamic range and be uniformly loud?
+
+13. *Dynamics Compressors* can also be used to help mitigate issues caused by clipping or a clip having too much dynamic range. See the example linked from here: https://developer.mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode - note: this example seems to run in FireFox only (*no answer required*)
 
 <a id="section3"></a>
 
@@ -62,7 +66,8 @@ IV. [Homework](#section4)
 - We're solely illustrating the concept of gain in the code below
 - Note the use of the `<audio>` element, which simplifies loading a sound
 - We are also using a checkbox and a slider
-- Working version of the below code is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/gain-demo.html
+- We are also hooking into the `<audio>` element's `ontimeupdate` event to display the current progress of the track
+- The working version of the below code is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/gain-demo.html
 
 
 ```html
