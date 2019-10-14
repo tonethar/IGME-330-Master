@@ -186,6 +186,7 @@ class BufferLoader{
 </html>
 ```
 
+- We are going to skip the rest of this chapter because the concept of the `GainNode` and `OscillatorNode` will be covered in depth in future chapters
 
 <a id="section4"></a>
 
