@@ -148,7 +148,7 @@ function init() {
   // 9 - this code sets the starting gain to the value of the slider
   volumeSlider.dispatchEvent(new Event("input"));
   
-  // 10 - this code sets the starting text in the <p> to the .currentTime of the <audio> element
+  // 10 - this code sets the starting text in the <p> to the `.currentTime` of the <audio> element
   audio.dispatchEvent(new Event("timeupdate"));
  
 }
