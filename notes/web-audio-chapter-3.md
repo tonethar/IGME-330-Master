@@ -72,6 +72,7 @@ IV. [Homework](#section4)
 
 ```html
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -91,6 +92,7 @@ IV. [Homework](#section4)
 <p><button id="playButton">Play</button><button id="stopButton">Stop</button></p>
 <p><input type="checkbox" id="muteCheckbox"> Mute</p>
 <p>0 <input type="range" min="1" max="100" value="20" id="volumeSlider"> 100</p>
+<p id="currentTimeElement">Current Time: ??</p>
 <script>
 let audio;
 let gainNode;
@@ -98,22 +100,31 @@ let gainNode;
 window.onload = init;
 
 function init() {
+	// 1 - create a new <audio> element - we won't need to add it to the page for it to work
   audio = new Audio();
   audio.src = 'sounds/gain/chrono.mp3';
   
+  // 2 - create our audio context
   let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  
+  // 3 - make the <audio> element the source for our source node
   let sourceNode = audioCtx.createMediaElementSource(audio);
+  
+  // 4 - create a gain node
  	gainNode = audioCtx.createGain(); // the default `gain.value` is 1
   
+  // we now have 3 nodes (source,gain,destination) - so let's connect them
   sourceNode.connect(gainNode);
   gainNode.connect(audioCtx.destination);
   
+  // 5 - set up event handlers for buttons
   playButton.onclick = _ => audio.play();
   stopButton.onclick = _ => {
   	audio.pause();
   	audio.currentTime = 0;
   };
   
+  // 6 - set up event handler for checkbox
   muteCheckbox.onchange = e => {
   	if(e.target.checked){
   	 	gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
@@ -123,17 +134,26 @@ function init() {
   	}
   };
   
+  // 7 - set up event handler for slider
   volumeSlider.oninput = e =>{
   	gainNode.gain.value = e.target.value/100;
   }
   
+  // 8 - set up `ontimeupdate` event handler for <audio> element
+  audio.ontimeupdate = e =>{
+  	currentTimeElement.innerHTML = `Current Time: ${e.target.currentTime.toFixed(3)}`;
+  }
+  
+  // 9 - this code sets the starting gain to the value of the slider
   volumeSlider.dispatchEvent(new Event("input"));
+  
+  // 10 - this code sets the starting text in the <p> to the .currentTime of the <audio> element
+  audio.dispatchEvent(new Event("timeupdate"));
  
 }
 </script>
 </body>
 </html>
-
 ```
 
 <hr><hr>
