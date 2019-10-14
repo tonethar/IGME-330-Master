@@ -52,7 +52,7 @@ let audioCtx;
 let beat;
 
 const trackPaths = { // we'll name our sound files to make it easier to keep track of them
-	 kick: 'sounds/rhythm/kick.wav',
+    kick: 'sounds/rhythm/kick.wav',
     snare: 'sounds/rhythm/snare.wav',
     hihat: 'sounds/rhythm/hihat.wav'
  };
