@@ -16,7 +16,6 @@ IV. [Homework](#section4)
 
 This is a very short chapter that discusses how web audio's precise timing enables you to schedule events at specific times in the future.
 
-
 <a id="section2"></a>
 
 ## II. Questions
@@ -28,6 +27,10 @@ This is a very short chapter that discusses how web audio's precise timing enabl
 3. Write a line of code that would start playing an `AudioBufferSourceNode` instance named `source1` in 3 seconds
 
 4. True or False. *Once a source node has finished playing back, it can’t play back more. To play back the underlying buffer again, you need to create a new source node (`AudioBufferSourceNode`) and call `start()`*
+
+5. Take a look at the code below. How many `AudioBufferSourceNode`s can we create for each audio array buffer (`ArrayBuffer`) instance - just one, or more than one?
+
+<a id="section3"></a>
 
 ## III. Example Code
 
@@ -182,3 +185,10 @@ class BufferLoader{
 </body>
 </html>
 ```
+
+
+<a id="section4"></a>
+
+## IV. Homework
+
+***NONE!***
