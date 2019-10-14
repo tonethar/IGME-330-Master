@@ -14,6 +14,8 @@ IV. [Homework](#section4)
 
 ## I. Overview
 
+- https://www.merriam-webster.com/dictionary/semitone
+
 <a id="section2"></a>
 
 ## I. Questions
@@ -22,6 +24,7 @@ IV. [Homework](#section4)
 
 ## I. Example Code
 
+- http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/detune-demo.html
 
 <a id="section4"></a>
 
