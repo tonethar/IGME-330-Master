@@ -166,3 +166,5 @@ function init() {
 <hr><hr>
 
 **[Previous Chapter <- Web Audio Chapter II](web-audio-chapter-2.md)**
+
+**[Next Chapter -> Web Audio Chapter IV](web-audio-chapter-4.md)**
