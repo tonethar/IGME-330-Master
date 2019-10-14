@@ -23,11 +23,42 @@ IV. [Homework](#section4)
 
 ## II. Questions
 
-1. Define 
+1. Define *loudness*
+
+2. Define *volume*
+
+3. Define *gain*
+
+4. What will a *gain* value of 1 do to the amplitude of a sound wave?
+
+5. What does *dBSPL* stand for?
+
+6. Web Audio uses *dBFS* -  which stands for?
+
+7. dBFS is a measure of gain. Thus a gain of 1 is the sound's full volume, a gain of 0.5 is the sound's reduced to 1/2 volume (amplitude), and a gain of 0 is silence. (*no answer required*)
+
+
+### II-A. Equal Power Crossfading
+
+8. A *linear fade* between 2 sounds can sound unbalanced because of a ______________
+
+9. An *equal power crossfade* curve, in which the corresponding gain curves are neither linear nor exponential, will ______________
+
+10. See examples of crossfades in Figure 3-2 and Figure 3-3. Also check out the crossfade example here (view source to see the code, *no answer required*): https://webaudioapi.com/samples/crossfade/
+
+
+### II-B. Clipping and Metering
+
+
 
 <a id="section3"></a>
 
 ## III. Sample Code
+
+- We're solely illustrating the concept of gain in the code below
+- Note the use of the `<audio>` element, which simplifies loading a sound
+- We are also using a checkbox and a slider
+- Working version of the below code is here: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/gain-demo.html
 
 
 ```html
@@ -50,6 +81,7 @@ IV. [Homework](#section4)
 <h1>Audio Player</h1>
 <p><button id="playButton">Play</button><button id="stopButton">Stop</button></p>
 <p><input type="checkbox" id="muteCheckbox"> Mute</p>
+<p>0 <input type="range" min="1" max="100" value="20" id="volumeSlider"> 100</p>
 <script>
 let audio;
 let gainNode;
@@ -62,8 +94,7 @@ function init() {
   
   let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   let sourceNode = audioCtx.createMediaElementSource(audio);
-  gainNode = audioCtx.createGain();
-  gainNode.gain.value = 1; // the default
+ 	gainNode = audioCtx.createGain(); // the default `gain.value` is 1
   
   sourceNode.connect(gainNode);
   gainNode.connect(audioCtx.destination);
@@ -78,14 +109,22 @@ function init() {
   	if(e.target.checked){
   	 	gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
   	} else {
-  		gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+  		let value = volumeSlider.value/100;
+  		gainNode.gain.setValueAtTime(value, audioCtx.currentTime);
   	}
   };
+  
+  volumeSlider.oninput = e =>{
+  	gainNode.gain.value = e.target.value/100;
+  }
+  
+  volumeSlider.dispatchEvent(new Event("input"));
  
 }
 </script>
 </body>
 </html>
+
 ```
 
 <hr><hr>
