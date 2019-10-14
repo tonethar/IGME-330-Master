@@ -18,6 +18,7 @@ IV. [Homework](#section4)
 - We will also see how to create an `<audio>` element (rather than a `AudioBuffer`) that can be used to play a sound file - which simplifies the setup code dramatically (the disadvantage to this approach is that we can only play one sound at a time): 
   - docs for the `<audio>` element: https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
   - most of the properties and methods and events for `<audio>` are here: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+- We will also see how to give the user the ability to control the experience with a slider and a checkbox
 
 <a id="section2"></a>
 
