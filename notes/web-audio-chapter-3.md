@@ -49,7 +49,11 @@ IV. [Homework](#section4)
 
 ### II-B. Clipping and Metering
 
+11. Note that mixing sounds together or utilizing too much gain can cause the amplitude of the waves to become too large and *clipping* will result - see Figure 3.5. Also see the `checkClipping(buffer)` function for code that can detect clipping   (*no answer required*)
 
+### II-C. Clipping and Metering
+
+12. 
 
 <a id="section3"></a>
 
