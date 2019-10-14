@@ -57,8 +57,8 @@ function init() {
   
   let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   let sourceNode = audioCtx.createMediaElementSource(audio);
- 	gainNode = audioCtx.createGain();
- 	gainNode.gain.value = 1; // the default
+  gainNode = audioCtx.createGain();
+  gainNode.gain.value = 1; // the default
   
   sourceNode.connect(gainNode);
   gainNode.connect(audioCtx.destination);
