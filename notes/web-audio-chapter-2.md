@@ -34,7 +34,8 @@ This is a very short chapter that discusses how [web audio's](https://developer.
 
 ## III. Example Code
 
-- The last thing we want to take a look at from this chapter is *Scheduling Precise Rhythms* and the simple and widely known known drumkit pattern mentioned in the text. Here is our version of the code:
+- The last thing we want to take a look at from this chapter is *Scheduling Precise Rhythms* and the simple and widely known known drumkit pattern mentioned in the text.
+- Here is a working version of the code below: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/rhythm.html
 
 ```html
 <!DOCTYPE html>
