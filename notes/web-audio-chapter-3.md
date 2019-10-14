@@ -14,11 +14,16 @@ IV. [Homework](#section4)
 
 ## I. Overview
 
+- For this chapter we will look at utilizing a *gain* node, which is used to alter the *volume* of the sound
+- We will also see how to create an `<audio>` element (rather than a `AudioBuffer`) that can be used to play a sound file - which simplifies the setup code dramatically (the disadvantage to this approach is that we can only play one sound at a time): 
+  - docs for the `<audio>` element: https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
+  - most of the properties and methods and events for `<audio>` are here: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
 
 <a id="section2"></a>
 
 ## II. Questions
 
+1. Define 
 
 <a id="section3"></a>
 
