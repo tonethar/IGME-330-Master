@@ -1,4 +1,4 @@
-# WebAudio Study Guide - Chapter 1
+# Web Audio Study Guide - Chapter 1
 
 ## Contents
 <!--- Local Navigation --->
@@ -248,4 +248,7 @@ class BufferLoader{
   - create another `AudioBufferSourceNode` named `source3` and be sure to load a different sound file for it
   - be sure that all 3 source nodes will play and stop simultaneously
  
+<hr><hr>
+
+**[Next Chapter -> Web Audio Part II](web-audio-chapter-1.md)**
 
