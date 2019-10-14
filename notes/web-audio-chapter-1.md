@@ -250,5 +250,5 @@ class BufferLoader{
  
 <hr><hr>
 
-**[Next Chapter -> Web Audio Part II](web-audio-chapter-2.md)**
+**[Next Chapter -> Web Audio Chapter II](web-audio-chapter-2.md)**
 
