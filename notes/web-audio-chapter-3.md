@@ -36,7 +36,7 @@ IV. [Homework](#section4)
 
 6. Web Audio uses *dBFS* -  which stands for?
 
-7. dBFS is a measure of gain. Thus a gain of 1 is the sound's full volume, a gain of 0.5 is the sound's reduced to 1/2 volume (amplitude), and a gain of 0 is silence. (*no answer required*)
+7. *dBFS* is a measure of *gain*. Thus a gain of 1 is the sound's full volume, a gain of 0.5 is the sound's reduced to 1/2 volume (amplitude), and a gain of 0 is silence. (*no answer required*)
 
 
 ### II-A. Equal Power Crossfading
