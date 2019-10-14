@@ -101,7 +101,7 @@ let gainNode;
 window.onload = init;
 
 function init() {
-	// 1 - create a new <audio> element - we won't need to add it to the page for it to work
+  // 1 - create a new <audio> element - we won't need to add it to the page for it to work
   audio = new Audio();
   audio.src = 'sounds/gain/chrono.mp3';
   
