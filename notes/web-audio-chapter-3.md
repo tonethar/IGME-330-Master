@@ -62,7 +62,7 @@ IV. [Homework](#section4)
 
 <a id="section3"></a>
 
-## III. Sample Code
+## III. Example Code
 
 - We're solely illustrating the concept of gain in the code below
 - Note the use of the `<audio>` element, which simplifies loading a sound
@@ -156,6 +156,12 @@ function init() {
 </body>
 </html>
 ```
+
+<a id="section4"></a>
+
+## IV. Homework
+
+***None!***
 
 <hr><hr>
 
