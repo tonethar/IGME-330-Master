@@ -31,7 +31,7 @@ This is a very short chapter that discusses how web audio's precise timing enabl
 
 ## III. Example Code
 
-- The last thing we want to take a look at from this chapter is *Scheduling Precise Rhythms* and the simple and widely known known drumkit pattern mentioned in the text
+- The last thing we want to take a look at from this chapter is *Scheduling Precise Rhythms* and the simple and widely known known drumkit pattern mentioned in the text. Here is our version of the code:
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ const trackPaths = { // we'll name our sound files to make it easier to keep tra
  };
  
  function init(){
- 	// 1 - create a new `AudioContext`
+  // 1 - create a new `AudioContext`
   audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   
   // 2 - create a new instance of our sound file loader and then load the files
@@ -75,8 +75,8 @@ function tracksLoaded(bufferObj){
   Class RhythmSample:
     - has references to 3 `ArrayBuffer` binary arrays
     - `createSourceNodeAndPlay()` creates audio source nodes that point at these arrays and schedules a start time for the node
-
 */
+	
 class RhythmSample{
 	constructor(kick,snare,hihat){
 		this.kick = kick;
@@ -112,15 +112,15 @@ class RhythmSample{
   	// 9 - Create an `AudioBufferSourceNode`
 		let source = audioCtx.createBufferSource();
 		
-		// 10 - Set its buffer (binary audio data)
+	// 10 - Set its buffer (binary audio data)
 		source.buffer = buffer;
 		
-		// 11 - Connect the source node to the destination
+	// 11 - Connect the source node to the destination
 		source.connect(audioCtx.destination);
 		
-		// 12 - Start playing the sound
+	// 12 - Start playing the sound
 		source.start(time);
-	}
+  }
 }
 
 
