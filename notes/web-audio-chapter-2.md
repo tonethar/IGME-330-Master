@@ -1,4 +1,4 @@
-# WebAudio Study Guide - Chapter 2
+# Web Audio Study Guide - Chapter 2
 
 ## Contents
 <!--- Local Navigation --->
@@ -14,7 +14,7 @@ IV. [Homework](#section4)
 
 ## I. Overview
 
-This is a very short chapter that discusses how web audio's precise timing enables you to schedule events at specific times in the future.
+This is a very short chapter that discusses how [web audio's](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) precise timing enables you to schedule events at specific times in the future.
 
 <a id="section2"></a>
 
