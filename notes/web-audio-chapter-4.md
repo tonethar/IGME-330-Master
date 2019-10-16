@@ -14,15 +14,19 @@ IV. [Homework](#section4)
 
 ## I. Overview
 
+- https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/detune
+- https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/playbackRate
 - https://www.merriam-webster.com/dictionary/semitone
+- https://en.wikipedia.org/wiki/Audio_time_stretching_and_pitch_scaling
+- https://github.com/Tonejs/Tone.js
 
 <a id="section2"></a>
 
-## I. Questions
+## II. Questions
 
 <a id="section1"></a>
 
-## I. Example Code
+## III. Example Code
 
 - http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/sg/detune-demo.html
 
@@ -30,7 +34,7 @@ IV. [Homework](#section4)
 
 ## IV. Homework
 
-***None!***
+
 
 <hr><hr>
 
