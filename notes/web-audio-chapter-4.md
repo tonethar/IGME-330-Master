@@ -16,6 +16,8 @@ IV. [Homework](#section4)
 
 - https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/detune
 - https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/playbackRate
+- https://github.com/urtzurd/html-audio/
+- http://pd-tutorial.com/english/ch03s07.html
 - https://www.merriam-webster.com/dictionary/semitone
 - https://en.wikipedia.org/wiki/Audio_time_stretching_and_pitch_scaling
 - https://github.com/Tonejs/Tone.js
