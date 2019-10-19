@@ -5,6 +5,8 @@
 - We will then filter out the "stop words" which are common words like pronouns (ex. "I", "you", "we") and prepositions (ex. "at", "on", "in") that don't tell us much about the contents or meaning of a block of text
 - After we are finished with this demo, you will find that it it a nice starting point for your [HW-word-cloud.md](./HW-word-cloud.md) assignment
 
+<hr>
+
 ## II. Lecture & Demo
 - We are going to build a word counting application in class. This demo will be the basis for your [HW - Word Cloud](./HW-word-cloud.md) assignment
 - The start file for the demo is [**load-text-drag-drop.html**](./text-1.md/#I-D)
@@ -38,9 +40,17 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
 // 4 - loop through sorted keys and display frequency of each word on page
 ```
 
+- these links might come in handy:
+  - https://www.regextester.com
+  - https://www.rexegg.com/regex-quickstart.html
+
+<hr>
+
 ## III. Done Version
 
 ![screenshot](./_images/text-8.png)
+
+<hr>
 
 # IV. Videos
 
