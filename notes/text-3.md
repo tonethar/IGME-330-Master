@@ -30,7 +30,7 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
 	// A - get rid of stop words
 	// B - get rid of numbers
 	// C - get rid of 1 character words
-  // D - count up frequency of each word and store values in a dictionary (i.e. Object)
+        // D - count up frequency of each word and store values in a dictionary (i.e. Object)
   
 
 // 3 - grab keys of dictionary and sort them alphabetically
