@@ -42,6 +42,11 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
 
 ![screenshot](./_images/text-8.png)
 
+# IV. Videos
+
+[Demo: Word Counter Part A (17:24)](https://video.rit.edu/Watch/text-3-word-counter-part-A)
+[Demo: Word Counter Part B (06:57)](https://video.rit.edu/Watch/text-3-word-counter-part-B)
+
 <hr><hr>
 
 **[Previous Chapter <- Constrained Writing (Part II)](text-2.md)**
