@@ -82,9 +82,14 @@ input.oninput = doInput;
 input.dispatchEvent(new Event("input")); // calls doInput() when the page first loads
 
 function doInput(){
-	let text = input.value.trim().toLowerCase();
+	// the `seedText` comes out of the <input>
 	let seedText = seed.value.trim().toLowerCase();
 	seedText = seedText.replace(/\s/g,''); // get rid of white space
+	
+	// the `words` array comes out of the <textarea>
+	let text = input.value.trim().toLowerCase();
+	let regex = /[\s,.!?]+/g;
+	let words = text.split(regex); // split on spaces OR commas OR periods etc
 	
 	let outputText = text; // this will change
 	// Do Diastic stuff below
