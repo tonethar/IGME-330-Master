@@ -35,7 +35,7 @@ const stopwords = ["a", "about", "above", "after", "again", "against", "all", "a
         // D - count up frequency of each word and store values in a dictionary (i.e. Object)
   
 
-// 3 - grab keys of dictionary and sort them alphabetically
+// 3 - grab keys of dictionary and sort them by frequency of their "count" in the dictionary
 
 // 4 - loop through sorted keys and display frequency of each word on page
 ```
