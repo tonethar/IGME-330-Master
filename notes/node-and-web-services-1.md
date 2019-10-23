@@ -180,7 +180,7 @@ console.log(cowsay.say({
 }));
 ```
 
-**Which gives, when you run this in the console:**
+**Which gives, when you run this in the console (by typing `node index.js`):**
 
 ![screenshot](_images/node-web-services-5.jpg)
 
