@@ -256,7 +256,7 @@ Out of 10 points.
   - Display the activity (1 point)
   - Display the type (1 point)
   - Display the number of participants (1 point)
-  - Parse the first command line argument, and only show that number of quotes (2 points)
+  - Parse the first command line argument, and show actitivites for that number of participants (2 points)
   - Make **index.js** a command line script (tool) named **i-am-bored** that we can run from anywhere just by typing `design-quotes` (2 points)
 - Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (3 points)
 
