@@ -29,12 +29,12 @@ V. [Homework](#section5)
 <a id="section1"></a>
 
 ## I. Preview our new web service
-- The documentation of this web service is here: https://quotesondesign.com/api-v4-0/
+- The documentation of this web service is here: https://quotesondesign.com/api/
 - An API key is not required to use this web service
 - To see the web service in action, bring up a new window in Chrome and open this URL:
 
 ```
-http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1
+https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
 ```
 
 - which gives you 1 random inspirational quote, in an array, that looks like this:
