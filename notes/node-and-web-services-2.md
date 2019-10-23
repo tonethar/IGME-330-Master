@@ -56,7 +56,7 @@ https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
 
 
 ### B. Create a node project the usual way
-- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory to the **quote** folder and type:
+- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory into the **quote** folder and type:
 
 ```js
 npm init -y
