@@ -197,7 +197,7 @@ Things we are going to do in this section:
 
 - Here's a great article walking through how to do this - https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e - but we'll give you specific instructions below
 
-#### i. Add the Shebang line to the top of index.js
+#### i. Add the Shebang line to the top (line #1) of index.js
 
 ```
 #!/usr/bin/env node
