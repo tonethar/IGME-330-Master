@@ -246,26 +246,20 @@ let numParticipants = process.argv[2] || 1; // 1 will be the default
 
 - ***Note:  `npm link` will likely fail on the lab machines :-(  but this won't hurt your HW grade because we will be looking for the `bin` key in package.json to verify that you at least tried to get it to work***
 
-- **Here is my example:**
-
-![screenshot](_images/node-web-services-4.jpg)
-
-**PS - And when you want to "unlink" this command, simply run `npm unlink` from the *quotes* folder to remove the `design-quotes` alias**
+**PS - And when you want to "unlink" this command, simply run `npm unlink` from the *bored* folder to remove the `i-am-bored` alias**
 
 <a id="section5"></a>
 
 ## V. Homework
 Out of 10 points.
 - Make sure that everything we asked for in Section IV. is working:
-  - Display the author name (1 point)
-  - Display multiple quotes (4 points)
+  - Display the activity (1 point)
+  - Display the type (1 point)
+  - Display the number of participants (1 point)
   - Parse the first command line argument, and only show that number of quotes (2 points)
-  - Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes` (2 points)
-- Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (1 point)
+  - Make **index.js** a command line script (tool) named **i-am-bored** that we can run from anywhere just by typing `design-quotes` (2 points)
+- Also be sure that everything is formatted nicely - add spacing where appropriate - and recall that `\n` in a string is the new line character (3 points)
 
-**IMPORTANT:**
-- Make sure that you are only calling `request()` ONCE, and then looping though the number of requested results
-- 10 points will be deducted from this assignment if you call `request()` 10 times (for example) when you need 10 design quotes
 
 **ZIP and POST to Dropbox**
 <hr><hr>
