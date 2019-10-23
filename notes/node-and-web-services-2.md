@@ -230,19 +230,19 @@ let numParticipants = process.argv[2] || 1; // 1 will be the default
     chmod +x index.js
     ```
 
-- test **index.js** by typing `./index.js 10` - which should give you 10 results
+- test **index.js** by typing `./index.js 5` - which should give you an activity for 5 participants
 
 - now make **index.js** globally executable by adding the following key to **package.json**:
 
 ```js
 "bin":{
-  	"design-quotes": "./index.js"
+  	"i-am-bored": "./index.js"
   }
 ```
-- `"design-quotes"` above is the name of the command
+- `"i-am-bored"` above is the name of the command
 - create the link by typing `npm link` on the command line (Mac users will need `sudo` at the beginning)
 
-- ***Test it! Type `design-quotes 10` from any directory - now the script should run from anywhere!***
+- ***Test it! Type `i-am-bored 5` from any directory - now the script should run from anywhere!***
 
 - ***Note:  `npm link` will likely fail on the lab machines :-(  but this won't hurt your HW grade because we will be looking for the `bin` key in package.json to verify that you at least tried to get it to work***
 
