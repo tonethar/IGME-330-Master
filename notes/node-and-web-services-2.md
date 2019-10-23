@@ -208,18 +208,18 @@ Things we are going to do in this section:
 
 #### ii. Parse out the first command line argument
 
-Replace the `numResults` line with this:
+Replace the `numParticipants` line with this:
 
 ```js
-let numResults = process.argv[2] || 1; // 1 will be the default
+let numParticipants = process.argv[2] || 1; // 1 will be the default
 ```
 
 - `process.argv` is an array of the command line arguments the user typed - the third element in this array is the first argument that is passed *after* the name of the script. Read about this here:  https://nodejs.org/api/process.html#process_process_argv
 
 #### iii. Test the script
 
-- type `node index.js` and you should see 1 result (the default)
-- type `node index.js 10` and you should see 10 results
+- type `node index.js` and you should see an activity for 1 participant (the default)
+- type `node index.js 5` and you should see an activity for 5 participants
 - and so on ...
 
 ### D. Make the script an executable tool (and not have to type `node` first)
