@@ -20,7 +20,7 @@ VII. [Reference](#section7)
 
 ## I. <a id="section1">What is *transpiling*?
 - Transpilers are tools that read source code written in one programming language, and transform it to the equivalent code in another language.
-- Transpiling has been a part of JavaScript development for quite some time. You may have heard of [TypeScript](https://www.typescriptlang.org) or [CoffeeScript](http://coffeescript.org). Both of these JavaScript libabries add strong typing and other features to JavaScript by utilizing a transpiler to transform the type annotated JavaScript code to legal ES5 JavaScript that the web browser can understand.
+- Transpiling has been a part of JavaScript development for quite some time. You may have heard of [TypeScript](https://www.typescriptlang.org) or [CoffeeScript](http://coffeescript.org). Both of these JavaScript libraries add strong typing and other features to JavaScript by utilizing a transpiler to transform the type annotated JavaScript code to legal ES5 JavaScript that the web browser can understand.
   
  ### Transpiler references 
 - https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
