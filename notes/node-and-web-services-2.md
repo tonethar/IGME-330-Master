@@ -2,14 +2,13 @@
 
 ## Overview
 
-This time we are going to look at how to download a different web service, in this case an "inspirational design quote" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
-- this service DOES NOT have cross-domain [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers turned on (i.e. **`access-control-allow-origin: *`**) - so we can't easily download it directly with a web browser. Good thing that the command-line JS code we are going to write below is not restricted by this fact.
+This time we are going to look at how to download a different web service, in this case an "what to do when you are bored" service. Although this sounds really similar to what we did last time, there are differences that will make this more challenging:
+
 - we are going to create a **package.json** file this time
 - the data is in the JSON format so we will need to parse it before displaying it
-- the web service takes parameters, such as the number of results:
+- the web service takes parameters, such as the number of participants in the activity:
   - this means we will need to format the URL differently
-  - we will need to loop through the results
-  - we will need to give the user of this script the ability to choose how many results they want (i.e. pass arguments to the web service)
+  - we will need to give the user of this script the ability to choose how many participants they have for the activity (i.e. pass arguments to the web service)
 
 ## Contents
 
@@ -29,20 +28,19 @@ V. [Homework](#section5)
 <a id="section1"></a>
 
 ## I. Preview our new web service
-- The documentation of this web service is here: https://quotesondesign.com/api/
+- The documentation of this web service is here: https://www.boredapi.com/documentation
 - An API key is not required to use this web service
 - To see the web service in action, bring up a new window in Chrome and open this URL:
 
 ```
-https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
+https://www.boredapi.com/api/activity
 ```
 
-- which gives you 1 random inspirational quote, in an array, that looks like this:
+- which gives you 1 random activity that looks like this:
 
 ![screenshot](_images/node-web-services-2.jpg)
 
-- as you can see above, we are probably most interested in the `.title` and `.content` properties
-- one wrinkle is that the content has HTML in it - which we are going to need to strip out for this command line application
+- as you can see above, we are probably most interested in the `.activity` and `.type` and `.participants` properties
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
 <a id="section2"></a>
@@ -51,12 +49,12 @@ https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
 
 ### A. Get started:
 
-- create a new folder named **quote**
+- create a new folder named **bored**
 - copy over your completed **index.js** file from Node.js and Web Services - Part I (but leave out the **cowsay** `require()` and the call to `cowsay.say()`)
 
 
 ### B. Create a node project the usual way
-- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory into the **quote** folder and type:
+- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory into the **bored** folder and type:
 
 ```js
 npm init -y
@@ -66,7 +64,7 @@ This will create your **package.json** file with the default metadata about your
 
 ```js
 {
-  "name": "quote",
+  "name": "bored",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -122,19 +120,19 @@ light switch, you will be dead before the lightbulb turns on."
 
 <a id="section3"></a>
 
-## III. Utilize the "inspirational design quotes" service
+## III. Utilize the "Bored API" service
 
-Now that we have our script and **package.json** file working with the "random geek joke" web service, it's time to get it working with our new "inspirational design quotes" web service.
+Now that we have our script and **package.json** file working with the "random geek joke" web service, it's time to get it working with our new "Bored API" web service.
 
-### A. Modify the code to request a variable number of results
+### A. Modify the code to request a variable number of participants
 
 Change section #2 of **index.js** so it looks like this: 
 
 ```js
 // #2 - set our URL
-let url = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=";
-let numResults = 1; // let's make 1 quote the default, but we'll let the user change it later
-url += numResults; // concatenate `numResults` to the end of the query string
+let url = "http://www.boredapi.com/api/activity?participants=";
+let numParticipants = 1; // let's make 1 the default, but we'll let the user change it later
+url += numParticipants; // concatenate `numParticipants` to the end of the query string
 ```
 
 
@@ -153,11 +151,11 @@ request(url, (err, response, body) => {
     if(!err && response.statusCode == 200){
     	// A - convert the downloaded text to a JavaScript Object (in this case an array)
         let obj = JSON.parse(body); 
-        // B - grab the first result
-        let result = obj[0];
-        // C - grab the `.content` property of the first result
-        let text = result.content;
-        // D - log it out
+    
+        // B - grab the `.activity` property of the first result
+        let text = obj.activity;
+        
+        // C - log it out
         console.log(text);
       }
 });
@@ -168,45 +166,28 @@ request(url, (err, response, body) => {
 - Go ahead and type `node index.js` to run the code - it should successfully download the text, convert it to JSON, parse out the content, and log it to the console. You should see something like this:
 
 ```
-<p>Stop looking at yourself as a designer, and start thinking of yourself as a deliverer of ideas.</p>
+Clean out your garage
 ```
-
-This is working great, except for those HTML tags that we don't need to see. Let's fix that next
-
-### D. Stripping HTML tags
-
-- Here's a helper function you can add to **index.js**:
-
-```js
-// https://stackoverflow.com/questions/5002111/how-to-strip-html-tags-from-string-in-javascript
-function stripTags(str){
-   return str.replace(/<\/?[^>]+(>|$)/g, "");
-}
-```
-
-
-- Now call this function in your code in the proper place to get rid of the HTML tags
-- ***Test it!*** The HTML tags are gone, although you will still see HTML entities occasionally (mostly for punctuation) - we will let you fix that issue on your own (hint: `string.replace()` works nicely)
 
 <a id="section4"></a>
 
 ## IV. Turning our script into a command line tool
 
 Things we are going to do in this section:
-- Display the author name (the `.title` is this case)
-- Display multiple quotes
-- Parse the first command line argument, and only show that number of quotes
-- Make **index.js** a command line script (tool) named **design-quotes** that we can run from anywhere just by typing `design-quotes`
+- Display the `.type`
+- Display `.participants`
+- Parse the first command line argument, and fetch activities with that number of participants
+- Make **index.js** a command line script (tool) named **i-am-bored** that we can run from anywhere just by typing `i-am-bored`
 
-### A. Display the Author's name
+### A. Display the `.type`
 - ***Write the code to do this!***
 
-### B. Display mulitiple quotes
-- ***Write a `for` loop and do this!***
+### B. Display `.participants`
+- ***Write the code to do this!***
 
 <hr>
 
-***Here's what mine looks like - I added a little formatting, and wrote code to strip out the HTML entities:***
+***Here's what mine looks like - I added a little formatting***
 
 ![screenshot](_images/node-web-services-3.jpg)
 
