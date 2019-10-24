@@ -54,7 +54,7 @@ https://www.boredapi.com/api/activity
 
 
 ### B. Create a node project the usual way
-- this time we are going to follow the usual practice and create a node project with **npm** - go ahead and change directory into the **bored** folder and type:
+- this time we are going to follow the standard Node.js development practice and create a node project with **npm** - go ahead and change directory into the **bored** folder and type:
 
 ```js
 npm init -y
