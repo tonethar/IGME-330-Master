@@ -138,7 +138,7 @@ output.innerHTML = s;
   - replace all adjectives (there are 3 tags), with a random adjective of the same type
   - replace all verbs (there are 6 tags), with a random verb of the same type
 - Hints: 
-  - utilize the "part of speech" tags from the page linked above
+  - utilize the PENN part of speech tags from the page linked above
   - after you get it working, use regular expressions to simplify your code (when dealing with similar POS tags)
 - Here is a screen shot of an example:
 
