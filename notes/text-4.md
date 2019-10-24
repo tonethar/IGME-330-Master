@@ -139,7 +139,8 @@ output.innerHTML = s;
   - replace all verbs (there are 6 tags), with a random verb of the same type
 - Hints: 
   - utilize the PENN part of speech tags from the page linked above
-  - after you get it working, use regular expressions to simplify your code (when dealing with similar POS tags)
+  - after you get it working, you might want to use regular expressions to simplify your code (when dealing with similar POS tags)
+  - alternatively, another approach might be to use `array.includes()` (think about it)
 - Here is a screen shot of an example:
 
 ![screenshot](_images/text-11.png)
