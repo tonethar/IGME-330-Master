@@ -80,7 +80,7 @@ function doInput(e){
 - So the first word is a personal pronoun, and the second word is a past tense verb and so on. Let's make this a little more human readable - here's a JavaScript dictionary (object) that has the full names for these tags - add this to your JS:
 
 ```js
-let POS = {
+const POS = {
 	"cc":"Coordinating conjunction",
 	"dt":"Determiner",
 	"jj":"Adjective",
