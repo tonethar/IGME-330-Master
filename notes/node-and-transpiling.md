@@ -220,30 +220,30 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 - note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
 
 
-**10) Final Test**
+**8) Final Test**
 - Reload the page, everything should work as before!
-- Note that webpack is stil running and watching our files, and if we make any changes, it will automatically recompile our files for us
+- Note that `webpack` is stil running and watching our files, and if we make any changes, it will automatically recompile our files for us
 
-**11) Distribution**
+**9) Distribution**
 
 When you post this to the web:
 
 - you need the HTML file, *dist/bundle.js*, and your *images* folder
 - you don't need your `js` folder - because all that ES6 has been compiled down to ES5 and put into *bundle.js*
-- you don't need any of the other of the other configuration files or *package.json*
+- you don't need any of the other of the other configuration files or *package.json* or the *node_modules* folder
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
 
 
 ## V. <a id="section5">Discussion
 
-- Go ahead and make some changes in *main.js*, like increasing the number of circles. If webpack is still running, it will automatically compile a new *bundle.js* for you.
+- Go ahead and make some changes in *main.js*, like increasing the number of sprites. If webpack is still running, it will automatically compile a new *bundle.js* for you.
 
-- Because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *init.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
+- Because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *loader.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
 
 New **webpack.config.js**
 ```js
 module.exports = {
-    entry: './js/init.js',
+    entry: './js/loader.js',
     output: {
         filename: './bundle.js'
     }
@@ -256,16 +256,14 @@ module.exports = {
 npm install
 ```
 
-- Which will, by default, download and install all modules listed as dependencies in package.json. 
+- Which will download and install all modules listed as dependencies in *package.json* 
 
 - You can then type `npm start` to run the project.
 
 
 ## VI. <a id="section6">Try This
 	
-- We are not collecting this, but you should do this:
-  - Transpile the GIF Finder HW - the "ES6 Modules & Classes" version from last time
-  - It works the same way as we did above, except that the `entry` key in **webpack.config.js** will be **loader.js** NOT **init.js**
+- We are not collecting this, but you should practice this technique on another ES6 project or HW assignment
 
 
 ## VII. <a id="section7">Reference
