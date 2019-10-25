@@ -75,36 +75,35 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - **Important:** make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes
 
   
- **1) Install Node.js and the *Node Package Manager* (npm) - if you need to**
+ **0) Install Node.js and the *Node Package Manager* (npm) - *if you need to***
  
  - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
  https://docs.npmjs.com/getting-started/installing-node
  
- - When **Node.js** is installed, it also installs **npm** (Node Package Manager). Head to the command prompt to verify that npm is installed by typing:
- 
- ```js
- npm -v
- ```
- 
- - After that, you can run the updater on npm itself by typing:
- 
- ```js
- npm install npm@latest -g
- ```
- 
- **2) Change directory to your project folder**
- 
-Head to the command prompt, and `cd` into the **sprites-plus-modular** folder.
- 
- **3) Verify that the node and npm versions are up-to-date**
+ - When **Node.js** is installed, it also installs **npm** (Node Package Manager)
+ - Head to the command prompt to verify that `node` and `npm` are installed by typing:
  
  ```js
  node -v
  npm -v
  ```
  
- **4) Create a node project with npm**
+ - You can run the updater on `npm` itself by typing:
+ 
+ ```js
+ npm install npm@latest -g
+ ```
+ 
+ - You can also update `node` - https://hosting.review/tutorial/how-to-update-node/
+ 
+ 
+ **1) Change directory to your project folder**
+ 
+- Head to the command prompt, and `cd` *into* the **sprites-plus-modular** folder.
+
+ 
+ **2) Create a node project with npm**
  
  - Type: 
  
@@ -112,7 +111,7 @@ Head to the command prompt, and `cd` into the **sprites-plus-modular** folder.
  npm init -y
  ```
  
- - This will create your **package.json** file with default metadata about your project, which are in an object literal, which should look something like this:
+ - This will create your **package.json** file with default *metadata* about your project, which are in an object literal, which should look something like this:
  
  ```js
  {
@@ -129,11 +128,11 @@ Head to the command prompt, and `cd` into the **sprites-plus-modular** folder.
 }
 
  ```
-- You can read about *package.json* here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
+- You can read about **package.json** here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
 
-- Note that the default `name` of the project is the name of the folder that *package.json* is contained in. You can change this if you wish
+- Note that the default `name` of the project is the name of the folder that **package.json** is contained in. You can change this if you wish
 
-**5) Next we need to install the webpack module to this folder**
+**3) Next we need to install the `webpack` module to this folder**
 
 ```js
 npm install webpack --save
@@ -162,7 +161,7 @@ npm install webpack-cli -D --save
 
 **PS - You will now see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
 
-**6) Create a new file named *webpack.config.js***
+**4) Create a new file named *webpack.config.js***
 
 - It needs to look like this:
 
@@ -180,9 +179,9 @@ module.exports = {
 - You can see above that `module.exports` is an object literal:
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` is the name of the single JavaScript file we will compile to
-    - you can read more about the options for the *webpack.config.js* file here: https://webpack.js.org/concepts/#entry
+    - you can read more about the options for the **webpack.config.js** file here: https://webpack.js.org/concepts/#entry
     
-**7) Modify *package.json***
+**5) Modify *package.json***
 
 - Open up *package.json* and make the "scripts" key look like this:
 
@@ -193,9 +192,9 @@ module.exports = {
 },
 ```
 
-- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the *bundle.js* file automatically for us.
+- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the **bundle.js** file automatically for us.
 
-**8) Run npm!**
+**6) Run npm!**
 
 - Type: 
 
@@ -206,7 +205,7 @@ npm start
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 5 JavaScript files have been compiled to ES5 and the results bundled into it.
 
-**9) Edit your HTML file**
+**7) Edit your HTML file**
 
 In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 
