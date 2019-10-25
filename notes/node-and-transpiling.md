@@ -97,12 +97,14 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  - You can also update `node` - https://hosting.review/tutorial/how-to-update-node/
  
+<hr>
  
  **1) Change directory to your project folder**
  
 - Head to the command prompt, and `cd` *into* the **sprites-plus-modular** folder.
 
- 
+<hr>
+  
  **2) Create a node project with npm**
  
  - Type: 
@@ -132,6 +134,8 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 - Note that the default `name` of the project is the name of the folder that **package.json** is contained in. You can change this if you wish
 
+<hr>
+ 
 **3) Next we need to install the `webpack` module to this folder**
 
 ```js
@@ -161,6 +165,8 @@ npm install webpack-cli -D --save
 
 **PS - You will now see a file named *package-lock.json* - you won't be editing it - read about it here: https://docs.npmjs.com/files/package-lock.json**
 
+<hr>
+ 
 **4) Create a new file named *webpack.config.js***
 
 - It needs to look like this:
@@ -180,7 +186,9 @@ module.exports = {
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` is the name of the single JavaScript file we will compile to
     - you can read more about the options for the **webpack.config.js** file here: https://webpack.js.org/concepts/#entry
-    
+
+<hr>
+ 
 **5) Modify *package.json***
 
 - Open up *package.json* and make the "scripts" key look like this:
@@ -194,6 +202,8 @@ module.exports = {
 
 - This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the **bundle.js** file automatically for us.
 
+<hr>
+ 
 **6) Run npm!**
 
 - Type: 
@@ -205,6 +215,8 @@ npm start
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 5 JavaScript files have been compiled to ES5 and the results bundled into it.
 
+<hr>
+ 
 **7) Edit your HTML file**
 
 In **index.html** - make the "bottom" of the &lt;body> tag look like this:
@@ -219,10 +231,13 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 - we are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *loader.js*
 - note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
 
-
+<hr>
+ 
 **8) Final Test**
 - Reload the page, everything should work as before!
 - Note that `webpack` is stil running and watching our files, and if we make any changes, it will automatically recompile our files for us
+
+<hr>
 
 **9) Distribution**
 
@@ -233,7 +248,8 @@ When you post this to the web:
 - you don't need any of the other of the other configuration files or *package.json* or the *node_modules* folder
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
 
-
+<hr>
+ 
 ## V. <a id="section5">Discussion
 
 - Go ahead and make some changes in *main.js*, like increasing the number of sprites. If webpack is still running, it will automatically compile a new *bundle.js* for you.
@@ -260,12 +276,14 @@ npm install
 
 - You can then type `npm start` to run the project.
 
-
+<hr>
+ 
 ## VI. <a id="section6">Try This
 	
 - We are not collecting this, but you should practice this technique on another ES6 project or HW assignment
 
-
+<hr>
+ 
 ## VII. <a id="section7">Reference
 
 - [`npm install`](https://docs.npmjs.com/cli/install)
