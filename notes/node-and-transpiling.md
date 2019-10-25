@@ -95,7 +95,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **2) Change directory to your project folder**
  
-Head to the command prompt, and `cd` to your project folder.
+Head to the command prompt, and `cd` into the **sprites-plus-modular** folder.
  
  **3) Verify that the node and npm versions are up-to-date**
  
