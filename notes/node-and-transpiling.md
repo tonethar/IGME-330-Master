@@ -27,6 +27,8 @@ VII. [Reference](#section7)
 - https://en.wikipedia.org/wiki/Source-to-source_compiler
 - https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
 
+<hr>
+ 
 ## II. <a id="section2">Babel
  
 Babel is a an ES6 (and future versions of ES) to ES5 transpiler.
@@ -56,7 +58,8 @@ let skateboard = new Vehicle(2012,4);
 console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 ```
 
-
+<hr>
+ 
 ## III. <a id="section3">Node.js, NPM & webpack
 
 - https://nodejs.org/en/
@@ -67,6 +70,8 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - **npm** is the package (i.e. "library") manager for JavaScript
 - **webpack** is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
+<hr>
+ 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
 - Go get this ["sprites-plus-modular" demo code](_files/sprites-plus-modular.zip) - this is one of the demos we built in class that uses ES6 modules
@@ -74,7 +79,8 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
 - **Important:** make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes
 
-  
+<hr>
+ 
  **0) Install Node.js and the *Node Package Manager* (npm) - *if you need to***
  
  - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
