@@ -115,7 +115,7 @@ Head to the command prompt, and `cd` to your project folder.
  
  ```js
  {
-  "name": "part-IV-homework",
+  "name": "sprites-plus-modular",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -126,6 +126,7 @@ Head to the command prompt, and `cd` to your project folder.
   "author": "",
   "license": "ISC"
 }
+
  ```
 - You can read about *package.json* here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
 
@@ -145,15 +146,15 @@ npm install webpack-cli -D --save
 
 
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
-- the added `--save` flags will also add `"dependencies"` keys to *package.json*
+- the added `--save` flags will also add `"dependencies"` and `"devDependencies"` keys to *package.json*
 
 
 ```js
 "dependencies": {
-    "webpack": "^4.23.0"
+    "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.9"
   }
 ```
   
@@ -168,7 +169,7 @@ npm install webpack-cli -D --save
 
 ```js
 module.exports = {
-    entry: ['./js/init.js','./js/classes.js','./js/main.js','./js/utilities.js'],
+    entry: ['./src/loader.js','./src/main.js','./src/sprites.js','./src/utils.js','./src/canvas-utils.js'],
     output: {
         filename: './bundle.js'
     }
@@ -191,7 +192,7 @@ module.exports = {
 },
 ```
 
-- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the bundle.js file automatically for us.
+- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the *bundle.js* file automatically for us.
 
 **8) Run npm!**
 
@@ -202,28 +203,20 @@ npm start
 ```
 - this executes `webpack -d --watch` for you
 
-You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results bundled into it.
+You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 5 JavaScript files have been compiled to ES5 and the results bundled into it.
 
 **9) Edit your HTML file**
 
-Make your HTML file look like this:
+In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Canvas & ES6 Classes - HW</title>
-</head>
-<body>
-	<canvas width="600" height="400"></canvas>
-<!-- 	<script src="js/init.js" type="module"></script> -->
-	<script src="dist/bundle.js"></script>
+  <!-- <script src="src/loader.js" type="module"></script> -->
+  <script src="dist/bundle.js"></script>
 </body>
 </html>
 ```
 
-- we are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *init.js*
+- we are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *loader.js*
 - note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
 
 
