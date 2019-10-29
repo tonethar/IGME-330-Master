@@ -109,8 +109,8 @@ let darkGrammar = { // NEW
 	"<verb-phrase>" : ["<verb> <pre-determiner>"],
 	"<verb>" : ["was","wasn't"],
 	"<pre-determiner>" : ["such", "rather", "quite"],
-	"<adj1>" : ["bright","cold","cloudy","dark","overcast","sunny"],
-	"<adj2>" : ["dry","frigid","hot","rainy","stormy","wet"],
+	"<adj1>" : ["bright","cold","cloudy","dark [10]","overcast","sunny"],
+	"<adj2>" : ["dry","frigid","hot","rainy","stormy [10]","wet"],
 	"<noun>" : ["afternoon","day","mid-day","morning","night","twilight"]
 };
 
@@ -132,6 +132,8 @@ function doClick(){
 ```
 
 - **Try it:** - add an *interjection* non-terminal symbol to the end of the &lt;start> sentence above. Now define the &lt;interjection> symbol - and use *terminal symbols* (i.e. words like *Cool*, *Nice*, *Yeah*, *Bummer*, *Radical*)
+- Note: put the weight in square brackets after the symbol, but still inside the quoted string:
+  - this will make 'dark' and 'stormy' appear much more frequently than the other adjectives
 - See final results below:
 
 ![screenshot](./_images/text-15.png)
