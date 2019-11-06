@@ -40,8 +40,8 @@ $numJokes = count($jokes);
 $randomJoke = $jokes[mt_rand(0, $numJokes - 1)];
 
 $string = "<joke>\n";
-$string .= "<q>{$randomJoke[q]}</q>\n";
-$string .= "<a>{$randomJoke[a]}</a>";
+$string .= "<q>{$randomJoke['q']}</q>\n";
+$string .= "<a>{$randomJoke['a']}</a>";
 $string .= "</joke>";
 
 // Sends the correct HTTP header
