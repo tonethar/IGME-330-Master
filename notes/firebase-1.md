@@ -100,6 +100,12 @@
 
 <hr>
 
+If you get the error "firebase.database is not a function", add these additional libraries after the firebase-app.js library.  You should change the version numbers to be the same as the version number for firebase-app.je.
+```js
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+```
+
 ### II-I. See the changes!
 
 - Head back to your high-scores database, you should see the high score has been posted to "the cloud" - oooh!
