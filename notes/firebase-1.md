@@ -100,7 +100,7 @@
 
 <hr>
 
-If you get the error "firebase.database is not a function", add these additional libraries after the firebase-app.js library.  You should change the version numbers to be the same as the version number for firebase-app.je.
+If you get the error "firebase.database is not a function", add these additional libraries after the firebase-app.js library.  You should change the version numbers to be the same as the version number for firebase-app.js.
 ```js
 <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
