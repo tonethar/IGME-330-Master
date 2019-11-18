@@ -158,7 +158,7 @@ score= 110
 <hr>
 
 ## VII. Wrap up
-- that's all you need to know about firebase to fulfill the project 3 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
+- that's all you need to know about firebase to fulfill the project 2 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
   - https://firebase.google.com/docs/database/security/quickstart
   - https://firebase.google.com/docs/database/security/
   - https://medium.com/@dftaiwo/understanding-the-power-of-firebase-security-rules-part-1-f46aae773a24
