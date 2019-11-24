@@ -100,7 +100,7 @@ const app = new Vue({
 		})
 		.then(json => {	
 			console.log(json);
-		})
+		});
 	   } // end search
 	} // end methods
 });
