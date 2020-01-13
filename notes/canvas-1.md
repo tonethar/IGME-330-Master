@@ -108,14 +108,8 @@ We will demo how to draw a variety of shapes in class. Below are a couple possib
 ![screenshot](./_images/screen-saver-4.gif)
 
 ## IV. Homework
-Do ONE of the following:
 
-- Modify the above "screen saver" in some significant ways (so that it draws differently/looks different)
+- Modify the above "screen saver" in some significant ways (so that it draws differently/looks different) - see myCourses for the due date and submission requirements
 
-**OR**
-
-- Create a "random walker" by following the instructions here --> [Random Walker HW](./HW-random-walker.md)
-
-See mycourses dropbox for submission instructions
 
   
