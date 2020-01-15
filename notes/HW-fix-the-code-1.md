@@ -1,7 +1,7 @@
 # HW - Fix The Code #1
 
 ## I. Overview
-- Can you find and fix the 5 mistakes in this code? Have at it!
+- Can you find and fix the 4 (or more) mistakes in this code? Have at it!
 
 ## II. The code
 
