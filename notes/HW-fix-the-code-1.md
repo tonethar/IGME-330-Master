@@ -36,7 +36,7 @@
 <body>
 <button id="myButton">Click Me to see a random number between 0 and 1!</button>
 <p id="myOutput">???</p>
-<p>But first you'll have to fix the errors! There are 5 mistakes in this code - can you find and fix them all - without modifying the HTML?</p>
+<p>But first you'll have to fix the errors! There are at least 4 mistakes in this code - can you find and fix them all - without modifying the HTML?</p>
 
 </body>
 </html>
