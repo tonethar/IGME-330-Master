@@ -1,4 +1,4 @@
-# Intro to the Canvas 2D Drawing API
+# I - Intro to the Canvas 2D Drawing API
 
 The Canvas API provides a means for drawing graphics via JavaScript and the HTML &lt;canvas> element. You should have already looked over this presentation:
 - [Intro-to-Canvas.pdf](../presentations/Intro-to-Canvas.pdf)
