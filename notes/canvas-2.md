@@ -6,7 +6,12 @@
 ## I. Overview
 
 - Let's review drawing rectangles, circles and lines
-- Let's see how to draw rings (circles with the center punched out) and polygons
+- New stuff:
+  - draw rings (circles with the center punched out)
+  - polygons
+  - `ctx.lineJoin` - `round|bevel|miter`
+  - `ctx.setLineDash()`
+  - `ctx.arcTo()`
 
 ## II. Obtaining a *drawing context* object
    
