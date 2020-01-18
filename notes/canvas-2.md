@@ -8,10 +8,14 @@
 - Let's review drawing *rectangles*, *circles* and *lines*
 - New stuff:
   - draw rings (circles with the center punched out)
-  - polygons
-  - `ctx.lineJoin` - `round|bevel|miter`
-  - `ctx.setLineDash()`
-  - `ctx.arcTo()`
+  - draw polygons
+  - Canvas methods:
+      - `ctx.arcTo()`
+      - `ctx.setLineDash()`
+  - Canvas properties:
+    - `ctx.lineJoin` - <code>round|bevel|miter</code>
+
+
 
 ## II. Obtaining a *drawing context* object
    
