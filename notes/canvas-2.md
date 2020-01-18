@@ -20,11 +20,11 @@
       
 ## III. How to draw a Rectangle
 
-A) Optionally, `ctx.save()` (i.e. save or "push") the current value of all of the drawing state attributes so that you can easily restore them to their original values later. This also saves the CTM (current transformation matrix), which we will discuss soon
+  A) Optionally, `ctx.save()` (i.e. save or "push") the current value of all of the drawing state attributes so that you can easily restore them to their original values later. This also saves the CTM (current transformation matrix), which we will discuss soon
       
-B) Optionally, set the drawing state attributes (properties) that you wish to have values other than the defaults - for example `ctx.lineWidth`, `ctx.strokeStyle`, `ctx.fillStyle`, `ctx.globalAlpha` - a full list of state properties is here: https://www.w3.org/TR/2dcontext/#the-canvas-state
+  B) Optionally, set the drawing state attributes (properties) that you wish to have values other than the defaults - for example `ctx.lineWidth`, `ctx.strokeStyle`, `ctx.fillStyle`, `ctx.globalAlpha` - a full list of state properties is here: https://www.w3.org/TR/2dcontext/#the-canvas-state
       
-C) Create a *path* for the rectangle like this:
+  C) Create a *path* for the rectangle like this:
 
 ```js
 ctx.beginPath();
@@ -32,14 +32,14 @@ ctx.rect(x,y,width,height);
 ctx.closePath();
 ```
       
-D) So we now have a path, but we can't see it. Now we need to stroke and/or fill the rectangular path like so. *Note that the order of these two calls **WILL** have an effect on the appearance of the drawing*:
+  D) So we now have a path, but we can't see it. Now we need to stroke and/or fill the rectangular path like so. *Note that the order of these two calls **WILL** have an effect on the appearance of the drawing*:
      
 ```js
 ctx.stroke();
 ctx.fill();
 ```
      
-E) Optionally, `ctx.restore()` the drawing context state properties and CTM to their previous values
+  E) Optionally, `ctx.restore()` the drawing context state properties and CTM to their previous values
 
 - The final version, which gives us a 200px by 200px yellow rectangle, with a 5 pixel thick (visible) red border, looks like this:
 
@@ -109,7 +109,7 @@ E) Optionally, `ctx.restore()` the drawing context state properties and CTM to t
 
  \*\* ***You can draw a 2D ring (or donut) shape by punching out the center. The trick is to create an inner arc with the `counterclockwise` value set to `true`  :*** \*\*
  
-  ```js
+ ```js
        ctx.beginPath(); 
        ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
        ctx.arc(200, 200, 100, 0, Math.PI * 2, true);  // punches out the center of the circle
