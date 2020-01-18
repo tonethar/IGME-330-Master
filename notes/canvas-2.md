@@ -87,23 +87,23 @@ ctx.fill();
 
 - virtually identical to drawing a rectangle, just replace the path code - `ctx.rect()` - with:
        
-       ```js
+```js
        ctx.beginPath(); 
        ctx.arc(x, y, radius, startAngle, endAngle, counterclockwise);
        ctx.closePath(); 
-       ```
+```
        
  - here's an example:
      
-       ```js
+```js
        ctx.beginPath(); 
        ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
        ctx.closePath();
        ctx.stroke();
        ctx.fill();  
-       ```
+ ```
  
- ![circle image](./_images/circle.jpg)
+![circle image](./_images/circle.jpg)
  
 ## V. How to draw a Ring
 
