@@ -80,7 +80,7 @@ You may have heard of the author William Burroughs and his *Naked Lunch* novel, 
  
 *"The random generators add subject matter to the aesthetic structure or form. If the random generators were to rule alone, chaos would emerge. Because the aesthetic structure narrows down randomness by means of a computer programme, it "in-forms" the chaos. Discernible aesthetic information is thus produced."* -  Georg Nees (1969)
 
-- **A great blog on randomness and digital art is here -->** https://tylerxhobbs.com/essays
+- **A great blog on randomness and digital art is here -->** https://tylerxhobbs.com/essays/2014/what-programming-brings-to-art
 
 In this post, he lists 5 differentiators that programming brings to art:
   - Precision
