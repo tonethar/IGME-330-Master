@@ -112,4 +112,6 @@ We will demo how to draw a variety of shapes in class. Below are a couple possib
 - Modify the above "screen saver" in some significant ways (so that it draws differently/looks different) - see myCourses for the due date and submission requirements
 
 
-  
+  <hr><hr>
+
+**[Next Chapter -> Canvas Part II](canvas-2.md)**
