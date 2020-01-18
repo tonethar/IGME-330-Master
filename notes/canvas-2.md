@@ -43,18 +43,33 @@ ctx.fill();
 
 - The final version, which gives us a 200px by 200px yellow rectangle, with a 5 pixel thick (visible) red border, looks like this:
 
-```js
-let ctx = document.querySelector('canvas').getContext('2d');
-ctx.save();                 // A - optionally, save the drawing state attributes and CTM
-ctx.strokeStyle = "red";    // B - optionally, change the values of one or more drawing state attributes
-ctx.fillStyle = "yellow";   // B
-ctx.lineWidth = "10";       // B
-ctx.beginPath();            // C - describe a path
-ctx.rect(20,20,200,200);    // C
-ctx.closePath();            // C
-ctx.stroke();               // D - draw! i.e. make the path visible
-ctx.fill();                 // D - swap the order of stroke() and fill() to see what happens to the drawing
-ctx.restore();              // E - optionally, restore the saved values of drawing state attributes and CTM
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Drawin'!</title>
+	<style>
+		canvas{border: 2px solid #ccc;}
+	</style>
+</head>
+<body>
+<canvas width="400" height="300"></canvas>
+<script>
+	let ctx = document.querySelector('canvas').getContext('2d');
+	ctx.save();                 // A - optionally, save the drawing state attributes and CTM
+	ctx.strokeStyle = "red";    // B - optionally, change the values of one or more drawing state attributes
+	ctx.fillStyle = "yellow";   // B
+	ctx.lineWidth = "10";       // B
+	ctx.beginPath();            // C - describe a path
+	ctx.rect(20,20,200,200);    // C
+	ctx.closePath();            // C
+	ctx.stroke();               // D - draw! i.e. make the path visible
+	ctx.fill();                 // D - swap the order of stroke() and fill() to see what happens to the drawing
+	ctx.restore();              // E - optionally, restore the saved values of drawing state attributes and CTM
+</script>
+</body>
+</html>
 ```
 
 \*\* ***Looks good, but note that we can only see 5 pixels of our 10-pixel stroke:*** \*\*
