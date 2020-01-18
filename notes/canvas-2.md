@@ -88,19 +88,19 @@ ctx.fill();
 - virtually identical to drawing a rectangle, just replace the path code - `ctx.rect()` - with:
        
 ```js
-       ctx.beginPath(); 
-       ctx.arc(x, y, radius, startAngle, endAngle, counterclockwise);
-       ctx.closePath(); 
+  ctx.beginPath(); 
+  ctx.arc(x, y, radius, startAngle, endAngle, counterclockwise);
+  ctx.closePath(); 
 ```
        
  - here's an example:
      
 ```js
-       ctx.beginPath(); 
-       ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
-       ctx.closePath();
-       ctx.stroke();
-       ctx.fill();  
+  ctx.beginPath(); 
+  ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
+  ctx.closePath();
+  ctx.stroke();
+  ctx.fill();  
  ```
  
 ![circle image](./_images/circle.jpg)
@@ -110,12 +110,12 @@ ctx.fill();
  \*\* ***You can draw a 2D ring (or donut) shape by punching out the center. The trick is to create an inner arc with the `counterclockwise` value set to `true`  :*** \*\*
  
  ```js
-       ctx.beginPath(); 
-       ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
-       ctx.arc(200, 200, 100, 0, Math.PI * 2, true);  // punches out the center of the circle
-       ctx.closePath();
-       ctx.stroke();
-       ctx.fill();  
+  ctx.beginPath(); 
+  ctx.arc(200, 200, 125, 0, Math.PI * 2, false); // draws a circle at 200,200 with a 125-pixel radius
+  ctx.arc(200, 200, 100, 0, Math.PI * 2, true);  // punches out the center of the circle
+  ctx.closePath();
+  ctx.stroke();
+  ctx.fill();  
  ```
  
   ![circle image](./_images/circle-2.jpg)
@@ -124,13 +124,13 @@ ctx.fill();
 
 - just replace the path code - `ctx.rect()` - with:
      
-       ```js
-       ctx.beginPath(); 
-       ctx.moveTo(20,100);  // start the "pen" at x=20, y=100 
-       ctx.lineTo(620,100); // draw line to x=620, y=100
-       ctx.closePath();
-       ctx.stroke();
-       ``` 
+```js
+  ctx.beginPath(); 
+  ctx.moveTo(20,100);  // start the "pen" at x=20, y=100 
+  ctx.lineTo(620,100); // draw line to x=620, y=100
+  ctx.closePath();
+  ctx.stroke();
+``` 
    
 ![line image](./_images/line.jpg)
     
@@ -138,15 +138,15 @@ ctx.fill();
 
 - continue adding lines to our path:
      
-       ```js
-       ctx.beginPath(); 
-       ctx.moveTo(20,100);  	// start the "pen" at x=20, y=100 
-       ctx.lineTo(620,100); 	// point #1 -> draw line to x=620, y=100
-       ctx.lineTo(340,400);	// point #2 -> draw line to x=340, y=400
-       ctx.closePath(); 	// the path will automatically close back to point #1
-       ctx.stroke();
-       ctx.fill(); 
-       ``` 
+```js
+  ctx.beginPath(); 
+  ctx.moveTo(20,100);  	// start the "pen" at x=20, y=100 
+  ctx.lineTo(620,100); 	// point #1 -> draw line to x=620, y=100
+  ctx.lineTo(340,400);	// point #2 -> draw line to x=340, y=400
+  ctx.closePath(); 	// the path will automatically close back to point #1
+  ctx.stroke();
+  ctx.fill(); 
+``` 
 
 ![triangle image](./_images/triangle.jpg)
 
@@ -180,23 +180,23 @@ ctx.fill();
   - **#5 - How to draw curvilinear shapes**:
     - To draw curves, we can use `ctx.arcTo(CP-1x, CP-1y, CP-2x, CP-2y, radius) // CP = "Control Point"` to build up a path.
     
-    ```js
-    ctx.beginPath();
-    ctx.moveTo(50, 100);             	// P0
-    ctx.arcTo(300, 425, 550, 100, 80); 	// P1, P2 and the radius
-    ctx.lineTo(550, 100);               // top line: line segment between P0 & P2     
-    ctx.closePath();
-    ctx.stroke();               
-    ctx.fill();             
-    ```
+```js
+  ctx.beginPath();
+  ctx.moveTo(50, 100);             	// P0
+  ctx.arcTo(300, 425, 550, 100, 80); 	// P1, P2 and the radius
+  ctx.lineTo(550, 100);               // top line: line segment between P0 & P2     
+  ctx.closePath();
+  ctx.stroke();               
+  ctx.fill();             
+```
     
     ![arc-to image](./_images/arc-to.jpg)
     
-    - these are some nice reference and interactives about `ctx.arcTo()` here:
-      - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
-      - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html
-    - in SG-2, you will see how to draw [bezier curves](https://en.wikipedia.org/wiki/Bézier_curve) using `ctx. quadraticCurveTo()` and `ctx.bezierCurveTo()`
-    - **Try It Yourself:** How could you make just the straight line in the shape above *green* in color, while leaving the rest of the stroke *red* ?
+- these are some nice reference and interactives about `ctx.arcTo()` here:
+  - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
+  - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html
+  - in SG-2, you will see how to draw [bezier curves](https://en.wikipedia.org/wiki/Bézier_curve) using `ctx. quadraticCurveTo()` and `ctx.bezierCurveTo()`
+  - **Try It Yourself:** How could you make just the straight line in the shape above *green* in color, while leaving the rest of the stroke *red* ?
       
 ## VII. Reference
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
