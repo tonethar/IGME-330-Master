@@ -1,7 +1,7 @@
 # II - More Canvas
 
  - **What is the canvas drawing API, and why is it worth knowing?**
-   - It's a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) bitmap drawing API that is available on all modern web browsers - it's good to know how these kind of APIs work - as both iOS & Android have similar APIs for drawing
+   - It's a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) bitmap drawing API that is available on all modern web browsers - it's good to know how these kind of APIs work - as both iOS & Android have similar APIs for custom drawing
     
 ## I. Overview
 
