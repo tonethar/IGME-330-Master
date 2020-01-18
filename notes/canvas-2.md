@@ -26,18 +26,19 @@
       
 - C) Create a *path* for the rectangle like this:
 
-      ```js
-      ctx.beginPath();
-      ctx.rect(x,y,width,height);
-      ctx.closePath();
-      ```
+```js
+ctx.beginPath();
+ctx.rect(x,y,width,height);
+ctx.closePath();
+```
       
 - D) So we now have a path, but we can't see it. Now we need to stroke and/or fill the rectangular path like so. *Note that the order of these two calls **WILL** have an effect on the appearance of the drawing*:
      
-     ```js
-     ctx.stroke();
-     ctx.fill();
-     ```
+```js
+ctx.stroke();
+ctx.fill();
+```
+     
 - E) Optionally, `ctx.restore()` the drawing context state properties and CTM to their previous values
 
 - The final version, which gives us a 200px by 200px yellow rectangle, with a 5 pixel thick (visible) red border, looks like this:
