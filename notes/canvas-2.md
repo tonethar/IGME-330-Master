@@ -5,7 +5,7 @@
     
 ## I. Overview
 
-- Let's review drawing rectangles, circles and lines
+- Let's review drawing *rectangles*, *circles* and *lines*
 - New stuff:
   - draw rings (circles with the center punched out)
   - polygons
