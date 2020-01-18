@@ -207,3 +207,7 @@ ctx.fill();
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
 - More on clipping: https://stackoverflow.com/questions/18988118/how-can-i-clip-inside-a-shape-in-html5-canvas
+
+<hr><hr>
+
+**[Previous Chapter <- Canvas Part I](canvas-1.md)**
