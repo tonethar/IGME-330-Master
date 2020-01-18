@@ -85,7 +85,7 @@ ctx.fill();
 
 ## IV. How to draw a Circle
 
-     - virtually identical to drawing a rectangle, just replace the path code - `ctx.rect()` - with:
+- virtually identical to drawing a rectangle, just replace the path code - `ctx.rect()` - with:
        
        ```js
        ctx.beginPath(); 
@@ -93,7 +93,7 @@ ctx.fill();
        ctx.closePath(); 
        ```
        
-     - here's an example:
+ - here's an example:
      
        ```js
        ctx.beginPath(); 
