@@ -43,6 +43,8 @@ E) Optionally, `ctx.restore()` the drawing context state properties and CTM to t
 
 - The final version, which gives us a 200px by 200px yellow rectangle, with a 5 pixel thick (visible) red border, looks like this:
 
+**drawin.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
