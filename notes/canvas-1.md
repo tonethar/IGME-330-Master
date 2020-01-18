@@ -12,7 +12,6 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
   - creating paths, and stroking and filling them
   - setting up an animation loop
   
-  
 ## II. Start File
 
 **first-canvas.html**
