@@ -15,6 +15,10 @@
 
 ## III. Video Links
 
+- []()
+- []()
+
+See myCourses for submission instructions.
 
 ## IV. Start Code
 
