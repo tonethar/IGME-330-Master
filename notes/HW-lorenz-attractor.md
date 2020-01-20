@@ -46,7 +46,7 @@ See myCourses for due date & submission instructions.
 	</script>
 </head>
 <body>
-<canvas id="canvas"></canvas>
+  <canvas id="canvas"></canvas>
 </body>
 </html>
 ```
