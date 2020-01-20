@@ -37,7 +37,6 @@ See myCourses for due date & submission instructions.
 	let ctx;
 	const canvasWidth = 800, canvasHeight = 600;
 	
-	
 	function init(){
 	  ctx = canvas.getContext("2d");
 	  canvas.width = canvasWidth;
@@ -48,7 +47,6 @@ See myCourses for due date & submission instructions.
 </head>
 <body>
 <canvas id="canvas"></canvas>
-
 </body>
 </html>
 ```
