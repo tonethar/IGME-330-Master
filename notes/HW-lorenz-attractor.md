@@ -15,8 +15,8 @@
 
 ## III. Video Links
 
-- []()
-- []()
+- [Lorenz Attractor-1 (10:20)](https://video.rit.edu/Watch/about-lorenz-attractor) - About the Lorenz Attractor
+- [Lorenz Attractor-2 (16:30)](https://video.rit.edu/Watch/visualizing-lorenz-attractor) - Visualizing the Lorenz Attractor
 
 See myCourses for submission instructions.
 
