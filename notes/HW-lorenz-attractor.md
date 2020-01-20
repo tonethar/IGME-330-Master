@@ -14,3 +14,37 @@
 - http://paulbourke.net/fractals/lorenz/
 
 ## III. Video Links
+
+
+## IV. Start Code
+
+
+**LA-start.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Lorenz Attractor Start</title>
+	<style>canvas{border: 1px solid black;}</style>
+	<script>
+	
+	let ctx;
+	const canvasWidth = 800, canvasHeight = 600;
+	
+	
+	function init(){
+	  ctx = canvas.getContext("2d");
+	  canvas.width = canvasWidth;
+	  canvas.height = canvasHeight;
+	  ctx.fillRect(0,0,canvasWidth,canvasHeight);
+	}
+	</script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+</body>
+</html>
+```
