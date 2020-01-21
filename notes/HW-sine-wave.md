@@ -14,8 +14,8 @@
 
 ## III. Video Links
 
-- [Sine Wave-1 (10:31)]() - Drawing a static Sine wave
-- [Sine Wave-2 (11:04)]() - Drawing a animated Sine wave
+- [Sine Wave-1 (10:31)](https://video.rit.edu/Watch/sine-wave-1) - Drawing a static Sine wave
+- [Sine Wave-2 (11:04)](https://video.rit.edu/Watch/sine-wave-2) - Drawing a animated Sine wave
 
 ## IV. Start Code
 
