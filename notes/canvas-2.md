@@ -65,7 +65,7 @@ ctx.fill();
 	</style>
 </head>
 <body>
-<canvas width="600" height="400"></canvas>
+<canvas width="640" height="480"></canvas>
 <script>
 	let ctx = document.querySelector('canvas').getContext('2d');
 	ctx.save();                 // A - optionally, save the drawing state attributes and CTM
