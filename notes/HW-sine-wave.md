@@ -8,6 +8,8 @@
 - We can use them to create a natural "ease" in a computer animation 
 - Sine waves are cool! Let's go ahead and draw some now!
 
+![Sine Wave GIF](./_images/HW-sine-wave-example.gif)
+
 ## II. Handy Links
 - https://en.wikipedia.org/wiki/Sine
 - https://en.wikipedia.org/wiki/Sine_wave
