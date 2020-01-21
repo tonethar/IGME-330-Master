@@ -14,6 +14,8 @@
 
 ## III. Video Links
 
+- [Sine Wave-1 (10:31)]() - Drawing a static Sine wave
+- [Sine Wave-2 (11:04)]() - Drawing a animated Sine wave
 
 ## IV. Start Code
 
@@ -31,13 +33,11 @@
 	const canvasWidth = 400, canvasHeight = 300;
 	let ctx;
 
-
 	function init(){
 		ctx = canvas.getContext("2d");
 		canvas.width = canvasWidth;
 		canvas.height = canvasHeight;
 		ctx.fillRect(0,0,canvasWidth,canvasHeight);
-
 	}
 
 
