@@ -199,7 +199,7 @@ ctx.fill();
   ctx.fill();             
 ```
     
-    ![arc-to image](./_images/arc-to.jpg)
+![arc-to image](./_images/arc-to.jpg)
     
 - these are some nice reference and interactives about `ctx.arcTo()` here:
   - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
