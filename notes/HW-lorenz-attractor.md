@@ -6,6 +6,7 @@
 - Dynamical systems such as these as seen throughout nature, and are compelling subjects to explore utilizing interactive media.
 - Today we will implement this system in JavaScript/Canvas - and pretty much as a port of Daniel Shiffman's Java/Processing example linked below. (Thanks so much to Daniel for his series of creative coding videos!)
 
+![Lorenz Attractor GIF](./_images/HW-lorenz-example.gif)
 
 ## II. Handy Links
 - The Coding Train - [Coding Challenge #12: The Lorenz Attractor in Processing](https://www.youtube.com/watch?v=f0lkz2gSsIk)
