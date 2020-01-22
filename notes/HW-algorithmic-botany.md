@@ -67,7 +67,7 @@ console.log(a,r);
 
 - Comment out the `console.log()` when you are finished
 
-8. Now let's calculate the `x` and `y` - add the following to `loop()`:
+8. Now let's calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
 
 ```js
 // now calculate the `x` and `y`
