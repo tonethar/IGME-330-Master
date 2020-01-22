@@ -100,4 +100,4 @@ drawCircle(ctx,x,y,2,"white");
 
 12. If your code isn't co-operating, compare it to this version.
 
-![Screenshot](_images/algorithmic-botany-2.jpg)
+![Screenshot](_images/HW-algorithmic-botany-2.jpg)
