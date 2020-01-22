@@ -98,6 +98,6 @@ drawCircle(ctx,x,y,2,"white");
 ![Screenshot](_images/HW-algorithmic-botany-1.jpg)
 
 
-12. If your code isn't co-operating, compare it to this version.
+12. If your code isn't co-operating, compare your `loop()` to this version.
 
 ![Screenshot](_images/HW-algorithmic-botany-2.jpg)
