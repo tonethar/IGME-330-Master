@@ -135,7 +135,7 @@
     let color = `hsl(${aDegrees % 360},100%,50%)`;
     ```
     
-4. Here we slowly ramp the hue based on 'n'
+4. Here we slowly ramp the hue based on the value of `n`
 
     ```js
     let color = `hsl(${n/5 % 360},100%,50%)`;
