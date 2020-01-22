@@ -113,7 +113,7 @@
 
 ## III. A few enhancements
 
-1. Let's try changing the color based on the value of `n` - run the code and see the changes:
+1. Let's try changing the RGB color based on the value of `n` - the "age" of a petal basically - run the code and see the changes:
 
     ```js
     let color = `rgb(${n % 256},0,255)`;
@@ -121,7 +121,16 @@
     ```
     
   
-2. Try this for `color` instead:
+2. Try this for `color` instead - here we are changing RGB based on the angle of the dot:
 
+    ```js
+    let aDegrees = n * 137.5;
+    let color = `rgb(${aDegrees % 256},0,255)`;
+    ```
 
+3. Here we can vary the HSL (Hue-Saturation-Lightness) based on what quadrant the petal is located in:
 
+    ```js
+    let aDegrees = n * 137.5;
+    let color = `hsl(${aDegrees % 360},100%,50%)`;
+    ```
