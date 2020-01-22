@@ -128,9 +128,13 @@
     let color = `rgb(${aDegrees % 256},0,255)`;
     ```
 
-3. Here we can vary the HSL (Hue-Saturation-Lightness) based on what quadrant the petal is located in:
+3. Here we can vary the hue in HSL (Hue-Saturation-Lightness) based on what quadrant the petal is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
 
     ```js
     let aDegrees = n * 137.5;
     let color = `hsl(${aDegrees % 360},100%,50%)`;
     ```
+    
+4. Here we slowly ramp the hue based on 'n'
+
+`let color = `hsl(${n/5 % 360},100%,50%)`;`
