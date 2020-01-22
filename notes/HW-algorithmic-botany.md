@@ -137,4 +137,6 @@
     
 4. Here we slowly ramp the hue based on 'n'
 
-`let color = `hsl(${n/5 % 360},100%,50%)`;`
+    ```js
+    let color = `hsl(${n/5 % 360},100%,50%)`;
+    ```
