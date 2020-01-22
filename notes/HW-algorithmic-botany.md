@@ -86,3 +86,18 @@ console.log(x,y);
 204.21762289892536 155.4965131749556
 192.12153797590233 148.61081457866456
 ```
+
+10. We've done enough so that we can now draw the dots by calling our helper function - here it is:
+
+```js
+drawCircle(ctx,x,y,2,"white");
+```
+
+11. Run the app. You should see something like this.
+
+![Screenshot](_images/)
+
+
+12. If your code isn't co-operating, compare it to this version.
+
+![Screenshot](_images/)
