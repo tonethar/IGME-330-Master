@@ -3,11 +3,11 @@
 
 ## I. Overview
 
- - Today we'll
  - In botany, phyllotaxy is the arrangement of leaves on a plant stem - these spirals form a distinctive class of patterns in nature.
+ - Today we'll look at one of the Coding Train's coding challenges written for JS/Processing, and port it to JS/Canvas.
+ - This would be a great "starter" for Project 1!
  
  Links:
- - Coding Train [Coding Challenge #30: Phyllotaxis](https://thecodingtrain.com/CodingChallenges/030-phyllotaxis.html)
  - https://en.wikipedia.org/wiki/Phyllotaxis
  - http://www.algorithmicbotany.org
  - http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
@@ -15,18 +15,23 @@
  
 ## II. Instructions
 
-- Watch the video
-- Grab the start file
+- For an overview of what we are building and how it works, watch the video - Coding Train [Coding Challenge #30: Phyllotaxis (11:01)](https://thecodingtrain.com/CodingChallenges/030-phyllotaxis.html)
+- Grab the start file from [HW-sine-wave.md](./HW-sine-wave.md), name it **phyllotaxis-1.html**, and start coding!
+
+<hr>
 
 1. Add your `window.onload = init;` call to the right place.
+
 
 2. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
 `let n = 0;`
 
+
 3. Also go ahead and declare the "divergence angle" in "script scope":
 
 `const divergence = 137.5;`
+
 
 4. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
 
@@ -38,6 +43,7 @@ function loop(){
   n++;
 }
 ```
+
 
 5. Each frame we need to draw a new dot (pedal) by calulating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
 
@@ -51,9 +57,11 @@ let r = c * Math.sqrt(n);
 console.log(a,r);
 ```
 
+
 6. `c` is a "script scoped" variable - go declare and initialize it now:
 
 `const c = 4;`
+
 
 7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this:
 
@@ -66,6 +74,7 @@ console.log(a,r);
 ```
 
 - Comment out the `console.log()` when you are finished
+
 
 8. Now let's calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
 
@@ -87,11 +96,13 @@ console.log(x,y);
 192.12153797590233 148.61081457866456
 ```
 
+
 10. We've done enough so that we can now draw the dots by calling our helper function - here it is:
 
 ```js
 drawCircle(ctx,x,y,2,"white");
 ```
+
 
 11. Run the app. You should see something like this.
 
@@ -101,3 +112,5 @@ drawCircle(ctx,x,y,2,"white");
 12. If your code isn't co-operating, compare your `loop()` to this version.
 
 ![Screenshot](_images/HW-algorithmic-botany-2.jpg)
+
+## III. A few enhancements
