@@ -18,7 +18,7 @@
 - Watch the video
 - Grab the start file
 
-1. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) we are going to draw. "script scoped" means that it is declared at the "top level" outside of any functions.
+1. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
 `let n = 0;`
 
@@ -26,4 +26,11 @@
 
 `const divergence = 137.5;`
 
-3. 
+3. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
+
+```js
+function loop(){
+	
+		n++;
+	}
+```
