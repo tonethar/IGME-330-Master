@@ -25,24 +25,24 @@
 
 2. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
-`let n = 0;`
+    `let n = 0;`
 
 
 3. Also go ahead and declare the "divergence angle" in "script scope":
 
-`const divergence = 137.5;`
+    `const divergence = 137.5;`
 
 
 4. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
 
-```js
-function loop(){
- 	setTimeout(loop,1000/30);
+    ```js
+     function loop(){
+ 	    setTimeout(loop,1000/30);
   
   
-  n++;
-}
-```
+      n++;
+    }
+    ```
 
 
 5. Each frame we need to draw a new dot (pedal) by calulating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
