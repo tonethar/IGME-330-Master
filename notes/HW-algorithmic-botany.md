@@ -18,23 +18,28 @@
 - Watch the video
 - Grab the start file
 
-1. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
+1. Add your `window.onload = init;` call to the right place.
+
+2. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
 `let n = 0;`
 
-2. Also go ahead and declare the "divergence angle" in "script scope":
+3. Also go ahead and declare the "divergence angle" in "script scope":
 
 `const divergence = 137.5;`
 
-3. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
+4. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
 
 ```js
 function loop(){
+ 	setTimeout(loop,1000/30);
+  
+  
   n++;
 }
 ```
 
-4. Each frame we need to draw a new dot (pedal) by calulating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()`:
+5. Each frame we need to draw a new dot (pedal) by calulating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
 
 ```js
 // each frame draw a new dot
@@ -43,10 +48,11 @@ function loop(){
 // `c` is the "padding" between the dots
 let a = n * dtr(137.5);
 let r = c * Math.sqrt(n);
+console.log(a,r);
 ```
 
-5. `c` is a "script scoped" variable - go declare and initialize it now:
+6. `c` is a "script scoped" variable - go declare and initialize it now:
 
 `const c = 4;`
 
-6. 
+7. 
