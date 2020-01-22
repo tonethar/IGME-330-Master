@@ -95,7 +95,7 @@ drawCircle(ctx,x,y,2,"white");
 
 11. Run the app. You should see something like this.
 
-![Screenshot](_images/algorithmic-botany-1.jpg)
+![Screenshot](_images/HW-algorithmic-botany-1.jpg)
 
 
 12. If your code isn't co-operating, compare it to this version.
