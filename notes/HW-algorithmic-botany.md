@@ -55,4 +55,35 @@ console.log(a,r);
 
 `const c = 4;`
 
-7. 
+7. Run this in the browser, and check the console to be sure you're getting the angle and radius logged out. You should be seeing numbers something like this:
+
+```
+0 0
+40 200 150
+35 2.399827721492203
+40 197.0508906527595 152.70236083046265
+4.799655442984406 5.656854249492381
+200.49302733372974 144.36467178877794
+```
+
+- Comment out the `console.log()` when you are finished
+
+8. Now let's calculate the `x` and `y` - add the following to `loop()`:
+
+```js
+// now calculate the `x` and `y`
+let x = r * Math.cos(a) + canvasWidth/2;
+let y = r * Math.sin(a) + canvasHeight/2;
+console.log(x,y);
+```
+
+
+9. Run this in the browser, and check the console to be sure you're getting the `x` and `y` logged out. You should be seeing numbers something like this (comment out the `console.log()` when you are done):
+
+```
+200 150
+197.0508906527595 152.70236083046265
+200.49302733372974 144.36467178877794
+204.21762289892536 155.4965131749556
+192.12153797590233 148.61081457866456
+```
