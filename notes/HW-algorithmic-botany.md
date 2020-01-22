@@ -55,15 +55,14 @@ console.log(a,r);
 
 `const c = 4;`
 
-7. Run this in the browser, and check the console to be sure you're getting the angle and radius logged out. You should be seeing numbers something like this:
+7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this:
 
 ```
 0 0
-40 200 150
-35 2.399827721492203
-40 197.0508906527595 152.70236083046265
+2.399827721492203 4
 4.799655442984406 5.656854249492381
-200.49302733372974 144.36467178877794
+7.199483164476609 6.928203230275509
+9.599310885968812 8
 ```
 
 - Comment out the `console.log()` when you are finished
