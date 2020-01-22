@@ -30,7 +30,23 @@
 
 ```js
 function loop(){
-	
-		n++;
-	}
+  n++;
+}
 ```
+
+4. Each frame we need to draw a new dot (pedal) by calulating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()`:
+
+```js
+// each frame draw a new dot
+// `a` is the angle
+// `r` is the radius from the center of the flower
+// `c` is the "padding" between the dots
+let a = n * dtr(137.5);
+let r = c * Math.sqrt(n);
+```
+
+5. `c` is a "script scoped" variable - go declare and initialize it now:
+
+`const c = 4;`
+
+6. 
