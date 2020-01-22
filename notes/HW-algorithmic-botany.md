@@ -112,3 +112,16 @@
 ![Screenshot](_images/HW-algorithmic-botany-2.jpg)
 
 ## III. A few enhancements
+
+1. Let's try changing the color based on the value of `n` - run the code and see the changes:
+
+    ```js
+    let color = `rgb(${n % 256},0,255)`;
+    drawCircle(ctx,x,y,2,color);
+    ```
+    
+  
+2. Try this for `color` instead:
+
+
+
