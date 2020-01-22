@@ -63,7 +63,7 @@
     `const c = 4;`
 
 
-7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this:
+7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this (comment out the `console.log()` when you are done):
 
     ```
     0 0
@@ -72,8 +72,6 @@
     7.199483164476609 6.928203230275509
     9.599310885968812 8
     ```
-
-- Comment out the `console.log()` when you are finished
 
 
 8. Now let's calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
