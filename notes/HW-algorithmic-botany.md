@@ -29,7 +29,7 @@
     `let n = 0;`
 
 
-3. Also go ahead and declare the "divergence angle" in "script scope":
+3. Also go ahead and declare the "divergence angle" in script scope:
 
     `const divergence = 137.5;`
 
