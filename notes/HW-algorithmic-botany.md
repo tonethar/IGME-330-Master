@@ -141,3 +141,7 @@
     ```js
     let color = `hsl(${n/5 % 360},100%,50%)`;
     ```
+ 
+ ## IV. Submission
+ 
+ - See dropbox for submission instructions
