@@ -122,18 +122,18 @@
     ```
     
   
-2. Try this for `color` instead - here we are changing RGB based on the angle of the dot:
+2. Try this for `color` instead - here we are changing **RGB** based on the angle of the dot:
 
     ```js
-    let aDegrees = n * divergence;
-    let color = `rgb(${aDegrees % 256},0,255)`;
+    let aDegrees = (n * divergence) % 256;
+    let color = `rgb(${aDegrees},0,255)`;
     ```
 
-3. Here we can vary the hue in HSL (Hue-Saturation-Lightness) based on what quadrant the petal is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
+3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the petal is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
 
     ```js
-    let aDegrees = n * divergence;
-    let color = `hsl(${aDegrees % 360},100%,50%)`;
+    let aDegrees = (n * divergence) % 360;
+    let color = `hsl(${aDegrees},100%,50%)`;
     ```
     
 4. Here we slowly ramp the hue based on the value of `n`
@@ -141,7 +141,13 @@
     ```js
     let color = `hsl(${n/5 % 360},100%,50%)`;
     ```
- 
- ## IV. Submission
+
+## IV. Try it!
+
+- Come up with something cool:
+  - change the values of `c` and `divergence`, one at a time:
+  - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the "petals"
+
+## V. Submission
  
  - See dropbox for submission instructions
