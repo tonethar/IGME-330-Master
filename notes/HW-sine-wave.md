@@ -16,10 +16,11 @@
 
 ## III. Video Links
 
-- [Sine Wave-1 (10:31)](https://video.rit.edu/Watch/sine-wave-1) - Drawing a static Sine wave
+- [Sine Wave-1 (10:31)](https://video.rit.edu/Watch/sine-wave-1) - Drawing a static Sine wave:
+  - NB: a better name for the `counter` variable in this video is `angle`
 - [Sine Wave-2 (11:04)](https://video.rit.edu/Watch/sine-wave-2) - Drawing a animated Sine wave:
   - think about controls that could speed up or slow down the speed the waves are drawn, increase/decrease the *frequency* of the waves, and/or increase/decrease the *amplitude* of the waves.
-  - PS: a better name for the `counter` variable in this video is `angle`
+  - NB: a better name for the `counter` variable in this video is `angle`
 
 ## IV. Start Code
 
