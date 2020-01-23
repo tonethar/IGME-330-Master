@@ -53,7 +53,7 @@
     // `a` is the angle
     // `r` is the radius from the center of the flower
     // `c` is the "padding" between the dots
-    let a = n * dtr(137.5);
+    let a = n * dtr(divergence);
     let r = c * Math.sqrt(n);
     console.log(a,r);
     ```
@@ -125,14 +125,14 @@
 2. Try this for `color` instead - here we are changing RGB based on the angle of the dot:
 
     ```js
-    let aDegrees = n * 137.5;
+    let aDegrees = n * divergence;
     let color = `rgb(${aDegrees % 256},0,255)`;
     ```
 
 3. Here we can vary the hue in HSL (Hue-Saturation-Lightness) based on what quadrant the petal is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
 
     ```js
-    let aDegrees = n * 137.5;
+    let aDegrees = n * divergence;
     let color = `hsl(${aDegrees % 360},100%,50%)`;
     ```
     
