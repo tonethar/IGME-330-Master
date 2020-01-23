@@ -38,10 +38,10 @@
 
     ```js
      function loop(){
- 	    setTimeout(loop,1000/30);
+ 	     setTimeout(loop,1000/30);
   
   
-      n++;
+       n++;
     }
     ```
 
