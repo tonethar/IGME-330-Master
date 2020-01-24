@@ -154,7 +154,8 @@
 - Come up with something cool:
   - change the values of `c` and `divergence`, one at a time:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
-  - periodically clear the screen and start over 
+  - periodically clear the screen and start over
+  - draw a flower wherever the user clicks on the screen 
 
 ## V. Submission
  
