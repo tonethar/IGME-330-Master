@@ -55,7 +55,7 @@
     // each frame draw a new dot
     // `a` is the angle
     // `r` is the radius from the center of the flower
-    // `c` is the "padding" between the dots
+    // `c` is the "padding/spacing" between the dots
     let a = n * dtr(divergence);
     let r = c * Math.sqrt(n);
     console.log(a,r);
@@ -132,14 +132,14 @@
     let color = `rgb(${aDegrees},0,255)`;
     ```
 
-3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the floret is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
+3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the floret is located in. Recall that the first argument of **HSL**, the hue, is a value between 0 and 360:
 
     ```js
     let aDegrees = (n * divergence) % 361;
     let color = `hsl(${aDegrees},100%,50%)`;
     ```
 
-- Try out the HSB color picker here: https://www.w3schools.com/colors/colors_hsl.asp
+- Try out the **HSL** color picker here: https://www.w3schools.com/colors/colors_hsl.asp
  
 4. Here we slowly ramp the hue based on the value of `n`
 
@@ -151,8 +151,8 @@
 
 - Convert some of the ["magic numbers"](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants) (unnamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
 - Crank up the framerate - can you get the FPS to 120?
-- Come up with something cool:
-  - change the values of `c` and `divergence`, one at a time:
+- Come up with something cool - here are some ideas, or come up with your own:
+  - change the values of `c` and `divergence`, one at a time, and see what happens:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
