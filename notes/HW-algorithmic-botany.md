@@ -8,7 +8,7 @@
  - *Thanks to Daniel Shiffman and the Coding Train for creating all of those videos!*
  - This would be a great "starter" for Project 1!
  
- Links:
+## II. Resources
  - https://en.wikipedia.org/wiki/Phyllotaxis
  - http://www.algorithmicbotany.org
  - http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf:
@@ -17,7 +17,7 @@
    - (page 101) - an image showing the results of distinct `divergence` values
  
  
-## II. Instructions
+## III. Instructions
 
 - For an overview of what we are building and how it works, watch the video - Coding Train [Coding Challenge #30: Phyllotaxis (11:01)](https://thecodingtrain.com/CodingChallenges/030-phyllotaxis.html)
 - Grab the start file from [HW-sine-wave.md](./HW-sine-wave.md), name it **phyllotaxis-1.html**, and start coding!
