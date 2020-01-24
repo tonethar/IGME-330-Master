@@ -117,7 +117,7 @@
 
 ## III. A few enhancements
 
-1. Let's try changing the RGB color based on the value of `n` - the "age" of a floret basically - run the code and see the changes:
+1. Let's try changing the **RGB** color based on the value of `n` - the "age" of a floret basically - run the code and see the changes:
 
     ```js
     let color = `rgb(${n % 256},0,255)`;
@@ -135,21 +135,26 @@
 3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the floret is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
 
     ```js
-    let aDegrees = (n * divergence) % 360;
+    let aDegrees = (n * divergence) % 361;
     let color = `hsl(${aDegrees},100%,50%)`;
     ```
-    
+
+- Try out the HSB color picker here: https://www.w3schools.com/colors/colors_hsl.asp
+ 
 4. Here we slowly ramp the hue based on the value of `n`
 
     ```js
-    let color = `hsl(${n/5 % 360},100%,50%)`;
+    let color = `hsl(${n/5 % 361},100%,50%)`;
     ```
 
 ## IV. Try it!
 
+- Convert some of the "magic numbers" (unamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
+- Crank up the framerate - can you get the FPS to 120?
 - Come up with something cool:
   - change the values of `c` and `divergence`, one at a time:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
+  - periodically clear the screen and start over 
 
 ## V. Submission
  
