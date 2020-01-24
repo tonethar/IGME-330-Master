@@ -115,7 +115,7 @@
 
 ![Screenshot](_images/HW-algorithmic-botany-2.jpg)
 
-## III. A few enhancements
+## IV. A few enhancements
 
 1. Let's try changing the **RGB** color based on the value of `n` - the "age" of a floret basically - run the code and see the changes:
 
@@ -147,7 +147,7 @@
     let color = `hsl(${n/5 % 361},100%,50%)`;
     ```
 
-## IV. Try it!
+## V. Try it!
 
 - Convert some of the ["magic numbers"](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants) (unnamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
 - Crank up the framerate - can you get the FPS to 120?
@@ -157,6 +157,6 @@
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
 
-## V. Submission
+## VI. Submission
  
  - See dropbox for submission instructions
