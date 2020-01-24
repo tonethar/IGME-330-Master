@@ -11,7 +11,10 @@
  Links:
  - https://en.wikipedia.org/wiki/Phyllotaxis
  - http://www.algorithmicbotany.org
- - http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
+ - http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf:
+   - (page 99) - the numbers of spirals which can be traced through a phyllotactic pattern are often integers of the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number)
+   - (page 100) - the formula we will use to obtain the polar coordinates of successive florets
+   - (page 101) - the results of distinct `divergence` values
  
  
 ## II. Instructions
@@ -24,7 +27,7 @@
 1. Add your `window.onload = init;` call to the right place.
 
 
-2. Create a "script scoped" variable named `n` that keeps track of the number of dots (petals) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
+2. Create a "script scoped" variable named `n` that keeps track of the number of dots (florets) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
     `let n = 0;`
 
@@ -114,7 +117,7 @@
 
 ## III. A few enhancements
 
-1. Let's try changing the RGB color based on the value of `n` - the "age" of a petal basically - run the code and see the changes:
+1. Let's try changing the RGB color based on the value of `n` - the "age" of a floret basically - run the code and see the changes:
 
     ```js
     let color = `rgb(${n % 256},0,255)`;
@@ -129,7 +132,7 @@
     let color = `rgb(${aDegrees},0,255)`;
     ```
 
-3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the petal is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
+3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the floret is located in. Recall that the first argument of HSL, the hue, is a value between 0 and 360:
 
     ```js
     let aDegrees = (n * divergence) % 360;
@@ -146,7 +149,7 @@
 
 - Come up with something cool:
   - change the values of `c` and `divergence`, one at a time:
-  - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the "petals"
+  - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
 
 ## V. Submission
  
