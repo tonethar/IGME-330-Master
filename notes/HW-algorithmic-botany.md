@@ -13,7 +13,7 @@
  - http://www.algorithmicbotany.org
  - http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf:
    - (page 99) - the numbers of spirals which can be traced through a phyllotactic pattern are often integers of the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number). This angle which is approimately 137.5◦, which in our code will be the "divergence angle"
-   - (page 100) - the formula we will use to obtain the polar coordinates of successive florets
+   - (page 100) - the formula we will use to obtain the [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system) of successive florets
    - (page 101) - an image showing the results of distinct `divergence` values
  
  
