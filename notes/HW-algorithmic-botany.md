@@ -149,7 +149,7 @@
 
 ## IV. Try it!
 
-- Convert some of the "magic numbers" (unamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
+- Convert some of the ["magic numbers"](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants) (unnamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
 - Crank up the framerate - can you get the FPS to 120?
 - Come up with something cool:
   - change the values of `c` and `divergence`, one at a time:
