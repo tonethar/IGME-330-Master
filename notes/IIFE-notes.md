@@ -59,7 +59,7 @@
 - Below we made an IIFE and declared the variables inside of it
 - Now `highScore` and `playerName` are now variables of the IIFE, and thus NOT accessible from this outside scope
 - This is a quick and easy technique to get your code out of the global namespace and safe from malicious users
-- *But what if we have code that needs access to these values, without being to modify them?*
+- *But what if we have code that needs access to these values, without being able to modify them?*
 
 ```html
 <!DOCTYPE html>
@@ -93,6 +93,7 @@ console.log(playerName,highScore);
 **IIFE-2.html**
 
 - Below, we use an IIFE for data privacy - but `return` everything that needs to be public to a variable named `scoreTracker`
+
 
 ```html
 <!DOCTYPE html>
