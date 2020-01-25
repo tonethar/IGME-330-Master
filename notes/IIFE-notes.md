@@ -165,8 +165,8 @@ Use an IIFE for privacy - but `return` everything that needs to be public to a v
 
 **IIFE-3.html**
 
-- Instead of exporting the "public interface" to a variable, we are instead going to export a single varaible named `scoreLIB` to the browser's global scope.
-- This is how many of the popular JS libraries such as jQuery and RiTa.js work
+- Instead of exporting the "public interface" to a variable, we are instead going to export a single variable named `scoreLIB` to the browser's global scope. This code will otherwise behave the same as the previous example.
+- Exporting a single variable to the global namespace and attaching all of the desired functionality to it, is how many of the popular JS libraries such as jQuery and RiTa.js work.
 
 
 ```html
