@@ -236,5 +236,9 @@ Here we will export an object - `scoreLIB` - into the global (window) namespace.
 </p>
 </body>
 </html>
-
 ```
+
+## III. Resources
+- https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6
+- https://flaviocopes.com/javascript-iife/
+
