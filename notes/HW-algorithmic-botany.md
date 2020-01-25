@@ -54,7 +54,7 @@
     ```js
     // each frame draw a new dot
     // `a` is the angle
-    // `r` is the radius from the center of the flower
+    // `r` is the radius from the center (e.g. "Pole") of the flower
     // `c` is the "padding/spacing" between the dots
     let a = n * dtr(divergence);
     let r = c * Math.sqrt(n);
@@ -139,7 +139,7 @@
     let color = `hsl(${aDegrees},100%,50%)`;
     ```
 
-- Try out the **HSL** color picker here: https://www.w3schools.com/colors/colors_hsl.asp
+- P.S. Try out the **HSL** color picker here: https://www.w3schools.com/colors/colors_hsl.asp
  
 4. Here we slowly ramp the hue based on the value of `n`
 
