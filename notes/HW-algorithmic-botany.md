@@ -49,7 +49,7 @@
     ```
 
 
-5. Each frame we need to draw a new dot (floret) by calculating its polar coordinates (a distance from the center - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
+5. Each frame we need to draw a new dot (floret) by calculating its polar coordinates (a distance from the center "pole" - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
 
     ```js
     // each frame draw a new dot
@@ -78,7 +78,7 @@
     ```
 
 
-8. Now let's calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
+8. Now let's use these polar coordinates (angle and rotation) to calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
 
     ```js
     // now calculate the `x` and `y`
