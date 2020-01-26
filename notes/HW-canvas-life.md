@@ -94,4 +94,9 @@ function drawCell(col,row,dimensions,alive) {
 ```
 
 
+## IV. Instructions
+
+
+
+
 
