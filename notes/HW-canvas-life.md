@@ -1,8 +1,4 @@
-# Conway's Game of Life (o Canvas!)
-
-
-
-
+# Conway's Game of Life (now in Canvas!)
 
 ## I. Overview
 
