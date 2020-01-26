@@ -8,7 +8,7 @@
 
 Here is a GIF of the Life "Glider Gun" pattern:
 
-![Glider Gun Image](_images/life-gospers-glider-gun.gif)
+![Glider Gun Image](_images/HW-life-gospers-glider-gun.gif)
 
 - Here are the rules to Life:
   - Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
