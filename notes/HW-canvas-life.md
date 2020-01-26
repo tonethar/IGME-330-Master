@@ -1,9 +1,24 @@
 # Conway's Game of Life (now in Canvas!)
 
 ## I. Overview
+- Some info about Conway's Game of Life and cellular automata is below: 
+  - https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+  - https://en.wikipedia.org/wiki/Cellular_automaton
 
+
+Here is a GIF of the Life "Glider Gun" pattern:
+
+![Glider Gun Image](_images/life-gospers-glider-gun.gif)
+
+- Here are the rules to Life:
+  - Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
+  - Any live cell with two or three live neighbours lives on to the next generation.
+  - Any live cell with more than three live neighbours dies, as if by overpopulation.
+  - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 ## II. Completed Version
+
+
 
 
 ## III. Start Files
