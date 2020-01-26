@@ -96,7 +96,17 @@ function drawCell(col,row,dimensions,alive) {
 
 ## IV. Instructions
 
+1) Go ahead and create all of the above files and then preview them in a web browser. You should see a black 600 x 400 rectangle in the browser window.
+
+2) Add the following to **Lifeworld.js**:
+
+![screenshot](_images/HW-canvas-life-1.jpg)
 
 
+3) In **main.js**, add the following to `init()`
 
+`lifeworld = new Lifeworld(60,40,.2);`
 
+4) Test the code, and check the console. you should see the 2D array we are using has been created and popuklated with random )'s and 1's
+
+![screenshot](_images/HW-canvas-life-2.jpg)
