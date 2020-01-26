@@ -110,3 +110,5 @@ function drawCell(col,row,dimensions,alive) {
 4) Test the code, and check the console. you should see the 2D array we are using has been created and popuklated with random 0's and 1's
 
 ![screenshot](_images/HW-canvas-life-2.jpg)
+
+5) xxx
