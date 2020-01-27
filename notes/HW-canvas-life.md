@@ -1,4 +1,4 @@
-# Conway's Game of Life (now in Canvas!)
+# Conway's Game of Life (utilizing Canvas!)
 
 ## I. Overview
 - Some info about *Conway's Game of Life* and cellular automata is below: 
