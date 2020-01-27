@@ -126,7 +126,7 @@ function drawCell(col,row,dimensions,alive) {
 
 ![screenshot](_images/HW-canvas-life-1.jpg)
 
-- above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it
+- above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it. 
 
 <hr>
 
@@ -142,4 +142,20 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-5) We have now completed the foundational code for Lifeworld - so let's head over to **main.js** and work on visualizing this array in the canvas. Go ahead and add the following code to `` in **main.js**:
+5) We have now completed the foundational code for Lifeworld - so let's head over to **main.js** and work on visualizing this array in the canvas. Go ahead and add update the `drawWorld()` and `drawCell()` functions in **main.js**:
+
+![screenshot](_images/HW-canvas-life-3.jpg)
+
+- Which will look like this when you run the code:
+
+![screenshot](_images/HW-canvas-life-4.jpg)
+
+<hr>
+
+6) Note that we're only drawing the top row. You will need to finish off the nested loop so that the whole 2D array get's drawn. When you are done it loks like this:
+
+![screenshot](_images/HW-canvas-life-5.jpg)
+
+<hr>
+
+7)
