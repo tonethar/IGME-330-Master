@@ -195,5 +195,6 @@ function drawCell(col,row,dimensions,alive) {
 
 - You should also be able to "re-seed" the world by reloading the browser, which will give you a new starting array of living cells
 
+<hr>
 
 ## V. More features
