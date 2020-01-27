@@ -181,7 +181,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-11) Now call `lifeworld.step()` from the **main.js** `loop()` function, and you should see the life animation happening. Note that the cells fade out in about a second - rather than immediately - which is a feature rather than a bug of the code, and is done in `drawBackground()`
+11) Now call `lifeworld.step()` from the **main.js** `loop()` function, and you should see the life animation kicking off at 12 FPS. Note that the cells fade out in about a second - rather than immediately - which is a feature rather than a bug of the code, and is done in `drawBackground()`
 
 - You should also be able to "re-seed" the world by reloading the browser, which will give you a new starting array of living cells
 
