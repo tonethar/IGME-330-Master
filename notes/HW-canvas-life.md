@@ -158,4 +158,18 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-7)
+7) Let's work on wrapping up **Lifeworld.js** - here's the code for adding up each cell's neighbors. This is going to be called on every element of the 2D `world` array by the `step()` function. 
+
+![screenshot](_images/HW-canvas-life-6.jpg)
+
+<hr>
+
+8) We can test the `getLivingNeighbors()` nethod in the browser - below we are checking the cell at x=1,y=1 ("over 1, down 1") - and see that the code correctly says that the cell has 2 neighbors (in this case at NE and SE)
+
+![screenshot](_images/HW-canvas-life-7.jpg)
+
+<hr>
+
+9) XX
+
+<hr>
