@@ -177,6 +177,8 @@ function drawCell(col,row,dimensions,alive) {
 
 `this.worldBuffer = this.buildArray();`
 
+- Now here's the `step()` code:
+
 ![screenshot](_images/HW-canvas-life-8.jpg)
 
 - Make sure that everything works and that reloading the HTML page gives you a new random screen of red cells
