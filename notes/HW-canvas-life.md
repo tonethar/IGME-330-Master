@@ -115,8 +115,12 @@ function drawCell(col,row,dimensions,alive) {
   - **life-HW.html** will contain the HTML/CSS and HTML elements
   - **Lifeworld.js** will contain all of the JS *code/logic* for the Life sim - ex. setting up the 2D arrays, counting up all of the neighbors for each cell to determine if they are dead or alive, loading patterns and so on
   - **main.js** will contain all of the JS code for *drawing* the Life sim into the canvas element. It will also be responsible for the UI (Play, Pause, Restart Sim etc)
-  
+
+<hr>
+
 1) Go ahead and create all of the above files and then preview them in a web browser. You should see a black 600 x 400 rectangle in the browser window.
+
+<hr>
 
 2) Add the following to **Lifeworld.js**:
 
@@ -124,12 +128,18 @@ function drawCell(col,row,dimensions,alive) {
 
 - above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it
 
+<hr>
+
 3) In **main.js**, add the following to `init()`
 
 `lifeworld = new Lifeworld(60,40,.2);`
 
+<hr>
+
 4) Test the code, and check the console. you should see the 2D array we are using has been created and populated with random 0's and 1's
 
 ![screenshot](_images/HW-canvas-life-2.jpg)
+
+<hr>
 
 5) Now let's work on visualizing this array in the canvas - add the following 
