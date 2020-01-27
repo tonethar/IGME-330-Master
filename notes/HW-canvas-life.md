@@ -15,13 +15,8 @@
   - Any live cell with two or three live neighbours lives on to the next generation.
   - Any live cell with more than three live neighbours dies, as if by overpopulation.
   - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
-
-## II. Completed Version
-
-
-
-
-## III. Start Files
+  
+## II. Start Files
 
 **life-HW-start.html**
 
@@ -109,7 +104,7 @@ function drawCell(col,row,dimensions,alive) {
 ```
 
 
-## IV. Instructions
+## III. Instructions
 
 - The overall app structure is:
   - **life-HW.html** will contain the HTML/CSS and HTML elements
@@ -190,3 +185,4 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
+## IV. More features
