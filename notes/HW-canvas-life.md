@@ -175,7 +175,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-10) Now go ahead and call `lifeworld.step()` multiple times from the console. You should see that the randomness is *decreasing*, and that some classic [life oscillator patterns](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) such as *blinkers* are starting to appear
+10) Now go ahead and call `lifeworld.step()` multiple times from the console. You should see that the randomness of the distribution of the "live" cells is *decreasing*, and that some classic [life oscillator patterns](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) such as *blinkers* are starting to appear
 
 ![screenshot](_images/HW-canvas-life-9.jpg)
 
