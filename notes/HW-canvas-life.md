@@ -114,7 +114,7 @@ function drawCell(col,row,dimensions,alive) {
 - The overall app structure is:
   - **life-HW.html** will contain the HTML/CSS and HTML elements
   - **Lifeworld.js** will contain all of the JS *code/logic* for the Life sim - ex. setting up the 2D arrays, counting up all of the neighbors for each cell to determine if they are dead or alive, loading patterns and so on
-  - **Lifeworld.js** will contain all of the JS code for *drawing* the Life sim into the canvas element. It will also be responsible for the UI (Play, Pause, Restart Sim etc)
+  - **main.js** will contain all of the JS code for *drawing* the Life sim into the canvas element. It will also be responsible for the UI (Play, Pause, Restart Sim etc)
   
 1) Go ahead and create all of the above files and then preview them in a web browser. You should see a black 600 x 400 rectangle in the browser window.
 
