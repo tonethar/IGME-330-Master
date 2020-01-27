@@ -136,7 +136,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-4) Test the code, and check the console. You should see the 2D array we are using has been created and populated with random 0's and 1's. 
+4) Test the code, and check the console. You should see the 2D array we are using has been created and populated with random 0's and 1's. Note that `console.table()` draws that cool table.
 
 ![screenshot](_images/HW-canvas-life-2.jpg)
 
