@@ -178,6 +178,15 @@ function drawCell(col,row,dimensions,alive) {
 
 - Make sure that everything works and that reloading the HTML page gives you a new random screen of red cells
 
+<hr>
 
+10) Now go ahead and call `lifeworld.step()` multiple times from the console. You should see that the randomness is *decreasing*, and that some classic [life oscillator patterns](https://en.wikipedia.org/wiki/Oscillator_(cellular_automaton)) such as blinkers are starting to appear
+
+![screenshot](_images/HW-canvas-life-9.jpg)
 
 <hr>
+
+11)
+
+<hr>
+
