@@ -121,7 +121,7 @@ function drawCell(col,row,dimensions,alive) {
 
 ![screenshot](_images/HW-canvas-life-1.jpg)
 
-- above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it. 
+- Above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it. 
 
 <hr>
 
