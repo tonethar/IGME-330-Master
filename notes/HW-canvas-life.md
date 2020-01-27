@@ -136,10 +136,10 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-4) Test the code, and check the console. you should see the 2D array we are using has been created and populated with random 0's and 1's
+4) Test the code, and check the console. You should see the 2D array we are using has been created and populated with random 0's and 1's. 
 
 ![screenshot](_images/HW-canvas-life-2.jpg)
 
 <hr>
 
-5) Now let's work on visualizing this array in the canvas - add the following 
+5) We have now completed the foundational code for Lifeworld - so let's head over to **main.js** and work on visualizing this array in the canvas. Go ahead and add the following code to `` in **main.js**:
