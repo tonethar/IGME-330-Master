@@ -170,6 +170,14 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-9) XX
+9) Now we can implement `step()`, which loops through all of the cells and calls `getLivingNeighbors()`, and determines if that particular cell should be alive in the next generation. We are going to need a new array to write this information (a 0 or a 1) to. If we call `lifeworld.step()` in the console, we'll get an error because while `step()` is referencing that "world buffer" array in the code, we never declared it. So be sure to do so in the `Lifeworld` constructor by using the `buildArray()` helper method.
+
+`this.worldBuffer = this.buildArray();`
+
+![screenshot](_images/HW-canvas-life-8.jpg)
+
+- Make sure that everything works and that reloading the HTML page gives you a new random screen of red cells
+
+
 
 <hr>
