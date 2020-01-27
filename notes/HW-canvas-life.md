@@ -16,7 +16,15 @@
   - Any live cell with more than three live neighbours dies, as if by overpopulation.
   - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
   
-## II. Start Files
+
+## II. Done Version
+ 
+ HW-life-animated-GIF.gif
+ 
+![Done version](_images/HW-life-animated-GIF.gif)
+
+
+## III. Start Files
 
 **life-HW-start.html**
 
@@ -104,7 +112,7 @@ function drawCell(col,row,dimensions,alive) {
 ```
 
 
-## III. Instructions
+## IV. Instructions
 
 - The overall app structure is:
   - **life-HW.html** will contain the HTML/CSS and HTML elements
@@ -186,4 +194,4 @@ function drawCell(col,row,dimensions,alive) {
 - You should also be able to "re-seed" the world by reloading the browser, which will give you a new starting array of living cells
 
 
-## IV. More features
+## V. More features
