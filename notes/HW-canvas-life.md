@@ -186,7 +186,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-11)
+11) Now call `lifeworld.step()` from the **main.js** `loop()` function, and you should see the life animation happening. Note that the cells fade out in about a second - rather than immediately - which is a feature rather than a bug of the code, and is done in `drawBackground()`
 
 <hr>
 
