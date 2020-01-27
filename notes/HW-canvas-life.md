@@ -164,7 +164,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-8) We can test the `getLivingNeighbors()` nethod in the browser - below we are checking the cell at x=1,y=1 ("over 1, down 1") - and see that the code correctly says that the cell has 2 neighbors (in this case at NE and SE)
+8) We can test the `getLivingNeighbors()` method in the browser - below we are checking the cell at x=1,y=1 ("over 1, down 1") - and see that the code correctly says that the cell has 2 neighbors (in this case at NE and SE)
 
 ![screenshot](_images/HW-canvas-life-7.jpg)
 
