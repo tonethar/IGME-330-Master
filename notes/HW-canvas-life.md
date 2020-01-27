@@ -6,7 +6,7 @@
   - https://en.wikipedia.org/wiki/Cellular_automaton
 
 
-Here is a GIF of the Life "Glider Gun" pattern:
+***Here is a GIF of the Life "Glider Gun" pattern:***
 
 ![Glider Gun Image](_images/HW-life-gospers-glider-gun.gif)
 
@@ -39,7 +39,7 @@ Here is a GIF of the Life "Glider Gun" pattern:
 			background-color: #0000AD;
 		}
 	</style>
-	<script src="src/lifeworld.js"></script>
+	<script src="src/Lifeworld.js"></script>
 	<script src="src/main.js"></script>
 </head>
 <body>
@@ -101,7 +101,7 @@ function drawCell(col,row,dimensions,alive) {
 }
 ```
 
-**lifeworld.js**
+**Lifeworld.js**
 
 ```js
 // model class Lifeworld
@@ -111,12 +111,18 @@ function drawCell(col,row,dimensions,alive) {
 
 ## IV. Instructions
 
+- The overall app structure is:
+  - **life-HW.html** will contain the HTML/CSS and HTML elements
+  - **Lifeworld.js** will contain all of the JS *code/logic* for the Life sim - ex. setting up the 2D arrays, counting up all of the neighbors for each cell to determine if they are dead or alive, loading patterns and so on
+  - **Lifeworld.js** will contain all of the JS code for *drawing* the Life sim into the canvas element. It will also be responsible for the UI (Play, Pause, Restart Sim etc)
+  
 1) Go ahead and create all of the above files and then preview them in a web browser. You should see a black 600 x 400 rectangle in the browser window.
 
 2) Add the following to **Lifeworld.js**:
 
 ![screenshot](_images/HW-canvas-life-1.jpg)
 
+- above, we can see that a 2D array has been created, and that there is code to loop though this array and randomly place 0's and 1's in it
 
 3) In **main.js**, add the following to `init()`
 
@@ -126,4 +132,4 @@ function drawCell(col,row,dimensions,alive) {
 
 ![screenshot](_images/HW-canvas-life-2.jpg)
 
-5) xxx
+5) Now let's work on visualizing this array in the canvas - add the following 
