@@ -152,7 +152,7 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-6) Note that we're only drawing the top row. You will need to finish off the nested loop so that the whole 2D array get's drawn. When you are done it loks like this:
+6) Note that we're only drawing the top row. You will need to finish off the nested loop so that the whole 2D array get's drawn. The 1's are drawn as red cells and are considered "alive", the 0's are considered "dead".  When you are done it looks something like this:
 
 ![screenshot](_images/HW-canvas-life-5.jpg)
 
