@@ -238,7 +238,6 @@ Here's our start file:
 
 We aren't always going to have video links, but here is a re-cap of today's major topics:
 
-- [Week 2B - Intro (07:29)](https://video.rit.edu/Watch/Ld57Jtk8)
 - [Week 2B - part-I - Drawing State Stack (05:25)](https://video.rit.edu/Watch/m7Q4Pfd9)
 - [Week 2B - part II - Transformations (10:05)](https://video.rit.edu/Watch/x2N4Kaf6)
 - [Week 2B - part III - More Transformations (06:08)](https://video.rit.edu/Watch/Hj7i4P9T)
