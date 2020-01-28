@@ -2,11 +2,9 @@
 
 ## I. Overview
 
-## II. Required Reading & Assignments
+- Here we will look at canvas *transformations* (translate, rotate, scale) and how to combine them with `ctx.save()` and `ctx.restore()` to create interesting effects.
 
-- Try It! *(Optional Exercise)* -> [HW-try-it.md](./HW-try-it.md)
-
-## III. Presentation
+## II. Presentation
 
 1. Manipulating the drawing state stack via `ctx.save()` and `ctx.restore()`
 2. the **Current Transformation Matrix** (CTM)
@@ -19,7 +17,7 @@
     - The **clipping region** - there is a `ctx.clip()` method, and we also saw clipping in action with the "ring" and "donut" we created last time
     - the **CTM** - *current transformation matrix* (translations + rotations + scales via `ctx.translate()`, `ctx.rotate()`, `ctx.scale()`, and `ctx.setTransform()`)
 
-## IV. Demo A
+## III. Demo A
 
 Here's our start file:
 
@@ -137,7 +135,7 @@ Here's our start file:
 
 
 
-## V. Demo-B
+## IV. Demo-B - *Revenge of Screen Saver!*
 - Let's use our knowledge of scale and rotate to create another screensaver!
 - Here's the start code:
 
@@ -228,6 +226,11 @@ Here's our start file:
 ![Screenshot](./_images/canvas-3-screen-saver-2A.gif)
 
 ![Screenshot](./_images/canvas-3-screen-saver-2B.gif)
+
+
+## V. Try it yourself
+
+- Try It! *(Optional Practice)* --> [HW-try-it.md](./HW-try-it.md)
 
 ## VI. Reference
 
