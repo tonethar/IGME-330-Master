@@ -34,7 +34,7 @@
 
 4. Now now we will create some animation by letting our transformations accumulate over time
 
-![Drawing State Stack](./_images/drawing-stack.jpg)
+![Drawing State Stack](./_images/canvas-drawing-stack.jpg)
 
 
 
