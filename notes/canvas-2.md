@@ -215,3 +215,5 @@ ctx.fill();
 <hr><hr>
 
 **[Previous Chapter <- Canvas Part I](canvas-1.md)**
+
+**[Next Chapter -> Canvas Part III](canvas-3.md)**
