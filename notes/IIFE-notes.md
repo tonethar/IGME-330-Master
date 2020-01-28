@@ -16,6 +16,7 @@
 
 ## II. Sample Code
 
+- A ZIP file of these 4 examples is linked here --> [IIFE-examples.zip](./_files/IIFE-examples.zip)
 
 **IIFE-0.html**
 
