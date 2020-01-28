@@ -129,7 +129,7 @@ Here's our start file:
 ![Drawing State Stack](./_images/canvas-drawing-stack.jpg)
 
 
-- **Done Version:**
+### Done Version
 
 ![Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
