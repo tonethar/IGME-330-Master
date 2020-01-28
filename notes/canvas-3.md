@@ -131,7 +131,7 @@ Here's our start file:
 
 - **Done Version:**
 
-[Screenshot](./_images/canvas-3-screen-saver-2C.gif)
+![Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
 
 
