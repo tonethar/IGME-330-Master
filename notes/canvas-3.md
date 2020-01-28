@@ -4,9 +4,7 @@
 
 ## II. Required Reading & Assignments
 
-- Try It! *(Optional Exercise)* -> [HW-try-it.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-try-it.md)
-
-
+- Try It! *(Optional Exercise)* -> [HW-try-it.md](./HW-try-it.md)
 
 ## III. Presentation
 
@@ -21,27 +19,9 @@
     - The **clipping region** - there is a `ctx.clip()` method, and we also saw clipping in action with the "ring" and "donut" we created last time
     - the **CTM** - *current transformation matrix* (translations + rotations + scales via `ctx.translate()`, `ctx.rotate()`, `ctx.scale()`, and `ctx.setTransform()`)
 
-## IV. Demo
+## IV. Demo A
 
-- *See start file below*
-
-
-1. In **canvas-transforms-demo-start.html**, let's make some drawing changes to just our first green square.  We will see that using `ctx.save()` and `ctx.restore` helps to make this easier
-
-2. Let's next try *translating*, then *scaling*, then *rotating* the squares -  how are the results unexpected?  `ctx.save()` and `ctx.restore` to the rescue!
-
-3. How about the triangles -  how are the results unexpected? Once again, `ctx.save()` and `ctx.restore` to the rescue!
-
-4. Now now we will create some animation by letting our transformations accumulate over time
-
-![Drawing State Stack](./_images/canvas-drawing-stack.jpg)
-
-
-
-
-
-## V. Demo-A Start Files
-
+Here's our start file:
 
 **canvas-transforms-demo-start.html**
 
@@ -138,13 +118,26 @@
 ```
 
 
-**Done Version:**
+- **Demo**
+
+1. In **canvas-transforms-demo-start.html**, let's make some drawing changes to just our first green square.  We will see that using `ctx.save()` and `ctx.restore` helps to make this easier
+
+2. Let's next try *translating*, then *scaling*, then *rotating* the squares -  how are the results unexpected?  `ctx.save()` and `ctx.restore` to the rescue!
+
+3. How about the triangles -  how are the results unexpected? Once again, `ctx.save()` and `ctx.restore` to the rescue!
+
+4. Now now we will create some animation by letting our transformations accumulate over time
+
+![Drawing State Stack](./_images/canvas-drawing-stack.jpg)
+
+
+- **Done Version:**
 
 [Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
 
 
-## VI. Demo-B
+## V. Demo-B
 - Let's use our knowledge of scale and rotate to create another screensaver!
 - Here's the start code:
 
@@ -236,12 +229,12 @@
 
 ![Screenshot](./_images/canvas-3-screen-saver-2B.gif)
 
-## VII. Reference
+## VI. Reference
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations
 
 
-## VIII. Videos of lecture & demos
+## VII. Videos of lecture & demos
 
 We aren't always going to have video links, but here is a re-cap of today's major topics:
 
