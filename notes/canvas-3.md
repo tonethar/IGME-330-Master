@@ -140,7 +140,7 @@
 
 **Done Version:**
 
-[Screenshot](./_images/screen-saver-2C.gif)
+[Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
 
 
@@ -232,9 +232,9 @@
 
 **Done versions:**
 
-![Screenshot](./_images/screen-saver-2A.gif)
+![Screenshot](./_images/canvas-3-screen-saver-2A.gif)
 
-![Screenshot](./_images/screen-saver-2B.gif)
+![Screenshot](./_images/canvas-3-screen-saver-2B.gif)
 
 ## VII. Reference
 
