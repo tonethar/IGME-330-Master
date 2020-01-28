@@ -116,7 +116,7 @@ Here's our start file:
 ```
 
 
-- **Demo**
+### Demo A.
 
 1. In **canvas-transforms-demo-start.html**, let's make some drawing changes to just our first green square.  We will see that using `ctx.save()` and `ctx.restore` helps to make this easier
 
