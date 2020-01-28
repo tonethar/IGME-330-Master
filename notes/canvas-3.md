@@ -236,7 +236,7 @@ Here's our start file:
 
 ## VII. Videos of lecture & demos
 
-We aren't always going to have video links, but here is a re-cap of today's major topics:
+We aren't always going to have video links, but here is a re-cap of the canvas transforms & drawing state stack demo:
 
 - [Week 2B - part-I - Drawing State Stack (05:25)](https://video.rit.edu/Watch/m7Q4Pfd9)
 - [Week 2B - part II - Transformations (10:05)](https://video.rit.edu/Watch/x2N4Kaf6)
