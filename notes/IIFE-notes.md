@@ -12,6 +12,7 @@
 - You might hear someone say (even here at RIT) "no one uses IIFE's!". This is untrue:
   - IIFEs are still used by many (most?) of the popular JS libraries such as [jQuery](https://jquery.com) and [RiTa.js](https://rednoise.org/rita/)
   - When node packages such as [webpack](https://www.npmjs.com/package/webpack) (which we will learn about later in the semester) *transpile* (which we will learn about later in the semester) code from ES6 to ES5, the resulting code is wrapped in an IIFE
+- BTW: When you are done with this page, you can get more IIFE review here --> [IIFE-review.md](./IIFE-review.md)
 
 
 ## II. Sample Code
