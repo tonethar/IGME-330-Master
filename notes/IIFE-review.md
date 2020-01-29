@@ -142,7 +142,7 @@
 ### III. Screenshot
 
 1. When you are all done, the app should function as before
-2. Nearly all of your code should no longer be in the global namespace (except for the `textLIB` global)
+2. All of your code (except for the `textLIB` global) should no longer be in the browser's global namespace 
 3. The HTML file should look something like this:
 
 **greeter-app-ES5-IIFE.html**
