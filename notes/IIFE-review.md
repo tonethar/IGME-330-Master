@@ -150,4 +150,6 @@
 
 4. And the page and console should look like this:
 
+**greeter-app-ES5-IIFE.html**
+
 ![screenshot of App](./_images/IIFE-practice-2.jpg)
