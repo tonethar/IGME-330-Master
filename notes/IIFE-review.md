@@ -146,3 +146,7 @@
 
 
 ![screenshot of HTML file](./_images/IIFE-practice-1.jpg)
+
+4. And the page and console should look like this:
+
+![screenshot of App](./_images/IIFE-practice-2.jpg)
