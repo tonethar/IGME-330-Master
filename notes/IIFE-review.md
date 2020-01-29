@@ -145,11 +145,10 @@
 2. Nearly all of your code should no longer be in the global namespace (except for the `textLIB` global)
 3. The HTML file should look something like this:
 
+**greeter-app-ES5-IIFE.html**
 
 ![screenshot of HTML file](./_images/IIFE-practice-1.jpg)
 
 4. And the page and console should look like this:
-
-**greeter-app-ES5-IIFE.html**
 
 ![screenshot of App](./_images/IIFE-practice-2.jpg)
