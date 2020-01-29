@@ -143,4 +143,4 @@
 - When you are all done, the app should function as before, nearly all of your code should no longer be in the global namespace (except for the `textLIB` global), and the HTML file should look something like this:
 
 
-![screenshot of HTML file](./_images/)
+![screenshot of HTML file](./_images/IIFE-practice-1.jpg)
