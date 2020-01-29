@@ -1,6 +1,7 @@
 # IIFE Review
 
 ## I. Overview
+- Recently you learned about IIFEs here --> [The IIFE - "Immediately Invoked Function Expression"](IIFE-notes.md)
 - Let's practice how to architect a JS project, in a somewhat old school (but still relevant) "ES-5 / IIFE Style"!
 - The instructions are in the HTML file below
 
