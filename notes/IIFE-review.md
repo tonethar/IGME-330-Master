@@ -1,7 +1,7 @@
 # IIFE Review
 
 ## I. Overview
-- Let's practice how to architect a JS project, "ES-5 / IIFE Style"
+- Let's practice how to architect a JS project, ina somewhat old school (but still relevant) "ES-5 / IIFE Style"!
 
 ## II. Start Code
 
