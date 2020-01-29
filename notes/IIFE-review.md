@@ -2,6 +2,7 @@
 
 ## I. Overview
 - Let's practice how to architect a JS project, in a somewhat old school (but still relevant) "ES-5 / IIFE Style"!
+- The instructions are in the HTML file below
 
 ## II. Start Code
 
