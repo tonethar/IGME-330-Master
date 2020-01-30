@@ -246,7 +246,7 @@ We aren't always going to have video links, but here is a re-cap of the canvas t
   - use `ctx.save()`, `ctx.restore()` and the *drawing state stack* to apply shadow effects to the green rectangle ONLY
 - [Week 2B - part II - Transformations (10:05)](https://video.rit.edu/Watch/x2N4Kaf6):
   - demo `ctx.translate()`, `ctx.rotate()`, `ctx.scale()` on entire canvas
-  - now `ctx.translate()`, `ctx.rotate()`, `ctx.scale()` on just the triangle
+  - now `ctx.translate()`, `ctx.rotate()`, `ctx.scale()` on just the triangle - the trick is to first draw the triangle "around" (0,0)
 - [Week 2B - part III - More Transformations (06:08)](https://video.rit.edu/Watch/Hj7i4P9T)
 - [Week 2B - part IV - Animating Rotations (08:39)](https://video.rit.edu/Watch/Nx83ApHn)
 
