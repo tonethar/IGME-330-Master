@@ -250,7 +250,7 @@ We aren't always going to have video links, but here is a re-cap of the canvas t
 - [Week 2B - part III - More Transformations (06:08)](https://video.rit.edu/Watch/Hj7i4P9T):
   - use a new function,  `drawSquare2()` to draw rectangles around the origin
 - [Week 2B - part IV - Animating Rotations (08:39)](https://video.rit.edu/Watch/Nx83ApHn):
-  - animate the rotation of the shapes by using `requestAnimationFrame()` and a `rotation` variable to accrue the rotation values
+  - animate the rotation of the shapes by using `requestAnimationFrame()` and a `rotation` variable to accrue the rotation values between "frames"
  
 
 <hr><hr>
