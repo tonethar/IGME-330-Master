@@ -249,7 +249,9 @@ We aren't always going to have video links, but here is a re-cap of the canvas t
   - now `ctx.translate()`, `ctx.rotate()`, `ctx.scale()` on just the triangle - the trick is to first draw the triangle "around" (0,0)
 - [Week 2B - part III - More Transformations (06:08)](https://video.rit.edu/Watch/Hj7i4P9T):
   - use a new function,  `drawSquare2()` to draw rectangles around the origin
-- [Week 2B - part IV - Animating Rotations (08:39)](https://video.rit.edu/Watch/Nx83ApHn)
+- [Week 2B - part IV - Animating Rotations (08:39)](https://video.rit.edu/Watch/Nx83ApHn):
+  - animate the rotation of the shapes by using `requestAnimationFrame()` and a `rotation` variable to accrue the rotation values
+ 
 
 <hr><hr>
 
