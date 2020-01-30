@@ -5,6 +5,9 @@
 - The Lorenz Attractor was created/discovered by Edward Lorenz while he was studying how to simulate convection currents present in weather phenomena.
 - Dynamical systems such as these as seen throughout nature, and are compelling subjects to explore utilizing interactive media.
 - Today we will implement this system in JavaScript/Canvas - and pretty much as a port of Daniel Shiffman's Java/Processing example linked below. (Thanks so much to Daniel for his series of creative coding videos!)
+- There are other "Strange Attractors":
+  - http://www.stsci.edu/~lbradley/seminar/attractors.html
+  - https://simple.wikipedia.org/wiki/Chaos_theory
 
 ![Lorenz Attractor GIF](./_images/HW-lorenz-example.gif)
 
