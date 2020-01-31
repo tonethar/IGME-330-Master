@@ -4,7 +4,7 @@
 
 - What's an *attractor*? Read here for some examples --> https://en.wikipedia.org/wiki/Attractor
 - The *Lorenz Attractor* is a *Strange Attractor* --> https://en.wikipedia.org/wiki/Attractor#Strange_attractor - and was created/discovered by Edward Lorenz while he was studying how to simulate convection currents present in weather phenomena.
-- Dynamical systems such as these as seen throughout nature, and are compelling subjects to explore utilizing interactive media.
+- [Dynamical systems](https://en.wikipedia.org/wiki/Dynamical_system) such as these as seen throughout nature, and are compelling subjects to explore utilizing interactive media.
 - Today we will implement this system in JavaScript/Canvas - and pretty much as a port of Daniel Shiffman's Java/Processing example linked below. (Thanks so much to Daniel for his series of creative coding videos!)
 - There are other "Strange Attractors":
   - http://www.stsci.edu/~lbradley/seminar/attractors.html
