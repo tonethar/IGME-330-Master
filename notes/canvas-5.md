@@ -1,7 +1,9 @@
 # V - Canvas: Drawing images & Blending Modes
 
 ## I. Overview
-
+Today we will review:
+  - Loading images and drawing them onto the canvas
+  - The `.globalCompositeOperation` property
 
 ## II. Presentation
 1. **Drawing images onto the canvas**:
