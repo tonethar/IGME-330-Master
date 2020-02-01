@@ -12,7 +12,15 @@
   - [`ctx.setLineDash(segments)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash) - sets the line dash pattern used when stroking lines
   - ['ctx.lineDashOffset'](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset) - this wasn't in SG-2 - it adjusts the "phase" i.e. starting point - of a dash pattern 
 
-2) It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
+2) bezier curves:
+  - [`ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo) draws bezier curves with 1 control point
+  - [`ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo) draws cubic bezier curves with 2 control points
+  - See the canvas curve demos:
+    - [quadratic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/quadratic-bezier-curves-playground.html)
+    - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
+    - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
+    
+3 It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
     - **solid colors** we have been doing all along, and we specify these like this --> `ctx.fillStyle="red"`, `ctx.fillStyle="rgb(255,0,0)"`, `ctx.fillStyle="#FF0000"`,`ctx.fillStyle="#F00"`, `ctx.fillStyle="#FF0000"`, `ctx.fillStyle="hsl(0, 100%, 50%)"` etc
     - **patterns** as fills are created with `ctx.createPattern(image, repetition)` - you can see a working example in the *apple-canvas-text-examples* folder from SG-2
     - a **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
@@ -22,13 +30,6 @@
       - how can we get a gradient flowing from left to right? Right to left? Top to Bottom? Diagonally?
       - can you animate a gradient? Yes! You can see a working example in the *apple-canvas-text-examples* folder from SG-2
 
-3) bezier curves:
-  - [`ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo) draws bezier curves with 1 control point
-  - [`ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo) draws cubic bezier curves with 2 control points
-  - See the canvas curve demos:
-    - [quadratic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/quadratic-bezier-curves-playground.html)
-    - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
-    - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
 
 ## III. Demo Code
 
