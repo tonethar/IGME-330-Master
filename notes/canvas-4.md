@@ -87,4 +87,4 @@
 
 <hr><hr>
 
-**[Previous Chapter <- Canvas Part II](canvas-2.md)**
+**[Previous Chapter <- Canvas Part III](canvas-3.md)**
