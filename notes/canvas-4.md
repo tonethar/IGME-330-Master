@@ -106,3 +106,5 @@
 <hr><hr>
 
 **[Previous Chapter <- Canvas Part III](canvas-3.md)**
+
+**[Next Chapter -> Canvas Part V](canvas-5.md)**
