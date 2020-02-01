@@ -2,7 +2,8 @@
 
 ## I. Overview
 Today we will review:
-  - Loading images and drawing them onto the canvas
+  - Loading images
+  - Drawing them onto the canvas with ctx.drawImage()
   - The `.globalCompositeOperation` property
 
 ## II. Presentation
@@ -50,6 +51,7 @@ Today we will review:
 	preloadImage(imageURL,init); 	
 
 	// simple pre-loader that loads 1 image
+	// Hey - why don't you rewrite this to handle an *array* of images! :-)
 	// preloadImage(imageURL,callbackFunc);
 	function preloadImage(url,callback){
 		let img = new Image();
