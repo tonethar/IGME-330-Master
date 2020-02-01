@@ -1,4 +1,4 @@
-# V - Canvas: Drawing images & Blending Modes
+# Canvas V - Drawing images & Blending Modes
 
 ## I. Overview
 Today we will review:
