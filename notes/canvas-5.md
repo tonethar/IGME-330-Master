@@ -3,7 +3,7 @@
 ## I. Overview
 Today we will review:
   - Loading images
-  - Drawing them onto the canvas with ctx.drawImage()
+  - Drawing them onto the canvas with `ctx.drawImage()`
   - The `.globalCompositeOperation` property
 
 ## II. Presentation
