@@ -20,16 +20,15 @@
     - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
     - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
     
-3 It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
-    - **solid colors** we have been doing all along, and we specify these like this --> `ctx.fillStyle="red"`, `ctx.fillStyle="rgb(255,0,0)"`, `ctx.fillStyle="#FF0000"`,`ctx.fillStyle="#F00"`, `ctx.fillStyle="#FF0000"`, `ctx.fillStyle="hsl(0, 100%, 50%)"` etc
-    - **patterns** as fills are created with `ctx.createPattern(image, repetition)` - you can see a working example in the *apple-canvas-text-examples* folder from SG-2
-    - a **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
+3) It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
+  - **solid colors** we have been doing all along, and we specify these like this --> `ctx.fillStyle="red"`, `ctx.fillStyle="rgb(255,0,0)"`, `ctx.fillStyle="#FF0000"`,`ctx.fillStyle="#F00"`, `ctx.fillStyle="#FF0000"`, `ctx.fillStyle="hsl(0, 100%, 50%)"` etc
+  - **patterns** as fills are created with `ctx.createPattern(image, repetition)` - you can see a working example in the *apple-canvas-text-examples* folder from SG-2
+  - a **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
     - linear gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient
     - radial gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient
     - see demo code below - let's work on this this together in-class:
       - how can we get a gradient flowing from left to right? Right to left? Top to Bottom? Diagonally?
       - can you animate a gradient? Yes! You can see a working example in the *apple-canvas-text-examples* folder from SG-2
-
 
 ## III. Demo Code
 
