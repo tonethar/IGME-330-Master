@@ -96,6 +96,11 @@
 </html>
 ```
 
+## IV. Videos
+
+- [Canvas - Gradients (11:45)](https://video.rit.edu/Watch/s8FSy64T)
+- [Canvas - Animating Curves (11:07)](https://video.rit.edu/Watch/Ay94Cpo7)
+
 
 
 <hr><hr>
