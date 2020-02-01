@@ -45,7 +45,7 @@ Today we will review:
 <canvas width="600" height="600"></canvas>
 
 <script>
-	const imageURL = "https://pbs.twimg.com/profile_images/1419014347/Logo_IGM_color_512x512.jpg";
+	const imageURL = "http://igm.rit.edu/~acjvks/courses/shared/330/images/RIT_Football_Club_Logo__Public__400x400.png";
 
 	preloadImage(imageURL,init); 	
 
@@ -110,7 +110,7 @@ Today we will review:
 <canvas width="600" height="600"></canvas>
 
 <script>
-	const imageURL = "https://pbs.twimg.com/profile_images/1295528176/RIT_Football_Club_Logo__Public__400x400.png";
+	const imageURL = "http://igm.rit.edu/~acjvks/courses/shared/330/images/RIT_Football_Club_Logo__Public__400x400.png";
 
 
 	preloadImage(imageURL,init); 	
@@ -194,7 +194,7 @@ Today we will review:
 
 <script>
 	"use strict";
-	const imageURL = "https://pbs.twimg.com/profile_images/1295528176/RIT_Football_Club_Logo__Public__400x400.png";
+	const imageURL = "http://igm.rit.edu/~acjvks/courses/shared/330/images/RIT_Football_Club_Logo__Public__400x400.png";
 	let ctx = document.querySelector("canvas").getContext("2d");
 	let rot = 0;
 	let rotSpeed = -.01;
