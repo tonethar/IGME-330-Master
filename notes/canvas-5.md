@@ -110,7 +110,7 @@ Today we will review:
 <canvas width="600" height="600"></canvas>
 
 <script>
-	const imageURL = "http://igm.rit.edu/~acjvks/courses/shared/330/images/RIT_Football_Club_Logo__Public__400x400.png";
+	const imageURL = "https://www.rit.edu/marketing/brandportal/images/1505/brand-elements/identity/3-color-white.png";
 
 
 	preloadImage(imageURL,init); 	
@@ -194,7 +194,7 @@ Today we will review:
 
 <script>
 	"use strict";
-	const imageURL = "http://igm.rit.edu/~acjvks/courses/shared/330/images/RIT_Football_Club_Logo__Public__400x400.png";
+	const imageURL = "https://www.rit.edu/marketing/brandportal/images/1505/brand-elements/identity/3-color-white.png";
 	let ctx = document.querySelector("canvas").getContext("2d");
 	let rot = 0;
 	let rotSpeed = -.01;
