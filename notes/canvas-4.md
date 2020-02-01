@@ -1,21 +1,28 @@
-# IV - Canvas
+# IV - Canvas: Gradients & Bezier Curves
 
 ## I. Overview
 
-- Here we will
+- Here we will review canvas capabilities covered in [HW-SG-2.md](./HW-SG-2.md)
 
-- review [HW-SG-2.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-SG-2.md) - concepts:
-  - line caps, line joins, line dashes (we actually already talked about this on 2A)
-  - A **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
+## II. SG-2
+
+1) line caps, line joins, line dashes (we actually already talked about this in [canvas-2.md](./canvas-2.md))
+
+2) It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
+    - *solid colors* we have been doing all along, and we specify these like this --> `ctx.fillStyle="red"`, `ctx.fillStyle="rgb(255,0,0)"`, `ctx.fillStyle="#FF0000"`,`ctx.fillStyle="#F00"`, `ctx.fillStyle="#FF0000"`, `ctx.fillStyle="hsl(0, 100%, 50%)"` etc
+    - *patterns* as fills are created with `ctx.createPattern(image, repetition)` - you can see a working example in the *apple-canvas-text-examples* folder from SG-2
+    - a **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
     - linear gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient
     - radial gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient
     - see demo code below:
       - how can we get a gradient flowing from left to right? Right to left? Top to Bottom? Diagonally?
-  - bezier curves:
-      - `ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)` draws bezier curves with 1 control point
-      - `ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)` draws cubic bezier curves with 2 control points
-      - curve building demos
-      - animating curves
+      - can you animate a gradient? Yes! You can see a working example in the *apple-canvas-text-examples* folder from SG-2
+
+3) bezier curves:
+  - `ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)` draws bezier curves with 1 control point
+  - `ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)` draws cubic bezier curves with 2 control points
+  - curve building demos
+  - animating curves
 
 ## III. Demo Code
 
