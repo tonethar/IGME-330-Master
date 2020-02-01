@@ -1,4 +1,4 @@
-# III Canvas III - Transformations
+# Canvas III - Transformations
 
 ## I. Overview
 
