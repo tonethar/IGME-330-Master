@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- Here we will review canvas capabilities covered in [HW-SG-2.md](./HW-SG-2.md)
+- Here we will review the canvas capabilities covered in [HW-SG-2.md](./HW-SG-2.md)
 
 ## II. SG-2
 
@@ -14,15 +14,17 @@
     - a **gradient** specifies a starting color, an ending color, and an area over which color changes. A single gradient can encompass more than one color change
     - linear gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient
     - radial gradient - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient
-    - see demo code below:
+    - see demo code below - let's work on this this together in-class:
       - how can we get a gradient flowing from left to right? Right to left? Top to Bottom? Diagonally?
       - can you animate a gradient? Yes! You can see a working example in the *apple-canvas-text-examples* folder from SG-2
 
 3) bezier curves:
-  - `ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)` draws bezier curves with 1 control point
-  - `ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)` draws cubic bezier curves with 2 control points
-  - curve building demos
-  - animating curves
+  - [`ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo) draws bezier curves with 1 control point
+  - [`ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo) draws cubic bezier curves with 2 control points
+  - See the canvas curve demos:
+    - [quadratic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/quadratic-bezier-curves-playground.html)
+    - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
+    - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
 
 ## III. Demo Code
 
