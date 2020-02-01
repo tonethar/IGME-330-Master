@@ -256,3 +256,5 @@ We aren't always going to have video links, but here is a re-cap of the canvas t
 <hr><hr>
 
 **[Previous Chapter <- Canvas Part II](canvas-2.md)**
+
+**[Next Chapter -> Canvas Part IV](canvas-4.md)**
