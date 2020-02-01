@@ -10,12 +10,12 @@
     - [`ctx.lineCap`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap) is the shape used to draw the end points of lines
     - [`ctx.lineJoin`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin) is the shape used to join two line segments where they meet
     - [`ctx.setLineDash(segments)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash) - sets the line dash pattern used when stroking lines
-    - ['ctx.lineDashOffset'](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset) - this wasn't in SG-2 - it adjusts the "phase" i.e. starting point - of a dash pattern 
+    - [`ctx.lineDashOffset`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset) - this wasn't in SG-2 - it adjusts the "phase" i.e. starting point - of a dash pattern 
 
 2) bezier curves:
     - [`ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo) draws bezier curves with 1 control point
     - [`ctx.bezierCurveTo(ctrlX, ctrlY, ctrlXa, ctrlYa, endX, endY)`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo) draws cubic bezier curves with 2 control points
-    - See the canvas curve demos:
+    - See the working canvas curve demos:
       - [quadratic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/quadratic-bezier-curves-playground.html)
       - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
       - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
