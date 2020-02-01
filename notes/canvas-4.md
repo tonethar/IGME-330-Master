@@ -1,4 +1,4 @@
-# IV - Canvas: Gradients & Bezier Curves
+# Canvas IV - Gradients & Bezier Curves
 
 ## I. Overview
 
