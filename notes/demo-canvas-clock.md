@@ -5,7 +5,7 @@
 - Note that we are drawing the clock face on the *bottom* canvas (`ctx1`), and the seconds hand on the *top* canvas (`ctx2`)
 
 ## Screenshot of Done Version
-![screenshot](./_images/clock-demo-1.jpg)
+![screenshot](./_images/animated-clock-demo.jpg)
 
 ## Start Code
 
