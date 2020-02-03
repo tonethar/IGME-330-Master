@@ -13,6 +13,12 @@
   - #9 - Standard "move and check world boundaries" code
   - #10 - How to set up the HTML for radio buttons
 
+## II. Screenshot
+
+![Animated GIF](./_images/canvas-animated-sprites-example.gif)
+
+
+## III. Code
 
 ```html
 <!DOCTYPE html>
