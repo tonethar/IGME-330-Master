@@ -8,8 +8,8 @@
   - #4 - A handy `createLinearGradient()` helper function
   - #5 - `array.concat()` and the ES6 spread operator
   - #6 - The CSS attribute selector
-  - #7 - Form values are returned as strings! Don't forget to convert them to a number if that's what you need
-  - #8 - ES6 classe references as arguments to functions
+  - #7 - Form values are returned as strings! Don't forget to convert them to a number if that's what you need!
+  - #8 - ES6 class reference used as an argument to a function
   - #9 - Standard "move and check world boundaries" code
   - #10 - How to set up the HTML for radio buttons
 
