@@ -20,6 +20,8 @@
 
 ## III. Code
 
+**sprites-and-radio-buttons.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
