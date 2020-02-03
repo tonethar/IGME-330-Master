@@ -1,7 +1,7 @@
 # Canvas VI - Canvas Sprites
 
 ## I. Overview
-- So there's no new Canvas API concepts below, but there's a lot of potentially helpful example code below - especially for Project 2  - see comments in source file:
+- So there's no new Canvas API concepts below, but there's a lot of potentially helpful example code below - see comments in source file:
   - #1 - ES6 Classes with `draw()` and `move()` methods
   - #2 - `Object.assign()`
   - #3 - ES6 Class inheritance
