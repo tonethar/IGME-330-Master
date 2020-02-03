@@ -325,3 +325,5 @@ Today we will review:
 <hr><hr>
 
 **[Previous Chapter <- Canvas Part IV](canvas-4.md)**
+
+**[Next Chapter -> Canvas Part VI](canvas-6.md)**
