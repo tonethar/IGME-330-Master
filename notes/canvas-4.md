@@ -65,6 +65,7 @@
 	ctx.rect(100, 50, 200,50);
 	ctx.closePath();
 	ctx.stroke();
+	ctx.fill();
 */
 </script>
 </body>
