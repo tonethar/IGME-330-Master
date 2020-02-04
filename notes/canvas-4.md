@@ -19,6 +19,7 @@
       - [quadratic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/quadratic-bezier-curves-playground.html)
       - [cubic-bezier-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/cubic-bezier-curves-playground.html)
       - [animated-curves-playground.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curve-playgrounds/animated-curves-playground.html)
+      - [bezier-curves-tool-2.html](http://igm.rit.edu/~acjvks/courses/shared/330/sg-2/bezier-curves-tool-2.html)
     
 3) It turns out we can *fill* or *stroke* a path with solid colors, gradients, and patterns. It's just a matter of what we set our `ctx.fillStyle` to:
     - **solid colors** we have been doing all along, and we specify these like this --> `ctx.fillStyle="red"`, `ctx.fillStyle="rgb(255,0,0)"`, `ctx.fillStyle="#FF0000"`,`ctx.fillStyle="#F00"`, `ctx.fillStyle="#FF0000"`, `ctx.fillStyle="hsl(0, 100%, 50%)"` etc
