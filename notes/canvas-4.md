@@ -56,7 +56,15 @@
 	
 	ctx.fillStyle = grad;
 	ctx.fillRect(0,0,640,480);
-	
+
+/*
+	ctx.strokeStyle = "white";
+	ctx.lineWidth = 5;
+	ctx.beginPath();
+	ctx.rect(100, 50, 200,50);
+	ctx.closePath();
+	ctx.stroke();
+*/
 </script>
 </body>
 </html>
