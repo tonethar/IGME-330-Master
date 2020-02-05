@@ -70,7 +70,7 @@ Today we will review:
 			ctx.fillRect(0,0,600,600);
 			
 			// 1 - ctx.drawImage(image, dx, dy); // dx = "destination x"
-			//ctx.drawImage(img,0,0);
+			ctx.drawImage(img,0,0);
 			
 			// 2 - ctx.drawImage(image, dx, dy, dWidth, dHeight); 
 			// use dWidth and dHeight to scale the Image
@@ -81,13 +81,13 @@ Today we will review:
 		//	ctx.drawImage(img, 225, 100, 50, 30, 20, 20, 50, 30);
 			
 			// 4 - loop and draw!
-			ctx.translate(150,65);
-			for(let i=0;i<55;i++){
-				ctx.drawImage(img, 225, 100, 50, 30, -50, -50, 100, 60);
-				ctx.translate(110-i*2,0);
-				ctx.rotate(Math.PI/10);
-				ctx.scale(.95,.95);
-			}
+			//ctx.translate(150,65);
+			//for(let i=0;i<55;i++){
+			//	ctx.drawImage(img, 225, 100, 50, 30, -50, -50, 100, 60);
+			//	ctx.translate(110-i*2,0);
+			//	ctx.rotate(Math.PI/10);
+			//	ctx.scale(.95,.95);
+			//}
 	}
 </script>
 </body>
