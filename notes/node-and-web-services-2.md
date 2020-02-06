@@ -115,7 +115,7 @@ light switch, you will be dead before the lightbulb turns on."
 ### E. Test package.json
 
 - delete your **node_modules** folder
-- if you run your script again - `node index.js` - it fails! - because the **request** module is nowhere to be found
+- if you run your script again - go ahead an type `node index.js` - it fails! - because the **request** module is nowhere to be found
 - to re-install the **request** module files - just type `npm install` - which will re-download the **request** module and its dependencies because it is listed in the `"dependencies":` key of **package.json**
 - run your script again - `node index.js` - it succeeds!
 
