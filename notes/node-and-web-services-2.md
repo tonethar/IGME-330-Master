@@ -95,7 +95,7 @@ npm install request --save
 ```
 
 - note that we didn't get the warnings about the missing **package.json** file like we did last time
-- PS - `--save` has been *optional* for a few years now and can be omitted. npm now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
+- PS: the `--save` flag has been *optional* for a few years now and can be omitted. npm now adds the `"dependencies":` key to **package.json** automatically whenever you install new packages 
 
 ### D. Test the script
 
