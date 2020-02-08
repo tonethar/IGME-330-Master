@@ -6,7 +6,7 @@
 
 [III. Code](#code)
 
-[IV. Homework](#homework)
+[IV. Homework - *Sprity!*](#homework)
 
 <a id="overview"></a>
 
