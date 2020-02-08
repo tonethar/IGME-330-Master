@@ -246,11 +246,11 @@
 <!-- 
 #10 - note that for radio buttons to be in a group, where only one is selected at a time,
 they need to all have the same value for the `name` attribute. 
-Also not that we have given each of them indivusally tehir own `id`, but we're not really
+Also note that we have given each of them individually their own `id`, but we're not really
 using that value
  -->
 <div>
-	<input type="radio" id="crawlRadio" name="speed" value="0.1"> <label for="crawlRadio">Crawl</label>
+  <input type="radio" id="crawlRadio" name="speed" value="0.1"> <label for="crawlRadio">Crawl</label>
   <input type="radio" id="slowRadio" name="speed" value="1"> <label for="slowRadio">Slow</label>
   <input type="radio" id="mediumRadio" name="speed" value="2" checked> <label for="mediumRadio">Medium</label>
   <input type="radio" id="fastRadio" name="speed" value="3"> <label for="fastRadio">Fast</label>
