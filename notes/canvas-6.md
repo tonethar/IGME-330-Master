@@ -299,7 +299,7 @@ that value in this example
 - Save and reload the page. Check the console, there shouldn't be any code errors, and the animation should now work as before.
 - To verify that the image you are using is loaded, either put in a `console.log()`, or use the deubgger to put in a breakpoint and then inspect the value of `spriteImage`
 
-![screenshot](./_images/sprity.jpg)
+![screenshot](./_images/sprity-1.jpg)
 
 2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your bitmapped image
   - XXX
