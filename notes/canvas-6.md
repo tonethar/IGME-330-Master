@@ -280,7 +280,7 @@ that value in this example
 
 - Take the above code and do the following:
 
-1) Get image pre-loading working: 
+1) Get image "pre-loading" working: 
 
 - Copy the `preloadImage(url,callback)` function in  **canvas-image-demo.html** (from [Canvas Part V](./canvas-5.md)) to the &lt;script> tag where we have the utilities declared (UTILITY CODE)
 
