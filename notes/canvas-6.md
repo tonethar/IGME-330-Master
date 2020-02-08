@@ -312,6 +312,8 @@ that value in this example
     - initialize a new property named `image` with this value
   - be sure to still initialize the other properties (`x`, `y`, etc) either by calling [`super()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) with the first 5 arguments, or in some other manner
   - test your code by creating a new `ImageSprite` in the console, and pass in the value of `spriteImage`. You should see that the there is `image` property, and that it points at the correct image 
+  
+![screenshot](./_images/sprity-2.jpg)
 
 ### IV-A. Resources
 
