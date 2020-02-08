@@ -2,11 +2,11 @@
 
 [I. Overview](#overview)
 
-[I. Screenshot](#screenshot)
+[II. Screenshot](#screenshot)
 
-[I. Code](#code)
+[III. Code](#code)
 
-[I. Homework](#homework)
+[IV. Homework](#homework)
 
 <a id="overview"></a>
 
@@ -164,7 +164,7 @@
 		sprites = sprites.concat(sprites,createSprites(10,Sprite));
 		sprites = sprites.concat(sprites,createSprites(20,RingSprite));
 
-		// But cool kids use the spread operator instead of array.concat() 
+		// But cool kids use the spread operator instead of `array.concat()`
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 		// sprites =  [...createSprites(10,Sprite), ...createSprites(20,RingSprite)];
 		
@@ -276,7 +276,11 @@ that value in this example
 
 <a id="homework"></a>
 
-## IV. Homework 
+## IV. Homework - *Sprity!*
+
+- Take the above code and add the following:
+
+1) A new class named `ImageSprite` that extends `Sprite` above. This class will override the draw a bitmapped image
 
 
 **[Previous Chapter <- Canvas Part V](canvas-5.md)**
