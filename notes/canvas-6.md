@@ -19,7 +19,7 @@
   - #5 - [`array.concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) and the [ES6 spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
   - #6 - The [CSS attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
   - #7 - Form values are returned as strings! Don't forget to convert them to a number if that's what you need!
-  - #8 - ES6 class reference used as an argument to a function
+  - #8 - ES6 class [reference](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0) used as an argument to a function
   - #9 - Standard "move and check world boundaries" code
   - #10 - How to set up the HTML for radio buttons
 
