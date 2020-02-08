@@ -12,7 +12,7 @@
 
 ## I. Overview
 - So there's no new Canvas API concepts below, but there's a lot of potentially helpful example code below - see comments in source file:
-  - #1 - ES6 Classes with `draw()` and `move()` methods
+  - #1 - [ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) with `draw()` and `move()` methods
   - #2 - [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
   - #3 - [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends)
   - #4 - A handy `createLinearGradient()` helper function
