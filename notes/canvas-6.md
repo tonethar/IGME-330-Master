@@ -290,13 +290,14 @@ that value in this example
 
 - Save and reload the page. Check the console, there shouldn't be any code errors, but all you are seeing is a blank screen because our drawing code
 
-- Now add this call to the bottom of `init()` - `preloadImage(imageURL,function(image){spriteImage = image; loop();});` :
- - the *first* parameter of `preloadImage()` is `imageURL`, which an image that you want to load as use as a sprite. You will need to both declare that variable and provide and image URL (which can be either a local file you will provide, or out on the web, but DO NOT use the "tiger" image that we did in the example)
- - the *second* parameter of `preloadImage()` is the anonymous function that is going to be called when the image is loaded
- - the *first* parameter of the anonymous callback function is `image`, which points at the now downloaded image.
- - the *first line of code* in the anonymous callback function assigns this downloaded image to `spriteImage`, which you declared earlier
- - the *second line of code* in the anonymous callback function calls `loop()`, which kicks off the animation
-- Save and reload the page. Check the console, there shouldn't be any code errors, and the animation should now work as before.
+- Now add this call to the bottom of `init()` :
+  - `preloadImage(imageURL,function(image){spriteImage = image; loop();});` :
+    - the *first* parameter of `preloadImage()` is `imageURL`, which an image that you want to load as use as a sprite. You will need to both declare that variable and provide and image URL (which can be either a local file you will provide, or out on the web, but DO NOT use the "tiger" image that we did in the example)
+    - the *second* parameter of `preloadImage()` is the anonymous function that is going to be called when the image is loaded
+    - the *first* parameter of the anonymous callback function is `image`, which points at the now downloaded image.
+    - the *first line of code* in the anonymous callback function assigns this downloaded image to `spriteImage`, which you declared earlier
+    - the *second line of code* in the anonymous callback function calls `loop()`, which kicks off the animation
+  - Save and reload the page. Check the console, there shouldn't be any code errors, and the animation should now work as before.
 - To verify that the image you are using is loaded, either put in a `console.log()`, or use the deubgger to put in a breakpoint and then inspect the value of `spriteImage`
 
 ![screenshot](./_images/sprity-1.jpg)
