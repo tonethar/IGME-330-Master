@@ -1,5 +1,15 @@
 # Canvas VI - Canvas Sprites
 
+[I. Overview](#overview)
+
+[I. Screenshot](#screenshot)
+
+[I. Code](#code)
+
+[I. Homework](#homework)
+
+<a id="overview"></a>
+
 ## I. Overview
 - So there's no new Canvas API concepts below, but there's a lot of potentially helpful example code below - see comments in source file:
   - #1 - ES6 Classes with `draw()` and `move()` methods
@@ -13,10 +23,15 @@
   - #9 - Standard "move and check world boundaries" code
   - #10 - How to set up the HTML for radio buttons
 
+
+<a id="screenshot"></a>
+
 ## II. Screenshot
 
 ![Animated GIF](./_images/canvas-animated-sprites-example.gif)
 
+
+<a id="code"></a>
 
 ## III. Code
 
@@ -246,8 +261,8 @@
 <!-- 
 #10 - note that for radio buttons to be in a group, where only one is selected at a time,
 they need to all have the same value for the `name` attribute. 
-Also note that we have given each of them individually their own `id`, but we're not really
-using that value
+Also note that we have given each of them individually their own `id`, but we're not using
+that value in this example
  -->
 <div>
   <input type="radio" id="crawlRadio" name="speed" value="0.1"> <label for="crawlRadio">Crawl</label>
@@ -258,5 +273,10 @@ using that value
 </body>
 </html>
 ```
+
+<a id="homework"></a>
+
+## IV. Homework 
+
 
 **[Previous Chapter <- Canvas Part V](canvas-5.md)**
