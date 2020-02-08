@@ -278,9 +278,20 @@ that value in this example
 
 ## IV. Homework - *Sprity!*
 
-- Take the above code and add the following:
+- Take the above code and do the following:
 
-1) A new class named `ImageSprite` that extends `Sprite` above. This class will override the draw a bitmapped image
+1) Add the image preloader code from [Canvas Part V](./canvas-5.md) 
+
+2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw a bitmapped image
+
+### IV-A. Resources
+
+- See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()`
+- 
+
+### IV-B. Submission
+
+
 
 
 **[Previous Chapter <- Canvas Part V](canvas-5.md)**
