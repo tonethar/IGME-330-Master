@@ -144,7 +144,7 @@
 	</script>
 	
 	<script>
-	// MAIN code
+	// MAIN CODE
 	let ctx,canvas
 	let gradient;
 	let sprites = [];
@@ -280,9 +280,27 @@ that value in this example
 
 - Take the above code and do the following:
 
-1) Add the image preloader code from [Canvas Part V](./canvas-5.md) 
+1) Get image pre-loading working: 
 
-2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw a bitmapped image
+- Copy the `preloadImage(url,callback)` function in  **canvas-image-demo.html** (from [Canvas Part V](./canvas-5.md)) to the &lt;script> tag where we have the utilities declared (UTILITY CODE)
+
+- We need a variable to reference a downloaded bitmapped image that we will soon be drawing to the screen. In the main script (MAIN CODE), declare a variable named `spriteImage`. Do so up "at the top" on the main script, in the same scope as the `ctx` and other variables.
+
+- We don't want to start the animation loop until the image has loaded, so delete the call to `loop()` that is at the end of the `init()` function
+
+- Save and reload the page. Check the console, there shouldn't be any code errors, but all you are seeing is a blank screen because our drawing code
+
+- Now add this call to the bottom of `init()` - `preloadImage(imageURL,function(image){spriteImage = image; loop();});` :
+ - the *first* parameter of `preloadImage()` is `imageURL`, which an image that you want to load as use as a sprite. You will need to both declare that variable and provide and image URL (which can be either a local file you will provide, or out on the web, but DO NOT use the "tiger" image that we did in the example)
+ - the *second* parameter of `preloadImage()` is the anonymous function that is going to be called when the image is loaded
+ - the *first* parameter of the anonymous callback function is `image`, which points at the now downloaded image.
+ - the *first line of code* in the anonymous callback function assigns this downloaded image to `spriteImage`, which you declared earlier
+ - the *second line of code* in the anonymous callback function calls `loop()`, which kicks off the animation
+- Save and reload the page. Check the console, there shouldn't be any code errors, and the animation should now work as before.
+- To verify that the image you are using is loaded, either put in a `console.log()`, or use the deubgger to put in a breakpoint and then inspect the value of `spriteImage`
+
+2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your bitmapped image
+  - XXX
 
 ### IV-A. Resources
 
