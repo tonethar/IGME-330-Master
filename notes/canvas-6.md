@@ -16,8 +16,8 @@
   - #2 - `Object.assign()`
   - #3 - ES6 Class inheritance
   - #4 - A handy `createLinearGradient()` helper function
-  - #5 - `array.concat()` and the ES6 spread operator
-  - #6 - The CSS attribute selector
+  - #5 - `array.concat()` and the [ES6 spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+  - #6 - The [CSS attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
   - #7 - Form values are returned as strings! Don't forget to convert them to a number if that's what you need!
   - #8 - ES6 class reference used as an argument to a function
   - #9 - Standard "move and check world boundaries" code
