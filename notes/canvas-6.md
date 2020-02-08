@@ -311,14 +311,14 @@ that value in this example
     - delete the 'color' parameter and replace it with an `image` parameter
     - initialize a new property named `image` with this value
   - be sure to still initialize the other properties (`x`, `y`, etc) either by calling [`super()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) with the first 5 arguments, or in some other manner
-  - test your code by creating a new `ImageSprite` in the console, and pass in the value of `spriteImage`. You should see that the there is `image` property, and that it points at the correct image 
+  - test your code by creating a new `ImageSprite` in the console, and pass in the value of `spriteImage`. You should see that the there is an `image` property, and that it points at the correct image 
   
 ![screenshot](./_images/sprity-2.jpg)
 
 ### IV-A. Resources
 
 - See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
-- 
+- See [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) if you need help on JS class inheritance
 
 ### IV-B. Submission
 
