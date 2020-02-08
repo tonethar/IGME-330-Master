@@ -281,6 +281,8 @@ that value in this example
 
 ***Take the above code, rename the file to **sprity-HW.html**,  and do the following:***
 
+<hr>
+
 1) Get image "pre-loading" working: 
 
 - Copy the `preloadImage(url,callback)` function in  **canvas-image-demo.html** (from [Canvas Part V](./canvas-5.md)) to the &lt;script> tag where we have the utilities declared (UTILITY CODE)
@@ -306,6 +308,8 @@ that value in this example
 
 ![screenshot](./_images/sprity-1.jpg)
 
+<hr>
+
 2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your loaded bitmapped image to the canvas.
   - create a new `constructor` for `ImageSprite`:
     - delete the 'color' parameter and replace it with an `image` parameter
@@ -315,6 +319,8 @@ that value in this example
   
 ![screenshot](./_images/sprity-2.jpg)
 
+<hr>
+
 3) In `ImageSprite`, go ahead and *overload* the `Sprite` `draw()` method to instead use `ctx.drawImage()`:
   - you will most likely use the "5 arguments" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`. (See `RingSprite` to see how we did this overloading)
   - P.S. don't forget about the "half width" and "half height" trick for drawing rectangles so that they will "bounce" correctly, and will pivot from the center
@@ -323,14 +329,29 @@ that value in this example
   **Success!**
   
 ![screenshot](./_images/sprity-3.jpg)
-  
 
-### IV-A. Resources
+<hr>
+
+4) Now create a new helper method to create at least 10 `ImageSprite` instances, and then add them to the `sprites` array. When you are done, it should look something like this (but not with the tiger image!)L
+
+![screenshot](./_images/sprity-4.jpg)
+
+<a id="resources"></a>
+
+## V. Resources
 
 - See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
 - See [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) if you need help on JS class inheritance
 
-### IV-B. Submission
+<a id="submission"></a>
+
+## VI. Submission
+
+- Complete the above and get it working perfectly
+- Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
+  - Add animated rotations to the `ImageSprite` - give it a `rotationSpeed` property, and then rotate it by that ammount every frame ***(Up to 30% bonus)***
+  - Subclass `Sprite` again - this time have it do some custom drawing using something besides circles and rectangles - maybe a `TriangleSprite` or better yet `PolygonSprite` with an arbitrary number of sides. You could also do something with curves, etc.. or maybe a `SmileySprite` - surprise us! ***(Up to +50% bonus)***
+
 
 
 
