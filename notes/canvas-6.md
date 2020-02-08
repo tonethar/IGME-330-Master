@@ -279,7 +279,7 @@ that value in this example
 
 ## IV. Homework - *Sprity!*
 
-- Take the above code, rename the file to **sprity-HW.html**,  and do the following:
+***Take the above code, rename the file to **sprity-HW.html**,  and do the following:***
 
 1) Get image "pre-loading" working: 
 
