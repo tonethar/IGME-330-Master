@@ -288,9 +288,10 @@ that value in this example
 
 - We don't want to start the animation loop until the image has loaded, so delete the call to `loop()` that is at the end of the `init()` function
 
-- Save and reload the page. Check the console, there shouldn't be any code errors, but all you are seeing is a blank screen because our drawing code
+- Save and reload the page. Check the console, there shouldn't be any code errors, but all you are seeing is a blank screen because our `loop()` never gets called.
 
-- Now add this call to the bottom of `init()` :
+- We instead want to call `loop()` AFTER the image has loaded
+- Go ahead and add this call to `preloadImage()` to the *bottom* of `init()` :
   - `preloadImage(imageURL,function(image){spriteImage = image; loop();});` :
     - the *first* parameter of `preloadImage()` is `imageURL`, which an image that you want to load as use as a sprite. You will need to both declare that variable and provide and image URL (which can be either a local file you will provide, or out on the web, but DO NOT use the "tiger" image that we did in the example)
     - the *second* parameter of `preloadImage()` is the anonymous function that is going to be called when the image is loaded
