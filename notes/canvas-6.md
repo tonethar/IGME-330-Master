@@ -10,7 +10,7 @@
 
 [IV. Resources](#homework)
 
-[IV. HW Submission](#submission)
+[IV. HW Submission / Extra Credit](#submission)
 
 <a id="overview"></a>
 
@@ -327,7 +327,7 @@ that value in this example
 
 3) In `ImageSprite`, go ahead and *overload* the `Sprite` `draw()` method to instead use `ctx.drawImage()`:
   - you will most likely use the "5 arguments" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`. (See `RingSprite` to see how we did this overloading)
-  - P.S. don't forget about the "half width" and "half height" trick for drawing rectangles so that they will "bounce" correctly, and will pivot from the center
+  - P.S. don't forget about the "half width" and "half height" trick for drawing rectangles so that they will "bounce" correctly, and will pivot from the center. Remember that `this.span` is both the width and the height of the sprite. (Which means our image sprites have to be squares - this is something you might want to change at some point)
   - to test this code and the `draw()` method, head to the console again, see screenshot below:
   
   **Success!**
@@ -336,7 +336,9 @@ that value in this example
 
 <hr>
 
-4) Now create a new helper method to create at least 10 `ImageSprite` instances, and then add them to the `sprites` array. When you are done, it should look something like this (but not with the tiger image!)L
+4) Now create a new helper method - something like - `function createImageSprites(num,image){...}` - to create at least 10 `ImageSprite` instances, and then add them to the `sprites` array:
+  - be sure to call this new function AFTER the image has loaded - *look at the code carefully!* - otherwise you will get weird errors
+  - when you are done, run the code, it should look something like this (but not with the tiger image!):
 
 ![screenshot](./_images/sprity-4.jpg)
 
@@ -349,7 +351,7 @@ that value in this example
 
 <a id="submission"></a>
 
-## VI. HW Submission
+## VI. HW Submission / Extra Credit
 
 - Complete the above and get it working perfectly
 - Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
