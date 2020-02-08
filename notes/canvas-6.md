@@ -311,11 +311,17 @@ that value in this example
     - delete the 'color' parameter and replace it with an `image` parameter
     - initialize a new property named `image` with this value
   - be sure to still initialize the other properties (`x`, `y`, etc) either by calling [`super()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) with the first 5 arguments, or in some other manner
-  - test your code by creating a new `ImageSprite` in the console, and pass in the value of `spriteImage`. You should see that the there is an `image` property, and that it points at the correct image 
+  - let's test the code. Fortunately?, we still have all of our code floating around in global namespaces that are visible in the console, so we can use the console to create an `ImageSprite` instance. Test your code by creating a new `ImageSprite` in the console as seen below, and pass in the value of `spriteImage`. You should see that the there is an `image` property, and that it points at the correct image:
   
 ![screenshot](./_images/sprity-2.jpg)
 
-3) In `ImageSprite`, go ahead and overload the `draw()` method to use `ctx.drawImage()` - you will most likely use the "5 argument" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`
+3) In `ImageSprite`, go ahead and *overload* the `Sprite` `draw()` method to instead use `ctx.drawImage()`:
+  - you will most likely use the "5 arguments" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`. (See `RingSprite` to see how we did this overloading)
+  - P.S. don't forget about the "half width" and "half height" trick for drawing rectangles so that they will "bounce" correctly, and will pivot from the center
+  - to test this head to the console again, see screenshot below:
+  
+![screenshot](./_images/sprity-3.jpg)
+  
 
 ### IV-A. Resources
 
