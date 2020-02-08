@@ -16,7 +16,7 @@
   - #2 - A quick and convenient way to assign multiple object properties with [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
   - #3 - [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends)
   - #4 - A handy `createLinearGradient()` helper function
-  - #5 - `array.concat()` and the [ES6 spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+  - #5 - [`array.concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) and the [ES6 spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
   - #6 - The [CSS attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
   - #7 - Form values are returned as strings! Don't forget to convert them to a number if that's what you need!
   - #8 - ES6 class reference used as an argument to a function
