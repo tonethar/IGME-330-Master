@@ -315,7 +315,7 @@ that value in this example
   
 ![screenshot](./_images/sprity-2.jpg)
 
-3) In `ImageSprite`, go ahead and overload the `draw()` method to use `ctx.drawImage()`
+3) In `ImageSprite`, go ahead and overload the `draw()` method to use `ctx.drawImage()` - you will most likely use the "5 argument" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`
 
 ### IV-A. Resources
 
