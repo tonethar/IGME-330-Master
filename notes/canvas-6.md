@@ -8,6 +8,10 @@
 
 [IV. Homework - *Sprity!*](#homework)
 
+[IV. Resources](#homework)
+
+[IV. HW Submission](#submission)
+
 <a id="overview"></a>
 
 ## I. Overview
@@ -345,7 +349,7 @@ that value in this example
 
 <a id="submission"></a>
 
-## VI. Submission
+## VI. HW Submission
 
 - Complete the above and get it working perfectly
 - Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
