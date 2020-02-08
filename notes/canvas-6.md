@@ -318,7 +318,9 @@ that value in this example
 3) In `ImageSprite`, go ahead and *overload* the `Sprite` `draw()` method to instead use `ctx.drawImage()`:
   - you will most likely use the "5 arguments" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`. (See `RingSprite` to see how we did this overloading)
   - P.S. don't forget about the "half width" and "half height" trick for drawing rectangles so that they will "bounce" correctly, and will pivot from the center
-  - to test this head to the console again, see screenshot below:
+  - to test this code and the `draw()` method, head to the console again, see screenshot below:
+  
+  **Success!**
   
 ![screenshot](./_images/sprity-3.jpg)
   
