@@ -355,6 +355,7 @@ that value in this example
 - Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
   - Add animated rotations to the `ImageSprite` - give it a `rotationSpeed` property, and then rotate it by that ammount every frame ***(Up to 30% bonus)***
   - Subclass `Sprite` again - this time have it do some custom drawing using something besides circles and rectangles - maybe a `TriangleSprite` or better yet `PolygonSprite` with an arbitrary number of sides. You could also do something with curves, etc.. or maybe a `SmileySprite` - surprise us! ***(Up to +50% bonus)***
+  - ZIP and POST to dropbox
 
 
 
