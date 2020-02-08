@@ -315,6 +315,8 @@ that value in this example
   
 ![screenshot](./_images/sprity-2.jpg)
 
+3) In `ImageSprite`, go ahead and overload the `draw()` method to use `ctx.drawImage()`
+
 ### IV-A. Resources
 
 - See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
