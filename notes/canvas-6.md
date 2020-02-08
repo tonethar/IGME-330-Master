@@ -306,12 +306,15 @@ that value in this example
 
 ![screenshot](./_images/sprity-1.jpg)
 
-2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your bitmapped image
-  - XXX
+2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your loaded bitmapped image to the canvas.
+  - create a new `constructor` for `ImageSprite`:
+    - delete the 'color' parameter and replace it with an `image` parameter
+    - initialize a new property named `image` with this value
+  - test your code by creating a new `ImageSprite` in the console, and pass in the value of `spriteImage`. You should see that the there is `image` property, and that it points at the correct image 
 
 ### IV-A. Resources
 
-- See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()`
+- See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
 - 
 
 ### IV-B. Submission
