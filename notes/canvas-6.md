@@ -8,7 +8,7 @@
 
 [IV. Homework - *Sprity!*](#homework)
 
-[IV. Resources](#homework)
+[IV. Resources](#resources)
 
 [IV. HW Submission / Extra Credit](#submission)
 
