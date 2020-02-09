@@ -349,7 +349,7 @@ that value in this example
 
 ## V. Spritesheets & Animation
 
-- This demo shows how we can use a spritesheet, `ctx.drawImage()` and a timer to create animation. The comple files and be found here --> [sprite-sheet-demo-mario.zip](_files/sprite-sheet-demo-mario.zip)
+- This demo shows how we can use a spritesheet, `ctx.drawImage()` and a timer to create animation. Look this over if you are interested. The complete files and be found here --> [sprite-sheet-demo-mario.zip](_files/sprite-sheet-demo-mario.zip)
 
 ![screenshot](./_images/sprity-5.gif)
 
