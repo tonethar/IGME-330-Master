@@ -349,11 +349,9 @@ that value in this example
 
 ## V. Spritesheets & Animation
 
-- This demo shows how we can use a spritesheet, `ctx.drawImage()` and a timer to create frame-by-frame animation. Look this over if you are interested. The complete files and be found here --> [sprite-sheet-demo-mario.zip](_files/sprite-sheet-demo-mario.zip)
+- This demo shows how we can use a spritesheet, `ctx.drawImage()` and a timer to create "frame by frame" animation. Look this over if you are interested. The complete files and be found here --> [sprite-sheet-demo-mario.zip](_files/sprite-sheet-demo-mario.zip)
 
 ![screenshot](./_images/sprity-5.gif)
-
-
 
 <a id="resources"></a>
 
@@ -371,6 +369,7 @@ that value in this example
   - Add animated rotations to the `ImageSprite` - give it a `rotationSpeed` property - each sprite gets a random value - and then rotate it by that amount every frame. Recall that this value will represent rotation values in *radians per 1/60th of a second* ***(Up to +25% bonus)***
   - Subclass `Sprite` again - this time have it do some custom drawing using something besides circles and rectangles - maybe a `TriangleSprite` or better yet `PolygonSprite` with an arbitrary number of sides. You could also do something with curves, etc.. or maybe a `SmileySprite` - surprise us! ***(Up to +50% bonus)***
   - Subclass `Sprite` again and overload `update()` to do something interesting. Remember `WrappingCircle` and `SeekingCircle` and the ["suclass sandbox"](https://gameprogrammingpatterns.com/subclass-sandbox.html) from 235's [HW-Circle Blast IV](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-circle-blast-4.md#section5) assignment? ***(Up to +50% bonus)***
+  - Subclass `Sprite` again - this time override `draw()` to do a spritesheet animation - see [V. Spritesheets & Animation](#spritesheet) above for starter code
   - ZIP and POST to dropbox
 
 
