@@ -8,9 +8,11 @@
 
 [IV. Homework - *Sprity!*](#homework)
 
-[IV. Resources](#resources)
+[V. Spritesheets & Animation](#spritesheet)
 
-[IV. HW Submission / Extra Credit](#submission)
+[VI. Resources](#resources)
+
+[VII. HW Submission / Extra Credit](#submission)
 
 <a id="overview"></a>
 
@@ -342,16 +344,27 @@ that value in this example
 
 ![screenshot](./_images/sprity-4.jpg)
 
+
+<a id="spritesheet"></a>
+
+## V. Spritesheets & Animation
+
+- This demo shows how we can use a spritesheet, `ctx.drawImage()` and a timer to create animation. The comple files and be found here --> [sprite-sheet-demo-mario.zip](_files/sprite-sheet-demo-mario.zip)
+
+![screenshot](./_images/sprity-5.gif)
+
+
+
 <a id="resources"></a>
 
-## V. Resources
+## VI. Resources
 
 - See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
 - See [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) if you need help on JS class inheritance
 
 <a id="submission"></a>
 
-## VI. HW Submission / Extra Credit
+## VII. HW Submission / Extra Credit
 
 - Complete the above and get it working perfectly
 - Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
