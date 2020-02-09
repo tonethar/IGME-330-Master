@@ -340,7 +340,7 @@ that value in this example
 
 4) Now create a new helper method - something like - `function createImageSprites(num,image){...}` - to create at least 10 `ImageSprite` instances, and then add them to the `sprites` array:
   - be sure to call this new function AFTER the image has loaded - *look at your code carefully!* - otherwise you will get weird errors
-  - when you are done, run the code, it should look something like this (but not with the tiger image!):
+  - when you are done, run the code, it should look something like this (but animated, obviously, and not with the tiger image!):
 
 ![screenshot](./_images/sprity-4.jpg)
 
