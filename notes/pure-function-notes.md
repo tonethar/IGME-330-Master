@@ -53,11 +53,11 @@
 	
   
 ```js
-  // function updateMainH1(text)
-	// it depends on a DOM element of id="titleElement"
-	// It permanently modifies properties of `#titleElement`
-	function updateMainH1(text){
-		let h1 = document.querySelector("#titleElement")
-		h1.innerHTML = text;
-	}
+// function updateMainH1(text)
+// it depends on a DOM element of id="titleElement"
+// It permanently modifies properties of `#titleElement`
+function updateMainH1(text){
+  let h1 = document.querySelector("#titleElement")
+  h1.innerHTML = text;
+}
 ```
