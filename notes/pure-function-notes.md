@@ -49,7 +49,7 @@
 	}
 ```
 
-### 4) This is NOT a "Pure Function" - but it is acceptable code if it's located in index.js
+### 4) This is NOT a "Pure Function" - but it IS acceptable code if it's located in index.js or main.js
 	
   
 ```js
