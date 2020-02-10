@@ -3,7 +3,7 @@
 ## I. Overview
 
 **Some of your projects may require you to create a library or unit of "utility" functions:**
-  - these are usually also defined as "pure functions", which lack dependencies and "side effects"
+  - these are usually also defined as "pure functions", which lack "dependencies" and "side effects"
   - here's a definition --> [Wikipedia - Pure Function](https://en.wikipedia.org/wiki/Pure_function) - see #1 and #2 in the entry
 
 ## II. IGME-330 Examples
@@ -13,7 +13,7 @@
 ```js
 // function flipACoinAndGetHeads()
 // It doesn't have any dependencies other than the built-in Math object
-// It doesn't modify any other program state (i.e. variables or properties of objects) in the program
+// It doesn't modify any other program *state* (i.e. variables or properties of objects) in the program
 function flipACoinAndGetHeads(){
   return Math.random() < 0.5;
 }
@@ -22,11 +22,11 @@ function flipACoinAndGetHeads(){
 ### 2) For our purposes, when we're using the canvas API, we'll call this a "Pure Function":
 
 ```js
-// function drawRectangle(ctx...)
+// function drawRectangle(ctx,...)
 // It doesn't have any dependencies other than the built-in Canvas API
 // It DOES draw to the canvas, but ...
-// it DOES NOT permanently modify any other program state (i.e. variables or properties of objects) in the program
-function drawRectangle(ctx...){
+// it DOES NOT permanently modify any other program *state* (i.e. variables or properties of objects) in the program
+function drawRectangle(ctx,...){
   ctx.save(); // save the drawing state
   // change a bunch of ctx state properties
   // do a bunch of translating, scaling, rotating
