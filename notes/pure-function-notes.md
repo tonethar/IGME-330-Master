@@ -3,7 +3,7 @@
 ## I. Overview
 
 **Some of your projects may require you to create a library or unit of "utility" functions:**
-  - these are usually also defined as "pure functions" that lack dependencies and "side effects"
+  - these are usually also defined as "pure functions", which lack dependencies and "side effects"
   - here's a definition --> [Wikipedia - Pure Function](https://en.wikipedia.org/wiki/Pure_function) - see #1 and #2 in the entry
 
 ## II. IGME-330 Examples
