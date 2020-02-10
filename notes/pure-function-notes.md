@@ -15,7 +15,7 @@
 // It doesn't have any dependencies other than the built-in Math object
 // It doesn't modify any other program *state* (i.e. variables or properties of objects) in the program
 function flipACoinAndGetHeads(){
-  return Math.random() < 0.5;
+  return Math.random() < 0.5; // 50% chance of returning true, 50% chance of returning false
 }
 ```	
 	
