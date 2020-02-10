@@ -18,7 +18,7 @@ The above is adapted from https://www.techopedia.com/definition/25972/modular-pr
 
 We have been getting away with writing "non modular" JavaScript code so far because our programs have been fairly small. But as the size of the program increases, and if more than one developer works on an application, a modular programming architecture becomes essential.
 
-**In this chapter we will apply ES6 module syntax to an application and see these benefits in action.**
+**Today we will apply ES6 module syntax to an application and see these benefits in action.**
 
 
 ## Contents
