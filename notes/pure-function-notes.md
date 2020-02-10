@@ -19,7 +19,7 @@
 	}
 ```	
 	
-### 2) For the purposes of project 1, we'll call this a "Pure Function":
+### 2) For our purposes, when we're using the canvas API, we'll call this a "Pure Function":
 
 ```js
 	// function drawRectangle(ctx...)
