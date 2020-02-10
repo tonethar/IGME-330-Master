@@ -8,7 +8,7 @@
 
 ## II. IGME-330 Examples
 
-## 1) Here's a "Pure Function", it does something, and returns a value:
+### 1) Here's a "Pure Function", it does something, and returns a value:
 
 ```js
 	// function flipACoinAndGetHeads()
@@ -19,7 +19,7 @@
 	}
 ```	
 	
-## 2) For the purposes of project 1, we'll call this a "Pure Function":
+### 2) For the purposes of project 1, we'll call this a "Pure Function":
 
 ```js
 	// function drawRectangle(ctx...)
@@ -34,7 +34,7 @@
 	}
 ```
 
-## 3) This is NOT a "Pure Function":
+### 3) This is NOT a "Pure Function":
 
 ```js
 	// function drawRectangle()
@@ -49,7 +49,7 @@
 	}
 ```
 
-## 4) This is NOT a "Pure Function" - but it is acceptable code if it's located in index.js
+### 4) This is NOT a "Pure Function" - but it is acceptable code if it's located in index.js
 	
   
 ```js
