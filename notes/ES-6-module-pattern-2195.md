@@ -72,7 +72,11 @@ ES6 modules have 2 restrictions:
 
 <hr>
 
-### II-B. A working example
+<a id="section3">
+	
+## III. Try it out!
+	
+### III-A. A working example
 Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
 
 **js/utilities.js**
@@ -136,7 +140,7 @@ Try it out:
 
 <hr>
 
-### II-C. Checking the web inspector
+### II-B. Checking the web inspector
 
 If we add two breakpoints and step through the code, we can see that we now have "Module" scope and privacy:
 
@@ -160,21 +164,10 @@ But here in *utilities.js*, both functions are visible:
 In *test.html*:
 - attempt to call `myPrivateFunction()` - what error message do we get?
 
+
+
+
 <hr>
-
-
-## III. <a id="section3">Adding ES6 Modules to our "sprites plus bitmap manipulation" app
-	
-Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules.
-
-## IV. <a id="section4">Try it out!
-- Everything in the app should now run exactly as before (and don't forget that you need to run it off of a web server!)
-- Now set some breakpoints and check the inspector:
-    - "Script" scope is gone, replaced by "Module" scope
-    - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
-	
-
-<hr><hr>
 
 ## V. <a id="section5">Reference
 
