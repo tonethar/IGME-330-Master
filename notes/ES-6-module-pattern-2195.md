@@ -354,7 +354,7 @@ In *test.html*:
 ## V. Homework
 
  - Now it's your turn:
-   - take the ["Sprity" HW](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-6.md#sprity) and refactor it to use ES6 modules
+   - take the ["Sprity" HW](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-6.md#homework) and refactor it to use ES6 modules
    - create the following modules: **classes.js**, **utils.js**, **main.js** and **loader.js**
    - see myCourses for submission instructions
 
