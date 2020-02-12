@@ -14,8 +14,9 @@ V. [Reference](#section5)
 
 VI. [Review Questions](#section6)
 
+<hr>
 
-## Why do we need modularized code?
+## I. Why do we need modularized code?
 Applications that are written in a **modular** fashion are [loosely coupled](https://en.wikipedia.org/wiki/Loose_coupling), with minimal [dependencies](https://en.wikipedia.org/wiki/Dependency_hell) between modules, which makes the process of designing and maintaining them much easier and less error prone. 
 
 **Modular programming** is the process of subdividing a computer program into separate sub-programs. Modules have the following characteristics:
