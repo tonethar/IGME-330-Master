@@ -55,6 +55,8 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
 
+<a id="important-restrictions"/>
+
 ### II-B. \*\* Important Restrictions \*\*
 
 ES6 modules have 2 restrictions:
@@ -87,8 +89,6 @@ function myPrivateFunction(){
 We could also write the `export` this way:
 
 ```javascript
-export {addTextToBody};
-
 function addTextToBody(text) {
   const div = document.createElement('div');
   div.textContent = text;
@@ -98,6 +98,8 @@ function addTextToBody(text) {
 function myPrivateFunction(){
 	console.log("privateFunction() is not visible outside of utilities.js!");
 }
+
+export {addTextToBody};
 ```
 
 To use this module from an HTML page, we do the following:
@@ -127,7 +129,7 @@ Try it out:
 - here - http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
 - test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
 - note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
-- for your convenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server (or Firefox Developer) to run
+- for your convenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server to run, [see above](#important-restrictions)
 
 <hr>
 
