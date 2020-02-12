@@ -162,84 +162,7 @@ In *test.html*:
 
 ## III. <a id="section3">Adding ES6 Modules to our "sprites plus bitmap manipulation" app
 	
-Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you download the folder, rename it to **sprites-now-with-modules**
-
-### III-A. Changes to *utils.js*
-
-Add the following to the top:
-
-```js
-export {getRandomUnitVector,getRandom,getRandomColor};
-```
-
-- you can also delete the `"use strict";` line because ES6 modules always run in strict mode
-- above we are making `getRandomUnitVector()` public, but keeping `getRandom()` private to this module
-- if you test the app now, will see errors, so just move on
-
-
-### III-B. Changes to *canvas-utils.js*
-
-Add the following to the top:
-
-```js
-export {createLinearGradient};
-```
-
-### III-C. Changes to *sprites.js*
-
-Add the following to the top:
-
-```js
-export {Sprite};
-```
-
-### III-D. Changes to *main.js*
-
-Add the following to the top:
-
-```js
-import {Sprite} from './sprites.js';
-import {getRandomUnitVector,getRandom,getRandomColor} from './utils.js';
-import {createLinearGradient} from './canvas-utils.js';
-export {init};
-```
-
-- Now delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10 or 15. In the next section, we will instead call `init()` from **loader.js**. 
-- above we are importing the 3 sprite creation functions we need from **classes.js**
-- the only function or variable we are exposing to other scripts is `init()`
-
-### III-E. New file: *src/loader.js*
-
-Make **loader.js** look like this:
-
-```javascript
-import {init} from './main.js';
-// 1) this script a good place to load fonts, images, sounds and other resources
-// 2) start up app
-init();
-```
-
-
-### III-F. Changes to the HTML file:
-
-
-- **Replace these &lt;script> tags:**
-
-```html
-<script src="src/canvas-utils.js"></script>
-<script src="src/utils.js"></script>
-<script src="src/sprites.js"></script>
-<script src="src/main.js"></script>
-```
-
-- **With this:**
-```html
-<script src="src/loader.js" type="module"></script>
-```
-
-- above we got rid of those 4 &lt;script> tags that were doing the importing
-- the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
-
+Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules.
 
 ## IV. <a id="section4">Try it out!
 - Everything in the app should now run exactly as before (and don't forget that you need to run it off of a web server!)
@@ -247,58 +170,6 @@ init();
     - "Script" scope is gone, replaced by "Module" scope
     - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
 	
-<hr><hr>
-
-**loader.js**
-
-- **only `init` (which was imported from main.js) is visible:**
-
-![Screenshot](_images/es6-module-pattern-5.jpg)
-
-<hr>
-
-**main.js**
-
-- **everything that we imported from the other modules is visible:**
-
-![Screenshot](_images/es6-module-pattern-6.jpg)
-
-<hr>
-
-**sprites.js**
-
-- **Only `Sprite` is visible:**
-
-![Screenshot](_images/es6-module-pattern-7.jpg)
-
-<hr>
-
-**utils.js**
-
-- **Only the 3 local helper functions are visible:**
-
-![Screenshot](_images/es6-module-pattern-8.jpg)
-
-<hr>
-
-**canvas-utils.js**
-
-- **Only the 1 local helper function is visible:**
-
-![Screenshot](_images/es6-module-pattern-9.jpg)
-
-<hr>
-
-- Now go ahead and add some "private" new functions and variables to **canvas-utils.js**
-
-```js
-const secret = 42;
-function amazing(){
-  console.log("Doing amazing things here!");
-}
-```
-
-- and check the debugger - you will see that they are not visible outside of  **canvas-utils.js**
 
 <hr><hr>
 
@@ -320,10 +191,3 @@ function amazing(){
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
-
-	
-
-<!--
-**[Next Chapter -> JavaScript & the ES5 Revealing Module Pattern (chapter 5)](canvas-sprites-5.md)**
--->
-
