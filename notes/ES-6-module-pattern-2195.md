@@ -129,6 +129,7 @@ To use this module from an HTML page, we do the following:
 ```
 
 Be sure to note the following in *test.html*:
+- Note we have added an attribute  of `type='module'` --> `<script type='module'>`
 - it is not necessary to "import" the *utilities.js* JS file with a &lt;script> tag - as the `import` statement is doing that for us
 - we have to explicitly import the `addTextToBody()` function to use it
 
@@ -164,12 +165,23 @@ But here in *utilities.js*, both functions are visible:
 In *test.html*:
 - attempt to call `myPrivateFunction()` - what error message do we get?
 
+<hr>
 
+<a id="section4">
 
+## IV. In-class Demo
 
 <hr>
 
-## V. <a id="section5">Reference
+<a id="section5">
+
+## V. Homework
+
+<hr>
+
+<a id="section6" />
+	
+## VI. Reference
 
 - Definitely check out how to do *named imports* below (i.e. so you could write `main.init()` instead of just `init()`):
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
@@ -181,8 +193,10 @@ In *test.html*:
   - https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
   - https://www.ecma-international.org/ecma-262/6.0/#sec-imports
 
-	
-## VI. <a id="section6">Review Questions
+
+<a id="section7" />
+
+## VII. Review Questions
 1. Define the software development term *loosely coupled*.
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
