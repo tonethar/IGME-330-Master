@@ -78,7 +78,7 @@ ES6 modules have 2 restrictions:
 	
 ## III. Try it out!
 	
-### III-A. A working example
+### III-A. Working example
 Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
 
 **js/utilities.js**
