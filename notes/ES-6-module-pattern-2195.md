@@ -1,6 +1,21 @@
 # ES6 Module Pattern
 
-## Overview
+## Contents
+<!--- Local Navigation --->
+I. [Why do we need modularized code?](#section1)
+
+II. [ES6 Module Syntax](#section2)
+
+III. [Try it out!](#section3)
+
+IV. [Homework](#section4)
+
+V. [Reference](#section5)
+
+VI. [Review Questions](#section6)
+
+
+## Why do we need modularized code?
 Applications that are written in a **modular** fashion are [loosely coupled](https://en.wikipedia.org/wiki/Loose_coupling), with minimal [dependencies](https://en.wikipedia.org/wiki/Dependency_hell) between modules, which makes the process of designing and maintaining them much easier and less error prone. 
 
 **Modular programming** is the process of subdividing a computer program into separate sub-programs. Modules have the following characteristics:
@@ -21,104 +36,12 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 **Today we will apply ES6 module syntax to an application and see these benefits in action.**
 
 
-## Contents
-<!--- Local Navigation --->
-I. [Why do we need modularized code?](#section1)
-
-II. [ES6 Modules to the rescue!](#section2)
-
-III. [Adding ES6 Modules to our "sprites plus bitmap manipulation" app](#section3)
-
-IV. [Try it out!](#section4)
-
-V. [Reference](#section5)
-
-VI. [Review Questions](#section6)
 
 <hr>
 
-## I. <a id="section1">Why do we need modularized code?
+ <a id="section2">
 
-- Before we get started, grab the demo files: [sprites-plus-bitmap-manip-start.zip](_files/sprites-plus-bitmap-manip-start.zip)
-- go ahead and test the files to be sure they work - you probably want to go ahead and run them off of a web server (because you will have to later on to complete this exercise)
-
-<hr>
-
-### I-A. The costs of not using JS modules
-
-* The JS code in the demo is nicely organized and split into 4 files: **main.js**, **sprites.js**, **utls.js** and **canvas-utils.js**
-* But is the JS runtime aware of our organizational structure?
-  - **TLDR - \*\*EVEN THOUGH we have declared a bunch of variables, functions, and classes and re-factored them into in *separate files*, the Browser's JavaScript runtime is still munging all of these variable into a shared global namespace!\*\***
-* Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of **main.js** and check the web inspector:
-
-**main.js**
-
-![Screenshot](_images/es6-module-pattern-1.jpg)
-
-- above you can see that the `Sprite` symbol (declared with `class` over in **sprites.js**) is visible in "Script scope"
-- this might not seem like such a bad thing, but look at the next example
-
-<hr>
-
-**sprites.js**
-
-![Screenshot](_images/es6-module-pattern-2.jpg)
-
-- above you can see that the `let` declared variables of **main.js** of `ctx`, `canvasWidth`, `canvasHeight`, and `sprites` are all visible in **sprites.js** file in "Script" scope 
-- this means that **sprites.js** can "see" all of the `let` declared  variables in **main.js**. Above we saw that the converse is also true - **main.js** has access to all of the **sprites.js** variables
-- Note: classes declared with `class`, and `let` variables declared outside of functions, end up in "Script Scope"
-
-<hr>
-
-### I-B. How about functions?
-
-**utils.js** & **main.js**
-
-- functions declared with with `function` keyword (AND variables that are declared *outside* of a function with the `var` keyword) end up in the *global* scope (PS - they also end up as properties of the `window` object)
-- in the two screenshots below, see how functions declared in one file, are visible in the other, and vice-versa:
-
-**utils.js**
-
-![Screenshot](_images/es6-module-pattern-3.jpg)
-
-**main.js**
-
-![Screenshot](_images/es6-module-pattern-4.jpg)
-
-- **To see how this kludging together of variables into the same namespace can cause problems, add the following line of code to the top section of *sprites.js***
-
-`let sprites = []; // sprites.js needs an array to cache some sprites! I'll go ahead and add it!` 
-
-- **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
-
-`Uncaught SyntaxError: Identifier 'sprites' has already been declared at main.js:1`
-
-- **So the JS compiler won't allow us to re-declare `let` variables in the same scope**
-- **How about if we redeclare a previously declared function in *main.js*:**
-
-```js
-// Now I'll just add this local helper method to my code!
-function getRandomColor(){
-	return `red`;
-}
-```
-- **Reload the page, all the sprites are red:**
-
-- **... which is because the above code overwrote the `getRandomColor()` function from *utils.js***
-
-<hr>
-
-### I-C. Is the above code *modular*?
-
-Clearly not:
-- regardless of the script file we write code in, all of our classes and `let` variables are mashed together into the *Script* namespace, and all of our functions and `var` variables are in the *Global* scope
-- there are *dependencies* between modules which are not explicit. For example, **classes.js** depends on **utilities.js** for the `getRandomColor()` function. Because this was not explicit, we accidentally overwrote it above with a new implementation. 
-- adding variables to one module can cause name collisions with variables in other modules. If one developer added a `gradient` or `screenWidth` variable to **classes.js**, it could easily break what the other developer was doing in *main.js*. In a larger application, these would be hard errors to track down. 
-- some of the properies and functions should NOT be visible outside their respective modules - for example all of the `let` variables from **main.js**  - but because of the way the code is written none of these can be **private** to a script
-
-<hr>
-
-## II. <a id="section2">ES6 Modules to the rescue!
+## II. ES6 Module Syntax
 
 [Exploring ES6](http://exploringjs.com/es6/ch_modules.html#sec_overview-modules) has a nice overview of ES6 modules:
 
@@ -132,13 +55,19 @@ Clearly not:
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
 
+### II-B. Important Restrictions
+
+ES6 modules have 2 restrictions:
+- as of Spring 2020, they are supported only by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
+- they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
+  - Most IDEs have a "Live Preview" mode that launches a web server. Figure out how to get than working for your preferred tool
+  - Put all of your files on banjo and test them from there (kinda a pain to do all the time)
+  - Use python and `SimpleHTTPServer` module to launch a web server locally - installation and usage instructions are here (the lab machines already have Python installed) -->  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+  - If you are familair with node and npm, check out the `http-server` module (but be sure to turn off caching with `http-server -c-1`) --> https://www.npmjs.com/package/http-server
+
 <hr>
 
 ### II-B. A working example
-ES6 modules have 2 restrictions:
-- they need be hosted on a web server to function (or use the Live Preview mode of Brackets, etc)
-- as of Fall 2019, they are supported by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
-
 Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
 
 **js/utilities.js**
