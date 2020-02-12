@@ -55,7 +55,7 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
 
-### II-B. Important Restrictions
+### II-B. \*\* Important Restrictions \*\*
 
 ES6 modules have 2 restrictions:
 - as of Spring 2020, they are supported only by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
