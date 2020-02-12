@@ -173,6 +173,180 @@ In *test.html*:
 
 ## IV. In-class Demo
 
+- Here is our decidedly "not modular" start code
+- Go ahead and download, save it, and open in in Chrome
+- The walkthough instructions will then be right in front of you!
+
+**greeter-app-globals.html**
+```html
+<html>
+<head>
+	<title>Greeter App with Globals</title>
+	<style>
+		body{
+			font-family:sans-serif;
+		}
+		
+		button,input{
+			font-size:1.2em;
+		}
+		
+		li{
+			margin-bottom:1em;
+		}
+		
+		code{
+			font-size:1.3em;
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<h1>???</h1>
+	<input id="firstName" placeholder="Type in your first name">
+	<input id="lastName" placeholder="Type in your last name">
+	<p>
+		<button id="greetButton">Greet Me</button>
+		<button id="shoutButton">Shout at Me!!!</button>
+	</p>
+	<p id="output">???</p>
+	<hr>
+	<h2 id="instructionsHeading">???</h2>
+	<p id="instructions">???</p>
+	
+	<h3>Step #1 - What does the start code look like?</h3>
+	<ol type="A">
+		<li>In a web browser, test this app, and then look over the HTML/CSS and JS code.</li>
+		<li>In the console, test the <code>greetify()</code> and <code>shoutify()</code> functions with <code>greetify("Fred Jones")</code> and <code>shoutify("Norville Rogers")</code></li>
+		<li>Open up the debugger, put in a breakpoint near the bottom of the &lt;script> tag:
+			<ul>
+				<li>What is the <i>scope</i> of <code>appData</code>?</li>
+				<li>What is the <i>scope</i> of all 5 functions?</li>
+			</ul>
+		</li>
+	</ol>
+	
+	
+	<h3>Step #2 - Let's move the JS to external files</h3>
+	<ol type="A">
+		<li>Create a new folder named <b>greeter-app-modular</b></li>
+		<li>Rename this HTML file to <b>index.html</b> and move it into the <b>greeter-app-modular</b> folder</li>
+		<li>Change the &lt;title> of <b>index.html</b> to "Greeter App ES6 Modular"
+		<li>In the <b>greeter-app-modular</b> folder, create a new folder named <b>src</b> and put the following 3 text files, with the designated content, into it: 
+			<ul>
+				<li><b>loader.js</b> - this file is where the <code>window.onload = init</code> loading code goes. This is also a good place to load fonts, images, and so on.</li>
+				<li><b>main.js</b> - this is where the "main" functionality that is specific to this app goes. That means <code>appData</code>, <code>init()</code>, <code>greetButtonClicked()</code> and <code>shoutButtonClicked()</code></li>
+				<li><b>utils.js</b> - this is where we put more generalized code, usually "pure functions", that can be re-used from project to project. That means that the <code>greetify()</code> and <code>shoutify()</code> functions go here. </li>
+			</ul>
+		</li>
+	</ol>
+	
+	<h3>Step #3 - Hook up the external files</h3>
+	<ol type="A">
+		<li>Create 3 &lt;script> elements that will point at these 3 JavaScript files. Put these &lt;script> elements in the &lt;head> section of <b>index.html</b>:
+			<ul>
+				<li>Note: Loading order matters here - the &lt;script> elements must appear in the HTML in the correct order: <b>utils.js</b>, <b>main.js</b>, then <b>loader.js</b></li>
+			</ul>
+		</li>
+		<li>While we are at it, create a folder named <b>styles</b>, and move all of the style information from the HTML file into an external style sheet named <b>default-styles.css</b>. Put <b>default-styles.css</b> into the folder we just created.  Now &lt;link> to it from <b>index.html</b></li>
+		<li>Delete all the &lt;script> and &lt;style> tags from the HTML file.
+		<li>Reload the page. Everything should work as before: 
+			<ul>
+				<li>But ... if we check the debugger, we'll see that all of the functions and variables are still kludged together in global or script scope</li>
+			</ul>
+		</li>
+	</ol>
+	
+	<h3>Step #4 - Turn the JS files into ES6 modules</h3>
+	<ol type="A">
+		<li>Delete the <b>utils.js</b> and <b>main.js</b> &lt;script> tags from <b>index.html</b></li>
+		<li>Add <code>type="module"</code> to the <b>loader.js</b> &lt;script> tag</li>
+		<li>Add the following code to the <i>bottom</i> of <b>utils.js</b>: <code>export {greetify,shoutify};</code>
+			<ul>
+				<li>Now these 2 functions are "public" because they are being exported</li>
+			</ul>
+		</li>
+		<li>Add the following code to the <i>top</i> of <b>main.js</b>: <code>import * as utils from "./utils.js";</code>
+			<ul>
+				<li><code>utils</code> is now the <i>namespace</i> we need to use when we call <code>greetify()</code> and <code>shoutify()</code> from this module</li>
+				<li>Go ahead and change the code in the button event handlers to use the <code>utils</code> namespace</li>
+			</ul>
+		</li>
+		<li>Add the following code to the <i>bottom</i> of <b>main.js</b>: <code>export {init};</code>
+			<ul>
+				<li>Now the <code>init</code> function is "public" because it it being exported</li>
+			</ul>
+		</li>
+		
+		<li>Add the following code to the <i>top</i> of <b>loader.js</b>: <code>import * as main from "./main.js";</code>
+			<ul>
+				<li>Now modify the code to use the <code>main</code> namespace</li>
+			</ul>
+		</li>
+		<li>Go back and check your typing. Also, get rid of any <code>"use strict;"</code> declarations, you don't need them anymore as ES6 module code runs in strict mode by default</li>
+		<li>Now load <b>index.html</b> into Chrome - make sure this is running on a web server - and the app should work as before. If not, check the console and your typing</li>
+	</ol>
+	
+	<h3>Step #5 - Head to the console</h3>
+	<ol type="A">
+		<li>Open the console, and see how the scope of the variables and functions has changed.</li>
+		<li>Place a breakpoint in <b>loader.js</b> and check out the <code>main</code> module - what functions are visible in the debugger?</li>
+		<li>Test the <code>greetify()</code> and <code>shoutify()</code> in the console - <code>greetify("Fred Jones")</code> & <code>utils.greetify("Fred Jones")</code> - FAIL!  - which is what it's supposed to do</li>
+	</ol>
+	
+	<hr>
+	<p><b><i>Going forward, this is how we are writing code in this class for the rest of the semester. This is how Project 2 and Project 3 must be structured!</i></b></li>
+	<hr>
+	
+	<script>
+	"use strict";
+	
+	window.onload = init;
+	
+	const appData = {
+		appHeadingText: "Greeter App",
+		appInstructionsHeading: "Instructions for this exercise",
+		appInstructionsText: "We are going to refactor the code in this example so that all the JS is placed in multiple ES6 modules, and has been moved to external files:"
+	};
+	
+	function init(){
+		document.querySelector("h1").innerHTML = appData.appHeadingText;
+		document.querySelector("#instructionsHeading").innerHTML = appData.appInstructionsHeading;
+		document.querySelector("#instructions").innerHTML = appData.appInstructionsText;
+		
+		document.querySelector("#greetButton").onclick = greetButtonClicked;
+		document.querySelector("#shoutButton").onclick = shoutButtonClicked;
+	}
+
+	function greetButtonClicked(){
+		let firstName = document.querySelector("#firstName").value;
+		let lastName = document.querySelector("#lastName").value;
+		output.innerHTML = greetify( `${firstName} ${lastName}` );
+	}
+	
+	function shoutButtonClicked(){
+		let firstName = document.querySelector("#firstName").value;
+		let lastName = document.querySelector("#lastName").value;
+		output.innerHTML = shoutify( `${firstName} ${lastName}` );
+	}
+	
+	function greetify(fullName){
+		let greetings = ["Hello", "Hi", "Bonjour", "Guten tag", "Hola", "Shalom", "Salve"];
+		let randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+		return `${randomGreeting} ${fullName}`;
+	}
+	
+	function shoutify(fullName){
+		let exclamations = ["!", "!!", "!?!", "?!!", "@#$%!", "???", "!!!"];
+		let randomExclamation = exclamations[Math.floor(Math.random() * exclamations.length)];
+		return `Hey ${fullName} ${randomExclamation}`.toUpperCase();
+	}
+	
+	</script>
+</body>
+</html>
+```
+
 <hr>
 
 <a id="section5">
