@@ -8,11 +8,13 @@ II. [ES6 Module Syntax](#section2)
 
 III. [Try it out!](#section3)
 
-IV. [Homework](#section4)
+IV. [In-class Demo](#section4)
 
-V. [Reference](#section5)
+V. [Homework](#section5)
 
-VI. [Review Questions](#section6)
+VI. [Reference](#section6)
+
+VII. [Review Questions](#section7)
 
 <hr>
 
