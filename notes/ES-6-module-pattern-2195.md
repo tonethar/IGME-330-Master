@@ -387,7 +387,7 @@ In *test.html*:
 ### VII-A. \*\* Hey, what about all the IIFE stuff? \*\*
 
 - Is the IIFE stuff we just did for Project 1 *useless*?
-- Not at all! Many JavaScript libraries still use the extact same technique that we did with **abcLIB.js**
+- Not at all! Many JavaScript libraries still use the exact same technique that we did with **abcLIB.js** (i.e. *IIFE and a single global variable*)
   - And you will continue to use JS libraries (either written by you or otherwise) in your JS projects
 - Wrapping **index.js** into an IIFE is also still useful, but if we have multiple modules (files) of code, this approach doesn't work so well - use the ES6 module pattern instead!
 - But what about supporting older browsers? The ES6 module pattern only works on recent browsers?
