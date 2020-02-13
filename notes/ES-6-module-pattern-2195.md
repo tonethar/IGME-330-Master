@@ -72,6 +72,7 @@ ES6 modules have 2 restrictions:
   - Use Python and the `SimpleHTTPServer` module to launch a web server locally - installation and usage instructions are here (the lab machines already have Python installed) -->  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
   - If you are familair with node and npm, check out the `http-server` module (but be sure to turn off caching with `http-server -c-1`) --> https://www.npmjs.com/package/http-server
 
+
 <hr>
 
 <a id="section3">
@@ -382,3 +383,13 @@ In *test.html*:
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
+
+### VII-A. \*\* Hey, what about all the IIFE stuff? \*\*
+
+- Is the IIFE stuff we just did for Project 1 *useless*?
+- Not at all! Many JavaScript libraries still use the extact same technique that we did with **abcLIB.js**
+  - And you will continue to use JS libraries (either written by you or otherwise) in your JS projects
+- Wrapping **index.js** into an IIFE is also still useful, but if we have multiple modules (files) of code, this approach doesn't work so well - use the ES6 module pattern instead!
+- But what about supporting older browsers? The ES6 module pattern only works on recent browsers?
+  - we can address this issue by using *transpiling*, which translates code from ES6 back into ES5 for the older browsers
+  - later on in the semester we'll use a node package called [webpack](https://www.npmjs.com/package/webpack) to do this
