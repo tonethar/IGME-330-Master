@@ -137,7 +137,7 @@ Be sure to note the following in *test.html*:
 - we have to explicitly import the `addTextToBody()` function to use it
 
 Try it out:
-- here - http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
+- here - https://igm.rit.edu/~acjvks/courses/shared/330/es6-modules/es6-module-tester/test.html
 - test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
 - note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
 - for your convenience, here are the completed files in a ZIP --> [ES-6-module-tester.zip](./_files/ES-6-module-tester.zip) --> recall that these need a web server to run, [see above](#important-restrictions)
