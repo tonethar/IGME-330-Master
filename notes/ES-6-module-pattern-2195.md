@@ -144,7 +144,7 @@ Try it out:
 
 <hr>
 
-### II-B. Checking the web inspector
+### III-B. Checking the web inspector
 
 If we add two breakpoints and step through the code, we can see that we now have "Module" scope and privacy:
 
