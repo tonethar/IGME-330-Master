@@ -269,7 +269,7 @@ In *test.html*:
 		</li>
 		<li>Add the following code to the <i>top</i> of <b>main.js</b>: <code>import * as utils from "./utils.js";</code>
 			<ul>
-				<li><code>utils</code> is now the <i>namespace</i> we need to use when we call <code>greetify()</code> and <code>shoutify()</code> from this module</li>
+				<li><code>utils</code> is now the <i>namespace</i> we need to use when we call <code>greetify()</code> and <code>shoutify()</code> from this module (ex. <code>utils.greetify()</code>)</li>
 				<li>Go ahead and change the code in the button event handlers to use the <code>utils</code> namespace</li>
 			</ul>
 		</li>
@@ -364,8 +364,9 @@ In *test.html*:
 <a id="section6" />
 	
 ## VI. Reference
-
-- Definitely check out how to do *named imports* below (i.e. so you could write `main.init()` instead of just `init()`):
+- What's a *namespace*?
+  - https://en.wikipedia.org/wiki/Namespace
+- ES6 Module resources
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
   - http://exploringjs.com/es6/ch_modules.html#sec_mixing-named-and-default-exports
