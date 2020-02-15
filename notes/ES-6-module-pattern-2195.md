@@ -67,7 +67,7 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 ES6 modules have 2 restrictions:
 - as of Spring 2020, they are supported only by recent versions of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
 - they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
-  - Most IDEs have a "Live Preview" mode that launches a web server. Figure out how to get than working for your preferred tool
+  - Most IDEs have a "Live Preview" or "Live Server" mode that launches a web server. Figure out how to get than working for your preferred tool
   - Put all of your files on banjo and test them from there (kinda a pain to do all the time)
   - Use Python and the `SimpleHTTPServer` module to launch a web server locally - installation and usage instructions are here (the lab machines already have Python installed) -->  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
   - If you are familair with node and npm, check out the `http-server` module (but be sure to turn off caching with `http-server -c-1`) --> https://www.npmjs.com/package/http-server
