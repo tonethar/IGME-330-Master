@@ -61,10 +61,14 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 	// 7 - connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
+	// 8 - create a new array of 8-bit integers (0-255)
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
+	let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
+	
 	update();
 	
 	function update() { 
-		// 8 - this schedules a call to the update() method in 1/60 second
+		// 9 - this schedules a call to the update() method in 1/60 second
 		requestAnimationFrame(update);
 		
 		/*
@@ -73,9 +77,7 @@ Some important notes about the Web Audio API are here, so we will take a quick l
 				The array of data we get back is 1/2 the size of the sample rate 
 		*/
 			
-		// 9 - create a new array of 8-bit integers (0-255)
-		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
-		let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
+		
 		
 		// 10 - populate the array with the frequency data
 		// notice these arrays are passed *by reference*
