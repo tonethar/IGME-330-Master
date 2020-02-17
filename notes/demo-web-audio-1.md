@@ -10,9 +10,11 @@
   
     A) the [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) - an audio-processing graph built from audio modules linked together, each represented by an `AudioNode`
   
-  
+<hr>
+
 ![image](_images/_av-images/audio-routing-graph.jpg)
-  
+
+<hr>
   
     B) Audio Routing Graph:
       - Audio Nodes - [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) - an audio processing module (ex. a media source, an audio filter, speakers, etc)
