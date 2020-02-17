@@ -200,7 +200,9 @@ Some important notes about the Web Audio API are here, so we will referring to s
 - In this demo, we are going to add a "high shelf" filter effect node to the audio graph, which should improve the sound quality of the 2 provided samples. It will do this by boosting the higher frequencies, which will improve the clarity of the sounds (it basically acts as a *treble* control).
 - Here is the API link: https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode
 - More on filters: https://en.wikipedia.org/wiki/Filter_design
-- Below is a code snippet that gets you 90% of the way there - can you do the rest yourself by properly connecting this node to the others?
+- Below is a code snippet that gets you 90% of the way there - can you do the rest yourself by properly connecting this node to the others? Hints:
+  - think about how your *audio routing graph* should look
+  - achieve this by using the `connect()` method
 - Things to try:
   - increase the sampling rate
   - modify the value of `.gain`
