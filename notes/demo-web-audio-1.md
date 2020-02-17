@@ -1,8 +1,9 @@
 # Web Audio Demo
 
 ## I. Background
-Some important notes about the Web Audio API are here, so we will referring to some of the notes in this homework assignment:
-  - [HW - Audio Visualizer - Part I](./HW-AV-2195-1.md)
+Some important notes about the Web Audio API are here, so we will referring to some of the notes and graphics here:
+  - [HW - Audio Visualizer - Part I - Overview](./HW-AV-2195-1.md#overview)
+  - [HW - Audio Visualizer - Part I - Audio Graphs & Sampling](./HW-AV-2195-1.md#audio-graphs-and-sampling)
 
 ## II. Start Files
 - [sounds.zip](./_files/sounds.zip)
