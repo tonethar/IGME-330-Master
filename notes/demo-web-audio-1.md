@@ -6,8 +6,6 @@ Some important notes about the Web Audio API are here, so we will referring to s
   - [HW - Audio Visualizer - Part I - Audio Graphs & Sampling](./HW-AV-2195-1.md#audio-graphs-and-sampling)
   - [HW - Audio Visualizer - Part I - What does the audio data represent](./HW-AV-2195-1.md#audio-frequency-data)
   
-  
-  audio-frequency-data
 
 ## II. Start Files
 - [sounds.zip](./_files/sounds.zip)
