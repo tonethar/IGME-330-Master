@@ -88,10 +88,10 @@ Some important notes about the Web Audio API are here, so we will referring to s
 		let htmlR2="<tr>";
 		let index = 0;
 		let sum = 0;
-		for(let byte of data){
+		for(let b of data){
 			htmlR1 += `<th>${index}</th>`;
-			htmlR2 += `<td>${byte}</td>`;
-			sum += byte;
+			htmlR2 += `<td>${b}</td>`;
+			sum += b;
 			index++;
 		}
 		htmlR1 += "<th><i>Average of Samples</i></th>";
