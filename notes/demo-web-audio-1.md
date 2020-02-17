@@ -16,12 +16,12 @@
       - ex.of *Audio Routing Graph* -  **Audio Source** (ex. mp3) --> **Audio Effect Node** --> **Analyser Node** --> **Destination Node** (ex. speakers)
     - [`AnalyserNode`](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode) - provides real-time frequency and time-domain analysis (waveform) information - it allows you to take the generated data, process it, and create audio visualizations. Today we will be getting this data back in a `Uint8Array`
 
-  C) [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) - this is an 8-bit typed array:
-    - can only hold hold unsigned 8-bit integers
-    - can not be resized after it is created
-    - the `Uint8Array` is much more performant than a standard JavaScript [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (the one we usually create with the `[]` syntax) 
-    - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
-      - `ArrayBuffers` are called "byte arrays" in other languages 
+   C) [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) - this is an 8-bit typed array:
+     - can only hold hold unsigned 8-bit integers
+     - can not be resized after it is created
+     - the `Uint8Array` is much more performant than a standard JavaScript [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (the one we usually create with the `[]` syntax) 
+     - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
+       - `ArrayBuffers` are called "byte arrays" in other languages 
    
   
 ## II. Start Files
