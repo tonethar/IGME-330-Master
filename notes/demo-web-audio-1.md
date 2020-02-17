@@ -17,7 +17,7 @@
     - can only hold hold unsigned 8-bit integers
     - can not be resized after it is created
     - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
-      - `ArrayBuffer`s are called "byte arrays" in other languages 
+      - `ArrayBuffers` are called "byte arrays" in other languages 
     - the `Uint8Array` is much more performant than a standard JavaScript [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (the one we usually create with the `[]` syntax) 
   
 ## II. Start Files
