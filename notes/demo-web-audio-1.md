@@ -65,11 +65,11 @@ Some important notes about the Web Audio API are here, so we will referring to s
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 	let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
 	
-	update();
+	loop();
 	
-	function update() { 
-		// 9 - this schedules a call to the update() method in 1/60 second
-		requestAnimationFrame(update);
+	function loop() { 
+		// 9 - this schedules a call to the loop() method in 1/60 second
+		requestAnimationFrame(loop);
 		
 		/*
 				Nyquist Theorem
@@ -159,6 +159,10 @@ Some important notes about the Web Audio API are here, so we will referring to s
 	// 7 - connect to the destination i.e. the speakers
 	analyserNode.connect(audioCtx.destination);
 	
+	// 8 - create a new array of 8-bit integers (0-255)
+	  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
+	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.fftSize/2
+	
 	// canvas stuff
 	let ctx = document.querySelector("canvas").getContext("2d");
 	const BAR_WIDTH = 30;
@@ -166,15 +170,15 @@ Some important notes about the Web Audio API are here, so we will referring to s
 	const PADDING = 4;
 	const MIDDLE_Y = ctx.canvas.height/2;
 	
-	update();
 	
-	function update() { 
-	  // 8 - this schedules a call to the update() method in 1/60 second
-	  requestAnimationFrame(update);
+	
+	loop();
+	
+	function loop() { 
+	  // 9 - this schedules a call to the loop() method in 1/60 second
+	  requestAnimationFrame(loop);
 		
-	  // 9 - create a new array of 8-bit integers (0-255)
-	  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
-	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.fftSize/2
+	 
 		
 	  // 10 - populate the array with the frequency data
 	  // notice these arrays are passed *by reference*
