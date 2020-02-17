@@ -1,12 +1,19 @@
 # Web Audio Demo
 
 ## I. Background
-Some important notes about the Web Audio API are here, so we will referring to some of the notes and graphics here:
+- Some important notes about the Web Audio API are here, so we will referring to some of the notes and graphics here:
   - [HW - Audio Visualizer - Part I - Overview](./HW-AV-2195-1.md#overview)
   - [HW - Audio Visualizer - Part I - Audio Graphs & Sampling](./HW-AV-2195-1.md#audio-graphs-and-sampling)
   - [HW - Audio Visualizer - Part I - What does the audio data represent](./HW-AV-2195-1.md#audio-frequency-data)
   
-
+- The concepts we are covering here:
+  - the [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) - an audio-processing graph built from audio modules linked together, each represented by an AudioNode
+  - Audio Routing Graph:
+    - Audio Nodes - [AudioNode](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) - an audio processing module (ex. a media source, an audio filter, speakers, etc)
+    - [`.connect()`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect) - lets you connect a node's outputs to a target, which is usually another AudioNode
+    - ex.of *Audio Routing Graph* -  **Audio Source** (ex. mp3) --> **Audio Effect Node** --> **Analyser Node** --> **Destination Node** (ex. speakers)
+  - [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode) - provides real-time frequency and time-domain analysis (waveform) information - it allows you to take the generated data, process it, and create audio visualizations
+  
 ## II. Start Files
 - [sounds.zip](./_files/sounds.zip)
 
