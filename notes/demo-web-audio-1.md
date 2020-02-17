@@ -24,6 +24,7 @@
      - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
        - `ArrayBuffers` are called "byte arrays" in other languages 
    
+**Example of audio routing graph:**
 
 ![image](_images/_av-images/audio-routing-graph.jpg)
 
