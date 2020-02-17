@@ -7,12 +7,18 @@
   - [HW - Audio Visualizer - Part I - What does the audio data represent](./HW-AV-2195-1.md#audio-frequency-data)
   
 - The concepts we are covering here:
-  - the [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) - an audio-processing graph built from audio modules linked together, each represented by an AudioNode
+  - the [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) - an audio-processing graph built from audio modules linked together, each represented by an `AudioNode`
   - Audio Routing Graph:
-    - Audio Nodes - [AudioNode](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) - an audio processing module (ex. a media source, an audio filter, speakers, etc)
-    - [`.connect()`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect) - lets you connect a node's outputs to a target, which is usually another AudioNode
+    - Audio Nodes - [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) - an audio processing module (ex. a media source, an audio filter, speakers, etc)
+    - [`.connect()`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect) - lets you connect a node's outputs to a target, which is usually another `AudioNode`
     - ex.of *Audio Routing Graph* -  **Audio Source** (ex. mp3) --> **Audio Effect Node** --> **Analyser Node** --> **Destination Node** (ex. speakers)
-  - [AnalyserNode](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode) - provides real-time frequency and time-domain analysis (waveform) information - it allows you to take the generated data, process it, and create audio visualizations
+  - [`AnalyserNode`](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode) - provides real-time frequency and time-domain analysis (waveform) information - it allows you to take the generated data, process it, and create audio visualizations. Today we will be getting this data back in a `Uint8Array`
+  - [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) - this is an 8-bit typed array:
+    - can only hold hold unsigned 8-bit integers
+    - can not be resized after it is created
+    - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
+      - `ArrayBuffer`s are called "byte arrays" in other languages 
+    - the `Uint8Array` is much more performant than a standard JavaScript [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (the one we usually create with the `[]` syntax) 
   
 ## II. Start Files
 - [sounds.zip](./_files/sounds.zip)
