@@ -10,12 +10,6 @@
   
     A) the [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) - an audio-processing graph built from audio modules linked together, each represented by an `AudioNode`
   
-<hr>
-
-![image](_images/_av-images/audio-routing-graph.jpg)
-
-<hr>
-  
     B) Audio Routing Graph:
       - Audio Nodes - [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) - an audio processing module (ex. a media source, an audio filter, speakers, etc)
       - [`.connect()`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect) - lets you connect a node's outputs to a target, which is usually another `AudioNode`
@@ -30,7 +24,11 @@
      - is a [`TypedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) that references an underlying binary [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
        - `ArrayBuffers` are called "byte arrays" in other languages 
    
-  
+
+![image](_images/_av-images/audio-routing-graph.jpg)
+
+<hr>
+
 ## II. Start Files
 - [sounds.zip](./_files/sounds.zip)
 
