@@ -91,6 +91,14 @@
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 	let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
 	
+	// Chrome autoplay fix
+	// https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
+	document.querySelector("audio").onplay = (e) => {
+  	  if (audioCtx.state == "suspended") {
+    	    audioCtx.resume();
+  	  }
+	};
+	
 	loop();
 	
 	function loop() { 
@@ -188,6 +196,14 @@
 	// 8 - create a new array of 8-bit integers (0-255)
 	  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 	  let data = new Uint8Array(analyserNode.frequencyBinCount); // OR analyserNode.fftSize/2
+	
+	// Chrome autoplay fix
+	// https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
+	document.querySelector("audio").onplay = (e) => {
+  	  if (audioCtx.state == "suspended") {
+    	    audioCtx.resume();
+  	  }
+	};
 	
 	// canvas stuff
 	let ctx = document.querySelector("canvas").getContext("2d");
