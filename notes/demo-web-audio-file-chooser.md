@@ -55,7 +55,7 @@
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
 	let data = new Uint8Array(NUM_SAMPLES/2); // OR analyserNode.fftSize/2
 
-	document.querySelector("audio").onclick = (e) => {
+	document.querySelector("audio").onplay = (e) => {
 		if (audioCtx.state == "suspended") {
 			audioCtx.resume();
 		}
