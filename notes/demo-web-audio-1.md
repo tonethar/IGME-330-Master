@@ -1,4 +1,4 @@
-# Web Audio Demo I
+# Web Audio I - Build a Simple Audio Visualizer
 
 ## I. Background
 1) Some important notes about the Web Audio API are here, so we will referring to some of the notes and graphics here:
