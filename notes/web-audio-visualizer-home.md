@@ -15,3 +15,7 @@
 
 ## III. Resources
 
+- [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
+- [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](./web-audio-chapter-2.md)
+- [Web Audio Study Guide - Chapter 3 - *Volume and Loudness*](./web-audio-chapter-3.md)
+- [Web Audio Study Guide - Chapter 4 - *Pitch and the Frequency Domain*](./web-audio-chapter-4.md)
