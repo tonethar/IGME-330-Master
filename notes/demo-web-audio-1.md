@@ -262,4 +262,4 @@ biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 
 <hr><hr>
 
-**[Next Chapter -> Web Audio II](demo-web-audio-c.md)**
+**[Next Chapter -> Web Audio II](demo-web-audio-2.md)**
