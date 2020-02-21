@@ -2,7 +2,7 @@
 
 ## I. Load a sound file from your hard drive
 
-- The only was JS can load file from a user's local hard drive is if they initiate this themselves with either a &lt;<file> input or drag-and-drop. Here we'll get it done with the former option and a callback function that is triggered `onchange`:
+- The only was JS can load file from a user's local hard drive is if they initiate this themselves with either a &lt;file> input or drag-and-drop. Here we'll get it done with the former option and a callback function that is triggered `onchange`:
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
 
 ## II. Screenshot
