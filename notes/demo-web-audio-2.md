@@ -45,7 +45,7 @@ span{margin-right:2em;}
 
 ## V. Modifying the highshelf filter (Treble)
 
-- A *highshelf* filter boosts (or alternatively, attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We build this filter last time, but not in such a way that we could easily turn it on or off
+- A *highshelf* filter boosts (or alternatively, attenuates) the gain of frequencies that are higher than the `.frequency` property. Lower frequencies are ignored. We built this filter last time, but not in such a way that we could easily turn it on or off
 
 1. Before you do anything else, get some "IIFE practice" by wrapping the code in an IIFE to get our variables and functions out of the global scope, and then make sure the code still works
 
