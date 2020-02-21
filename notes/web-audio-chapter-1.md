@@ -117,6 +117,14 @@ const trackPaths = { // we'll name our sound files to make it easier to keep tra
 	'laughTrack' : './sounds/hyper-reality/laughter.wav',
  };
 
+// Chrome autoplay fix
+// https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
+const autoplayFix = (e) => {
+  if (audioCtx.state == "suspended") {
+    audioCtx.resume();
+  }
+};
+
 
 startButton.onclick = init;
 stopButton.onclick = stopAudio;
@@ -132,6 +140,7 @@ function init(){
   // `createAudioGraph()` will be called once the files are loaded
   let bufferLoader = new BufferLoader(audioCtx,trackPaths,createAudioGraph);
   bufferLoader.loadTracks();
+  autoplayFix();
 }
 
 function stopAudio(){
