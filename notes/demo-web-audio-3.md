@@ -2,6 +2,12 @@
 
 ## I. Load a sound file from your hard drive
 
+## II. Screenshot
+
+![screenshot](./_images/web-audio-file-chooser.jpg)
+
+## III. Code
+
 **web-audio-file-chooser.html**
 
 ```html
