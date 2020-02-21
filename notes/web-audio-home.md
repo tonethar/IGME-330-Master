@@ -1,4 +1,4 @@
-# Web Audio Visualizer - IGME-330 Resources
+# Web Audio Visualizer - IGME-330 "Home Page"
 
 
 ## I. Lecture Notes & Demos
