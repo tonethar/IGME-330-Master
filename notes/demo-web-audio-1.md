@@ -260,6 +260,9 @@ biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
 biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 ```
 
+## VI. Wrap up
+- Be sure to get this working - we'll be building on it next time
+
 <hr><hr>
 
 **[Next Chapter -> Web Audio II](demo-web-audio-2.md)**
