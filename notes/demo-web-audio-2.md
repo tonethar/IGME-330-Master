@@ -1,4 +1,4 @@
-# Demo - Web Audio II - *Treble, Bass and Distortion Audio Nodes*
+# Demo - Web Audio II - *Treble, Bass and Distortion Nodes*
 
 ## I. Overview
 Here we are going to build on top of what we built in [demo-web-audio-1.md](./demo-web-audio-1.md) by chaining together multiple audio effect nodes, and giving ourselves the ability to turn them on and off:
