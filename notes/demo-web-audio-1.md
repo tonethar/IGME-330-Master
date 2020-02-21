@@ -1,4 +1,4 @@
-# Web Audio Demo
+# Web Audio Demo I
 
 ## I. Background
 1) Some important notes about the Web Audio API are here, so we will referring to some of the notes and graphics here:
@@ -259,3 +259,7 @@ biquadFilter.type = "highshelf";
 biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
 biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 ```
+
+<hr><hr>
+
+**[Next Chapter -> Web Audio II](demo-web-audio-c.md)**
