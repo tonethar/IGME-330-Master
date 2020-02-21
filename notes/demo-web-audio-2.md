@@ -173,3 +173,9 @@ let distortionAmount = 0;
 
 //(3 + 20) * x * 57 * (Math.PI / 180) / (Math.PI + 20 * Math.abs(x))
 ```
+
+<hr><hr>
+
+**[Previous Chapter <- Web Audio I](demo-web-audio-1.md)**
+
+**[Next Chapter -> Web Audio III](demo-web-audio-3.md)**
