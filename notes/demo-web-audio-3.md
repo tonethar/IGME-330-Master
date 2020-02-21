@@ -1,4 +1,4 @@
-# Demo - Web Audio File Chooser
+# Demo - Web Audio III - *File Chooser*
 
 ## I. Load a sound file from your hard drive
 
