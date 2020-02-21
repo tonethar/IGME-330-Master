@@ -1,4 +1,4 @@
-# Demo - WebCam Links
+# Demo - Webcam Links
 
 **The examples below that rely on a Webcam only work in Chrome:**
 
