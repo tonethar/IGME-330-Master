@@ -21,6 +21,8 @@ source.connect(audioNodes.convolver);
 convolver.connect(audioCtx.destination);
 ```
 
+- note that in the example code, we are loading both our source audio ("Captain Picard") and our IR file as *buffers* (raw bytes). In your code, you can load your source file normally, and will only need to load the IR file as a buffer.
+
 
 
 <hr><hr>
