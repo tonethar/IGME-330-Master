@@ -3,10 +3,15 @@
 ## I. Overview
 
 - `ctx.getImageData(x, y, width, height)` returns an array of RGBA values which we can manipulate in various ways, and then copy back to the canvas with `ctx.putImageData(x, y, width, height)`
-- You have already had a chance to do this in [HW - Audio Visualizer - Part III](./HW-AV-2195-3.md)
+- You have already had a chance to do this in [HW - Audio Visualizer - Part III](./HW-AV-2195-3.md) - so let's experiment with some additional effects we can apply
 
 ## II. Getting `imageData` from video
-- In the demos below we are sampling the contents of a &lt;video> element and the user's Webcam 60 times a second, copying the frame to a &lt;canvas> element, 
+- In the demos below we are:
+  1) sampling the contents of a &lt;video> element or the user's Webcam 60 times a second
+  2) copying the video source's current frame to a &lt;canvas> element with `ctx.drawImage()`
+  3) getting a reference to the &lt;canvas> `imageData` (which is a `Uint8ClampedArray`) with `ctx.getImageData(x, y, width, height)`
+  4) looping through this typed array, and modifying some of its values
+  5) putting the modified array of data back onto the &lt;canvas> with `ctx.putImageData(x, y, width, height)`
 
 
 
