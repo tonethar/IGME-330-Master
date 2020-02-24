@@ -7,6 +7,7 @@
 - [Web Audio II - Treble, Bass & Distortion Nodes](./demo-web-audio-2.md)
 - [Web Audio III - File Chooser](./demo-web-audio-3.md)
 - [Web Audio IV - Audio Concepts Review](./demo-web-audio-4.md)
+- [Web Audio V - The WebAudio Convolver Node](./demo-web-audio-5.md)
 
 ## II. Assignments
 
