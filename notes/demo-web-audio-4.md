@@ -38,11 +38,19 @@
     - examples: 4-bit (0-15), 8-bit (0-255)
   - Sources:
     - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
- - We'll let you review the rest of these slides are your own   
+ - We'll let you review the rest of these slides on your own   
     
  ## III. 
  
- - Slide #17 in the presentation above mentioned *headroom*
+ - Slide #17 in the presentation above mentioned *headroom* - which is the maximum amount of undistorted signal a system can handle compared to the average level for which the system is designed. When we run out of headroom, distortion happens.
+ - There is a discussion of this in the *Volume & Loudness* chapter of the online web audio book - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch03.html
+   - *Loudness* is a subjective measure of how intensely our ears perceive a sound
+   - *Volume* is a measure of the physical amplitude of a sound wave
+   - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
+   - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
+   -  Sounds can also be *clipped* if the waveform exceeds its maximum level
+   
+   [clipped sound image](https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png)
  
  
 
