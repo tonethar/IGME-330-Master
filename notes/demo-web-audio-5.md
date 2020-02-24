@@ -8,7 +8,7 @@
   -  https://www.w3.org/TR/2015/WD-webaudio-20151208/convolution.html 
   - https://en.wikipedia.org/wiki/Convolution_reverb
 - These effects can be used to modify a sound such that it sounds like it took place on the telephone, a small room, and auditorium, a forest, and so on
-- To accomplish this the ConvolverNode utilizes *Impulse Response* (IR) sound files - which have captured a specific acoustic space:
+- To accomplish this the `ConvolverNode` utilizes *Impulse Response* (IR) sound files - which have captured a specific acoustic space:
   - *"The idea for producing room effects is to play back a reference sound in a room, record it, and then (metaphorically) take the difference between the original sound and the recorded one. The result of this is an impulse response that captures the effect that the room has on a sound. These impulse responses are painstakingly recorded in very specific studio settings, and doing this on your own requires serious dedication. Luckily, there are sites that host many of these pre-recorded impulse response files (stored as audio files) for your convenience."*
     - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch06.html#s06_4
   - you can also create your own IR files [YouTube - How to Create Your Own Custom Impulse Responses](https://www.youtube.com/watch?v=g-mG2H4fvGg)
