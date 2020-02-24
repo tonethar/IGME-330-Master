@@ -10,52 +10,52 @@
 
 ## II. IIM Audio Slides
 
-- Slides #3-#5
-  - Sound waves are variations of pressure in a *medium* such as air
-  - Typical waveform graphs are two-dimensional, but in the real world sound waves are three-dimensional. Waveform graphs usually visualize a sound wave progressing up and down from from left to right, but real sound waves travel in an expanding sphere from the source.
-  - High amplitude values represent areas of increased air pressure. 
-  - The end result of manipulating sounds is a series of high and low pressure zones
-  - Sources: 
-    - https://www.mediacollege.com/audio/01/sound-waves.html
-    - https://www.soundproofingcompany.com/soundproofing_101/what-is-sound
-- Slides #6 - #13
-  - Starting with Thomas Edison's demonstration of the first phonograph in 1877, it has been possible to capture sound pressure waves onto a physical medium (Phonographic record, tape, etc) and then reproduce the sound later by reproducing the same pressure waves - this is called *analog* recording
-  -  Analog recording suffers from the problem of *noise*. Each time an analog recording is copied, more noise is introduced, decreasing the accurancy of the reprodution (fidelity)
-  - *Digital recording* works by sampling the audio wave at evenly-spaced timepoints, and then representing each sample as a discrete number. These can be copied perfectly without introducing any additional noise
-  - *Sample rates* are measured in hertz (Hz), or cycles per second. This value is the number of samples captured per second in order to represent the waveform.
-  - Recording sound from an analog-to-digital-converter (like a modern microphone) converts a time-varying voltage signal into a discrete-time signal, a sequence of real numbers
-  - Sources:
-    - https://manual.audacityteam.org/man/digital_audio.html
-    - https://en.wikipedia.org/wiki/Digital_recording
-- Slide #15
-  - Here *sampling rate* and the *Nyquist Theorem* is discussed - accurate reproduction of a waveform requires at least 2 samples per cycle
-  - The human ear is sensitive to sound patterns with frequencies between approximately 20 Hz and 20000 Hz. Sounds outside that range are inaudible. Therefore a sample rate of 40000 Hz is the absolute minimum necessary to reproduce the full range of audible sounds. (Not coincidentally, CD Quality sound is 44.1 kHz)
-  - Higher sample rates allow higher audio frequencies to be represented. Provided that the sample rate is more than double the highest audio frequency present, the waveform can be reconstructed exactly from the digital samples. 
-  - So we end up with these 3 important properties of waves - *wavelength*, *amplitude* & *frequency*:
-    - https://www.mediacollege.com/audio/01/wave-properties.html
-- Slide #16
-  - *Quantization* is how each sampled real number (the *amplitude* i.e *loudness* of each sample) is replaced with an approximation from a finite set of discrete values:
-    - examples: 4-bit (0-15), 8-bit (0-255)
-  - Sources:
-    - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
- - We'll let you review the rest of these slides on your own   
+1) Slides #3-#5
+    - Sound waves are variations of pressure in a *medium* such as air
+    - Typical waveform graphs are two-dimensional, but in the real world sound waves are three-dimensional. Waveform graphs usually visualize a sound wave progressing up and down from from left to right, but real sound waves travel in an expanding sphere from the source.
+    - High amplitude values represent areas of increased air pressure. 
+    - The end result of manipulating sounds is a series of high and low pressure zones
+    - Sources: 
+      - https://www.mediacollege.com/audio/01/sound-waves.html
+      - https://www.soundproofingcompany.com/soundproofing_101/what-is-sound
+2) Slides #6 - #13
+    - Starting with Thomas Edison's demonstration of the first phonograph in 1877, it has been possible to capture sound pressure waves onto a physical medium (Phonographic record, tape, etc) and then reproduce the sound later by reproducing the same pressure waves - this is called *analog* recording
+    -  Analog recording suffers from the problem of *noise*. Each time an analog recording is copied, more noise is introduced, decreasing the accurancy of the reprodution (fidelity)
+    - *Digital recording* works by sampling the audio wave at evenly-spaced timepoints, and then representing each sample as a discrete number. These can be copied perfectly without introducing any additional noise
+    - *Sample rates* are measured in hertz (Hz), or cycles per second. This value is the number of samples captured per second in order to represent the waveform.
+    - Recording sound from an analog-to-digital-converter (like a modern microphone) converts a time-varying voltage signal into a discrete-time signal, a sequence of real numbers
+    - Sources:
+      - https://manual.audacityteam.org/man/digital_audio.html
+      - https://en.wikipedia.org/wiki/Digital_recording
+3) Slide #15
+    - Here *sampling rate* and the *Nyquist Theorem* is discussed - accurate reproduction of a waveform requires at least 2 samples per cycle
+    - The human ear is sensitive to sound patterns with frequencies between approximately 20 Hz and 20000 Hz. Sounds outside that range are inaudible. Therefore a sample rate of 40000 Hz is the absolute minimum necessary to reproduce the full range of audible sounds. (Not coincidentally, CD Quality sound is 44.1 kHz)
+    - Higher sample rates allow higher audio frequencies to be represented. Provided that the sample rate is more than double the highest audio frequency present, the waveform can be reconstructed exactly from the digital samples. 
+    - So we end up with these 3 important properties of waves - *wavelength*, *amplitude* & *frequency*:
+      - https://www.mediacollege.com/audio/01/wave-properties.html
+4) Slide #16
+    - *Quantization* is how each sampled real number (the *amplitude* i.e *loudness* of each sample) is replaced with an approximation from a finite set of discrete values:
+      - examples: 4-bit (0-15), 8-bit (0-255)
+    - Sources:
+      - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
+   - We'll let you review the rest of these slides on your own   
     
  ## III. Avoid *clipping* your sounds
  
- - Slide #17 in the presentation above mentioned *headroom* - which is the maximum amount of undistorted signal a system can handle compared to the average level for which the system is designed. When we run out of headroom, distortion happens.
- - There is a discussion of this in the *Volume & Loudness* chapter of the online web audio book - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch03.html
-   - *Loudness* is a subjective measure of how intensely our ears perceive a sound
-   - *Volume* is a measure of the physical amplitude of a sound wave
-   - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
-   - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
-   - Sounds can also be *clipped* if the waveform exceeds its maximum level
-   - On your own, you can read about (in the link above):
+ 1) Slide #17 in the presentation above mentioned *headroom* - which is the maximum amount of undistorted signal a system can handle compared to the average level for which the system is designed. When we run out of headroom, distortion happens.
+   - There is a discussion of this in the *Volume & Loudness* chapter of the online web audio book - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch03.html
+     - *Loudness* is a subjective measure of how intensely our ears perceive a sound
+     - *Volume* is a measure of the physical amplitude of a sound wave
+     - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
+     - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
+     - Sounds can also be *clipped* if the waveform exceeds its maximum level
+     
+ <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png" alt="clipped sound image">
+ 
+2) On your own, you can read about (in the link above):
      - *Using Meters to Detect and Prevent Clipping*
      - *Dynamic Range*
      - *Dynamics Compression* and the [`DynamicsCompressorNode`](https://developer.mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode)
-     
-   
- <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png" alt="clipped sound image">
  
  ## IV. Avoid *clipping* your sounds
 
