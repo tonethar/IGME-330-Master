@@ -35,7 +35,7 @@
 
 ## III. Webcam input
 - Below, we will grab the contents of the webcam and copy it to a &lt;canvas> element 60 times a second - no  &lt;video> element is required
-- Below we are using [Navigator.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia) to capture the webcam input - even though the method deprecated it still works - if you add webcam input to your project you should explore the newer methods
+- Below we are using [Navigator.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia) to capture the webcam input - even though this method is deprecated it still works - but if you add webcam input to your project you should explore the newer methods
 - These webcam examples only reliably work in Chrome - but if you investigate the newer methods you could get this working in other browsers too
 - A possible enhancement to your project 2 would be to utilize the webcam as user input that would alter the visualizations (and maybe the sound) in certain ways
 
