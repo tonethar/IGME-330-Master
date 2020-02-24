@@ -35,13 +35,17 @@
 
 ## III. Webcam input
 - Below, we will grab the contents of the webcam and copy it to a &lt;canvas> element 60 times a second - no  &lt;video> element is required
-- these webcam examples only reliably work in Chrome
+- Below we are using [Navigator.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia) to capture the webcam input - even though the method deprecated it still works - if you add webcam input to your project you should explore the newer methods
+- These webcam examples only reliably work in Chrome - but if you investigate the newer methods you could get this working in other browsers too
+- A possible enhancement to your project 2 would be to utilize the webcam as user input that would alter the visualizations (and maybe the sound) in certain ways
 
-### III-A. 
+### III-A. Basic Example
 - Webcam Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
+- all of the image effects work as they did in Part II above, except now we have a live image to manipulate
 
 ### III-B. 
 - Webcam plus Motion Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-2.html
+- Here we created a simple motion detecter by coloring a pixel red if any of its sub-pixels chnage my 15 or more units between frames
 
 ### III-C. 
 - Webcam plus Face Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-3.html
