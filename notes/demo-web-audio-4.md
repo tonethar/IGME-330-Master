@@ -19,10 +19,13 @@
     - https://www.mediacollege.com/audio/01/sound-waves.html
     - https://www.soundproofingcompany.com/soundproofing_101/what-is-sound
 - Slides #6 - #13
-  - These slides are about 
+  - Starting with Thomas Edison's demonstration of the first phonograph in 1877, it has been possible to capture sound pressure waves onto a physical medium (Phonographic record, tape, etc) and then reproduce the sound later by reproducing the same pressure waves - this is called *analog* recording
+  -  Analog recording suffers from the problem of *noise*. Each time an analog recording is copied, more noise is introduced, decreasing the accurancy of the reprodution (fidelity)
+  - *Digital recording* works by sampling the audio wave at evenly-spaced timepoints, and then representing each sample as a discrete number. These can be copied perfectly without introducing any additional noise
   
 - Sources:
   - https://manual.audacityteam.org/man/digital_audio.html
+  - https://en.wikipedia.org/wiki/Digital_recording
 
 <hr><hr>
 
