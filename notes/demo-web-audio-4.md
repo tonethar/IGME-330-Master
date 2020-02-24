@@ -8,7 +8,7 @@
   - [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
 
 
-## II. IIM Audio Slides
+## II. IGME-110 IIM Audio Slides
 
 1) Slides #3-#5
     - Sound waves are variations of pressure in a *medium* such as air
