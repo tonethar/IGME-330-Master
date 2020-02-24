@@ -8,7 +8,7 @@
   - [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
 
 
-## II. IIM Slides
+## II. IIM Audio Slides
 
 - Slides #3-#5
   - Sound waves are variations of pressure in a *medium* such as air
@@ -40,7 +40,7 @@
     - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
  - We'll let you review the rest of these slides on your own   
     
- ## III. 
+ ## III. Avoid *clipping* your sounds
  
  - Slide #17 in the presentation above mentioned *headroom* - which is the maximum amount of undistorted signal a system can handle compared to the average level for which the system is designed. When we run out of headroom, distortion happens.
  - There is a discussion of this in the *Volume & Loudness* chapter of the online web audio book - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch03.html
@@ -48,13 +48,16 @@
    - *Volume* is a measure of the physical amplitude of a sound wave
    - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
    - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
-   -  Sounds can also be *clipped* if the waveform exceeds its maximum level
+   - Sounds can also be *clipped* if the waveform exceeds its maximum level
+   - On your own, you can read about (in the link above):
+     - *Using Meters to Detect and Prevent Clipping*
+     - *Dynamic Range*
+     - *Dynamics Compression* and the [`DynamicsCompressorNode`](https://developer.mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode)
+     
    
-   [clipped sound image](https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png)
-   
-   <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png">
+ <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png" alt="clipped sound image">
  
- 
+ ## IV. Avoid *clipping* your sounds
 
 <hr><hr>
 
