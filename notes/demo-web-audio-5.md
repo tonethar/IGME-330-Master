@@ -28,3 +28,5 @@ convolver.connect(audioCtx.destination);
 <hr><hr>
 
 **[Previous Chapter <- Web Audio IV](demo-web-audio-4.md)**
+
+**[Next Chapter -> Web Audio VI](demo-web-audio-6.md)**
