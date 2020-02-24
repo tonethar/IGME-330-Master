@@ -10,10 +10,19 @@
 
 ## II. IIM Slides
 
-- Slide #3
+- Slides #3-#5
   - Sound waves are variations of pressure in a *medium* such as air
-  - https://www.mediacollege.com/audio/01/sound-waves.html
-- 
+  - Typical waveform graphs are two-dimensional, but in the real world sound waves are three-dimensional. Waveform graphs usually visualize a sound wave progressing up and down from from left to right, but real sound waves travel in an expanding sphere from the source.
+  - High amplitude values represent areas of increased air pressure. 
+  - The end result of manipulating sounds is a series of high and low pressure zones
+  - Sources: 
+    - https://www.mediacollege.com/audio/01/sound-waves.html
+    - https://www.soundproofingcompany.com/soundproofing_101/what-is-sound
+- Slides #6 - #13
+  - These slides are about 
+  
+- Sources:
+  - https://manual.audacityteam.org/man/digital_audio.html
 
 <hr><hr>
 
