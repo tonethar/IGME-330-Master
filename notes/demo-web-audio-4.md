@@ -23,7 +23,7 @@
   -  Analog recording suffers from the problem of *noise*. Each time an analog recording is copied, more noise is introduced, decreasing the accurancy of the reprodution (fidelity)
   - *Digital recording* works by sampling the audio wave at evenly-spaced timepoints, and then representing each sample as a discrete number. These can be copied perfectly without introducing any additional noise
   - *Sample rates* are measured in hertz (Hz), or cycles per second. This value is the number of samples captured per second in order to represent the waveform.
-  - Sampling from a digital-to-audio-converter (like a microphone) converts a time-varying voltage signal into a discrete-time signal, a sequence of real numbers
+  - Recording sound from an analog-to-digital-converter (like a modern microphone) converts a time-varying voltage signal into a discrete-time signal, a sequence of real numbers
   - Sources:
     - https://manual.audacityteam.org/man/digital_audio.html
     - https://en.wikipedia.org/wiki/Digital_recording
@@ -38,6 +38,13 @@
     - examples: 4-bit (0-15), 8-bit (0-255)
   - Sources:
     - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
+ - We'll let you review the rest of these slides are your own   
+    
+ ## III. 
+ 
+ - Slide #17 in the presentation above mentioned *headroom*
+ 
+ 
 
 <hr><hr>
 
