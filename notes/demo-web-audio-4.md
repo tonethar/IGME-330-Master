@@ -34,8 +34,9 @@
     - So we end up with these 3 important properties of waves - *wavelength*, *amplitude* & *frequency*:
       - https://www.mediacollege.com/audio/01/wave-properties.html
 4) Slide #16
-    - *Quantization* is how each sampled real number (the *amplitude* i.e *loudness* of each sample) is replaced with an approximation from a finite set of discrete values:
-      - examples: 4-bit (0-15), 8-bit (0-255)
+    - *Quantization* is how each sampled real number (the *amplitude* i.e *volume* of each sample) is replaced with an approximation from a finite set of discrete values:
+      - examples: 4-bit (0-15), 8-bit (0-255), 16-bit (0-65,535)
+      - higher *bit depths* give better fidelity
     - Sources:
       - https://en.wikipedia.org/wiki/Quantization_(signal_processing)
    - We'll let you review the rest of these slides on your own   
@@ -47,7 +48,7 @@
       - *Loudness* is a subjective measure of how intensely our ears perceive a sound
       - *Volume* is a measure of the physical amplitude of a sound wave
       - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
-      - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
+      - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier. This increases the perceived *loudness* of the sound
       - Sounds will be *clipped* - which will distort the sound - if the waveform exceeds its maximum level:
         - https://en.wikipedia.org/wiki/Clipping_(audio)
      
@@ -65,6 +66,7 @@
  - Here are the correct answers (jumbled up) for all of the questions except Q#5:
    - 16-bit
    - 44.1 kHz
+   - AAC or MP3
    - arrays of numbers
    - audio context
    - audio nodes
@@ -78,7 +80,6 @@
    - lossless
    - modified or inspected
    - modified sound
-   - MP3
    - source
    - source node
    - time
