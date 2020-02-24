@@ -6,6 +6,7 @@
 - [Web Audio I - Build a Simple Audio Visualizer](./demo-web-audio-1.md)
 - [Web Audio II - Treble, Bass & Distortion Nodes](./demo-web-audio-2.md)
 - [Web Audio III - File Chooser](./demo-web-audio-3.md)
+- [Web Audio IV - Audio Concepts Review](./demo-web-audio-4.md)
 
 ## II. Assignments
 
@@ -15,7 +16,6 @@
 
 ## III. Resources
 
-- [IGME-110 - Week-11a-Audio-Lecture.pdf](./_files/Week-11a-Audio-Lecture.pdf)
 - [Demo - Webcam Links](./demo-webcam-links.md)
 - [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
 - [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](./web-audio-chapter-2.md)
