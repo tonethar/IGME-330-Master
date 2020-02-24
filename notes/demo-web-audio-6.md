@@ -42,7 +42,7 @@
 
 ### III-A. Basic Example
 - Webcam Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
-- all of the image effects work as they did in Part II above, except now we have a live image to manipulate
+- All of the image effects work as they did in Part II above, except now we have a live image to manipulate
 
 ### III-B. 
 - Webcam plus Motion Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-2.html
@@ -50,9 +50,14 @@
 
 ### III-C. 
 - Webcam plus Face Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-3.html
+- Here we are using https://github.com/mtschirs/js-objectdetect, but the project is not active, there are some newer libraries you might like better:
+  - https://trackingjs.com
+  - https://hackernoon.com/tensorflow-js-real-time-object-detection-in-10-lines-of-code-baf15dfb95b2
+  
 
 ### III-D. 
 - Webcam sunglasses app: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/JS-Object-Detect/js-objectdetect-master/examples/example_sunglasses_jquery.htm
+- Ditto on III-C. above
 
 ### III-E. 
 - Webcam head tracker app:  https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
