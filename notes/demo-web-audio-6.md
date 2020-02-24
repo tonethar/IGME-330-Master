@@ -50,6 +50,7 @@
 
 ### III-C. 
 - Webcam plus Face Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-3.html
+- There are 2 more filters you might like
 - Here we are using https://github.com/mtschirs/js-objectdetect, but the project is not active, there are some newer libraries you might like better:
   - https://trackingjs.com
   - https://hackernoon.com/tensorflow-js-real-time-object-detection-in-10-lines-of-code-baf15dfb95b2
