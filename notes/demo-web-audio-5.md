@@ -7,7 +7,7 @@
 - *"A convolution reverb can be used to simulate an acoustic space with very high quality. It can also be used as the basis for creating a vast number of unique and interesting special effects. This technique is widely used in modern professional audio and motion picture production, and is an excellent choice to create room effects in a game engine."*
   -  https://www.w3.org/TR/2015/WD-webaudio-20151208/convolution.html 
   - https://en.wikipedia.org/wiki/Convolution_reverb
-- These effects can be used to modify a sound such that it sounds like it took place on the telephone, a small room, and auditorium, a forest, and so on
+- These effects can be used to modify a sound such that it sounds like it took place on the telephone, a small room, in an  auditorium, a forest, and so on
 - To accomplish this the `ConvolverNode` utilizes *Impulse Response* (IR) sound files - which have captured a specific acoustic space:
   - *"The idea for producing room effects is to play back a reference sound in a room, record it, and then (metaphorically) take the difference between the original sound and the recorded one. The result of this is an impulse response that captures the effect that the room has on a sound. These impulse responses are painstakingly recorded in very specific studio settings, and doing this on your own requires serious dedication. Luckily, there are sites that host many of these pre-recorded impulse response files (stored as audio files) for your convenience."*
     - https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch06.html#s06_4
