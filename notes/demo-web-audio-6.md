@@ -4,6 +4,7 @@
 
 - `ctx.getImageData(x, y, width, height)` returns an array of RGBA values which we can manipulate in various ways, and then copy back to the canvas with `ctx.putImageData(x, y, width, height)`
 - You have already had a chance to do this in [HW - Audio Visualizer - Part III](./HW-AV-2195-3.md) - so let's experiment with some additional effects we can apply
+- In these examples we will be manipulating video frames that come from either a video file, or the user's webcam 
 
 <hr>
 
