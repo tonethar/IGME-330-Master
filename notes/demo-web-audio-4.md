@@ -48,7 +48,7 @@
       - *Volume* is a measure of the physical amplitude of a sound wave
       - *Gain* is a scale multiplier affecting a sound’s amplitude as it is being processed
       - When undergoing a gain (such as when we add a [`GainNode`](https://developer.mozilla.org/en-US/docs/Web/API/GainNode) to an audio graph), the amplitude of a sound wave is scaled, with the gain value used as a multiplier.
-      - Sounds will be *clipped* - which if the waveform exceeds its maximum level:
+      - Sounds will be *clipped* - which will distort the sound - if the waveform exceeds its maximum level:
         - https://en.wikipedia.org/wiki/Clipping_(audio)
      
  <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png" alt="clipped sound image">
@@ -58,7 +58,13 @@
      - *Dynamic Range*
      - *Dynamics Compression* and the [`DynamicsCompressorNode`](https://developer.mozilla.org/en-US/docs/Web/API/DynamicsCompressorNode)
  
- ## IV. Avoid *clipping* your sounds
+ ## IV. Audio Fundamental Terms
+ 
+ - See this chapter --> [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
+ - Let's skim this Study Guide and answer the questions on it -->
+ - Here are the correct answers (jumbled up):
+   - 
+   
 
 <hr><hr>
 
