@@ -61,7 +61,7 @@
  ## IV. Audio Fundamental Terms
  
  - See this chapter on *Fundamentals* --> https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch01.html
- - Let's quickly skim the above chapter and  this Study Guide and answer the questions on the Study Guide here  --> [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
+ - Let's quickly skim the above chapter (5 minutes or so) and answer the questions on the Study Guide here  --> [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
  - Here are the correct answers (jumbled up) for all of the questions except Q#5:
    - 16-bit
    - 44.1 kHz
