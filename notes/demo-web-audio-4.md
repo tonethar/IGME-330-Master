@@ -51,6 +51,8 @@
    -  Sounds can also be *clipped* if the waveform exceeds its maximum level
    
    [clipped sound image](https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png)
+   
+   <img src="https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/images/waap_0305.png">
  
  
 
