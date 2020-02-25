@@ -8,6 +8,7 @@
 - [Web Audio III - File Chooser](./demo-web-audio-3.md)
 - [Web Audio IV - Audio Concepts Review](./demo-web-audio-4.md)
 - [Web Audio V - The WebAudio Convolver Node](./demo-web-audio-5.md)
+- [Web Audio VI - Bitmap Effects](./demo-web-audio-6.md)
 
 ## II. Assignments
 
