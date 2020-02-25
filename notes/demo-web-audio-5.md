@@ -17,7 +17,7 @@
 ```js
 let convolver = audioCtx.createConvolver();
 convolver.buffer = linkToImpulseResponseSoundBuffer;
-source.connect(audioNodes.convolver);
+source.connect(convolver);
 convolver.connect(audioCtx.destination);
 ```
 
