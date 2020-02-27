@@ -23,7 +23,7 @@
 ### II-A. Manipulating the image data of a video file
 
 - Video Filters Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/getImageData-putImageData-demo/video-image-data-demo-3.html
-- Here we have the following effects:
+- Here we have the following effects - be sure to look over the source code to see how these effects are applied - it's pretty simple logic - actually:
   - Invert (seen in AV - Part III)
   - Noise (seen in AV - Part III)
   - Emboss (seen in AV - Part III, and is a more interesting effect because the value of each pixel is dependent on neighboring pixels)
