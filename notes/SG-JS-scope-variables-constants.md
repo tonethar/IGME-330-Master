@@ -1,4 +1,4 @@
-# Variables and scope and functions *Review*
+# Study Guide: Scope for variables and functions
 
 - See review questions below!
 - Be sure to study for the exam by reviewing the resources that we suggested --> [midterm-exam-review.md](./midterm-exam-review.md)
