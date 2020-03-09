@@ -38,7 +38,7 @@
 
 <hr>
 
-- JSON consists of *key* : *value* pairs, where the key is a string, and the value is one of these types: 
+- JSON consists of ***key : value*** pairs, where the **key** is a string, and the **value** is one of these types: 
   - `Number`  - `123`, `1.23` etc
   - `String` - "Hello World" etc
   - `Boolean` - `true` or `false`
