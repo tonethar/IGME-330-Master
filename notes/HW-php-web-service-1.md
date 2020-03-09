@@ -34,10 +34,12 @@
   
   ![screenshot](./_images/HW-php-web-service-1.jpg)
   
- - JSON consists of *key* : *value* pairs, where the key is a string, and the value is one of these types: 
-   - `Number`  - `123`, `1.23` etc
-   - `String` - "Hello World" etc
-   - `Boolean` - 'true' or 'false'
-   - `Array` - `[1,2,3]`, `["Hello", "World"]` etc
-   - `Object` -  *key* : *value* pairs - `{"name" : "Fred"}`
-   - `null`
+(*Does your JSON not look as good in the browser as mine? Then go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) extension for Chrome*)
+  
+- JSON consists of *key* : *value* pairs, where the key is a string, and the value is one of these types: 
+  - `Number`  - `123`, `1.23` etc
+  - `String` - "Hello World" etc
+  - `Boolean` - 'true' or 'false'
+  - `Array` - `[1,2,3]`, `["Hello", "World"]` etc
+  - `Object` -  *key* : *value* pairs - `{"name" : "Fred"}`
+  - `null`
