@@ -28,13 +28,11 @@
 
 <hr>
 
+\*\* ***Does your JSON (below) not look as good in the browser as mine? Then go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) extension for Chrome*** \*\*
+
+<hr>
+
 ![screenshot](./_images/HW-php-web-service-1.jpg)
-
-<hr>
-
-<hr>
-
-\*\* ***Does your JSON not look as good in the browser as mine? Then go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) extension for Chrome*** \*\*
 
 <hr>
 
