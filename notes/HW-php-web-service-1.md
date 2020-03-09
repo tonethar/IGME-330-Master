@@ -17,7 +17,7 @@
   - https://dog.ceo/api/breeds/image/random
   - when we open this url up in a browser, we can see that this endpoint gives us a random url to a picture of a dog, formatted basically as a JavaScript object literal - which is the JSON (**J**ava**S**cript **O**bject **N**otation) format.
   
-  ![screenshot](./_images/php-web-service-1.jpg)
+  ![screenshot](./_images/HW-php-web-service-1.jpg)
   
  - JSON consists of *key* : *value* pairs, where the key is a string, and the value is one of these types: 
    - `Number`  - `123`, `1.23` etc
