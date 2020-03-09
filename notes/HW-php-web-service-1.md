@@ -15,8 +15,9 @@
     - the service we will build and use in this class will return data in the JSON (**J**ava**S**cript **O**bject **N**otation) format 
     - the service will be a simple *read-only* web service that will return data, but cannot be written to or updated by the user of the service
     - we will pass in parameters (i.e. values help the user of service specify or filter the information they want back) to our web service using the [query string](https://en.wikipedia.org/wiki/Query_string)
-    - we will also build a "client" (an HTML/JavaScript app) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
+    - we will also build a "client" (an HTML/JavaScript app, like GIF Finder) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
 
+<hr>
 
 ## II. Review - Example #1
 - Here's another very simple web service, the [Dog API](https://dog.ceo/dog-api/)
@@ -44,6 +45,8 @@
   - `Array` - `[1,2,3]`, `["Hello", "World"]` etc
   - `Object` -  *key* : *value* pairs - `{"name" : "Fred"}`
   - `null`
+
+<hr>
 
 ## III. Review - Example #2
 - Here's the [Dog API](https://dog.ceo/dog-api/) again
@@ -110,6 +113,20 @@
    
 <hr>
 
+- BTW - how can you see the HTTP headers that the server sent as we did above?
+  - Navigate to the web service's URL like we did above 
+  - Open the JavaScript Debugger
+  - Select the *Network* tab
+  - Reload the web page
+  - Select the file (on the left)
+  - Then select the *Headers* tab (on the right)
+- While you are here, check out the other headers:
+  - headers are *meta data* about a request - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+  - *Request* headers are sent by the *client*, which is the computer that is requesting the data 
+  - *Response* headers are sent by the *server*, which is the computer that is sending the data 
+
+<hr>
+
 ## VI. What we'll need for our web service
 
 - Based on the examples & discussion above, what will we need to create our own web service?
@@ -137,6 +154,13 @@
   - Easy! - we just need to be sure that we are sending the `access-controll-allow-origin: *` header
   
   
+## VII. What's next?
+
+- We have pretty much answered the 6 questions about our web service above
+- Now we just need to work on coding it - in PHP - so let's move on
 
 
+<hr><hr>
+
+**[Next Chapter -> PHP Web Service - Part II](HW-php-web-service-2.md)**
 
