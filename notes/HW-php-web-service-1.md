@@ -90,10 +90,19 @@
    
  <hr>
  
+## V. CORS - Cross-origin resource sharing
+
  - If you tried to load the iTunes web service in a browser, you might have noticed that it didn't appear in the browser window like the Dog API did, but instead downloaded as a separate file (which we then had to view in a different JSON previewer, above)
  - This is because the iTunes Search API is not set up to use CORS (Cross-origin resource sharing) and thus cannot be downloaded directly by the `XMLHttpRequest` object:
    - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-   - Note: In a future exercise, we'll use PHP to create a "proxy server" - which download this iTunes service for us 
+   - In a future exercise, we'll use PHP to create a "proxy server" - which download this iTunes service for us 
+   
+ ### How do we know if CORS is on or off?
+ 
+ - CORS needs to be enabled for web services we want to use with a JavaScript/HTML client that uses `XMLHttpRequest` (like GIF Finder does) - so how to we know that CORS is enabled?
+ - Easy! - take a look at the HTTP headers that the web service sends back
+ 
+ 
    
 
 
