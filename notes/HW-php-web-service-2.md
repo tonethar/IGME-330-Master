@@ -1,5 +1,19 @@
 # PHP Web Service Part II - PHP Foundations
 
+[Overview](#overview)
+
+[I. Intro to PHP](#intro-to-php)
+
+[II. PHP Scalars & Data Types](#php-data-types)
+
+[III. PHP Arrays](#php-arrays)
+
+[IV. php.ini file](#php-ini)
+
+<hr><hr>
+
+<a id="overview" />
+
 ## Overview
 - Here you will learn about the basics of PHP by running though 3 short tutorials:
   - you may have already completed these tutorials in IGME-235 (if you took the course prior to 2195)
@@ -40,6 +54,10 @@
 - ZIP and POST the PHP file (**php-2-HW.php**) to the myCourses dropbox, and put the `people.rit.edu` link to it in the comments field
 - Type your answers to the 3 review questions into the comments field of the dropbox
 
+
+
+<hr>
+
 <a id="php-arrays" />
 
 ## III. PHP Arrays
@@ -54,4 +72,11 @@
 - Complete the [PHP Arrays](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-3.md#section7) review exercise
 - Post **php-3A-HW.php** and **php-3B-HW.php** to banjo
 - ZIP and POST both PHP files (**php-3A-HW.php** & **php-3B-HW.php**) to the myCourses dropbox, and put the `people.rit.edu` links to each of them in the comments field.
+
+
+<hr>
+
+<a id="php-ini" />
+
+## IV. The php.ini file
 
