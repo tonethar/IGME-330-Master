@@ -19,7 +19,7 @@
 
 <hr>
 
-## II. Review - Example #1
+## II. What do web services look like? Example #1
 - Here's another very simple web service, the [Dog API](https://dog.ceo/dog-api/)
 - Let's look at the "List All Breeds" [endpoint](https://rapidapi.com/blog/api-glossary/endpoint/) - first. The documentation for this endpoint is here: 
   - https://dog.ceo/dog-api/documentation/
@@ -48,7 +48,7 @@
 
 <hr>
 
-## III. Review - Example #2
+## III.  What do web services look like? Example #2
 - Here's the [Dog API](https://dog.ceo/dog-api/) again
 - This time we'll look at the "Random image" endpoint - here is the documentation
   - https://dog.ceo/api/breeds/image/random
@@ -76,7 +76,7 @@
 
 <hr>
   
- ## IV. Review - Example #3
+ ## IV.  What do web services look like? Example #3
  
  - Now let's look at the iTunes Search API - the documentation is here:
    - https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html
@@ -98,7 +98,7 @@
  - If you tried to load the iTunes web service in a browser, you might have noticed that it didn't appear in the browser window like the Dog API did, but instead downloaded as a separate file (which we then had to view in a different JSON previewer, above)
  - This is because the iTunes Search API is not set up to use CORS (Cross-origin resource sharing) and thus cannot be downloaded directly by the `XMLHttpRequest` object:
    - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-   - In a future exercise, we'll use PHP to create a "proxy server" - which download this iTunes service for us 
+   - BTW - In a future exercise, we'll use PHP to create a "proxy server" - which download this iTunes service for us 
    
  ### How do we know if CORS is on or off?
  
