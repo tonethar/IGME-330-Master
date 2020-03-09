@@ -163,7 +163,7 @@
   - our web service will be hosted on banjo, and available through our regular web accounts `http://people.rit.edu/abc124/`
 
 #2 - we'll need *data* of some kind that we want to share:
-  - our web service will be very simple, and for our test data we will use corney jokes - something like these --> https://www.rd.com/funny-stuff/short-jokes/
+  - our web service will be very simple, and for our test data we will use corny jokes - something like these --> https://www.rd.com/funny-stuff/short-jokes/
   
 #3 - the data will have to be *stored* in some fashion on our server:
   - if we had a very large data set, we'd probably store it in a database (banjo actually supports SQLite), but in this case we are going to keep it simple and put all the jokes in a large array
