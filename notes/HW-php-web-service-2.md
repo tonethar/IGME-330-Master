@@ -85,7 +85,7 @@
 - The **php.ini** file contains directives you can set to configure your PHP setup, and controls certain capabilities of how PHP runs for you on banjo.rit.edu
 - Go do the assignment now --> [Homework - Configuring php.ini](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-php-ini.md)
 - Post **broken.php** and **open.php** to the web
-- Make sure that **open.php** works! You'll be using it in the "proxy server" HW soon!
+- Make sure that **open.php** works! You'll be using that capability in the "proxy server" HW soon!
 - ZIP and POST these to mycourses, and put the links to both files in the dropbox comments field
 
 
