@@ -1,5 +1,23 @@
 # PHP Web Service Part I - What is a web service?
 
+[I. Overview](#overview)
+
+[II. Example - "List all Breeds"](#example1)
+
+[III. Example - "Random Dog Image"](#example2)
+
+[IV. Example - "iTunes Search API"](#example3)
+
+[V. CORS - Cross-origin Resource Sharing](#cors)
+
+[VI. What we'll need for our web service](#need)
+
+[VII. What's Next?](#next)
+
+<hr><hr>
+
+<a id="overview" />
+
 ## I. Overview
 
 - In this series, we will *build our own web service* using the PHP programming language
@@ -18,6 +36,8 @@
     - we will also build a "client" (an HTML/JavaScript app, like GIF Finder) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
 
 <hr>
+
+<a id="example1" />
 
 ## II. What do web services look like? Example #1
 - Here's another very simple web service, the [Dog API](https://dog.ceo/dog-api/)
@@ -48,6 +68,8 @@
 
 <hr>
 
+<a id="example2" />
+
 ## III.  What do web services look like? Example #2
 - Here's the [Dog API](https://dog.ceo/dog-api/) again
 - This time we'll look at the "Random image" endpoint - here is the documentation
@@ -76,6 +98,8 @@
 
 <hr>
   
+ <a id="example3" />
+ 
  ## IV.  What do web services look like? Example #3
  
  - Now let's look at the iTunes Search API - the documentation is here:
@@ -92,6 +116,8 @@
  ![screenshot](./_images/HW-php-web-service-4.jpg)
    
  <hr>
+ 
+<a id="cors" />
  
 ## V. CORS - Cross-origin resource sharing
 
@@ -127,6 +153,8 @@
 
 <hr>
 
+<a id="need" />
+
 ## VI. What we'll need for our web service
 
 - Based on the examples & discussion above, what will we need to create our own web service?
@@ -154,7 +182,9 @@
   - Easy! - we just need to be sure that we are sending the `access-control-allow-origin: *` header
   
 <hr>
- 
+
+<a id="next" />
+
 ## VII. What's next?
 
 - We have pretty much answered the 6 questions about our web service above
