@@ -18,7 +18,8 @@
 
 - Read the page and try out the examples up on banjo
 - Complete [Intro to PHP - section VII.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md#section7) (the "Try This" part), then rename the file to **php-1-HW.php**, and post it to the web with your changes
-- ZIP and POST the PHP file to the myCourses dropbox, and put the `people.rit.edu` link to it in the comments field
+- Also post the **info.php** file that uyou created to your web account. Be sure to verify that it shows you are running PHP 7.
+- ZIP and POST both PHP files (**php-1-HW.php** & **info.php**)  to the myCoursess dropbox, and put the `people.rit.edu` links to each of them in the comments field
 
 <hr>
 
