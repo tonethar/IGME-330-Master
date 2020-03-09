@@ -63,6 +63,8 @@
 - This is done by a number end of the URL - like this:
   - https://dog.ceo/api/breeds/image/random/3
   - now the `"message"` key contains an array instead of a string
+- Specifying parameters in this way - as part of the url path - is a "Restful" technique - https://en.wikipedia.org/wiki/Representational_state_transfer
+- Note: When we build our PHP API - we will actually being passing parameters as a [query string](https://en.wikipedia.org/wiki/Query_string) - as can be seen in the next example
   
 <hr>
 
@@ -74,5 +76,7 @@
  
  - Now let's look at the iTunes Search API - the documentation is here:
    - https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html
-   - Here's 
+   - Here's an example call to the web service:
+     - https://itunes.apple.com/search?media=music&entity=song&term=rush
+     - 
 
