@@ -153,7 +153,8 @@
 #6 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data:
   - Easy! - we just need to be sure that we are sending the `access-controll-allow-origin: *` header
   
-  
+<hr>
+ 
 ## VII. What's next?
 
 - We have pretty much answered the 6 questions about our web service above
