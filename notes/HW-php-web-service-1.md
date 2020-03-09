@@ -44,13 +44,26 @@
 
 ## III. Review - Example #2
 - Here's the [Dog API](https://dog.ceo/dog-api/) again
-- THis time we'll look at the "Random image" endpoint - here is the documentation
+- This time we'll look at the "Random image" endpoint - here is the documentation
   - https://dog.ceo/api/breeds/image/random
 - and the actual endpoint (that gives you the data) is here:
   - https://dog.ceo/api/breeds/image/random
-  - when we open this url up in a browser, we can see that this endpoint gives us a random url to a picture of a dog, formatted in JSON again
+  - when we open this url up in a browser, we can see that this endpoint gives us a random url to a picture of a dog, formatted in JSON again - the `"message"` key contains a string, which is a URL to an image of a dog
   
   ![screenshot](./_images/HW-php-web-service-2.jpg)
   
+- But one thing that makes this "Random image" endpoint different from the "List All Breeds" endpoint is that we can pass *parameters* into the service and modify the results we get, in this case, we can specify that we want more than one random image.
+- This is done by a number end of the URL - like this:
+  - https://dog.ceo/api/breeds/image/random/3
+  - now the `"message"` key contains an array instead of a string
   
+  
+ ![screenshot](./_images/HW-php-web-service-3.jpg)
+ 
+  
+ ## IV. Review - Example #3
+ 
+ - Now let's look at the iTunes Search API - the documentation is here:
+   - https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html
+   - Here's 
 
