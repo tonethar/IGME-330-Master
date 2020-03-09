@@ -18,8 +18,9 @@
 
 - Read the page and try out the examples up on banjo
 - Complete [Intro to PHP - section VII.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md#section7) (the "Try This" part), then rename the file to **php-1-HW.php**, and post it to the web with your changes
-- Also post the **info.php** file that uyou created to your web account. Be sure to verify that it shows you are running PHP 7.
-- ZIP and POST both PHP files (**php-1-HW.php** & **info.php**)  to the myCoursess dropbox, and put the `people.rit.edu` links to each of them in the comments field
+- Also post the **info.php** file that you created to your web account. Be sure to verify that it shows you are running PHP 7.
+- ZIP and POST both PHP files (**php-1-HW.php** & **info.php**) to the myCourses dropbox, and put the `people.rit.edu` links to each of them in the comments field.
+- Read the 6 review questions - [Intro to PHP - section IX. Review Questions](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md#section9) - and type your answers into the comments field of the dropbox
 
 <hr>
 
@@ -28,4 +29,4 @@
 ## II. PHP Scalars & Data Types
 
 - [PHP Scalars & Data Types](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-2.md)
-- This page
+- This page 
