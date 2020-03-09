@@ -10,11 +10,11 @@
   - [Web Service App - Examples & Starters](https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-service-app-starters.md)
   
 ### What's a web service, again?
-  - The beginning of Wikipedia's [web service](https://en.wikipedia.org/wiki/Web_service) entry is very general and states: "a service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web"
+  - The beginning of Wikipedia's [web service](https://en.wikipedia.org/wiki/Web_service) entry is very general and states that a web service is "a service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web"
   - More specifically, in this class:
-    - the service we will build and use in this class will return data in the JSON (**J**ava**S**cript **O**bject **N**otation) format 
-    - the service will be a simple *read-only* web service that will return data, but cannot be written to or updated by the user of the service
-    - we will pass in parameters (i.e. values help the user of service specify or filter the information they want back) to our web service using the [query string](https://en.wikipedia.org/wiki/Query_string)
+    - the services we will build and use in this class will return data in the JSON (**J**ava**S**cript **O**bject **N**otation) format 
+    - the services will be a simple *read-only* web service that will return data, but cannot be written to or updated by the user of the service
+    - we will pass in parameters (i.e. values that help the user of the service specify or filter the information they want back) to our web service using the [query string](https://en.wikipedia.org/wiki/Query_string)
     - we will also build a "client" (an HTML/JavaScript app, like GIF Finder) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
 
 <hr>
