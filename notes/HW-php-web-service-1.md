@@ -80,7 +80,7 @@
    - Here's an example call to the web service:
      - https://itunes.apple.com/search?media=music&entity=song&term=rush
      - this give us back textual information, thumbnail images and preview links for song tracks related to the search term "rush", formatted as a JSON string
-     - Not that our values for the `media`, `entity` and `term` paramters are getting passed over in the [query string](https://en.wikipedia.org/wiki/Query_string):
+     - Note that our values for the `media`, `entity` and `term` paramters are getting passed over in the [query string](https://en.wikipedia.org/wiki/Query_string):
        - the beginning of the query string is denoted with a question mark - `?`
        - the form of the query string is `name=value`, where multiple name:value pairs are separated by ampersands - `&`
     
