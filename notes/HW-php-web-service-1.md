@@ -100,9 +100,43 @@
  ### How do we know if CORS is on or off?
  
  - CORS needs to be enabled for web services we want to use with a JavaScript/HTML client that uses `XMLHttpRequest` (like GIF Finder does) - so how to we know that CORS is enabled?
- - Easy! - take a look at the HTTP headers that the web service sends back
+ - Easy! - take a look at the HTTP headers that the web service sends back:
+   - if the web service has set the `access-controll-allow-origin: *` header - then CORS is "on" - meaning that a browser using `XMLHttpRequest` will then be allowed to access it
  
  
+<hr>
+    
+ ![screenshot](./_images/HW-php-web-service-5.jpg)
    
+<hr>
+
+## VI. What we'll need for our web service
+
+- Based on the examples & discussion above, what will we need to create our own web service?
+
+#1 - our web service needs to be *hosted* somewhere on the Internet (on a *server*) so that any client machine that wants to can connect to it:
+  - our web service will be hosted on banjo, and available through our regular web accounts `http://people.rit.edu/abc124/`
+
+#2 - we'll need *data* of some kind that we want to share:
+  - our web service will be very simple, and for our test data we will use corney jokes - something like these --> https://www.rd.com/funny-stuff/short-jokes/
+  
+#3 - the data will have to be *stored* in some fashion on our server:
+  - if we had a very large data set, we'd probably store it in a database (banjo actually supports SQLite), but in this case we are going to keep it simple and put all the jokes in a large array
+  
+#4 - we will have to choose a programming language to create the web service in:
+  - On banjo, we could use use Perl, PHP, Python, or even shell scripts to create our web service
+  - PHP is the well-suited to constructing our simple web service (as we will see as we start coding it), so that's what we are going to use
+  
+#5 - we need a way to pass *parameters* to our web service - the choices are:
+  - "Restful" - where the parameters are passed as part of the url "path" - like in the "Random Image" endpoint above
+  - [POST](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - which is an HTTP method - where the parameters are passed as additional *data* - basically as a separate file
+  - [GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - where the parameters are passed as part of the *query string* - like in the iTunes Search example above:
+- for our web service, we will be using GET and the query string
+
+#6 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data:
+  - Easy! - we just need to be sure that we are sending the `access-controll-allow-origin: *` header
+  
+  
+
 
 
