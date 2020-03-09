@@ -145,8 +145,8 @@
   - PHP is the well-suited to constructing our simple web service (as we will see as we start coding it), so that's what we are going to use
   
 #5 - we need a way to pass *parameters* to our web service - the choices are:
-  - "Restful" - where the parameters are passed as part of the url "path" - like in the "Random Image" endpoint above
-  - [POST](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - which is an HTTP method - where the parameters are passed as additional *data* - basically as a separate file
+  - ["Restful"](https://en.wikipedia.org/wiki/Representational_state_transfer) - where the parameters are passed as part of the url "path" - like in the "Random Image" endpoint above. (This is how we will be doing web services in IGME-430)
+  - [POST](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - which is an HTTP method - where the parameters are passed as additional *data* - basically as a separate file. (We will be using this technique in IGME-430)
   - [GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - where the parameters are passed as part of the *query string* - like in the iTunes Search example above:
 - for our web service, we will be using GET and the query string
 
