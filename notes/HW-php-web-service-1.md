@@ -150,15 +150,15 @@
   - [GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - where the parameters are passed as part of the *query string* - like in the iTunes Search example above:
 - ***For our web service, we will be using GET and the query string***
 
-#6 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data:
-  - Easy! - we just need to be sure that we are sending the `access-controll-allow-origin: *` header
+#6 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data - i.e. CORS needs to be turned ON:
+  - Easy! - we just need to be sure that we are sending the `access-control-allow-origin: *` header
   
 <hr>
  
 ## VII. What's next?
 
 - We have pretty much answered the 6 questions about our web service above
-- Now we just need to work on coding it - in PHP - so let's move on
+- Now we just need to work on coding it - in PHP - so let's move on!
 
 
 <hr><hr>
