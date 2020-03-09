@@ -10,6 +10,8 @@
 
 [IV. php.ini file](#php-ini)
 
+[V. Summary](#summary)
+
 <hr><hr>
 
 <a id="overview" />
@@ -80,3 +82,28 @@
 
 ## IV. The php.ini file
 
+- The **php.ini** file contains directives you can set to configure your PHP setup, and controls certain capabilities of how PHP runs for you on banjo.rit.edu
+- Go do the assignment now --> [Homework - Configuring php.ini](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-php-ini.md)
+- Post **broken.php** and **open.php** to the web
+- Make sure that **open.php** works! You'll be using it in the "proxy server" HW soon!
+- ZIP and POST these to mycourses, and put the links to both files in the dropbox comments field
+
+
+<hr>
+
+<a id="summary" />
+
+## V. Summary
+- A lot was covered here - hopefully you have a better understanding of what PHP can do
+- In the myCourses dropbox, you have zipped and posted the following files:
+  - **php-1-HW.php** & **info.php** (Part I above)
+  - **php-2-HW.php** (Part II above)
+  - **php-3A-HW.php** and **php-3B-HW.php** (Part III above)
+  - **broken.php** and **open.php** (Part IV above)
+- You also answered the following questions, and posted the answers in the comments field of the dropbox:
+  - Review questions #1-#6 (Part I above)
+  - Review questions #1-#3 (Part II above)
+
+<hr><hr>
+
+**[Next Chapter -> PHP Web Service - Part II](HW-php-web-service-2.md)**
