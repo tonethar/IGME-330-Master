@@ -14,7 +14,8 @@
   - More specifically, in this class:
     - the service we will build and use in this class will return data in the JSON (**J**ava**S**cript **O**bject **N**otation) format 
     - the service will be a simple *read-only* web service that will return data, but cannot be written to or updated by the user of the service
-    - we will build a "client" (an HTML/JavaScript app) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
+    - we will pass in parameters (i.e. values help the user of service specify or filter the information they want back) to our web service using the [query string](https://en.wikipedia.org/wiki/Query_string)
+    - we will also build a "client" (an HTML/JavaScript app) to download the web service via the [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) object and then display the results to a user
 
 
 ## II. Review - Example #1
@@ -78,5 +79,14 @@
    - https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html
    - Here's an example call to the web service:
      - https://itunes.apple.com/search?media=music&entity=song&term=rush
-     - 
+     - this give us back textual information, thumbnail images and preview links for song tracks related to the search term "rush", formatted as a JSON string
+     - Not that our values for the `media`, `entity` and `term` paramters are getting passed over in the [query string](https://en.wikipedia.org/wiki/Query_string):
+       - the beginning of the query string is denoted with a question mark - `?`
+       - the form of the query string is `name=value`, where multiple name:value pairs are separated by ampersands - `&`
+    
+ <hr>
+    
+ ![screenshot](./_images/HW-php-web-service-4.jpg)
+   
+ <hr>
 
