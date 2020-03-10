@@ -157,7 +157,7 @@
 
 ## VI. Seven things we'll need to create our web service
 
-- Based on the examples & discussion above, what will we need to create our own web service?
+- Based on the examples & discussion above, what issues will we need to consider when we create our own web service?
 
 #1 - our web service needs to be *hosted* somewhere on the Internet (on a *server*) so that any client machine that wants to can connect to it:
   - our web service will be hosted on banjo, and available through our regular web accounts `http://people.rit.edu/abc124/`
