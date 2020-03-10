@@ -32,7 +32,7 @@
 
 ### I-A. Homework
 
-- Read the [Intro to PHP](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md) and try out the examples up on banjo
+- Read the [Intro to PHP](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md) oage and try out the examples up on banjo
 - Complete [Intro to PHP - section VII.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md#section7) (the "Try This" part), then rename the file to **php-1-HW.php**, and post it to the web with your changes
 - Also post the **info.php** file that you created to your web account. Be sure to verify that it shows you are running PHP 7.
 - ZIP and POST both PHP files (**php-1-HW.php** & **info.php**) to the myCourses dropbox, and put the `people.rit.edu` links to each of them in the comments field.
@@ -50,8 +50,8 @@
 
 ### II-A. Homework
 
-- Read the page and try out the examples up on banjo
-- Complete [PHP Scalars & Data Types](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-2.md#section10) the three questions at the end of the page, and do the review exercise
+- Read the [PHP Scalars & Data Types](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-2.md) page and try out the examples up on banjo
+- Complete [PHP Scalars & Data Types - Section X.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-2.md#section10) the three questions at the end of the page, and do the review exercise
 - Post **php-2-HW.php** to banjo
 - ZIP and POST the PHP file (**php-2-HW.php**) to the myCourses dropbox, and put the `people.rit.edu` link to it in the comments field
 - Type your answers to the 3 review questions into the comments field of the dropbox
@@ -71,7 +71,7 @@
 ### IIA-A. Homework
 
 - Read the page and try out the examples up on banjo
-- Complete the [PHP Arrays](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-3.md#section7) review exercise
+- Complete the [PHP Arrays - Section VII.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-3.md#section7) review exercise
 - Post **php-3A-HW.php** and **php-3B-HW.php** to banjo
 - ZIP and POST both PHP files (**php-3A-HW.php** & **php-3B-HW.php**) to the myCourses dropbox, and put the `people.rit.edu` links to each of them in the comments field.
 
@@ -85,6 +85,7 @@
 - The **php.ini** file contains directives you can set to configure your PHP setup, and controls certain capabilities of how PHP runs for you on banjo.rit.edu
 - Go do the assignment now --> [Homework - Configuring php.ini](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-php-ini.md)
 - Post **broken.php** and **open.php** to the web
+- Make sure that **broken.php** "works" and gives visible error messages! It's a lot harder to debug PHP code if the only error you are getting is a blank screen!
 - Make sure that **open.php** works! You'll be using that capability in the "proxy server" HW soon!
 - ZIP and POST these to mycourses, and put the links to both files in the dropbox comments field
 
