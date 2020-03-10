@@ -2,9 +2,11 @@
 
 [Overview](#overview)
 
-[I. Intro to PHP](#intro-to-php)
+[I. Get Started](#get-started)
 
+[II. Add some content](#add-some-content)
 
+[III. Get random joke](#get-random-joke)
 
 <hr><hr>
 
@@ -12,6 +14,10 @@
 
 ## Overview
 - Now that you know about PHP, we can finally get coding our web service!
+
+<hr>
+
+<a id="get-started" />
 
 ## I. Get Started
 
@@ -58,10 +64,23 @@
 
 <hr>
 
+<a id="add-some-content" />
 
-## II. Add some content, and return a random joke
+## II. Add some content
 
+- Go ahead and add 4 (or more) jokes to the array
+- Please keep them SFW - ***Safe For Work!***
+- Preview your web service in Chrome to be sure that you didn't break anything
 
+<hr>
+
+<a id="get-random-joke" />
+
+## III. Get random joke
+
+- Go ahead and add 4 (or more) jokes to the array
+- Please keep them SFW - ***Safe For Work!***
+- Preview your web service in Chrome to be sure that you didn't break anything
 
 <hr>
 
