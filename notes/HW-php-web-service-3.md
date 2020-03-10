@@ -161,7 +161,7 @@ header("Access-Control-Allow-Origin: *");     // turn on CORS
 header("X-this-330-service-is-kinda-lame: true");   // a custom header - by convention they begin with 'X'
 ```
 
-- now test your web service - it should look like this:
+- now test your web service in the browser - it should look like this:
 
 <hr>
 
@@ -170,12 +170,24 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 <hr>
  
 
-<br>
-
 <a id="client-app" />
 
 ## VI. A client app for testing your web service
 
+- So we have now constructed our web service - but will it work with a client application?
+
+### A quick rest with `curl`
+
+- If you have `curl` installed, you can do a quick test from the command line:
+  - `curl --url <path-to-service-on-banjo>`
+  - below I am using Terminal on Mac OS, on Windows you can use Powershell or GitBash:
+  
+ 
+<hr>
+
+![screenshot](./_images/HW-php-web-service-11.jpg)
+
+<hr>
 
 
 <hr><hr>
