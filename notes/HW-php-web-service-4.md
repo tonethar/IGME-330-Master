@@ -83,7 +83,7 @@
   - add this line of code to the bottom of the script:
 
 ```php
-  printr($_GET);
+  print_r($_GET);
 ```
 
 
