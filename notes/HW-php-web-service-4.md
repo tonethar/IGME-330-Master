@@ -151,10 +151,29 @@ Array
 
 - So we have now constructed another web service - but will it work with a client application?
 - Go ahead and make a copy of **joke-client.html** from last time and name it **many-jokes-client.html**
-- Give it a &lt;select> where the user can choose between 2 and 10 jokes - it looks like this
+- Give it a &lt;select> where the user can choose between 2 and 10 jokes - your HTML looks like this
 
-```js
-
+```html
+<body>
+	<h1>View lotsa jokes</h1>
+	How many jokes? -->
+	<select id="numJokesElement">
+		<option value="2">2 Jokes!</option>
+		<option value="3">3 Jokes!</option>
+		<option value="4">4 Jokes!</option>
+		<option value="5" selected>5 Jokes!</option>
+		<option value="6">6 Jokes!</option>
+		<option value="7">7 Jokes!</option>
+		<option value="8">8 Jokes!</option>
+		<option value="9">9 Jokes!</option>
+		<option value="10">10 Jokes!</option>
+	</select>
+	<button id="jokeBtn">Show me some Jokes!</button>
+	<hr><hr>
+	<div id="content">
+	
+	</div>
+</body>
 ```
 
 - now use the `.value` of this select to change the value of the `limit` parameter you will be sending to **get-jokes.php**
