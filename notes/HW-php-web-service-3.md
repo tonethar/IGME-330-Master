@@ -278,8 +278,8 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 </html>
 ```
 
-- This should be review, as we used XHR back in IGME-235 (and you had a project that used it!)
-- If you don't understand anything in this code - ASK!
+- The above code should be familiar to you, as we used XHR back in IGME-235 (and you had a project that used it!)
+- But if you don't understand everything in this code - you are likely not alone - so ASK!
 
 <hr>
 
