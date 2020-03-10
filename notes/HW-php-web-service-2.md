@@ -107,4 +107,6 @@
 
 <hr><hr>
 
-**[Next Chapter -> PHP Web Service - Part II](HW-php-web-service-2.md)**
+**[Previous Chapter <- PHP Web Service - Part I](HW-php-web-service-1.md)**
+
+**[Next Chapter -> PHP Web Service - Part III](HW-php-web-service-3.md)**
