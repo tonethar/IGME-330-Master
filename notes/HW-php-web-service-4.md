@@ -7,6 +7,8 @@
 
 [II. Return exactly 3 jokes](#return-3-jokes)
 
+[III. Check the query string for the number of jokes](#query-string)
+
 
 <hr><hr>
 
@@ -103,8 +105,34 @@ Array
 ```
 
 - so to get at the value of limit, we just need to pass it as a key to `$_GET`, with square bracket syntax
-- now add this line of code to the file, and test it in the browser:
-  - `echo($_GET["limit"]); // pass in the 'limit' key, we should see 5 in the window`
+- now temporarily add this line of code to the file, and test it in the browser:
+  - `echo($_GET["limit"]); // pass in the 'limit' key, we should see `5` in the window`
+  
+### Using the value of the `limit` parameter
+
+- Here's the code you need to use to get the value of `limit` from the query string
+- Put this code at the top of your file, and get rid of the hard-coded `$limit` declaration:
+
+```php
+  if(array_key_exists('limit', $_GET)){ // if `limit` is in query string
+    $limit = $_GET['limit'];
+    $limit = (int)$limit; // explicitly cast value to an integer, might be `0`
+    if ($limit < 0){
+			$limit = 0;
+		}
+  }else{
+    $limit = 1; // default value if `limit` param is missing
+	}
+```
+
+### Test the `limit` parameter in the query string
+
+- try **get-jokes.php?limit=5**:
+  - you should get 5 jokes back
+- try **get-jokes.php?limit=-1**:
+  - you should get an empty array back
+- try **get-jokes.php?limit=fred%20jones**:
+  - you should get an empty array back
 
 <hr><hr>
 
