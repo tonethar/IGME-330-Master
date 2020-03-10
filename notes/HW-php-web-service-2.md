@@ -19,7 +19,8 @@
 ## Overview
 - Here you will learn about the basics of PHP by running though 3 short tutorials:
   - you may have already completed these tutorials in IGME-235 (if you took the course prior to 2195)
-  - a list of our IGM PHP resources - which are mostly older IGME-235 assignments - is here --> [About this PHP Tutorial Series](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-0.md)
+  - a list of our IGM PHP resources - which are mostly older IGME-235 assignments is here:
+    - [About this PHP Tutorial Series](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-0.md)
 
 <hr>
 
