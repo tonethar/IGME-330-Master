@@ -111,18 +111,17 @@ Array
 ### Using the value of the `limit` parameter
 
 - Here's the code you need to use to get the value of `limit` from the query string
-- Put this code at the top of your file, and get rid of the hard-coded `$limit` declaration:
+- Put this code at the top of your file, and somewhere in your code, make `$numJokes` equal to `$limit`:
 
 ```php
-  if(array_key_exists('limit', $_GET)){ // if `limit` is in query string
+  $limit = 2; // the default
+  if(array_key_exists('limit', $_GET)){
     $limit = $_GET['limit'];
-    $limit = (int)$limit; // explicitly cast value to an integer, might be `0`
-    if ($limit < 0){
-			$limit = 0;
-		}
-  }else{
-    $limit = 1; // default value if `limit` param is missing
-	}
+    $limit = (int)$limit; // explicitly cast value to an integer
+    if ($limit < 2){
+      $limit = 2;
+    }
+  }
 ```
 
 ### Test the `limit` parameter in the query string
@@ -130,9 +129,16 @@ Array
 - try **get-jokes.php?limit=5**:
   - you should get 5 jokes back
 - try **get-jokes.php?limit=-1**:
-  - you should get an empty array back
+  - you should get 2 jokes back
 - try **get-jokes.php?limit=fred%20jones**:
-  - you should get an empty array back
+  - you should get 2 jokes back
+- try **get-jokes.php?limit=9999**:
+  - you'll see an error message in the browser because the second argument to `array_rand()` can't be more than the length of the array!
+    - fix it using PHP's `count()` function to get the length of the array - https://www.php.net/manual/en/function.count.php
+- why did we decide on a minium of 2 results? It should really be zero:
+  - to keeps things simple  - because the second argument to `array_rand()` can't be less than 2! Fix this issue if you want to
+  
+    
 
 <hr><hr>
 
