@@ -178,11 +178,10 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 
 ### A quick rest with `curl`
 
-- If you have `curl` installed, you can do a quick test from the command line:
+- If you have [`curl`](https://curl.haxx.se) installed, you can do a quick test from the command line:
   - `curl --url <path-to-service-on-banjo>`
-  - below I am using Terminal on Mac OS, on Windows you can use Powershell or GitBash:
+  - below I am using Mac OS and the Terminal application - on Windows you can use Powershell or GitBash:
   
- 
 <hr>
 
 ![screenshot](./_images/HW-php-web-service-11.jpg)
