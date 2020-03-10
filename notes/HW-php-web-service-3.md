@@ -14,6 +14,7 @@
 
 ## Overview
 - Now that you know about PHP, we can finally get coding our web service!
+- Here's a "done" version you can check out: http://igm.rit.edu/~acjvks/courses/shared/330/php/get-random-joke.php
 
 <hr>
 
@@ -78,13 +79,29 @@
 
 ## III. Get random joke
 
-- Go ahead and add 4 (or more) jokes to the array
-- Please keep them SFW - ***Safe For Work!***
-- Preview your web service in Chrome to be sure that you didn't break anything
+- Use `array_rand()` to pull a random joke out of the array
+
+```php
+// get a random element of the $jokes array
+// https://www.php.net/manual/en/function.array-rand.php
+// there are a bunch more PHP array functions at: http://php.net/manual/en/ref.array.php
+$randomKey = ...
+$randomJoke = ...
+```
+
+- comment out the "debug" `echo()` statements
+- now echo out just a single random joke
+- it should now look like this when you load it in a browser - reload the page multiple times to be sure that you're getting random jokes:
 
 <hr>
 
+![screenshot](./_images/HW-php-web-service-7.jpg)
 
+<hr>
+
+<a id="echoing-json" />
+
+## IV. Echoing a JSON string
 
 
 <hr><hr>
