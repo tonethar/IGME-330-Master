@@ -40,7 +40,7 @@
 <a id="example1" />
 
 ## II. What do web services look like? Example #1
-- Here's another very simple web service, the [Dog API](https://dog.ceo/dog-api/)
+- Here's a very simple web service that you might have seen in IGME-235, the [Dog API](https://dog.ceo/dog-api/)
 - Let's look at the "List All Breeds" [endpoint](https://rapidapi.com/blog/api-glossary/endpoint/) - first. The documentation for this endpoint is here: 
   - https://dog.ceo/dog-api/documentation/
 - and the actual endpoint (that gives you the data) is here:
@@ -58,7 +58,7 @@
 
 <hr>
 
-- JSON consists of ***key : value*** pairs, where the **key** is a string, and the **value** is one of these types: 
+- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) consists of ***key : value*** pairs, where the **key** is a string, and the **value** is one of these types: 
   - `Number`  - `123`, `1.23` etc
   - `String` - "Hello World" etc
   - `Boolean` - `true` or `false`
