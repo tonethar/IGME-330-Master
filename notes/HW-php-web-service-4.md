@@ -22,8 +22,16 @@
 ## I. Get Started
 
 - make a copy of **get-random-joke.php** from last time, and name it **get-jokes.php**
-- modify the code to return the entire `$jokes` array instead of a single random joke
-- 
+- modify the code to return the entire `$jokes` array instead of a single random joke:
+  - you will have to change just one like of code
+  - when you are done, it looks like this:
+  
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-15.jpg)
+
+<hr>
 
 
 <hr><hr>
