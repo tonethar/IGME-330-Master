@@ -10,7 +10,7 @@
 
 [V. CORS - Cross-origin Resource Sharing](#cors)
 
-[VI. Six things we'll need to create our web service](#need)
+[VI. Seven things we'll need to create our web service](#need)
 
 [VII. What's Next?](#next)
 
@@ -155,7 +155,7 @@
 
 <a id="need" />
 
-## VI. Six things we'll need to create our web service
+## VI. Seven things we'll need to create our web service
 
 - Based on the examples & discussion above, what will we need to create our own web service?
 
@@ -178,7 +178,12 @@
   - [GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - where the parameters are passed as part of the *query string* - like in the iTunes Search example above:
 - ***For our web service, we will be using GET and the query string***
 
-#6 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data - i.e. CORS needs to be turned ON:
+#6 - we need to **return** the data to the client application that is requesting it - and we need to do so in at least one standardized format  - here are the top three:
+  - plain, unstructured *text*
+  - XML
+  - JSON (this is currently the most common for web services, so this is what we'll use)
+
+#7 - we need to make sure our service is available to web browsers that are using `XMLHttpRequest` to download data - i.e. CORS needs to be turned ON:
   - Easy! - we just need to be sure that we are sending the `access-control-allow-origin: *` header
   
 <hr>
