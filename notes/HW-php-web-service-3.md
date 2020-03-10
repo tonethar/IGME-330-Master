@@ -176,7 +176,7 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 
 - So we have now constructed our web service - but will it work with a client application?
 
-### A quick rest with `curl`
+### A quick test with `curl`
 
 - If you have [`curl`](https://curl.haxx.se) installed, you can do a quick test from the command line:
   - `curl --url <path-to-service-on-banjo>`
@@ -187,6 +187,38 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 ![screenshot](./_images/HW-php-web-service-11.jpg)
 
 <hr>
+
+- if you add a `-v` flag you will get *verbose* output which includes the request and response headers:
+  - `curl -v --url <path-to-service-on-banjo>`
+  
+### A quick test with Postman
+
+- Postman is a fantastic & free utility for testing web services --> https://www.postman.com
+- Here we are trying it out on our new web service to verify the content and the headers
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-12.jpg)
+
+<hr>
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-13.jpg)
+
+<hr>
+
+
+### A quick test with an HTML/JS client
+
+- we could write our client in any programming language (C/C#/C++/Java/Kotli/Python/Swift/...), for any device that's connected to the internet (a PC, an iPhone, Android, a smart toaster, etc) ...
+- but we'll just do it in HTML/JS - here's the code:
+
+**joke-client.html**
+
+```html
+
+```
 
 
 <hr><hr>
