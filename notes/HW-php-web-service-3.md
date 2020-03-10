@@ -120,6 +120,20 @@
   echo $string;
 ```
 
+- And here's what you should see in the browser (thanks for the nice formatting, JSON Viewer!)
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-8.jpg)
+
+<hr>
+
+<a id="sending-headers" />
+
+## IV. Sending headers
+
+
+
 <hr><hr>
 
 **[Previous Chapter <- PHP Web Service - Part II](HW-php-web-service-2.md)**
