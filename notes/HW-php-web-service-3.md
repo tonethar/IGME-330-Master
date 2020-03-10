@@ -285,6 +285,8 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 
 ![screenshot](./_images/HW-php-web-service-14.jpg)
 
+<hr>
+
 <a id="submission" />
 
 ## VII. Submission
