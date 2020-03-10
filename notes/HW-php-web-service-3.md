@@ -136,11 +136,11 @@
 
 ## V. Sending HTTP headers
 
-- remember the list of seven issues we need to consider when we built our web service? --> [HW-php-web-service-1.md#need](./HW-php-web-service-1.md#need)
+- remember the **list of seven issues** we needed to consider as we built our web service? --> [HW-php-web-service-1.md#need](./HW-php-web-service-1.md#need)
 - so we have "knocked off" issues #1-#6 (we actually skipped #5 for now because we don't need it YET)
 - that leaves #7 - which was about turning on CORS - so that browsers could download the JSON directly with `XMLHttpRequest` without using a proxy server
 - take a look at our current situation with the [response headers](https://developer.mozilla.org/en-US/docs/Glossary/Response_header) that our web service is sending:
-  - we are missing the `access-controll-allow-origin: *` header
+  - we are missing the `access-control-allow-origin: *` header
   - we are also sending the WRONG content-type header - PHP is sending `text/html` (the default) - instead of `application/json` (which is the correct value)
  
  
@@ -158,7 +158,7 @@
 // DO THIS **BEFORE** you `echo()` the content!
 header('content-type:application/json');      // tell the requestor that this is JSON
 header("Access-Control-Allow-Origin: *");     // turn on CORS
-header("X-this-330-service-is-kinda-lame: true");   // a custom header 
+header("X-this-330-service-is-kinda-lame: true");   // a custom header - by convention they begin with 'X'
 ```
 
 - now test your web service - it should look like this:
