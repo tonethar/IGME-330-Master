@@ -80,14 +80,14 @@
 
 ## III. Get random joke
 
-- Use `array_rand()` to pull a random joke out of the array
+- Use PHP's `array_rand()` to pull a random joke out of the array
 
 ```php
-// get a random element of the $jokes array
-// https://www.php.net/manual/en/function.array-rand.php
-// there are a bunch more PHP array functions at: http://php.net/manual/en/ref.array.php
-$randomKey = ...
-$randomJoke = ...
+  // get a random element of the $jokes array
+  // https://www.php.net/manual/en/function.array-rand.php
+  // there are a bunch more PHP array functions at: http://php.net/manual/en/ref.array.php
+  $randomKey = ...
+  $randomJoke = ...
 ```
 
 - comment out the "debug" `echo()` statements
@@ -104,6 +104,19 @@ $randomJoke = ...
 
 ## IV. Echoing a JSON string
 
+- Now we are successfully echoing a random joke - but it's just in an unstructured text format
+- Although it is quite possible to code a client app to use this text, web services almost always return data in either the XML or JSON formats
+- **get-random-joke.php** is going to return the data in JSON format
+- do you remember or know about `JSON.stringify()` in JavaScript? It turns any *object* - like an object literal or an array (because in JavaScript, arrays *are* objects) - into a string of JSON
+- PHP has similar method called `json_encode()` - which turns PHP associative arrays (which is what `$jokes` and `$randomJoke` are) into a string of JSON
+- So this is really easy - here's the code for you:
+
+```php
+  // json_encode() turns an associative array into a string of well-formed JSON
+  // https://www.php.net/manual/en/function.json-encode.php
+  $string = json_encode($randomJoke);
+  echo $string;
+```
 
 <hr><hr>
 
