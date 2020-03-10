@@ -86,6 +86,25 @@
   print_r($_GET);
 ```
 
+- now invoke it like this:
+  - **get-jokes.php?limit=5&firstname=fred&lastname=Jones**
+  - this passes in 3 parameters - `limit`, `firstname`, `lastname`
+  - note that the `key=value` pairs are separated by ampersands
+- you should see the following in a browser window:
+
+
+```text
+Array
+(
+    [limit] => 5
+    [firstname] => fred
+    [lastname] => Jones
+)
+```
+
+- so to get at the value of limit, we just need to pass it as a key to `$_GET`, with square bracket syntax
+- now add this line of code to the file, and test it in the browser:
+  - `echo($_GET["limit"]); // pass in the 'limit' key, we should see 5 in the window`
 
 <hr><hr>
 
