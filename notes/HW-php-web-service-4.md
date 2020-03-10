@@ -11,6 +11,8 @@
 
 [VI. A client app for testing your web service](#client-app)
 
+[V. Submission](#submission)
+
 
 <hr><hr>
 
@@ -166,6 +168,15 @@ Array
 ![screenshot](./_images/HW-php-web-service-17.jpg)
 
 <hr>
+
+<a id="submission" />
+
+## V. Submission
+
+- POST **get-jokes.php** and **many-jokes-client** to your banjo account (they will probably be in the same folder, but they don't have to be!
+- ZIP and POST **get-jokes.php** and **many-jokes-client** to the myCourses dropbox
+- Type the banjo links to **get-jokes.php** and **many-jokes-client** into the comments field of the dropbox
+
 
 <hr><hr>
 
