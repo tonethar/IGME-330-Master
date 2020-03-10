@@ -10,6 +10,10 @@
 
 [IV. `echo()` a JSON string](#echo-a-json-string)
 
+[V. Sending HTTP headers](#sending-http-headers)
+
+[VI. A client app for testing your web service](#client-app)
+
 <hr><hr>
 
 <a id="overview" />
@@ -128,9 +132,16 @@
 
 <hr>
 
-<a id="sending-headers" />
+<a id="sending-http-headers" />
 
-## IV. Sending headers
+## V. Sending HTTP headers
+
+
+<br>
+
+<a id="client-app" />
+
+## VI. A client app for testing your web service
 
 
 
