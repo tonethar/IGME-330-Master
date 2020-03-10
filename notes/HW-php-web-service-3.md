@@ -14,6 +14,7 @@
 
 ## Overview
 - Now that you know about PHP, we can finally get coding our web service!
+- We are going to start out with **get-random-joke.php** - which returns a single random joke in JSON format
 - Here's a "done" version you can check out: http://igm.rit.edu/~acjvks/courses/shared/330/php/get-random-joke.php
 
 <hr>
