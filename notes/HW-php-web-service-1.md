@@ -10,7 +10,7 @@
 
 [V. CORS - Cross-origin Resource Sharing](#cors)
 
-[VI. What we'll need for our web service](#need)
+[VI. Six things we'll need to create our web service](#need)
 
 [VII. What's Next?](#next)
 
@@ -155,7 +155,7 @@
 
 <a id="need" />
 
-## VI. What we'll need for our web service
+## VI. Six things we'll need to create our web service
 
 - Based on the examples & discussion above, what will we need to create our own web service?
 
@@ -172,7 +172,7 @@
   - On banjo, we could use use Perl, PHP, Python, or even shell scripts to create our web service
   - PHP is the well-suited to constructing our simple web service (as we will see as we start coding it), so that's what we are going to use
   
-#5 - we need a way to pass *parameters* to our web service - the choices are:
+#5 - we need a way for the client app to pass *parameters* to our web service - the choices are:
   - ["Restful"](https://en.wikipedia.org/wiki/Representational_state_transfer) - where the parameters are passed as part of the url "path" - like in the "Random Image" endpoint above. (This is how we will be doing web services in IGME-430)
   - [POST](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - which is an HTTP method - where the parameters are passed as additional *data* - basically as a separate file. (We will be using this technique in IGME-430)
   - [GET](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) - where the parameters are passed as part of the *query string* - like in the iTunes Search example above:
