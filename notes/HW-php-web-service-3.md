@@ -1,4 +1,4 @@
-# PHP Web Service Part II - PHP Foundations
+# PHP Web Service Part III - Coding the web service
 
 [Overview](#overview)
 
