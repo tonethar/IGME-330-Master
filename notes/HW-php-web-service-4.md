@@ -9,6 +9,8 @@
 
 [III. Check the query string for the number of jokes](#query-string)
 
+[VI. A client app for testing your web service](#client-app)
+
 
 <hr><hr>
 
@@ -135,10 +137,33 @@ Array
 - try **get-jokes.php?limit=9999**:
   - you'll see an error message in the browser because the second argument to `array_rand()` can't be more than the length of the array!
     - fix it using PHP's `count()` function to get the length of the array - https://www.php.net/manual/en/function.count.php
-- why did we decide on a minium of 2 results? It should really be zero:
+    - if you are successful, **get-jokes.php?limit=9999** will instead return ALL of the jokes in the array
+- why did we decide on a minimum of 2 results? It should really be zero:
   - to keeps things simple  - because the second argument to `array_rand()` can't be less than 2! Fix this issue if you want to
   
-    
+<hr>
+
+<a id="client-app" />
+
+## IV. A client app for testing your web service
+
+- So we have now constructed another web service - but will it work with a client application?
+- Go ahead and make a copy of **joke-client.html** from last time and name it **many-jokes-client.html**
+- Give it a &lt;select> where the user can choose between 2 and 10 jokes - it looks like this
+
+```js
+
+```
+
+- now use the `.value` of this select to change the value of the `limit` parameter you will be sending to **get-jokes.php**
+- fetch and show all of these jokes when the user clicks the button, and be sure to clear out the old results
+- when you are done, it will look something like this:
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-17.jpg)
+
+<hr>
 
 <hr><hr>
 
