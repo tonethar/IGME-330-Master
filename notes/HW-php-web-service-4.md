@@ -159,6 +159,8 @@ Array
 - fetch and show all of these jokes when the user clicks the button, and be sure to clear out the old results
 - when you are done, it will look something like this:
 
+**many-jokes-client.html**
+
 <hr>
 
 ![screenshot](./_images/HW-php-web-service-17.jpg)
