@@ -14,6 +14,8 @@
 
 [VI. A client app for testing your web service](#client-app)
 
+[VII. Submission](#submission)
+
 <hr><hr>
 
 <a id="overview" />
@@ -212,13 +214,85 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 ### A quick test with an HTML/JS client
 
 - we could write our client in any programming language (C/C#/C++/Java/Kotli/Python/Swift/...), for any device that's connected to the internet (a PC, an iPhone, Android, a smart toaster, etc) ...
-- but we'll just do it in HTML/JS - here's the code:
+- but we'll just do it in HTML/JS - here's the code - it's all completed for you  - you are welcome - don't forget to repalce the placeholder `url` below with your own:
 
 **joke-client.html**
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>View a random joke</title>
+	<script>
+	window.onload = ()=>{
+	
+		jokeBtn.onclick = (e)=>{
+			// 1. Clear UI
+			setup.innerHTML = "Fetching a joke now!";
+			punchline.innerHTML = "";
+			
+			// 2. Create an XHR object to download the web service
+			// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/
+			const xhr = new XMLHttpRequest();
+			const url = "PATH-TO-YOUR-WEB-SERVICE-ON-BANJO/get-random-joke.php";
+			
+			// 3. set `onerror` handler
+			xhr.onerror = (e) => console.log("error");
+			
+			// 4. set `onload` handler
+			xhr.onload = (e) => {
+				const headers = e.target.getAllResponseHeaders();
+				const jsonString = e.target.response;
+				console.log(`headers = ${headers}`);
+				console.log(`jsonString = ${jsonString}`);
+				
+				// update the UI by showing the joke
+				const json = JSON.parse(jsonString);
+				setup.innerHTML = `<b>${json.q}</b>`;
+				punchline.innerHTML = `<i>${json.a}</i>`;
+			}; // end xhr.onload
+			
+			// 5. open the connection using the HTTP GET method
+			xhr.open("GET",url);
+			
+			// 6. we could send request headers here if we wanted to
+			// https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader
+			
+			// 7. finally, send the request
+			xhr.send();
+			
+		}; // end onclick
+		
+	}; // end window.onload
+	
+	</script>
+</head>
+<body>
+	<h1>View a random joke</h1>
+	<button id="jokeBtn">Show me a Joke!</button>
+	<hr>
+	<p id="setup">???</p>
+	<p id="punchline">!!!</p>
+</body>
+</html>
 ```
+
+- This should be review, as we used XHR back in IGME-235 (and you had a project that used it!)
+- If you don't understand anything in this code - ASK!
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-14.jpg)
+
+<a id="submission" />
+
+## VII. Submission
+
+- POST **get-random-joke.php** and **joke-client.html** to your banjo account (they will probably be in the same folder, but they don't have to be!
+- ZIP and POST **get-random-joke.php** to the myCourses dropbox
+- Type the banjo links to **get-random-joke.php** and **joke-client.html** into the comments field of the dropbox
+
 
 
 <hr><hr>
