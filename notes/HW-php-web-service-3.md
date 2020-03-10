@@ -6,7 +6,9 @@
 
 [II. Add some content](#add-some-content)
 
-[III. Get random joke](#get-random-joke)
+[III. Get a random joke](#get-a-random-joke)
+
+[IV. `echo()` a JSON string](#echo-a-json-string)
 
 <hr><hr>
 
@@ -100,9 +102,9 @@
 
 <hr>
 
-<a id="echoing-json" />
+<a id="echo-a-json-string" />
 
-## IV. Echoing a JSON string
+## IV. Echo a JSON string
 
 - Now we are successfully echoing a random joke - but it's just in an unstructured text format
 - Although it is quite possible to code a client app to use this text, web services almost always return data in either the XML or JSON formats
