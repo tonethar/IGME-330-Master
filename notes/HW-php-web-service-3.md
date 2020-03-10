@@ -92,7 +92,7 @@ $randomJoke = ...
 
 - comment out the "debug" `echo()` statements
 - now echo out just a single random joke
-- it should now look like this when you load it in a browser - reload the page multiple times to be sure that you're getting random jokes:
+- it should now look like this when you load it in a browser - reload the page multiple times to be sure that you're getting a single random joke - in regular "plain text":
 
 <hr>
 
