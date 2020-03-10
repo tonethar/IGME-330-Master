@@ -28,7 +28,7 @@
 ## I. Intro to PHP
 
 - [Intro to PHP](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md)
-- This page runs through the basics of PHP, how to create a simple PHP page, and how to view the details of how banjo's install of PHP is configured.
+- This page runs through the basics of PHP, how to create a simple PHP page, and how to view the details of banjo's PHP configuration
 
 ### I-A. Homework
 
