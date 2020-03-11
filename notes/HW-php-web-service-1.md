@@ -142,7 +142,7 @@
    
 <hr>
 
-- BTW - how can you see the HTTP headers that the server sent as we did above?
+- BTW - how can you see the **HTTP headers** that the server sent as we did above?
   - Navigate to the web service's URL like we did above 
   - Open the JavaScript Debugger
   - Select the *Network* tab
