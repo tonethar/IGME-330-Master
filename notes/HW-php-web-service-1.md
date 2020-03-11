@@ -90,14 +90,17 @@
   - https://dog.ceo/api/breeds/image/random/3
   - now the `"message"` key contains an array instead of a string
 - Specifying parameters in this way - as part of the url path - is a "Restful" technique - https://en.wikipedia.org/wiki/Representational_state_transfer
-- Note: When we build our PHP API - we will actually being passing parameters as a [query string](https://en.wikipedia.org/wiki/Query_string) - as can be seen in the next example
-  
+
 <hr>
 
 ![screenshot](./_images/HW-php-web-service-3.jpg)
 
 <hr>
+
+- Note: When we build our PHP API - we will actually being passing parameters as a [query string](https://en.wikipedia.org/wiki/Query_string) - as can be seen in the next example
   
+ <hr>
+ 
  <a id="example3" />
  
  ## IV.  What do web services look like? Example #3
