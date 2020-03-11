@@ -86,7 +86,7 @@
 <hr>
   
 - But one thing that makes this "Random image" endpoint different from the "List All Breeds" endpoint is that we can pass *parameters* into the service and modify the results we get, in this case, we can specify that we want more than one random image.
-- This is done by a number end of the URL - like this:
+- This is done by a number at the end of the URL - like this:
   - https://dog.ceo/api/breeds/image/random/3
   - now the `"message"` key contains an array instead of a string
 - Specifying parameters in this way - as part of the url path - is a "Restful" technique - https://en.wikipedia.org/wiki/Representational_state_transfer
