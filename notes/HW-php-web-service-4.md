@@ -197,7 +197,7 @@ Array
 
 ## V. Discussion
 - So we now have a functioning web service, and a client app to utilize it, well done!
-- But how could we make this "jokes" web service better? Here are some ideas:
+- But how could we make this "jokes" web service better? Here are some ideas (just for discussion, you don't have to do this!):
   - add more jokes
   - right now we have 2 different PHP files (**get-jokes.php** & **get-random-joke.php**) with separate copies of the same hard-coded data. Instead, place the `$jokes` array in a third PHP file and link to it from the other 2 PHP files with PHP's `include()` function
   - give the jokes a `rating` attribute between 0 and 5
@@ -206,7 +206,8 @@ Array
   - allow the client to request random jokes based on these criteria - for example:
     - **get-jokes.php?limit=5&tag=kids&minrating=3**
     - you will need to write this search functionality yourself, obviously. PHP has an `array_filter()` function that would help
-  - get rid of `$jokes` and instead store the jokes data in a [SQLite](https://www.sqlitetutorial.net/sqlite-php/) relational database:
+    - change the minimum number of jokes to be returned in the array to `0` instead of `2`, and use PHP's `define()` to create a `MIN_RESULTS` constant 
+  - get rid of the `$jokes` array and instead store the jokes data in a [SQLite](https://www.sqlitetutorial.net/sqlite-php/) relational database:
     - you could then use SQL ("Structured Query Language") to do your searches with statements like ["SELECT * FROM jokes WHERE id >= 3"](https://www.w3schools.com/sql/sql_where.asp)
     - Fun Fact - Thanks to smart phones, SQLite is the most widely used database engine in the world
   - create an "admin" web page to allow an administrator to Create, Read, Update, and Delete your jokes (the C.R.U.D. operations)
