@@ -195,7 +195,7 @@
 
 ## VII. What's next?
 
-- We have pretty much answered the 6 questions about our web service above
+- We have pretty much answered the 7 questions about our web service above
 - Now we just need to work on coding it - in PHP - so let's move on!
 
 
