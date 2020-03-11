@@ -1,4 +1,4 @@
-# PHP Web Service Part III - Coding <small>`get-random-joke.php`</small>
+# PHP Web Service Part III - Coding `get-random-joke.php`
 
 [Overview](#overview)
 
