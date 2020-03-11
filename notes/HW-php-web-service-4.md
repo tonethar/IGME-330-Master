@@ -137,8 +137,8 @@ Array
   - you should get 5 jokes back
 - try **get-jokes.php?limit=-1**:
   - you should get 2 jokes back
-- try **get-jokes.php?limit=fred%20jones**:
-  - you should get 2 jokes back
+- try **get-jokes.php?limit=fred%20jones&firstname=Scooby**:
+  - you should get 2 jokes back, and the `firstname` parameter is ignored
 - try **get-jokes.php?limit=9999**:
   - you'll see an error message in the browser because the second argument to `array_rand()` can't be more than the length of the array!
     - fix it using PHP's `count()` function to get the length of the array - https://www.php.net/manual/en/function.count.php - and then not allowing `$limit` to be larger than that number
