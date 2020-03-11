@@ -33,7 +33,7 @@
 
 ### I-A. Homework
 
-- Read the [Intro to PHP](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md) oage and try out the examples up on banjo
+- Read the [Intro to PHP](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md) page and try out the examples up on banjo
 - Complete [Intro to PHP - section VII.](https://github.com/tonethar/IGME-230-Master/blob/master/notes/php-1.md#section7) (the "Try This" part), then rename the file to **php-1-HW.php**, and post it to the web with your changes
 - Also post the **info.php** file that you created to your web account. Be sure to verify that it shows you are running PHP 7.
 - ZIP and POST both PHP files (**php-1-HW.php** & **info.php**) to the myCourses dropbox, and put the `people.rit.edu` links to each of them in the comments field.
