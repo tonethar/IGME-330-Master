@@ -109,9 +109,9 @@ Array
 )
 ```
 
-- so to get at the value of limit, we just need to pass it as a key to `$_GET`, with square bracket syntax
+- so to get at the value of `limit`, we just need to pass it as a key to `$_GET`, with square bracket syntax
 - now temporarily add this line of code to the file, and test it in the browser:
-  - `echo($_GET["limit"]); // pass in the 'limit' key, we should see `5` in the window`
+  - `echo($_GET["limit"]); // pass in the 'limit' key, we should see '5' in the window`
   
 ### Using the value of the `limit` parameter
 
@@ -139,10 +139,10 @@ Array
   - you should get 2 jokes back
 - try **get-jokes.php?limit=9999**:
   - you'll see an error message in the browser because the second argument to `array_rand()` can't be more than the length of the array!
-    - fix it using PHP's `count()` function to get the length of the array - https://www.php.net/manual/en/function.count.php
+    - fix it using PHP's `count()` function to get the length of the array - https://www.php.net/manual/en/function.count.php - and then not allowing `$limit` to be larger than that number
     - if you are successful, **get-jokes.php?limit=9999** will instead return ALL of the jokes in the array
-- why did we decide on a minimum of 2 results? It should really be zero:
-  - to keeps things simple  - because the second argument to `array_rand()` can't be less than 2! Fix this issue if you want to
+- BTW - why did we decide on a minimum of 2 results? It should really be zero:
+  - Answer: to keeps things simple  - because the second argument to `array_rand()` can't be less than 2! Fix this issue if you want to
   
 <hr>
 
