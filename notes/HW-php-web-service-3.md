@@ -78,7 +78,7 @@
 
 ## II. Add some content
 
-- Go ahead and add 4 (or more) jokes to the array
+- Go ahead and add 6 (or more) jokes to the array - the *minimum* total is 10 jokes
 - Please keep them SFW - ***Safe For Work!***
 - Preview your web service in Chrome to be sure that you didn't break anything
 
