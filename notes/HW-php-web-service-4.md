@@ -1,4 +1,4 @@
-# PHP Web Service Part IV - Coding get-jokes.php
+# PHP Web Service Part IV - Coding `get-jokes.php`
 
 
 [Overview](#overview)
@@ -21,7 +21,8 @@
 ## Overview
 
 - last time we coded **get-random-joke.php**, which returned a single random joke
-- this time, we'll code **get-jokes.php**, which will return 1 or more random jokes, in an array
+- this time, we'll code **get-jokes.php**, which will return 2 or more random jokes, in an array
+- Here's a "done" version you can check out: http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=5
 
 <hr>
 
