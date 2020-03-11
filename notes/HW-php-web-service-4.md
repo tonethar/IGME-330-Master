@@ -196,7 +196,8 @@ Array
 <a id="discussion" />
 
 ## V. Discussion
-- So we now have a functioning web service, how could we make it better? Here are some ideas:
+- So we now have a functioning web service, and a client app to utilize it, well done!
+- But how could we make it better? Here are some ideas:
   - add more jokes
   - right now we have 2 different PHP files (**get-jokes.php** & **get-random-joke.php**) with separate copies of the same hard-coded data. Instead, place the `$jokes` array in a third PHP file and link to it from the other 2 PHP files with PHP's `include()` function
   - give the jokes a `rating` attribute between 0 and 5
