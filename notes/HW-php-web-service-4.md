@@ -209,7 +209,7 @@ Array
   - get rid of `$jokes` and instead store the jokes data in a [SQLite](https://www.sqlitetutorial.net/sqlite-php/) relational database:
     - you could then use SQL ("Structured Query Language") to do your searches with statements like ["SELECT * FROM jokes WHERE id >= 3"](https://www.w3schools.com/sql/sql_where.asp)
     - Fun Fact - Thanks to smart phones, SQLite is the most widely used database engine in the world
-  - create an "admin" panel to allow an administrator to Create, Read, Update, and Delete your jokes (the C.R.U.D. operations)
+  - create an "admin" web page to allow an administrator to Create, Read, Update, and Delete your jokes (the C.R.U.D. operations)
   - create a form (and another web service) that a user could fill out and use to submit new joke suggestions
   
 
