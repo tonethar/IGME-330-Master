@@ -22,6 +22,8 @@
 
 - last time we coded **get-random-joke.php**, which returned a single random joke
 - this time, we'll code **get-jokes.php**, which will return 2 or more random jokes, in an array
+- remember the **list of seven issues** we needed to consider as we built our web service? --> [HW-php-web-service-1.md#need](./HW-php-web-service-1.md#need)
+  - #5 was *"we need a way for the client app to pass parameters to our web service"* - let's learn how to do that now
 - Here's a "done" version you can check out: http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=5
 
 <hr>
