@@ -11,7 +11,9 @@
 
 [VI. A client app for testing your web service](#client-app)
 
-[V. Submission](#submission)
+[V. Discussion](#discussion)
+
+[VI. Submission](#submission)
 
 
 <hr><hr>
@@ -180,7 +182,7 @@ Array
 ```
 
 - now use the `.value` of this select to change the value of the `limit` parameter you will be sending to **get-jokes.php**
-- fetch and show all of these jokes when the user clicks the button, and be sure to clear out the old results
+- fetch and show all of these jokes when the user clicks the button, and be sure to clear out the old results. Put the jokes in the `#content` &lt;div>
 - when you are done, it will look something like this:
 
 **many-jokes-client.html**
@@ -191,9 +193,30 @@ Array
 
 <hr>
 
+<a id="discussion" />
+
+## V. Discussion
+- So we now have a functioning web service, how could we make it better? Here are some ideas:
+  - add more jokes
+  - right now we have 2 different PHP files (**get-jokes.php** & **get-random-joke.php**) with separate copies of the same hard-coded data. Instead, place the `$jokes` array in a third PHP file and link to it from the other 2 PHP files with PHP's `include()` function
+  - give the jokes a `rating` attribute between 0 and 5
+  - give the jokes a `tags` attribute - this would contain a comma separated list of keywords that describe that joke - for example:
+    - "kids", "corny", "ethnic", "military", "old-age", "teen", "young-adult" and so on
+  - allow the client to request random jokes based on these criteria - for example:
+    - **get-jokes.php?limit=5&tag=kids&minrating=3**
+    - you will need to write this search functionality yourself, obviously. PHP has an `array_filter()` function that would help
+  - get rid of `$jokes` and instead store the jokes data in a [SQLite](https://www.sqlitetutorial.net/sqlite-php/) relational database:
+    - you could then use SQL ("Structured Query Language") to do your searches with statements like ["SELECT * FROM jokes WHERE id >= 3"](https://www.w3schools.com/sql/sql_where.asp)
+    - Fun Fact - Thanks to smart phones, SQLite is the most widely used database engine in the world
+  - create an "admin" panel to allow an administrator to Create, Read, Update, and Delete your jokes (the C.R.U.D. operations)
+  - create a form (and another web service) that a user could fill out and use to submit new joke suggestions
+  
+
+<hr>
+
 <a id="submission" />
 
-## V. Submission
+## VI. Submission
 
 - POST **get-jokes.php** and **many-jokes-client** to your banjo account (they will probably be in the same folder, but they don't have to be!
 - ZIP and POST **get-jokes.php** and **many-jokes-client** to the myCourses dropbox
