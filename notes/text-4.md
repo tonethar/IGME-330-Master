@@ -149,6 +149,14 @@ output.innerHTML = s;
 
 ![screenshot](_images/text-12.png)
 
+<hr>
+
+## IV - Videos
+
+- [Intro to Rita (12:08)](https://video.rit.edu/Watch/rita-js-1-intro)
+- [Getting parts-of-speech (06:39)](https://video.rit.edu/Watch/rita-js-2-getting-parts-of-speech)
+- [Proper noun replacer (07:57)](https://video.rit.edu/Watch/rita-js-3-proper-noun-replacer)
+
 <hr><hr>
 
 **[Previous Chapter <-  Simple Text Analysis (Part III)](text-3.md)**
