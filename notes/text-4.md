@@ -153,9 +153,9 @@ output.innerHTML = s;
 
 ## IV - Videos
 
-- [Intro to Rita (12:08)](https://video.rit.edu/Watch/rita-js-1-intro)
-- [Getting parts-of-speech (06:39)](https://video.rit.edu/Watch/rita-js-2-getting-parts-of-speech)
-- [Proper noun replacer (07:57)](https://video.rit.edu/Watch/rita-js-3-proper-noun-replacer)
+- [Rita-1: Intro to Rita (12:08)](https://video.rit.edu/Watch/rita-js-1-intro)
+- [Rita-2: Getting parts-of-speech (06:39)](https://video.rit.edu/Watch/rita-js-2-getting-parts-of-speech)
+- [Rita-3: Proper noun replacer (07:57)](https://video.rit.edu/Watch/rita-js-3-proper-noun-replacer)
 
 <hr><hr>
 
