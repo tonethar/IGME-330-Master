@@ -106,6 +106,71 @@ function doInput(){
 </html>
 ```
 
+### IV-D. Done Code
+
+**diastic-machine-done.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Diastic Machine</title>
+	<style>
+		body{font-family:sans-serif;}
+	</style>
+</head>
+<body>
+<h1>Diastic Machine</h1>
+<p>Procedural poetry generation that uses a seed word or phrase, and a source text to produce poetry. Read about the technique here: <a href="http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low">http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low</a> (look near bottom of page)</p>
+<section>
+	<p>Seed: <input id="seed" type="text" size="50" maxlength="50" autofocus value="tony andy noah" /></p>
+
+	<p><textarea cols="40" rows="7">DURING the whole of a dull, dark, and soundless day in the autumn of the year, when the clouds hung oppressively low in the heavens, I had been passing alone, on horseback, through a singularly dreary tract of country; and at length found myself, as the shades of the evening drew on, within view of the melancholy House of Usher. I know not how it was --but, with the first glimpse of the building, a sense of insufferable gloom pervaded my spirit. I say insufferable; for the feeling was unrelieved by any of that half-pleasurable, because poetic, sentiment, with which the mind usually receives even the sternest natural images of the desolate or terrible. I looked upon the scene before me --upon the mere house, and the simple landscape features of the domain --upon the bleak walls --upon the vacant eye-like windows --upon a few rank sedges --and upon a few white trunks of decayed trees --with an utter depression of soul which I can compare to no earthly sensation more properly than to the after-dream of the reveller upon opium --the bitter lapse into everyday life --the hideous dropping off of the veil. There was an iciness, a sinking, a sickening of the heart --an unredeemed dreariness of thought which no goading of the imagination could torture into aught of the sublime. What was it --I paused to think --what was it that so unnerved me in the contemplation of the House of Usher? It was a mystery all insoluble; nor could I grapple with the shadowy fancies that crowded upon me as I pondered. I was forced to fall back upon the unsatisfactory conclusion, that while, beyond doubt, there are combinations of very simple natural objects which have the power of thus affecting us, still the analysis of this power lies among considerations beyond our depth. It was possible, I reflected, that a mere different arrangement of the particulars of the scene, of the details of the picture, would be sufficient to modify, or perhaps to annihilate its capacity for sorrowful impression; and, acting upon this idea, I reined my horse to the precipitous brink of a black and lurid tarn that lay in unruffled lustre by the dwelling, and gazed down --but with a shudder even more thrilling than before --upon the remodelled and inverted images of the gray sedge, and the ghastly tree-stems, and the vacant and eye-like windows.From that chamber, and from that mansion, I fled aghast. The storm was still abroad in all its wrath as I found myself crossing the old causeway. Suddenly there shot along the path a wild light, and I turned to see whence a gleam so unusual could have issued; for the vast house and its shadows were alone behind me. The radiance was that of the full, setting, and blood-red moon which now shone vividly through that once barely-discernible fissure of which I have before spoken as extending from the roof of the building, in a zig-zag direction, to the base. While I gazed, this fissure rapidly widened --there came a fierce breath of the whirlwind --the entire orb of the satellite burst at once upon my sight --my brain reeled as I saw the mighty walls rushing asunder --there was a long tumultuous shouting sound like the voice of a thousand waters --and the deep and dank tarn at my feet closed sullenly and silently over the fragments of the "HOUSE OF USHER."</textarea></p>
+	<p id="output"></p>
+</section>
+<script>
+let seed = document.querySelector("#seed");
+let input = document.querySelector("textarea");
+let output = document.querySelector("#output");
+
+seed.oninput = doInput; 
+input.oninput = doInput;
+input.dispatchEvent(new Event("input")); // calls doInput() when the page first loads
+
+function doInput(){
+	// the `seedText` comes out of the <input>
+	let seedText = seed.value.trim().toLowerCase();
+	seedText = seedText.replace(/\s/g,''); // get rid of white space
+	
+	// the `words` array comes out of the <textarea>
+	let text = input.value.trim().toLowerCase();
+	let regex = /[\s,.!?]+/g;
+	let words = text.split(regex); // split on spaces OR commas OR periods etc
+	
+	let outputText = "";
+	let currentWordIndex = 0;
+	const maxWordLength = 8;
+	// Do Diastic stuff below
+	for(let i=0;i<seedText.length;i++){
+		let c = seedText.charAt(i);
+		for(let j=currentWordIndex; j< words.length; j++){
+			if (words[j].toLowerCase().charAt(i%maxWordLength) == c){
+				outputText += words[j] + " ";
+				currentWordIndex = j + 1;
+				break;
+			}
+		}
+	}
+	//
+	output.innerHTML = outputText; 
+}
+
+
+</script>
+</body>
+</html>
+```
 
 <hr><hr>
 
