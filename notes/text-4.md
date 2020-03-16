@@ -121,7 +121,9 @@ output.innerHTML = s;
   - use `RiString()` and `.words()` like we did in the console demo
   - the "similarBy" methods return an array - you need to pull out a random element of that array
   - you don't need the `POS` object anymore ...
-- Give it a try - see below for an example:
+- Give it a try - see below for examples:
+
+<hr>
 
 ![screenshot](_images/text-13.5.png)
 
