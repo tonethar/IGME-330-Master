@@ -123,6 +123,8 @@ output.innerHTML = s;
   - you don't need the `POS` object anymore ...
 - Give it a try - see below for an example:
 
+![screenshot](_images/text-13.5.png)
+
 ![screenshot](_images/text-13.png)
 
 <hr>
