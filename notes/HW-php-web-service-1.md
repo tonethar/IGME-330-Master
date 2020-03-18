@@ -39,11 +39,11 @@
     - Here we will specify a very large number for `limit`, but will instead get all of the jokes back:
       - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=9999
       
-    - \*\**Is your JSON not formatted as nicely as mine? Go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension*\*\*
+    - ***Is your JSON not formatted as nicely as mine? Go download the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US) Chrome extension***
     
     
     - Finally, here is a client application that uses XHR to download from the **get-random-joke.php** service everytime the user clicks the button:
-      - 
+      - dsd
     
     
   - More specifically, in this class:
