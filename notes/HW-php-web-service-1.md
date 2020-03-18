@@ -29,7 +29,7 @@
   
 ### What's a web service, again?
   - The beginning of Wikipedia's [web service](https://en.wikipedia.org/wiki/Web_service) entry is very general and states that a web service is "a service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web"
-  - Web services can be a part of applications build around the [Client-server](https://en.wikipedia.org/wiki/Client–server_model) model, where a *server* provides a service (specialized data) to multiple *clients*
+  - Web services can be a part of applications built around the [Client-server](https://en.wikipedia.org/wiki/Client–server_model) model, where a *server* provides a service (specialized data) to multiple *clients*
   - Here's what we'll be building by the end of this series - in PHP - and although the theme is somewhat silly, it has the foundational capabilities you see in all web services:
     - This returns a random joke:
       - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-random-joke.php
