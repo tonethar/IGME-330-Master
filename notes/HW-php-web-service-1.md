@@ -29,6 +29,19 @@
   
 ### What's a web service, again?
   - The beginning of Wikipedia's [web service](https://en.wikipedia.org/wiki/Web_service) entry is very general and states that a web service is "a service offered by an electronic device to another electronic device, communicating with each other via the World Wide Web"
+  - Here's what we'll be building by the end of this series - in PHP - and although the theme is somewhat silly, it has the foundational capabilities you see in all web services:
+    - This returns a random joke:
+      - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-random-joke.php
+    - This returns an array of random jokes - it we don't specify how many we want we always get 2:
+      - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php
+    - Here we will specify that we want an array of 5 jokes by using the `limit` parameter:
+      - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=5
+    - Here we will specify a very large number for `limit`, but will instead get all of the jokes back:
+      - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=9999
+    - Finally, here is a client application that uses XHR to download from the **get-random-joke.php** service everytime the user clicks the button:
+      - 
+    
+    
   - More specifically, in this class:
     - the service we will build and use in this class will return data in the [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (**J**ava**S**cript **O**bject **N**otation) format 
     - the service will be a simple *read-only* web service that will return data, but cannot be written to or updated by the user of the service
