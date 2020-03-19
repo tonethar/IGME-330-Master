@@ -36,7 +36,7 @@
 
 - make a copy of **get-random-joke.php** from last time, and name it **get-jokes.php**
 - modify the code to return the entire `$jokes` array instead of a single random joke:
-  - you will have to change just one like of code
+  - you will have to change just one line of code
   - when you are done, **get-jokes.php** gives you these results in a web browser:
   
 <hr>
