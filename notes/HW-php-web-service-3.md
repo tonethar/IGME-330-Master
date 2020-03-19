@@ -32,7 +32,7 @@
 ## I. Get Started
 
 - Here is your start file - go ahead and get this posted to banjo
-- Open it up in your web browser, and be sure that you get similar outpout as the screenshot below before you continue
+- Open it up in your web browser, and be sure that you get similar output as the screenshot below before you continue
 
 **get-random-joke.php**
 
