@@ -6,7 +6,7 @@
 
 ## II. Requirements
 
-- Use the canvas API and state properties and methods such as `.fillText()`, `.fillStyle`, `.font`, `textAlign` and `textBaseline`
+- Use the canvas API and state properties and methods such as [`.fillText()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText), `.fillStyle`, `.font`, `textAlign` and `textBaseline`
 - Limit the number of words that you draw in the cloud to something manageable - say between 10 and 25
 - More frequent words appear larger than smaller words
 - Be sure to specify a minimum font size of the words you draw
