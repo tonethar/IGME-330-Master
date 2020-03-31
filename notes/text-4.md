@@ -144,6 +144,11 @@ output.innerHTML = s;
 - Hints: 
   - utilize the PENN part of speech tags from the page linked above
   - use [`RiTa.randomWord(pos)`](https://rednoise.org/rita/reference/RiTa/RiTa.randomWord/index.php) to get a random word of a particular part-of-speech
+  - note that `randomWord('nnp')` always returns "chevrolet", because the RiTa.js dictionary doesn't have many proper nouns (neither singular or plural) - what to do about this? We'll leave it up to you - choose one of the following:
+    - don't replace proper nouns 
+    - replace proper nouns with a random word of any part-of-speech
+    - replace proper nouns with a random regular (i.e. "common") noun
+    - replace proper nouns with one of the "similarBy" methods
   - after you get it working, you might want to use regular expressions to simplify your code (when dealing with similar POS tags)
   - alternatively, another approach might be to use [`array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) (think about it)
 - Here is a screen shot of an example:
