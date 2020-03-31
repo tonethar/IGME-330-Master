@@ -143,8 +143,9 @@ output.innerHTML = s;
   - replace all verbs (there are 6 tags), with a random verb of the same type
 - Hints: 
   - utilize the PENN part of speech tags from the page linked above
+  - use [`RiTa.randomWord(pos)`](https://rednoise.org/rita/reference/RiTa/RiTa.randomWord/index.php) to get a random word of a particular part-of-speech
   - after you get it working, you might want to use regular expressions to simplify your code (when dealing with similar POS tags)
-  - alternatively, another approach might be to use `array.includes()` (think about it)
+  - alternatively, another approach might be to use [`array.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) (think about it)
 - Here is a screen shot of an example:
 
 ![screenshot](_images/text-11.png)
