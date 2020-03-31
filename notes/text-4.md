@@ -22,7 +22,7 @@
 - name the file **rita-1.html**
 - delete the `input.onchange = doChange;` line of JS, and the `doChange()` event handler (we don't need them)
 - Now you need to import the RiTa.js library. There is a CDN for RiTa.ja here - look for the **rita-full.js** file here: https://cdnjs.com/libraries/rita - grab the URL and add a &lt;script> tag to the &lt;head> section of your start file
-- Now open up the console - you should see the current version of RiTa logged out - someting like `[INFO] RiTaJS.version [1.3.89]`
+- Now open up the console - you should see the current version of RiTa logged out - something like `[INFO] RiTaJS.version [1.3.89]`
 
 ### II-B. The RiTa.js library
 
