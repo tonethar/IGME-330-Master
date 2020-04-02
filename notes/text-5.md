@@ -149,7 +149,7 @@ function doClick(){
 - Note that the poster has a list of nouns ("coast", "foreshore", "bracks", "shore", ...) and adjectives ("forgotten", "bitter", "trackless", "cursed", ...) we can use (thanks for doing the research!)
 - Use **rita-4.html** as a starting point:
   - name the file **ill-favored-coast.html**
-  - encode your grammar in a JSON object
+  - encode your grammar in a JSON object - like `darkGrammar` above
   - use a least 10 nouns and 10 adjectives
   - utilize a loop so that user can see 10 random names everytime they click the button
   - see example below:
