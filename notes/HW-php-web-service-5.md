@@ -15,6 +15,7 @@
 -  *a proxy server is a server application or appliance that acts as an intermediary for requests from clients seeking resources from servers that provide those resources* - https://en.wikipedia.org/wiki/Proxy_server#Web_proxy_servers
 - Below we will learn how to create such a server and have PHP fetch a web service that the browser (i.e the XHR object) is unable to directly access/ THis could happen for the follwoing reasons:
   - the web service does not have [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) enabled ("cross origin resource sharing") - which means that the browser will not allow the client-side XHR or [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) objects to download data from that service
+    - recall that if a web service wants to "turn CORS on" it needs to send this header `Access-Control-Allow-Origin: *`
   - the web service is only available via `http` (rather than `https` - the "s" stands for *secure*), which means our banjo.rit.edu server will not our app to use that service
 - You might be wondering - how common is it for web services to have CORS turned off?
   - one popular API - [Yelp](https://www.yelp.com/developers/documentation/v3/get_started) - has CORS turned off, and requires developers to send their API key as an HTTP header, which means you have to use a server-side script of some kind to accomplish this.
@@ -71,6 +72,13 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 - as you can see, we pass in a string, and we get back a JSON object with an "OUTPUT" string that has converted the "INPUT" string to ALL CAPS
 - yeah that's all it does
+
+4) So let's try this service out in **shout-client.html** by changing the value of the `url` variable to `HTTP://API.SHOUTCLOUD.IO/V1/SHOUT`
+
+5)This is what we'kk get back in the console:
+
+  - `Access to XMLHttpRequest at 'http://api.shoutcloud.io/V1/SHOUT' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
+  - so yeah, CORS isn't turned on. If we go back and look at the header in the Postman app example above, we'll see that `Access-Control-Allow-Origin: *` is not present
 
 <hr><hr>
 
