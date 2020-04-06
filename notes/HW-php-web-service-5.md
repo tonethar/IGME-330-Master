@@ -35,9 +35,9 @@
 
 2) Now utilize the `http://www.boredapi.com/api/activity` web service to download a random activity for bored people. Go ahead and open that URL up in a web browser to see what the JSON looks like. Here are the app requirements: 
 
-  - when the user clicks the button, a random activity will be downloaded
-  - the value of the "activity", "type", and "price" keys will be displayed to the user
-  - when the user clicks the button, the old activity will be removed and a new one will be shown
+    - when the user clicks the button, a random activity will be downloaded
+    - the value of the "activity", "type", and "price" keys will be displayed to the user
+    - when the user clicks the button, the old activity will be removed and a new one will be shown
   
 3) The final result will look something like this:
 
