@@ -55,7 +55,7 @@ To see if you already have node and npm installed on your computer, type the fol
  
 ### B) Test that node and npm are installed
  
- - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt to verify that npm is installed by typing:
+ - When **Node.js** is installed, it also installs **npm** (*Node Package Manager*). Head to the command prompt (On a Mac us the *Terminal* application, on PC use *Powershell* or *GitBash*) to verify that npm is installed by typing:
  
    ```js
    node -v
