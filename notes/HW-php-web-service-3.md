@@ -287,7 +287,7 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 
 <hr>
 
-We can inspect the file that XHR returned to the browser:
+**We can also inspect the file that XHR returned to the browser:**
 
 ![screenshot](./_images/HW-php-web-service-18.jpg)
 
