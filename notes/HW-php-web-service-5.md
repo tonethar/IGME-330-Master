@@ -109,6 +109,21 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
   echo $string;
 ?>
 ```
+ - Normally, this code would work fine because PHP's [`file_get_contents()`](https://www.php.net/manual/en/function.file-get-contents.php) defaults to using the `GET` method when contacting a web server, which is what most web services use
+ - However, SHOUTCLOUD's API expects the client to use POST method, which is different:
+   - parameters are sent in the *query string* when using GET, but are sent in a *separate file* when using POST
+   - here is a brief explanation of HTTP methods --> https://www.w3schools.com/tags/ref_httpmethods.asp
+   
+2) This fails with the following message!
+
+`Warning: file_get_contents(HTTP://API.SHOUTCLOUD.IO/V1/SHOUT): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found in shout-proxy.php on line 3`
+
+3) Here is our fix, note that we have to do a little more work to configure `file_get_contents()`:
+
+```php
+
+```
+
 
 <hr><hr>
 
