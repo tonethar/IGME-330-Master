@@ -47,7 +47,7 @@
 
 <hr>
 
-4) When you are done, ZIP **bored-client.html** and POST it to the myCourses dropbox
+4) When you are done, ZIP up **bored-client.html** and POST it to the myCourses dropbox
 
 <hr>
 
