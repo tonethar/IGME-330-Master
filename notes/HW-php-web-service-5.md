@@ -5,6 +5,15 @@
 
 [I. Get Started](#get-started)
 
+[II. Introducing SHOUTCLOUD](#intro-shoutcloud)
+
+[III. Creating *shout-proxy.php*](#shout-proxy)
+
+[IV. Test *shout-proxy.php*](#test-it)
+
+[V. Submission](#submission)
+
+
 <hr><hr>
 
 <a id="overview" />
@@ -95,6 +104,10 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
   
 6) So we need to create a PHP proxy server - let's move on ...
 
+<hr>
+
+<a id="shout-proxy" />
+
 ## III. Creating *shout-proxy.php*
 
 1) Here's our first attempt - you are going to have to post this up on banjo:
@@ -173,10 +186,16 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 }
 ```
 
-5) Now you need to verify that **shout-proxy.php** will work in concert with **shout-client.html**
+<hr>
 
-- In **shout-client.html**, go ahead and change the value of the `url` variable to point at **shout-proxy.php** up on banjo
-- Test it. Although we haven't updated the interface to use the SHOUTIFY data, the console will still show us whether we have bee successful or not
+<a id="test-it" />
+
+## IV. Test *shout-proxy.php*
+
+1) Now you need to verify that **shout-proxy.php** will work in concert with **shout-client.html**
+
+    - In **shout-client.html**, go ahead and change the value of the `url` variable to point at **shout-proxy.php** up on banjo
+    - Test it. Although we haven't updated the interface to use the SHOUTIFY data, the console will still show us whether we have been successful or not.
 
 <hr>
 
@@ -184,6 +203,25 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 <hr>
 
+2) So now we have a functioning proxy server (**shout-proxy.php**) and a client application (**shout-client.html**) that is able to use it. The client was unable to downlaod the web service directly, but the PHP running on the server was - problem solved! See below for submission instructions and extra credit opportunities
+
+
+<hr>
+
+<a id="submission" />
+
+## V. Submission
+
+1) As was mentioned before, you need to ZIP **bored-client.html**  and POST it to the myCourses dropbox
+
+2) ZIP up **shout-proxy.php** and post it to myCourses. Put the "people" url where it is located in the comments fild of the dropbox
+
+3) **Optional Extra credit opportunity (worth 1 HW assignment)**
+
+    - The hard-coded `$text` variable is pretty lame. Rename **shout-proxy.php** to **shout-proxy-improved.php** and modify it accept a `text` parameter so that the user of the service can pass in a string of text that will get shoutified. Be sure to do some error checking and use a default value if nothing is passed in
+    - Add a text field to **shout-client.html** so that the user can type in a value to be shoutified, and modify the JS so that this value is sent to **shout-proxy-improved.php**
+    - Take a look at the GIF Finder HW from 230/235 - which is linked from here - [HW - Improved Gif Finder](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-improved-gif-finder.md) - for a reminder on how to grab user input from a form field - and don't forget to use [`encodeURIComponent`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) to handle the issue with spaces
+    - ZIP up **shout-proxy-improved.php** and **shout-client.html** and post them to mycourses. Give us the urls in the comments field of the dropbox as usual so that we can test them
 
 <hr><hr>
 
