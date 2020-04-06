@@ -84,7 +84,7 @@
 
 <hr>
 
-<a id="get-random-joke" />
+<a id="#get-a-random-joke" />
 
 ## III. Get random joke
 
