@@ -26,7 +26,7 @@
 
 - First, let's practice getting a web app working with simple web service that doesn't require a proxy server. We'll let you try this on your own
 
-1) Grab the **joke-client.html** code from the bottom of [](./HW-php-web-service-3.md) and out it in a file named **XXXX.html**
+1) Grab the **joke-client.html** code from the bottom of [PHP Web Service Part III - Coding get-random-joke.php](./HW-php-web-service-3.md#client-app) and out it in a file named **XXXX.html**
 
 2) Utilize the XXX web service to download 
 
