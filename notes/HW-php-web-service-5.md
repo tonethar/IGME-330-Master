@@ -90,8 +90,8 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 5) This is what we'll get back in the console:
 
-  - `Access to XMLHttpRequest at 'http://api.shoutcloud.io/V1/SHOUT' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
-  - so yeah, CORS isn't turned on. If we go back and look at the header in the Postman app example above, we'll see that `Access-Control-Allow-Origin: *` is not present
+    - `Access to XMLHttpRequest at 'http://api.shoutcloud.io/V1/SHOUT' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
+    - so yeah, CORS isn't turned on. If we go back and look at the header in the Postman app example above, we'll see that `Access-Control-Allow-Origin: *` is not present
   
 6) So we need to create a PHP proxy server - let's move on ...
 
