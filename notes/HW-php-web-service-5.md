@@ -109,6 +109,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
   echo $string;
 ?>
 ```
+
  - Normally, this code would work fine because PHP's [`file_get_contents()`](https://www.php.net/manual/en/function.file-get-contents.php) defaults to using the `GET` method when contacting a web server, which is what most web services use
  - However, SHOUTCLOUD's API expects the client to use POST method, which is different:
    - parameters are sent in the *query string* when using GET, but are sent in a *separate file* when using POST
@@ -120,11 +121,69 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 3) Here is our fix, note that we have to do a little more work to configure `file_get_contents()`:
 
-```php
+**shout-proxy.php**
 
+```php
+<?php
+	// 1) The URL to the web service
+	$URL = "HTTP://API.SHOUTCLOUD.IO/V1/SHOUT";
+
+	// 2) The text we'll be "SHOUTIFYING"
+	// this is hard-coded for now, but we'll pass it in as a query string parameter soon
+	$text = "IGME-330 sure is a cool class!"; 
+
+	// 3) The name of the parameter shoutify expects is "INPUT"
+	$params = ["INPUT" => $text];
+
+	// 4) Convert it to JSON, becasue Shoutify wants data passed to it as JSON
+	$jsonToSend = json_encode($params);
+
+	// 5) The `stream_context_create()` function is where we can specify the POST method
+	// https://www.php.net/manual/en/context.http.php
+
+	$opts = array('http' =>
+			array(
+					'method'  => 'POST',
+					'header'  => 'Content-Type: application/json',
+					'content' => $jsonToSend
+			)
+	);
+	$context = stream_context_create($opts);
+
+
+	// 6) Call the web service
+	$result = file_get_contents($URL, false, $context);
+
+	// 7) Echo results 
+	header('content-type:application/json'); // tell the requestor that this is JSON
+	header("Access-Control-Allow-Origin: *"); // turn on CORS for that shout-client.html can use this service
+	echo $result;
+?>
 ```
 
-- the code was adapted from here: https://www.php.net/manual/en/context.http.php
+4) Test this in the browser, you should see that **shout-proxy.php** has successfully downloaded the JSON data, and has returned it to the browser. It should look something like this:
+
+```json
+// 20200406115632
+// https://people.rit.edu/acjvks/330/spring-2020/php/proxy-example/shout-proxy.php
+
+{
+  "INPUT": "IGME-330 sure is a cool class!",
+  "OUTPUT": "IGME-330 SURE IS A COOL CLASS!"
+}
+```
+
+5) Now you need to verify that **shout-proxy.php** will work in concert with **shout-client.html**
+
+- In **shout-client.html**, go ahead and change the value of the `url` variable to point at **shout-proxy.php** up on banjo
+- Test it. Although we haven't updated the interface to use the SHOUTIFY data, the console will still show us whether we have bee successful or not
+
+<hr>
+
+![screenshot](./_images/HW-php-web-service-21.jpg)
+
+<hr>
+
 
 <hr><hr>
 
