@@ -105,7 +105,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 ```php
 <?php
   $url = "HTTP://API.SHOUTCLOUD.IO/V1/SHOUT";
-  $string = file_get_contents($url)
+  $string = file_get_contents($url);
   echo $string;
 ?>
 ```
