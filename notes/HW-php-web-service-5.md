@@ -67,7 +67,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 - **and the Postman application:**
 
-![screenshot](./_images/HW-php-web-service-19.jpg)
+![screenshot](./_images/HW-php-web-service-20.jpg)
 
 - as you can see, we pass in a string, and we get back a string that has been converted to ALL CAPS, yeah that's all it does
 
