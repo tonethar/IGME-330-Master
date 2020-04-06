@@ -214,7 +214,7 @@ header("X-this-330-service-is-kinda-lame: true");   // a custom header - by conv
 ### A quick test with an HTML/JS client
 
 - we could write our client in any programming language (C/C#/C++/Java/Kotli/Python/Swift/...), for any device that's connected to the internet (a PC, an iPhone, Android, a smart toaster, etc) ...
-- but we'll just do it in HTML/JS - here's the code - it's all completed for you  - you are welcome - don't forget to repalce the placeholder `url` below with your own:
+- but we'll just do it in HTML/JS - here's the code - it's all completed for you  - you are welcome - don't forget to replace the placeholder `url` below with your own:
 
 **joke-client.html**
 
