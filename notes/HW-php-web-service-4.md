@@ -208,7 +208,7 @@ Array
     - you will need to write this search functionality yourself, obviously. PHP has an `array_filter()` function that would help
     - change the minimum number of jokes to be returned in the array to `0` instead of `2`, and use PHP's `define()` to create a `MIN_RESULTS` constant 
   - get rid of the `$jokes` array and instead store the jokes data in a [SQLite](https://www.sqlitetutorial.net/sqlite-php/) relational database:
-    - you could then use SQL ("Structured Query Language") to do your searches with statements like ["SELECT * FROM jokes WHERE id >= 3"](https://www.w3schools.com/sql/sql_where.asp)
+    - you could then use SQL ("Structured Query Language") to do your searches with statements like ["SELECT * FROM jokes WHERE minrating >= 3"](https://www.w3schools.com/sql/sql_where.asp)
     - Fun Fact - Thanks to smart phones, SQLite is the most widely used database engine in the world
   - create an "admin" web page to allow an administrator to Create, Read, Update, and Delete your jokes (the C.R.U.D. operations)
   - create a form (and another web service) that a user could fill out and use to submit new joke suggestions
