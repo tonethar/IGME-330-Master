@@ -83,6 +83,8 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 - as you can see, we pass in a string, and we get back a JSON object with an "OUTPUT" string that has converted the "INPUT" string to ALL CAPS (yeah that's all it does...)
 
+<hr>
+
 4) So let's try this service out in **shout-client.html** by changing the value of the `url` variable to `HTTP://API.SHOUTCLOUD.IO/V1/SHOUT` - and then click the button
 
 5)This is what we'll get back in the console:
