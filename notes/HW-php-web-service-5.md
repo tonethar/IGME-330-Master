@@ -22,7 +22,7 @@
 
 <a id="get-started" />
 
-## I. Get Started
+## I. Get Started - a little XHR review
 
 - First, let's practice getting a web app working with simple web service that doesn't require a proxy server. We'll let you try this on your own
 
