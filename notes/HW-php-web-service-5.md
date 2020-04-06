@@ -88,7 +88,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 4) So let's try this service out in **shout-client.html** by changing the value of the `url` variable to `HTTP://API.SHOUTCLOUD.IO/V1/SHOUT` - and then clicking the button which calls the service
 
-5)This is what we'll get back in the console:
+5) This is what we'll get back in the console:
 
   - `Access to XMLHttpRequest at 'http://api.shoutcloud.io/V1/SHOUT' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
   - so yeah, CORS isn't turned on. If we go back and look at the header in the Postman app example above, we'll see that `Access-Control-Allow-Origin: *` is not present
