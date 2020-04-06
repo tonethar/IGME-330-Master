@@ -41,13 +41,17 @@
   
 3) The final result will look something like this:
 
+<hr>
+
 ![screenshot](./_images/HW-php-web-service-19.jpg)
+
+<hr>
 
 4) When you are done, ZIP **bored-client.html** and POST it to the myCourses dropbox
 
 <hr>
 
-## II. A service that XHR can't download
+## II. SHOUTCLOUD - a "service" that XHR can't download
 
 1) Now make another copy of **joke-client.html** and name it **shout-client.html**
 
@@ -69,14 +73,17 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 - **and the [Postman](https://www.postman.com) application:**
 
+<hr>
+
 ![screenshot](./_images/HW-php-web-service-20.jpg)
 
-- as you can see, we pass in a string, and we get back a JSON object with an "OUTPUT" string that has converted the "INPUT" string to ALL CAPS
-- yeah that's all it does
+<hr>
+
+- as you can see, we pass in a string, and we get back a JSON object with an "OUTPUT" string that has converted the "INPUT" string to ALL CAPS (yeah that's all it does...)
 
 4) So let's try this service out in **shout-client.html** by changing the value of the `url` variable to `HTTP://API.SHOUTCLOUD.IO/V1/SHOUT`
 
-5)This is what we'kk get back in the console:
+5)This is what we'll get back in the console:
 
   - `Access to XMLHttpRequest at 'http://api.shoutcloud.io/V1/SHOUT' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
   - so yeah, CORS isn't turned on. If we go back and look at the header in the Postman app example above, we'll see that `Access-Control-Allow-Origin: *` is not present
