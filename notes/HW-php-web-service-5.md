@@ -51,13 +51,15 @@
 
 <hr>
 
-## II. SHOUTCLOUD - a "service" that XHR can't download
+<a id="intro-shoutcloud" />
+
+## II. Introducing SHOUTCLOUD - a "service" that XHR can't download
 
 1) Now make another copy of **joke-client.html** and name it **shout-client.html**
 
 2) We are going to be using this web service - http://shoutcloud.io - which doesn't do anything for us we couldn't just write one line of JavaScript to do. But it's a great example for us here because it's designed to be hard to access:
-  - it doesn't have CORS turned on
-  - requires us to use the HTTP POST method
+    - it doesn't have CORS turned on
+    - it requires us to use the [HTTP POST method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
   
 3) Let's test the service to see what it can do. Because it requires the POST method, if we try it in the browser's location box we get this:
 
