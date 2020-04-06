@@ -113,7 +113,7 @@
 ## IV. Echo a JSON string
 
 - Now we are successfully echoing a random joke - but it's just in an unstructured text format
-- Although it is quite possible to code a client app to use this text, web services almost always return data in either the XML or JSON formats
+- Although it is quite possible to code a client app to use *plain text*, web services almost always return data in either the XML or JSON formats
 - **get-random-joke.php** is going to return the data in JSON format
 - do you remember or know about `JSON.stringify()` in JavaScript? It turns any *object* - like an object literal or an array (because in JavaScript, arrays *are* objects) - into a string of JSON
 - PHP has similar method called `json_encode()` - which turns PHP associative arrays (which is what `$jokes` and `$randomJoke` are) into a string of JSON
