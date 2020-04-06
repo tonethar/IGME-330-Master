@@ -88,7 +88,7 @@
 
 ## III. Get random joke
 
-- Use PHP's [`array_rand()`](https://www.php.net/manual/en/function.array-rand.php) to pull a random joke out of the array
+- Use PHP's [`array_rand()`](https://www.php.net/manual/en/function.array-rand.php) function to pull a random joke out of the array
 
 ```php
   // get a random element of the $jokes array
