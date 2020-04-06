@@ -124,6 +124,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 ```
 
+- the code was adapted from here: https://www.php.net/manual/en/context.http.php
 
 <hr><hr>
 
