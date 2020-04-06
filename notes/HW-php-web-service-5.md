@@ -212,9 +212,9 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 ## V. Submission
 
-1) As was mentioned before, you need to ZIP **bored-client.html**  and POST it to the myCourses dropbox
+1) As was mentioned earlier, you need to ZIP up **bored-client.html**  and POST it to the myCourses dropbox
 
-2) ZIP up **shout-proxy.php** and post it to myCourses. Put the "people" url where it is located in the comments fild of the dropbox
+2) Also ZIP up **shout-proxy.php** and post it to myCourses. Put the url where it is located on banjo in the comments field of the dropbox so that we can test it
 
 3) **Optional Extra credit opportunity (worth 1 HW assignment)**
 
