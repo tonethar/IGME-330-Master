@@ -89,46 +89,6 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 
 
-<!--
-
-4) Head back to the landing page
-    - Now navigate to [Display a popup on click](https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/)
-    - Try out the completed version of this map by clicking on the various symbols and viewing the popups
-    - Look at the code starting at:
-    
-    ```js
-    map.addSource('places', {
-      'type': 'geojson',
-      'data': {
-        ...
-      }
-    ```
-    
-    - the `data` property here points at a GeoJSON object, which is the primary format that Mapbox expects location i.e. "Point of Interest" data to be encoded in:
-      - https://geojson.org
-      - http://geojson.io/ - a GeoJSON "builder" - one thing you can do is to drop markers on the map and this will write the GeoJSON for you 
-    - note the `features` array - this holds an array of object literals 
-
-
-## III. RIT Coffee Map
-
-- Here is a marker icon you will need (right-click to download) --> <img src="_images/coffee-icon.png" height="50" width="50" >
-- To get started on the RIT coffee map, we just have to slightly modify the above tutorial - here's a screenshot of the code, and the final result (with 3 coffee shops showing)
-
-**rit-coffee-mapbox.html**
-
-![screenshot](./_images/mapbox-3.png)
-
-![screenshot](./_images/mapbox-4.png)
-
-![screenshot](./_images/mapbox-5.png)
-
-Screenshot of **rit-coffee-mapbox.html**:
-
-![screenshot](./_images/mapbox-6.png)
-
--->
-
 
 
 
