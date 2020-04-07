@@ -32,7 +32,7 @@
 <body>
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-	mapboxgl.accessToken = 'ACCESS-TOKEN-GOES-HERE';
+	mapboxgl.accessToken = 'ACCESS-TOKEN-GOES-HERE-GO-GET-YOUR-OWN!';
 	var map = new mapboxgl.Map({
 	container: 'map',
 	style: 'mapbox://styles/mapbox/streets-v11'
@@ -45,7 +45,7 @@
 
 <hr>
 
-## II. Test it
+## I-A. Test it
 
 Screenshot of **mapbox-start.html**:
 
@@ -54,7 +54,7 @@ Screenshot of **mapbox-start.html**:
 
 <hr>
 
-## I-A. Some things to try
+## I-B. Some things to try
 
 - Change the map's `style` - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
   - `light-v10` OR
