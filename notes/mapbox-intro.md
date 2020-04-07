@@ -74,6 +74,22 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
       - `outdoors-v11` OR
       - `satellite-v9`
     - You can also write code to change the style like this: `map.setStyle('mapbox://styles/mapbox/satellite-v9');`
+    
+<hr>
+
+## II. Add Clickable Markers
+
+- Create a new empty HTML page named **mapbox-markers.html**
+- Follow this tutorial here - https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/ - which give you something that looks like this:
+
+![screenshot](./_images/mapbox-2.png)
+
+<hr>
+
+
+
+
+<!--
 
 4) Head back to the landing page
     - Now navigate to [Display a popup on click](https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/)
@@ -91,18 +107,8 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
     - the `data` property here points at a GeoJSON object, which is the primary format that Mapbox expects location i.e. "Point of Interest" data to be encoded in:
       - https://geojson.org
       - http://geojson.io/ - a GeoJSON "builder" - one thing you can do is to drop markers on the map and this will write the GeoJSON for you 
-    - 
-    
-<hr>
+    - note the `features` array - this holds an array of object literals 
 
-## II. Add Clickable Markers
-
-- Create a new empty HTML page named **mapbox-markers.html**
-- Follow this tutorial here - https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/ - which give you something that looks like this:
-
-![screenshot](./_images/mapbox-2.png)
-
-<hr>
 
 ## III. RIT Coffee Map
 
@@ -120,6 +126,8 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 Screenshot of **rit-coffee-mapbox.html**:
 
 ![screenshot](./_images/mapbox-6.png)
+
+-->
 
 
 
