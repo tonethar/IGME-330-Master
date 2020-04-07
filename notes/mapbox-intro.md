@@ -75,8 +75,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## II. Add Clickable Markers
 
-- Here is a marker icon you will need (right-click to download) --> <img src="_images/mapbox-icon.png" height="50" width="50" >
-
+- Create a new empty HTML page named **mapbox-markers.html**
 - Follow this tutorial here - https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/ - which give you something that looks like this:
 
 ![screenshot](./_images/mapbox-2.png)
