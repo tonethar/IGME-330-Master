@@ -75,7 +75,24 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
       - `satellite-v9`
     - You can also write code to change the style like this: `map.setStyle('mapbox://styles/mapbox/satellite-v9');`
 
-4) 
+4) Head back to the landing page
+    - Now navigate to [Display a popup on click](https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/)
+    - Try out the completed version of this map by clicking on the various symbols and viewing the popups
+    - Look at the code starting at:
+    
+    ```js
+    map.addSource('places', {
+      'type': 'geojson',
+      'data': {
+        ...
+      }
+    ```
+    
+    - the `data` property here points at a GeoJSON object, which is the primary format that Mapbox expects location i.e. "Point of Interest" data to be encoded in:
+      - https://geojson.org
+      - http://geojson.io/ - a GeoJSON "builder" - one thing you can do is to drop markers on the map and this will write the GeoJSON for you 
+    - 
+    
 <hr>
 
 ## II. Add Clickable Markers
