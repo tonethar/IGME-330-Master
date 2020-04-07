@@ -42,7 +42,7 @@
 
 1) Grab the **joke-client.html** code from the bottom of [PHP Web Service Part III - Coding get-random-joke.php](./HW-php-web-service-3.md#client-app) and put it in a file named **bored-client.html**
 
-2) Now utilize the `http://www.boredapi.com/api/activity` web service to download a random activity for bored people. Go ahead and open that URL up in a web browser to see what the JSON looks like. Here are the app requirements: 
+2) Now utilize the `https://www.boredapi.com/api/activity` web service to download a random activity for bored people. Go ahead and open that URL up in a web browser to see what the JSON looks like. Here are the app requirements: 
 
     - when the user clicks the button, a random activity will be downloaded
     - the value of the "activity", "type", and "price" keys will be displayed to the user
