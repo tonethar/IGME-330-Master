@@ -32,9 +32,9 @@
   - another advantage of using a proxy-server is that the developer can "hide" their web service API key on the server, rather than having it exposed in the client-side JavaScript
   
 ### Videos
-
-- [PHP and Web Services-5: Building a PHP proxy server I. (11:21)](https://video.rit.edu/Watch/php-proxy-server-1)
-- [PHP and Web Services-5: Building a PHP proxy server II. (12:40)](https://video.rit.edu/Watch/php-proxy-server-2)
+- These are optional - you may be able to get through the notes and assignment below without them:
+  - [PHP and Web Services-5: Building a PHP proxy server I. (11:21)](https://video.rit.edu/Watch/php-proxy-server-1)
+  - [PHP and Web Services-5: Building a PHP proxy server II. (12:40)](https://video.rit.edu/Watch/php-proxy-server-2)
 
 <hr>
 
