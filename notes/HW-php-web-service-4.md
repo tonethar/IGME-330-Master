@@ -148,6 +148,12 @@ Array
 - BTW - why did we decide on a minimum of 2 results? It should really be zero:
   - Answer: to keeps things simple  - because the second argument to `array_rand()` can't be less than 2! Fix this issue if you want to
   
+ 
+  
+<hr>
+
+![screenshot](./_images/HW-php-web-service-22.jpg)
+
 <hr>
 
 <a id="client-app" />
