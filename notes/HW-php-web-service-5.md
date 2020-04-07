@@ -28,7 +28,7 @@
       - `Access-Control-Allow-Origin: *`
   - the web service is only available via `http` (rather than `https` - the "s" stands for *secure*), which means our banjo.rit.edu server will not allow our app to use that service
 - You might be wondering - how common is it for web services to have CORS turned off?
-  - one popular API - [Yelp](https://www.yelp.com/developers/documentation/v3/get_started) - has CORS turned off, and requires developers to send their API key as an HTTP header, which means you have to use a server-side script of some kind to accomplish this.
+  - one popular API - [Yelp](https://www.yelp.com/developers/documentation/v3/get_started) - has CORS turned off, and requires developers to send their API key as an HTTP header, which means you have to use a server-side script of some kind to accomplish this. BTW - we do (or will soon) have Yelp sample code - with a functioning proxy server - up in myCourses for your perusal and potential use 
   - another advantage of using a proxy-server is that the developer can "hide" their web service API key on the server, rather than having it exposed in the client-side JavaScript
   
 
