@@ -189,6 +189,7 @@ Array
 
 - now use the `.value` of this select to change the value of the `limit` parameter you will be sending to **get-jokes.php**
 - fetch and show all of these jokes when the user clicks the button, and be sure to clear out the old results. Put the jokes in the `#content` &lt;div>
+- recall that you are now downloading and displaying an **array** of jokes, rather than a **single joke** like we did in Part III
 - when you are done, it will look something like this:
 
 **many-jokes-client.html**
