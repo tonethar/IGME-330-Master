@@ -56,17 +56,19 @@ Screenshot of **mapbox-start.html**:
 
 ## I-B. Some things to try
 
-- Change the map's `style` - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
-  - `light-v10` OR
-  - `dark-v10` OR
-  - `outdoors-v11` OR
-  - `satellite-v9`
 - Change the `center` and `zoom` of the map:
 
 ```js
 map.setZoom(9);
 map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude - which is opposite of Google Maps
 ```
+
+- Change the map's `style` - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
+  - `light-v10` OR
+  - `dark-v10` OR
+  - `outdoors-v11` OR
+  - `satellite-v9`
+
 
 <hr>
 
