@@ -43,9 +43,16 @@
 </html>
 ```
 
-Screenshot of **mapbox-simple.html** (I changed the `width` & `height` in my version):
+<hr>
+
+## II. Test it
+
+Screenshot of **mapbox-start.html** (I changed the `width` & `height` in my version):
 
 ![screenshot](./_images/mapbox-1.png)
+
+
+<hr>
 
 ## I-A. Some things to try
 
