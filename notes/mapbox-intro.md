@@ -56,21 +56,26 @@ Screenshot of **mapbox-start.html**:
 
 ## I-B. Some things to try
 
-- Change the `center` and `zoom` of the map to the Rochester area:
+1) Change the `center` and `zoom` of the map to the Rochester area:
 
 ```js
 map.setZoom(9);
 map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude - which is opposite of Google Maps
 ```
 
-- Change the map's `style` - https://docs.mapbox.com/mapbox-gl-js/example/setstyle/ - by changing `streets-v11` above to 
-  - `light-v10` OR
-  - `dark-v10` OR
-  - `outdoors-v11` OR
-  - `satellite-v9`
-- You can also use change the style like this: `map.setStyle('mapbox://styles/mapbox/dark-v10');`
+2) Go to this landing page --> https://www.mapbox.com/install/js/cdn-complete/
+    - Now navigate to the [Add controls](https://docs.mapbox.com/mapbox-gl-js/example/navigation/) page to add a visible controller to your map (it's one line of code)
 
+3) Head back to the landing page
+    - Now navigate to [Style Animation](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/) page:
+    - You don't need to set up the radio buttons, but go ahead and change you map's style from  `streets-v11` to: 
+      - `light-v10` OR
+      - `dark-v10` OR
+      - `outdoors-v11` OR
+      - `satellite-v9`
+    - You can also write code to change the style like this: `map.setStyle('mapbox://styles/mapbox/satellite-v9');`
 
+4) 
 <hr>
 
 ## II. Add Clickable Markers
