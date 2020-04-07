@@ -9,11 +9,11 @@
 1. Sign up for an account here: https://account.mapbox.com/auth/signup/
 2. On the account page - https://account.mapbox.com
 3. Click the "Start by designing a map" button:
-  - Choose "JS Web"
-  - Choose "Use the Mapbox CDN"
-  - Create an empty HTML page named **mapbox-start.html**
-  - Follow the instructions and add the `&lt;link>`and `&lt;script>` tags, as well as the JS and HTML, to the page
-  - Note that you will be given your Mapbox access token - keep a copy of it somewhere
+    - Choose "JS Web"
+    - Choose "Use the Mapbox CDN"
+    - Create an empty HTML page named **mapbox-start.html**
+    - Follow the instructions and add the `&lt;link>`and `&lt;script>` tags, as well as the JS and HTML, to the page
+    - Note that you will be given your Mapbox access token - keep a copy of it somewhere
 
 
 **Here's what the HTML page will look like - you'll need to add your *access token* to it:**
@@ -47,9 +47,9 @@
 
 ## II. Test it
 
-Screenshot of **mapbox-start.html** (I changed the `width` & `height` in my version):
+Screenshot of **mapbox-start.html**:
 
-![screenshot](./_images/mapbox-1.png)
+![screenshot](./_images/_map-images/maps-1.jpg)
 
 
 <hr>
