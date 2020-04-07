@@ -69,7 +69,8 @@
 2) We are going to be using this web service - http://shoutcloud.io - which doesn't do anything for us we couldn't just write one line of JavaScript to do. But it's a great example for us here because it's designed to be hard to access:
     - it doesn't have CORS turned on
     - it requires us to use the [HTTP POST method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-    - it uses http instead of https, so banjo will try to block it it we try to access it via JavaScript
+    - it uses `http` instead of `https`, so banjo will try to block it it we try to access it via JavaScript
+    - so, it's totally useless and hard to use - so why are using it? Because it's a good way to *challenge* us and demonstrate how to work with more difficult web services
   
 3) Let's test the service to see what it can do. Because it requires the POST method, if we try it in the browser's location box we get this:
 
