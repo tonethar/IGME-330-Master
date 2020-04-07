@@ -12,32 +12,33 @@
   - Choose "JS Web"
   - Choose "Use the Mapbox CDN"
   - Create an empty HTML page named **mapbox-start.html**
-  - Follow the instructions and add the HTML 
+  - Follow the instructions and add the `&lt;link>`and `&lt;script>` tags, as well as the JS and HTML, to the page
+  - Note that you will be given your Mapbox access token - keep a copy of it somewhere
 
 
-Here's what the HTML page will look like - you'll need to add your ***access token*** to it:
+**Here's what the HTML page will look like - you'll need to add your *access token* to it:**
 
-**mapbox-simple.html**
+**mapbox-start.html**
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Mapbox Simple</title>
-	<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+	<title>Map Start</title>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-<div id='map' style='width: 640px; height: 480px;'></div>
+<div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-	mapboxgl.accessToken = 'PUT-YOUR-TOKEN-HERE';
+	mapboxgl.accessToken = 'ACCESS-TOKEN-GOES-HERE';
 	var map = new mapboxgl.Map({
-		container: 'map',
-		style: 'mapbox://styles/mapbox/streets-v11'
+	container: 'map',
+	style: 'mapbox://styles/mapbox/streets-v11'
 	});
-	
 </script>
+
 </body>
 </html>
 ```
