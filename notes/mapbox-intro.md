@@ -56,7 +56,7 @@ Screenshot of **mapbox-start.html**:
 
 ## I-B. Some things to try
 
-- Change the `center` and `zoom` of the map:
+- Change the `center` and `zoom` of the map to the Rochester area:
 
 ```js
 map.setZoom(9);
@@ -68,6 +68,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
   - `dark-v10` OR
   - `outdoors-v11` OR
   - `satellite-v9`
+- You can also use change the style like this: `map.setStyle('mapbox://styles/mapbox/dark-v10');`
 
 
 <hr>
