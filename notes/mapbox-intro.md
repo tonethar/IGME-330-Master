@@ -12,7 +12,7 @@
     - Choose "JS Web"
     - Choose "Use the Mapbox CDN"
     - Create an empty HTML page named **mapbox-start.html**
-    - Follow the instructions and add the `&lt;link>`and `&lt;script>` tags, as well as the JS and HTML, to the page
+    - Follow the instructions and add the `<link>`and `<script>` tags, as well as the JS and HTML, to the page
     - Note that you will be given your Mapbox access token - keep a copy of it somewhere
 
 
