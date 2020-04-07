@@ -22,11 +22,11 @@
 
 - Here we are going to learn how to create a web *proxy server* with PHP, and also get a little more practice with using the [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) API to download data
 -  *a proxy server is a server application or appliance that acts as an intermediary for requests from clients seeking resources from servers that provide those resources* - https://en.wikipedia.org/wiki/Proxy_server#Web_proxy_servers
-- Below we will learn how to create such a server and have PHP fetch a web service that the browser (i.e the XHR object) is unable to directly access/ THis could happen for the follwoing reasons:
+- Below we will learn how to create such a server and have PHP fetch a web service that the browser (i.e the XHR object) is unable to directly access/ This could happen for the following reasons:
   - the web service does not have [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) enabled ("cross origin resource sharing") - which means that the browser will not allow the client-side XHR or [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) objects to download data from that service
     - recall that if a web service wants to "turn CORS on" it needs to send this HTTP response header:
       - `Access-Control-Allow-Origin: *`
-  - the web service is only available via `http` (rather than `https` - the "s" stands for *secure*), which means our banjo.rit.edu server will not our app to use that service
+  - the web service is only available via `http` (rather than `https` - the "s" stands for *secure*), which means our banjo.rit.edu server will not allow our app to use that service
 - You might be wondering - how common is it for web services to have CORS turned off?
   - one popular API - [Yelp](https://www.yelp.com/developers/documentation/v3/get_started) - has CORS turned off, and requires developers to send their API key as an HTTP header, which means you have to use a server-side script of some kind to accomplish this.
   - another advantage of using a proxy-server is that the developer can "hide" their web service API key on the server, rather than having it exposed in the client-side JavaScript
@@ -69,6 +69,7 @@
 2) We are going to be using this web service - http://shoutcloud.io - which doesn't do anything for us we couldn't just write one line of JavaScript to do. But it's a great example for us here because it's designed to be hard to access:
     - it doesn't have CORS turned on
     - it requires us to use the [HTTP POST method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+    - it uses http instead of https, so banjo will try to block it it we try to access it via JavaScript
   
 3) Let's test the service to see what it can do. Because it requires the POST method, if we try it in the browser's location box we get this:
 
@@ -148,7 +149,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 	// 3) The name of the parameter shoutify expects is "INPUT"
 	$params = ["INPUT" => $text];
 
-	// 4) Convert it to JSON, becasue Shoutify wants data passed to it as JSON
+	// 4) Convert it to JSON, because Shoutify wants data passed to it as JSON
 	$jsonToSend = json_encode($params);
 
 	// 5) The `stream_context_create()` function is where we can specify the POST method
@@ -203,7 +204,7 @@ curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: 
 
 <hr>
 
-2) So now we have a functioning proxy server (**shout-proxy.php**) and a client application (**shout-client.html**) that is able to use it. The client was unable to downlaod the web service directly, but the PHP running on the server was - problem solved! See below for submission instructions and extra credit opportunities
+2) So now we have a functioning proxy server (**shout-proxy.php**) and a client application (**shout-client.html**) that is able to use it. The client was unable to download the web service directly, but the PHP running on the server was - problem solved! See below for submission instructions and extra credit opportunities
 
 
 <hr>
