@@ -83,10 +83,13 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 ## II. Create a map with clickable markers
 
 1) Create a folder named **custom-marker**
+
 2) Inside of the **custom-marker** folder, create an empty file named **index.html**
+
 3) Follow the "Add custom markers in Mapbox GL JS" tutorial here: https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
     - Don’t neglect to download the provide **mapbox-icon.png** file
     - Read through the tutorial, just don’t copy/paste!
+    
 4) When you are done, it looks like this:
 
 <hr>
@@ -121,27 +124,25 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## III. Refactoring the code to ES6 Modules
 
+1) Next let’s do some code refactoring - believe it or not - when we're done with this (in the next assignment) - you will have some nicely structured "starter code" for Project 3
 
-1) Next let’s do some refactoring
+- Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
 
-Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
+2) Change both `var` declarations to `let`
 
-2) change both `var` declarations to `let`
+3) Create a folder named **images** and put **mapbox-icon.png**  into it. Adjust your `.marker{...}` CSS so that the icon still shows up on the map
 
-3) create a folder named **images**  and  put **mapbox-icon.png**  into it. Adjust your `.marker` CSS so that the icon still shows up on the map
+4) Now create a folder named **styles** and put a file named **default-styles.css** in it
 
-4)  now create a folder named **styles** and put a file named **default-styles.css** in it
+5) Move the style rules from **index.html** to **default-styles.css** , and <link> to it. Fix the URL in your `.marker{...}` CSS again :-|
 
-5)  move the style rules from **index.html** to **default-styles.css** , and <link> to it
-Fix the URL in your `.marker` CSS again
+6) Create a **src** folder, and put 2 empty files in it **loader.js**, and **main.js**,
 
-6) create a **src** folder, and put 2 empty files in it **loader.js**, and **main.js**,
-
-7) in index.html, add this tag to the &lt;head> section
+7) In **index.html**, add this tag to the &lt;head> section:
 
 `<script src="./src/loader.js" type="module"></script>`
 
-8) make **loader.js** look like this
+8) Make **loader.js** look like this:
 
 ```js
 import * as main from "./main.js";
@@ -152,13 +153,11 @@ window.onload = () => {
 };
 ```
 
-9) Move all of the JS code from **index.html** to **main.js**. Delete the <script> tag that held the JS code as you won’t need it anymore
-
-This is what **index.html** should look like:
+9) Move all of the JS code from **index.html** to **main.js**. Delete the &lt;script> tag that held the JS code as you won’t need it anymore. This is what **index.html** should look like:
 
 ![screenshot](./_images/_map-images/maps-4.jpg)
 
-10) In main.js 
+10) In **main.js**
 
 - wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and export that function.
 
