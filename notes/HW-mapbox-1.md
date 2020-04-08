@@ -78,7 +78,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
   
 4) ZIP and POST the **mapbox-start.html** file to the dropbox
 
-<hr>
+<hr><hr>
 
 ## II. Create a map with clickable markers
 
@@ -114,6 +114,79 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 ![screenshot](./_images/_map-images/maps-3.jpg)
 
 <hr>
+
+- Let's move on!
+
+<hr><hr>
+
+## III. Refactoring the code to ES6 Modules
+
+
+1) Next let’s do some refactoring
+
+Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
+
+2) change both `var` declarations to `let`
+
+3) create a folder named **images**  and  put **mapbox-icon.png**  into it. Adjust your `.marker` CSS so that the icon still shows up on the map
+
+4)  now create a folder named **styles** and put a file named **default-styles.css** in it
+
+5)  move the style rules from **index.html** to **default-styles.css** , and <link> to it
+Fix the URL in your `.marker` CSS again
+
+6) create a **src** folder, and put 2 empty files in it **loader.js**, and **main.js**,
+
+7) in index.html, add this tag to the &lt;head> section
+
+`<script src="./src/loader.js" type="module"></script>`
+
+8) make **loader.js** look like this
+
+```js
+import * as main from "./main.js";
+
+window.onload = () => {
+	// load fonts, sounds, whatever ...
+	main.init();
+};
+```
+
+9) Move all of the JS code from **index.html** to **main.js**. Delete the <script> tag that held the JS code as you won’t need it anymore
+
+This is what **index.html** should look like:
+
+![screenshot](./_images/_map-images/maps-4.jpg)
+
+10) In main.js 
+
+- wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and export that function.
+
+**main.js**
+
+```js
+function init(){…}
+export {init};
+```
+
+11) test it in a web browser- it should work the same as before  remember that we’re using ES6 modules now - so you have to run it off of a web server
+
+What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
+
+- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+- https://gist.github.com/jgravois/5e73b56fa7756fd00b89
+- https://flaviocopes.com/local-web-server/
+
+Or, you can use the “Live Server” or “Live Preview” plugins on your favorite IDE
+
+
+12) Submission
+
+POST the **custom-marker**  folder to the web
+ZIP up the **custom-marker** folder and submit it to myCourses
+Type the link to the **custom-marker**  in the comments field of the dropbox
+
+
 
 
 
