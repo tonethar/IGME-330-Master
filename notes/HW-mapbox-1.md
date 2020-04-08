@@ -104,7 +104,9 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 7) So, go ahead and add another object literal to the `features` array:
     - you’ll need `coordinate`, `title`, and `description` information
     - in the example screenshot below, I added info for the Strong Museum of Play
-    - where can you get coordinate information? One place would be to try the tool at http://geojson.io/ 
+    - where can you get coordinate information? 
+      - One place would be to try the tool at --> http://geojson.io/ 
+      - Or try --> https://www.latlong.net
 
 
 <hr>
