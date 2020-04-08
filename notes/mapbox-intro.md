@@ -75,7 +75,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
       - `satellite-v9`
     - You can also write code to change the style like this: `map.setStyle('mapbox://styles/mapbox/satellite-v9');`
   
-4) ZIP and POST this file to the dropbox
+4) ZIP and POST the **mapbox-start.html** file to the dropbox
 
 <hr>
 
