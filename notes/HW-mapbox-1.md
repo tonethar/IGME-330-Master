@@ -1,7 +1,7 @@
 # Mapbox Intro
 
 
-- An alternative to google maps is Mapbox - let's check it out.
+- A nice alternative to Google Maps API is Mapbox - let's check it out.
 
 
 ## I. Get Started
