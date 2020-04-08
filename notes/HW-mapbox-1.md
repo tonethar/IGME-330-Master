@@ -88,7 +88,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
     - Read through the tutorial, just don’t copy/paste!
 4) When you are done, it looks like this:
 
-![screenshot](./_images/_map-images/maps-1.jpg)
+![screenshot](./_images/_map-images/maps-2.jpg)
 
 <hr>
 
