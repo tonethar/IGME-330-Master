@@ -133,7 +133,7 @@ Array
   }
 ```
 
-### Test the `limit` parameter in the query string
+### Test the `limit` parameter in the query string (by typing into the browser's address bar)
 
 - try **get-jokes.php?limit=5**:
   - you should get 5 jokes back
