@@ -84,8 +84,8 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 1) Create a folder named **custom-marker**
 2) Inside of the **custom-marker** folder, create an empty file named **index.html**
 3) Follow the "Add custom markers in Mapbox GL JS" tutorial here: https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
-  - Don’t neglect to download the provide **mapbox-icon.png** file
-  - Read through the tutorial, just don’t copy/Rpaste!
+    - Don’t neglect to download the provide **mapbox-icon.png** file
+    - Read through the tutorial, just don’t copy/paste!
 4) When you are done, it looks like this:
 
 ![screenshot](./_images/mapbox-2.png)
