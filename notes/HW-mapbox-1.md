@@ -49,8 +49,9 @@
 
 Screenshot of **mapbox-start.html**:
 
-![screenshot](./_images/_map-images/maps-1.jpg)
+<hr>
 
+![screenshot](./_images/_map-images/maps-1.jpg)
 
 <hr>
 
@@ -79,7 +80,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 <hr>
 
-## II. Add Clickable Markers
+## II. Create a map with clickable markers
 
 1) Create a folder named **custom-marker**
 2) Inside of the **custom-marker** folder, create an empty file named **index.html**
@@ -88,14 +89,29 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
     - Read through the tutorial, just don’t copy/paste!
 4) When you are done, it looks like this:
 
+<hr>
+
 ![screenshot](./_images/_map-images/maps-2.jpg)
 
 <hr>
 
+5) Let’s think about adding a marker - and to do that, we need to add in some "place data". The `geojson` object in the code is using a format called - you guessed it - GeoJSON. MapBox expects that "point of interest" type data is encoded this way. Note the `features` array is an array of object literals that contains `coordinate`, `title`, and `description` information.
+
+6) Here’s some info about the GeoJSON format: 
+    - https://geojson.org
+    - http://geojson.io/ - a GeoJSON "builder" - one thing you can do is to drop markers on the map and this will write the GeoJSON for you 
+
+7) So, go ahead and add another object literal to the `features` array:
+    - you’ll need `coordinate`, `title`, and `description` information
+    - in the example screenshot below, I added info for the Strong Museum of Play
+    - where can you get coordinate information? One place would be to try the tool at http://geojson.io/ 
 
 
+<hr>
 
+![screenshot](./_images/_map-images/maps-3.jpg)
 
+<hr>
 
 
 
