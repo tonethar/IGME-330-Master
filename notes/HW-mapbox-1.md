@@ -168,22 +168,25 @@ function init(){…}
 export {init};
 ```
 
-11) test it in a web browser- it should work the same as before  remember that we’re using ES6 modules now - so you have to run it off of a web server
+11) test it in a web browser- it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
 
-What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
+- What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
+    - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+    - https://gist.github.com/jgravois/5e73b56fa7756fd00b89
+    - https://flaviocopes.com/local-web-server/
 
-- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
-- https://gist.github.com/jgravois/5e73b56fa7756fd00b89
-- https://flaviocopes.com/local-web-server/
-
-Or, you can use the “Live Server” or “Live Preview” plugins on your favorite IDE
+- Or, you can use the “Live Server” or “Live Preview” plugins on your favorite IDE
 
 
-12) Submission
+<hr><hr>
 
-POST the **custom-marker**  folder to the web
-ZIP up the **custom-marker** folder and submit it to myCourses
-Type the link to the **custom-marker**  in the comments field of the dropbox
+## IV. Submission
+
+- Submit your files and get the credit you deserve:
+  - POST the **custom-marker**  folder to the web
+  - ZIP up the **custom-marker** folder and submit it to myCourses
+  - Type the link to the **custom-marker**  in the comments field of the dropbox
+  - Don't forget to ZIP and POST the **mapbox-start.html** file from Part I!
 
 
 
