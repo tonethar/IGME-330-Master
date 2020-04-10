@@ -30,7 +30,7 @@ let geojson = {
 7) Now create a function named `initMap()`:
 
     - move the `mapboxgl.accessToken = …` and `const map = new mapboxgl.Map({…});` code into it
-    - but you’ll need to declare `map` at the top of **main.js** now, with a `let` declaration
+    - ***IMPORTANT -->*** you’ll need to declare `map` at the top of **main.js** now, with a `let` declaration
 
 8) Now call `initMap()` from the top of `init()`
 
