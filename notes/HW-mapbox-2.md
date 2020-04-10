@@ -27,9 +27,10 @@ let geojson = {
 
     - Reload the page - the map should be zoomed in on RIT
 
-7) Now create a function named `initMap()` and move the `mapboxgl.accessToken = …` and `const map = new mapboxgl.Map({…});` code into it
+7) Now create a function named `initMap()`:
 
-    - But you’ll need to declare `map` at the top of **main.js** now, with a `let` declaration
+    - move the `mapboxgl.accessToken = …` and `const map = new mapboxgl.Map({…});` code into it
+    - but you’ll need to declare `map` at the top of **main.js** now, with a `let` declaration
 
 8) Now call `initMap()` from the top of `init()`
 
