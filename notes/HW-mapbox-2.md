@@ -5,13 +5,13 @@
 
 ## I. Get Started
 
-1) Duplicate the **custom-marker** folder and name it **rit-coffee-finder**
+1) Duplicate the **custom-marker** folder and name the copy **rit-coffee-finder**
 
-2) Download this icon (right-click and save) and put it into the **images** folder --> <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="30" height="30">
+2) Download this icon (right-click and save) and put it into the **rit-coffee-finder/images** folder --> <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="30" height="30">
 
 3) Modify your CSS to use the new icon, and change the `width` and `height` to 30px
 
-4) In **main.js**, delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
+4) In **src/main.js**, delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
 
 ```js
 let geojson = {
@@ -42,7 +42,7 @@ let geojson = {
 
     - Test your code in the browser, it should work the same
 
-11) This is what **main.js** should look like (I’ve folded some code, obviously):
+11) This is what **src/main.js** should look like (I’ve folded some code, obviously):
 
 <hr>
 
@@ -54,7 +54,7 @@ let geojson = {
 
 - Now that we've done some refactoring, it will be easy to load in some location data (RIT Coffeeshop locations and names)
 
-1) let’s create a new function named `loadMarkers()` - it will look like this - thank goodness for copy/paste - eh?:
+1) In **src/main.js**, let’s create a new function named `loadMarkers()` - it will look like this - thank goodness for copy/paste - eh?:
 
 ```js
 function loadMarkers(){
@@ -163,14 +163,14 @@ function loadMarkers(){
 
 1) Go ahead and create a **maps.js** file and put it in the **src** folder
 
-2) Move all of the map-related code from **main.js** to **maps.js**
+2) Move all of the map-related code from **src/main.js** to **src/maps.js**
 
-3) Add the following to the bottom of **maps.js**
+3) Add the following to the bottom of **src/maps.js**
 
     - `export {initMap,loadMarkers,addMarkersToMap};`
     
-4) Now you need to add an `import` to the top of **main.js** - the file should look like this:
+4) Now you need to add an `import` to the top of **src/main.js** - the file should look like this:
 
-**main.js**
+**src/main.js**
 
 ![screenshot](./_images/_map-images/maps-9.jpg)
