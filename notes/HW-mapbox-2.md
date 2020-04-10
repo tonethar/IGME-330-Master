@@ -7,7 +7,7 @@
 
 1) Duplicate the **custom-marker** folder and name it **rit-coffee-finder**
 
-2) Download this icon - <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="50" height="50"> -  and put it into the **images** folder
+2) Download this icon (right-click and save) and put it into the **images** folder --> <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="30" height="30">
 
 3) Modify your CSS to use the new icon, and change the width and height to 30px
 
@@ -19,8 +19,8 @@ let geojson = {
   features: []
 };
 ```
-- now move the `let geojson = {…};` code OUTSIDE of the `init()` method
-- Reload the page - the markers should be gone.
+    - now move the `let geojson = {…};` code OUTSIDE of the `init()` method
+    - Reload the page - the markers should be gone.
 
 5) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.6799,43.083848]` and `14`
 
@@ -38,12 +38,15 @@ let geojson = {
 
 9) In `init()`,  call `addMarkersToMap()` right after you call `initMap()`
 
-Test your code in the browser, it should work the same
+    - Test your code in the browser, it should work the same
 
 10) This is what main.js should look like (I’ve folded some code, obviously):
 
+<hr>
+
 ![screenshot](./_images/_map-images/maps-5.jpg)
 
+<hr>
 
 ## II. Add some markers
 
@@ -137,11 +140,15 @@ function loadMarkers(){
 
 3) Now put a call to `loadMarkers()` in the `init()` function, right between `initMap();` and `addMarkersToMap()`
 
-4) Reload the page, you should see the markers. Check the console, you should see the `geojson` logged out
+4) Reload the page, you should see the markers. Check the console, you should see the `geojson` logged out:
+
+<hr>
 
 ![screenshot](./_images/_map-images/maps-7.jpg)
 
 ![screenshot](./_images/_map-images/maps-8.jpg)
+
+<hr>
 
 5) XXX
 
