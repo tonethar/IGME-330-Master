@@ -1,4 +1,4 @@
-# Mapbox-2 RIT Coffee Finder
+# Mapbox-2 - *RIT Coffee Finder*
 
 
 ***For all of the steps going forward, keep the debugger console open to be sure that you don’t have any errors***
@@ -8,6 +8,8 @@
 1) Duplicate the **custom-marker** folder and name it **rit-coffee-finder**
 
 2) Download ![**coffee-icon.png**](./_images/_map-images/coffee-icon.png | width=50) and put it into the **images** folder
+
+<img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="50" height="50">
 
 3) Modify your CSS to use the new icon, and change the width and height to 30px
 
