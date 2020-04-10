@@ -52,7 +52,9 @@ let geojson = {
 
 ## II. Add some markers
 
-1) let’s create a new function named `loadMarkers()` - it will look like this:
+- Now that we've done some refactoring, it will be easy to load in some location data (RIT Coffeeshops)
+
+1) let’s create a new function named `loadMarkers()` - it will look like this - thank goodness for copy/paste - eh?:
 
 ```js
 function loadMarkers(){
@@ -135,10 +137,15 @@ function loadMarkers(){
 }
 ```
 
+<hr>
 
 2) Here’s the rest of the code - you can type this:
 
+<hr>
+
 ![screenshot](./_images/_map-images/maps-6.jpg)
+
+<hr>
 
 3) Now put a call to `loadMarkers()` in the `init()` function, right between `initMap();` and `addMarkersToMap()`
 
