@@ -159,6 +159,10 @@ function loadMarkers(){
 
 <hr>
 
-5) XXX
+## III. Create a ***maps.js*** module
+
+1) Go ahead and create a **maps.js** file and put it in the **src** folder
+
+2) Move the XXX from **main.js** to **maps.js**
 
 
