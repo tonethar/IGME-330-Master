@@ -20,30 +20,28 @@ let geojson = {
 };
 ```
     
-4-A) Now move the `let geojson = {…};` code OUTSIDE of the `init()` method:
- 
-    - Reload the page - the markers should be gone.
+5) Now move the `let geojson = {…};` code OUTSIDE of the `init()` method. Reload the page - the markers should be gone.
     
 
-5) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.6799,43.083848]` and `14`
+6) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.6799,43.083848]` and `14`
 
     - Reload the page - the map should be zoomed in on RIT
 
-6) Now create a function named `initMap()` and move the `mapboxgl.accessToken = …` and `const map = new mapboxgl.Map({…});` code into it
+7) Now create a function named `initMap()` and move the `mapboxgl.accessToken = …` and `const map = new mapboxgl.Map({…});` code into it
 
     - But you’ll need to declare `map` at the top of **main.js** now, with a `let` declaration
 
-7) Now call `initMap()` from the top of `init()`
+8) Now call `initMap()` from the top of `init()`
 
     - Test your code in the browser, it should work the same
 
-8) Now create a new function named `addMarkersToMap()` and move the marker creation code into it
+9) Now create a new function named `addMarkersToMap()` and move the marker creation code into it
 
-9) In `init()`,  call `addMarkersToMap()` right after you call `initMap()`
+10) In `init()`,  call `addMarkersToMap()` right after you call `initMap()`
 
     - Test your code in the browser, it should work the same
 
-10) This is what main.js should look like (I’ve folded some code, obviously):
+11) This is what main.js should look like (I’ve folded some code, obviously):
 
 <hr>
 
