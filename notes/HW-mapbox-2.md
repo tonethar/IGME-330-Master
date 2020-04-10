@@ -42,7 +42,7 @@ let geojson = {
 
     - Test your code in the browser, it should work the same
 
-11) This is what main.js should look like (I’ve folded some code, obviously):
+11) This is what **main.js** should look like (I’ve folded some code, obviously):
 
 <hr>
 
@@ -52,7 +52,7 @@ let geojson = {
 
 ## II. Add some markers
 
-- Now that we've done some refactoring, it will be easy to load in some location data (RIT Coffeeshops)
+- Now that we've done some refactoring, it will be easy to load in some location data (RIT Coffeeshop locations and names)
 
 1) let’s create a new function named `loadMarkers()` - it will look like this - thank goodness for copy/paste - eh?:
 
