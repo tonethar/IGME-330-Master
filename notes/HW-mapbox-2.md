@@ -20,8 +20,8 @@ let geojson = {
 };
 ```
     
-    
-    - now move the `let geojson = {…};` code OUTSIDE of the `init()` method
+4-A) Now move the `let geojson = {…};` code OUTSIDE of the `init()` method:
+ 
     - Reload the page - the markers should be gone.
     
 
