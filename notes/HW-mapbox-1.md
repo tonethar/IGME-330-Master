@@ -159,7 +159,7 @@ window.onload = () => {
 
 10) In **main.js**
 
-- wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and export that function.
+- Wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and export that function.
 
 **main.js**
 
@@ -168,7 +168,7 @@ function init(){…}
 export {init};
 ```
 
-11) test it in a web browser- it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
+11) Test it in a web browser- it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
 
 - What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
