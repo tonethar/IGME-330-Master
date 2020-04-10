@@ -11,7 +11,7 @@
 
 3) Modify your CSS to use the new icon, and change the `width` and `height` to 30px
 
-4) Delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
+4) In **main.js**, delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
 
 ```js
 let geojson = {
@@ -19,8 +19,11 @@ let geojson = {
   features: []
 };
 ```
+    
+    
     - now move the `let geojson = {…};` code OUTSIDE of the `init()` method
     - Reload the page - the markers should be gone.
+    
 
 5) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.6799,43.083848]` and `14`
 
