@@ -174,3 +174,13 @@ function loadMarkers(){
 **src/main.js**
 
 ![screenshot](./_images/_map-images/maps-9.jpg)
+
+<hr>
+
+## IV. Add some controls
+
+
+
+
+
+<hr><hr>
