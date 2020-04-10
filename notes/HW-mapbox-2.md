@@ -9,9 +9,9 @@
 
 2) Download this icon (right-click and save) and put it into the **images** folder --> <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="30" height="30">
 
-3) Modify your CSS to use the new icon, and change the width and height to 30px
+3) Modify your CSS to use the new icon, and change the `width` and `height` to 30px
 
-4) Delete the contents of the `features` array (inside the `GeoJSON` object) - it should look like this:
+4) Delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
 
 ```js
 let geojson = {
