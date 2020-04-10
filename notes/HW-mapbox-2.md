@@ -179,6 +179,14 @@ function loadMarkers(){
 
 ## IV. Add some controls
 
+1) Here's the HTML:
+
+
+2) Here's the CSS:
+
+
+3) Reload the page, you should see this:
+
 
 
 
