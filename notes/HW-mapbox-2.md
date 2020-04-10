@@ -7,9 +7,7 @@
 
 1) Duplicate the **custom-marker** folder and name it **rit-coffee-finder**
 
-2) Download ![**coffee-icon.png**](./_images/_map-images/coffee-icon.png | width=50) and put it into the **images** folder
-
-<img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="50" height="50">
+2) Download this icon - <img src="./_images/_map-images/coffee-icon.png" alt="coffee icon" width="50" height="50"> -  and put it into the **images** folder
 
 3) Modify your CSS to use the new icon, and change the width and height to 30px
 
