@@ -163,6 +163,14 @@ function loadMarkers(){
 
 1) Go ahead and create a **maps.js** file and put it in the **src** folder
 
-2) Move the XXX from **main.js** to **maps.js**
+2) Move all of the map-reelated code from **main.js** to **maps.js**
 
+3) Add the following to the bottom of **maps.js**
 
+    - `export {initMap,loadMarkers,addMarkersToMap};`
+    
+4) Now you need to add an `import` to the top of **main.js** - the file should look like this:
+
+**main.js**
+
+![screenshot](./_images/_map-images/maps-9.jpg)
