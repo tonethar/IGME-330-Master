@@ -193,7 +193,7 @@ function loadMarkers(){
 
 <hr>
 
-![screenshot](./_images/_map-images/maps-11.jpg)
+![screenshot](./_images/_map-images/maps-12.jpg)
 
 <hr>
 
