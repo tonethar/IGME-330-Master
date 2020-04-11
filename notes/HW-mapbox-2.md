@@ -262,8 +262,16 @@ function setupUI(){
 
 ## VI. Load some external data via Ajax
 
-- Let's walk through how easy it is load new data from the Internet and then display it on the map
+- Let's walk through how easy it is to load new data from the Internet and then display it on the map
 
-1) 
+1) Here's the data we'll be downloading - nothing much - just the the location data for the IGM main office and GCCIS Dean's office: https://igm.rit.edu/~acjvks/courses/shared/330/maps/igm-points-of-interest.php
+
+<hr>
+
+![screenshot](./_images/_map-images/maps-17.jpg)
+
+<hr>
+
+2) 
 
 <hr><hr>
