@@ -197,8 +197,17 @@ function loadMarkers(){
 
 <hr>
 
-4) Now we need to add some function to our **map.js** module:
+4) Now we need to add some functions to our **map.js** module:
 
+![screenshot](./_images/_map-images/maps-13.jpg)
 
+- these 3 functions control the center, zoom level, and viewing angle of our map
+- note that we have given the parameters *default values* that will be used if no value is passed in
+- see the documentation and examples here:
+  - https://docs.mapbox.com/mapbox-gl-js/api/#map#flyto
+  - https://docs.mapbox.com/help/glossary/zoom-level/
+  - https://docs.mapbox.com/mapbox-gl-js/example/live-update-feature/
+  - https://docs.mapbox.com/mapbox-gl-js/example/set-perspective/
+  
 
 <hr><hr>
