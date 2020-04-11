@@ -162,7 +162,9 @@ function loadMarkers(){
 
 ## III. Create a ***map.js*** module
 
-1) Go ahead and create a **map.js** file and put it in the **src** folder
+- We are going to being addding a lot of "map code" soon, so let's go ahead and break out all of the map-related JS into a separate file
+
+1) Create a **map.js** file and put it in the **src** folder
 
 2) Move all of the map-related code from **src/main.js** to **src/map.js**
 
@@ -170,7 +172,7 @@ function loadMarkers(){
 
     - `export {initMap,loadMarkers,addMarkersToMap};`
     
-4) Now you need to add an `import` to the top of **src/main.js** - the file should look like this:
+4) Now you need to add an `import` to the top of **src/main.js** - and call the code located in **src/map.js** with the `map` namespace - **src/main.js** should now look like this:
 
 **src/main.js**
 
