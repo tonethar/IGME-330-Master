@@ -286,7 +286,7 @@ function setupUI(){
 
 ![screenshot](./_images/_map-images/maps-19.jpg)
 
-6) Now let's add some button event handling code to `setupUI()`:
+6) Now let's add some button event handling code to `setupUI()` - this last button will now call the `loadPOI()` function when it is clicked:
 
 ![screenshot](./_images/_map-images/maps-20.jpg)
 
