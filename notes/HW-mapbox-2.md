@@ -197,6 +197,8 @@ function loadMarkers(){
 
 <hr>
 
+4) Now we need to add some function to our **map.js** module:
+
 
 
 <hr><hr>
