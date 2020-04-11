@@ -49,7 +49,7 @@ let geojson = {
 
 ![screenshot](./_images/_map-images/maps-5.jpg)
 
-<hr>
+<hr><hr>
 
 ## II. Add some markers
 
@@ -158,7 +158,7 @@ function loadMarkers(){
 
 ![screenshot](./_images/_map-images/maps-8.jpg)
 
-<hr>
+<hr><hr>
 
 ## III. Create a ***map.js*** module
 
@@ -180,7 +180,7 @@ function loadMarkers(){
 
 5) Reload the page, it should work as before
 
-<hr>
+<hr><hr>
 
 ## IV. Add some map controls
 
@@ -237,7 +237,7 @@ function setupUI(){
 
 ![screenshot](./_images/_map-images/maps-15.jpg)
 
-</hr>
+<hr><hr>
 
 
 ## V. Add a map layer
@@ -258,5 +258,12 @@ function setupUI(){
 
 ![screenshot](./_images/_map-images/maps-16.jpg)
 
-</hr>
+<hr><hr>
+
+## VI. Load some external data via Ajax
+
+- Let's walk through how easy it is load new data from the Internet and then display it on the map
+
+1) 
+
 <hr><hr>
