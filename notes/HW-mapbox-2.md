@@ -249,7 +249,7 @@ function setupUI(){
       - this is a simple copy/paste - you will need to copy ALL of the code in the "map onload call":
         - beginning here: `map.on('load', function() {`
         - and ending here: `});`
-    - put this code at the bottom of `init()` in the **maps.js** module - when you paste it all of the formatting will be gone, so try to indent and pretty it up and some point
+    - put this code at the bottom of the `initMap()` function in the **maps.js** module - when you paste this code all of the formatting will be gone, so try to indent and pretty it up and some point
 
 
 2) Reload the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in - note that the extruded buildings give a nice 3D effect:
