@@ -298,6 +298,12 @@ function setupUI(){
 
 <hr>
 
-8) 
+8) Now we need to create some markers with this coordinate data - this is best done over in **map.js**. Go ahead and create the `addMarker()` function over in **map.js**, and don't foget to  `export` it:
+
+![screenshot](./_images/_map-images/maps-22.jpg)
+
+9) In **main.js**
+
+
 
 <hr><hr>
