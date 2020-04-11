@@ -321,5 +321,14 @@ function setupUI(){
   - name the new style rule `poi`
 - Over in **map.js** we have some duplicated code that violates the D.R.Y. ("Don't Repeat Yourself) principle:
   - Go ahead and refactor the `addMarkersToMap()` function to use the `addMarker()` function - that will fix this issue
+- See the screenshot below for an example of what the map with the new `#poi` markers should look like
 - You're DONE! - ZIP and POST the **rit-coffee-finder** folder to the dropbox!
+
+<hr>
+
+![screenshot](./_images/_map-images/maps-25.jpg)
+
+<hr><hr>
+
+NAV
 
