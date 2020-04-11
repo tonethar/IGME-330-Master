@@ -162,7 +162,7 @@ function loadMarkers(){
 
 ## III. Create a ***map.js*** module
 
-- We are going to being addding a lot of "map code" soon, so let's go ahead and break out all of the map-related JS into a separate file
+- We are going to being adding a lot of "map code" soon, so let's go ahead and break out all of the map-related JS into a separate file
 
 1) Create a **map.js** file and put it in the **src** folder
 
