@@ -219,12 +219,13 @@ function setupUI(){
 }
 ```
 
-- Here's the rest for you to type in:
+- Don't forget to call `setupUI()` from the bottom of `main.init()` !
+- Here's the rest of `setupUI()` for you to type in:
 
 ![screenshot](./_images/_map-images/maps-14.jpg)
 
 
-6)
+6) Reload the page
 
 
 <hr><hr>
