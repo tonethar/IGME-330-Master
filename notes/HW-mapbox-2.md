@@ -282,9 +282,13 @@ function setupUI(){
 
     - add an `import` statement at the top: `import * as ajax from "./ajax.js";`
 
-5) Now let's add some button event handling code to `setupUI()`:
+5) To **main.js**, let's add a `poi` array as a module scoped variable, and a `loadPOI()` helper function. Be sure to call `loadPOI()` at the top of `init()`
 
 ![screenshot](./_images/_map-images/maps-19.jpg)
+
+6) Now let's add some button event handling code to `setupUI()`:
+
+![screenshot](./_images/_map-images/maps-20.jpg)
 
 
 
