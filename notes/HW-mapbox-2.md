@@ -330,5 +330,5 @@ function setupUI(){
 
 <hr><hr>
 
-NAV
+**[Previous Chapter <- Mapbox Part I](HW-mapbox-1.md)**
 
