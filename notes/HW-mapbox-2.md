@@ -176,6 +176,8 @@ function loadMarkers(){
 
 ![screenshot](./_images/_map-images/maps-9.jpg)
 
+5) Reload the page, it should work as before
+
 <hr>
 
 ## IV. Add some map controls
