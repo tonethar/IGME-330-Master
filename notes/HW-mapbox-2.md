@@ -317,8 +317,9 @@ function setupUI(){
 
 ## VII. Finish it up
 
-- Right now these new POIs are still using the "coffee icon". Go ahead and and write some CSS and JS code so that the markers we just created use the **mapbox-icon.png** file:
+- Right now these new POIs are still using the "coffee" icon. Go ahead and and write some CSS and JS code so that the markers we just created use the **mapbox-icon.png** file:
   - name the new style rule `poi`
+  - modify your code in `poiLoaded` to use the `poi` class name
 - Over in **map.js** we have some duplicated code that violates the D.R.Y. ("Don't Repeat Yourself) principle:
   - Go ahead and refactor the `addMarkersToMap()` function to use the `addMarker()` function - that will fix this issue
 - See the screenshot below for an example of what the map with the new `#poi` markers should look like
