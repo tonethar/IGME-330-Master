@@ -274,6 +274,18 @@ function setupUI(){
 
 2) Let's write some Ajax code to download the contents of this simple web service. Go ahead and create a new file named **ajax.js** and put it into your **src** folder
 
-3) 
+3) Inside of **ajax.js**, implement the `downloadFile()` function and export it:
+
+![screenshot](./_images/_map-images/maps-18.jpg)
+
+4) Over in **main.js**:
+
+    - add an `import` statement at the top: `import * as ajax from "./ajax.js";`
+
+5) Now let's add some button event handling code to `setupUI()`:
+
+![screenshot](./_images/_map-images/maps-19.jpg)
+
+
 
 <hr><hr>
