@@ -290,6 +290,10 @@ function setupUI(){
 
 ![screenshot](./_images/_map-images/maps-20.jpg)
 
+7) Test this in the browser, clicking the "Load some markers" button once should log out the array of object literals that was downloaded from the web service (clicking it a second time will do nothing):
+
+![screenshot](./_images/_map-images/maps-21.jpg)
+
 
 
 <hr><hr>
