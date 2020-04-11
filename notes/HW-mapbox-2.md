@@ -247,8 +247,7 @@ function setupUI(){
   - put this code at the bottom of `init()` in the **maps.js** module - when you paste it all of the formatting will be gone, so try to indent and pretty it up and some point
 
 
-2) Relaod the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in
-:
+2) Relaod the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in - note that the extruded buildings give a nice 3D effect:
 
 <hr>
 
