@@ -1,7 +1,8 @@
 # Mapbox-2 - *RIT Coffee Finder*
 
-
 ***For all of the steps going forward, keep the debugger console open to be sure that you don’t have any errors***
+
+***This exercise could be a nice "starter" for Project 3!***
 
 ## I. Get Started
 
@@ -238,16 +239,16 @@ function setupUI(){
 ## V. Add a map layer
 
 1) Now let's add a map layer - https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/
-  - Here we'll add a `paint` layer of type `fill-extrusion` to the map that will allow Mapbox to draw buildings in 3D
-  - The code to do this is straight out of a Mapbox example:
-    - the example is here: https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/
-    - this is a simple copy/paste - you will need to copy ALL of the code in the "map onload call":
-      - beginning here: `map.on('load', function() {`
-      - and ending here: `});`
-  - put this code at the bottom of `init()` in the **maps.js** module - when you paste it all of the formatting will be gone, so try to indent and pretty it up and some point
+    - Here we'll add a `paint` layer of type `fill-extrusion` to the map that will allow Mapbox to draw buildings in 3D
+    - The code to do this is straight out of a Mapbox example:
+      - the example is here: https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/
+      - this is a simple copy/paste - you will need to copy ALL of the code in the "map onload call":
+        - beginning here: `map.on('load', function() {`
+        - and ending here: `});`
+    - put this code at the bottom of `init()` in the **maps.js** module - when you paste it all of the formatting will be gone, so try to indent and pretty it up and some point
 
 
-2) Relaod the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in - note that the extruded buildings give a nice 3D effect:
+2) Reload the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in - note that the extruded buildings give a nice 3D effect:
 
 <hr>
 
