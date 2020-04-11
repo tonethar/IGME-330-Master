@@ -201,13 +201,30 @@ function loadMarkers(){
 
 ![screenshot](./_images/_map-images/maps-13.jpg)
 
-- these 3 functions control the center, zoom level, and viewing angle of our map
-- note that we have given the parameters *default values* that will be used if no value is passed in
+- these 3 functions control the center, zoom level, and viewing angle (perspective) of our map
+- note that we have given the function parameters *default values* that will be used if no value is passed in
 - see the documentation and examples here:
   - https://docs.mapbox.com/mapbox-gl-js/api/#map#flyto
   - https://docs.mapbox.com/help/glossary/zoom-level/
   - https://docs.mapbox.com/mapbox-gl-js/example/live-update-feature/
   - https://docs.mapbox.com/mapbox-gl-js/example/set-perspective/
-  
+- be sure to export these three functions, or you won't be able to use them outside of **map.js**!
+
+5) Now we need to write some code in **main.js** that can call these functions when the buttons are clicked on. Here's the first part for your copy/paste pleasure:
+
+```js
+function setupUI(){
+  const lnglatRIT = [-77.67454147338866, 43.08484339838443];
+  const lnglatIGM = [-77.67990589141846, 43.08447511795301];
+}
+```
+
+- Here's the rest for you to type in:
+
+![screenshot](./_images/_map-images/maps-14.jpg)
+
+
+6)
+
 
 <hr><hr>
