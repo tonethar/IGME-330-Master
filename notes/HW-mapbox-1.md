@@ -189,7 +189,9 @@ export {init};
   - Don't forget to ZIP and POST the **mapbox-start.html** file from Part I!
 
 
+<hr><hr>
 
+**[Next Chapter -> Mapbox Part II](HW-mapbox-2.md)**
 
 
 
