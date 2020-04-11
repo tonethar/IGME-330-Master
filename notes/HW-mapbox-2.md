@@ -177,17 +177,25 @@ function loadMarkers(){
 
 <hr>
 
-## IV. Add some controls
+## IV. Add some map controls
+
+- We are going to add controls to the screen that will let the user zoom in and out and move the center of the map
 
 1) Here's the HTML:
 
+![screenshot](./_images/_map-images/maps-10.jpg)
 
 2) Here's the CSS:
 
+![screenshot](./_images/_map-images/maps-11.jpg)
 
 3) Reload the page, you should see this:
 
+<hr>
 
+![screenshot](./_images/_map-images/maps-11.jpg)
+
+<hr>
 
 
 
