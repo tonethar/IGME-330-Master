@@ -322,6 +322,7 @@ function setupUI(){
   - modify your code in the `poiLoaded()` callback function to use the `poi` class name
 - Over in **map.js** we have some duplicated code that violates the D.R.Y. ("Don't Repeat Yourself) principle:
   - Go ahead and refactor the `addMarkersToMap()` function to use the `addMarker()` function - that will fix this issue
+- Optional: There's one (at least) bug in this code. If a user clicks the "Load some markers" button quickly, they might end up calling the POI loading code twice. Fix that bug if you want - it will take one line of code to do so
 - See the screenshot below for an example of what the map with the new `#poi` markers should look like
 - You're DONE! - ZIP and POST the **rit-coffee-finder** folder to the dropbox!
 
