@@ -317,6 +317,9 @@ function setupUI(){
 
 ## VII. Finish it up
 
--
-
+- Right now these new POIs are still using the "coffee icon". Go ahead and and write some CSS and JS code so that the markers we just created use the **mapbox-icon.png** file:
+  - name the new style rule `poi`
+- Over in **map.js** we have some duplicated code that violates the D.R.Y. ("Don't Repeat Yourself) principle:
+  - Go ahead and refactor the `addMarkersToMap()` function to use the `addMarker()` function - that will fix this issue
+- You're DONE! - ZIP and POST the **rit-coffee-finder** folder to the dropbox!
 
