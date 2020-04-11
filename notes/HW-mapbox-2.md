@@ -24,7 +24,7 @@ let geojson = {
 5) Now move the `let geojson = {…};` code OUTSIDE of the `init()` method. Reload the page - the markers should be gone.
     
 
-6) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.6799,43.083848]` and `14`
+6) Change the `center` and `zoom` properties of the map to zoom in on RIT - `[-77.67454147338866,43.08484339838443]` and `15.5`
 
     - Reload the page - the map should be zoomed in on RIT
 
@@ -75,7 +75,7 @@ function loadMarkers(){
 	{
 		latitude:43.082520,
 		longitude:-77.67980,
-		title:"Midnight Oil"
+		title:"Starbucks"
 	},
 
 	{
