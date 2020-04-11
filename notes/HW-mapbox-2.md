@@ -298,12 +298,25 @@ function setupUI(){
 
 <hr>
 
-8) Now we need to create some markers with this coordinate data - this is best done over in **map.js**. Go ahead and create the `addMarker()` function over in **map.js**, and don't foget to  `export` it:
+8) Now we need to create some markers with this coordinate data - this is best done over in **map.js**. Go ahead and create the `addMarker()` function over in **map.js**:
+    - and don't forget to  `export` it!
 
 ![screenshot](./_images/_map-images/maps-22.jpg)
 
-9) In **main.js**
+9) In **main.js**, call `addMarker()` in the `poiLoaded()` callback function
 
+![screenshot](./_images/_map-images/maps-23.jpg)
 
+10) Now test it, you should see the IGM and Dean's office markers are now on the map!
+
+<hr>
+
+![screenshot](./_images/_map-images/maps-24.jpg)
 
 <hr><hr>
+
+## VII. Finish it up
+
+-
+
+
