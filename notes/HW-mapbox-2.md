@@ -226,7 +226,33 @@ function setupUI(){
 ![screenshot](./_images/_map-images/maps-14.jpg)
 
 
-6) Reload the page
+6) Reload the page - and test out the first 4 buttons - here's what the "RIT @ Isometric View" looks like:
+
+<hr>
+
+![screenshot](./_images/_map-images/maps-15.jpg)
+
+</hr>
 
 
+## V. Add a map layer
+
+1) Now let's add a map layer - https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/
+  - Here we'll add a `paint` layer of type `fill-extrusion` to the map that will allow Mapbox to draw buildings in 3D
+  - The code to do this is straight out of a Mapbox example:
+    - the example is here: https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/
+    - this is a simple copy/paste - you will need to copy ALL of the code in the "map onload call":
+      - beginning here: `map.on('load', function() {`
+      - and ending here: `});`
+  - put this code at the bottom of `init()` in the **maps.js** module - when you paste it all of the formatting will be gone, so try to indent and pretty it up and some point
+
+
+2) Relaod the page to see the difference - below I am in the "RIT @ Isometric View", and slightly zoomed in
+:
+
+<hr>
+
+![screenshot](./_images/_map-images/maps-16.jpg)
+
+</hr>
 <hr><hr>
