@@ -159,13 +159,13 @@ function loadMarkers(){
 
 <hr>
 
-## III. Create a ***maps.js*** module
+## III. Create a ***map.js*** module
 
-1) Go ahead and create a **maps.js** file and put it in the **src** folder
+1) Go ahead and create a **map.js** file and put it in the **src** folder
 
-2) Move all of the map-related code from **src/main.js** to **src/maps.js**
+2) Move all of the map-related code from **src/main.js** to **src/map.js**
 
-3) Add the following to the bottom of **src/maps.js**
+3) Add the following to the bottom of **src/map.js**
 
     - `export {initMap,loadMarkers,addMarkersToMap};`
     
