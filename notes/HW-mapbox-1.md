@@ -87,7 +87,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 2) Inside of the **custom-marker** folder, create an empty file named **index.html**
 
 3) Follow the "Add custom markers in Mapbox GL JS" tutorial here: https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
-    - Don’t neglect to download the provide **mapbox-icon.png** file
+    - Don’t neglect to download the provided **mapbox-icon.png** file
     - Read through the tutorial, just don’t copy/paste!
     
 4) When you are done, it looks like this:
@@ -124,7 +124,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## III. Refactoring the code to ES6 Modules
 
-1) Next let’s do some code refactoring - believe it or not - when we're done with this (in the next assignment) - you will have some nicely structured "starter code" for Project 3
+1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - you will have some nicely structured "starter code" for Project 3
 
 - Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
 
@@ -134,9 +134,9 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 4) Now create a folder named **styles** and put a file named **default-styles.css** in it
 
-5) Move the style rules from **index.html** to **default-styles.css** , and <link> to it. Fix the URL in your `.marker{...}` CSS again :-|
+5) Move the style rules from **index.html** to **default-styles.css**, and &lt;link> to it. Fix the URL in your `.marker{...}` CSS again :-|
 
-6) Create a **src** folder, and put 2 empty files in it **loader.js**, and **main.js**,
+6) Create a **src** folder, and put 2 empty files in it - **loader.js**, and **main.js**,
 
 7) In **index.html**, add this tag to the &lt;head> section:
 
@@ -159,7 +159,7 @@ window.onload = () => {
 
 10) In **main.js**
 
-- Wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and export that function.
+- Wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and `export` that function.
 
 **main.js**
 
@@ -168,7 +168,7 @@ function init(){…}
 export {init};
 ```
 
-11) Test it in a web browser- it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
+11) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
 
 - What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
