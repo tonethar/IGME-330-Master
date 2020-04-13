@@ -287,6 +287,19 @@ function dataLoaded(string){
     - `addMarker()`
     - `addMarkersToMap()`
     - Yes, **main.js** is going to get a little cluttered, but we will let you move this code over to a new **map.js** module at the end
- 
+
+<hr>
+
 4) Now add a call to `addMarkersToMap();` right after `geojson = makeGeoJSON(regions);`
  
+<hr>
+
+5) Reload the page, you should now have a world map with 264 clickable markers on the map!
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-15.jpg)
+
+<hr>
+
+6) 
