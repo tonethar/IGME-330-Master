@@ -219,7 +219,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 1) Let's be like the "cool kids" and make some modifications to our `Region` class:
 
     - We'll use the *array destructuring assignment* and *rest parameters* to collapse the constructor code down from 5 lines to 1 line
-    - We'll use `array.map()` to loop through the `dates` array, and convert the string values to numbers using the unary `+` operator
+    - We'll use `array.map()` to loop through the `dates` array, and convert the string values to numbers using the unary `+` operator (you could also use the `Number()` constructor or `parseInt()` if you prefer)
     - Reference:
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
@@ -240,7 +240,14 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
  
  <hr>
  
- 3) One issue remaining though - how about we convert `latitude` and `longitude` to the `Number` type above - we'll let you do that on your own
+ 3) One issue remaining though - how about we convert `latitude` and `longitude` to the `Number` type above - we'll let you do that on your own. There's a somewhat complicated "one-liner" approach using the *spread operator*, or you can just add 2 lines of code to the constructor:
+ 
+ ```js
+ this.latitude = +this.latitude; 
+ this.longitude = +this.longitude;
+ ```
+ 
+ <hr>
 
 ## VII. Create markers
 
