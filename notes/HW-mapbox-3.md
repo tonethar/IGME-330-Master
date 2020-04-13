@@ -218,7 +218,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
 1) Let's be like the "cool kids" and make some modifications to our `Region` class:
 
-    - use *array destructuring assignment* and *rest parameters* to collapse the constructor code down from 5 lines to 1 line
+    - We'll use the *array destructuring assignment* and *rest parameters* to collapse the constructor code down from 5 lines to 1 line
     - We'll use `array.map()` to loop through the `dates` array, and convert the string values to numbers using the unary `+` operator
     - Reference:
       - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
