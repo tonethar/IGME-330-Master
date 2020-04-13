@@ -64,7 +64,7 @@ let geojson = {
     - The values of each column represent the number of COVID-19 cases that were diagnosed for that country on a particular date. 
     - For example, the New South Wales territory of Australia had zero diagnosed cases as of 1/22/20, and had 3 cases on 1/26/20
 
-4) You might find the data easier to read when it is formatted as a spreadsheet. Below we have opened up the same file in Excel:
+5) You might find the data easier to read when it is formatted as a spreadsheet. Below we have opened up the same file in Excel:
 
 <hr>
 
@@ -72,9 +72,9 @@ let geojson = {
 
 <hr>
 
-5) Inspecting and "Cleaning" our data
+6) Inspecting and "Cleaning" our data
 
-    - Note how although it’s the same data, it is now nicely laid out in rows and columns.
+    - Note above how although it’s the same data, it is now nicely laid out in rows and columns.
     - If we scroll down spreadsheet and look at all the data, we can get a sense of its structure, and if there are any missing or odd values:
       - note that the "Province/State" field is blank for most of the entries - for example, the "US" data (row 227) is for the entire country, and no "Province/State" value is given. Contrast this with the "United Kingdom" values (rows 219-225) where 6 of the 7 rows have values for "Province/State" 
       - so the "Province/State" field is the only one with missing values, the other fields always have a value
