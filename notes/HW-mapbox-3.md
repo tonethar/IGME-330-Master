@@ -210,3 +210,8 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 ![screenshot](./_images/_map-images/virus-map-10.jpg)
 
 <hr>
+
+
+## VI. Create markers
+
+
