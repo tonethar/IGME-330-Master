@@ -179,3 +179,26 @@ function dataLoaded(string){
 ![screenshot](./_images/_map-images/virus-map-8.jpg)
 
 <hr>
+
+5) Here's the fix - with an assist from SO - see the code below:
+   
+    - And here is the regex for your copy/paste pleasure:
+    
+```js
+// https://stackoverflow.com/questions/26664371/remove-more-than-one-comma-in-between-quotes-in-csv-file-using-regex?rq=1
+const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
+```
+    
+![screenshot](./_images/_map-images/virus-map-9.jpg)
+
+<hr>
+ 
+ 6) Reload the page and check the log, you should see the issue is fixed:
+     - although there is one small issue with `.countryOrRegion` - an extra space after the dash. The marker HTML will hide this (so we're going to be lazy and let it ride) - but go ahead and fix that later on if you want to 
+     
+     
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-10.jpg)
+
+<hr>
