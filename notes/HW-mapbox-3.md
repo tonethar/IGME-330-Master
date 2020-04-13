@@ -10,7 +10,7 @@
 
 2 - Load it into a web browser to be sure that **index.html** still works. Recall that because this used ES6 modules, you need to run this off of a web server to get it to work. 
 
-3 -  Download this icon (right-click and save) and put it into the virus-map/images folder -->  <img src=“images/cough-3247.png” width=30 height=30 />
+3 -  Download this icon (right-click and save) and put it into the virus-map/images folder -->  <img src=“_images/_map-images/cough-3247.png” width=30 height=30 />
 
 4 - In src/main.js, delete the contents of the `features` array (inside the `geojson` object) - it should look like this:
 
