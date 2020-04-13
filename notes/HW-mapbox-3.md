@@ -130,3 +130,9 @@ let geojson = {
 ## V. Parse the CSV file
 
 1) Here's our first version of the function that’s going to parse the loaded CSV file - `parseCSV()`:
+
+![screenshot](./_images/_map-images/virus-map-5.jpg)
+
+
+  - Reference:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
