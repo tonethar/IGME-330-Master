@@ -257,5 +257,15 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
  ![screenshot](./_images/_map-images/virus-map-13.jpg)
  
+ <hr>
+ 
+2) Modify `dataLoaded()` to look like this so that it passes the array of `Region` instances to `makeGeoJSON()`:
+
+ ![screenshot](./_images/_map-images/virus-map-14.jpg)
+ 
+ <hr>
+ 
+3) Now
+ 
  
  
