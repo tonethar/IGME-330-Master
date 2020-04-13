@@ -211,7 +211,34 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
 <hr>
 
+<hr>
 
-## VI. Create markers
+
+## VI. Revisit the `Region` class
+
+1) Let's be like the "cool kids" and make some modifications to our `Region` class:
+
+    - use *array destructuring assignment* to collapse the constructor code down from 5 lines to 1 line
+    - We'll use `array.map()` to loop through the dates array, and convert 
+    - Reference:
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+      - https://medium.com/@nikjohn/cast-to-number-in-javascript-using-the-unary-operator-f4ca67c792ce
+      - https://stackoverflow.com/questions/17106681/parseint-vs-unary-plus-when-to-use-which
+      
+      
+![screenshot](./_images/_map-images/virus-map-11.jpg)
+
+<hr>
+      
+ 2) Test it to be sure that it works - the array values should now be numbers, not strings:
+ 
+ <hr>
+ 
+ ![screenshot](./_images/_map-images/virus-map-12.jpg)
+ 
+ <hr>
+
+## VII. Create markers
 
 
