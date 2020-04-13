@@ -139,3 +139,38 @@ let geojson = {
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+  
+2) Modify `dataLoaded()` to look like this so that is parses the CSV:
+
+```js
+// callback function for when data shows up
+function dataLoaded(string){
+  //console.log(`string=${string}`);
+  let regions = parseCSV(string);
+  console.log(regions);
+}
+```
+
+3) Reload the page and check the console - things look pretty good here:
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-6.jpg)
+
+<hr>
+
+- and here (I put in a breakpoint to check the values of `index` and `dates`:
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-7.jpg)
+
+<hr>
+
+4) But when you scroll down to line XXX (where we had the extra comma contained in the quotes) there are issues: 
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-7.jpg)
+
+<hr>
