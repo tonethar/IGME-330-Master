@@ -133,6 +133,7 @@ let geojson = {
 
 ![screenshot](./_images/_map-images/virus-map-5.jpg)
 
-
-  - Reference:
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+- you will also need to declare the `dates` and `index` variables "up top" (next to `map`) e.g. *module scope*
+- Reference:
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
