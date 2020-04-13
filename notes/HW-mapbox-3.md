@@ -261,11 +261,32 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
  
 2) Modify `dataLoaded()` to look like this so that it passes the array of `Region` instances to `makeGeoJSON()`:
 
- ![screenshot](./_images/_map-images/virus-map-14.jpg)
+ ```js
+// callback function for when data shows up
+function dataLoaded(string){
+  //console.log(`string=${string}`);
+	let regions = parseCSV(string);
+	//console.log(regions);
+	geojson = makeGeoJSON(regions);
+	console.log(geojson);
+}
+ ```
  
- <hr>
+<hr>
  
-3) Now
+3) Reload the page and check the console - you should see that the data from your `Region` instances has been copied over to the `geojson.features` array:
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-14.jpg)
+
+<hr>
+
+3) Now copy over these two functions from **rit-coffee-finder/src/map.js** and put them into **main.js**
+
+    - `addMarker()`
+    - `addMarkersToMap()`
+    - Yes, **main.js** is going to get a little cluttered, but we will let you move this code over to a new **map.js** module at the end
  
- 
+4) Now add a call to `addMarkersToMap();` right after `geojson = makeGeoJSON(regions);`
  
