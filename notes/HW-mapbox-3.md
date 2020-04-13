@@ -239,6 +239,8 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
  ![screenshot](./_images/_map-images/virus-map-12.jpg)
  
  <hr>
+ 
+ 3) One issue remaining though - how about we convert `latitude` and `longitude` to the `Number` type above - we'll let you do that on your own
 
 ## VII. Create markers
 
