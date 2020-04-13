@@ -139,7 +139,9 @@ let geojson = {
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
-  
+
+<hr>
+
 2) Modify `dataLoaded()` to look like this so that is parses the CSV:
 
 ```js
@@ -150,6 +152,8 @@ function dataLoaded(string){
   console.log(regions);
 }
 ```
+
+<hr>
 
 3) Reload the page and check the console to see the values of the properties of the `Region` instances - things look pretty good here (with ONE exception, the values in the `data` array are of data type `String`, not `Number` like we might need them to be:
 
