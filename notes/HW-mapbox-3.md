@@ -79,11 +79,13 @@ let geojson = {
       - note that the "Province/State" field is blank for most of the entries - for example, the "US" data (row 227) is for the entire country, and no "Province/State" value is given. Contrast this with the "United Kingdom" values (rows 219-225) where 6 of the 7 rows have values for "Province/State" 
       - so the "Province/State" field is the only one with missing values, the other fields always have a value
       - later on when we write our JS code to load and parse this spreadsheet, we’ll need to keep these missing values in mind
-    - Now let’s look over the “raw” data again by heading back to the text editor:
-      - scroll down the line #145 (`,"Korea, South", …`) and note that there is a comma contained in the quotes, and that the same line in the Excel spreadsheet is missing (not displaying) the quotes. Line #258 has the same issue.
+    - Now let’s look over the "raw" data again by heading back to the text editor:
+      - scroll down the line #145 (`,"Korea, South", …`):
+        - note that there is a comma contained in the quotes, and that the same line in the Excel spreadsheet is missing (not displaying) the quotes
+        - line #258 has the same issue
       - This extra comma contained in the quotes will cause problems later when we use JS to load and parse the spreadsheet
-      - To fix this issue, we COULD edit the CSV file to get rid of these extra quotes (which is "cleaning" your data
-      - But because this CSV data is getting updated every day that would mean that we would have to "clean" the file every day
+      - To fix this issue, we COULD edit the CSV file to get rid of these extra commas (which is "cleaning" your data
+      - But because this CSV data is getting updated every day that would mean that we would have to "clean" the file every day when we downloaded a new spreadsheet
       - So what we will do instead is to make sure that our loading/parsing JavaScript can handle the "empty field" and "extra commas in quotes" issues
 
 <hr>
