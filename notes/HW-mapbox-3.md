@@ -151,7 +151,7 @@ function dataLoaded(string){
 }
 ```
 
-3) Reload the page and check the console - things look pretty good here:
+3) Reload the page and check the console to see the values of the properties of the `Region` instances - things look pretty good here (with ONE exception, the values in the `data` array are of data type `String`, not `Number` like we might need them to be:
 
 <hr>
 
@@ -159,7 +159,7 @@ function dataLoaded(string){
 
 <hr>
 
-- and here (I put in a breakpoint to check the values of `index` and `dates`:
+- and here I put in a breakpoint to check the values of `index` and `dates` - note that `dates` has a length of `81` and `index` has a value of `80` (which is the last element in the array):
 
 <hr>
 
@@ -167,10 +167,15 @@ function dataLoaded(string){
 
 <hr>
 
-4) But when you scroll down to line XXX (where we had the extra comma contained in the quotes) there are issues: 
+4) But when you scroll down to element 143 (where we had the extra comma contained in the quotes) there are issues: 
+
+    - the `data` array's first value is wrong
+    - the `latitude` value is wrong
+    - this is because of the "extra comma" problem
+    - but we can solve this - the reason that the extra comma only appears when contained in quotes, is so that it is easier for us to write code to ignore commas that appear within quotes
 
 <hr>
 
-![screenshot](./_images/_map-images/virus-map-7.jpg)
+![screenshot](./_images/_map-images/virus-map-8.jpg)
 
 <hr>
