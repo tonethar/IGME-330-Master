@@ -51,19 +51,19 @@ let geojson = {
 
 <hr>
 
-  - each row (except the first) represents a ***record*** of each country’s Coronavirus cases. 
-  - each comma separated value is a ***field*** of that record
-  - the first row of the spreadsheet represents the ***titles*** of these fields
-  - the first 4 values in the first row tell us that the first 4 columns represent the:
-    - "Province or State"
-    - "Country or Region"
-    - "Latitude"
-    - "Longitude"
-  - The 5th column and onward represent dates
-  - The values of each column represent the number of COVID-19 cases that were diagnosed for that country on a particular date. 
-  - For example, the New South Wales territory of Australia had zero diagnosed cases as of 1/22/20, and had 3 cases on 1/26/20
+    - each row (except the first) represents a ***record*** of each country’s Coronavirus cases. 
+    - each comma separated value is a ***field*** of that record
+    - the first row of the spreadsheet represents the ***titles*** of these fields
+    - the first 4 values in the first row tell us that the first 4 columns represent the:
+      - "Province or State"
+      - "Country or Region"
+      - "Latitude"
+      - "Longitude"
+    - The 5th column and onward represent dates
+    - The values of each column represent the number of COVID-19 cases that were diagnosed for that country on a particular date. 
+    - For example, the New South Wales territory of Australia had zero diagnosed cases as of 1/22/20, and had 3 cases on 1/26/20
 
-4) You might find the data easier to read in a Spreadsheet. Below we have opened up the same file in Excel:
+4) You might find the data easier to read when it is formatted as a spreadsheet. Below we have opened up the same file in Excel:
 
 <hr>
 
@@ -73,23 +73,23 @@ let geojson = {
 
 5) Inspecting and "Cleaning" our data
 
-  - Note how although it’s the same data, it is now nicely laid out in rows and columns.
-  - If we scroll down spreadsheet and look at all the data, we can get a sense of its structure, and if there are any missing or odd values:
-    - note that the "Province/State" field is blank for most of the entries - for example, the "US" data (row 227) is for the entire country, and no "Province/State" value is given. Contrast this with the "United Kingdom" values (rows 219-225) where 6 of the 7 rows have values for "Province/State" 
-    - so the "Province/State" field is the only one with missing values, the other fields always have a value
-    - later on when we write our JS code to load and parse this spreadsheet, we’ll need to keep these missing values in mind
-  - Now let’s look over the “raw” data again by heading back to the text editor:
-    - scroll down the line #145 (`,"Korea, South", …`) and note that there is a comma contained in the quotes, and that the same line in the Excel spreadsheet is missing (not displaying) the quotes. Line #258 has the same issue.
-    - This extra comma contained in the quotes will cause problems later when we use JS to load and parse the spreadsheet
-    - To fix this issue, we COULD edit the CSV file to get rid of these extra quotes (which is "cleaning" your data
-    - But because this CSV data is getting updated every day that would mean that we would have to "clean" the file every day
-    - So what we will do instead is to make sure that our loading/parsing JavaScript can handle the "empty field" and "extra commas in quotes" issues
+    - Note how although it’s the same data, it is now nicely laid out in rows and columns.
+    - If we scroll down spreadsheet and look at all the data, we can get a sense of its structure, and if there are any missing or odd values:
+      - note that the "Province/State" field is blank for most of the entries - for example, the "US" data (row 227) is for the entire country, and no "Province/State" value is given. Contrast this with the "United Kingdom" values (rows 219-225) where 6 of the 7 rows have values for "Province/State" 
+      - so the "Province/State" field is the only one with missing values, the other fields always have a value
+      - later on when we write our JS code to load and parse this spreadsheet, we’ll need to keep these missing values in mind
+    - Now let’s look over the “raw” data again by heading back to the text editor:
+      - scroll down the line #145 (`,"Korea, South", …`) and note that there is a comma contained in the quotes, and that the same line in the Excel spreadsheet is missing (not displaying) the quotes. Line #258 has the same issue.
+      - This extra comma contained in the quotes will cause problems later when we use JS to load and parse the spreadsheet
+      - To fix this issue, we COULD edit the CSV file to get rid of these extra quotes (which is "cleaning" your data
+      - But because this CSV data is getting updated every day that would mean that we would have to "clean" the file every day
+      - So what we will do instead is to make sure that our loading/parsing JavaScript can handle the "empty field" and "extra commas in quotes" issues
 
 <hr>
 
 ## III. Load the CSV file
 
-- Now let’s load in the CSV data
+  - Now let's load in the CSV data
 
 1) Go ahead and make a copy of **rit-coffee-finder/src/ajax.js**  and put it into **virus-map/src**
 
