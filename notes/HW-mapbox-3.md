@@ -173,9 +173,10 @@ function dataLoaded(string){
 
 4) But when you scroll down to element 143 (where we had the extra comma contained in the quotes) there are issues: 
 
+    - `.countryOrRegion` has an extra quote, that can't be good
     - the `data` array's first value is wrong
     - the `latitude` value is wrong
-    - this is because of the "extra comma" problem
+    - this is because of the "extra comma" problem!
     - but we can solve this - the reason that the extra comma only appears when contained in quotes, is so that it is easier for us to write code to ignore commas that appear within quotes
 
 <hr>
@@ -200,7 +201,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
 <hr>
  
- 6) Reload the page and check the log, you should see the issue is fixed:
+ 6) Reload the page and check the log, you should see the issues are fixed:
      - although there is one small issue with `.countryOrRegion` - an extra space after the dash. The marker HTML will hide this (so we're going to be lazy and let it ride) - but go ahead and fix that later on if you want to 
      
      
