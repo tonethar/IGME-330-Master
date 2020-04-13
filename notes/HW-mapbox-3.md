@@ -296,10 +296,21 @@ function dataLoaded(string){
 
 5) Reload the page, you should now have a world map with 264 clickable markers on the map!
 
+    - Note that the marker popups are currently displaying the *most recent* (i.e. the last date in the array) Coronavirus figures
+
 <hr>
 
 ![screenshot](./_images/_map-images/virus-map-15.jpg)
 
 <hr>
 
-6) 
+## VIII. Create a Mapbox layer
+
+
+<hr>
+
+## IX. Add controls to change the current date
+
+<hr><hr>
+
+**[Previous Chapter <- Mapbox Part II](HW-mapbox-2.md)**
