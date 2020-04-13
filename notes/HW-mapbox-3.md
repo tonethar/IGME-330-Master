@@ -251,7 +251,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
 ## VII. Create markers
 
-    - Now that our data is loaded, parsed, and "cleaned", we can finally get some markers on the map!
+- Now that our data is loaded, parsed, and "cleaned", we can finally get some markers on the map!
 
 1) Here's our implementation of `makeGeoJSON()`:
 
