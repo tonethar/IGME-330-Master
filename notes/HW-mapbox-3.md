@@ -182,7 +182,10 @@ function dataLoaded(string){
 
 5) Here's the fix - with an assist from SO - see the code below:
    
-    - And here is the regex for your copy/paste pleasure:
+    - And here is the regex for your copy/paste pleasure
+    - Reference:
+      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+      - https://regex101.com
     
 ```js
 // https://stackoverflow.com/questions/26664371/remove-more-than-one-comma-in-between-quotes-in-csv-file-using-regex?rq=1
