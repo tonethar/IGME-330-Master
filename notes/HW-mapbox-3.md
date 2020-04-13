@@ -51,7 +51,7 @@ let geojson = {
 
 <hr>
 
-4) Unlike HTML & XML, the data lacks *semantics* and not is not tagged in any way, other than the fact that the first row of the CSV file gives us the "title" each column
+4) Unlike HTML & XML, the data lacks *semantics* and not is not tagged in any way, other than the fact that the first row of the CSV file gives us the "title" for each column
     - each row (except the first) represents a ***record*** of each country’s Coronavirus cases. 
     - each comma separated value is a ***field*** of that record, and will be represented as a **column** when it is loaded into a spreadsheet (see below)
     - the first row of the spreadsheet represents the ***titles*** of these fields
