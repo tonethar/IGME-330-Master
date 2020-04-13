@@ -334,3 +334,5 @@ function setupUI(){
 
 **[Previous Chapter <- Mapbox Part I](HW-mapbox-1.md)**
 
+**[Next Chapter -> Mapbox Part III](HW-mapbox-3.md)**
+
