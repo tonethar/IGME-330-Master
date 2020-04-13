@@ -75,7 +75,7 @@ let geojson = {
 6) Inspecting and "Cleaning" our data
 
     - Note above how although it’s the same data, it is now nicely laid out in rows and columns.
-    - If we scroll down spreadsheet and look at all the data, we can get a sense of its structure, and if there are any missing or odd values:
+    - If we scroll down the spreadsheet and look at all the data, we can get a sense of its structure, and if there are any missing or odd values:
       - note that the "Province/State" field is blank for most of the entries - for example, the "US" data (row 227) is for the entire country, and no "Province/State" value is given. Contrast this with the "United Kingdom" values (rows 219-225) where 6 of the 7 rows have values for "Province/State" 
       - so the "Province/State" field is the only one with missing values, the other fields always have a value
       - later on when we write our JS code to load and parse this spreadsheet, we’ll need to keep these missing values in mind
