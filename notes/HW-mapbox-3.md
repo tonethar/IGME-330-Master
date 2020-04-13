@@ -232,7 +232,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 
 <hr>
       
- 2) Test it to be sure that it works - the array values should now be numbers, not strings:
+ 2) Test it to be sure that it works as before - and with the added benefit that the values in the `data` array should now be of type `Number`, not `String`:
  
  <hr>
  
