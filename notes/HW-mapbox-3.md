@@ -129,4 +129,4 @@ let geojson = {
 
 ## V. Parse the CSV file
 
-1) Here's our first version of the function that’s going to parse the loaded CSV file - `parseData()`:
+1) Here's our first version of the function that’s going to parse the loaded CSV file - `parseCSV()`:
