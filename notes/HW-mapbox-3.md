@@ -123,7 +123,7 @@ let geojson = {
 
 
 
-2) Don't forget to import the **classes.js** module at the top of **main.js**
+2) Don't forget to `import` the **classes.js** module at the top of **main.js**
 
 <hr>
 
