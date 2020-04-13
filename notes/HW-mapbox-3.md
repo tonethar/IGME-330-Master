@@ -121,9 +121,9 @@ let geojson = {
 
 ![screenshot](./_images/_map-images/virus-map-4.jpg)
 
+2) Don't forget to `export` **Region** at the *bottom* of **classes.js**
 
-
-2) Don't forget to `import` the **classes.js** module at the top of **main.js**
+3) Don't forget to `import` the **classes.js** module at the *top* of **main.js**
 
 <hr>
 
