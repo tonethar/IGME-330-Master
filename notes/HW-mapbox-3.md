@@ -202,7 +202,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 <hr>
  
  6) Reload the page and check the log, you should see the issues are fixed:
-     - although there is one small issue with `.countryOrRegion` - an extra space after the dash. The marker HTML will hide this (so we're going to be lazy and let it ride) - but go ahead and fix that later on if you want to 
+     - although there is one small issue with `.countryOrRegion` - an extra space after the dash. The marker HTML will hide this - because web browsers will ignore extra space characters after the first one - so we're going to be lazy and let it ride - but go ahead and fix that later on if you want to ...
      
      
 <hr>
