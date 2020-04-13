@@ -114,11 +114,12 @@ let geojson = {
 
 1) Now we are going to create an ES6 class - **Region** - to help organize and validate our data:
     - our first attempt looks like this ...
-    - and it's going to go in a new file named **classes.js** in the **src** folder:
+    - and it's going to go in a new file named **classes.js** in the **src** folder ...
+    - recall that the first 4 fields of each row are the name of the region and its `latitude` and `longitude`, and the rest of the elements in each row is going to be a [time series](https://en.wikipedia.org/wiki/Time_series) - which is a sequence of data points in chronological order:
 
 ![screenshot](./_images/_map-images/virus-map-4.jpg)
 
-    - recall that the first 4 fields of each row are the name of the region and its latitude and longitude, and the rest of the elements in each row is going to be a [time series](https://en.wikipedia.org/wiki/Time_series) - which is a sequence of data points in chronological order
+
 
 2) Don't forget to import the **classes.js** module at the top of **main.js**
 
@@ -126,4 +127,4 @@ let geojson = {
 
 ## V. Parse the CSV file
 
-1) Here’s our first version of the function that’s going to parse the loaded CSV file - `parseData()`:
+1) Here's our first version of the function that’s going to parse the loaded CSV file - `parseData()`:
