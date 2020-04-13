@@ -240,7 +240,7 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
  
  <hr>
  
- 3) One issue remaining though - how about we convert `latitude` and `longitude` to the `Number` type above - we'll let you do that on your own. There's a somewhat complicated "one-liner" approach using the *spread operator*, or you can just add 2 lines of code to the constructor:
+ 3) One issue remaining though - how about we convert `latitude` and `longitude` to the `Number` type above. There's a somewhat complicated "one-liner" approach using the *spread operator* - we'll let you do that on your own.  Rr you can just add 2 lines of code to the constructor:
  
  ```js
  this.latitude = +this.latitude; 
