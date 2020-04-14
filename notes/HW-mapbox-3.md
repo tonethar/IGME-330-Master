@@ -483,6 +483,7 @@ function updateGeoJSON(geojson){
   for (let feature of geojson.features){
     const numCases = feature.properties.allCases[index];
     feature.properties.numCases = numCases;
+    feature.properties.description = numCases + " cases";
   }
 	
   // 2 - tell the map to reload the data, which will cause the symbol layer to refresh
