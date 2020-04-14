@@ -548,7 +548,7 @@ function removeAllMarkers(){
 
 <hr>
 
-15) Test it. Now the layer and the maker numbers should match!
+15) Test it. Now the layer and the marker numbers should match!
 
 <hr>
 
@@ -558,7 +558,7 @@ function removeAllMarkers(){
 
 ## X. Submission
 
-- Create a **map.js** module, and move all the map-related code to it, if you want to
+- Optionally, create a **map.js** module, and move all the map-related code to it, if you want to.
 - ZIP and POST to mycourses
 
 <hr><hr>
