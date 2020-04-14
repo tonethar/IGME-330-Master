@@ -544,6 +544,20 @@ function removeAllMarkers(){
 
 14) Call `addMarkersToMap(geojson);` at the bottom of the `dateSelect.onchange=...` code
 
+<hr>
+
+15) Test it. Now the layer and the maker numbers should match!
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-19.jpg)
+
+<hr>
+
+## X. Submission
+
+- Create a **map.js** module, and move all the map-related code to it, if you want to
+- ZIP and POST to mycourses
 
 <hr><hr>
 
