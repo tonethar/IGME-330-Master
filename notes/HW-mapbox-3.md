@@ -432,7 +432,31 @@ p{
 3) Implement `setupUI()`:
 
 ```js
-
+function setupUI(){
+	// 1 - clear out the <select>
+	dateSelect.innerHTML = "";
+	
+	// 2 - loop through `dates` array
+	for (let d of dates){
+		// add an <option> for each date
+		let option = document.createElement("option");
+		option.innerText = d;
+		dateSelect.appendChild(option);
+	}
+	
+	// 3 - make the last date the selected one
+	dateSelect.lastChild.selected = "selected"; // show last date
+	
+	// 4 - when the <select> is changed ...
+	dateSelect.onchange = e => {
+		// get the value (the text, in this case) of the current <option>
+		let value = e.target.value.trim();
+		
+		// look for that value in the `dates` array
+		index = dates.findIndex(el => el.trim() == value);
+		console.log(`index is now ${index}`);
+	};
+}
 ```
 
 <hr>
