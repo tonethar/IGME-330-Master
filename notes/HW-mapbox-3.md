@@ -392,8 +392,8 @@ function createLayers(){
 
 ```html
 <div id="controls">
-	<p>Choose a date to see<br>the # of diagnosed<br>COVID-19 cases</p>
-	<select id="dateSelect"><option>???</option></select>
+  <p>Choose a date to see<br>the # of diagnosed<br>COVID-19 cases</p>
+  <select id="dateSelect"><option>???</option></select>
 </div>
 ```
 
@@ -403,26 +403,25 @@ function createLayers(){
 
 ```css
 #controls{
-	position: absolute;
-	z-index: 1;
-	top: 20px;
-	left: 20px;
-	width:130px;
-	height:100px;
-	background-color: lightgray;
-	transition: background .5s ease-in-out;
-	filter: blur(1px);
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  width:130px;
+  height:100px;
+  background-color: #FFF;
+  border: 1px solid black;
 }
 
 #dateSelect{
-	margin: 5px 0 0 5px;
+  margin: 5px 0 0 5px;
 }
 
 p{
-	font-weight:bold;
-	margin: 5px 0 0 5px;
-	font-size: 12px;
-	font-family: sans-serif;
+  font-weight:bold;
+  margin: 5px 0 0 5px;
+  font-size: 12px;
+  font-family: sans-serif;
 }
 ```
 
