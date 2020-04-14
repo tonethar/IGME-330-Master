@@ -427,7 +427,19 @@ p{
 
 <hr>
 
-3) 
+3) Implement `setupUI()`:
+
+```js
+
+```
+
+<hr>
+
+4) Call `setupUI()` from the bottom of `loadData()`
+
+<hr>
+
+5) 
 
 <hr><hr>
 
