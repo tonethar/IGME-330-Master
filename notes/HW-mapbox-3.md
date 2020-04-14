@@ -475,9 +475,34 @@ function setupUI(){
 
 <hr>
 
-6) 
+6) Now we are going to update the `numCases` property of our `geojson` - go ahead and implement this method in **main.js**
 
+```js
+function updateGeoJSON(geojson){
+  // 1 - loop through array of features and update `numCases` to reflect current date
+  for (let feature of geojson.features){
+    const numCases = feature.properties.allCases[index];
+    feature.properties.numCases = numCases;
+  }
+	
+  // 2 - tell the map to reload the data, which will cause the symbol layer to refresh
+  map.getSource('cases').setData(geojson);
+}
+```
 
+<hr>
+
+7) Now call `updateGeoJSON(geojson);` at the bottom on the `dateSelect.onchange` code
+
+8) Reload the page, and change the vlaue of the select, the visible number of cases should change!
+
+9) Almost there! But there's just one problem:
+    - the case numbers ARE changing on the symbol layer, BUT ...
+    - the case numbers ARE NOT changing when you click and get the popover text
+    - WHY? Because the markers have been created with old `geojson` data, and are not "bound" to the `geojson` object
+    - SOLUTION: Whenever the value of the &lt;select> changes, wipe out the old markers and create new ones
+ 
+10) 
 
 <hr>
 
