@@ -307,8 +307,82 @@ function dataLoaded(string){
 
 ## VIII. Create a Mapbox layer
 
+1) Here is the `createLayers()` code that you can put in **main.js** - it's here for your copy/paste pleasure - be sure to ready the comments!
+
+```js
+function createLayers(){
+	// https://docs.mapbox.com/mapbox-gl-js/api/#map#loaded
+	if(map.loaded()){
+		addCircleAndTextLayers();
+	}else{
+		map.on('load',addCircleAndTextLayers);
+	}
+	
+	function addCircleAndTextLayers() {
+		// 1 - here we "bind" the map to our `geojson` data
+		// later on when we change `geojson` data to point at a different date, we will
+		// be able to easily tell the map to refresh itself and display the new data
+		map.addSource('cases', {
+			type: 'geojson',
+			data: geojson
+		});
+	
+	
+		// 2 - the first layer we are adding is of the `circle` type
+		// https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#circle
+		// other layer types include "background", "fill", "symbol" and "heatmap"
+		// here we are drawing "ornamental" red circles, all of the same size
+		// but we could also vary the size of the circles based on number of cases
+		// note our use of the "paint" property below
+		map.addLayer({
+			id: 'cases-circle',
+			type: 'circle',
+			source: 'cases',
+			minzoom: 3,
+			'paint': {
+				'circle-radius' : 18,
+				'circle-color': '#ff0000',
+				'circle-stroke-color': 'white',
+				'circle-stroke-width': 0,
+				'circle-opacity': 0.1,
+				'circle-translate': [1,-4], // [x,y]
+			},
+		}); // end circle layer code
+	
+	
+	  // 3 - the second layer is a "symbol" layer that let's us draw text - here the 
+	  // number of diagnosed cases
+	  // Note that we are specifying both "paint" properties and "layout" properties
+	  // https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#symbol
+	  // https://docs.mapbox.com/help/glossary/layout-paint-property/
+		map.addLayer({
+			id: 'num-cases-text',
+			type: 'symbol',
+			source: 'cases',
+			'paint': {
+				'text-color' : 'red',
+				'text-translate' : [0,-29] // [x,y]
+			},
+			'layout':{
+				'text-field': ['get','numCases'], // this is grabbing `feature.properties.numCases`
+			}
+		}); // end text layer code
+		
+  } // end inner function `addCircleAndTextLayers()`
+  
+} // end function `createLayers()`
+```
+<hr>
+
+2) Reload the page - you should see the red circles and the current `numCases` count for the most recent date:
 
 <hr>
+
+![screenshot](./_images/_map-images/virus-map-16.jpg)
+
+<hr>
+
+
 
 ## IX. Add controls to change the current date
 
