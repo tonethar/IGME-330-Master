@@ -439,7 +439,20 @@ p{
 
 <hr>
 
-5) 
+5) Reload the page - you should see the &lt;select> on the upper-left side of the screen, the latest date of the spreadsheet should be the one that is visible, and when you change the value of the select, the `index` of that value should be displayed
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-17.jpg)
+
+<hr>
+
+6) 
+
+
+
+<hr>
+
 
 <hr><hr>
 
