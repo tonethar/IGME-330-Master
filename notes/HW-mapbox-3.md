@@ -203,7 +203,9 @@ const regex = /,(?!(([^"]*"){2})*[^"]*$)/;
 <hr>
  
  6) Reload the page and check the log, you should see the issues are fixed:
-     - although there is one small issue with `.countryOrRegion` - an extra space after the dash. The marker HTML will hide this - because web browsers will ignore extra space characters after the first one - so we're going to be lazy and let it ride - but go ahead and fix that later on if you want to ...
+     - although there is one small issue with `.countryOrRegion` - an extra space after the dash
+     - the marker HTML will hide this - because web browsers will ignore extra space characters after the first one
+     - so we're going to be lazy and let it ride - but go ahead and fix that later on if you want to ...
      
      
 <hr>
@@ -439,7 +441,9 @@ p{
 
 <hr>
 
-5) Reload the page - you should see the &lt;select> on the upper-left side of the screen, the latest date of the spreadsheet should be the one that is visible, and when you change the value of the select, the `index` of that value should be displayed
+5) Reload the page - you should see the &lt;select> on the upper-left side of the screen:
+    - the latest date of the spreadsheet should be the one that is visible
+    - when you change the `value` of the select, the `index` of that `value` in the `dates` array should be displayed
 
 <hr>
 
