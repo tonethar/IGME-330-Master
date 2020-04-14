@@ -492,9 +492,15 @@ function updateGeoJSON(geojson){
 
 <hr>
 
-7) Now call `updateGeoJSON(geojson);` at the bottom on the `dateSelect.onchange` code
+7) Now call `updateGeoJSON(geojson);` at the bottom on the `dateSelect.onchange=...` code
 
-8) Reload the page, and change the vlaue of the select, the visible number of cases should change!
+8) Reload the page, and change the value of the select, the visible number of cases should change!
+
+<hr>
+
+![screenshot](./_images/_map-images/virus-map-18.jpg)
+
+<hr>
 
 9) Almost there! But there's just one problem:
     - the case numbers ARE changing on the symbol layer, BUT ...
@@ -502,9 +508,34 @@ function updateGeoJSON(geojson){
     - WHY? Because the markers have been created with old `geojson` data, and are not "bound" to the `geojson` object
     - SOLUTION: Whenever the value of the &lt;select> changes, wipe out the old markers and create new ones
  
-10) 
+10) To clear the markers, we first need to keep track of them. Go ahead and declare a new `markers` array at the top of **main.js** in module scope:
+
+```js
+let markers = [];
+```
+
+11) Modify `addMarker()` to look like this:
+
+![screenshot](./_images/_map-images/virus-map-19.jpg)
 
 <hr>
+
+12) Implement a `removeAllMarkers()` function:
+
+```js
+function removeAllMarkers(){
+  for(let m of markers){
+    m.remove();
+  }
+  markers = [];
+}
+```
+
+<hr>
+
+13) Call `removeAllMarkers();` at the top of `addMarkersToMap()`
+
+14) Call `addMarkersToMap(geojson);` at the bottom of the `dateSelect.onchange=...` code
 
 
 <hr><hr>
