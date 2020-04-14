@@ -388,6 +388,48 @@ function createLayers(){
 
 ## IX. Add controls to change the current date
 
+1) Here is the HTML:
+
+```html
+<div id="controls">
+	<p>Choose a date to see<br>the # of diagnosed<br>COVID-19 cases</p>
+	<select id="dateSelect"><option>???</option></select>
+</div>
+```
+
+<hr>
+
+2) Here is the CSS:
+
+```css
+#controls{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 20px;
+	width:130px;
+	height:100px;
+	background-color: lightgray;
+	transition: background .5s ease-in-out;
+	filter: blur(1px);
+}
+
+#dateSelect{
+	margin: 5px 0 0 5px;
+}
+
+p{
+	font-weight:bold;
+	margin: 5px 0 0 5px;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+```
+
+<hr>
+
+3) 
+
 <hr><hr>
 
 **[Previous Chapter <- Mapbox Part II](HW-mapbox-2.md)**
