@@ -495,6 +495,8 @@ function updateGeoJSON(geojson){
 
 7) Now call `updateGeoJSON(geojson);` at the bottom on the `dateSelect.onchange=...` code
 
+<hr>
+
 8) Reload the page, and change the value of the select, the visible number of cases should change!
 
 <hr>
@@ -508,7 +510,9 @@ function updateGeoJSON(geojson){
     - the case numbers ARE NOT changing when you click and get the popover text
     - WHY? Because the markers have been created with old `geojson` data, and are not "bound" to the `geojson` object
     - SOLUTION: Whenever the value of the &lt;select> changes, wipe out the old markers and create new ones
- 
+
+<hr>
+
 10) To clear the markers, we first need to keep track of them. Go ahead and declare a new `markers` array at the top of **main.js** in module scope:
 
 ```js
@@ -535,6 +539,8 @@ function removeAllMarkers(){
 <hr>
 
 13) Call `removeAllMarkers();` at the top of `addMarkersToMap()`
+
+<hr>
 
 14) Call `addMarkersToMap(geojson);` at the bottom of the `dateSelect.onchange=...` code
 
