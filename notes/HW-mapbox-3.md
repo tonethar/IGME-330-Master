@@ -374,7 +374,9 @@ function createLayers(){
 ```
 <hr>
 
-2) Reload the page - you should see the red circles and the current `numCases` count for the most recent date:
+2) Now call `createLayers()` right after `addMarkersToMap()` in `loadData()`
+
+3) Reload the page - you should see both the red circles layer, and the symbol layer showing the current `numCases` count for the most recent date:
 
 <hr>
 
