@@ -550,7 +550,7 @@ function removeAllMarkers(){
 
 <hr>
 
-![screenshot](./_images/_map-images/virus-map-19.jpg)
+![screenshot](./_images/_map-images/virus-map-20.jpg)
 
 <hr>
 
