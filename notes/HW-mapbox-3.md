@@ -519,6 +519,8 @@ function updateGeoJSON(geojson){
 let markers = [];
 ```
 
+<hr>
+
 11) Modify `addMarker()` to look like this:
 
 ![screenshot](./_images/_map-images/virus-map-19.jpg)
