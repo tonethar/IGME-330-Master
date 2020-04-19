@@ -225,7 +225,7 @@ let numParticipants = process.argv[2] || 1; // 1 will be the default
 
 ### D. Make the script an executable tool (and not have to type `node` first)
 
-- make **index.js** *executable* by typing (only required in Unix land, you don't need to do this on Windoze):
+- make **index.js** *executable* by typing (only required in Unix land, you don't need to do this on Windows):
 
     ```
     chmod +x index.js
