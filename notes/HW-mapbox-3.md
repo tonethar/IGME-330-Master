@@ -563,6 +563,8 @@ function removeAllMarkers(){
 
 <hr>
 
+<a id="optional" />
+
 ## XI. Optional: change how the circles are drawn
 
 - Rather than drawing fixed-size red circles with a radius of 19 pixels, we can correlate both the `circle-color` and the `circle-radius` of the circles to the number of diagnosed cases for that country
@@ -612,7 +614,7 @@ map.addLayer({
 
 - It should look like this when you are done:
 
-<hr><hr>
+<hr>
 
 ![screenshot](./_images/_map-images/virus-map-21.jpg)
 
