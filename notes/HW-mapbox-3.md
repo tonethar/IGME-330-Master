@@ -584,14 +584,14 @@ map.addLayer({
 	'circle-radius': {
 			property: 'numCases',
 			stops: [
-				[0, 18], 	// if there are 0 cases, the circle radius is 18
+				[0, 18],  // if there are 0 cases, the circle radius is 18
 				[50, 25], // if there are 50 cases, the circle radius is 25
 				[1000, 40], // if there are 1000 cases, the circle radius is 40
 				[10000, 50], // if there are 10000 or more cases, the circle radius is 50
 				/*
-					Between 0 & 50 cases, the radius of the circle will interpolate from 18 to 25
-					Between 50 & 1000 cases, the radius of the circle will interpolate from 25 to 40
-					Between 1000 & 10000 cases, the radius of the circle will interpolate from 40 to 50
+				Between 0 & 50 cases, the radius of the circle will interpolate from 18 to 25
+				Between 50 & 1000 cases, the radius of the circle will interpolate from 25 to 40
+				Between 1000 & 10000 cases, the radius of the circle will interpolate from 40 to 50
 				*/
 			]
 		},
@@ -603,8 +603,8 @@ map.addLayer({
 				[50, "#FFFF00"],// if there are 50 cases, the circle is yellow
 				[10000, "#FF0000"] // if there are 10000 or more cases, the circle is red
 				/*
-					Between 1 & 50 cases, the color of the circle will interpolate from gray to yellow
-					Between 50 & 10000 cases, the color of the circle will interpolate from yellow to red
+				Between 1 & 50 cases, the color of the circle will interpolate from gray to yellow
+				Between 50 & 10000 cases, the color of the circle will interpolate from yellow to red
 				*/
 			],
 		}
