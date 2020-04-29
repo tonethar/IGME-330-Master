@@ -66,8 +66,8 @@
 ## IV. What's left to do?
 
 - Right now this proxy server is only going to download info about "space alien westerns" books
-- So we need to write code to pass in a `q` parameter to the PHP script, which will contain a search term
-- You get to write the code for this (it's easy!) - look back at this exercise for review on how to grab the `$_GET` parameters from the query string:
+- So YOU need to write code to pass in a `q` parameter to the PHP script, which will contain a search term
+- It's easy! - look back at this exercise for review on how to grab the `$_GET` parameters from the query string:
   - [HW-php-web-service-4.md#query-string](./HW-php-web-service-4.md#query-string)
  - When you are done, your script should function like this, (note that it can handle the spaces in the "space romances unicorns" search term we used in the example):
  
