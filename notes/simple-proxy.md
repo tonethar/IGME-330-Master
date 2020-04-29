@@ -11,7 +11,8 @@
 - The google books API is free and easy to use - go check it out now - here we are passing in a `q` parameter with a value of `books`:
   - https://www.googleapis.com/books/v1/volumes?q=western
   - see the first screenshot below
-  - but there's one major issue with this web service - CORS is NOT turned on. We know this because the `Access-Control-Allow-Origin: *` header is missing (see the second screenshot below)
+- But there's one major issue with this web service - CORS is NOT turned on:
+  - we know this because the `Access-Control-Allow-Origin: *` header is missing (see the second screenshot below)
   
   <hr>
   
