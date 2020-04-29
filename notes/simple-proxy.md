@@ -47,5 +47,12 @@
   ?>
 ```
   
+<hr>
+
+- here's the working URL and a screenshot: https://people.rit.edu/acjvks/330/spring-2020/temp/google-books-proxy.php
+
+<hr>
   
-  
+![screenshot](_images/simple-proxy-server-3.jpg)
+
+<hr>
