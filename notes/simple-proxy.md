@@ -28,7 +28,7 @@
    
    ****
    
-   ```php
+```php
    <?php
 	  $q = "space alien westerns"; // hard-coded
 	  // Spaces are not allowed in URLS - so we need to write code to handle that issue
@@ -44,8 +44,8 @@
 	  header('content-type:application/json'); // tell the requestor that this is JSON
 	  header("Access-Control-Allow-Origin: *"); // turn on CORS so that our client doesn't have to be on banjo to use this proxy server
 	  echo $result;
-?>
-   ```
+  ?>
+```
   
   
   
