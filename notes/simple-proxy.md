@@ -13,7 +13,17 @@
   - see the first screenshot below
   - but there's one major issue with this web service - CORS is NOT turned on. We know this because the `Access-Control-Allow-Origin: *` header is missing (see the second screenshot below)
   
+  <hr>
+  
   ![screenshot](../_images/simple-proxy-server-1.jpg)
+  
+  <hr>
+  
+  ![screenshot](../_images/simple-proxy-server-1.jpg)
+   
+  <hr>
+   
+   ## III. 
   
   
   
