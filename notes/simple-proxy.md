@@ -7,6 +7,8 @@
 - what if the web service you have just uses plain old GET requests (where the web service parameters are encode in the query string) - how do you handle it?
 - much more simply! see below!
 
+<hr>
+
 ## II. The web service we need to download
 - The google books API is free and easy to use - go check it out now - here we are passing in a `q` parameter with a value of `books`:
   - https://www.googleapis.com/books/v1/volumes?q=western
@@ -24,9 +26,11 @@
    
   <hr>
    
-   ## III. Our Google Books Proxy Server
+ ## III. Our Google Books Proxy Server
    
-   ****
+   - Here is our proxy server - note how much simpler the PHP code compared to the code from [HW-php-web-service-5.md](./HW-php-web-service-5.md) that was used to download from the SHOUTIFY web service
+   
+**google-books-proxy.php**
    
 ```php
    <?php
@@ -54,5 +58,20 @@
 <hr>
   
 ![screenshot](_images/simple-proxy-server-3.jpg)
+
+<hr>
+
+   
+## IV. What's left to do?
+
+- Right now this proxy server is only going to download info about "space alien westerns" books
+- So we need to write code to pass in a `q` parameter to the PHP script, which will contain a search term
+- You get to write the code for this (it's easy!) - look back at this exercise for review on how to grab the `$_GET` parameters from the query string:
+  - https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-4.md#query-string
+ - When you are done, your script should function like this, (note that it can handle spaces in the search term):
+ 
+ <hr>
+  
+![screenshot](_images/simple-proxy-server-4.jpg)
 
 <hr>
