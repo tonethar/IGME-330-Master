@@ -39,7 +39,8 @@
 	  // in case the user of this script passes in a value with spaces
 	  // this next line of code will change any spaces that are passed into
 	  // the script into %20 - which is the hexadecimal for 32 - which is the 
-	  // ASCI value of a space
+	  // ASCI value of a space.
+	  // Try commenting out the `$q = rawurlencode($q);` line - you'll get an error
 	  // https://www.php.net/manual/en/function.rawurlencode.php
 	  $q = rawurlencode($q);
 	  $URL = "https://www.googleapis.com/books/v1/volumes?q=$q";
@@ -68,7 +69,7 @@
 - So we need to write code to pass in a `q` parameter to the PHP script, which will contain a search term
 - You get to write the code for this (it's easy!) - look back at this exercise for review on how to grab the `$_GET` parameters from the query string:
   - [HW-php-web-service-4.md#query-string](./HW-php-web-service-4.md#query-string)
- - When you are done, your script should function like this, (note that it can handle spaces in the search term):
+ - When you are done, your script should function like this, (note that it can handle the spaces in the "space romances unicorns" search term we used in the example):
  
  <hr>
   
