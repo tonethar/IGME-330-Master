@@ -15,11 +15,11 @@
   
   <hr>
   
-  ![screenshot](../_images/simple-proxy-server-1.jpg)
+  ![screenshot](_images/simple-proxy-server-1.jpg)
   
   <hr>
   
-  ![screenshot](../_images/simple-proxy-server-1.jpg)
+  ![screenshot](_images/simple-proxy-server-2.jpg)
    
   <hr>
    
