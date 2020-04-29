@@ -24,7 +24,28 @@
    
   <hr>
    
-   ## III. 
+   ## III. Our Google Books Proxy Server
+   
+   ****
+   
+   ```php
+   <?php
+	  $q = "space alien westerns"; // hard-coded
+	  // Spaces are not allowed in URLS - so we need to write code to handle that issue
+	  // in case the user of this script passes in a value with spaces
+	  // this next line of code will change any spaces that are passed into
+	  // the script into %20 - which is the hexadecimal for 32 - which is the 
+	  // ASCI value of a space
+	  // https://www.php.net/manual/en/function.rawurlencode.php
+	  $q = rawurlencode($q);
+	  $URL = "https://www.googleapis.com/books/v1/volumes?q=$q";
+	  $result = file_get_contents($URL, false);
+
+	  header('content-type:application/json'); // tell the requestor that this is JSON
+	  header("Access-Control-Allow-Origin: *"); // turn on CORS so that our client doesn't have to be on banjo to use this proxy server
+	  echo $result;
+?>
+   ```
   
   
   
