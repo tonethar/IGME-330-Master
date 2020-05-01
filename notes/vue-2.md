@@ -131,6 +131,22 @@ The basics are done here, but there is still some work left to get it functionin
       - note that the new version of the API requires a free API Key, but the old version (v1) linked below does not. Use whichever one works best for you
     - "Ticker" endpoint (ALL results by default): https://api.coinmarketcap.com/v1/ticker/
     - "Ticker" endpoint (with a `limit` parameter): https://api.coinmarketcap.com/v1/ticker/?limit=1
+
+<hr><hr>
+
+***UPDATE 4/30/2020***
+
+- If you don't want to deal with getting an API key, use this Cryptocurrency service instead:
+  - https://www.coingecko.com/api/documentations/v3
+  - the endpoint is here - open it up in Chrome with the JSONView plugin enabled and it will be nicely formatted:
+    - https://api.coingecko.com/api/v3/indexes
+    - in your code, grab these 4 properties `name`, `id`, `market`, and `last`
+    - see screenshot below
+    - see the "Hints" after that
+  
+![screenshot](./_images/vue-ajax-NEW.jpg)
+
+<hr><hr>
     - Hints:
       - you will be getting an array of object literals back from this web service, not just a single joke object literal. This means your `.result` will be an array of object literals , NOT a single object literal
       - use `v-for` to loop through the `.result`
