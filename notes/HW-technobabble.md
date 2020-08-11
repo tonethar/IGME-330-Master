@@ -75,3 +75,5 @@
 - What are the 3 distinct *layers* of a (simple) web browser app?
 - What are the 3 *languages* used to program these layers?
 - What does `"use strict";` do?
+- What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
+- What symbol does a CSS *id selector* start with?
