@@ -72,6 +72,6 @@
 
 ## IV. Review Questions
 
-- What are the 3 distict *layers* of a (simple) web browser app?
+- What are the 3 distinct *layers* of a (simple) web browser app?
 - What are the 3 *languages* used to program these layers?
 - What does `"use strict";` do?
