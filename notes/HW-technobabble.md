@@ -17,10 +17,11 @@
 
 ## II. Start Code
 
-- When constructing a JavaScript web app that runs in a web browser, we are usually using at least 3 distinct computer languages:
-  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) to determine the *structure* of the page, which includes text elements such as headings and paragraphs, as well as 
+- When constructing a JavaScript web app that runs in a web browser, we are usually using at least 3 distinct computer *languages*:
+  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - to determine the *structure* of the page, which includes text elements such as headings and paragraphs, as well as interactive elements such as buttons and text input fields
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - *presentation*
   - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - *behavior*
+  
 
 **technobabble-start.html**
 ```html
@@ -50,8 +51,13 @@
 </html>
 ```
 
+- go ahead and copy the above code and save it as a file to your desktop - name it **technobabble.html**  
 
 - https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 
 - "The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned."
+
+## III. Review Questions
+
+
