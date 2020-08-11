@@ -25,6 +25,7 @@
   - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - *behavior*
 - You can also think of these languages as tools to build three distinct *layers* of simple browser app
 - With a larger app, we would place the HTML, CSS, and JavaScript into their own separate files, but today we'll keep things simple and keep all of the HTML/CSS/JS code in a single file 
+- Go ahead and copy the following code and save it as a file to your desktop - name it **technobabble.html** 
   
 
 **technobabble-start.html**
@@ -54,8 +55,7 @@
 </body>
 </html>
 ```
-
-- go ahead and copy the above code and save it as a file to your desktop - name it **technobabble.html**  
+ 
 - load **technobabble.html** into a web browser (Chrome, Firefox, or Safari all work nicely), 
 - now confirm that everything is working by checking the console and verifying that the first element of `words1` has been logged out:
   - to open the developer console on Chrome, right-click in the window and choose Inspect, then find and click on the **Console** tab
