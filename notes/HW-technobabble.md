@@ -75,13 +75,7 @@
 
 <hr>
 
-## III. Discussion Links
-
-- https://love2dev.com/blog/javascript-strict-mode/
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
-- https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const
-
-## IV. Review Questions
+## III. Review Questions
 
 - What are the 3 distinct *layers* of a (simple) web browser app?
 - What are the 3 *languages* used to program these layers?
@@ -90,5 +84,9 @@
 - Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
 - What symbol does a CSS *id selector* always start with?
 
-## V. Reference
+## IV. Reference
+
+- https://love2dev.com/blog/javascript-strict-mode/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+- https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
