@@ -10,11 +10,11 @@
 - When the user clicks the button, they get to see some new *technobabble*
 - Here's a screenshot of the finished product:
 
-![screenshot](./_images/HW-technobabble-1.jpg)
+![screenshot](./_images/_technobabble/HW-technobabble-1.jpg)
 
 - We'll even make it look acceptable on mobile phone
 
-![screenshot](./_images/HW-technobabble-2.jpg)
+![screenshot](./_images/_technobabble/HW-technobabble-2.jpg)
 
 
 ## II. Start Code
@@ -61,7 +61,7 @@
   - to open the developer console on Chrome, right-click in the window and choose Inspect, then find and click on the **Console** tab
   - you should see the following:
 
-![screenshot](./_images/HW-technobabble-1.jpg)
+![screenshot](./_images/_technobabble/HW-technobabble-1.jpg)
 
 ## III. Discussion
 
