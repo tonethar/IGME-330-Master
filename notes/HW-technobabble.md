@@ -102,22 +102,24 @@
     - you could use the `onclick` [event handler](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
     - you could use [`eventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) and the [`click` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
 
-  	
+ <hr> 	
   
-
 ## IV. Review Questions
 
 - What are the 3 distinct *layers* of a (simple) web browser app?
 - What are the 3 *languages* used to program these layers?
-- What does `"use strict";` do?
+- List 3 things that `"use strict";` does?
 - What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
 - Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
-- What symbol does a CSS *id selector* always start with?
+- Which symbol does a CSS *id selector* always start with?
+
+<hr>
 
 ## V. Reference
 
-- https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+- https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const
 - https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
