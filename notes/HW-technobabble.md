@@ -90,7 +90,8 @@
       - For example, ideally there should be ONE call to [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), not three!
       - This conceot is often referred to as [D.R.Y. - "Don't repeat yourself"](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
   - #2 - How to string these three words together:
-    - you could use string *concatenation* (e.g. the overloaded `+` operator) OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+    - you could use string *concatenation* (e.g. the overloaded `+` operator)
+    - OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - #3 - How to update the `#output` paragraph element so that it displays the string of *technobabble**:
     - you can *select* this element with [`document.querySelector(https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)`]()
       - note that we won't be using [`document,getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), [`document.getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName) *et al.* in this course
