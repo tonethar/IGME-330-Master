@@ -57,7 +57,7 @@
 </head>
 <body>
 <p id="output">Loading...</p>
-<button id="button">More Technobabble!</button>
+<button id="myButton">More Technobabble!</button>
 	
 </body>
 </html>
