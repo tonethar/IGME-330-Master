@@ -68,7 +68,7 @@
   - to open the developer console on Chrome, right-click in the window and choose Inspect, then find and click on the **Console** tab
   - you should see the following:
 
-![screenshot](./_images/_technobabble/HW-technobabble-1.jpg)
+![screenshot](./_images/_technobabble/HW-technobabble-3.jpg)
 
 ## III. Discussion
 
