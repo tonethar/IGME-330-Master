@@ -75,7 +75,18 @@
 
 <hr>
 
-## III. Review Questions
+## III. Demo
+
+- Now we'll build this together - see the video link at the top of this page
+- Issues we'll need to tackle:
+  - How to get random elements out of the 3 arrays:
+    - **TIMTOWTDI** - pronounced *"Tim Toady"* - there is more than one way to do it: 
+      - https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
+      - https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it
+  - How to 
+  
+
+## IV. Review Questions
 
 - What are the 3 distinct *layers* of a (simple) web browser app?
 - What are the 3 *languages* used to program these layers?
@@ -84,7 +95,7 @@
 - Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
 - What symbol does a CSS *id selector* always start with?
 
-## IV. Reference
+## V. Reference
 
 - https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
