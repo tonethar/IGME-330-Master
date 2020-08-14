@@ -68,7 +68,7 @@
 - this doesn't do much yet, and the CSS is missing, but we'll rectify that soon
 - load **technobabble-start.html** into a web browser (Chrome, Firefox, or Safari all work nicely), 
 - now confirm that it is working by checking the console and verifying that the first element of the `words1` array has been logged out:
-  - to open the developer console on Chrome, right-click in the window and choose *Inspect*, then find and click on the **Console** tab
+  - to open the developer console on Chrome, right-click in the window and choose **Inspect**, then find and click on the **Console** tab
   - you should see the following:
 
 <hr>
