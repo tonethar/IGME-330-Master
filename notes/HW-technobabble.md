@@ -119,8 +119,8 @@
 - #6 - Which symbol does a CSS *id selector* always start with?
 - Now, go ahead and read this article about how the web browser downloads and renders HTML/CSS/JavaScript code into a web page:
   - https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/ 
-- and answer the following questions:
-  - #7 -
+  - and answer the following questions:
+- #7 -
   
 
 <hr>
