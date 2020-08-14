@@ -94,11 +94,11 @@
     - you could use string *concatenation* (e.g. the overloaded `+` operator)
     - OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - **#3** - How to update the `#output` paragraph element so that it displays the string of **technobabble**:
-    - you can *select* this element with [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    - you can *select* this paragraph element with [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
       - note that we won't be using [`document,getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), [`document.getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName) *et al.* in this course
     - to modify the text of this paragraph, the [`.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property of HTML elements will do the job
   - **#4** - How to get the `<button>` to call the above code when it is clicked
-    - you will need to select the button using `document.querySelector()`
+    - you will need to *select* the button using `document.querySelector()`
     - you could use the `onclick` [event handler](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
     - you could use [`eventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) and the [`click` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
 
