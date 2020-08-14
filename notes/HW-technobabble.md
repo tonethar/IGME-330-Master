@@ -80,7 +80,7 @@
 
 ## III. Demo
 
-- Now we'll build the *Technobabble Generator* together - see the video link at the top of this page
+- Now we'll build the *Technobabble Generator* together (see the video link at the top of this page)
 - What you SHOULD do first - is to go ahead and try to build it on your own - and then watch the video regardless of whether or not you were successful - to see how we wrote the code
 - Issues we'll need to tackle to get this working:
   - #1 - How to get random elements out of the 3 arrays:
@@ -94,7 +94,7 @@
     - you could use string *concatenation* (e.g. the overloaded `+` operator)
     - OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - #3 - How to update the `#output` paragraph element so that it displays the string of *technobabble**:
-    - you can *select* this element with [`document.querySelector(https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)`]()
+    - you can *select* this element with [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
       - note that we won't be using [`document,getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), [`document.getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName) *et al.* in this course
     - to modify the text of this paragraph, the [`.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property of HTML elements will do the job
   - #4 - 
