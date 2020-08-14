@@ -10,12 +10,19 @@
 - When the user clicks the button, they get to see some new *technobabble*
 - Here's a screenshot of the finished product:
 
+<hr>
+
 ![screenshot](./_images/_technobabble/HW-technobabble-1.jpg)
+
+<hr>
 
 - We'll even make it look acceptable on mobile phone
 
+<hr>
+
 ![screenshot](./_images/_technobabble/HW-technobabble-2.jpg)
 
+<hr>
 
 ## II. Start Code
 
