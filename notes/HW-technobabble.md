@@ -66,7 +66,7 @@
 - this doesn't do much yet, and the CSS is missing, but we'll rectify that soon
 - load **technobabble-start.html** into a web browser (Chrome, Firefox, or Safari all work nicely), 
 - now confirm that it is working by checking the console and verifying that the first element of the `words1` array has been logged out:
-  - to open the developer console on Chrome, right-click in the window and choose Inspect, then find and click on the **Console** tab
+  - to open the developer console on Chrome, right-click in the window and choose *Inspect*, then find and click on the **Console** tab
   - you should see the following:
 
 <hr>
@@ -77,13 +77,22 @@
 
 ## III. Demo
 
-- Now we'll build this together - see the video link at the top of this page
-- Issues we'll need to tackle:
-  - How to get random elements out of the 3 arrays:
-    - **TIMTOWTDI** - pronounced *"Tim Toady"* - there is more than one way to do it: 
+- Now we'll build the *Technobabble Generator* together - see the video link at the top of this page
+- What you SHOULD do first - is to go ahead and try to build it on your own - and then watch the video regardless of whether or not you were successful - to see how we wrote the code
+- Issues we'll need to tackle to get this working:
+  - #1 - How to get random elements out of the 3 arrays:
+    - **TIMTOWTDI** - pronounced *"Tim Toady"* - *there is more than one way to do it*: 
       - https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
       - https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it
-  - How to 
+  - #2 - How to string these three words together:
+    - you could use string *concatenation* (e.g. the overloaded `+` operator) OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+  - #3 - How to update the `#output` paragraph element so that it displays the string of *technobabble**:
+    - you can *select* this element with [`document.querySelector(https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)`]()
+      - note that we won't be using [`document,getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), [`document.getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName) *et al.* in this course
+    - to modify the text of this paragraph, the [`.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property of HTML elements will do the job
+  - #4 - 
+
+  	
   
 
 ## IV. Review Questions
@@ -100,4 +109,5 @@
 - https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const
+- https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
