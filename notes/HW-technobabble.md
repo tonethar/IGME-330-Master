@@ -8,8 +8,9 @@
 
 - Let's build a simple "Technobabble" JavaScript application:
   - What is *Technobabble*? --> https://www.youtube.com/watch?v=4RmKTAkNacw
-- When the app starts up, it gives us a random string of *technobabble*, pulled from 3 arrays
-- When the user clicks the button, they get to see some new *technobabble*
+- What the app does:
+  - When the app starts up, it gives us a random string of *technobabble*, pulled from 3 arrays
+  - When the user clicks the button, they get to see some new *technobabble*
 - Here's a screenshot of the finished product:
 
 <hr>
