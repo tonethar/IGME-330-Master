@@ -109,14 +109,14 @@
 
  <hr> 	
   
-## IV. Review Questions (and see Reference links below)
+## IV. Review Questions (from notes & video - reference links below will help too)
 
-- 1) What are the 3 distinct *layers* of a (simple) web browser app?
-- 2) What are the 3 *languages* used to program these layers?
-- 3) List 3 things that `"use strict";` does?
-- 4) What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
-- 5) Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
-- Which symbol does a CSS *id selector* always start with?
+- #1 - What are the 3 distinct *layers* of a (simple) web browser app?
+- #2 - What are the 3 *languages* used to program these layers?
+- #3 - List 3 things that `"use strict";` does?
+- #4 - What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
+- #5 - Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
+- #6 - Which symbol does a CSS *id selector* always start with?
 - Now, go ahead and read this article about how the web browser downloads and renders HTML/CSS/JavaScript code into a web page:
   - https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/
   - and answer the following questions:
