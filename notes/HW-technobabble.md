@@ -75,12 +75,11 @@
 
 <hr>
 
-## III. Discussion
+## III. Discussion Links
 
 - https://love2dev.com/blog/javascript-strict-mode/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
-
-- "The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned."
+- https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const
 
 ## IV. Review Questions
 
@@ -88,7 +87,8 @@
 - What are the 3 *languages* used to program these layers?
 - What does `"use strict";` do?
 - What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
-- What symbol does a CSS *id selector* start with?
+- Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
+- What symbol does a CSS *id selector* always start with?
 
 ## V. Reference
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
