@@ -83,21 +83,24 @@
 - Now we'll build the *Technobabble Generator* together (see the video link at the top of this page)
 - What you SHOULD do first - is to go ahead and try to build it on your own - and then watch the video regardless of whether or not you were successful - to see how we wrote the code
 - Issues we'll need to tackle to get this working:
-  - #1 - How to get random elements out of the 3 arrays:
+  - **#1** - How to get random elements out of the 3 arrays:
     - **TIMTOWTDI** - pronounced *"Tim Toady"* - *there is more than one way to do it*: 
       - https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
       - https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it
     - Once you have this working, can you accomplish this in such a way to avoid a lot of duplicated code?
       - For example, ideally there should be ONE call to [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), not three!
       - This conceot is often referred to as [D.R.Y. - "Don't repeat yourself"](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-  - #2 - How to string these three words together:
+  - **#2** - How to string these three words together:
     - you could use string *concatenation* (e.g. the overloaded `+` operator)
     - OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-  - #3 - How to update the `#output` paragraph element so that it displays the string of *technobabble**:
+  - **#3** - How to update the `#output` paragraph element so that it displays the string of **technobabble**:
     - you can *select* this element with [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
       - note that we won't be using [`document,getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), [`document.getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName) *et al.* in this course
     - to modify the text of this paragraph, the [`.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property of HTML elements will do the job
-  - #4 - 
+  - **#4** - How to get the `<button>` to call the above code when it is clicked
+    - you will need to select the button using `document.querySelector()`
+    - you could use the `onclick` [event handler](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
+    - you could use [`eventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) and the [`click` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
 
   	
   
