@@ -2,6 +2,8 @@
 
 - The walkthrough video for this assignment is here --> 
 
+<hr>
+
 ## I. Overview
 
 - Let's build a simple "Technobabble" JavaScript application:
