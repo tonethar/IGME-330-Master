@@ -86,6 +86,9 @@
     - **TIMTOWTDI** - pronounced *"Tim Toady"* - *there is more than one way to do it*: 
       - https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
       - https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it
+    - Once you have this working, can you accomplish this in such a way to avoid a lot of duplicated code?
+      - For example, ideally there should be ONE call to [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random), not three!
+      - This conceot is often referred to as [D.R.Y. - "Don't repeat yourself"](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
   - #2 - How to string these three words together:
     - you could use string *concatenation* (e.g. the overloaded `+` operator) OR JavaScript ES6 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - #3 - How to update the `#output` paragraph element so that it displays the string of *technobabble**:
