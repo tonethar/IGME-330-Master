@@ -77,3 +77,6 @@
 - What does `"use strict";` do?
 - What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
 - What symbol does a CSS *id selector* start with?
+
+## V. Reference
+- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
