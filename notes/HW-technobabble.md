@@ -133,12 +133,15 @@ V. [Reference](#reference)
 - #2 - What are the 3 *languages* used to program these layers?
 - #3 - List 3 things that `"use strict";` does?
 - #4 - What is accomplished by using the `const` declaration when declaring and initializing the three arrays of words?
-- #5 - Can elements be added and deleted from the `words1`, `words2`, and `words3` arrays?
-- #6 - Which symbol does a CSS *id selector* always start with?
-- Now, go ahead and read this article about how the web browser downloads and renders HTML/CSS/JavaScript code into a web page:
+- #5 - Note that we declared the `words1`, `words2`, and `words3` arrays with `const` -  can elements be added and/or deleted from these arrays?
+- #6 - Within JavaScript *template literals*, what goes inside the `${}`?
+- #7 - Which symbol does a CSS *id selector* always start with?
+- #8 - Using JS, what are two ways to detect that the page elements (i.e. DOM) have fully loaded?
+- #9 - What does an *event handler* - ex. `myButton.onclick=` - "point" at?
+- #10 - Give an example of following the software development **D.R.Y.** principle
+- Now, if you have time, you should go ahead and read this article about how the web browser downloads and renders HTML/CSS/JavaScript code into a web page:
   - https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/ 
-  - and answer the following questions:
-- #7 -
+  - no more questions!
   
 
 <hr>
