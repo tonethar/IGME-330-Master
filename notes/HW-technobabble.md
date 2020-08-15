@@ -101,12 +101,12 @@
     - you will need to *select* the button using `document.querySelector()`
     - you could use the `onclick` [event handler](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
     - you could use [`eventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) and the [`click` event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
-  - **#5** - Wait until the page loads before your JavaScript attempts to reference any elements on the page (e.g. the paragraph and button) 
+  - **#5** - **IMPORTNT** - your code must wait until the page loads before your JavaScript attempts to reference any elements on the page (e.g. the paragraph and button) 
     - you will run into this issue when attempting to complete #3 and #4 above
     - two solutions:
       - use [`window.onload`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload) or an event listener (listen for `load` or [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event)) to make sure that the "set up" code doesn't run until *after* the HTML on the page has fully loaded
       - **OR** move the `<script>` tag to the bottom of the `<body>` tag
-
+  - **#6** - Improve the CSS so that we get a better look on both desktop and mobile devices
  <hr> 	
   
 ## IV. Review Questions (from notes & video - reference links below will help too)
