@@ -1,8 +1,20 @@
 # HW - Technobabble Generator
 
-- The walkthrough video for this assignment is here --> 
+- ***The walkthrough video for this assignment is here -->***
+
+I. [Overview](#overview)
+
+II. [Start Code](#start-code)
+
+III. [Demo](#demo)
+
+IV. [Review Questions](#review-questions)
+
+V. [Reference](#reference)
 
 <hr>
+
+<a id="overview" />
 
 ## I. Overview
 
@@ -26,6 +38,8 @@
 ![screenshot](./_images/_technobabble/HW-technobabble-2.jpg)
 
 <hr>
+
+<a id="start-code" />
 
 ## II. Start Code
 
@@ -78,6 +92,8 @@
 
 <hr>
 
+<a id="demo" />
+
 ## III. Demo
 
 - Now we'll build the *Technobabble Generator* together (see the video link at the top of this page)
@@ -108,7 +124,9 @@
       - **OR** move the `<script>` tag to the bottom of the `<body>` tag
   - **#6** - Improve the CSS so that we get a better look on both desktop and mobile devices
  <hr> 	
-  
+ 
+ <a id="review-questions" />
+ 
 ## IV. Review Questions (from notes & video - reference links below will help too)
 
 - #1 - What are the 3 distinct *layers* of a (simple) web browser app?
@@ -124,6 +142,8 @@
   
 
 <hr>
+
+<a id="reference" />
 
 ## V. Reference
 
