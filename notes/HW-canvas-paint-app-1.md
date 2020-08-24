@@ -83,12 +83,14 @@
 
 ## IV. Adding another control
 
-- Go ahead and add another:
-  - dasd
-  - cascas
-- when you're done, it will look like this:
+- Go ahead and add another `<select>` that will allow the user to choose the **Fill Color** of a tool:
+  - give it an `id` of `chooserFillStyle`
+  - give it 3 `<option>` elements with values of "red", "green", and "blue"
+  - the "blue" option will be `selected` by default
+- It will look like this when you are done with parts III. & IV. above:
 
-![screenshot](_images/_canvas-paint-app/paint-app-3.jpg)
+![screenshot](_images/_canvas-paint-app/paint-app-3.png)
+  
 
 <hr>
 
