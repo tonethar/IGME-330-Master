@@ -24,7 +24,7 @@
     <script></script>
 	</head>
 <body>
-	<canvas id="mainCanvas">
+	<canvas id="mainCanvas" width="700" height="500">
 	Get a real browser!
   </canvas>
     
