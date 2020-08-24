@@ -2,13 +2,17 @@
 
 ## I. Overview
 
-- We're going to build a canvas paint app - it looks like this:
+- Over the next week or so, we're going to build a canvas paint app - it looks like this:
 
 ![screenshot](_images/_canvas-paint-app/paint-app-1.jpg)
 
 <hr>
 
 ## II. Start Code
+
+- Here's the HTML for your "copy/paste" pleasure!
+
+**canvas-paint.html**
 
 ```html
 <!DOCTYPE html>
@@ -70,6 +74,8 @@
 <hr>
 
 ## III. CSS
+
+- Here's the CSS for your typing pleasure!
 
 ![screenshot](_images/_canvas-paint-app/paint-app-2.jpg)
 
