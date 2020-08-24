@@ -1,4 +1,4 @@
-# HW - Canvas Paint App
+# HW - Canvas Paint App - Part I.
 
 ## I. Overview
 
@@ -68,7 +68,6 @@
 		
 </body>
 </html>
-
 ```
 
 <hr>
@@ -77,6 +76,23 @@
 
 - Here's the CSS for your typing pleasure!
 
-![screenshot](_images/_canvas-paint-app/paint-app-2.jpg)
+![screenshot](_images/_canvas-paint-app/paint-app-2.png)
 
 <hr>
+
+
+## IV. Adding another control
+
+- Go ahead and add another:
+  - dasd
+  - cascas
+- when you're done, it will look like this:
+
+![screenshot](_images/_canvas-paint-app/paint-app-3.jpg)
+
+<hr>
+
+## V. Get the *Export* button working
+
+- We need to write code that will convert the contents of the canvas to a PNG
+- It's kind of odd to do this first, because at this point there's not much 
