@@ -103,8 +103,8 @@
 ## VI. Get the *Export* button working
 
 - We need to write code that will convert the contents of the canvas to a PNG, and display it in a new browser window (or tab)
-- It's kind of odd to do this first, because at this point the canvas is blank
-- Here's the code that accompishes this - for your copy/paste pleasure:
+- It's kind of odd to do this *first*, because at this point the canvas is blank, but it's fairly easy to do
+- Here's the code that accomplishes this - for your copy/paste pleasure:
 
 ```js
 function doExport(){
@@ -118,12 +118,13 @@ function doExport(){
 
 - What other JavaScript must we write?
   - we need a `canvas` variable in what Chrome calls *script scope* (e.g. declared at the top of the `<script>` tag) - use the `let` keyword
-    - we need to wait until the page loads before we initialize this value - write an `init()` function that get calls when the page loads
+    - we need to wait until the page loads before we initialize this value - write an `init()` function that get called when the page loads
   - we need to get a reference to the "Export" `<button>`:
-    - we need to wait until the page loads before we initialize this value
+    - we need to wait until the page loads before we initialize this value - do so your `init()` function 
     - when the button is clicked, `doExport()` is called, you should get a new tab opening
-      - but it's blank! To be sure everything is working - put the following code in your `init()` function - it will draw a 100x100 black square that will be visible both in the canvas and in the exported PNG:
-      - `canvas.getContext("2d").fillRect(50,50,100,100);`
+      - but it's blank!
+      - to be sure everything is working - put the following code in your `init()` function - this code will draw a 100x100 black square that will be visible both in the canvas and in the exported PNG:
+        - `canvas.getContext("2d").fillRect(50,50,100,100);`
  
  <hr>
     
@@ -133,7 +134,7 @@ function doExport(){
  - What JavaScript must we write?
    - We'll need 4 *script scope* variables to keep track of these values - use `let` -  `currentTool`, `lineWidth` ,`strokeStyle` and `fillStyle`
    - Be sure to initialize these with default values
-   - Everytime the value of any of the four `<select>` elements is changed, update the `#info` paragraph with the value of all 4 of them
+   - Every time the value of any of the four `<select>` elements is changed, update the `#info` paragraph with the value of all 4 of them
  
  ![screenshot](_images/_canvas-paint-app/paint-app-4.jpg)
   
