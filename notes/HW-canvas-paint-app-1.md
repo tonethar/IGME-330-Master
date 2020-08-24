@@ -108,6 +108,7 @@
 
 ```js
 function doExport(){
+  // https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
   // https://www.w3schools.com/jsref/met_win_open.asp
   const data = canvas.toDataURL(); 
   const newWindow = window.open();
