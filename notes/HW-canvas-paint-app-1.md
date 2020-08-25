@@ -132,10 +132,12 @@ function doExport(){
  
  - When the value of any of the four `<select>` elements is changed, this value will be displayed in the `#info` paragraph
  - What JavaScript must we write?
-   - we'll need 4 *script scope* variables to keep track of these values - use `let` -  `currentTool`, `lineWidth` ,`strokeStyle` and `fillStyle`
-   - be sure to initialize these with default values
-   - every time the value of any of the four `<select>` elements is changed, update the `#info` paragraph with the value of all 4 of them
-   - a "helper function" named `updateInfo()` (or similar) will really help out
+   - we'll need 4 *script scope* variables to keep track of these values - use `let` to declare these variables -  `currentTool`, `lineWidth` ,`strokeStyle` and `fillStyle` 
+   - be sure to initialize these variables with default values
+   - every time the value of any of the four `<select>` elements is changed (HINT: the `onchange` event:
+     - update the value of the applicable variable
+     - update the `#info` paragraph with the value of all 4 variables
+   - HINT: a "helper function" named `updateInfo()` (or similar) will really help out
  - It will look like this when you are done with parts VI. & VII.
  
  ![screenshot](_images/_canvas-paint-app/paint-app-4.jpg)
