@@ -138,7 +138,7 @@ function doExport(){
      - update the value of the applicable variable
      - update the `#info` paragraph with the value of all 4 variables
    - HINT: a "helper function" named `updateInfo()` (or similar) will really help out
- - It will look like this when you are done with parts VI. & VII.
+ - It will look like this when you are done with parts VI. & VII. (see the `#info` paragraph on the bottom of the image)
  
  ![screenshot](_images/_canvas-paint-app/paint-app-4.jpg)
   
