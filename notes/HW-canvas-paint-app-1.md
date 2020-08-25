@@ -1,4 +1,4 @@
-# HW - Canvas Paint App - Part I.
+# HW - Canvas Paint App - Part 1
 
 ## I. Overview
 
