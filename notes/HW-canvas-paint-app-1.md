@@ -93,7 +93,7 @@
   - give it an `id` of `chooserFillStyle`
   - give it 3 `<option>` elements with values of "red", "green", and "blue"
   - the "blue" option will be `selected` by default
-- It will look like this when you are done with parts III. & IV. above:
+- It will look like this when you are done with parts III., IV. & V.
 
 ![screenshot](_images/_canvas-paint-app/paint-app-3.jpg)
   
@@ -136,6 +136,7 @@ function doExport(){
    - be sure to initialize these with default values
    - every time the value of any of the four `<select>` elements is changed, update the `#info` paragraph with the value of all 4 of them
    - a "helper function" named `updateInfo()` (or similar) will really help out
+ - It will look like this when you are done with parts VI. & VII.
  
  ![screenshot](_images/_canvas-paint-app/paint-app-4.jpg)
   
