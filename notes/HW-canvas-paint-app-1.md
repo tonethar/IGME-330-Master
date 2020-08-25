@@ -110,7 +110,7 @@ function doExport(){
   // https://www.w3schools.com/jsref/met_win_open.asp
   const data = canvas.toDataURL(); 
   const newWindow = window.open();
-  newWindow.document.write(`<iframe src="${data}" frameborder="0" style="border:0; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%;" allowfullscreen></iframe>`);
+  newWindow.document.body.innerHTML = `<iframe src="${data}" frameborder="0" style="border:0; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%;" allowfullscreen></iframe>`;
 }
 ```
 
