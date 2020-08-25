@@ -118,10 +118,10 @@ function doExport(){
   - we need a `canvas` variable in what Chrome calls *script scope* (e.g. declared at the top of the `<script>` tag) - use the `let` keyword
     - we need to wait until the page loads before we initialize this value - write an `init()` function that get called when the page loads
   - we need to get a reference to the "Export" `<button>`:
-    - we need to wait until the page loads before we initialize this value - do so your `init()` function 
+    - we need to wait until the page loads before we can get a reference to the button - do so in your `init()` function 
     - when the button is clicked, `doExport()` is called, you should get a new tab opening
       - but it's blank!
-      - to be sure everything is working - put the following code in your `init()` function - this code will draw a 100x100 black square that will be visible both in the canvas and in the exported PNG:
+      - to be sure everything is working - put the following code in your `init()` function - after you initialize `canvas` - this code will draw a 100x100 black square that will be visible both in the canvas and in the exported PNG:
         - `canvas.getContext("2d").fillRect(50,50,100,100);`
  
  <hr>
