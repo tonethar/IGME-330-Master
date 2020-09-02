@@ -154,6 +154,7 @@
 - Come up with something cool - here are some ideas, or come up with your own:
   - change the values of `c` and `divergence`, one at a time, and see what happens:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
+  - for some meaningful divergence angles, see page 101 of this PDF: http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
 
