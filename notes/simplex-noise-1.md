@@ -2,6 +2,8 @@
 
 ## I. Demo Code
 
+**simplex-noise-1.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
