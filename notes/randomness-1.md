@@ -95,6 +95,7 @@ In this post, he lists 5 differentiators that programming brings to art:
 
 We will give you several opportunities to explore the use of randomness in digital media:
 
+- Here is a demo using a library named SimplexNoise - which is procedural nosie similar to Perline Noise - [simplex-noise-1.md](./simplex-noise-1.md)
 - The "screensaver" exercise in [canvas-1.md](./canvas-1.md) (inspired by Arp's *Collage with Squares Arranged according to the Laws of Chance*)
 - The [HW-random-walker.md](./HW-random-walker.md) exercise (inspired by Arp's *Danger of Death*)
 - The [HW-hello-canvas.md](./HW-hello-canvas.md) exercise
