@@ -17,7 +17,7 @@ let obj = {
 };
 ```
 
-- Property values can be any legal JavaScript type: String, Number, Array, Object, Function, undefined, null, and so on
+- Property *values* can be any legal JavaScript type: `String`, `Number`, `Array`, `Object`, `Function`, `undefined`, `null`, and so on
 
 ```js
 let obj2 = {
@@ -27,14 +27,14 @@ let obj2 = {
 	"property4" : obj, 	// another object
 	"property5" : function(){console.log("hello");} // function
 };
-
-- Property values can be a `String``, `Number``, or an *identifier* (variable, function name, class name, etc)
+```
+- Property *keys* can be a `String``, `Number`, or an *identifier* (variable, function name, class name, etc)
 
 ```js
 let obj3 = {
 	"stringProperty" 	: "value3",
-	100 							: "value4",
-	obj2							: "value5",
+	100 			: "value4",
+	obj2			: "value5",
 };
 ```
 
@@ -43,6 +43,14 @@ let obj3 = {
 ```js
 obj.property1; 		
 obj["property1"]; // demos square bracket syntax
+```
+
+- We can therefore access the property values of our 3 objects like this:
+
+```js
+obj.property1; 		
+obj["property1"]; // demos square bracket syntax
+obj2[100];
 ```
 
 
