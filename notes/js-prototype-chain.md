@@ -1,6 +1,12 @@
-# JavaScript Prototype Chain
+# JavaScript Objects & the JavaScript Prototype Chain
 
-## Overview - JavaScript classes are "syntactic sugar"
+## I. JavaScript Objects
+
+
+
+## II. JavaScript Prototype Chain
+
+### Overview - JavaScript classes are "syntactic sugar"
 - *JavaScript classes, introduced in ECMAScript 2015, are primarily syntactical sugar over JavaScript's existing prototype-based inheritance. The class syntax does not introduce a new object-oriented inheritance model to JavaScript.* 
   - MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
