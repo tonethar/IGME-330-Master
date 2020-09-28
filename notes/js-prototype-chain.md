@@ -28,7 +28,7 @@ let obj2 = {
 	"property5" : function(){console.log("hello");} // function
 };
 ```
-- Property *keys* can be a `String``, `Number`, or an *identifier* (variable, function name, class name, etc)
+- Property *keys* can be a `String`, `Number`, or an *identifier* (variable, function name, class name, etc)
 
 ```js
 let obj3 = {
@@ -52,7 +52,31 @@ obj.property1;
 obj["property1"]; // demos square bracket syntax
 obj2[100];
 ```
+- We can *add* properties to our objects like this:
 
+```js
+obj.property3 = "value3";
+```
+
+- We can *delete* properties of our objects like this:
+
+```js
+delete obj.property2; // GONE!
+```
+
+- we can make it so properties can't be added with `Object.seal()`
+
+```js
+Object.seal(obj); // can't add properties
+// now try to add property, it fails quietly in console
+```	
+
+- we can make it so properties can't be added, nor can existing properties be modified with `Object.freeze()`
+
+```
+Object.freeze(obj2);  // can't add properties, or modify existing ones
+// now try to modify or add a property, it fails quietly in console
+```
 
 ## II. JavaScript Prototype Chain
 
