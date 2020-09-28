@@ -112,6 +112,8 @@ const m2 = new BigOrc(100);
 
 - **Run the example below, and check out the `__proto__` (pronounced "dunder proto") property to see how JS "inheritance" works - we'll walk through that in the next section:**
 
+<hr>
+
 **objects-1.html**
 
 ```html
