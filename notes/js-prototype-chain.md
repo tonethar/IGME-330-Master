@@ -2,11 +2,11 @@
 
 - Ever wondered how JavaScript's ES6 class *inheritance* model is implemented?
   - Didn't think so!
-  - We're going to cover it anyway - because there are a lot of ways to create object instances besides calling the *constructor* of a class - ex. `let m1 = new Orc()` - and below we are going to explore some of these
+  - We're going to cover it anyway - because there are a lot of ways to create object instances besides calling the *constructor* of a class - ex. `let m1 = new Orc()` - and below we are going to explore some of these!
   
-## I. JavaScript Objects
+## I. JavaScript Object Literals
 
-- “JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.” - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+- "JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method." - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 
 - Unlike nearly every other programming language, in JavaScript we can create objects without having to first create a class, and can instead create *object literals* using *object initializer* syntax like this: 
 
@@ -43,13 +43,6 @@ let obj3 = {
 ```js
 obj.property1; 		
 obj["property1"]; // demos square bracket syntax
-```
-
-- We can therefore access the property values of our 3 objects like this:
-
-```js
-obj.property1; 		
-obj["property1"]; // demos square bracket syntax
 obj2[100];
 ```
 - We can *add* properties to our objects like this:
@@ -73,12 +66,132 @@ Object.seal(obj); // can't add properties
 
 - we can make it so properties can't be added, nor can existing properties be modified with `Object.freeze()`
 
-```
+```js
 Object.freeze(obj2);  // can't add properties, or modify existing ones
 // now try to modify or add a property, it fails quietly in console
 ```
 
-## II. JavaScript Prototype Chain
+- we can get more fined-grained control over our properties with [`Object.defineProperty()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
+- we can also use:
+  - JavaScript [setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)
+  - JavaScript [getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
+
+<hr>
+
+## II. JavaScript Object instances created with the ES6 class syntax
+ - guess what - the instances that an ES6 class creates are pretty much the same as the object literals above!
+ 
+```js
+class Orc{
+	constructor(amtGold=1){
+		this.hitpoints = 5;
+		this.gold = amtGold;
+	}
+	yell(){
+		console.log(`...roar...`);
+	}
+	
+	brag(){
+		console.log(`I have ${this.gold} gold!`);
+	}
+}
+
+class BigOrc extends Orc{
+	constructor(amtGold=10){
+		super(amtGold);
+	}
+	yell(){ // override `yell`
+		console.log(`ROAR!!`);
+	}
+}
+
+const m1 = new Orc();
+const m2 = new BigOrc(100);
+```
+
+- **Run the example below, and check out the `__proto__` (pronounced "dunder proto") property** to see how inheritance works - we'll walk through that in the next section:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+    "use strict";
+    
+    let obj = {
+			"property1" : "value1",
+			"property2" : "value2"
+		};
+
+		let obj2 = {
+			"property1" : "stringValue",
+			"property2" : 100,	// `number` value
+			"property3" : [], 	// `array` value
+			"property4" : obj, 	// another `object` as a value
+			"property5" : function(){console.log("hello!");} // `function` as a value
+		};
+
+
+		let obj3 = {
+			"stringProperty" 	: "value3", // string key
+			100 							: "value4", // number key
+			obj2							: "value5", // object reference key
+		};
+
+		obj.property3 = "value3";
+		delete obj.property2; // GONE!
+		
+		Object.seal(obj); // can't add properties
+		// now try to add property, it fails quietly in console
+		
+		Object.freeze(obj2);  // can't add properties, or modify existing ones
+		// now try to modify or add a property, it fails quietly in console
+		
+    
+	class Orc{
+		constructor(amtGold=1){
+			this.hitpoints = 5;
+			this.gold = amtGold;
+		}
+		yell(){
+			console.log(`...roar...`);
+		}
+	
+		brag(){
+			console.log(`I have ${this.gold} gold!`);
+		}
+	}
+
+	class BigOrc extends Orc{
+		constructor(amtGold=10){
+			super(amtGold);
+		}
+		yell(){ // override `yell`
+			console.log(`ROAR!!`);
+		}
+	}
+
+	const m1 = new Orc(3);
+	const m2 = new BigOrc();
+    	
+</script>
+
+</head>
+
+<body>
+ 
+</body>
+
+</html>
+```
+
+<hr>
+
+## III. JavaScript Prototype Chain
 
 ### Overview - JavaScript classes are "syntactic sugar"
 - *JavaScript classes, introduced in ECMAScript 2015, are primarily syntactical sugar over JavaScript's existing prototype-based inheritance. The class syntax does not introduce a new object-oriented inheritance model to JavaScript.* 
