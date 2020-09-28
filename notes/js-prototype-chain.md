@@ -1,7 +1,49 @@
 # JavaScript Objects & the JavaScript Prototype Chain
 
+- Ever wondered how JavaScript's ES6 class *inheritance* model is implemented?
+  - Didn't think so!
+  - We're going to cover it anyway - because there are a lot of ways to create object instances besides calling the *constructor* of a class - ex. `let m1 = new Orc()` - and below we are going to explore some of these
+  
 ## I. JavaScript Objects
 
+- “JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.” - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+
+- Unlike nearly every other programming language, in JavaScript we can create objects without having to first create a class, and can instead create *object literals* using *object initializer* syntax like this: 
+
+```js
+let obj = {
+	"property1" : "value1",
+	"property2" : "value2"
+};
+```
+
+- Property values can be any legal JavaScript type: String, Number, Array, Object, Function, undefined, null, and so on
+
+```js
+let obj2 = {
+	"property1" : "stringValue",
+	"property2" : 100,	// number
+	"property3" : [], 	// array
+	"property4" : obj, 	// another object
+	"property5" : function(){console.log("hello");} // function
+};
+
+- Property values can be a `String``, `Number``, or an *identifier* (variable, function name, class name, etc)
+
+```js
+let obj3 = {
+	"stringProperty" 	: "value3",
+	100 							: "value4",
+	obj2							: "value5",
+};
+```
+
+- We can therefore access the property values of our 3 objects like this:
+
+```js
+obj.property1; 		
+obj["property1"]; // demos square bracket syntax
+```
 
 
 ## II. JavaScript Prototype Chain
