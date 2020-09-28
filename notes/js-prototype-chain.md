@@ -17,7 +17,7 @@ let obj = {
 };
 ```
 
-- Property *values* can be any legal JavaScript type: `String`, `Number`, `Array`, `Object`, `Function`, `undefined`, `null`, and so on
+- Property *values* can be of any legal JavaScript type: `String`, `Number`, `Array`, `Object`, `Function`, `undefined`, `null`, and so on
 
 ```js
 let obj2 = {
