@@ -216,19 +216,19 @@ To learn how to override or extend object behavior in JavaScript - read below!
 
 ## Contents
 <!--- Local Navigation --->
-I. [`Object.prototype`](#section1)
+III-A. [`Object.prototype`](#sectionIIIA)
 
-II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#section2)
+III-B. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#sectionIIIB)
 
-III. [Creating `Vehicle` & `GasVehicle`  classes](#section3)
+III-C. [Creating `Vehicle` & `GasVehicle`  classes](#sectionIIIC)
 
-IV. [Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)](#section4)
+III-D.. [Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)](#sectionIIID)
 
 <hr>
 
-<a id="section1"> 
+<a id="sectionIIIA"> 
 	
-## I.`Object.prototype`
+## III-A.`Object.prototype`
 
 The `Object.prototype` property points at the *Object prototype object*. (what?)
 
@@ -240,7 +240,7 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 <hr>
 
-### I-A. The "default" prototype chain
+### III-A-i. The "default" prototype chain
 
 **Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
@@ -289,7 +289,7 @@ objVehicle.move = function() { console.log("move!!"); };
 
 <hr>
 
-### I-B. Discussion
+### III-A-ii. Discussion
 
 - above we see that the `year`, `numWheels` and `move` properties are on the main part of the object, and that under the `__proto__` property is the *prototype object*, which gives us the implicit built-in in properties (methods in this case) of `Object`. 
 - FYI - `__proto__` is pronounced "dunder proto"
@@ -302,7 +302,7 @@ Below is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritanc
 
 <hr>
 
-### I-C. An example of the prototype chain in action
+### III-A-iii. An example of the prototype chain in action
 So what do we get when we call `toString()` on `vehicle` like this:
 
 `console.log(vehicle.toString());`
@@ -315,7 +315,7 @@ in the console - which isn't too exciting, but indicates that `vehicle` "inherit
 
 <hr>
 
-### I-D. Property shadowing
+### III-A-iv. Property shadowing
 You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will "shadow" the default implementation of `toString()` in the prototype object.
 
 **vehicle-object-dot-create-2.html**
@@ -355,9 +355,9 @@ If you check the debugger, you will also see that there is a `toString` property
 
 <hr>
 
-<a id="section2">
+<a id="sectionIIIB">
 	
-## II. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
+## III-B. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
 
 Now let's see how `Object.create()` will allow us to specify an instance's prototype object, rather than relying on the default prototype object.
 
@@ -422,14 +422,14 @@ true
 
 <hr>
 
-### II-A. Discussion
+### III-B-i. Discussion
 - Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
 - we can implement a form of overriding through property "shadowing" - properties added to `gasVehicle` will replace properties that are declared in its prototype objects. 
 - but "inheritance" isn't really the right term for this extending of object behavior, "delegation" is a better term - read on!
 
 <hr>
 
-### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
+### III-B-ii. Delegation & OLOO - "Objects Linked to Other Objects"
 In JavaScript, the prototype chain **links objects to other objects** 
 
 The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above, `gasVehicle` *delegated*  its `move()` method to `vehicle`. 
@@ -440,9 +440,9 @@ These posts are required reading:
 
 <hr>
 
-<a id="section3">
+<a id="sectionIIIC">
 	
-## III. Creating `Vehicle` & `GasVehicle`  classes
+## III-C. Creating `Vehicle` & `GasVehicle`  classes
 
 - Below we will now use ES6 classes to model the same inheritance hierarchy
 
@@ -494,9 +494,9 @@ debugger;
 </html>
 ```
 
-<a id="section4">
+<a id="sectionIIID">
 	
-## IV. Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)
+## III-D. Comparing classes (`Vehicle` & `GasVehicle`) to delegation (`vehicle` and `gasVehicle`)
 
 **In the debugger (the left side is OLOO, the right side is ES6 classes):**
 
@@ -512,7 +512,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 true
 ```
 
-### IV-A. Discussion - are these the same?
+### III-D-i. Discussion - are these the same?
 - In the screenshot above we can see that the left side (OLOO & delegation) and the right side (ES6 classes and inheritance) are nearly identical, except:
   - the properties from the class version are all on the top level object ...
   - we have additional `Constructor` functions in the class version ...
