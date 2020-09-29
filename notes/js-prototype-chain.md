@@ -84,7 +84,6 @@ Object.freeze(obj2);  // can't add properties, or modify existing ones
 
 2. If we try to *call* a non-existent *method* of an object - ex. `let score = obj.getScore();` - what happens?
 
-3. 
 
 <hr>
 
@@ -536,11 +535,15 @@ true
 
 ## IV. JavaScript engine fundamentals: Shapes and Inline Caches
 
-- How do Chrome's V8 engine represent JavaScript objects?
-- One optimiztion is to look for objects that have the same *shape* (i.e. list of properties) and store the duplicated data of the objects *separately*
+- How does Chrome's V8 engine represent JavaScript objects?
+- One optimization is to look for objects that have the same *shape* (i.e. list of properties) and store the duplicated data of the objects *separately*
 - see:
   - https://mathiasbynens.be/notes/shapes-ics#object-model
   - https://mathiasbynens.be/notes/shapes-ics#optimizing-property-access
+  
+ ### IV-A. Questions
+ 
+ 1. From a performance standpoint, say you had 1000 JS sprite objects you wanted to put on the screen, do you think it would be better to use ES6 classes to create these, or to create them individually as Sprite literals?
 
 
 
