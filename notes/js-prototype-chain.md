@@ -124,63 +124,65 @@ const m2 = new BigOrc(100);
     <meta charset="utf-8" />
     <title></title>
     <script>
-    "use strict";
-    
-    let obj = {
-			"property1" : "value1",
-			"property2" : "value2"
-		};
+"use strict";
 
-		let obj2 = {
-			"property1" : "stringValue",
-			"property2" : 100,	// `number` value
-			"property3" : [], 	// `array` value
-			"property4" : obj, 	// another `object` as a value
-			"property5" : function(){console.log("hello!");} // `function` as a value
-		};
+let obj = {
+	"property1" : "value1",
+	"property2" : "value2"
+};
+
+let obj2 = {
+	"property1" : "stringValue",
+	"property2" : 100,	// `number` value
+	"property3" : [], 	// `array` value
+	"property4" : obj, 	// another `object` as a value
+	"property5" : function(){console.log("hello!");} // `function` as a value
+};
 
 
-		let obj3 = {
-			"stringProperty" 	: "value3", // string key
-			100 							: "value4", // number key
-			obj2							: "value5", // object reference key
-		};
+let obj3 = {
+	"stringProperty" 	: "value3", // string key
+	100 							: "value4", // number key
+	obj2							: "value5", // object reference key
+};
 
-		obj.property3 = "value3";
-		delete obj.property2; // GONE!
-		
-		Object.seal(obj); // can't add properties
-		// now try to add property, it fails quietly in console
-		
-		Object.freeze(obj2);  // can't add properties, or modify existing ones
-		// now try to modify or add a property, it fails quietly in console
-		
-    
-	class Orc{
-		constructor(amtGold=1){
-			this.hitpoints = 5;
-			this.gold = amtGold;
-		}
-		yell(){
-			console.log(`...roar...`);
-		}
+obj.property3 = "value3";
+delete obj.property2; // GONE!
+
+Object.seal(obj); // can't add properties
+// now try to add property, it fails quietly in console
+
+Object.freeze(obj2);  // can't add properties, or modify existing ones
+// now try to modify or add a property, it fails quietly in console
+
+
+class Orc{
+	constructor(amtGold=1){
+		this.hitpoints = 5;
+		this.gold = amtGold;
+	}
 	
-		brag(){
-			console.log(`I have ${this.gold} gold!`);
-		}
+	yell(){
+		console.log(`...roar...`);
 	}
 
-	class BigOrc extends Orc{
-		constructor(amtGold=10){
-			super(amtGold);
-		}
-		yell(){ // override `yell`
-			console.log(`ROAR!!`);
-		}
+	brag(){
+		console.log(`I have ${this.gold} gold!`);
 	}
+}
 
-	const m1 = new Orc(3);
-	const m2 = new BigOrc();
+class BigOrc extends Orc{
+	constructor(amtGold=10){
+		super(amtGold);
+		this.multiAttack = true;
+	}
+	yell(){ // override `yell`
+		console.log(`ROAR!!`);
+	}
+}
+
+const m1 = new Orc(3);
+const m2 = new BigOrc();
     	
 </script>
 
