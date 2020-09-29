@@ -61,7 +61,7 @@ delete obj.property2; // GONE!
 
 ```js
 Object.seal(obj); // can't add properties
-// now try to add property, it fails quietly in console
+// now try to add a property, it fails quietly in console
 ```	
 
 - we can make it so properties can't be added, nor can existing properties be modified with `Object.freeze()`
@@ -71,11 +71,19 @@ Object.freeze(obj2);  // can't add properties, or modify existing ones
 // now try to modify or add a property, it fails quietly in console
 ```
 
-- we can get more fined-grained control over our properties with [`Object.defineProperty()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+- we can get more fined-grained control (*enumerable*, *writable*, etc on a *per property* basis) over our properties with [`Object.defineProperty()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 
 - we can also use:
   - JavaScript [setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)
-  - JavaScript [getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
+  - JavaScript [getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)'
+
+### I-A. Questions
+
+1. If we try to *get* a non-existent *property* of an object - ex. `let score = obj.score;` - what happens?
+
+2. If we try to *call* a non-existent *method* of an object - ex. `let score = obj.getScore();` - what happens?
+
+3. 
 
 <hr>
 
