@@ -100,6 +100,7 @@ class Orc{
 class BigOrc extends Orc{
 	constructor(amtGold=10){
 		super(amtGold);
+		this.multiAttack = true;
 	}
 	yell(){ // override `yell`
 		console.log(`ROAR!!`);
