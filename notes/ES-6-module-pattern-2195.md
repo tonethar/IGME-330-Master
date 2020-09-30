@@ -137,7 +137,7 @@ To use this module from an HTML page, we do the following:
 
 Be sure to note the following in *test.html*:
 - Note we have added an attribute  of `type='module'` --> `<script type='module'>`
-- it is not necessary to "import" the *utilities.js* JS file with a &lt;script> tag - as the `import` statement is doing that for us
+- IMPORTANT: it is ***not necessary*** to "link to" the *utilities.js* JS file with a &lt;script> tag - as the `import` statement is doing that for us
 - we have to explicitly import the `addTextToBody()` function to use it
 
 Try it out:
