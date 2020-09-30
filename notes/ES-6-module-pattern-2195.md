@@ -398,3 +398,9 @@ In *test.html*:
 - But what about supporting older browsers? The ES6 module pattern only works on recent browsers?
   - we can address this issue by using *transpiling*, which translates code from ES6 back into ES5 for the older browsers
   - later on in the semester we'll use a node package called [webpack](https://www.npmjs.com/package/webpack) to do this
+
+## VIII. Videos
+
+- The videos for this lecture are located here:
+  - [ES6 Modules - 1 (10:35)](https://video.rit.edu/Watch/es-6-modules-1)
+  - [ES6 Modules - 2 (17:30)](https://video.rit.edu/Watch/es-6-modules-2)
