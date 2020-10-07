@@ -76,7 +76,7 @@ function setupUI(){
 ```js
 function toggleHighshelf(){
   if(highshelf){
-    biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
+    biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime); // we created the `biquadFilter` (i.e. "treble") node last time
     biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
   }else{
     biquadFilter.gain.setValueAtTime(0, audioCtx.currentTime);
