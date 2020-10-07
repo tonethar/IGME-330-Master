@@ -169,12 +169,12 @@ let distortionAmount = 0;
 
 ```js
 	//curve[i] = (Math.PI + amount) * x / (Math.PI + amount * Math.abs(x));
-	//curve[i] =(Math.PI + 100 * x/2) / (Math.PI + 100 * Math.abs(x));
+	//curve[i] =(Math.PI + 100 * x/2) / (Math.PI + 100 * Math.abs(x)); // nice distortion
  	//curve[i] = -(Math.PI + 100 * x/2) / (Math.PI + 50 * Math.abs(x));
 //			
- 	//curve[i] = Math.random() * 2 - 1;
+ 	//curve[i] = Math.random() * 2 - 1;	// static!	
  	//curve[i] = x * 5 + Math.random() * 2 - 1;
- 	curve[i] = x * Math.sin(x) * amount/5;
+ 	// curve[i] = x * Math.sin(x) * amount/5; // sounds like a cross between Donlad Duck and Cartman from South Park
 //curve[i] = x * x - Math.tan(x) - .5 * x * 2 * Math.cos(x * 5);
 
 //(3 + 20) * x * 57 * (Math.PI / 180) / (Math.PI + 20 * Math.abs(x))
