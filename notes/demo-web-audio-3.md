@@ -6,7 +6,7 @@
 - This can be done with either `<file>` input or drag-and-drop
 - Here we'll get it done with the former option and a callback function that is triggered `onchange`:
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
-- If you are interested in implementing drag-and-drop, we are covering this in the Text unit, you can see some sample code here:
+- If you are interested in implementing drag-and-drop, we are covering this in the "Text" unit, you can see some sample code here:
   - https://github.com/tonethar/IGME-330-Master/blob/master/notes/text-1.md#I-D
 
 ## II. Screenshot
