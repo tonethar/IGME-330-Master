@@ -150,7 +150,7 @@ let distortionFilter = audioCtx.createWaveShaper();
 ```js
 document.querySelector('#distortionSlider').value = distortionAmount;
 document.querySelector('#distortionSlider').onchange = e => {
-  distortionAmount = e.target.value;
+  distortionAmount = Number(e.target.value);
   toggleDistortion();
 };
 ```
