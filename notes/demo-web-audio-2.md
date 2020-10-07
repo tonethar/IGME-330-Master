@@ -53,14 +53,20 @@ span{margin-right:2em;}
 
 ```js
 function setupUI(){
-  document.querySelector('#highshelfCB').checked = highshelf;
+  // I. set the initial state of the high shelf checkbox
+  document.querySelector('#highshelfCB').checked = highshelf; // `highshelf` is a boolean we will declare in a second
+  
+  // II. change the value of `highshelf` every time the high shelf checkbox changes state
   document.querySelector('#highshelfCB').onchange = e => {
     highshelf = e.target.checked;
-    toggleHighshelf();
+    toggleHighshelf(); // turn on or turn off the filter, depending on the value of `highshelf`!
   };
-  toggleHighshelf();
+  
+  // III. 
+  toggleHighshelf(); // when the app starts up, turn on or turn off the filter, depending on the value of `highshelf`!
 }
 ```
+
 3. Now call `setupUI()` right before your canvas setup code
 
 4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code
