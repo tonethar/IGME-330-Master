@@ -158,7 +158,7 @@ document.querySelector('#distortionSlider').onchange = e => {
 4. Declare `distortionAmount`:
 
 ```js
-let distortionAmount = 0;
+let distortionAmount = 20;
 ```
 
 5. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
