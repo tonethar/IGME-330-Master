@@ -78,7 +78,7 @@
 	
 	// NEW
 	document.querySelector("#upload").onchange = (e) => {
-		const files = event.target.files;
+		const files = e.target.files;
 		document.querySelector("audio").src = URL.createObjectURL(files[0]);
 	};
 	
