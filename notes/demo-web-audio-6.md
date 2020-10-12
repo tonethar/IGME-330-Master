@@ -79,7 +79,7 @@
   - https://www.tutorialspoint.com/dip/index.htm
 
 ## V. Machine Learning with *Teachable Machine*
-- https://igm.rit.edu/~acjvks/courses/shared/330/machine-learning/teachable-machine/tm-1.html
+- https://people.rit.edu/~acjvks/330/shared/machine-learning/teachable-machine/tm-1.html
 
 <hr><hr>
 
