@@ -65,6 +65,7 @@
 - Here we are grabbing the x,y,z of the user's head with this library: https://github.com/auduno/headtrackr
 - There are a lot of interesting things you could do on Project 2 with such a capability
 - This library has not been updated in a while - there may be a newer one you could use instead
+- See the *Teachable Machine* demo link below
 
 <hr>
 
