@@ -41,15 +41,15 @@
 - A possible enhancement to your project 2 would be to utilize the webcam as user input that would alter the visualizations (and maybe the sound) in certain ways
 
 ### III-A. Basic Example
-- Webcam Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
+- Webcam Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo.html
 - All of the image effects work as they did in Part II above, except now we have a live image to manipulate
 
 ### III-B. 
-- Webcam plus Motion Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-2.html
+- Webcam plus Motion Detect Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-2.html
 - Here we created a simple motion detecter by coloring a pixel red if any of its sub-pixels chnage my 15 or more units between frames
 
 ### III-C. 
-- Webcam plus Face Detect Example: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-3.html
+- Webcam plus Face Detect Example: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/webcam-image-data-demo-3.html
 - There are 2 more filters ("Weird" and "Weirder") you might like
 - Here we are using https://github.com/mtschirs/js-objectdetect, but the project is not active, there are some newer libraries you might like better:
   - https://trackingjs.com
@@ -57,11 +57,11 @@
   
 
 ### III-D. 
-- Webcam sunglasses app: https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/JS-Object-Detect/js-objectdetect-master/examples/example_sunglasses_jquery.htm
+- Webcam sunglasses app: http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/video/JS-Object-Detect/js-objectdetect-master/examples/example_sunglasses_jquery.htm
 - Ditto on III-C. above
 
 ### III-E. 
-- Webcam head tracker app:  https://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
+- Webcam head tracker app:  http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
 - Here we are grabbing the x,y,z of the user's head with this library: https://github.com/auduno/headtrackr
 - There are a lot of interesting things you could do on Project 2 with such a capability
 - This library has not been updated in a while - there may be a newer one you could use instead
