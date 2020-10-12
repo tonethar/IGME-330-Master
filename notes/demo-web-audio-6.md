@@ -70,7 +70,7 @@
 
 ## IV.  Image filters done as matrix operations
 - this subject could literally be an entire course, so we're just going to give you a demo for inspiration 
-- the demo is located online at: http://igm.rit.edu/~acjvks/courses/shared/330/web-audio/fotoshawp/fotoshawp-done.html
+- the demo is located online at: https://people.rit.edu/~acjvks/330/shared/fotoshawp/fotoshawp-done.html
 - the zipped folder of the completed version is located in myCourses
 - this example was built off of an excellent article from here:
   - https://www.html5rocks.com/en/tutorials/canvas/imagefilters
