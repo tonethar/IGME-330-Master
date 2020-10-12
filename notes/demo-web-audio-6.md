@@ -61,7 +61,7 @@
 - Ditto on III-C. above
 
 ### III-E. 
-- Webcam head tracker app:  http://igm.rit.edu/~acjvks/courses/2014-spring/450/code/headtracker/headtracker2.html
+- Webcam head tracker app:  https://people.rit.edu/~acjvks/330/shared/headtracker/headtracker2.html
 - Here we are grabbing the x,y,z of the user's head with this library: https://github.com/auduno/headtrackr
 - There are a lot of interesting things you could do on Project 2 with such a capability
 - This library has not been updated in a while - there may be a newer one you could use instead
