@@ -97,7 +97,7 @@
 
 ## V. Summary
 - A lot was covered here - hopefully you have a better understanding of what PHP can do
-- In the myCourses dropbox, you have zipped and posted the following 7 files (also with working people.rit.edu links):
+- In the myCourses dropbox, you have zipped and posted the following 7 files (with working people.rit.edu links in the comments field of the dropbox):
   - **php-1-HW.php** & **info.php** (Part I above)
   - **php-2-HW.php** (Part II above)
   - **php-3A-HW.php** and **php-3B-HW.php** (Part III above)
