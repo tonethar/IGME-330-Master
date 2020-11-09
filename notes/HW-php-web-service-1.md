@@ -33,7 +33,7 @@
   - Here's what we'll be building by the end of this series - in PHP - and although the theme is somewhat silly, it has the foundational capabilities you see in all web services:
     - This returns a random joke:
       - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-random-joke.php
-    - This returns an array of random jokes - it we don't specify how many we want we always get 2:
+    - This returns an array of random jokes - if we don't specify how many we want we always get 2:
       - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php
     - Here we will specify that we want an array of 5 jokes by using the `limit` parameter:
       - http://igm.rit.edu/~acjvks/courses/shared/330/php/get-jokes.php?limit=5
