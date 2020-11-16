@@ -81,8 +81,9 @@ let data = {
 
 ## II. Vue Dev Tools
 - install Vue Dev Tools for Chrome: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
+- for the Vue Dev Tools extension, turn on "Allow access to file URLs"
 - look for Vue tab in Web Inspector
-- change values in Root
+- change values in *Root*
 - can access and change data in console through `app.message`, `$vm0` or `data.message`
 
 <hr><hr>
