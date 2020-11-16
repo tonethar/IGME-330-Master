@@ -4,7 +4,7 @@
 
  - it is a *reactive* framework that binds the data model and the view. Models are JavaScript objects, and when you modify them, the view (eg. the HTML) updates automatically.
  - *declarative* (see [Wikipedia - Declarative_programming](https://en.wikipedia.org/wiki/Declarative_programming) *templates* are used to update the view - for example the handlebar syntax `<h1>{{ message }}</h1>`will display the contents of a variable named `message` inside of the &lt;h1>
- - it uses *data binding* (see [Wikipedia - UI_data_binding](https://en.wikipedia.org/wiki/UI_data_binding) to *bind* (for example) form input values to backing varaibles
+ - it uses *data binding* (see [Wikipedia - UI_data_binding](https://en.wikipedia.org/wiki/UI_data_binding) to *bind* (for example) form input values to backing variables
  - it also supports UI toolkits like [Bootstrap-Vue](https://bootstrap-vue.js.org)
  - Here is fantastic set of videos that cover basic and intermediate Vue.js - we are going to walk through the first few together: https://laracasts.com/series/learn-vue-2-step-by-step/episodes/1
 
