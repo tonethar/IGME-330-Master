@@ -46,7 +46,7 @@ let data = {
 2. When the form field changes value, have it update `data.message`
 3. When the form field changes value, the value of `data.message` should appear in the paragraph
 4. Try changing the value of `data.message` in the console - what happens? FAIL!
-5. Can you get the "view" to update when console changes our data model? How can you make `data.message` a "single source of truth" for the UI?
+5. Can you get the "view" to update when console changes our data model? How can you make `data.message` a "single source of truth" for the UI? (Hint: "getters" and "setters")
 6. This is a lot of code to write, for just one variable!
 
 
