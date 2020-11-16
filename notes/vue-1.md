@@ -147,7 +147,7 @@ Let's see how we can get nice looking Bootstrap components into our Vue app.
 
 ### Demo Instructions
 1. rename **vue-v-for-2.html** to **vue-v-for-3.html**
-1. head here to get Bootstrap-Vue CDN links: https://bootstrap-vue.js.org
+1. head here to get Bootstrap-Vue CDN links: https://bootstrap-vue.org/docs/#browser
 1. note how default styles of page will improve
 1. we will add a badge to the page: https://bootstrap-vue.js.org/docs/components/badge
 1. use a *computed property* to keep the badge updated with the number of names in our list
