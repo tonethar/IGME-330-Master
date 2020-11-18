@@ -150,7 +150,7 @@ The basics are done here, but there is still some work left to get it functionin
 - Hints:
   - you will be getting an array of object literals back from this web service, not just a single joke object literal. This means your `.result` will be an array of object literals , NOT a single object literal
     - use `v-for` to loop through the `.result`
-    - PS - if you ever get any CORS issues on this or another assignment, to fix the issue, use a proxy server like we did when we covered in HW-PHP-5
+    - PS - if you ever get any CORS issues on this or another assignment, to fix the issue, use a proxy server like we did when we covered in [PHP Web Service Part V - creating a proxy server](./HW-php-web-service-5.md)
 - **Extra Credit (worth one HW assignment):** get it working with the iTunes web service, and make sure that the user can search the service by typing in search terms - https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/ - and be sure to display at least 3 properties from each result (artist, track name, etc ...). NOTE that CORS is NOT turned on for this iTunes web service, so you will have to use a proxy server.
 
 - More Hints:
