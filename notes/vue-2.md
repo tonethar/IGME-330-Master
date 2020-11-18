@@ -124,24 +124,16 @@ The basics are done here, but there is still some work left to get it functionin
 
 ## VI. Homework
 - Using our random joke app as a start file:
-    - Get it working with the Crypto Currency web service below be sure to display at least 3 properties from each result (Crypto name, Crypto symbol, Crypto price, etc ...) 
-    - **+5 points for adding a &lt;select> that limits the number of results** - you will need to use `v-model` to grab this `limit` parameter
-    - Documentation: https://coinmarketcap.com/api/
-      - note that the new version of the API requires a free API Key, but the old version (v1) linked below does not. Use whichever one works best for you
-    - "Ticker" endpoint (ALL results by default): https://api.coinmarketcap.com/v1/ticker/
-    - "Ticker" endpoint (with a `limit` parameter): https://api.coinmarketcap.com/v1/ticker/?limit=1
+    - Get it working with the Crypto Currency web service below be sure to display 4 properties from each result (`name`, `id`, `market`, `last`) 
+    - Documentation: https://www.coingecko.com/api/documentations/v3
+    - the endpoint is here - open it up in Chrome with the JSONView plugin enabled and it will be nicely formatted:
+      - https://api.coingecko.com/api/v3/indexes
+      - in your code, grab these 4 properties `name`, `id`, `market`, and `last`
+      - see screenshot below
+      - see the "Hints" after that
 
 <hr><hr>
 
-***UPDATE 4/30/2020***
-
-- If you don't want to deal with getting an API key, use this Cryptocurrency service instead:
-  - https://www.coingecko.com/api/documentations/v3
-  - the endpoint is here - open it up in Chrome with the JSONView plugin enabled and it will be nicely formatted:
-    - https://api.coingecko.com/api/v3/indexes
-    - in your code, grab these 4 properties `name`, `id`, `market`, and `last`
-    - see screenshot below
-    - see the "Hints" after that
   
 ![screenshot](./_images/vue-ajax-NEW.jpg)
 
