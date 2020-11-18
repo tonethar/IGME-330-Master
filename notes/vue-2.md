@@ -6,6 +6,8 @@ Let's browse some of the Vue.js documentation here: https://vuejs.org/v2/guide/i
 ## I. Overview
 Today we will create a simple web service app using Vue.js and the Fetch API. This service will download a random joke from our PHP jokes web service located at: http://igm.rit.edu/~acjvks/courses/2018-fall/330/php/get-a-joke.php
 
+<hr>
+
 ## II. The Fetch API
 So far in this course, we have been downloading network resources with the **`XMLHttpRequest`** object. Another way to do this is by utilizing the more recently adopted **Fetch** API. You can read about it here:
 
@@ -15,6 +17,7 @@ So far in this course, we have been downloading network resources with the **`XM
 
 The Fetch API uses [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), which make asynchronous callbacks easier to read, and help us avoid the nested callback "pyramid of doom". You can read about Promises here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 
+<hr>
 
 ## III. CORS (Cross Origin Resource Sharing)
 For security reasons, browsers restrict cross-origin HTTP requests initiated from within scripts. XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request HTTP resources from the same domain the application was loaded from unless CORS headers are used.
@@ -29,6 +32,8 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 `Header set Access-Control-Allow-Origin "*"`
 
 2. We can see that this works by checking the response headers from our web service in the browser web inspector - we should see `Access-Control-Allow-Origin: *` at the top of the header list.
+
+<hr>
 
 ## IV. Start File 
 
@@ -109,6 +114,8 @@ const app = new Vue({
 </html>
 ```
 
+<hr>
+
 ## V. Walkthrough
 
 The basics are done here, but there is still some work left to get it functioning and looking better:
@@ -119,6 +126,8 @@ The basics are done here, but there is still some work left to get it functionin
 1. Get the search button working
 1. Display the result on the page (instead of just in the console)
 1. Use `data.created()` [lifecycle hook](https://vuejs.org/v2/api/#Options-Lifecycle-Hooks) to call the `search()` method when the app first loads.
+
+<hr>
 
 <a id="homework"></a>
 
@@ -145,6 +154,8 @@ The basics are done here, but there is still some work left to get it functionin
 - More Hints:
   - You will be getting back *arrays* of results from these services, instead of just a single result as you did with the random joke service.
   - `<table class="table table-striped table-sm">...</table>` - gives a pretty nice Bootstrap striped table
+
+<hr>
 
 ## VII. Extra Credit Homework Example
 
