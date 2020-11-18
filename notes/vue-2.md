@@ -132,9 +132,6 @@ The basics are done here, but there is still some work left to get it functionin
       - see screenshot below
       - see the "Hints" after that
 
-<hr><hr>
-
-  
 ![screenshot](./_images/vue-ajax-NEW.jpg)
 
 <hr><hr>
