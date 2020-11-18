@@ -146,11 +146,7 @@ The basics are done here, but there is still some work left to get it functionin
   - You will be getting back *arrays* of results from these services, instead of just a single result as you did with the random joke service.
   - `<table class="table table-striped table-sm">...</table>` - gives a pretty nice Bootstrap striped table
 
-## VII. Homework Examples
-
-### Example Screenshot *CoinMarketCap* API
-
-![screenshot](./_images/vue-ajax-1.jpg)
+## VII. Extra Credit Homework Example
 
 ### Example Screenshot *iTunes Search* API
 
