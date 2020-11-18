@@ -115,7 +115,7 @@ const app = new Vue({
 The basics are done here, but there is still some work left to get it functioning and looking better:
 
 1. Go ahead and test the `methods: search()` method by typing `app.search()` in the console
-1. Download the Bootstrap styles from their CDN like we did last time - get the links here: https://bootstrap-vue.js.org/docs - now the page should look much better!
+1. Download the Bootstrap styles from their CDN like we did last time - get the links here: https://bootstrap-vue.org/docs/#browser - now the page should look much better!
 1. Add some text to the &lt;h1> using a `data` property
 1. Get the search button working
 1. Display the result on the page (instead of just in the console)
