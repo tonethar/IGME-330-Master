@@ -74,7 +74,7 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 		<div class="row search-row">
 			<div class="col-md-12">
 				<input class="form-control" placeholder="This input does nothing for now">
-				<button class="btn btn-outline-success" type="submit">Search</button>
+				<button class="btn btn-outline-success">Search</button>
 			</div>
 		</div> <!-- end row -->
 		
