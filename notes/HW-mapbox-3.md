@@ -8,7 +8,7 @@
 
 1) Duplicate the **custom-marker** folder and name it **virus-map** 
 
-2) Load it into a web browser to be sure that **index.html** still works. Recall that because this used ES6 modules, you need to run this off of a web server to get it to work. 
+2) Load it into a web browser to be sure that **index.html** still works. Recall that because this page utilizes ES6 modules, you need to run this off of a web server to get it to work. 
 
 3) Download this icon (right-click and save) and put it into the **virus-map/images** folder -->  <img src="_images/_map-images/cough-3247.png" width=50 height=50 />
     - make sure that the CSS has this icon sized at `30px` by `30px`
