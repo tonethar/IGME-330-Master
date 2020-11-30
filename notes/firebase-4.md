@@ -150,7 +150,7 @@
 ## IV. Suggested Enhancements
 
 - an **undo** button that removes the last layer that was drawn
-- the links are *sharable* - and when someone open a link with a hash hash on the end of the URL, the correct image will be drawn. You can do this by checking the current hash value after all of the drawings have appeared in the list (when the page first loads)
+- the links are *sharable* - and when someone open a link with a hash hash on the end of the URL, the correct image will be drawn. You can do this by checking the current hash value after all of the drawings have appeared in the list (when the page first loads, and AFTER the `onDataChanged` callback function has been called for the first time)
 - give the images a title and creator string - and display these instead of the firebase assigned *key*
 - give each layer its own `strokeStyle`, `lineWidth`, line dash pattern,  etc
 - add more tools: oval, rectangle, line, polygon
