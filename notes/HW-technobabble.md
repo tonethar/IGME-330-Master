@@ -129,8 +129,8 @@ V. [Reference](#reference)
  
 ## IV. Review Questions (from notes & video - reference links below will help too)
 
-- #1 - What are the 3 distinct *layers* of a (simple) web browser app? (***DO NOT "google" the answer - it's in the video, near the start***)
-- #2 - What are the 3 *languages* used to program these layers? (***DO NOT "google" the answer - it's in the video, near the start***)
+- #1 - What are the 3 distinct *layers* of a (simple) web browser app? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
+- #2 - What are the 3 *languages* used to program these layers? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
 - #3 - List 3 things that `"use strict";` does? (***see the link in *V. Reference* below below***)
 - #4 - Note that we declared the `words1`, `words2`, and `words3` arrays with `const` -  can elements be added and/or deleted from these arrays?
 - #5 - Give an example of following the software development **D.R.Y.** principle
