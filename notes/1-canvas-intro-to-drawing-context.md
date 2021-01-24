@@ -23,7 +23,12 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 ### Other Graphics Technologies (for the web browser)
 - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
 - https://developer.mozilla.org/en-US/docs/Web/SVG
-
+- DOM
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms#3d_specific_css_properties
+  
 <hr>
 
 ## II. Demo!
