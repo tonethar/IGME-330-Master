@@ -145,7 +145,7 @@
 
 <hr>
 
-## V. Homework
+## V. Check it Off!
 
 - Add at least 2 more rectangles to the **cs-canvas-1.html** canvas using both `ctx.fillRect()` and `ctx.strokeRect()`:
   - make sure that the `ctx.strokeStyle` and `ctx.fillStyle` are set so that we can see these new rectangles
