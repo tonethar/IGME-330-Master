@@ -18,8 +18,8 @@
   - photo manipulation:
     - https://people.rit.edu/~acjvks/330/shared/fotoshawp/fotoshawp-done.html
   - real-time video processing
-    - https://people.rit.edu/~acjvks/330/shared/getImageData-putImageData-demo/video-image-data-demo-3.html
-    - https://people.rit.edu/~acjvks/330/shared/video/webcam-image-data-demo-3.html
+    - https://people.rit.edu/~acjvks/330/shared/getImageData-putImageData-demo/video-image-data-demo-3.html (video file)
+    - https://people.rit.edu/~acjvks/330/shared/video/webcam-image-data-demo-3.html (webcam)
 
 ### The canvas specification
 *When in doubt, read the spec!*
