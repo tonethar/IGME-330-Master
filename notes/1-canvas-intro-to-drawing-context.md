@@ -9,7 +9,7 @@
 - It was soon picked up by Firefox, Opera, and Chrome. Currently supported  by all modern browsers.
 - The "Canvas 2D Context API" has been standardized by [WHATWG](https://html.spec.whatwg.org/dev/canvas.html) and the [W3C](https://www.w3.org/TR/2dcontext/)
 - It has a fairly concise API for drawing - the API headers fit on 2 printed pages
-- Canvas is highly performant, and is hardware accelerated (GPU) on Chrome, Safari and Firefox - here's an example - http://fhtr.org/gravityring/sprites.html
+- Canvas is highly performant, and is hardware accelerated (GPU) on Chrome, Safari and Firefox - here's an example - http://fhtr.org/gravityring/sprites.html (try clicking on the web browser icons as they appear)
 
 ### What is it good for?
 - Some of its applications:
