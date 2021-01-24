@@ -182,4 +182,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   :-\  |  [**IGME-330**](../../README.md) | [**Skill #2 - TBA**]()
+|   :-\  |  [**IGME-330**](../README.md) | [**Skill #2 - TBA**]()
