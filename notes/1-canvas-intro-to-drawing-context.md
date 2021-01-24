@@ -9,6 +9,7 @@
 - It was soon picked up by Firefox, Opera, and Chrome. Currently supported  by all modern browsers.
 - The "Canvas 2D Context API" has been standardized by [WHATWG](https://html.spec.whatwg.org/dev/canvas.html) and the [W3C](https://www.w3.org/TR/2dcontext/)
 - It has a fairly concise API for drawing - the API headers fit on 2 printed pages
+- Canvas is highly performant, and is hardware accelerated (GPU) on Chrome, Safari and Firefox - here's an example - http://fhtr.org/gravityring/sprites.html
 
 ### What is it good for?
 - Some of its applications:
@@ -135,10 +136,28 @@
 
 <hr>
 
-  
-## IV. Homework
+## IV. Demo
 
-- Modify the above "screen saver" in some significant ways (so that it draws differently/looks different) - see myCourses for the due date and submission requirements
+- Add a rectangle 400x300 rectangle at x=120,y=120
+- Change the color of the second rectangle
+- Use the `ctx.strokeRect()` method and `ctx.strokeStyle` drawing state property to color the *path* (just the outside) of the inner rectangle
+
+## V. Homework
+
+- Add at least 2 more rectangles to the canvas using both `ctx.fillRect()` and `ctx.strokeRect()`:
+  - make sure that the `ctx.strokeStyle` and `ctx.fillStyle` are set so that we can see these new rectangles
+  - in the comments field of the dropbox, describe the changes you made
+  - ZIP and POST the file into the dropbox
+  - you do NOT need to put this file on banjo
+- Put the answers to the following questions into the comments field of the dropbox:
+  
+ - #1 - True or False. The canvas API was invented by Apple Computer
+ 
+ - #2 - True or False. Canvas is a *vector-based* graphics system
+ 
+ - #3 - True or False. Canvas comes with a built-in *scene graph* and *display list*
+ 
+ - #4 - 
 
 
   <hr><hr>
