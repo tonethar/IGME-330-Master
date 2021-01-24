@@ -56,12 +56,20 @@
     - *raster-based* - https://en.wikipedia.org/wiki/Raster_graphics
     - *Immediate mode* (sometimes called "painters model") - https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)
   - [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics):
-    - https://en.wikipedia.org/wiki/Scene_graph
     - https://en.wikipedia.org/wiki/Vector_graphics
+    - https://en.wikipedia.org/wiki/Retained_mode
+    - https://en.wikipedia.org/wiki/Scene_graph
     
 <hr>
 
-## III. Start File
+## III. Getting Started
+
+- You will need HTML, JavaScript, and usually a little bit of CSS
+- Steps:
+
+#1 - Put a `<canvas>` element on an HTML page
+
+#2 - 
 
 **first-canvas.html**
 
