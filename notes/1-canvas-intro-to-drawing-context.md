@@ -1,10 +1,26 @@
 # Canvas 2D Essential Skills - Intro to the Drawing Context
 
-The Canvas API provides a means for drawing graphics via JavaScript and the HTML &lt;canvas> element. You should have already looked over this presentation:
-- [Intro-to-Canvas.pdf](../presentations/Intro-to-Canvas.pdf)
+## I. About Canvas
+
+## What is it good for?
+The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following appliocations, and we will do these all in this course:
+  - animation
+  - game graphics
+  - data visualization
+  - photo manipulation
+  - real-time video processing
+
+## Links
+- Overview - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- Many libraries are built on top of canvas - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#libraries
+- Guide & Tuorials - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#guides_and_tutorials
+
+## Other Graphics Technologies (for the web browser)
+- https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+- https://developer.mozilla.org/en-US/docs/Web/SVG
 
 ## I. Demo!
-- Start file for today's "screen saver" demo is below
+- Start file for this module is below
 - Concepts covered:
   - Getting a reference to the 2D drawing context with `canvas.getContext('2d')`
   - setting context "state" attributes like `.fillStyle`, `.strokeStyle`, `.lineWidth` and `.globalAlpha`
