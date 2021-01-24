@@ -77,6 +77,7 @@
 
 #5 - This drawing context is an object that contains the properties and methods of the canvas drawing API - so start drawing!
 
+<hr>
 
 **first-canvas.html**
 
@@ -125,6 +126,8 @@
 </body>
 </html>
 ```
+
+<hr>
 
 **Which gives us:**
 
