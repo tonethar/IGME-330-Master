@@ -65,7 +65,7 @@
 ## III. Getting Started
 
 - You will need HTML, JavaScript, and usually a little bit of CSS
-- Steps:
+- Steps to go through before you can draw:
 
 #1 - Put a `<canvas>` element on an HTML page
 
