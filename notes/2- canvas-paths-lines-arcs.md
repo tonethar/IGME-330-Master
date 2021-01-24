@@ -1,12 +1,23 @@
-# Canvas 2D Essential Skills #2 - Canvas Paths & Arcs
+# Canvas 2D Essential Skills #2 - Canvas Paths & Lines & Arcs
 
 ## I. Overview
+
+### Paths
 
 - [`ctx.beginPath()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath)
 - [`ctx.closePath()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath)
 - [`ctx.rect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rect)
-- [`ctx.arc()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc)
 - [`ctx.fill()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill)
+
+### Lines
+- [`ctx.moveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo)
+- [`ctx.lineTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo)
+
+### Arcs
+- [`ctx.arc()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc)
+
+
+- Or, we can always look in the Canvas2D spec: https://www.w3.org/TR/2dcontext/#conformance-requirements
 
 <hr>
 
