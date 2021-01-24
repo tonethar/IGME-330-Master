@@ -46,7 +46,6 @@
 <hr>
 
 ## II. Overview
-- Start file for this module is below
 - Canvas concepts covered:
   - Intro to Canvas2D API
   - Obtaining a drawing context with [`canvas.getContext("2d")`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
