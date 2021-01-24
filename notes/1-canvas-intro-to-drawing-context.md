@@ -137,10 +137,11 @@
 
 ## IV. Demo
 
-- Add a rectangle 400x300 rectangle at x=120,y=120
+- Add a rectangle 400x300 rectangle at x=120 & y=120
 - Change the color of the second rectangle
 - Specify canvas colors in multiple ways
-- Use the `ctx.strokeRect()` method and `ctx.strokeStyle` drawing state property to color the *path* (just the outside) of the inner rectangle
+- Use the `ctx.strokeRect()` method and `ctx.strokeStyle` drawing state property to color the *path* (just the outside) of the inner rectangle:
+  - The `ctx.lineWidth` drawing state property will come in handy too!
 
 <hr>
 
@@ -161,9 +162,9 @@
  
 #4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
  
-#5 - Give an example of 2 drawing state *properties* we used in the demo
+#5 - List the 3 drawing state *properties* we used in the demo
  
-#6 - Give an example of 2 drawing state *methods* we used in the demo
+#6 - List the 2 drawing state *methods* we used in the demo
  
 #7 - Give 4 different ways to represent the color *red* as a color in the canvas API
  
