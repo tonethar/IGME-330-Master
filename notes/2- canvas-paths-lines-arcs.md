@@ -27,7 +27,12 @@
 <hr>
 
 ## II. Demo
-
+- create a rectangle path the hard way (with `rect()`)
+  - fill and stroke it
+- create line paths and stroke them
+- create a circle path with `arc()`
+  - fill and stroke
+- create a semi-circle with `arc()`
 
 <hr>
 
