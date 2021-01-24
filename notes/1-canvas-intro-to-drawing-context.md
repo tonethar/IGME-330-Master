@@ -8,6 +8,7 @@
 - `<canvas>` was originally created by Apple in 2004 for use with their "Dashboard Widgets" annd the Safari Web Browser
 - It was soon picked up by Firefox, Opera, and Chrome. Currently supported  by all modern browsers.
 - The "Canvas 2D Context API" has been standardized by [WHATWG](https://html.spec.whatwg.org/dev/canvas.html) and the [W3C](https://www.w3.org/TR/2dcontext/)
+- It has a fairly concise API for drawing - the API headers fit on 2 printed pages
 
 ### What is it good for?
 - Some of its applications:
@@ -28,6 +29,7 @@
 
 ### Links
 - Overview - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- Wikipedia entry - https://en.wikipedia.org/wiki/Canvas_element
 - Many libraries are built on top of canvas - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#libraries
 - Guide & Tuorials - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#guides_and_tutorials
 
@@ -42,15 +44,24 @@
   
 <hr>
 
-## II. Demo!
+## II. Overview
 - Start file for this module is below
-- Concepts covered:
+- Canvas concepts covered:
   - Intro to Canvas2D API
   - Obtaining a drawing context with [`canvas.getContext("2d")`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
   - Canvas2D convenience method: [`ctx.fillRect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillRect)
   - Canvas2D property: [`ctx.fillStyle`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle)
-  
-## II. Start File
+- Terms:
+  - [Canvas](https://en.wikipedia.org/wiki/Canvas_element):
+    - *raster-based* - https://en.wikipedia.org/wiki/Raster_graphics
+    - *Immediate mode* (sometimes called "painters model") - https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)
+  - [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics):
+    - https://en.wikipedia.org/wiki/Scene_graph
+    - https://en.wikipedia.org/wiki/Vector_graphics
+    
+<hr>
+
+## III. Start File
 
 **first-canvas.html**
 
@@ -102,48 +113,11 @@
 
 **Which gives us:**
 
-**(Not really! Actually, we'll only get a red rectangle!)**
-
-![screenshot](./_images/canvas-1.jpg)
+![screenshot](./_canvas-images/cs-1.jpg)
 
 <hr>
 
-### II-A. Handy Helper Functions
-
-These will be useful as we build our screen saver.
-```js
- // handy helper functions!
-    function getRandomColor(){
-      function getByte(){
-        return 55 + Math.round(Math.random() * 200);
-      }
-      return "rgba(" + getByte() + "," + getByte() + "," + getByte() + ",.8)";
-    }
-
-    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
- ```
- 
-- BTW: what is the *scope* of the `getByte()` function above? Is it visible outside of the `getRandomColor()` function?
-- and if we have time, we might re-factor `getRandomColor()` into something a little more "ES6ish" - for example:
-  - replace `getByte()` with an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-  - replace the string concatenation in the return statement above with [string template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   
-<hr>
-  
-## III. Completed versions
-
-We will demo how to draw a variety of shapes in class. Below are a couple possibile outcomes:
-
-![screenshot](./_images/screen-saver-1.gif)
-
-![screenshot](./_images/screen-saver-2.gif)
-
-![screenshot](./_images/screen-saver-3.gif)
-
-![screenshot](./_images/screen-saver-4.gif)
-
 ## IV. Homework
 
 - Modify the above "screen saver" in some significant ways (so that it draws differently/looks different) - see myCourses for the due date and submission requirements
