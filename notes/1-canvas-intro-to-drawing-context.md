@@ -3,7 +3,7 @@
 ## I. About Canvas
 
 ### What is it good for?
-The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following appliocations, and we will do these all in this course:
+The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following applications, and we will do these all in this course:
   - animation
   - game graphics
   - data visualization
