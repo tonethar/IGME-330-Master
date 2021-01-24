@@ -2,8 +2,15 @@
 
 ## I. About Canvas
 
+### What is it?
+
+- The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element
+- `<canvas>` was originally created by Apple in 2004 for use with their "Dashboard Widgets" annd the Safari Web Browser
+- It was soon picked up by Firefox, Opera, and Chrome. Currently supported  by all modern browsers.
+- The "Canvas 2D Context API" has been standardized by [WHATWG](https://html.spec.whatwg.org/dev/canvas.html) and the [W3C](https://www.w3.org/TR/2dcontext/)
+
 ### What is it good for?
-The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following applications, and we will do these all in this course:
+- Some of its applications:
   - animation
   - game graphics
   - data visualization:
