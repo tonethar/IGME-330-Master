@@ -6,9 +6,13 @@
 The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following applications, and we will do these all in this course:
   - animation
   - game graphics
-  - data visualization
-  - photo manipulation
+  - data visualization:
+    - https://people.rit.edu/ajr6974/330/Project2/
+  - photo manipulation:
+    - https://people.rit.edu/~acjvks/330/shared/fotoshawp/fotoshawp-done.html
   - real-time video processing
+    - https://people.rit.edu/~acjvks/330/shared/getImageData-putImageData-demo/video-image-data-demo-3.html
+    - https://people.rit.edu/~acjvks/330/shared/video/webcam-image-data-demo-3.html
 
 ### The canvas specification
 *When in doubt, read the spec!*
