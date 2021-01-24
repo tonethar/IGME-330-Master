@@ -140,7 +140,10 @@
 
 - Add a rectangle 400x300 rectangle at x=120,y=120
 - Change the color of the second rectangle
+- Specify canvas colors in multiple ways
 - Use the `ctx.strokeRect()` method and `ctx.strokeStyle` drawing state property to color the *path* (just the outside) of the inner rectangle
+
+<hr>
 
 ## V. Homework
 
@@ -149,17 +152,25 @@
   - in the comments field of the dropbox, describe the changes you made
   - ZIP and POST the file into the dropbox
   - you do NOT need to put this file on banjo
-- Put the answers to the following questions into the comments field of the dropbox:
+- Put the answers to the following questions into the comments field of the dropbox (-1 point for each incorrect answer):
   
  - #1 - True or False. The canvas API was invented by Apple Computer
  
- - #2 - True or False. Canvas is a *vector-based* graphics system
+ - #2 - True or False. The canvas API is hardware accelerated on ost modern browsers
  
- - #3 - True or False. Canvas comes with a built-in *scene graph* and *display list*
+ - #3 - True or False. Canvas is a *vector-based* graphics system
  
- - #4 - 
+ - #4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
+ 
+ - #5 - Give an example of 2 drawing state *properties* we used in the demo
+ 
+ - #6 - Give an example of 2 drawing state *methods* we used in the demo
+ 
+ - #7 - Give 4 different ways to represent the color *red* as a color in the canvas API
+ 
+ - #8 - Write the one line of code that will change the current fill color to *green*
 
 
   <hr><hr>
 
-**[Next Chapter -> Canvas Part II](canvas-2.md)**
+**[Next Chapter -> ]()**
