@@ -39,7 +39,7 @@
 - Overview - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - Wikipedia entry - https://en.wikipedia.org/wiki/Canvas_element
 - Many libraries are built on top of canvas - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#libraries
-- Guide & Tuorials - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#guides_and_tutorials
+- Guide & Tutorials - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#guides_and_tutorials
 
 ### Other Graphics Technologies (for the web browser)
 - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
@@ -163,7 +163,7 @@
   
 #1 - True or False. The canvas API was invented by Apple Computer
  
-#2 - True or False. The canvas API is hardware accelerated on ost modern browsers
+#2 - True or False. The canvas API is hardware accelerated on most modern browsers
  
 #3 - True or False. Canvas is a *vector-based* graphics system
  
