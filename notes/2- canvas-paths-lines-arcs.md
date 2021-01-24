@@ -2,12 +2,17 @@
 
 ## I. Overview
 
+- A canvas *path* is a mathematical representation of a shape that can be filled with the current `fillStyle`, and/or stroked with the current `strokeStyle`
+- Last time we use the `fillRect()` and `strokeRect()` *convenience methods* that created a path and then immediately filled or stroked it
+- This time, we will first describe a path, and then `.fill()` or `.stroke()` it.
+
 ### Paths
 
 - [`ctx.beginPath()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath)
 - [`ctx.closePath()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath)
 - [`ctx.rect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rect)
 - [`ctx.fill()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill)
+- [`ctx.stroke()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke)
 
 ### Lines
 - [`ctx.moveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo)
