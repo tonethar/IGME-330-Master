@@ -173,7 +173,7 @@
  
 #6 - List the 2 drawing state *methods* we used in the demo
  
-#7 - Give 4 different ways to represent the color *red* as a color in the canvas API
+#7 - Give 4 different ways to represent the color *green* as a color in the canvas API
  
 #8 - Write the one line of code that will change the current fill color to *green*
 
