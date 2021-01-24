@@ -1,8 +1,8 @@
-# Canvas 2D Essential Skills - Intro to the Drawing Context
+# Canvas 2D Essential Skills - #1 - Intro to the Drawing Context
 
 ## I. About Canvas
 
-## What is it good for?
+### What is it good for?
 The Canvas API provides a means for drawing graphics via JavaScript and the HTML `<canvas>` element. It can be used in the following appliocations, and we will do these all in this course:
   - animation
   - game graphics
@@ -10,23 +10,29 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
   - photo manipulation
   - real-time video processing
 
-## Links
+### The canvas specification
+*When in doubt, read the spec!*
+- https://www.w3.org/TR/2dcontext/
+- https://html.spec.whatwg.org/multipage/canvas.html#2dcontext
+
+### Links
 - Overview - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - Many libraries are built on top of canvas - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#libraries
 - Guide & Tuorials - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API#guides_and_tutorials
 
-## Other Graphics Technologies (for the web browser)
+### Other Graphics Technologies (for the web browser)
 - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
 - https://developer.mozilla.org/en-US/docs/Web/SVG
 
-## I. Demo!
+<hr>
+
+## II. Demo!
 - Start file for this module is below
 - Concepts covered:
-  - Getting a reference to the 2D drawing context with `canvas.getContext('2d')`
-  - setting context "state" attributes like `.fillStyle`, `.strokeStyle`, `.lineWidth` and `.globalAlpha`
-  - drawing rectangles, circles and lines
-  - creating paths, and stroking and filling them
-  - setting up an animation loop
+  - Intro to Canvas2D API
+  - Obtaining a drawing context with [`canvas.getContext("2d")`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
+  - Canvas2D convenience method: [`ctx.fillRect()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillRect)
+  - Canvas2D property: [`ctx.fillStyle`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle)
   
 ## II. Start File
 
