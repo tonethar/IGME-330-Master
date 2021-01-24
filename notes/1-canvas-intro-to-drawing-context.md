@@ -1,4 +1,4 @@
-# Canvas 2D Essential Skills - #1 - Intro to the Drawing Context
+# Canvas 2D Essential Skills #1 - Intro to the Drawing Context
 
 ## I. About Canvas
 
