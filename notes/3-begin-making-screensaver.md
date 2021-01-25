@@ -1,11 +1,11 @@
 # Canvas 2D Essential Skills #2 - Begin making screensaver
 
 ## I. Overview
-- Build a screen saver using [`window.setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
+- Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) to periodically draw random shapes on the screen
 
 ## II. Handy Helper Functions
 
-These will be useful as we build our screen saver.
+- These will be useful as we build our screen saver - go ahead and copy/paste them into **cs-canvas-3.html**
 
 ```js
 // handy helper functions!
