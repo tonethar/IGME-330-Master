@@ -182,4 +182,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   :-\  |  [**IGME-330**](../README.md) | [**Skill #2 - Canvas Paths & Lines & Arcs **](2-canvas-paths-lines-arcs.md)
+|   :-\  |  [**IGME-330**](../README.md) | [**Skill #2 - Paths & Lines & Arcs **](2-canvas-paths-lines-arcs.md)
