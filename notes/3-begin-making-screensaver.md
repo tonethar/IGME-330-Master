@@ -1,4 +1,4 @@
-# Canvas 2D Essential Skills #2 - Begin making a screensaver
+# Canvas 2D Essential Skills #3 - Begin making a screensaver
 
 ## I. Overview
 - Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) to periodically draw random rectangles on the screen
