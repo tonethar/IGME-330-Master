@@ -27,6 +27,7 @@
 <hr>
 
 ## II. Demo
+- Build on the "done" code from last time
 - create a rectangle path the hard way - with `ctx.rect()`
   - fill and stroke it
 - create line paths and stroke them
