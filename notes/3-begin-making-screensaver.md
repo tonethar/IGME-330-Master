@@ -1,5 +1,12 @@
 # Canvas 2D Essential Skills #3 - Begin making a screensaver
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part III (07:08)](https://video.rit.edu/Watch/330-essential-skills-3)
+- See the HW assignment at the bottom of the page (Part V.)
+
+<hr>
+
 ## I. Overview
 - Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) to periodically draw random rectangles on the screen
 
@@ -48,7 +55,7 @@ We will demo how to draw a variety of shapes in class. Below are some possibile 
 
 <hr>
 
-## V. Homework
+## V. Check it off!
 - Modify the above "screen saver" in some significant ways (so that it draws differently/looks different)
 - ZIP & POST file in myCourses dropbox
 - In comments field of dropbox, tell us what changes you made
