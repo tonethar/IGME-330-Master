@@ -28,8 +28,8 @@ function getRandomInt(min, max) {
 ## III. Demo
 - add helper functions to **cs-canvas-3.html** and test them in the console
 - create the `drawRandomRect()` function
-  - random x,y and wdith x height
-  - `lineWidth` and `strokeStyle` and `fillStyle`
+  - draw at random `x`, `y` and `wdith`, `height`
+  - give random `lineWidth` and `strokeStyle` and `fillStyle`
 - call `drawRandomRect()` periodically with `requestAnimationFrame()`
 
 <hr>
