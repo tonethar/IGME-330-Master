@@ -168,14 +168,18 @@
 #3 - True or False. Canvas is a *vector-based* graphics system
  
 #4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
+
+#5 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
  
-#5 - List the 3 drawing state *properties* we used in the demo
+#6 - List the 3 drawing state *properties* we used in this demo
  
-#6 - List the 2 drawing state *methods* we used in the demo
+#7 - List the 2 drawing state *methods* we used in this demo
  
-#7 - Give 4 different ways to represent the color *green* as a color in the canvas API
+#8 - Give 4 different ways to represent the color *green* as a color in the canvas API
  
-#8 - Write the one line of code that will change the current fill color to *green*
+#9 - Write the one line of code that will change the current fill color to *green*
+
+#10 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
 
 
 <hr><hr>
