@@ -37,8 +37,8 @@
 <hr>
 
 ## III. Check it Off!
-
-- Just ZIP and POST this to myCourses - that's it!
+- Easy! Add at least one more circle and one more line  to **cs-canvas-2.html**:
+- Then ZIP and POST **cs-canvas-2.html** to myCourses
 
 <hr><hr>
 
