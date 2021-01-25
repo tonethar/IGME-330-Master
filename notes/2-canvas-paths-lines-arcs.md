@@ -37,8 +37,11 @@
 <hr>
 
 ## III. Check it Off!
-- Easy! Add at least one more circle and one more line  to **cs-canvas-2.html**:
+- Easy!:
+  - Add 2 more circles to **cs-canvas-2.html**, make them small "eyes" near the center of the screen
+  - Add 1 line to **cs-canvas-2.html**, make it 600 pixles long and give it a width of 20 pixels
 - Then ZIP and POST **cs-canvas-2.html** to myCourses
+- Don't post this to banjo! We'll make better looking stuff soon!
 
 <hr><hr>
 
