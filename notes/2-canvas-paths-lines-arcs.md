@@ -27,12 +27,12 @@
 <hr>
 
 ## II. Demo
-- create a rectangle path the hard way (with `rect()`)
+- create a rectangle path the hard way - with `ctx.rect()`
   - fill and stroke it
 - create line paths and stroke them
-- create a circle path with `arc()`
+- create a circle path with `ctx.arc()`
   - fill and stroke
-- create a semi-circle with `arc()`
+- create a semi-circle with `ctx.arc()`
 
 <hr>
 
