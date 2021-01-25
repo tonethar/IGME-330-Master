@@ -3,6 +3,8 @@
 ## I. Overview
 - Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) to periodically draw random rectangles on the screen
 
+<hr>
+
 ## II. Handy Helper Functions
 
 - These will be useful as we build our screen saver - go ahead and copy/paste them into **cs-canvas-3.html**
