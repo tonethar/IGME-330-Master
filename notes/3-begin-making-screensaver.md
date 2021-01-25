@@ -8,18 +8,18 @@
 These will be useful as we build our screen saver.
 
 ```js
- // handy helper functions!
-    function getRandomColor(){
-      function getByte(){
-        return 55 + Math.round(Math.random() * 200);
-      }
-      return "rgba(" + getByte() + "," + getByte() + "," + getByte() + ",.8)";
-    }
+// handy helper functions!
+function getRandomColor(){
+  function getByte(){
+    return 55 + Math.round(Math.random() * 200);
+  }
+  return "rgba(" + getByte() + "," + getByte() + "," + getByte() + ",.8)";
+}
 
-    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
- ```
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+```
  
  
  
