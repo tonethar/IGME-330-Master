@@ -1,7 +1,7 @@
 # Canvas 2D Essential Skills #2 - Begin making screensaver
 
 ## I. Overview
-- Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) to periodically draw random shapes on the screen
+- Build a [screen saver](https://en.wikipedia.org/wiki/Screensaver) using [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) to periodically draw random rectangles on the screen
 
 ## II. Handy Helper Functions
 
@@ -24,15 +24,17 @@ function getRandomInt(min, max) {
 <hr>
 
 ## III. Demo
-- add helper functions to file and test them in the console
-- 
-
+- add helper functions to **cs-canvas-3.html** and test them in the console
+- create the `drawRandomRect()` function
+  - random x,y and wdith x height
+  - `lineWidth` and `strokeStyle` and `fillStyle`
+- call `drawRandomRect()` periodically with `requestAnimationFrame()`
 
 <hr>
 
 ## IV. Completed versions
 
-We will demo how to draw a variety of shapes in class. Below are a couple possibile outcomes:
+We will demo how to draw a variety of shapes in class. Below are some possibile outcomes:
 
 ![screenshot](./_images/screen-saver-1.gif)
 
@@ -45,8 +47,9 @@ We will demo how to draw a variety of shapes in class. Below are a couple possib
 <hr>
 
 ## V. Homework
-
-- Modify the above "screen saver" in some significant ways (so that it draws differently/looks different) - see myCourses for the due date and submission requirements
+- Modify the above "screen saver" in some significant ways (so that it draws differently/looks different)
+- ZIP & POST file in myCourses dropbox
+- In comments field of dropbox, tell us what changes you made
 
  
  
