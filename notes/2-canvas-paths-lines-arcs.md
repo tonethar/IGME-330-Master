@@ -1,5 +1,12 @@
 # Canvas 2D Essential Skills #2 - Paths & Lines & Arcs
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part I (10:19)](https://video.rit.edu/Watch/330-essential-skills-2)
+- See the HW assignment at the bottom of the page (Part III.)
+
+<hr>
+
 ## I. Overview
 
 - A canvas *path* is a mathematical representation of a shape that can be filled with the current `fillStyle`, and/or stroked with the current `strokeStyle`
