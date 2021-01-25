@@ -44,4 +44,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [#1 - Intro to the Drawing Context](1-canvas-intro-to-drawing-context.md) |  [**IGME-330**](../README.md) | [**Skill #3 - TBA**]()
+|  [**#1 - Intro to the Drawing Context**](1-canvas-intro-to-drawing-context.md) |  [**IGME-330**](../README.md) | [**Skill #3 - TBA**]()
