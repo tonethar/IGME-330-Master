@@ -38,8 +38,9 @@
 
 ## III. Check it Off!
 
+- Just ZIP and POST this to myCourses - that's it!
 
-
+<hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
