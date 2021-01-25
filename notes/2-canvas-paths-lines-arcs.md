@@ -1,4 +1,4 @@
-# Canvas 2D Essential Skills #2 - Canvas Paths & Lines & Arcs
+# Canvas 2D Essential Skills #2 - Paths & Lines & Arcs
 
 ## I. Overview
 
