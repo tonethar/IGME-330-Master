@@ -1,7 +1,7 @@
 # Canvas 2D Essential Skills #2 - Begin making screensaver
 
 ## I. Overview
-
+- Build a screen saver using [`window.setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
 ## II. Handy Helper Functions
 
@@ -24,6 +24,9 @@ function getRandomInt(min, max) {
 <hr>
 
 ## III. Demo
+- add helper functions to file and test them in the console
+- 
+
 
 <hr>
 
