@@ -67,4 +67,4 @@ We will demo how to draw a variety of shapes in class. Below are some possibile 
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#2 - Paths & Lines & Arcs**](2-canvas-paths-lines-arcs.md) |  [**IGME-330**](../README.md) | [**Skill #4 - TBA**]()
+|  [**Skill #2 - Paths & Lines & Arcs**](2-canvas-paths-lines-arcs.md) |  [**IGME-330**](../README.md) | [**Skill #4 - Adding Controls**](4-adding-controls.md)
