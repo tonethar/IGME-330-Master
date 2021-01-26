@@ -138,7 +138,7 @@
 
 **Which gives us:**
 
-![screenshot](./_canvas-images/cs-1.png)
+![screenshot](_canvas-images/cs-1.png)
 
 <hr>
 
