@@ -8,13 +8,9 @@
 
 <hr>
 
-## II. More Canvas
+## II. HTML/CSS code
 
-
-
-<hr>
-
-## III. Add this HTML/CSS
+- Add the following to your HTML file
 
 ### CSS
 ```css
@@ -49,9 +45,23 @@ section{
   </span>
 </section>
 <section>
-	<p>Click on the screen to "spraypaint" rectangles (you probably want the screensaver to be paused)</p>
+  <p>Click on the screen to "spraypaint" rectangles (you probably want the screensaver to be paused)</p>
 </section>
 ```
+
+<hr>
+
+## III. Helper Code
+
+```js
+function canvasClicked(e){
+  let rect = e.target.getBoundingClientRect();
+  let mouseX = e.clientX - rect.x;
+  let mouseY = e.clientY - rect.y;
+  console.log(mouseX,mouseY);
+}
+```
+
 
 <hr>
 
