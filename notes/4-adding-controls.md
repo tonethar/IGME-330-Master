@@ -6,11 +6,60 @@
   - The ability to click on the screen to "spray paint" on the canvas
   - A checkbox to turn this capability on and off
 
+<hr>
+
 ## II. More Canvas
 
 
 
+<hr>
 
+## III. Add this HTML/CSS
+
+### CSS
+```css
+body{
+  font-family: sans-serif;
+}
+	
+canvas{
+  border:1px solid gray;
+}
+	
+button{
+  font-size:1.2em;
+}
+	
+section{
+  margin:.5em 0 .5em 0;
+}
+```
+
+### HTML
+
+```html
+<section>
+  <button id="btnPlay">Play</button>
+  <button id="btnPause">Pause</button>
+</section>
+<section>
+  <span>
+    <input type="checkbox" id="rectanglesCB" checked>
+    <label for="rectanglesCB">Create Rectangles</label>
+  </span>
+</section>
+<section>
+	<p>Click on the screen to "spraypaint" rectangles (you probably want the screensaver to be paused)</p>
+</section>
+```
+
+<hr>
+
+## IV. Demo/Walkthrough
+
+
+
+<hr>
 
 ## V. Check it off!
 
