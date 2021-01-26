@@ -36,8 +36,8 @@ section{
 </section>
 <section>
   <span>
-    <input type="checkbox" id="rectanglesCB" checked>
-    <label for="rectanglesCB">Create Rectangles</label>
+    <input type="checkbox" id="cbSpraypaint" checked>
+    <label for="cbSpraypaint">Create Rectangles</label>
   </span>
 </section>
 <section>
@@ -63,7 +63,11 @@ function canvasClicked(e){
 
 ## IV. Demo/Walkthrough
 
-
+- Enable the Play/Pause buttons:
+  - `paused` boolean
+  - `setupUI()` helper function
+- Enable the "spray paint"
+- Enable the checkbox
 
 <hr>
 
@@ -77,6 +81,3 @@ function canvasClicked(e){
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
 |  [**#3 - Begin making a screensaver**](3-begin-making-screensaver.md) |  [**IGME-330**](../README.md) | [**Skill #4 - TBA**]()
-
-  
-  
