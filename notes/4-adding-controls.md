@@ -18,10 +18,6 @@ body{
   font-family: sans-serif;
 }
 	
-canvas{
-  border:1px solid gray;
-}
-	
 button{
   font-size:1.2em;
 }
