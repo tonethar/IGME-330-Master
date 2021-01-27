@@ -129,6 +129,8 @@ V. [Reference](#reference)
  
 ## IV. Review Questions (from notes & video - reference links below will help too)
 
+#### (the answers to these should be posted to the Assignments Dropbox in the Comments field of your submission)
+
 - #1 - What are the 3 distinct *layers* of a (simple) web browser app? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
 - #2 - What are the 3 *languages* used to program these layers? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
 - #3 - List 3 things that `"use strict";` does? (***see the link in *V. Reference* below below***)
