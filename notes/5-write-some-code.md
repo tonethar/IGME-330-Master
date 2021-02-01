@@ -1,4 +1,4 @@
-# Canvas 2D Essential Skills #5 - Refactoring the Code
+# Canvas 2D Essential Skills #5 - Write some code!
 
 `function drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")`
 
