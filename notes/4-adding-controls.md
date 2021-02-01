@@ -4,7 +4,7 @@
 - Here we will interactivity to our screen saver:
   - Play/Pause buttons
   - The ability to click on the screen to "spray paint" on the canvas
-  - A checkbox to turn this capability on and off
+  - A checkbox to turn rectangle creation on and off
 
 <hr>
 
@@ -88,7 +88,7 @@ function canvasClicked(e){
   - test it - everything should function as before
 - Now let's enable the spraypaint
 - Enable the checkbox
-  - create a `spraypaint` boolean
+  - create a `createRectangles` boolean
   - add a `onclick` event handler to the checkbox
   - write code so that the checkbox has to be checked for the spraypaint to work
   
