@@ -64,7 +64,7 @@ function canvasClicked(e){
 ## IV. Demo/Walkthrough
 
 - Enable the Play/Pause buttons:
-  - `paused` boolean
+  - declare and initialize a `paused` boolean
   - `setupUI()` helper function will enable the `btnPause` and `btnPlay` buttons
   - call `setupUI()` from `init()`
   - modify `update()` loop to utilize `paused` boolean
