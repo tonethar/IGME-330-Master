@@ -109,7 +109,13 @@ function canvasClicked(e){
 
 <hr>
 
-## V. Check it off!
+## V. Screenshot of done version
+
+![screenshot](./_images/screen-saver-5.png)
+
+<hr>
+
+## VI. Check it off!
 
 - ZIP & POST file in myCourses dropbox
 - In comments field of dropbox, tell us what changes you made
