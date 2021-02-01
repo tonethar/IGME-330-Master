@@ -99,7 +99,7 @@ function canvasClicked(e){
 5) Enable the checkbox
 
     - create a `createRectangles` boolean
-    - add a `onclick` event handler to the checkbox
+    - add a `onclick` event handler to the checkbox which will change the value of `createRectangles`
     - write code so that the checkbox has to be checked for the rectangles to be created
   
 <hr>
