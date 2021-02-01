@@ -82,8 +82,9 @@ function canvasClicked(e){
 - Enable the checkbox
   - create a `spraypaint` boolean
   
-  
-![screenshot](_images/)
+<hr>
+ 
+![screenshot](_images/canvas-drawing-stack.jpg)
 
 <hr>
 
