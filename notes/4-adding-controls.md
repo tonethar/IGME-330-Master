@@ -99,6 +99,8 @@ function canvasClicked(e){
     - now let's implement this function
     - we'll use `ctx.save()` and `ctx.restore()` here - these will manipulate the canvas [*drawing state stack*](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations) (see image below):
       - these commands will *save* ("push") and *restore* ("pop") the values of drawing state attributes (such as `fillStyle` and `lineWidth`). They also will save the values of canvas *transformations* (i.e. translate/rotate/scale - which we will cover soon)  
+      - [`ctx.save()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/save)
+      - [`ctx.restore()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/restore)
     - now call the `drawRectangle(ctx,x,y,...)` function from `drawRandomRect(ctx)` and get rid of the other drawing code we had there
     - test it - everything should function as before
     
