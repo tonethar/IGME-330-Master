@@ -72,9 +72,18 @@ function canvasClicked(e){
   - now spam the **Play** button - the animation speeds up (unintentionally!):
     - you fix it! (this is a graded part of the HW)
 - Enable the "spray paint":
-  - move `canvas` into "Script" scope
+  - hook up `canvasClicked` to the `<canvas>` element and test it:
+    - error! Let's fix it together
+    - now we should see the logged coordinates when the canvas is clicked on
+  - Create a helper function to draw rectanges - here's the function signature:
+    - `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")`
+    - now we'll implement the it
+    - we'll use `ctx.save()` and `ctx.restore()` here
 - Enable the checkbox
   - create a `spraypaint` boolean
+  
+  
+![screenshot](_images/)
 
 <hr>
 
