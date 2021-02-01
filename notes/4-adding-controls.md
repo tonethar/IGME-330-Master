@@ -72,6 +72,7 @@ function canvasClicked(e){
     - test it
     - now spam the **Play** button - the animation speeds up (unintentionally!):
       - you fix it! (this is a graded part of the HW)
+      - hint: one `if` statement will solve the problem
       
 2) Enable the "spray paint":
 
@@ -99,8 +100,8 @@ function canvasClicked(e){
 5) Enable the checkbox
 
     - create a `createRectangles` boolean
-    - add a `onclick` event handler to the checkbox which will change the value of `createRectangles`
-    - write code so that the checkbox has to be checked for the rectangles to be created
+    - add a `onclick` event handler to the checkbox which will change the value of `createRectangles` to whatever the `checked` value of the checkbox is
+    - in `update()`, write code so that the checkbox has to be checked for the rectangles to be created
   
 <hr>
  
