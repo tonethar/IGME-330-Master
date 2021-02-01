@@ -1,5 +1,12 @@
 # Canvas 2D Essential Skills #4 - Adding Controls
 
+## 0. Video & HW
+
+- The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part IV (17:26)](https://video.rit.edu/Watch/330-essential-skills-4)
+- See the HW assignment at the bottom of the page (Part VI.)
+
+<hr>
+
 ## I. Overview
 - Here we will interactivity to our screen saver:
   - Play/Pause buttons
@@ -128,4 +135,4 @@ function canvasClicked(e){
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#3 - Begin making a screensaver**](3-begin-making-screensaver.md) |  [**IGME-330**](../README.md) | [**Skill #4 - TBA**]()
+|  [**#3 - Begin making a screensaver**](3-begin-making-screensaver.md) |  [**IGME-330**](../README.md) | [**Skill #5 - TBA**]()
