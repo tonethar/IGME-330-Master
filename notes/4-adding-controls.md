@@ -5,7 +5,7 @@
   - Play/Pause buttons
   - The ability to click on the screen to "spray paint" on the canvas
   - A checkbox to turn rectangle creation on and off
-- Go ahead and rename you file from last time to **cs-canvas-4.html**
+- Go ahead and rename your file from last time to **cs-canvas-4.html**
 - Start coding!
 
 <hr>
