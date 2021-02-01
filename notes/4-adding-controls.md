@@ -94,6 +94,8 @@ function canvasClicked(e){
     
 4) Now let's enable the spraypaint
 
+    - Draw 10 rectangles near the location of the mouse
+
 5) Enable the checkbox
 
     - create a `createRectangles` boolean
