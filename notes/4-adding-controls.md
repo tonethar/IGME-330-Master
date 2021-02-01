@@ -63,34 +63,42 @@ function canvasClicked(e){
 
 ## IV. Demo/Walkthrough
 
-- Enable the Play/Pause buttons:
-  - declare and initialize a `paused` boolean
-  - `setupUI()` helper function will enable the `btnPause` and `btnPlay` buttons
-  - call `setupUI()` from `init()`
-  - modify `update()` loop to utilize `paused` boolean
-  - test it
-  - now spam the **Play** button - the animation speeds up (unintentionally!):
-    - you fix it! (this is a graded part of the HW)
-- Enable the "spray paint":
-  - hook up `canvasClicked` to the `<canvas>` element and test it:
-    - error! Let's fix it together
-    - now we should see the logged coordinates when the canvas is clicked on
-    - next we will draw 10 small random rectangles clustered around where we clicked the mouse:
-      - if we start writing more calls to `ctx.beginPath()` and `ctx.rect()` etc we will be ***repeating a bunch of code***
-      - sounds like it's time for a segue to create helper function to draw rectangles - we will return to getting the spray paint working in a little bit
-- Create a canvas helper function to draw rectangles - here's the function signature:
-  - `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")`
-  - note how we have allowed for *optional parameters* for `fillStyle`, `lineWidth` and `strokeStyle` by assigning default values
-  - now let's implement this function
-  - we'll use `ctx.save()` and `ctx.restore()` here - these will manipulate the canvas [*drawing state stack*](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations) (see image below):
-    - these commands will *save* ("push") and *restore* ("pop") the values of drawing state attributes (such as `fillStyle` and `lineWidth`). They also will save the values of canvas *transformations* (i.e. translate/rotate/scale - which we will cover soon)  
-  - now call the `drawRectangle(ctx,x,y,...)` function from `drawRandomRect(ctx)` and get rid of the other drawing code we had there
-  - test it - everything should function as before
-- Now let's enable the spraypaint
-- Enable the checkbox
-  - create a `createRectangles` boolean
-  - add a `onclick` event handler to the checkbox
-  - write code so that the checkbox has to be checked for the spraypaint to work
+1) Enable the Play/Pause buttons:
+
+    - declare and initialize a `paused` boolean
+    - `setupUI()` helper function will enable the `btnPause` and `btnPlay` buttons
+    - call `setupUI()` from `init()`
+    - modify `update()` loop to utilize `paused` boolean
+    - test it
+    - now spam the **Play** button - the animation speeds up (unintentionally!):
+      - you fix it! (this is a graded part of the HW)
+      
+2) Enable the "spray paint":
+
+    - hook up `canvasClicked` to the `<canvas>` element and test it:
+      - error! Let's fix it together
+      - now we should see the logged coordinates when the canvas is clicked on
+      - next we will draw 10 small random rectangles clustered around where we clicked the mouse:
+        - if we start writing more calls to `ctx.beginPath()` and `ctx.rect()` etc we will be ***repeating a bunch of code***
+        - sounds like it's time for a segue to create helper function to draw rectangles - we will return to getting the spray paint working in a little bit
+	
+3) Create a canvas helper function to draw rectangles - here's the function signature:
+
+    - `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")`
+    - note how we have allowed for *optional parameters* for `fillStyle`, `lineWidth` and `strokeStyle` by assigning default values
+    - now let's implement this function
+    - we'll use `ctx.save()` and `ctx.restore()` here - these will manipulate the canvas [*drawing state stack*](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations) (see image below):
+      - these commands will *save* ("push") and *restore* ("pop") the values of drawing state attributes (such as `fillStyle` and `lineWidth`). They also will save the values of canvas *transformations* (i.e. translate/rotate/scale - which we will cover soon)  
+    - now call the `drawRectangle(ctx,x,y,...)` function from `drawRandomRect(ctx)` and get rid of the other drawing code we had there
+    - test it - everything should function as before
+    
+4) Now let's enable the spraypaint
+
+5) Enable the checkbox
+
+    - create a `createRectangles` boolean
+    - add a `onclick` event handler to the checkbox
+    - write code so that the checkbox has to be checked for the rectangles to be created
   
 <hr>
  
