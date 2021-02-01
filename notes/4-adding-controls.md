@@ -83,6 +83,8 @@ function canvasClicked(e){
 
 - ZIP & POST file in myCourses dropbox
 - In comments field of dropbox, tell us what changes you made
+- Rubric:
+  - (-5) **Play** button still broken - i.e. *spamming the **Play** button still speeds up the animation*
 
 <hr><hr>
 
