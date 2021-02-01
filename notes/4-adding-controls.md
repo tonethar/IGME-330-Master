@@ -68,6 +68,10 @@ function canvasClicked(e){
   - `setupUI()` helper function will enable the `btnPause` and `btnPlay` buttons
   - call `setupUI()` from `init()`
   - modify `update()` loop to utilize `paused` boolean
+  - test it
+  - now spam the **Play** button:
+    - fix it!
+  
 - Enable the "spray paint":
   - move `canvas` into "Script" scope
 - Enable the checkbox
