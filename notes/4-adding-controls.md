@@ -111,7 +111,7 @@ function canvasClicked(e){
 
 ## V. Screenshot of done version
 
-![screenshot](./_images/screen-saver-5.png)
+![screenshot](./_canvas-images/screen-saver-5.png)
 
 <hr>
 
