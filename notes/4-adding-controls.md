@@ -69,9 +69,8 @@ function canvasClicked(e){
   - call `setupUI()` from `init()`
   - modify `update()` loop to utilize `paused` boolean
   - test it
-  - now spam the **Play** button:
-    - fix it!
-  
+  - now spam the **Play** button - the animation speeds up (unintentionally):
+    - you fix it! (graded part of HW)
 - Enable the "spray paint":
   - move `canvas` into "Script" scope
 - Enable the checkbox
