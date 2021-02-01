@@ -66,6 +66,7 @@ function canvasClicked(e){
 - Enable the Play/Pause buttons:
   - `paused` boolean
   - `setupUI()` helper function will enable the `btnPause` and `btnPlay` buttons
+  - call `setupUI()` from `init()`
   - modify `update()` loop to utilize `paused` boolean
 - Enable the "spray paint":
   - move `canvas` into "Script" scope
