@@ -36,8 +36,8 @@ section{
 </section>
 <section>
   <span>
-    <input type="checkbox" id="cbSpraypaint" checked>
-    <label for="cbSpraypaint">Create Rectangles</label>
+    <input type="checkbox" id="cbRectangles" checked>
+    <label for="cbRectangles">Rectangles</label>
   </span>
 </section>
 <section>
