@@ -77,8 +77,8 @@ function canvasClicked(e){
     - now we should see the logged coordinates when the canvas is clicked on
   - Create a canvas helper function to draw rectangles - here's the function signature:
     - `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")`
-    - note how we have allowed for *optional parameters* for `fillStyle`, `lineWidth` and `strokeStyle`
-    - now we'll implement the the function
+    - note how we have allowed for *optional parameters* for `fillStyle`, `lineWidth` and `strokeStyle` by assigning default values
+    - now let's implement this function
     - we'll use `ctx.save()` and `ctx.restore()` here - these will manipulate the canvas [*drawing state stack*](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations) (see image below):
       - these commands will *save* ("push") and *restore* ("pop") the values of drawing state attributes (such as `fillStyle` and `lineWidth`). They also will save the values of canvas *transformations* (i.e. translate/rotate/scale - which we will cover soon)  
 - Enable the checkbox
