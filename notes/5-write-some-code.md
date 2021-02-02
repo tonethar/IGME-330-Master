@@ -38,7 +38,13 @@
 
 <hr>
 
-## V. Submission
+## V. Screenshot of completed version
+
+![screenshot](./_canvas-images/screen-saver-6.png)
+
+<hr>
+
+## VI. Submission
 
 - ZIP and POST to the dropbox
 
