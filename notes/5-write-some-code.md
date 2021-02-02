@@ -13,6 +13,7 @@
 - `drawLine()` will be similar to `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")` except:
   - it will not need `fillStyle` or `width` or `height` parameters
   - it will have `x1`, `y1`, `x2`, and `y2` parameters (e.g. the start and end points of the line)
+  - the default `lineWidth` will be `1`
 - `drawRandomArc()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawArc(...)`
 - `drawRandomALine()` will function similarly to `drawRandomRect()`:
