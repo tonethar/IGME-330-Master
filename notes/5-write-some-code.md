@@ -41,4 +41,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#4 - Adding Controls**](4-adding-controls.md) |  [**IGME-330**](../README.md) | [**Skill #6 - TBA**]
+|  [**#4 - Adding Controls**](4-adding-controls.md) |  [**IGME-330**](../README.md) | **Skill #6 - TBA**
