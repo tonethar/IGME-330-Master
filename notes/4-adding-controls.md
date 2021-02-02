@@ -137,4 +137,4 @@ function canvasClicked(e){
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#3 - Begin making a screensaver**](3-begin-making-screensaver.md) |  [**IGME-330**](../README.md) | [**Skill #5 - Write Some Code**](5-write-some-code.md)
+|  [**#3 - Begin making a screensaver**](3-begin-making-screensaver.md) |  [**IGME-330**](../README.md) | [**Skill #5 - Write Some Code!**](5-write-some-code.md)
