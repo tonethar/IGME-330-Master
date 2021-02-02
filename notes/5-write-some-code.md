@@ -18,6 +18,9 @@
   - except that it will call `drawArc(...)`
 - `drawRandomALine()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawLine(...)`
+- Hints:
+  - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
+  - test your code frequently, at each step, just like we did in the last part
 
 <hr>
 
