@@ -21,6 +21,7 @@
 - Hints:
   - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
   - test your code frequently, at each step, just like we did in the last part
+  - you don't have to do this, but in my completed version below I gave all of the circles a low opacity by using `ctx.globalAlpha=0.3;`
 
 <hr>
 
