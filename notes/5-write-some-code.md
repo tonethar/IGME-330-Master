@@ -28,7 +28,7 @@
 
 <hr>
 
-## IV. Required refactoring
+## IV. Required code refactoring
 - Re-write all of the drawing code in the `init()` function to use your **Canvas Helper Functions**  - `drawRectangle()`, `drawArc()` and `drawLine()`
 - Change the "spraypaint" functionality so that it paints arcs, not rectangles
 
