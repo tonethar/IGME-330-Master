@@ -16,7 +16,7 @@
   - the default `lineWidth` will be `1`
 - `drawRandomArc()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawArc(...)`
-- `drawRandomALine()` will function similarly to `drawRandomRect()`:
+- `drawRandomLine()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawLine(...)`
 - Hints:
   - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
