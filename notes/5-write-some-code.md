@@ -8,7 +8,7 @@
 
 ## II. Required Canvas Helper functions
 - `drawArc(...)` will be similar to `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")` except:
-  - it will have a `radius` parameters instead of `width` and `height`
+  - it will have a `radius` parameter instead of `width` and `height`
   - it will also have *optional* parameters for `startAngle` and `endAngle`, and these withh default to `0` and `Math.PI *2` respectively
 - `drawLine()` will be similar to `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")` except:
   - it will not need `fillStyle` or `width` or `height` parameters
