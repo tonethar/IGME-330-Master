@@ -71,7 +71,7 @@ ctx.fill();
 	ctx.save();                 // A - optionally, save the drawing state attributes and CTM
 	ctx.strokeStyle = "red";    // B - optionally, change the values of one or more drawing state attributes
 	ctx.fillStyle = "yellow";   // B
-	ctx.lineWidth = "10";       // B
+	ctx.lineWidth = 10;       // B
 	ctx.beginPath();            // C - describe a path
 	ctx.rect(20,20,200,200);    // C
 	ctx.closePath();            // C
