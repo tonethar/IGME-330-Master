@@ -135,7 +135,7 @@ Here's our start file:
 
 
 
-## IV. Demo-B - *Revenge of Screen Saver!*
+## IV. Demo-B - *Revenge of Screen Saver!* (Try on this own if you want! But it's not being collected)
 - Let's use our knowledge of scale and rotate to create another screensaver!
 - Here's the start code:
 
