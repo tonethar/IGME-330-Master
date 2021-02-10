@@ -197,4 +197,4 @@ function drawCell(col,row,dimensions,alive) {
 
 <hr>
 
-## V. More features
+<!-- ## V. More features -->
