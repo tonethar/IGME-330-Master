@@ -54,14 +54,20 @@ Today we will review:
 	// Hey - why don't you rewrite this to handle an *array* of images! :-)
 	// preloadImage(imageURL,callbackFunc);
 	function preloadImage(url,callback){
+		// 1 - create a new Image object
 		let img = new Image();
-		img.src = url;
+		
+		// 2 - set up event handlers for the Image object
 		img.onload = _=>{
+			// 4 - when the image shows up, call `init(img)`
 			callback(img)
 		};
 		img.onerror = _=>{
+			// 4B - called if there is an error
 			console.log(`Image at url "${url}" wouldn't load! Check your URL!`);
 		};
+		// 3 - start downloading the image (it is located on an RIT server)
+	        img.src = url;
 	}
 	
 	function init(img){
