@@ -133,7 +133,9 @@ Here's our start file:
 
 ![Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
+<hr<
 
+<a id="demo-B" />
 
 ## IV. Demo-B - *Revenge of Screen Saver!* (Try on this own if you want! But it's not being collected)
 - Let's use our knowledge of scale and rotate to create another screensaver!
