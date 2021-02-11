@@ -59,13 +59,14 @@ Today we will review:
 		
 		// 2 - set up event handlers for the Image object
 		img.onload = _=>{
-			// 4 - when the image shows up, call `init(img)`
-			callback(img)
+		  // 4 - when the image shows up, call `init(img)`
+		  callback(img)
 		};
 		img.onerror = _=>{
-			// 4B - called if there is an error
-			console.log(`Image at url "${url}" wouldn't load! Check your URL!`);
+		  // 4B - called if there is an error
+		  console.log(`Image at url "${url}" wouldn't load! Check your URL!`);
 		};
+	
 		// 3 - start downloading the image (it is located on an RIT server)
 	        img.src = url;
 	}
