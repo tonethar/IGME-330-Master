@@ -62,6 +62,7 @@ Today we will review:
 		  // 4 - when the image shows up, call `init(img)`
 		  callback(img)
 		};
+	
 		img.onerror = _=>{
 		  // 4B - called if there is an error
 		  console.log(`Image at url "${url}" wouldn't load! Check your URL!`);
