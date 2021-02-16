@@ -18,7 +18,7 @@
 
 ## I. Overview
 - So there's no new Canvas API concepts below, but there's a lot of potentially helpful example code below - see comments in source file:
-  - #0 - There's a lot of pre-written code here! Below we have divided it into 3 sections - `CLASS CODE`, `UTILITY CODE`, `MAIN CODE`:
+  - #0 - There's a lot of pre-written code here! Below we have divided it into 3 sections - `CLASS CODE`, `UTILITY CODE`, `MAIN CODE` - these are in distinct `<script>` tags for organizational purposes only:
     - When you do the HW, make sure you put the code in the right place
     - Next time, we'll split this code up into separate ES6 modules
   - #1 - [ES6 Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) with `draw()` and `move()` methods:
