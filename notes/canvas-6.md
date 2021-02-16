@@ -321,7 +321,7 @@ that value in this example
 
 2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your loaded bitmapped image to the canvas.
   - create a new `constructor` for `ImageSprite`:
-    - delete the 'color' parameter and replace it with an `image` parameter
+    - delete the `color` parameter and replace it with an `image` parameter
     - initialize a new property named `image` with this value
   - be sure to still initialize the other properties (`x`, `y`, etc) either by calling [`super()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) with the first 5 arguments, or in some other manner
   - let's test the code. Fortunately?, we still have all of our code floating around in global namespaces that are visible in the console, so we can use the console to create an `ImageSprite` instance. Test your code by creating a new `ImageSprite` in the console as seen below, and pass in the value of `spriteImage`. You should see that the there is an `image` property, and that it points at the correct image:
