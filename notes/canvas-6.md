@@ -317,7 +317,7 @@ that value in this example
 
 ![screenshot](./_images/sprity-1.jpg)
 
-<hr>
+<hr><hr>
 
 2) Create a new class named `ImageSprite` that extends `Sprite` above. This class will override the `draw()` method of `Sprite`, and instead of a rectangle it will draw your loaded bitmapped image to the canvas.
   - create a new `constructor` for `ImageSprite`:
@@ -328,7 +328,7 @@ that value in this example
   
 ![screenshot](./_images/sprity-2.jpg)
 
-<hr>
+<hr><hr>
 
 3) In `ImageSprite`, go ahead and *overload* the `Sprite` `draw()` method to instead use `ctx.drawImage()`:
   - you will most likely use the "5 arguments" version --> `ctx.drawImage(image, dx, dy, dWidth, dHeight)`. (See `RingSprite` to see how we did this overloading)
@@ -339,7 +339,7 @@ that value in this example
   
 ![screenshot](./_images/sprity-3.jpg)
 
-<hr>
+<hr><hr>
 
 4) Now create a new helper method - something like - `function createImageSprites(num,image){...}` - to create at least 10 `ImageSprite` instances, and then add them to the `sprites` array:
   - be sure to call this new function AFTER the image has loaded - *look at your code carefully!* - otherwise you will get weird errors
