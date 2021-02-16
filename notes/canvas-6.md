@@ -304,7 +304,7 @@ that value in this example
 
 - We instead want to call `loop()` AFTER the image has loaded
 - Go ahead and add this call to `preloadImage()` to the *bottom* of `init()` :
-  - `preloadImage(imageURL,function(image){spriteImage = image; loop();});` :
+  - `preloadImage(imageURL,function(image){spriteImage = image; loop();});`
     - the *first* parameter of `preloadImage()` is `imageURL`, which an image that you want to load and use as a sprite
       - you will need to both declare `imageURL` and provide a URL that points at an image file.  This image can be either a local file you will provide, or out on the web, but DO NOT use the "tiger" image that we did in the example.
       - if you don't understand what `imageURL` is supposed to be, go back and look at the **canvas-image-demo.html** code again 
