@@ -396,5 +396,5 @@ In *test.html*:
 ## VIII. Videos
 
 - The videos for this lecture are located here:
-  - [ES6 Modules - 1 (10:35)](https://video.rit.edu/Watch/es-6-modules-1) - covers Parts I-III above
-  - [ES6 Modules - 2 (17:30)](https://video.rit.edu/Watch/es-6-modules-2)
+  - [ES6 Modules - 1 (10:35)](https://video.rit.edu/Watch/es-6-modules-1) - covers Parts I.-III. above
+  - [ES6 Modules - 2 (17:30)](https://video.rit.edu/Watch/es-6-modules-2) - covers Part IV. above
