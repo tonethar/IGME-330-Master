@@ -74,7 +74,8 @@ ES6 modules have 2 restrictions:
       - https://www.granneman.com/webdev/editors/brackets/live-preview
   - OR, put all of your files on banjo and test them from there (kinda a pain to do all the time)
   - OR, use Python and the `SimpleHTTPServer` module to launch a web server locally - installation and usage instructions are here (the lab machines already have Python installed) -->  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
-  - OR, if you are familiar with node and npm, check out the `http-server` module (but be sure to turn off caching with `http-server -c-1`) --> https://www.npmjs.com/package/http-server
+  - OR, if you are familiar with node and npm, check out the `http-server` module:
+    - but be sure to turn off caching with `http-server -c-1` --> https://www.npmjs.com/package/http-server
 
 
 <hr>
