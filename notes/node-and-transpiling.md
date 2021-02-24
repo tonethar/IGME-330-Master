@@ -88,14 +88,15 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  https://docs.npmjs.com/getting-started/installing-node
  
  - When **Node.js** is installed, it also installs **npm** (Node Package Manager)
- - Head to the command prompt to verify that `node` and `npm` are installed by typing:
+ - On Windows, head to the command prompt (or GitBash if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
  
  ```js
  node -v
  npm -v
+ npx -v
  ```
  
- - You can run the updater on `npm` itself by typing:
+ - If needed, you can run the updater on `npm` itself by typing:
  
  ```js
  npm install npm@latest -g
@@ -241,7 +242,7 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
  
 **8) Final Test**
 - Reload the page, everything should work as before!
-- Note that `webpack` is stil running and watching our files, and if we make any changes, it will automatically recompile our files for us
+- Note that `webpack` is still running and watching our files, and if we make any changes, it will automatically recompile our files for us
 
 <hr>
 
