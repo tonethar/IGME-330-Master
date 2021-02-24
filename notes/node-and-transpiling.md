@@ -88,7 +88,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  https://docs.npmjs.com/getting-started/installing-node
  
  - When **Node.js** is installed, it also installs **npm** (Node Package Manager)
- - On Windows, head to the command prompt (or GitBash if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
+ - On a Mc, open the **Terminal** application. On Windows, head to the command prompt (or **GitBash** if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
  
  ```js
  node -v
@@ -108,7 +108,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **1) Change directory to your project folder**
  
-- Head to the command prompt, and `cd` *into* the **sprites-plus-modular** folder.
+- Head to the command prompt, and `cd` *into* the **sprity-modular** folder (or whatever you called it)
 
 <hr>
   
@@ -124,7 +124,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  ```js
  {
-  "name": "sprites-plus-modular",
+  "name": "sprity-modular",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
