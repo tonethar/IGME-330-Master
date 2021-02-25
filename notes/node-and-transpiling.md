@@ -203,8 +203,8 @@ module.exports = {
 
 ```js
 "scripts": {        
-    "start": "npm run webpack",
-    "webpack": "webpack -d --watch"
+  "start": "npm run webpack",
+  "webpack": "webpack --watch"
 },
 ```
 
