@@ -189,17 +189,18 @@ module.exports = {
 ```
 
 - You can see above that `module.exports` is an object literal:
-    - `entry` contains an array of all of the JS files we wish to compile
-    - `output` is the name of the single JavaScript file we will compile to
-    - you can read more about the options for the **webpack.config.js** file here: 
-      - https://webpack.js.org/concepts/#entry
-      - https://webpack.js.org/configuration/mode/
+  - `mode` can be "development" or "production"
+  - `entry` contains an array of all of the JS files we wish to compile - in this case if we just specify **loader.js** webpack will go ahead and transpile all of the other files that **loader.js** depends on 
+  - `output` is the name of the single JavaScript file we will compile to
+  - you can read more about the options for the **webpack.config.js** file here: 
+    - https://webpack.js.org/concepts/#entry
+    - https://webpack.js.org/configuration/mode/
 
 <hr>
  
 **5) Modify *package.json***
 
-- Open up *package.json* and make the "scripts" key look like this:
+- Open up **package.json** and make the "scripts" key look like this:
 
 ```js
 "scripts": {        
