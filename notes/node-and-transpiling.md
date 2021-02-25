@@ -62,7 +62,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 <hr>
  
-## III. <a id="section3">Node.js, NPM & webpack
+## III. <a id="section3">Node.js, npm & webpack
 
 - https://nodejs.org/en/
 - https://www.npmjs.com
@@ -83,14 +83,14 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 <hr>
  
- **0) Install Node.js and the *Node Package Manager* (npm) - *if you need to***
+ **0) Install Node.js and the *Node Package Manager* (`npm`) - *if you need to***
  
  - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
  https://docs.npmjs.com/getting-started/installing-node
  
- - When **Node.js** is installed, it also installs **npm** (Node Package Manager)
- - On a Mc, open the **Terminal** application. On Windows, head to the command prompt (or **GitBash** if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
+ - When **Node.js** is installed, it also installs `npm` (Node Package Manager)
+ - On a Mac, open the **Terminal** application. On Windows, head to the command prompt (or **GitBash** if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
  
  ```js
  node -v
@@ -104,7 +104,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm install npm@latest -g
  ```
  
- - You can also update `node` if need be - there is a program called `nvm` - and you can also just download a new installer from the web site - https://nodejs.org/en/download/
+ - You can also update `node` if need be - there is a program called `nvm` (*node version manager*) - and you can also just download a new installer from the web site - https://nodejs.org/en/download/
  
 <hr>
  
@@ -114,7 +114,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 <hr>
   
- **2) Create a node project with npm**
+ **2) Create a node project with `npm`**
  
  - Type: 
  
@@ -238,7 +238,7 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 </html>
 ```
 
-- we are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *loader.js*
+- we are now pointing the `<script>` tag at the compiled JS file at **dist/bundle.js** rather than at **loader.js**
 - note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
 
 <hr>
@@ -253,16 +253,16 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 
 When you post this to the web:
 
-- you need the HTML file, *dist/bundle.js*, and your *images* folder
-- you don't need your `js` folder - because all that ES6 has been compiled down to ES5 and put into *bundle.js*
-- you don't need any of the other of the other configuration files or *package.json* or the *node_modules* folder
+- you need the HTML file, **dist/bundle.js**, and your **images** folder (if applicable)
+- you don't need your `src` folder - because all that ES6 has been compiled down to ES5 and put into *bundle.js*
+- you don't need any of the other of the other configuration files or **package.json** or the **node_modules** folder
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
 
 <hr>
  
 ## V. <a id="section5">Discussion
 
-- Go ahead and make some changes in *main.js*, like increasing the number of sprites. If webpack is still running, it will automatically compile a new *bundle.js* for you!
+- Go ahead and make some changes in **main.js**, like increasing the number of sprites. If webpack is still running, it will automatically compile a new **bundle.js** for you!
 
 - And finally, let's say that later on you have deleted the **node_modules** folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
 
@@ -271,7 +271,6 @@ npm install
 ```
 
 - Which will download and install all modules listed as dependencies in *package.json* 
-- 
 - You can then type `npm start` to run the project.
 
 <hr>
