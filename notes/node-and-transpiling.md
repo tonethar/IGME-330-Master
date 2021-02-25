@@ -102,7 +102,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm install npm@latest -g
  ```
  
- - You can also update `node` - https://hosting.review/tutorial/how-to-update-node/
+ - You can also update `node` if need be - there is a program called `nvm` - and you can also just download a new installer from the web site - https://nodejs.org/en/download/
  
 <hr>
  
