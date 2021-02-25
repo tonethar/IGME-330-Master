@@ -143,16 +143,16 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 
 <hr>
  
-**3) Next we need to install the `webpack` module to this folder**
+**3) Next we need to install the `webpack` and `webpack-cli` modules to this folder**
 
 ```js
-npm install webpack --save
+npm install webpack --save-dev
 ```
 
 **and**
 
 ```js
-npm install webpack-cli -D --save
+npm install webpack-cli --save-dev
 ```
 
 
