@@ -6,7 +6,7 @@ I. [What is *transpiling*?](#section1)
 
 II. [Babel](#section2)
 
-III. [Node.js, NPM & webpack](#section3)
+III. [Node.js, `npm` & webpack](#section3)
 
 IV. [Transpiling an ES6 project down to ES5](#section4)
 
