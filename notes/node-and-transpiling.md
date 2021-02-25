@@ -85,10 +85,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **0) Install Node.js and the *Node Package Manager* (`npm`) - *if you need to***
  
- - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
- 
- https://docs.npmjs.com/getting-started/installing-node
- 
+ - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here: https://docs.npmjs.com/getting-started/installing-node
  - When **Node.js** is installed, it also installs `npm` (Node Package Manager)
  - On a Mac, open the **Terminal** application. On Windows, head to the command prompt (or **GitBash** if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
  
