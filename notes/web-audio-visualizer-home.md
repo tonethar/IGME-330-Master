@@ -18,7 +18,6 @@
 
 ## III. Resources
 
-- [Demo - Webcam Links](./demo-webcam-links.md)
 - [Web Audio Study Guide - Chapter 1 - *Fundamentals*](./web-audio-chapter-1.md)
 - [Web Audio Study Guide - Chapter 2 - *Perfect Timing and Latency*](./web-audio-chapter-2.md)
 - [Web Audio Study Guide - Chapter 3 - *Volume and Loudness*](./web-audio-chapter-3.md)
