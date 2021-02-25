@@ -220,13 +220,13 @@ npm start
 ```
 - this executes `webpack --watch` for you
 
-You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 5 JavaScript files have been compiled to ES5 and the results bundled into it.
+You should now see that **dist/bundle.js** has been created. If you open **bundle.js**, you will see that your 4 JavaScript files have been compiled to ES5 and the results "bundled" into it.
 
 <hr>
  
 **7) Edit your HTML file**
 
-In **index.html** - make the "bottom" of the &lt;body> tag look like this:
+In **index.html** - make the &lt;script> tag look like this:
 
 ```html
   <!-- <script src="src/loader.js" type="module"></script> -->
@@ -243,6 +243,7 @@ In **index.html** - make the "bottom" of the &lt;body> tag look like this:
 **8) Final Test**
 - Reload the page, everything should work as before!
 - Note that `webpack` is still running and watching our files, and if we make any changes, it will automatically recompile our files for us
+- Handy tip! When you want to quit webpack, type control-c (or ctrl-c depending on your keyboard)
 
 <hr>
 
