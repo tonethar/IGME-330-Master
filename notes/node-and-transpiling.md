@@ -209,7 +209,7 @@ module.exports = {
 },
 ```
 
-- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-build the **bundle.js** file automatically for us.
+- This custom `start` command will run webpack, and also tells webpack to watch for any changes in the JS files; and when we save a change, webpack will re-build the **bundle.js** file automatically for us.
 
 <hr>
  
@@ -220,7 +220,7 @@ module.exports = {
 ```js
 npm start
 ```
-- this executes `webpack -d --watch` for you
+- this executes `webpack --watch` for you
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 5 JavaScript files have been compiled to ES5 and the results bundled into it.
 
@@ -261,19 +261,7 @@ When you post this to the web:
  
 ## V. <a id="section5">Discussion
 
-- Go ahead and make some changes in *main.js*, like increasing the number of sprites. If webpack is still running, it will automatically compile a new *bundle.js* for you.
-
-- Because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *loader.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
-
-New **webpack.config.js**
-```js
-module.exports = {
-    entry: './src/loader.js',
-    output: {
-        filename: './bundle.js'
-    }
-};
-```
+- Go ahead and make some changes in *main.js*, like increasing the number of sprites. If webpack is still running, it will automatically compile a new *bundle.js* for you!
 
 - And finally, let's say that later on you have deleted the **node_modules** folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
 
@@ -282,7 +270,7 @@ npm install
 ```
 
 - Which will download and install all modules listed as dependencies in *package.json* 
-
+- 
 - You can then type `npm start` to run the project.
 
 <hr>
