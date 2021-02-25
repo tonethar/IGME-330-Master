@@ -180,17 +180,20 @@ npm install webpack-cli --save-dev
 
 ```js
 module.exports = {
-    entry: ['./src/loader.js','./src/main.js','./src/sprites.js','./src/utils.js','./src/canvas-utils.js'],
-    output: {
-        filename: './bundle.js'
-    }
+  mode: 'development',
+  entry: ['./src/loader.js'],
+  output: {
+    filename: './bundle.js'
+  }
 };
 ```
 
 - You can see above that `module.exports` is an object literal:
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` is the name of the single JavaScript file we will compile to
-    - you can read more about the options for the **webpack.config.js** file here: https://webpack.js.org/concepts/#entry
+    - you can read more about the options for the **webpack.config.js** file here: 
+      - https://webpack.js.org/concepts/#entry
+      - https://webpack.js.org/configuration/mode/
 
 <hr>
  
