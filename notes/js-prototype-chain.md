@@ -46,7 +46,7 @@ obj.property1;
 obj2["property1"]; // demos square bracket syntax
 obj3[100];
 ```
-- We can *add* properties to our objects like this (this is probably the #1 source of JavaScript bugs):
+- We can *add* properties to our objects like this (probably the #1 source of JavaScript bugs):
 
 ```js
 obj.property3 = "value3";
