@@ -43,8 +43,8 @@ let obj3 = {
 
 ```js
 obj.property1; 		
-obj["property1"]; // demos square bracket syntax
-obj2[100];
+obj2["property1"]; // demos square bracket syntax
+obj3[100];
 ```
 - We can *add* properties to our objects like this:
 
