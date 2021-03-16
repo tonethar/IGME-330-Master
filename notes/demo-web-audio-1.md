@@ -260,7 +260,20 @@ biquadFilter.frequency.setValueAtTime(1000, audioCtx.currentTime);
 biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 ```
 
-## VI. Wrap up
+<hr>
+
+## VI. BBBreakout Rooms
+
+- We are going to place you in breakout rooms!
+- Once you are in your room - modify the in-class code to make one or more new visual effects:
+  - Impress your classmates!
+  - You can work together on a single visualizer, or in parallel on your own indivisual (get it?) creations!
+  - Work Fast! Towards the end of class, we'll bring you back to share what you made!
+  - The group with the "most impressive" results will win enternal glory & Internet points that are redeemable for virtual goods and services! (TBD)
+
+<hr>
+
+## VII. Wrap up
 - Be sure to get this working - we'll be building on it next time
 
 <hr><hr>
