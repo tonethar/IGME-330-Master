@@ -165,6 +165,9 @@ let distortionAmount = 20;
 7. Here are some other equations you can try (one at a time) - also try visualizing them using the - http://kevincennis.github.io/transfergraph/ - tool:
 
 ```js
+//curve[i] = x; // does not modify sound
+//curve[i] = 0; // silence
+//curve[i] = x * amount; // classic distortion
 //curve[i] = (Math.PI + amount) * x / (Math.PI + amount * Math.abs(x));
 //curve[i] =(Math.PI + 100 * x/2) / (Math.PI + 100 * Math.abs(x)); // nice distortion
 //curve[i] = -(Math.PI + 100 * x/2) / (Math.PI + 50 * Math.abs(x));
