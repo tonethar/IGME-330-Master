@@ -174,8 +174,7 @@ let distortionAmount = 20;
 //			
 //curve[i] = Math.random() * 2 - 1;	// static!	
 //curve[i] = x * 5 + Math.random() * 2 - 1; // adds a less intrusive static to the audio
-// curve[i] = x * Math.sin(x) * amount/5; // sounds like a cross between Donald Duck and Cartman from South Park
-//curve[i] = x * x - Math.tan(x) - .5 * x * 2 * Math.cos(x * 5);
+//curve[i] = x * Math.sin(x) * amount/5; // sounds like a cross between Donald Duck and Cartman from South Park
 
 //(3 + 20) * x * 57 * (Math.PI / 180) / (Math.PI + 20 * Math.abs(x)) // from the stack overflow post
 ```
