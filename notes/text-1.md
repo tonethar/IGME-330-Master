@@ -107,7 +107,7 @@ let input = document.querySelector("textarea");
 let output = document.querySelector("#output");
 
 input.oninput = doInput; // called whenever the content of the field changes
-input.onchange = doChange; // called when the field loses focus or when the return key is pressed
+input.onchange = doChange; // called when the field loses focus such as when the tab key is pressed
 input.dispatchEvent(new Event("input")); // calls doInput() when the page first loads
 
 function doInput(e){
