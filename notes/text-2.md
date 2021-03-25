@@ -11,7 +11,7 @@
 
 Here a a few:
 - The ["Cut up" and "Fold in" methods](http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html) - created by William Burroughs (who is best know for writing the novel [*Naked Lunch*](https://groveatlantic.com/book/naked-lunch/))
-- Recall that we looked at Randomness during week 1 - [randomness-1.md](randomness-1.md) - and watched the video about the Dadaist Poem --> [Video - Dada: Chance & Randomness](https://youtu.be/k40U4UPiiPs?t=182)
+- Here are some notes on Randomness - [randomness-1.md](randomness-1.md) - there is a video about the Dadaist Poem --> [Video - Dada: Chance & Randomness](https://youtu.be/k40U4UPiiPs?t=182)
 - Erasure Poetry - https://en.wikipedia.org/wiki/Erasure_(artform) --> a well-known example of this is [Garfield Minus Garfield](http://garfieldminusgarfield.net)
 - [Oulipo: N+7 at languageisavirus.com](http://www.languageisavirus.com/creative-writing-techniques/oulipo.php#.XHMH_S2ZPOR) - where words of a chosen text are replaced with their dictionary definitions:
   - example: http://www.spoonbill.org/n+7/
