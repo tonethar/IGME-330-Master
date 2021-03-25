@@ -30,6 +30,7 @@ Today we'll build a "diastic machine" that will automate this creation process f
   - "The writer reads through the source text and successively finds words or other linguistic units that have the letters of the seed text in positions that correspond to those they occupy in the seed text."
   - "Like the Cubists, Surrealists and Dadaists before him, Mac Low has carved out a new space for poetry, a new space in which future poets may explore." 
   - The above quote and a nice example of how the technique works is here: http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low
+  - **UPDATE:** - the above link appears to be broken - here's the [archived version](https://web.archive.org/web/20191103213621/http://quarterlyconversation.com/thing-of-beauty-by-jackson-mac-low)
   
 
 ## IV. Demo
