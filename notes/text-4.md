@@ -29,7 +29,7 @@
 - We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
 - Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita/reference/index.php
   - These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita/reference/RiLexicon.php
-    - `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: http://rednoise.org/rita/reference/PennTags.html
+    - `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
     - `RiTa.rhymes("computer")`
     - `RiTa.pluralize("computer")`
     - `RiTa.singularize("people")`
