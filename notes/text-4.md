@@ -90,7 +90,7 @@ const POS = {
 };
 ```
 
-- Reminder - these POS tags are listed here: http://rednoise.org/rita/reference/PennTags.html
+- Reminder - these POS tags are listed here: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
 - You will also need to modify the loop to look like this:
 
 ```js
