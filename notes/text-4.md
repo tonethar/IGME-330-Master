@@ -7,7 +7,7 @@
   - http://rednoise.org/rita/reference/index.php
   - https://github.com/dhowe/RiTaJS
 - Some of RiTa's capabilities:
-  - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: http://rednoise.org/rita/reference/PennTags.html
+  - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
     - https://en.wikipedia.org/wiki/Part-of-speech_tagging
   - *verb conjugation* and *pluralization*
   - *text generation* via context-free grammars
