@@ -10,7 +10,6 @@
 - Limit the number of words that you draw in the cloud to something manageable - say between 10 and 25
 - More frequent words appear larger than smaller words
 - Be sure to specify a minimum font size of the words you draw
-- This is worth TWO homework assignments
 - Extras (not required, but if you have time):
   - don't let the words appear on top of each other 
   - animated words?
