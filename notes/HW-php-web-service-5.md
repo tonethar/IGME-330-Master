@@ -83,7 +83,7 @@
 - **instead, we'll look at it using `curl` on the command line:**
 
 ```
-curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: application/json' HTTP://API.SHOUTCLOUD.IO/V1/SHOUT`
+curl -X POST -d '{"INPUT": "IGME-330 sure is a cool class!"}' -H 'Content-Type: application/json' HTTP://API.SHOUTCLOUD.IO/V1/SHOUT
 
 {"INPUT":"IGME-330 sure is a cool class!","OUTPUT":"IGME-330 SURE IS A COOL CLASS!"}
 ```
