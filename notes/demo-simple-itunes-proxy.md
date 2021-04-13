@@ -3,7 +3,7 @@
 ## I. Overview
 
 - [PHP Web Service Part V - creating a proxy server](HW-php-web-service-5.md) showed you how to write a proxy server for a ***really difficult*** to work with web service
-- Most web services aren't as hard to work with - so here is an example of more typical (and simpler) proxy server below
+- Most web services aren't as hard to work with as SHOUTCLOUD was - so here is an example of more typical (and simpler) proxy server below
 
 <hr>
 
