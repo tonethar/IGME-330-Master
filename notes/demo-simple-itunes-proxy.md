@@ -10,7 +10,7 @@
 ## II. A simple proxy server
 
 
-**get-rush-songs.html** (run this locally off of your hard drive)
+**get-rush-songs.html** (run this locally off of your hard drive, AND off of web server. It will usually FAIL at one of these)
 
 ```html
 <!DOCTYPE html>
