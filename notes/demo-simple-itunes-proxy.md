@@ -10,7 +10,7 @@
 ## II. A simple proxy server
 
 
-**get-rush-songs.html**
+**get-rush-songs.html** (run this locally off of your hard drive)
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@
 
 <hr>
 
-**itunes-proxy.php**
+**itunes-proxy.php** (post this to banjo)
 
 ```php
 <?php
