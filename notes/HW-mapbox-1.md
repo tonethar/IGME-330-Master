@@ -26,19 +26,18 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Map Start</title>
-	<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
 	mapboxgl.accessToken = 'ACCESS-TOKEN-GOES-HERE-GO-GET-YOUR-OWN!';
 	var map = new mapboxgl.Map({
-	container: 'map',
-	style: 'mapbox://styles/mapbox/streets-v11'
+		container: 'map',
+		style: 'mapbox://styles/mapbox/streets-v11'
 	});
 </script>
-
 </body>
 </html>
 ```
