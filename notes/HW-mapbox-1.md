@@ -123,7 +123,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## III. Refactoring the code to ES6 Modules
 
-1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - you will have some nicely structured "starter code" for Project 3
+1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - you will have some nicely structured "starter code" for Project 2
 
 - Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
 
