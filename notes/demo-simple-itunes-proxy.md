@@ -75,7 +75,7 @@
 </head>
 <body>
 	<h1>Get Rush Songs</h1>
-	<p>Try running this from your desktop - it will fail if it tries to access the iTunes web service directly because iTunes does not have CORS turned on!</p>
+	<p>Try running this from your desktop AND from a web server - it will fail at at least one of these as it tries to access the iTunes web service directly because iTunes does not have CORS turned on!</p>
 	<p>But if you instead utilize a PHP proxy server to download iTunes for you, it will succeed!</p>
 	<button id="searchBtn">Make it so!</button>
 	<hr>
