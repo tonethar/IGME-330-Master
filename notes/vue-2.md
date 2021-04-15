@@ -44,6 +44,8 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 <head>
 	<meta charset="utf-8" />
 	<title>Random Joke Getter!</title>
+	<!-- development version, includes helpful console warnings -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 	<style>
 		/* .myheader grabbed from Bootstrap's jumbotron example - https://getbootstrap.com/docs/4.0/examples/jumbotron/ */
 		.myheader{
@@ -86,7 +88,6 @@ In order to Fetch to work, we need to turn on Cross Origin Resource Sharing on o
 	</div> <!-- end container -->	
 </div> <!-- end #app -->
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
 const app = new Vue({
 	el: '#app',
