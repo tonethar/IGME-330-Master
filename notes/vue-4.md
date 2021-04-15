@@ -17,8 +17,8 @@ For this example's start code, we will re-use some of our earlier Vue code, and 
 	<title>Friend Lister</title>
 	<!-- 	Pure.css -->
 	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-	<!-- Development Version of Vue -->
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!-- development version, includes helpful console warnings -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 	<style>
 		#root{
 			margin: 1em 2em;
