@@ -155,6 +155,8 @@ The basics are done here, but there is still some work left to get it functionin
 - More Hints:
   - You will be getting back *arrays* of results from these services, instead of just a single result as you did with the random joke service.
   - `<table class="table table-striped table-sm">...</table>` - gives a pretty nice Bootstrap striped table
+  - `<tr><th>Name</th><th>Id</th></tr>` - here is a 2-celled row of table header cells
+  - `<tr><td>Bitcoin</td><td>BTC</td></tr>` - here is a 2-celled row of table data cells
 
 <hr>
 
