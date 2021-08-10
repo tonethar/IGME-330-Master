@@ -1,6 +1,6 @@
 # HW - Technobabble Generator
 
-***The walkthrough video for this assignment is here*** --> https://www.youtube.com/watch?v=DZ1q1zIdAb8
+***The walkthrough video for this assignment is here (BTW - you might want to speed it up by 25%)*** --> https://www.youtube.com/watch?v=DZ1q1zIdAb8
 
 I. [Overview](#overview)
 
