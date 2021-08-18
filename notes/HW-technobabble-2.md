@@ -23,5 +23,14 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 - Pick one of these approaches and make it so - the second one - **Approach 2 - Flexbox method** works well
 - These new CSS rules will be added to your mobile media query
 - In this exercise you will make create CSS breakpoints for 3 different screen sizes - mobile, tablet, and dektop/large tablet
-- First, here is your HTML for 
+- First, here is your HTML for the new centered layout we are doing (replace the old HTML with this):
+
+```html
+<div class="container">
+  <p id="output">Loading...</p>
+  <button id="myButton">More Technobabble!</button>
+</div>
+```
+
+- Now here is the CSS media query for all-devices at least 320 pixels wide (replace 
 - While you are at it, change the `max-width:` value for your media query from `600px` to `768px` which will support larger screened smart phones. This "CSS breakpoint" value better aligns with most of the CSS frameworks are doing:  
