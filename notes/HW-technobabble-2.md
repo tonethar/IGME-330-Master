@@ -20,6 +20,6 @@ To this:
 
 Let's go ahead and modify the CSS to improve the use experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page. There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
 
-- Pick one of these approaches and make it so - the first one - **Approach 1 - transform translateX/translateY** works well
+- Pick one of these approaches and make it so - the second one - **Approach 2 - Flexbox method** works well
 - These new CSS rules will be added to your mobile media query:
-- While you are at it, change the `max-width:` value for your media query from `600px` to `768px` which will support larger screened smart phones. This "CSS breakpoint" value better aligns with mpst of the CSS frameworks are doing:  
+- While you are at it, change the `max-width:` value for your media query from `600px` to `768px` which will support larger screened smart phones. This "CSS breakpoint" value better aligns with most of the CSS frameworks are doing:  
