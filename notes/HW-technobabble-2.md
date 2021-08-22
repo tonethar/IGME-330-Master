@@ -18,7 +18,7 @@ To this:
 
 ## II. Improve the experience for mobile and tablet devices
 
-Let's go ahead and modify the CSS to improve the user experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page for both mobile and tablet devices, while leaving the desktop experience with horizontal alignment only
+Let's go ahead and modify the CSS to improve the user experience on mobile devices. Basically, we want *Technobabble* to look less like  a webpage, and more like an *app*. What we're going to do is to center the text and the button both horizontally *and* vertically on the page for both mobile and tablet devices, while leaving the desktop experience with horizontal alignment only
 
 - There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
 - Let's pick one of these approaches and use it - the second one - **Approach 2 - Flexbox method** works well
