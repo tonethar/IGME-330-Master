@@ -108,9 +108,15 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 - This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `768px` or larger
 - And this means pretty much ALL tablets and desktops (that understand media queries) will receive these rules
 - What does this media query do?
-  - T
+  - changes the `background-color` of the `<h1>` to green, and increases the size of the font
+  - chnages the `color` and `font-size` of the output text and the button
+
+**iPad (`min-width`=768)**
+
+![screenshot](_images/_technobabble/HW-technobabble-11.png)
 
 <hr>
+
 
 ### II-C. Desktop CSS breakpoint
 
