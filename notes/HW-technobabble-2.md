@@ -50,14 +50,14 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 <hr>
 
-## II-A. Mobile breakpoint
+## II-A. Mobile CSS breakpoint
 
 - Here's the CSS media query and rules for a mobile browser (type this in!):
 
 ![screenshot](_images/_technobabble/HW-technobabble-4.png)
 
-- This media query will apply to all devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `320px` or larger
-- And this means ALL phones tablets, desktops (that understand media queries) will receive these rules
+- This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `320px` or larger
+- And this means ALL phones, tablets and desktops (that understand media queries) will receive these rules
 - Note: Even the original iPhone was 320 x 480, so it would use this query (although some early androids were 240 x 320, so they'd miss out!)
 - What does this media query do?
   - Turns on flexbox, a column layout, centered horizontally and vertically
@@ -82,3 +82,15 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 **iPhone X**
 
 ![screenshot](_images/_technobabble/HW-technobabble-7.png)
+
+<hr>
+
+- But note how the text starts to get pretty small on larger screened devices like iPads - we'll fix that next!
+
+**iPad**
+
+![screenshot](_images/_technobabble/HW-technobabble-8.png)
+
+<hr>
+
+## II-B. Tablet CSS breakpoint
