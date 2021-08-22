@@ -54,7 +54,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 - Here's the CSS media query and rules for a mobile browser (type this in!):
 
-![screenshot](_images/tb-x.png)
+![screenshot](_images/_technobabble/HW-technobabble-4.png)
 
 - This media query will apply to all devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `320px` or larger
 - And this means ALL phones tablets, desktops (that understand media queries) will receive these rules
