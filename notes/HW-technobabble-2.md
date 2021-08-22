@@ -64,3 +64,18 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
   - Styles the `<h1>`
   - Center-aligns the `#output` paragraph
 - Go ahead and test it on the various devices in Chrome as we did above - it should look much better - especially on the phone-sized devices
+
+<hr>
+
+**iPhone 4**
+![screenshot](_images/_technobabble/HW-technobabble-5.png)
+
+<hr>
+
+**iPhone 8**
+![screenshot](_images/_technobabble/HW-technobabble-6.png)
+
+<hr>
+
+**iPhone X**
+![screenshot](_images/_technobabble/HW-technobabble-7.png)
