@@ -107,9 +107,9 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 - This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `768px` or larger
 - And this means pretty much ALL tablets and desktops (that understand media queries) will receive these rules
-- What does this media query do?
-  - changes the `background-color` of the `<h1>` to green, and increases the size of the font
-  - chnages the `color` and `font-size` of the output text and the button
+- What does this media query do? It takes advantage of the tablet's extra screen real estate:
+  - it changes the `background-color` of the `<h1>` to green, and increases the size of the font
+  - it changes the `color` and increases the `font-size` of the output text and the button
 
 **iPad (`min-width`=768)**
 
@@ -120,7 +120,30 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ### II-C. Desktop CSS breakpoint
 
+- Here's the CSS media query and rules for a *tablet* browser (type this in!):
+
+![screenshot](_images/_technobabble/HW-technobabble-12.png)
+
+- Lastly, this media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `1024px` or larger - which means large tablets like the iPad Pro, as well as desktop computers
+- And this means pretty much ALL tablets and desktops (that understand media queries) will receive these rules
+- What does this media query do? It reverts to a more conventional web page design
+  - it changes the `background-color` of the `<h1>` to red
+  - it changes the `display` property from `flex` to `block`, which kills the flexbox "center fo the page" layout
+  - it left aligns the `<h1>`, button, and output text 
+
 <hr>
+
+**iPad Pro (`min-width`=1024)**
+
+![screenshot](_images/_technobabble/HW-technobabble-13.png)
+
+<hr>
+
+<hr>
+
+**Desktop (`min-width`=1200)**
+
+![screenshot](_images/_technobabble/HW-technobabble-14.png)
 
 ### II-D. Your turn
 
