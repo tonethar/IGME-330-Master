@@ -18,11 +18,13 @@ To this:
 
 # II. Improve the mobile experience
 
-Let's go ahead and modify the CSS to improve the use experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page. There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
+Let's go ahead and modify the CSS to improve the use experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page. 
 
+- There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
 - Pick one of these approaches and make it so - the second one - **Approach 2 - Flexbox method** works well
 - These new CSS rules will be added to your mobile media query
 - In this exercise you will make create CSS breakpoints for 3 different screen sizes - mobile, tablet, and dektop/large tablet
+- We will be using the same `max-width` breakpoints that bulma does - https://bulma.io/documentation/overview/responsiveness/
 - First, here is your HTML for the new centered layout we are doing (replace the old HTML with this):
 
 ```html
