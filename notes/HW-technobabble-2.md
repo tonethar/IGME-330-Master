@@ -73,19 +73,19 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 <hr>
 
-**iPhone 4**
+**iPhone 4 (`min-width`=320)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-5.png)
 
 <hr>
 
-**iPhone 8**
+**iPhone 8 (`min-width`=375)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-6.png)
 
 <hr>
 
-**iPhone X**
+**iPhone X (`min-width`=375)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-7.png)
 
@@ -93,7 +93,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 - But note how the headline text, output text, and button all seem pretty small on larger screened devices like iPads - we'll fix that next!
 
-**iPad**
+**iPad (`min-width`=768)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-8.png)
 
