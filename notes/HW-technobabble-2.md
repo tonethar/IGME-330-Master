@@ -26,11 +26,39 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 - We will be using the same `max-width` breakpoints that bulma does - https://bulma.io/documentation/overview/responsiveness/
 - First, here is your HTML for the new centered layout we are doing (replace the old HTML with this):
 
+
+<hr>
+
 ```html
+<h1>Technobabble Generator</h1>
 <div class="container">
   <p id="output">Loading...</p>
   <button id="myButton">More Technobabble!</button>
 </div>
 ```
+<hr>
 
-## II-A. 
+- Also, go ahead and delete the `max-width:600px` media query (and all of the CSS in it) we made in the video, we're going to use a different approach below
+- Keep the default CSS - among other things that can be the "fallback" for really old browsers that don't understand media queries
+- Test this out in Chrome - see how it looks on the desktop, and then preview at various screen sizes:
+  - An old phone (ex. iPhone 4)
+  - A orevious generation phone (ex. iPhone 8)
+  - A newer phone (ex. iPhone X)
+  - A tablet (ex. iPad)
+  - A large tablet (ex. iPad Pro)
+ - It won't look too good on anything - let's fix this!
+
+<hr>
+
+## II-A. Mobile breakpoint
+
+- Here's the CSS media query and rules for a mobile browser (type this in!):
+
+![screenshot](_images/tb-x.png)
+
+- This media query will apply to all devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `320px` or larger
+- And this means ALL phones tablets, desktops (that understand media queries) will receive these rules
+- Note: Even the original iPhone was 320 x 480, so it would use this query (although some early androids were 240 x 320, so they'd miss out!)
+- What does this media query do?
+  - Turns on flexbox, a column layout, centered horizontally and vertically
+  - 
