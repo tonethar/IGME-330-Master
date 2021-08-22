@@ -60,7 +60,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 - And this means ALL phones, tablets and desktops (that understand media queries) will receive these rules
 - Note: Even the original iPhone was 320 x 480, so it would use this query (although some early androids were 240 x 320, so they'd miss out!)
 - What does this media query do?
-  - Turns on flexbox, a column layout, centered horizontally and vertically
+  - Turns on flexbox, with a column layout, with the button and output centered horizontally and vertically
   - Styles the `<h1>`
   - Center-aligns the `#output` paragraph
 - Go ahead and test it on the various devices in Chrome as we did above - it should look much better - especially on the phone-sized devices
