@@ -22,7 +22,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 - There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
 - Let's pick one of these approaches and use it - the second one - **Approach 2 - Flexbox method** works well
-- In this exercise you will make create CSS breakpoints for 3 different screen sizes - mobile, tablet, and dektop/large tablet
+- In this exercise you will make create CSS breakpoints for 3 different screen sizes - mobile, tablet, and desktop/large tablet
 - We will be using the same `max-width` breakpoints that bulma does - https://bulma.io/documentation/overview/responsiveness/
 - First, here is your HTML for the new centered layout we are doing (replace the old HTML with this):
 
