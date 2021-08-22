@@ -85,7 +85,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 <hr>
 
-- But note how the text starts to get pretty small on larger screened devices like iPads - we'll fix that next!
+- But note how the headline text, output text, and button all seem pretty small on larger screened devices like iPads - we'll fix that next!
 
 **iPad**
 
