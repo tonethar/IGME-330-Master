@@ -94,3 +94,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 <hr>
 
 ## II-B. Tablet CSS breakpoint
+
+<hr>
+
+## II-C. Desktop CSS breakpoint
