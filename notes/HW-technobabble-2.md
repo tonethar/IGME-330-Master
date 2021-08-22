@@ -181,3 +181,9 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 - make sure everthing still works!
 - make sure that all the files are in a containing folder
 - see myCourses for submission instructions
+
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|  [**HW - Technobabble Generator I**](HW-technobabble.md) |  [**IGME-330**](../README.md) | [**HW - Technobabble Generator III**](HW-technobabble-3.md)
