@@ -105,7 +105,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ![screenshot](_images/_technobabble/HW-technobabble-10.png)
 
-- This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `375px` or larger
+- This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `768px` or larger
 - And this means pretty much ALL tablets and desktops (that understand media queries) will receive these rules
 - What does this media query do?
   - T
