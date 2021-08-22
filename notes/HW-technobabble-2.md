@@ -109,7 +109,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ### II-D. Your turn
 
-- Go ahead and create one more CSS breakpoint and give it some distinctive style rules. At a bare minimum, modify the `background-color` and `font-size` 
+- Go ahead and create one more CSS breakpoint and give it some distinctive style rules. At a bare minimum, modify the `background-color` and `font-size` of the `<h1>`
 - What should you choose as a breakpoint? 
   - maybe support those ancient android devices with a min-width of 240? (You can test that in the "responsive" mode of Chrome)
   - you could also support Phablets (large phones, less than iPad sized)
