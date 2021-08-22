@@ -2,7 +2,7 @@
 
 ## Overview
 
-Let's make some changes the Technobabble app and review some commonly used web technologies
+- Let's make some changes the Technobabble app and review some commonly used web technologies
 
 ## I. Stop Page Zooming
 
@@ -16,13 +16,12 @@ To this:
 
 <hr>
 
-# II. Improve the mobile experience
+## II. Improve the experience for mobile and tablet devices
 
-Let's go ahead and modify the CSS to improve the use experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page. 
+Let's go ahead and modify the CSS to improve the use experience on mobile devices. What we're going to do is to center the text and the button both horizontally *and* vertically on the page for both mobile and tablet devices, while leaving the desktop experience with horizontal alignment only
 
 - There are a lot of ways to do the vertical centering - see this Stack Overflow post --> https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically
-- Pick one of these approaches and make it so - the second one - **Approach 2 - Flexbox method** works well
-- These new CSS rules will be added to your mobile media query
+- Let's pick one of these approaches and use it - the second one - **Approach 2 - Flexbox method** works well
 - In this exercise you will make create CSS breakpoints for 3 different screen sizes - mobile, tablet, and dektop/large tablet
 - We will be using the same `max-width` breakpoints that bulma does - https://bulma.io/documentation/overview/responsiveness/
 - First, here is your HTML for the new centered layout we are doing (replace the old HTML with this):
@@ -34,5 +33,4 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 </div>
 ```
 
-- Now here is the CSS media query for all-devices at least 320 pixels wide (replace 
-- While you are at it, change the `max-width:` value for your media query from `600px` to `768px` which will support larger screened smart phones. This "CSS breakpoint" value better aligns with most of the CSS frameworks are doing:  
+## II-A. 
