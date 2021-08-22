@@ -38,9 +38,9 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 ```
 <hr>
 
-- Also, go ahead and delete the `max-width:600px` media query (and all of the CSS in it) we made in the video, we're going to use a different approach below
-- Keep the default CSS - among other things that can be the "fallback" for really old browsers that don't understand media queries
-- Test this out in Chrome - see how it looks on the desktop, and then preview at various screen sizes:
+- Also, go ahead and delete the `max-width:600px` media query (and all of the CSS in it) that we made in the video, we're going to use a different approach below
+- Keep the rest of the default CSS - among other things that can be the "fallback" for really old browsers that don't understand media queries
+- Test this out in the Chrome developer tools - see how it looks on the desktop, and then preview at various screen sizes:
   - An old phone (ex. iPhone 4)
   - A previous generation phone (ex. iPhone 8)
   - A newer phone (ex. iPhone X)
