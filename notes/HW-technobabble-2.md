@@ -42,7 +42,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 - Keep the default CSS - among other things that can be the "fallback" for really old browsers that don't understand media queries
 - Test this out in Chrome - see how it looks on the desktop, and then preview at various screen sizes:
   - An old phone (ex. iPhone 4)
-  - A orevious generation phone (ex. iPhone 8)
+  - A previous generation phone (ex. iPhone 8)
   - A newer phone (ex. iPhone X)
   - A tablet (ex. iPad)
   - A large tablet (ex. iPad Pro)
@@ -61,4 +61,6 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 - Note: Even the original iPhone was 320 x 480, so it would use this query (although some early androids were 240 x 320, so they'd miss out!)
 - What does this media query do?
   - Turns on flexbox, a column layout, centered horizontally and vertically
-  - 
+  - Styles the `<h1>`
+  - Center-aligns the `#output` paragraph
+- Go ahead and test it on the various devices in Chrome as we did above - it should look much better - especially on the phone-sized devices
