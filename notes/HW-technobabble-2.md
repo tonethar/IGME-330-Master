@@ -104,8 +104,28 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 ### II-D. Your turn
 
 - Go ahead and create one more CSS breakpoint and give it some distinctive style rules. At a bare minimum, modify the `background-color` and `font-size` 
-- What should you choose as a breakpoint? Maybe support those ancient android devices with a min-width of 240? (You can test that in the "responsive" mode of Chrome). You could also support Phablets (large phones, less than iPad sized), or "fullhd" which is `1408px` and up
+- What should you choose as a breakpoint? 
+  - maybe support those ancient android devices with a min-width of 240? (You can test that in the "responsive" mode of Chrome)
+  - you could also support Phablets (large phones, less than iPad sized)
+  - or Bulma's "fullhd" which is `1408px` and up
+ - Make sure that you tell us what you did in the comments field of the dropbox
 
 <hr>
 
 ## III. Embed a font
+
+- You should already know how to do this:
+  - head to https://fonts.google.com/
+  - pick something distinctive (*Open Sans* and *Roboto* need not apply)
+  - make sure that you tell us what you did in the comments field of the dropbox
+
+<hr>
+
+## IV. Re-organize the JS and CSS
+
+- move your JavaScript code to an external folder and file named **src/main.js** - you have done this before - use the `<script>` tag
+- move your CSS to external folder and file named **styles/default-styles.js**  - you have done this before - use the `<link>` tag. PS - don't put the `<style>` tags in the external stylesheet - it will break things 
+
+<hr>
+
+## V. Submission
