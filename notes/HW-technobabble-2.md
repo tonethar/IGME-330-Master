@@ -50,7 +50,7 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 <hr>
 
-## II-A. Mobile CSS breakpoint
+### II-A. Mobile CSS breakpoint
 
 - Here's the CSS media query and rules for a mobile browser (type this in!):
 
@@ -93,8 +93,12 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 
 <hr>
 
-## II-B. Tablet CSS breakpoint
+### II-B. Tablet CSS breakpoint
 
 <hr>
 
-## II-C. Desktop CSS breakpoint
+### II-C. Desktop CSS breakpoint
+
+<hr>
+
+## III. Embed a font
