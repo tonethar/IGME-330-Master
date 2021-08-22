@@ -110,7 +110,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 - What does this media query do? It takes advantage of the tablet's extra screen real estate:
   - it changes the `background-color` of the `<h1>` to green, and increases the size of the font
   - it changes the `color` and increases the `font-size` of the output text and the button
-- **IMPORTANT** - note that the `min-width=320px` media query is still "in effect" for the tablets. So any of the previous style rules we didn't override in this rule, like `display: flex` **are still in effect**
+- **IMPORTANT** - note that the `min-width=320px` media query is still "in effect" for the tablets. So for any of the previously written style rules that we didn't override in this rule, like `display: flex`,  **they remain in effect**
 
 **iPad (`min-width`=768)**
 
