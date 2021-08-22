@@ -120,7 +120,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ### II-C. Desktop CSS breakpoint
 
-- Here's the CSS media query and rules for a *tablet* browser (type this in!):
+- Here's the CSS media query and rules for a *large tablet* or desktop browser (type this in!):
 
 ![screenshot](_images/_technobabble/HW-technobabble-12.png)
 
@@ -145,13 +145,17 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ![screenshot](_images/_technobabble/HW-technobabble-14.png)
 
+- Looks pretty good, but the button and `<h1>` sizes could be a little smaller, esp. on the desktop. Fix that if you wish in the next section
+
+<hr>
+
 ### II-D. Your turn
 
-- Go ahead and create one more CSS breakpoint and give it some distinctive style rules. At a bare minimum, modify the `background-color` and `font-size` of the `<h1>`
+- Go ahead and create one more CSS media query/breakpoint and give it some distinctive style rules. At a bare minimum, modify the `background-color` and `font-size` of the `<h1>`
 - What should you choose as a breakpoint? 
   - maybe support those ancient android devices with a min-width of 240? (You can test that in the "responsive" mode of Chrome)
-  - you could also support Phablets (large phones, less than iPad sized)
-  - or Bulma's "fullhd" which is `1408px` and up
+  - you could also support Phablets (large phones, bigger than an iPhone 8, and less than iPad sized)
+  - or look at supporting Bulma's "fullhd" resolution, which is `1408px` and up
  - Make sure that you tell us what you did in the comments field of the dropbox
 
 <hr>
@@ -168,8 +172,12 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 ## IV. Re-organize the JS and CSS
 
 - move your JavaScript code to an external folder and file named **src/main.js** - you have done this before - use the `<script>` tag
-- move your CSS to external folder and file named **styles/default-styles.js**  - you have done this before - use the `<link>` tag. PS & reminder - don't put the `<style>` tags in the external stylesheet - it will break things 
+- move your CSS to external folder and file named **styles/default-styles.js**  - you have done this before - use the `<link>` tag
+- PS and reminder - don't put the `<style>` tags in the external stylesheet - it will break things 
 
 <hr>
 
 ## V. Submission
+- make sure everthing still works!
+- make sure that all the files are in a containing folder
+- see myCourses for submission instructions
