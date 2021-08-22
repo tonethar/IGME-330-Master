@@ -68,14 +68,17 @@ Let's go ahead and modify the CSS to improve the use experience on mobile device
 <hr>
 
 **iPhone 4**
+
 ![screenshot](_images/_technobabble/HW-technobabble-5.png)
 
 <hr>
 
 **iPhone 8**
+
 ![screenshot](_images/_technobabble/HW-technobabble-6.png)
 
 <hr>
 
 **iPhone X**
+
 ![screenshot](_images/_technobabble/HW-technobabble-7.png)
