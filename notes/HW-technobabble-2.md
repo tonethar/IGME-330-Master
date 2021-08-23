@@ -174,7 +174,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 - move your JavaScript code to an external folder and file named **src/main.js** - you have done this before - use the `<script>` tag
 - move your CSS to external folder and file named **styles/default-styles.js**  - you have done this before - use the `<link>` tag
-- PS and reminder - don't put the `<style>` tags in the external stylesheet - it will break things 
+- PS and reminder - don't put the `<style>` or `<script>` tags in the external stylesheet or external JS file - it will break things 
 
 <hr>
 
