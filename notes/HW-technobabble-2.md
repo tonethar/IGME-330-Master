@@ -179,7 +179,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 <hr>
 
 ## V. Submission
-- make sure everthing still works!
+- make sure everything still works!
 - make sure that all the files are in a containing folder
 - see myCourses for submission instructions
 
