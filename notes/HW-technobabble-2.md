@@ -178,10 +178,15 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 <hr>
 
-## V. Submission
+## V. Submission & Rubric
 - make sure everything still works!
 - make sure that all the files are in a containing folder
 - see myCourses for submission instructions
+- Rubric (out of 10 points):
+  - Parts I-IIC. are not complete (-1 to -10)
+  - Part IID not done (-5)
+  - Part III not done (-5)
+  - Part IV not done (-5)
 
 <hr><hr>
 
