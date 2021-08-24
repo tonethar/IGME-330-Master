@@ -64,7 +64,9 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 - This media query will apply to ***all*** devices where the `min-width` (usually meaning the width of the device when held in portrait orientation) is `320px` or larger
 - And this means ALL phones, tablets and desktops (that understand media queries) will receive these rules
-- Note: Even the original iPhone was 320 x 480, so it would use this query (although some early androids were 240 x 320, so they'd miss out!)
+- Note: Even the original iPhone was 320 x 480, so it would use this query:
+  - although some early androids were 240 x 320, so they'd miss out!
+  - so would the new Galaxy Fold, the outside screen has a `min-width` of `280`! Maybe at the end of this exercise you can write a media query that supports it!
 - What does this media query do?
   - Turns on flexbox, with a column layout, with the button and output centered horizontally and vertically
   - Styles the `<h1>`
