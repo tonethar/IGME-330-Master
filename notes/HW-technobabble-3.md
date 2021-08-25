@@ -11,9 +11,10 @@
 ## II. Hints
 
 - You will need to create a new button, and be sure to give it a unique `id`
+- This button will call a function that generates 5 "technobabbles"
 - The button should be invisible by default - use CSS `display: none` to hide it
 - On screen sizes of `1408px` or higher, the button needs to be visible, so change the `display` property to something appropriate (`inline`, `inline-block`, or `block` should all work, depending on what you are trying to do)
-- In my example below, I moved the `#output` paragraph to be above the button(s) on all of the screen size, so that the multiple lines of text displayed better, but you can leave that HTML alone if you prefer
+- In my example below, I moved the `#output` paragraph to be below the button(s) on all of the screen sizes, so that the multiple lines of text displayed better, but you can leave that HTML alone if you prefer
 
 <hr>
 
@@ -25,7 +26,7 @@
 
 <hr>
 
-**iPhone 8 (min-width=375) is unchanged from TB-II (other than the babble now being on the top)**
+**iPhone 8 (min-width=375) is unchanged from TB-II (other than the babble now being below the button)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-16.png)
 
