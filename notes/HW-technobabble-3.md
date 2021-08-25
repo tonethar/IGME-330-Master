@@ -25,7 +25,7 @@
 
 <hr>
 
-**iPhone 8 (min-width=375) is unchanged
+**iPhone 8 (min-width=375) is unchanged**
 
 ![screenshot](_images/_technobabble/HW-technobabble-16.png)
 
