@@ -1,9 +1,33 @@
 # HW - Technobabble Generator III
 
-## Overview
+## I. Goal
 
-- A week 2A HW assignment
-- We are adding Ajax capabilities - instructions coming soon
+- Add a functional "Give me 5 Technobabble" button to the TB Generator
+- This button will display 5 lines of random babble every time it is clicked, rather than just 1
+- ***This button will only appear at Bulma's "fullhd" resolution, which is 1408px*** - so you will need to write another media query to support this resolution
+
+<hr>
+
+## II. Hints
+
+- You will need to create a new button, and be sure to give it a unique `id`
+- The button should be invisible by default - use CSS `display: none` to hide it
+- On screen sizes of `1408px` or higher, the button needs to be visible, so change the `display` property to something appropriate (`inline`, `inline-block`, or `block` should all work, depending on what you are trying to do)
+- In my example below, I moved the `#output` paragraph to be above the button(s) on all of the screen size, so that the multiple lines of text displayed better, but you can leave that HTML alone if you prefer
+
+<hr>
+
+## III. Screenshots
+
+**Desktop (`min-width`=1408 and higher)**
+
+![screenshot](_images/_technobabble/HW-technobabble-15.png)
+
+<hr>
+
+**iPhone 8 (min-width=375) is unchanged
+
+![screenshot](_images/_technobabble/HW-technobabble-16.png)
 
 <hr><hr>
 
