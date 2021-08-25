@@ -20,13 +20,13 @@
 
 ## III. Screenshots
 
-**Desktop (`min-width`=1408 and higher)**
+**Desktop (`min-width`=1408 and higher) has TWO buttonss**
 
 ![screenshot](_images/_technobabble/HW-technobabble-15.png)
 
 <hr>
 
-**iPhone 8 (min-width=375) is unchanged from TB-II (other than the babble now being below the button)**
+**iPhone 8 (min-width=375) has only ONE button and is unchanged from TB-II (other than the babble now being below the button)**
 
 ![screenshot](_images/_technobabble/HW-technobabble-16.png)
 
