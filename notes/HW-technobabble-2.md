@@ -47,6 +47,9 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
   - A tablet (ex. iPad)
   - A large tablet (ex. iPad Pro)
  - It won't look too good on anything - let's fix this!
+ - Are you still trying to figure out how to simulate a mobile device on your computer? Easy! Click the *Toggle Device Toolbar* in the Chrome Developer Tools:
+   - https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/
+   - [YouTube: How To Use The Toggle Device Toolbar In Google Chrome (3:25)](https://www.youtube.com/watch?v=VtqKRIjEFQI)
 
 <hr>
 
