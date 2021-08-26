@@ -50,6 +50,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
  - Are you still trying to figure out how to simulate a mobile device on your computer? Easy! Click the *Toggle Device Toolbar* in the Chrome Developer Tools:
    - https://www.sitepoint.com/how-to-simulate-mobile-devices-with-device-mode-in-chrome/
    - [YouTube: How To Use The Toggle Device Toolbar In Google Chrome (3:25)](https://www.youtube.com/watch?v=VtqKRIjEFQI)
+   - https://askinglot.com/where-is-toggle-device-toolbar-in-chrome
 
 <hr>
 
