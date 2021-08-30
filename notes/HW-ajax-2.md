@@ -2,7 +2,8 @@
 
 ## Overview
 
-- The video walkthrough for this assignment is here --> 
+- The video walkthrough for this assignment is here. You will need to be logged into RIT before you can access it:
+  - [HW - Ajax-2 (13:16)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dda93dac-be59-4230-9e48-ad9401501b9e&start=0)
 - We will build on what we did last time by modifying our plain-text loading code to instead download and parse a CSV ("**C**omma **S**eparated **V**alues") file
 - CSV is a very popular data format that is easily exported from spreadsheet applications such as Excel. CSV is the primary data format for sharing scientific data that will analyzed and/or visualized
 
