@@ -54,7 +54,7 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 
 ## VI. Submission
 
-- Putting your files in a containing folder named  **ajax-1/** probably makes sense
+- Putting your files in a containing folder named  **ajax-2/** probably makes sense
 - See the dropbox for submission instructions
 
 
