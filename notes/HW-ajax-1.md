@@ -11,7 +11,7 @@
 ## I. Start files
 
 - Below is your plain-text data file **pet-names.txt** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
-- These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**
+- These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**)
 - go ahead and create a **data** fodler and place the **pet-names.txt** file into it:
 
 <hr>
