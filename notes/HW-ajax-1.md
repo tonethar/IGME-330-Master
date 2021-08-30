@@ -9,8 +9,10 @@
   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md
   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md
 
-## I. Start files
+<hr>
 
+## I. Start files
+- For today's exercise, we will load in a plain-text data file of pet names, and display them on the screen in an un-ordered list. You can see what the completed version looks like at the end of this document
 - Below is your plain-text data file **pet-names.txt** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
 - These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**)
 - go ahead and create a **data** folder and place the **pet-names.txt** file into it:
@@ -64,19 +66,19 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 ## II. Get the XHR working
 
+- Here is the start code - put this into the `<script>` tag of **xhr-get-text.html**
 
+![screenshot](_images/_ajax=images/ajax-2.png)
 
+- test everything - you should see a log to the console
 - Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)
+
+### II-B. Try to figure it out
 
 <hr>
 
 ## III. Parse the pet names and display the as an ordered list
 
-- Here is the start code - put this into the `<script>` tag of **xhr-get-text.html**
-
-![screenshot](_images/_ajax/ajax-1.png)
-
-- test everything - you should see a log to the console
 
 <hr>
 
@@ -94,10 +96,16 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 <hr>
 
-## V. Submission
+## V. Completed Version
+
+![screenshot](_images/_ajax=images/ajax-2.png)
+
+<hr>
+
+## VI. Submission
 
 - See the dropbox for submission instructions
-- Be sure to utilize the "cool kid" way of rendering the HTML that we demoed in section III.
+- It is required that you utilize the "cool kid" way of rendering the HTML that we demoed in section III
 
 
 <hr><hr>
