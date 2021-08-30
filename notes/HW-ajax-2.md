@@ -9,10 +9,11 @@
 <hr>
 
 ## I. Start files
-- Rename your completed HTML file from last time - from **xhr-get-text.html** to **xhr-get-csv.html** (you might just want to start by making a copy of your **ajax-1/** folder and name the copy **ajax-2/**
-- Below is your plain-text data file **pet-names.csv** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
+- You might just want to start by first making a copy of your **ajax-1/** folder from last time, and naming the copy **ajax-2/**
+- Go ahead and rename your completed HTML file from last time - from **xhr-get-text.html** to **xhr-get-csv.html** 
+- Below is the plain-text data file **pet-names.csv** that we will use this time
 - **pet-names.csv** contains popular dog and cat pet names on *separate lines*. The pet names are separated by commas
-- go ahead and create a **data** folder and place the **pet-names.csv** file into it:
+- go ahead and create the **pet-names.csv** file and put it in your **data/** folder
 
 <hr>
 
