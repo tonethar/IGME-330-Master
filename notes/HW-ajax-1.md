@@ -108,7 +108,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 ## V. Completed Version
 
-![screenshot](_images/_ajax-images/HW-ajax-2.png)
+![screenshot](_images/_ajax-images/HW-ajax-1.png)
 
 <hr>
 
