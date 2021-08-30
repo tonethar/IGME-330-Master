@@ -46,8 +46,8 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 
 ## V. Reference
 
-### V-A. APIs used</h3>
-	- again we use [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received using `XHR`, or `null` if the request failed
+### V-A. APIs used
+  - again we use [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received using `XHR`, or `null` if the request failed
   - We will also look at [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) assignment - this syntax is a JavaScript expression that makes it possible to unpack values from arrays
 
 ## VI. Submission
