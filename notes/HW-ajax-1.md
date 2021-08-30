@@ -10,8 +10,32 @@
 
 ## I. Start files
 
-- Below is your plain-text data file - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
-- These 
+- Below is your plain-text data file **pet-names.txt** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
+- These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**
+- go ahead and create a **data** fodler and place the **pet-names.txt** file into it:
+**data/pet-names.txt**
+
+```text
+Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tucker,Bear,Zoey,Duke,Harley,Maggie,Jax,Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Buddy,Toby,Smokey,Finn,Felix,Simon,Shadow
+```
+
+<hr>
+
+- Here is our HTML file that has the HTML/CSS/JS to get us started"
+
+**xhr-get-text.html**
+
+```html
+
+```
+
+<hr>
+
+## II. Get XHR working
+
+<hr>
+
+### III. 
 
 
 <hr><hr>
