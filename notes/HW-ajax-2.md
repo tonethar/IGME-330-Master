@@ -25,30 +25,29 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 
 ## II. Get the CSV parsing working
 
-- Here is the start JS code for you to type in - put this into the `<script>` tag of **xhr-get-text.html**
+- We will walk through this together on the video
 
 <hr>
 
-![screenshot](_images/_ajax-images/HW-ajax-XX.png)
+## III. Completed Version (so far)
 
-<hr>
-
-## III. Completed Version
-
-![screenshot](_images/_ajax-images/HW-ajax-XX.png)
+![screenshot](_images/_ajax-images/HW-ajax-3.png)
 
 <hr>
 
 ## IV. Your turn
-- Go ahead and make a small 
+- Go ahead and modify the code so that it displays a list of pet bird names:
+  - use the google to get 20 popular names for pet birds, and add them as a new row to the **pet-names.csv** file
+  - write code that will display those bird names as an ordered list underneath another `<h3>` subheading (as was done with the dog and cat names)
 
 <hr>
 
 ## V. Reference
 
-### V-A. APIs used
-  - again we use [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received using `XHR`, or `null` if the request failed
-  - We will also look at [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) assignment - this syntax is a JavaScript expression that makes it possible to unpack values from arrays
+- again we use [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received using `XHR`, or `null` if the request failed
+- We will also look at [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) assignment - this syntax is a JavaScript expression that makes it possible to unpack values from arrays
+
+<hr>
 
 ## VI. Submission
 
