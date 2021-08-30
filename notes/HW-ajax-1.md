@@ -27,7 +27,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 <hr>
 
-- Here is our HTML file that has the HTML/CSS/JS to get us started:
+- Here is our HTML file that has the HTML/CSS/JS to get us started - feel free to copy/paste:
 
 **xhr-get-text.html**
 
