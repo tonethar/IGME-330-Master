@@ -2,6 +2,7 @@
 
 ## Overview
 
+- The video walkthrough for this assignment is here --> 
 - In this series, we are going to walk through using the browser [XMLHttpRequest (aka "XHR")](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) and fetch(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) APIs to download data and display it to the user
 - We will download and parse data in multiple formats - plain text, CSV, XML  and JSON
 - Note: In 230/235 you have already had some experience with some of this - specifically XHR and JSON - go review those notes now if you wish:
@@ -61,7 +62,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 <hr>
 
-## II. Get XHR working
+## II. Get the XHR working
 
 
 
@@ -69,21 +70,34 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 <hr>
 
-## III. 
+## III. Parse the pet names and display the as an ordered list
+
+- Here is the start code - put this into the `<script>` tag of **xhr-get-text.html**
+
+![screenshot](_images/_ajax/ajax-1.png)
+
+- test everything - you should see a log to the console
 
 <hr>
 
 ## IV. Reference
 
-### APIs Used
+### IV-A. APIs Used
 - [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) - <code>XHR</code> objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing
 - [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received from the `XHR`, or `null` if the request failed
 - [String.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) - turns a string into an array
 - [`Array.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) - creates a new array populated with the results of calling a provided function on every element in the calling array
 - [`Array.join()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) - returns a new string by concatenating all of the elements in an array
 
-### ES6
+### IV-B. ES6
 - [ES6 Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
+
+<hr>
+
+## V. Submission
+
+- See the dropbox for submission instructions
+- Be sure to utilize the "cool kid" way of rendering the HTML that we demoed in section III.
 
 
 <hr><hr>
