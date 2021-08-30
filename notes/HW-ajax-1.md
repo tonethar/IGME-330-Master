@@ -66,18 +66,28 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 ## II. Get the XHR working
 
-- Here is the start code - put this into the `<script>` tag of **xhr-get-text.html**
-
-![screenshot](_images/_ajax-images/HW-ajax-2.png)
-
-- test everything - you should see a log to the console
-- Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)
-
-### II-B. Try to figure it out
+- Here is the start code fo/r you to type in - put this into the `<script>` tag of **xhr-get-text.html**
 
 <hr>
 
-## III. Parse the pet names and display the as an ordered list
+![screenshot](_images/_ajax-images/HW-ajax-2.png)
+
+<hr>
+
+- Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)
+- Test everything - you should see a log to the console showing that the file was successfully loaded
+- Try breaking the code by changing the <code>pet-names.txt</code> file name - note that XHR's `onerror` handler was not triggered, and that `XHR` reported that it successfully downloaded the file:
+  - this is because the web server's "404 file not found" page WAS successfully loaded
+  - this behavior will lead to problems in our later versions of this simple app, and we'll need to write "guard code" to always be sure that we downloaded the correct file, and not merely the web server's error page
+  - when then, does `onerror` get triggered for `XHR`? One example would be when we try to download a remote file, but our computer is offline and not connected to the Internet
+
+
+
+<hr>
+
+## III. Parse the pet names and display the loaded data as an ordered list
+
+- Watch the video to see how we implement this - both the "long way" and as a "one-liner"
 
 
 <hr>
@@ -105,7 +115,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 ## VI. Submission
 
 - See the dropbox for submission instructions
-- It is required that you utilize the "cool kid" way of rendering the HTML that we demoed in section III
+- It is required that you utilize the "one-liner" way of rendering the HTML that we demoed in section III
 
 
 <hr><hr>
