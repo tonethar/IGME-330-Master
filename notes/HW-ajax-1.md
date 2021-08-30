@@ -12,7 +12,7 @@
 <hr>
 
 ## I. Start files
-- For today's exercise, we will load in a plain-text data file of pet names, and display them on the screen in an un-ordered list. You can see what the completed version looks like at the end of this document
+- For today's exercise, we will load in a plain-text data file of pet names, and display them on the screen in an unordered list. You can see what the completed version looks like at the end of this document
 - Below is your plain-text data file **pet-names.txt** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
 - These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**)
 - go ahead and create a **data** folder and place the **pet-names.txt** file into it:
