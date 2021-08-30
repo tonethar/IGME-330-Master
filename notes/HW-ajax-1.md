@@ -36,9 +36,9 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>XHR - Load Text</title>
 	<style>
-		body{
-			font-family: sans-serif;
-		}
+	body{
+	  font-family: sans-serif;
+	}
 	</style>
 
 </head>
