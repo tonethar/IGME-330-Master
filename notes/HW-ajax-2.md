@@ -4,6 +4,7 @@
 
 - The video walkthrough for this assignment is here --> 
 - We will build on what we did last time by modifying our plain-text loading code to instead download and parse a CSV ("**C**omma **S**eparated **V**alues") file
+- CSV is a very popular data format that is easily exported from spreadsheet applications such as Excel. CSV is the primary data format for sharing scientific data that will analyzed and/or visualized
 
 <hr>
 
@@ -11,7 +12,6 @@
 - Rename your completed HTML file from last time - from **xhr-get-text.html** to **xhr-get-csv.html**
 - Below is your plain-text data file **pet-names.csv** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
 - **pet-names.csv** contains popular dog and cat pet names on *separate lines*. The pet names are separated by commas
-- CSV is a very popular data format that is easily exported from spreadsheet applications such as Excel. CSV is the primary data format for sharing scientific data that will analyzed and/or visualized
 - go ahead and create a **data** folder and place the **pet-names.csv** file into it:
 
 <hr>
