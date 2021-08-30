@@ -2,7 +2,8 @@
 
 ## Overview
 
-- The video walkthrough for this assignment is here. You will need to be logged into RIT before you can access it --> [HW - Ajax-1 (17:16)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1577d8a-6c70-4167-a883-ad9401222935)
+- The video walkthrough for this assignment is here. You will need to be logged into RIT before you can access it:
+  - [HW - Ajax-1 (17:16)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1577d8a-6c70-4167-a883-ad9401222935)
 - In this series, we are going to walk through using the browser [`XMLHttpRequest` (aka "`XHR`")](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) and [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) APIs to download data and display it to the user
 - We will download and parse data in multiple formats - plain text, CSV, XML  and JSON
 - Note: In 230/235 you have already had some experience with some of this - specifically XHR and JSON - go review those notes now if you wish:
