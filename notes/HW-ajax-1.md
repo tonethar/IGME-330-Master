@@ -12,7 +12,7 @@
 
 - Below is your plain-text data file **pet-names.txt** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
 - These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**)
-- go ahead and create a **data** fodler and place the **pet-names.txt** file into it:
+- go ahead and create a **data** folder and place the **pet-names.txt** file into it:
 
 <hr>
 
@@ -24,17 +24,48 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 <hr>
 
-- Here is our HTML file that has the HTML/CSS/JS to get us started"
+- Here is our HTML file that has the HTML/CSS/JS to get us started:
 
 **xhr-get-text.html**
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>XHR - Load Text</title>
+	<style>
+		body{
+			font-family: sans-serif;
+		}
+	</style>
 
+</head>
+<body>
+	<h2>XHR - Load Text File</h2>
+	<p>The <code>pet-names.txt</code> file contains popular dog and cat pet names, separated by commas.</p>
+	<p>Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)</p>
+	
+	<hr>
+	<button id="my-button">Load Data</button>
+	<p id="output">Click button to load</p>
+	
+
+<script>
+
+</script>
+</body>
+</html>
 ```
 
 <hr>
 
 ## II. Get XHR working
+
+
+
+- Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)
 
 <hr>
 
