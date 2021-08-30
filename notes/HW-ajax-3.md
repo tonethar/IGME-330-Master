@@ -26,6 +26,25 @@
 </petnames>
 ```
 
+<hr>
+
+## II. About XML
+
+- **pet-names.xml** contains the dog and cat pet names in a structured XML format. The element names that were used in the file are not part of any standard and chosen because they made sense to the developer
+- XML - Extensible Markup Language - is a set of rules for defining your own markup language
+- The top 5 rules for writing XML (from here https://www.ibm.com/docs/en/scbn?topic=syntax-xml-rules - are:
+  - All XML elements must have a closing tag
+  - XML tags are case sensitive
+  - All XML elements must be properly nested
+  - All XML documents must have a root element
+  - Attribute values must always be quoted
+- When authoring your XML, make sure that you strictly follow these rules. Making even the slightest mistake, such as forgetting to close a tag, will mean that the file is not valid XML and will therefore not be able to be parsed by `XHR`
+- We will be using the [xhr.responseXML](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseXML) property this time - which returns a `Document` containing the HTML or XML retrieved by the request; or `null` if the request was unsuccessful
+	
+<hr>
+
+## III.
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
