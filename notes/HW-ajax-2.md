@@ -23,6 +23,8 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Buddy,Toby,Smokey,Finn,Felix,Simon,Shadow
 ```
 
+<hr>
+
 ## II. Get the CSV parsing working
 
 - We will walk through this together on the video
@@ -51,8 +53,8 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 
 ## VI. Submission
 
+- Putting your files in a containing folder named  **ajax-1/** probably makes sense
 - See the dropbox for submission instructions
-- It is required that you utilize the "one-liner" way of rendering the HTML that we demoed in section III
 
 
 <hr><hr>
