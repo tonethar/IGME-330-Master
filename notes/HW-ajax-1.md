@@ -68,7 +68,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 - Here is the start code - put this into the `<script>` tag of **xhr-get-text.html**
 
-![screenshot](_images/_ajax=images/ajax-2.png)
+![screenshot](_images/_ajax-images/HW-ajax-2.png)
 
 - test everything - you should see a log to the console
 - Note that because XHR is loading a local file, this and the other examples will have to be run off a web server rather than from your computer's hard drive (e.g. banjo.rit.edu or VSCode's liveserver etc)
@@ -98,7 +98,7 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 ## V. Completed Version
 
-![screenshot](_images/_ajax=images/ajax-2.png)
+![screenshot](_images/_ajax-images/HW-ajax-2.png)
 
 <hr>
 
