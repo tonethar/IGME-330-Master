@@ -3,7 +3,7 @@
 ## Overview
 
 - The video walkthrough for this assignment is here --> 
-- In this series, we are going to walk through using the browser [XMLHttpRequest (aka "XHR")](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) and fetch(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) APIs to download data and display it to the user
+- In this series, we are going to walk through using the browser [`XMLHttpRequest` (aka "`XHR`")](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) and [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) APIs to download data and display it to the user
 - We will download and parse data in multiple formats - plain text, CSV, XML  and JSON
 - Note: In 230/235 you have already had some experience with some of this - specifically XHR and JSON - go review those notes now if you wish:
   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md
