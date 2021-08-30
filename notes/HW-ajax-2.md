@@ -8,9 +8,11 @@
 <hr>
 
 ## I. Start files
+- Rename your completed HTML file from last time - from **xhr-get-text.html** to **xhr-get-csv.html**
 - Below is your plain-text data file **pet-names.csv** - it consists of the top-20 most popular pet dog names, followed by the 20-most popular pet cat names
-- These names are *comma-separated*, and both dog and cat names appear in the one line of text in the file (not a very good structure, and we'll rectify that in **Ajax-2**)
-- go ahead and create a **data** folder and place the **pet-names.txt** file into it:
+- **pet-names.csv** contains popular dog and cat pet names on *separate lines*. The pet names are separated by commas
+- CSV is a very popular data format that is easily exported from spreadsheet applications such as Excel. CSV is the primary data format for sharing scientific data that will analyzed and/or visualized
+- go ahead and create a **data** folder and place the **pet-names.csv** file into it:
 
 <hr>
 
@@ -20,6 +22,37 @@
 Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tucker,Bear,Zoey,Duke,Harley,Maggie,Jax
 Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Buddy,Toby,Smokey,Finn,Felix,Simon,Shadow
 ```
+
+## II. Get the CSV parsing working
+
+- Here is the start JS code for you to type in - put this into the `<script>` tag of **xhr-get-text.html**
+
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-XX.png)
+
+<hr>
+
+## III. Completed Version
+
+![screenshot](_images/_ajax-images/HW-ajax-XX.png)
+
+<hr>
+
+## IV. Your turn
+- Go ahead and make a small 
+
+
+## V. Reference
+
+### V-A. APIs used</h3>
+	- again we use [`xhr.responseText`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText) - contains either the textual data received using `XHR`, or `null` if the request failed
+  - We will also look at [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) assignment - this syntax is a JavaScript expression that makes it possible to unpack values from arrays
+
+## VI. Submission
+
+- See the dropbox for submission instructions
+- It is required that you utilize the "one-liner" way of rendering the HTML that we demoed in section III
 
 
 <hr><hr>
