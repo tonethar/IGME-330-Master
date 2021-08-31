@@ -33,7 +33,7 @@
 
 - **pet-names.xml** contains the dog and cat pet names in a structured XML format. The element names that were used in the file are not part of any standard and chosen because they made sense to the developer
 - XML - Extensible Markup Language - is a set of rules for defining your own markup language
-- The top 5 rules for writing XML (from here https://www.ibm.com/docs/en/scbn?topic=syntax-xml-rules - are:
+- The top 5 rules for writing *well-formed* XML (from here https://www.ibm.com/docs/en/scbn?topic=syntax-xml-rules - are:
   - All XML elements must have a closing tag
   - XML tags are case sensitive
   - All XML elements must be properly nested
