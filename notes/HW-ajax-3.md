@@ -2,7 +2,8 @@
 
 ## Overview
 
-- The video walkthrough for this assignment is here --> 
+- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
+[HW - Ajax-3 (15:43)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebb703bf-1e83-47c4-b8c1-ad9500ed6204&start=0)
 - We will build on what we did last time by modifying our CSV loading code to instead download and parse an XML ("E**x**tensible **M**arkup **L**anguage") file
 
 
