@@ -11,6 +11,7 @@
 
 - Use [HW - Technobabble Generator III](HW-technobabble-3.md) as your starting point by making a copy of it that you can modify
 - [HW - Ajax-2 - loading and parsing CSV files](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-2.md) will come in handy
+- YOU are creating **babble-data.csv**
 - Each line of **babble-data.csv** will contain the words from one of the arrays
 - You must load the **babble-data.csv** file using `XHR`
 - You must load the **babble-data.csv** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
