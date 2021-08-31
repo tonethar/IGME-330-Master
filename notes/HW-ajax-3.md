@@ -44,15 +44,14 @@
   - Attribute values must always be quoted
 - When authoring your XML, make sure that you strictly follow these rules. Making even the slightest mistake, such as forgetting to close a tag, will mean that the file is not valid XML and will therefore not be able to be parsed by `XHR`
 - N.B. - if we wanted our XML format to be more robust, we would also design an [XML *schema*](https://www.w3schools.com/xml/schema_intro.asp) - which is a set of rules about allowable tag names and attributes, legal values, required and optional attributes and so on. These rules allow an XML *validator* to check the *semantics* of your XML validator (similar to what HTML and CSS validators do). We are not going to worry about XML *validation*  in this simple example.
-- We will be using the [xhr.responseXML](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseXML) property this time - which returns a `Document` containing the HTML or XML retrieved by the request; or `null` if the request was unsuccessful
 	
 <hr>
 
 ## III. Get the XML parsing working
 - We will walk through this together:
-  - this time we are using `xhr.responseXML` instead of `xhr.responseText`
-  - `document.querySelector()` will come in handy when parsing XML
-  - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the desired element
+  - We will be using the [xhr.responseXML](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseXML) property this time (instead of `xhr.responseText`) - which returns a `Document` containing the HTML or XML retrieved by the request; or `null` if the request was unsuccessful
+  - `document.querySelector()` will come in handy when parsing the loaded XML
+  - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the desired XML element
   - We will also "break" the XML and see how our code responds
   - We will write "guard" code that displays a message if the XML is "bad" (e.g. not *well-formed*)
 
