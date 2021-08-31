@@ -15,6 +15,8 @@
 - Each line of **babble-data.csv** will contain the words from one of the arrays
 - You must load the **babble-data.csv** file using `XHR`
 - You must load the **babble-data.csv** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
+- Hints:
+  - The individual "babble" words in the XML file will not have quotes around them - you will need to strip those off
 
 <hr>
 
