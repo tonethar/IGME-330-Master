@@ -2,7 +2,7 @@
 
 ## I. Goal
 
-- Rather than hard-code your Technobabble data, you will instead load it from an external file using `XHR`
+- Rather than hard-code your Technobabble data, you will instead load it from an external CSV file using `XHR`
 - In this exercise, you will delete the contents of the `words1`, `words2` and `words3` arrays, and instead load the words from an external file named **babble-data.csv**
 
 <hr>
