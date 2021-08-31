@@ -13,7 +13,8 @@
 - Use [HW - Technobabble Generator V](HW-technobabble-5.md) as your starting point by making a copy of it that you can modify
 - [HW - Ajax-4 - loading and parsing JSON files](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-4.md) will come in handy
 - YOU are creating **babble-data.json**
-- YOU will need to encode the three word data arrays as *well-formed* JSON - be sure to come up with property names that make sense, and don't just reuse what we did in **HW Ajax-4** 
+- YOU will need to encode the three word data arrays as *well-formed* JSON - be sure to come up with JSON property names that make sense, and don't just reuse what we did in **HW Ajax-4** 
+- Here are some JSON validator tools that might come in handy - https://jsonlint.com/
 - You must load the **babble-data.json** file using `XHR`
 - You must load the **babble-data.json** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
 
