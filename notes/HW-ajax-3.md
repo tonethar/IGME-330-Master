@@ -28,7 +28,7 @@
 </petnames>
 ```
 
-- BTW: the XML declaration at the top of an XML file is optional as long at the encoding is in UTF-8 or UTF-16
+- NB: the XML declaration at the top of an XML file is optional as long at the encoding is in UTF-8 or UTF-16
 
 <hr>
 
