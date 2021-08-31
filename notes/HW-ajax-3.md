@@ -55,7 +55,7 @@
 ## IV. Your Turn
 
 - Add the pet bird names you used last time to **pet-names.xml**
-- Write code so that the pet bird names are loaded from the XML file and display
+- Write code so that the pet bird names are loaded from the XML file, and will display on the screen the same as they did in Ajax-2
 - IMPORTANT: You can double-check that **pet-names.xml** is still well-formed XML by opening the file in Chrome
 
 <hr>
