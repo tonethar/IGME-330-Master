@@ -48,7 +48,8 @@
 - We will walk through this together:
   - this time we are using `xhr.responseXML` instead of `xhr.responseText`
   - `document.querySelector()` will come in handy when parsing XML
-  - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the correct
+  - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the desired element
+  - We will also "break" the XML and see how our code responds
 
 <hr>
 
