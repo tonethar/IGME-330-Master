@@ -44,7 +44,23 @@
 	
 <hr>
 
-## III.
+## III. Get the XML parsing working
+- We will walk through this together:
+  - this time we are using `xhr.responseXML` instead of `xhr.responseText`
+  - `document.querySelector()` will come in handy when parsing XML
+  - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the correct
+
+<hr>
+
+## IV. Your Turn
+
+- Add the pet bird names you used last time to **pet-names.xml**
+
+<hr>
+
+## V. Submission
+- Putting your files in a containing folder named **ajax-3/** probably makes sense
+- See the dropbox for submission instructions
 
 <hr><hr>
 
