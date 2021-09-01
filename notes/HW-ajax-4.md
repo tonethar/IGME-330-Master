@@ -108,7 +108,7 @@
 2) Give the user either a drop-down list (i.e. a `<select>`) or a text input field and a button, where they can search for and display (solely) the chosen list of pet names. (There are a lot of ways to accomplish this! Let's see what you come up with!)
 
 - Worth 1 HW assignment
-- Indicate in the dropbox comments field that you did the extra credit
+- Post this version to the **Ajax-4 - Extra Credit** dropbox
 - Partial credit may be awarded for partially correct solutions
 
 <hr><hr>
