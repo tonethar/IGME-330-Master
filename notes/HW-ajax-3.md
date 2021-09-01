@@ -50,7 +50,7 @@
 
 ## III. Get the XML parsing working
 - We will walk through this together:
-  - We will be using the [xhr.responseXML](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseXML) property this time (instead of `xhr.responseText`) - which returns a `Document` containing the HTML or XML retrieved by the request; or `null` if the request was unsuccessful
+  - We will be using the [`xhr.responseXML`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseXML) property this time (instead of `xhr.responseText`) - which returns a `Document` containing the HTML or XML retrieved by the request; or `null` if the request was unsuccessful
   - `document.querySelector()` will come in handy when parsing the loaded XML
   - [CSS Attribute Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) will make it easy to select the desired XML element
   - We will also "break" the XML and see how our code responds
@@ -62,7 +62,7 @@
 
 - Add the pet bird names you used last time to **pet-names.xml**
 - Write code so that the pet bird names are loaded from the XML file, and will display on the screen the same as they did in Ajax-2
-- IMPORTANT: You can double-check that **pet-names.xml** is still well-formed XML by opening the file in Chrome
+- IMPORTANT: You can double-check that **pet-names.xml** is still *well-formed* XML by opening the file in Chrome
 
 <hr>
 
