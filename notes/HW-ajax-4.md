@@ -28,6 +28,19 @@ HW - Ajax-4 (XX:XX)
 }
 ```
 
+```json
+{
+  "dognames":{
+    "title":"Dog Names",
+    "namelist":["Bella","Luna","Charlie","Lucy","Cooper","Max","Bailey","Daisy","Sadie","Lola","Buddy","Molly","Stella","Tucker","Bear","Zoey","Duke","Harley","Maggie","Jax"]
+  },
+  "catnames":{
+    "title":"Cat Names",
+    "namelist":["Oliver","Leo","Milo","Charlie","Simba","Max","Jack","Loki","Tiger","Jasper","Ollie","Oscar","George","Buddy","Toby","Smokey","Finn","Felix","Simon","Shadow"]
+  }
+}
+```
+
 <hr>
 
 ## II. About JSON
