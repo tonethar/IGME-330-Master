@@ -48,7 +48,7 @@ HW - Ajax-4 (XX:XX)
 
 <hr>
 
-- Here in an improved version, which has more information in it, for example, a `title` and a `uid` for each set of names
+- Here in an improved version, which has more information in it, for example, a `type`, a `popularity`, and a `title` for each set of names
 - Note below that below we are using 4 of JSON's data types: `object`, `string`, `number` and `array`
 - N.B. - I generated a random key (unique identifier) with this - and I shortedend them to make it easier to read -  https://www.guidgenerator.com/online-guid-generator.aspx
 - **USE THIS ONE:**
@@ -64,8 +64,8 @@ HW - Ajax-4 (XX:XX)
 		"namelist": ["Bella", "Luna", "Charlie", "Lucy", "Cooper", "Max", "Bailey", "Daisy", "Sadie", "Lola", "Buddy", "Molly", "Stella", "Tucker", "Bear", "Zoey", "Duke", "Harley", "Maggie", "Jax"]
   },
   "69bab900": {
-		"type": "dognames",
-		"popularity": 2,
+		"type": "catnames",
+		"popularity": 4,
 		"title": "Cat Names",
 		"namelist": ["Oliver", "Leo", "Milo", "Charlie", "Simba", "Max", "Jack", "Loki", "Tiger", "Jasper", "Ollie", "Oscar", "George", "Buddy", "Toby", "Smokey", "Finn", "Felix", "Simon", "Shadow"]
   }
