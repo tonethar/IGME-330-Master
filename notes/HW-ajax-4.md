@@ -3,7 +3,7 @@
 ## Overview
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
-[HW - Ajax-4 (22:37)]()
+[HW - Ajax-4 (22:37)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06b77b54-e15f-47e8-85c0-ad9601210369&start=0)
 - We will build on what we did last time by modifying our XML loading code to instead download and parse a JSON ("**J**ava**S**cript **O**bject **N**otation") file
 
 
