@@ -45,13 +45,13 @@ HW - Ajax-4 (XX:XX)
 		"popularity": 5,
 		"title": "Dog Names",
 		"namelist": ["Bella", "Luna", "Charlie", "Lucy", "Cooper", "Max", "Bailey", "Daisy", "Sadie", "Lola", "Buddy", "Molly", "Stella", "Tucker", "Bear", "Zoey", "Duke", "Harley", "Maggie", "Jax"]
-	},
+  },
   "69bab900-29a5-4b76-87bb-968c5cfd7a7c": {
 		"type": "dognames",
 		"popularity": 2,
 		"title": "Cat Names",
 		"namelist": ["Oliver", "Leo", "Milo", "Charlie", "Simba", "Max", "Jack", "Loki", "Tiger", "Jasper", "Ollie", "Oscar", "George", "Buddy", "Toby", "Smokey", "Finn", "Felix", "Simon", "Shadow"]
-	}
+  }
 }
 ```
 
