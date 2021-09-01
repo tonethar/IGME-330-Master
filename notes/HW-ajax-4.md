@@ -3,7 +3,7 @@
 ## Overview
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
-HW - Ajax-4 (XX:XX)
+HW - Ajax-4 (22:37)
 - We will build on what we did last time by modifying our XML loading code to instead download and parse a JSON ("**J**ava**S**cript **O**bject **N**otation") file
 
 
