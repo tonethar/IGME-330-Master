@@ -19,7 +19,8 @@ HW - Ajax-4 (XX:XX)
 
 <hr>
 
-**data/pet-names.json**
+- Here is our first attempt at encoding the pet names - not bad, but let's move on and see if we can do better
+- *DO NOT USE THIS ONE:*
 
 ```json
 {
@@ -28,13 +29,22 @@ HW - Ajax-4 (XX:XX)
 }
 ```
 
+<hr>
+
+- Here in an improved version, which has more information in it, for example, a `title` for each set of names
+- **USE THIS ONE:**
+
+**data/pet-names.json**
+
 ```json
 {
   "dognames":{
+    "uid": 1,
     "title":"Dog Names",
     "namelist":["Bella","Luna","Charlie","Lucy","Cooper","Max","Bailey","Daisy","Sadie","Lola","Buddy","Molly","Stella","Tucker","Bear","Zoey","Duke","Harley","Maggie","Jax"]
   },
   "catnames":{
+    "uid": 2,
     "title":"Cat Names",
     "namelist":["Oliver","Leo","Milo","Charlie","Simba","Max","Jack","Loki","Tiger","Jasper","Ollie","Oscar","George","Buddy","Toby","Smokey","Finn","Felix","Simon","Shadow"]
   }
