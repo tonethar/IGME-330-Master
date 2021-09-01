@@ -105,7 +105,7 @@ HW - Ajax-4 (XX:XX)
 
 1) Near the top of the HTML page, when it first loads, show the user the "types" and "titles" of the available pet name lists. Do this by loading the JSON file and pulling those values out.
 
-2) Give the user either a pull down menu (i.e. a `<select>`) or a text input field and a button, where they can search for and display (solely) the chosen list of pet names. (There are a lot of ways to accomplish this)
+2) Give the user either a drop-down list (i.e. a `<select>`) or a text input field and a button, where they can search for and display (solely) the chosen list of pet names. (There are a lot of ways to accomplish this)
 
 - Worth 1 HW assignment
 - Indicate in the dropbox comments field that you did the extra credit
