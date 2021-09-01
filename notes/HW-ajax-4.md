@@ -42,6 +42,8 @@ HW - Ajax-4 (XX:XX)
   - `boolean`
   - `null`
  - You have worked with `XHR` and JSON before, back in 230/235, check out the notes again if you wish:
+   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md
+   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md
 	
 <hr>
 
