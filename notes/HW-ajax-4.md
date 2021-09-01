@@ -9,7 +9,24 @@ HW - Ajax-4 (XX:XX)
 
 <hr>
 
-## I. Start files
+## I. About JSON
+
+- *JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate... JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.*
+  - https://www.json.org/json-en.html
+- JSON *keys* must be double-quoted strings, but JSON values can be any of these 6 types:
+  - `string`
+  - `number`
+  - `object` (JSON object, no methods allowed)
+  - `array`
+  - `boolean`
+  - `null`
+ - You have worked with `XHR` and JSON before, back in 230/235, check out the notes again if you wish:
+   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md
+   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md
+	
+<hr>
+
+## II. Start files
 - You might want to start by first making a copy of your **ajax-3/** folder from last time, and naming the copy **ajax-4/**
 - Go ahead and rename your completed HTML file from last time - from **xhr-get-xml.html** to **xhr-get-json.html** 
 - Below is the plain-text data file **pet-names.json** that we will use this time
@@ -57,22 +74,7 @@ HW - Ajax-4 (XX:XX)
 
 <hr>
 
-## II. About JSON
 
-- *JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate... JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.*
-  - https://www.json.org/json-en.html
-- JSON *keys* must be double-quoted strings, but JSON values can be any of these 6 types:
-  - `string`
-  - `number`
-  - `object` (JSON object, no methods allowed)
-  - `array`
-  - `boolean`
-  - `null`
- - You have worked with `XHR` and JSON before, back in 230/235, check out the notes again if you wish:
-   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/web-apps-10.md
-   - https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-gif-finder.md
-	
-<hr>
 
 ## III. Get the JSON parsing working
 - We will walk through this together:
