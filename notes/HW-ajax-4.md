@@ -41,6 +41,7 @@ HW - Ajax-4 (XX:XX)
   - `array`
   - `boolean`
   - `null`
+ - You have worked with `XHR` and JSON before, back in 230/235, check out the notes again if you wish:
 	
 <hr>
 
