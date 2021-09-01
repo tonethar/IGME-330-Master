@@ -49,8 +49,8 @@ HW - Ajax-4 (XX:XX)
 <hr>
 
 - Here in an improved version, which has more information in it, for example, a `type`, a `popularity`, and a `title` for each set of names
-- Note below that below we are using 4 of JSON's data types: `object`, `string`, `number` and `array`
-- N.B. - I generated a random key (unique identifier) with this - and I shortedend them to make it easier to read -  https://www.guidgenerator.com/online-guid-generator.aspx
+- Note that below we are using 4 of JSON's 6 data types: `object`, `string`, `number` and `array`
+- N.B. - I generated a random key (unique identifier) with this - and I shortened them to make the file easier to read -  https://www.guidgenerator.com/online-guid-generator.aspx
 - **USE THIS ONE:**
 
 **data/pet-names.json**
