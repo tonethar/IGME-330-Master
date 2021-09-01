@@ -31,23 +31,27 @@ HW - Ajax-4 (XX:XX)
 
 <hr>
 
-- Here in an improved version, which has more information in it, for example, a `title` for each set of names
+- Here in an improved version, which has more information in it, for example, a `title` and a `uid` for each set of names
+- Note below that below we are using 4 of JSON's data types: `object`, `string`, `number` and `array`
+- N.B. - I generated a random key (unique identifier) with this - https://www.guidgenerator.com/online-guid-generator.aspx
 - **USE THIS ONE:**
 
 **data/pet-names.json**
 
 ```json
 {
-  "dognames":{
-    "uid": 1,
-    "title":"Dog Names",
-    "namelist":["Bella","Luna","Charlie","Lucy","Cooper","Max","Bailey","Daisy","Sadie","Lola","Buddy","Molly","Stella","Tucker","Bear","Zoey","Duke","Harley","Maggie","Jax"]
-  },
-  "catnames":{
-    "uid": 2,
-    "title":"Cat Names",
-    "namelist":["Oliver","Leo","Milo","Charlie","Simba","Max","Jack","Loki","Tiger","Jasper","Ollie","Oscar","George","Buddy","Toby","Smokey","Finn","Felix","Simon","Shadow"]
-  }
+	"c9532dc9-8e1f-4565-89f6-a25547aba876": {
+		"type": "dognames",
+		"popularity": 5,
+		"title": "Dog Names",
+		"namelist": ["Bella", "Luna", "Charlie", "Lucy", "Cooper", "Max", "Bailey", "Daisy", "Sadie", "Lola", "Buddy", "Molly", "Stella", "Tucker", "Bear", "Zoey", "Duke", "Harley", "Maggie", "Jax"]
+	},
+	"69bab900-29a5-4b76-87bb-968c5cfd7a7c": {
+		"type": "dognames",
+		"popularity": 2,
+		"title": "Cat Names",
+		"namelist": ["Oliver", "Leo", "Milo", "Charlie", "Simba", "Max", "Jack", "Loki", "Tiger", "Jasper", "Ollie", "Oscar", "George", "Buddy", "Toby", "Smokey", "Finn", "Felix", "Simon", "Shadow"]
+	}
 }
 ```
 
