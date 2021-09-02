@@ -83,7 +83,7 @@
   - We will use [`Object.keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) to obtain the *keys* of the returned object so that we can iterate over its properties
   - We will also "break" the JSON and see how our code responds
   - We will write "guard" code that displays a message if the JSON is "bad" (e.g. not *well-formed*) or not *valid* (it's missing a key we were expectung to be there)
-  - Here is a nice tool for making sure that your JOSN is *well-formed* - https://jsonlint.com
+  - Here is a nice tool for making sure that your JSON is *well-formed* - https://jsonlint.com
 
 <hr>
 
