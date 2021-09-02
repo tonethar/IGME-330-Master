@@ -82,7 +82,8 @@
   - We will also use [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) method will parse a JSON string and turn it into a JavaScript value for us
   - We will use [`Object.keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) to obtain the *keys* of the returned object so that we can iterate over its properties
   - We will also "break" the JSON and see how our code responds
-  - We will write "guard" code that displays a message if the JSON is "bad" (e.g. not *well-formed*) or not *valid* (it's missing a key we were expectung to be there)
+    - [`try/catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) will come in handy here!
+  - We will write "guard" code that displays a message if the JSON is "bad" (e.g. not *well-formed*) or not *valid* (it's missing a key we were expecting to be there)
   - Here is a nice tool for making sure that your JSON is *well-formed* - https://jsonlint.com
 
 <hr>
