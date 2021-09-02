@@ -16,6 +16,7 @@
 - YOU will need to encode the three word data arrays as *well-formed* XML - be sure to come up with element and attribute names that make sense, and don't just reuse what we did in **HW Ajax-3** 
 - You must load the **babble-data.xml** file using `XHR`
 - You must load the **babble-data.xml** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
+- Make sure that there is some default bbable that is displayed to the user when the app first starts up (DO NOT do this in your `window.onload` function, instead, display the babble AFTER the `XHR` has loaded)
 
 <hr>
 
