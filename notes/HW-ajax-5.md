@@ -40,7 +40,7 @@ fetch('https://swapi.dev/api/people/1')
     console.log(response.json()); // Promise {<pending>}	
 }).catch(error => {
     // error
-    console.warn(error);
+    console.log(error);
 });
 ```
 - When you run this code, you should note that the (arrow) function passed to `.then()` runs, which means the request was successful 
@@ -62,12 +62,14 @@ function loadJsonFetch(){
       console.log(json.homeworld); // https://swapi.dev/api/planets/1/
     }).catch(error => {
       // error
-      console.warn(error);
+      console.log(error);
   });
 ```
 
 - When you run this code, both promises should resolve, and the code should log out the JSON object, as well as the `.name` and `.homeworld` properties
 - Note that unlike `XHR`, with `fetch()` the JSON object is created for us automatically, thus we don't have to call `JSON.parse(e.target.responseText)`
+
+<hr>
 
 ## II. Start files
 - You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
