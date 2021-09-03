@@ -15,11 +15,33 @@
 
 ```js
 function loadJsonFetch(){
-  fetch('https://swapi.dev/api/people/1'); // get a random Star Wars character
+  const promise = fetch('https://swapi.dev/api/people/1'); // get a random Star Wars character
+  console.log(promise); // "Promise {<pending>}"
 }
 ```
 
+- The `fetch()` method call above returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) object. A Promise is a JavaScript object that "wraps" an asynchronous function.
+- MDN decribes them fairly well = "A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function."
+- The above code logs out the `Promise` object, which is incomplete because the data has not yet downloaded. So this code isn't too useful yet, let's move on
 
+<hr>
+
+### I-B. Hooking into `Promise.then()` and `Promise.catch()`
+
+- We can handle this promise that `fetch` returned to us by chaining `Promise.then()` and `Promise.catch()` methods to it
+- `Promise.then()` will be called when the promise "resolves" (by internally calling `resolve()`)
+- `Promise.catch()` will be called when the promise "rejects" (by internally calling `reject()`)
+
+```js
+fetch('https://swapi.dev/api/people/1')
+.then(function (response) {
+	// The API call was successful!
+	console.log(response);
+}).catch(function (error) {
+	// There was an error
+	console.warn(error);
+});
+```
 
 
 
