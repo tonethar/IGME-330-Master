@@ -86,20 +86,6 @@ function loadJsonFetch(){
 - Go ahead and adapt your code from last time to use the `fetch()` API to download **pet-names.json** instead of `XHR`, and display the lists of pets as you did before. Be sure to use `.then()` like we did in the demos above
 - See myCourses for submission instructions
 
-
-<hr>
-
-# III. More chaining
-
-- XXX
-
-<hr>
-
-# IV. `asynch` and `await`
-
-- If find the `.then()` syntax somewhat obtuse, you might be ibnterested in learning about  `asynch` and `await`, which are designed to work with promises
-- XXX
-
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
