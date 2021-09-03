@@ -14,7 +14,9 @@
 ### I-A. A basic `fetch()` request
 
 ```js
-fetch('https://swapi.dev/api/people/1');
+function loadJsonFetch(){
+  fetch('https://swapi.dev/api/people/1'); // get a random Star Wars character
+}
 ```
 
 
