@@ -54,9 +54,9 @@ fetch('https://swapi.dev/api/people/1')
 function loadJsonFetch(){
   fetch('https://swapi.dev/api/people/1')
     .then(response => response.json()) // pipe the response.json() promise to the next .then()
-    .then(json => {
+    .then(json => { // the second promise is resolved, and `json` is a JSON object
       console.log(json); // {name: "Luke Skywalker", height: "172", mass: "77", hair_color: "blond", skin_color: "fair", …}
-      console.log(json.name) // fetch-get-json.html:29 Luke Skywalker
+      console.log(json.name) // Luke Skywalker
       console.log(json.homeworld); // https://swapi.dev/api/planets/1/
     }).catch(error => {
       // error
