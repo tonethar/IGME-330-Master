@@ -43,7 +43,9 @@ fetch('https://swapi.dev/api/people/1')
     console.warn(error);
 });
 ```
-- When you run this code, uo
+- When you run this code, you should note that the (arrow) function passed to `.then()` runs, which means the request was successful 
+- Note though, that `response.json()` returns a *promise*, meaning that it is an asynchronous operation that is runnin on another thread, just like the `response` promise
+- This means that we don't yet have access to 
 
 
 ## II. Start files
