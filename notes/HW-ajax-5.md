@@ -76,7 +76,13 @@ function loadJsonFetch(){
 
 ### I-D. The `response.ok` property
 
-- XXX
+- The `response.ok` property returns `true` if the response has a status code between 200 and 299, and `false` in all other cases
+- If `response.ok` is `true`, we will return `response.json()`, as we did before. If not, we will throw `response` to trigger our `Promise.catch()`
+- Our final version of the code is below:
+
+```js
+
+```
 
 <hr>
 
