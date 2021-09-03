@@ -44,9 +44,15 @@ fetch('https://swapi.dev/api/people/1')
 });
 ```
 - When you run this code, you should note that the (arrow) function passed to `.then()` runs, which means the request was successful 
-- Note though, that `response.json()` returns a *promise*, meaning that it is an asynchronous operation that is runnin on another thread, just like the `response` promise
-- This means that we don't yet have access to 
+- Note though, that `response.json()` also returns a *promise*, meaning that it is an asynchronous operation that is running on another thread, just like the `response` promise
+- This means that we don't yet have access to the actual response data (the JSON) because this second promise has not yet *resolved* 
+- So we now have TWO promises to worry about! What's the Solution? Another `.then()`
 
+### I-C. Finishing up
+
+```js
+
+```
 
 ## II. Start files
 - You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
