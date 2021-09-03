@@ -34,16 +34,16 @@ function loadJsonFetch(){
 
 ```js
 fetch('https://swapi.dev/api/people/1')
-.then(function (response) {
+.then(response => {
     // success
     console.log(response); // Response {type: "cors", url: "https://swapi.dev/api/people/1", redirected: false, status: 200, ok: true, …}
-    console.log(response.json()); // Promise {<pending>}		
+    console.log(response.json()); // Promise {<pending>}	
 }).catch(function (error) {
     // error
     console.warn(error);
 });
 ```
-
+- When you run this code, uo
 
 
 ## II. Start files
