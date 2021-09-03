@@ -18,6 +18,7 @@
 - Here are some JSON validator tools that might come in handy - https://jsonlint.com/
 - You must load the **babble-data.json** file using `XHR`
 - You must load the **babble-data.json** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
+- Both of the "babble" buttons from TB-3+ will still function as before when they are clicked on
 - Make sure that there is some default babble that is displayed to the user when the app first starts up (DO NOT do this in your `window.onload` function, instead, display the babble AFTER the `XHR` has loaded)
 
 <hr>
