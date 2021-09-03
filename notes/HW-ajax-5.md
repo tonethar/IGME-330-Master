@@ -81,7 +81,28 @@ function loadJsonFetch(){
 - Our final version of the code is below:
 
 ```js
+function loadJsonFetch(){
+  fetch('https://swapi.dev/api/people/1')
+    .then(response => {
+      // If the response is successful, return the JSON
+		  if (response.ok) {
+        return response.json();
+			}
 
+			// else throw an error that will be caught below
+			return response.text().then(text =>{
+				throw text;
+			});
+		}) // send the response.json() promise to the next .then()
+		.then(json => { // the second promise is resolved, and `json` is a JSON object
+			console.log(json); // {name: "Luke Skywalker", height: "172", mass: "77", hair_color: "blond", skin_color: "fair", …}
+			console.log(json.name) // Luke Skywalker
+			console.log(json.homeworld); // https://swapi.dev/api/planets/1/
+		}).catch(error => {
+			// error
+			console.log(error);
+	});
+}
 ```
 
 <hr>
