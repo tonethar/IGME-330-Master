@@ -3,13 +3,19 @@
 ## Overview
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: HW - Ajax-5 (XX:XX)
-- We will build on what we did last time by modifying our XHR/JSON loading code to instead utilize the [`window.fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) API
+- We will build on what we did last time by modifying our `XHR`/JSON loading code to instead utilize the [`window.fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) API
 
 
 <hr>
 
 ## I. About fetch()
-- The `window.fetch()` method is similar to `XHR` in that it used to make Ajax requests, such as calling an API or fetching a remote resource or HTML file from a server
+- The `window.fetch()` method is similar to `XHR` in that it used to make Ajax requests, such as calling a remote API or fetching a local file from a server
+
+### I-A. A basic `fetch()` request
+
+```js
+fetch('https://swapi.dev/api/people/1');
+```
 
 
 
