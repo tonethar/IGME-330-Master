@@ -15,7 +15,7 @@
 
 ```js
 function loadJsonFetch(){
-  const promise = fetch('https://swapi.dev/api/people/1'); // get a random Star Wars character
+  const promise = fetch('https://swapi.dev/api/people/1'); // get a Star Wars character
   console.log(promise); // "Promise {<pending>}"
 }
 ```
