@@ -35,11 +35,12 @@ function loadJsonFetch(){
 ```js
 fetch('https://swapi.dev/api/people/1')
 .then(function (response) {
-	// The API call was successful!
-	console.log(response);
+    // success
+    console.log(response); // Response {type: "cors", url: "https://swapi.dev/api/people/1", redirected: false, status: 200, ok: true, …}
+    console.log(response.json()); // Promise {<pending>}		
 }).catch(function (error) {
-	// There was an error
-	console.warn(error);
+    // error
+    console.warn(error);
 });
 ```
 
