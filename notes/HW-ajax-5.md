@@ -48,7 +48,9 @@ fetch('https://swapi.dev/api/people/1')
 - This means that we don't yet have access to the actual response data (the JSON) because this second promise has not yet *resolved* 
 - So we now have TWO promises to worry about! What's the Solution? Another `.then()`
 
-### I-C. Finishing up
+<hr>
+
+### I-C. Resolving the `response.json()` promise
 
 ```js
 function loadJsonFetch(){
@@ -63,6 +65,9 @@ function loadJsonFetch(){
       console.warn(error);
   });
 ```
+
+- When you run this code, both promises should resolve, and the code should log out the JSON object, as well as the `.name` and `.homeworld` properties
+- Note that unlike `XHR`, with `fetch()` the JSON object is created for us automatically, thus we don't have to call `JSON.parse(e.target.responseText)`
 
 ## II. Start files
 - You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
