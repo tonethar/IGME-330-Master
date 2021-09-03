@@ -32,6 +32,12 @@ function loadJsonFetch(){
 - `Promise.then()` will be called when the promise "resolves" (by internally calling `resolve()`)
 - `Promise.catch()` will be called when the promise "rejects" (by internally calling `reject()`)
 
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-4.png)
+
+</hr>
+
 ```js
 function loadJsonFetch(){
   fetch('https://swapi.dev/api/people/1')
