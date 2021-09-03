@@ -38,7 +38,7 @@ fetch('https://swapi.dev/api/people/1')
     // success
     console.log(response); // Response {type: "cors", url: "https://swapi.dev/api/people/1", redirected: false, status: 200, ok: true, …}
     console.log(response.json()); // Promise {<pending>}	
-}).catch(function (error) {
+}).catch(error => {
     // error
     console.warn(error);
 });
