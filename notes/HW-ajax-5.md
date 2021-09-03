@@ -2,6 +2,23 @@
 
 ## Overview
 
+- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: HW - Ajax-5 (XX:XX)
+- We will build on what we did last time by modifying our XHR/JSON loading code to instead utilize the [`window.fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) API
+
+
+<hr>
+
+## I. About fetch()
+- The `window.fetch()` method is similar to `XHR` in that it used to make Ajax requests, such as calling an API or fetching a remote resource or HTML file from a server
+
+
+
+
+
+## II. Start files
+- You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
+- Go ahead and rename your completed HTML file from last time - from **xhr-get-json.html** to **fetch-get-json.html** 
+
 
 
 <hr><hr>
