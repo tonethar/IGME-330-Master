@@ -33,15 +33,17 @@ function loadJsonFetch(){
 - `Promise.catch()` will be called when the promise "rejects" (by internally calling `reject()`)
 
 ```js
-fetch('https://swapi.dev/api/people/1')
-.then(response => {
+function loadJsonFetch(){
+  fetch('https://swapi.dev/api/people/1')
+  .then(response => {
     // success
     console.log(response); // Response {type: "cors", url: "https://swapi.dev/api/people/1", redirected: false, status: 200, ok: true, …}
     console.log(response.json()); // Promise {<pending>}	
-}).catch(error => {
+  }).catch(error => {
     // error
     console.log(error);
-});
+  });
+}
 ```
 - When you run this code, you should note that the (arrow) function passed to `.then()` runs, which means the request was successful 
 - Note though, that `response.json()` also returns a *promise*, meaning that it is an asynchronous operation that is running on another thread, just like the `response` promise
@@ -64,6 +66,7 @@ function loadJsonFetch(){
       // error
       console.log(error);
   });
+}
 ```
 
 - When you run this code, both promises should resolve, and the code should log out the JSON object, as well as the `.name` and `.homeworld` properties
