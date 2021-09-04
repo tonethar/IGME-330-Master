@@ -69,7 +69,7 @@ function loadJsonFetch(){
 
 <hr>
 
-![screenshot](_images/_ajax-images/HW-ajax-5.png)
+![screenshot](_images/_ajax-images/HW-ajax-6.png)
 
 </hr>
 
