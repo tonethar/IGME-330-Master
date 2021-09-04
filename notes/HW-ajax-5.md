@@ -38,19 +38,6 @@ function loadJsonFetch(){
 
 </hr>
 
-```js
-function loadJsonFetch(){
-  fetch('https://swapi.dev/api/people/1')
-  .then(response => {
-    // success
-    console.log(response); // Response {type: "cors", url: "https://swapi.dev/api/people/1", redirected: false, status: 200, ok: true, …}
-    console.log(response.json()); // Promise {<pending>}	
-  }).catch(error => {
-    // error
-    console.log(error);
-  });
-}
-```
 - When you run this code, you should note that the (arrow) function passed to `.then()` runs, which means the request was successful 
 - Note though, that `response.json()` also returns a *promise*, meaning that it is an asynchronous operation that is running on another thread, just like the `response` promise
 - This means that we don't yet have access to the actual response data (the JSON) because this second promise has not yet *resolved* 
@@ -65,21 +52,6 @@ function loadJsonFetch(){
 ![screenshot](_images/_ajax-images/HW-ajax-5.png)
 
 </hr>
-
-```js
-function loadJsonFetch(){
-  fetch('https://swapi.dev/api/people/1')
-    .then(response => response.json()) // pipe the response.json() promise to the next .then()
-    .then(json => { // the second promise is resolved, and `json` is a JSON object
-      console.log(json); // {name: "Luke Skywalker", height: "172", mass: "77", hair_color: "blond", skin_color: "fair", …}
-      console.log(json.name) // Luke Skywalker
-      console.log(json.homeworld); // https://swapi.dev/api/planets/1/
-    }).catch(error => {
-      // error
-      console.log(error);
-  });
-}
-```
 
 - When you run this code, both promises should resolve, and the code should log out the JSON object, as well as the `.name` and `.homeworld` properties
 - Note that unlike `XHR`, with `fetch()` the JSON object is created for us automatically, thus we don't have to call `JSON.parse(e.target.responseText)`
@@ -97,31 +69,6 @@ function loadJsonFetch(){
 ![screenshot](_images/_ajax-images/HW-ajax-5.png)
 
 </hr>
-
-```js
-function loadJsonFetch(){
-  fetch('https://swapi.dev/api/people/1')
-    .then(response => {
-      // If the response is successful, return the JSON
-		  if (response.ok) {
-        return response.json();
-			}
-
-			// else throw an error that will be caught below
-			return response.text().then(text =>{
-				throw text;
-			});
-		}) // send the response.json() promise to the next .then()
-		.then(json => { // the second promise is resolved, and `json` is a JSON object
-			console.log(json); // {name: "Luke Skywalker", height: "172", mass: "77", hair_color: "blond", skin_color: "fair", …}
-			console.log(json.name) // Luke Skywalker
-			console.log(json.homeworld); // https://swapi.dev/api/planets/1/
-		}).catch(error => {
-			// error
-			console.log(error);
-	});
-}
-```
 
 - Run the code and everything should work as belore
 - Change the url to break it (I changed people to peep):
