@@ -71,15 +71,16 @@ function loadJsonFetch(){
 </hr>
 
 - Run the code and everything should work as belore
-- Change the url to break it (I changed people to peep):
+- Change the url to break it (in the URL I changed `people` to `peep`):
   - the server will return a 404 page, which means we'll throw an exception that will get caught at the bottom, and we'll be able to see the 404 page in the console
+  - note that we are "throwing" `response.text()` rather than `response.json()` because muvh of the time the error content will be an HTML file
   
 <hr>
 
 ## II. Start files & HW
 - You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
 - Rename your completed HTML file from last time - from **xhr-get-json.html** to **fetch-get-json.html** 
-- Go ahead and adapt your code from last time to use the `fetch()` API to download **pet-names.json** instead of `XHR`, and display the lists of pets as you did before. Be sure to use `.then()` and `response.ok` like we did in the demos above
+- Go ahead and adapt your code from last time to use the `fetch()` API to download **pet-names.json** instead of `XHR`, and display the lists of pets as you did before. Be sure to use `.then()` and `response.ok` like we did in the last demo above
 - See myCourses for submission instructions
 
 <hr><hr>
