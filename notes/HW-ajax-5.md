@@ -76,7 +76,7 @@ function loadJsonFetch(){
 - Run the code and everything should work as belore
 - Change the url to break it (in the URL I changed `people` to `peep`):
   - the server will return a 404 page, which means we'll throw an exception that will get caught at the bottom, and we'll be able to see the 404 page in the console
-  - note that we are "throwing" `response.text()` rather than `response.json()` because muvh of the time the error content will be an HTML file
+  - note that we are "throwing" `response.text()` rather than `response.json()` because much of the time the error content will be an HTML file
   
 <hr>
 
