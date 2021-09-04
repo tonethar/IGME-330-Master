@@ -31,6 +31,9 @@ function loadJsonFetch(){
 - We can handle this promise that `fetch` returned to us by chaining `Promise.then()` and `Promise.catch()` methods to it
 - `Promise.then()` will be called when the promise "resolves" (by internally calling `resolve()`)
 - `Promise.catch()` will be called when the promise "rejects" (by internally calling `reject()`)
+- Summary:
+  - with `XHR` we hooked up callback methods to the `onload` event handler
+  - with `fetch`, we add our callback method to the `.then()` of the return promise
 
 <hr>
 
