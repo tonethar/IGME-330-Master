@@ -60,6 +60,12 @@ function loadJsonFetch(){
 
 ### I-C. Resolving the `response.json()` promise
 
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-5.png)
+
+</hr>
+
 ```js
 function loadJsonFetch(){
   fetch('https://swapi.dev/api/people/1')
@@ -85,6 +91,12 @@ function loadJsonFetch(){
 - The `response.ok` property returns `true` if the response has a status code between 200 and 299, and `false` in all other cases
 - If `response.ok` is `true`, we will return `response.json()`, as we did before. If not, we will throw `response` to trigger our `Promise.catch()`
 - Our final version of the code is below:
+
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-5.png)
+
+</hr>
 
 ```js
 function loadJsonFetch(){
