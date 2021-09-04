@@ -21,7 +21,7 @@ function loadJsonFetch(){
 ```
 
 - The `fetch()` method call above returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) object. A Promise is a JavaScript object that "wraps" an asynchronous function.
-- MDN decribes them fairly well = "A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function."
+- MDN decribes them fairly well: *"A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are consumers of already-created promises, this guide will explain consumption of returned promises before explaining how to create them. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function."*
 - The above code logs out the `Promise` object, which is "pending" and thus incomplete because the data has not yet downloaded. So this code isn't too useful yet, let's move on
 
 <hr>
