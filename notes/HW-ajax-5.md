@@ -2,7 +2,7 @@
 
 ## Overview
 
-- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: [HW - Ajax-5 (09:26)]()
+- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: [HW - Ajax-5 (09:26)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c4ef9bb-e61f-4a82-8c39-ad9900d87348&start=0)
 - We will build on what we did last time by modifying our `XHR`/JSON loading code to instead utilize the [`window.fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) API
 
 
