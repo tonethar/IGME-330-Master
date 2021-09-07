@@ -15,7 +15,7 @@
 - Each line of **babble-data.csv** will contain the words from one of the arrays
 - You must load the **babble-data.csv** file using `XHR`
 - You must load the **babble-data.csv** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
-- Make sure that there is some default babble that is displayed to the user when the app first starts up
+- Make sure that there is some default random babble that is displayed to the user when the app first starts up
 - Finally, both of the "babble" buttons from TB-3 will still function as before when they are clicked on
 - Hints:
   - The individual "babble" words in the XML file will not have quotes around them - you will need to strip those off
