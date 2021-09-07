@@ -17,7 +17,7 @@
 - You must load the **babble-data.xml** file using `XHR`
 - You must load the **babble-data.xml** file ONCE, at app startup. DO NOT (for example) load the data every time the user clicks a button
 - Both of the "babble" buttons from TB-3+ will still function as before when they are clicked on
-- Make sure that there is some default babble that is displayed to the user when the app first starts up (DO NOT do this in your `window.onload` function, instead, display the babble AFTER the `XHR` has loaded)
+- Make sure that there is some default random babble that is displayed to the user when the app first starts up (DO NOT do this in your `window.onload` function, instead, display the babble AFTER the `XHR` has loaded)
 
 <hr>
 
