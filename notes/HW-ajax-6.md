@@ -2,20 +2,20 @@
 
 ## Overview
 
+- If you find the `.then()` and `.catch()` syntax of JS promises somewhat obtuse, you might be ibnterested in learning about `asynch` and `await`, which are also designed to work with promises, and can enable a developer to write much clearer code
+
+<hr>
+
+## I. `asynch` and `await`
+
 - XXX
 
 <hr>
 
-## I. More chaining
+## II. Reference
 
-- XXX
-
-<hr>
-
-## II. `asynch` and `await`
-
-- If you find the `.then()` syntax somewhat obtuse, you might be ibnterested in learning about  `asynch` and `await`, which are designed to work with promises
-- XXX
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- [JavaScript: Async on LinkedIn Learning](https://www.linkedin.com/learning/javascript-async/building-code-using-promises?u=42272537)
 
 <hr><hr>
 
