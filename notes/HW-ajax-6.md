@@ -20,7 +20,7 @@
 
 - Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
 
-**`.then()`**
+**`.then()` code**
 <hr>
 
 ![screenshot](_images/_ajax-images/HW-ajax-5.png)
