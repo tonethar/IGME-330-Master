@@ -30,9 +30,10 @@
 
 <hr>
 
-### II-A. Simple `async/await` example (no error trapping)
+### II-A. Simple `async/await` example (no error handling)
 
-- XXX
+- Here we aren't doing any error handling
+- GO ahead and change part of the url from "people" to "peep" and see what happens
 
 <hr>
 
@@ -40,7 +41,7 @@
 
 <hr>
 
-### II-B. `async/await` example (`try/catch` for error trapping)
+### II-B. `async/await` example (`try/catch` for error handling)
 
 - XXX
 
@@ -50,7 +51,7 @@
 
 <hr>
 
-### II-C. `async/await` example (`.then()` for error trapping)
+### II-C. `async/await` example (`.then()` for error handling)
 
 - XXX
 
