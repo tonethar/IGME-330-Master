@@ -8,13 +8,14 @@
 
 ## I. `asynch` and `await`
 
-- XXX
+- The `async` and `await` operators allow you to treat asynchronous code like synchronous code.
 
 <hr>
 
 ## II. Reference
 
-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://developer.mozilla.org/en-US/docs/Web/API/fetch
 - [JavaScript: Async on LinkedIn Learning](https://www.linkedin.com/learning/javascript-async/building-code-using-promises?u=42272537)
 
 <hr><hr>
