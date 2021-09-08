@@ -20,14 +20,47 @@
 
 - Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
 
-**`.then()` code**
-<hr>
+**The final version from last time - `.then()/.catch()` code**
 
-![screenshot](_images/_ajax-images/HW-ajax-5.png)
-
-</hr>
+- XXX
 
 <hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-6.png)
+
+<hr>
+
+### II-A. Simple `async/await` example (no error trapping)
+
+- XXX
+
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-7.png)
+
+<hr>
+
+### II-B. `async/await` example (`try/catch` for error trapping)
+
+- XXX
+
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-8.png)
+
+<hr>
+
+### II-C. `async/await` example (`.then()` for error trapping)
+
+- XXX
+
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-9.png)
+
+<hr>
+
+
 
 ## III. Reference
 
