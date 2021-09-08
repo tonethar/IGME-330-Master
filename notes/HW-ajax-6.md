@@ -16,11 +16,20 @@
 
 <hr>
 
-## I. `asynch` and `await`
+## II. An example
+
+- Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
+
+**`.then()`**
+<hr>
+
+![screenshot](_images/_ajax-images/HW-ajax-5.png)
+
+</hr>
 
 <hr>
 
-## II. Reference
+## III. Reference
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://developer.mozilla.org/en-US/docs/Web/API/fetch
