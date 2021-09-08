@@ -8,8 +8,7 @@
 
 ## I. `asynch` and `await`
 
-- The `async` and `await` operators allow you to treat asynchronous code like synchronous code:
-  - 
+- The `async` and `await` operators allow you to treat asynchronous code like synchronous code - let's walk thtough the beginning of this MDN article: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
 
 <hr>
 
@@ -17,7 +16,7 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 - https://developer.mozilla.org/en-US/docs/Web/API/fetch
-- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await#the_basics_of_asyncawait
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 - [JavaScript: Async on LinkedIn Learning](https://www.linkedin.com/learning/javascript-async/building-code-using-promises?u=42272537)
