@@ -52,15 +52,13 @@
 
 ### II-C. `async/await` example (`.then()` for error handling)
 
-- XXX
+- Below we create a promise with `async` and add a `catch()` to it
 
 <hr>
 
 ![screenshot](_images/_ajax-images/HW-ajax-9.png)
 
 <hr>
-
-
 
 ## III. Reference
 
@@ -70,6 +68,14 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 - [JavaScript: Async on LinkedIn Learning](https://www.linkedin.com/learning/javascript-async/building-code-using-promises?u=42272537)
+
+<hr>
+
+## IV. Start files & HW
+- You might want to start by first making a copy of your **ajax-5/** folder from last time, and naming the copy **ajax-6/**
+- Rename your completed HTML file from last time - from **fetch-get-json.html** to **async-fetch-get-json.html** 
+- Go ahead and adapt your code from last time to use the `fetch()` API to download **pet-names.json** instead of `XHR`, and display the lists of pets as you did before. Be sure to use `async` and `await` and some kind or error handling, like we did in the last 2 demos above
+- See myCourses for submission instructions
 
 <hr><hr>
 
