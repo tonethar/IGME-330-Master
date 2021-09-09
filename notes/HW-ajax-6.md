@@ -20,7 +20,7 @@
 
 - Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
 
-**Below is the final version from last time - `.then()` & `.catch()` code (don't type this in)**
+**Below is the final version from last time - `.then()` & `.catch()` code (don't type this in!)**
 
 <hr>
 
