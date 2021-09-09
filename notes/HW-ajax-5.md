@@ -90,4 +90,4 @@ function loadJsonFetch(){
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [**HW - Ajax IV**](HW-ajax-4.md)  |  [**IGME-330**](../README.md) | :-\
+|   [**HW - Ajax IV**](HW-ajax-4.md)  |  [**IGME-330**](../README.md) | [**HW - Ajax VI**](HW-ajax-6.md) 
