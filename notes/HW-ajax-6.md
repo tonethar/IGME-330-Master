@@ -18,8 +18,6 @@
 
 ## II. An example
 
-- Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
-
 **Below is the final version from last time - `.then()` & `.catch()` code (don't type this in!)**
 
 <hr>
@@ -29,9 +27,8 @@
 <hr>
 
 ### II-A. Simple `async/await` example (no error handling)
-
-- Let's use `async/await` instead of `.then()`
-- Here we aren't doing any error handling
+- Now we will convert some of the code from last time from `.then()` syntax, to `async/await`
+- In thus example we aren't doing any error handling
 - After you get it working, you should test what happens when there are errors - go ahead and change part of the url from "people" to "peep" and see the result
 
 <hr>
