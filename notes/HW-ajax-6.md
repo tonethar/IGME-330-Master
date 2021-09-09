@@ -37,7 +37,7 @@
 
 <hr>
 
-### II-B. `async/await` example (`try/catch` for error handling)
+### II-B. `async/await` example with `try/catch` for error handling
 
 - Below we use the traditional `try/catch` block for error handling
 
@@ -47,7 +47,7 @@
 
 <hr>
 
-### II-C. `async/await` example (`.then()` for error handling)
+### II-C. `async/await` example with `.then()` for error handling
 
 - Below we create a promise with `async` and add a `catch()` to it
 
