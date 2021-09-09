@@ -20,9 +20,7 @@
 
 - Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
 
-**The final version from last time - `.then()` & `.catch()` code**
-
-- XXX
+**Below is the final version from last time - `.then()` & `.catch()` code (don't type this in)**
 
 <hr>
 
@@ -32,8 +30,9 @@
 
 ### II-A. Simple `async/await` example (no error handling)
 
+- Let's use `async/await` instead of `.then()`
 - Here we aren't doing any error handling
-- GO ahead and change part of the url from "people" to "peep" and see what happens
+- After you get it working, you should test what happens when there are errors - go ahead and change part of the url from "people" to "peep" and see the result
 
 <hr>
 
@@ -43,7 +42,7 @@
 
 ### II-B. `async/await` example (`try/catch` for error handling)
 
-- XXX
+- Below we use the traditional `try/catch` block for error handling
 
 <hr>
 
