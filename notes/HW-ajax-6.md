@@ -2,11 +2,11 @@
 
 ## Overview
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: [HW - Ajax-6 (09:30)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48c38f6f-9ce8-4f08-9016-ad9e00f5c88d&start=0)
-- If you find the `.then()` and `.catch()` syntax of JS promises somewhat obtuse, you might be ibnterested in learning about `asynch` and `await`, which are also designed to work with promises, and can enable a developer to write much clearer code
+- If you find the `.then()` and `.catch()` syntax of JS promises somewhat obtuse, you might be interested in learning about `async` and `await`, which are also designed to work with promises, and can enable a developer to write much clearer code
 
 <hr>
 
-## I. `asynch` and `await`
+## I. `async` and `await`
 
 - The `async` and `await` operators allow you to treat asynchronous code like synchronous code - let's walk thtough the beginning of this MDN article - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await - th highlights are:
   - An `async` function is a function that knows how to expect the possibility of the `await` keyword being used to invoke asynchronous code
