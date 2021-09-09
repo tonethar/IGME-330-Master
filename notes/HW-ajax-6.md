@@ -20,7 +20,7 @@
 
 - Let's convert some of the code from last time to from `.then()` syntax, to `async/await`:
 
-**The final version from last time - `.then()/.catch()` code**
+**The final version from last time - `.then()` & `.catch()` code**
 
 - XXX
 
