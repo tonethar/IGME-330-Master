@@ -1,4 +1,4 @@
-# HW - Ajax-6 - `asynch` & `await` with the `fetch()` API
+# HW - Ajax-6 - `async` & `await` with the `fetch()` API
 
 ## Overview
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: HW - Ajax-6 (XX:XX)
