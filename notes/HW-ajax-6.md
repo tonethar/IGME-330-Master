@@ -8,7 +8,7 @@
 
 ## I. `async` and `await`
 
-- The `async` and `await` operators allow you to treat asynchronous code like synchronous code - let's walk thtough the beginning of this MDN article - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await - th highlights are:
+- The `async` and `await` operators allow you to treat asynchronous code like synchronous code - let's walk through the beginning of this MDN article - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await - th highlights are:
   - An `async` function is a function that knows how to expect the possibility of the `await` keyword being used to invoke asynchronous code
   - An `async` function function always returns a *promise* (which is a function that wraps asynchronous code)
   - The advantage of an `async` function only becomes apparent when you combine it with the `await` keyword
