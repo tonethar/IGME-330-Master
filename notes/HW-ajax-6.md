@@ -29,7 +29,9 @@
 ### II-A. Simple `async/await` example (no error handling)
 - Now we will convert some of the code from last time from `.then()` syntax, to `async/await`
 - In thus example we aren't doing any error handling
-- After you get it working, you should test what happens when there are errors - go ahead and change part of the url from "people" to "peep" and see the result
+- After you get it working, you should test what happens when there are errors:
+  - go ahead and change part of the url from "people" to "peep" and see the result
+  - you will see that an uncaught exception is thrown, which crashes the program
 
 <hr>
 
@@ -40,6 +42,9 @@
 ### II-B. `async/await` example with `try/catch` for error handling
 
 - Below we use the traditional `try/catch` block for error handling
+- After you get it working, you should test what happens when there are errors:
+  - go ahead and change part of the url from "people" to "peep" and see the result
+  - you will see that an uncaught exception is thrown, but it is caught (in the `catch`), so the program will continue to run normally
 
 <hr>
 
@@ -50,6 +55,7 @@
 ### II-C. `async/await` example with `.then()` for error handling
 
 - Below we create a promise with `async` and add a `catch()` to it
+- This version will catch thrown errors the same as the preceding version
 
 <hr>
 
