@@ -1,7 +1,7 @@
 # HW - Ajax-6 - `async` & `await` with the `fetch()` API
 
 ## Overview
-- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: HW - Ajax-6 (XX:XX)
+- The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it: HW - Ajax-6 (09:30)
 - If you find the `.then()` and `.catch()` syntax of JS promises somewhat obtuse, you might be ibnterested in learning about `asynch` and `await`, which are also designed to work with promises, and can enable a developer to write much clearer code
 
 <hr>
