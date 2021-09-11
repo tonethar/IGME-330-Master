@@ -8,6 +8,9 @@
 
 ## I. About Web Components
 
+- Modern web developers often utilize a front-end frameworks like [React](https://reactjs.org/), [Angular](https://angular.io/) or [Vue.js](https://vuejs.org/) to develop rich user interfaces
+- These frameworks allow developers to break their user interfaces (written in HTML/CSS/JS) into reusable *components* such as search boxes, interactive product lists, 
+
 <hr>
 
 ## II. Start file
