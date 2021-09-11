@@ -47,6 +47,12 @@
 
 <hr>
 
+## XX. Wrap Up
+
+- This might seem like we've done a lot of work above, for not much capability, but as we add more capabilities to these web components you will hopefully see the benefits!
+
+<hr>
+
 ## XX. Completed Version
 
 ![screenshot](_images/_web-components/HW-wc-XX.png)
