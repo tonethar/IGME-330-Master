@@ -3,8 +3,8 @@
 ## I. What's a `Promise()`?
 
 - A Promise is a JS object that "wraps" an asynchronous function 
-- When a promise successfully completes, it runs its `resolve()` method, which will trigger `then()`
-- When a promise fails, it runs the `reject` method, which will trigger `.catch()`
+- When a promise successfully completes, it runs its `resolve()` method, which will trigger `.then()`
+- When a promise fails, it runs its `reject()` method, which will trigger `.catch()`
 
 <hr>
 
