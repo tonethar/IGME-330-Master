@@ -1,8 +1,8 @@
-# HW - Ajax-7 - Promises
+# HW - Ajax-7 - JavaScript Promises
 
 ## I. What's a `Promise()`?
 
-- A Promise is a JS object that "wraps" an asynchronous function 
+- A [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is a JS object that "wraps" an asynchronous function 
 - When a promise successfully completes, it runs its `resolve()` method, which will trigger `.then()`
 - When a promise fails, it runs its `reject()` method, which will trigger `.catch()`
 
