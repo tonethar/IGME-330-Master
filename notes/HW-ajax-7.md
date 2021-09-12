@@ -87,8 +87,9 @@ myButton.onclick = () => {
 - Run the code again and you will see that when the promise *resolves*, the `.then()` method is triggered, the callback function is invoked, the random letter is passed in as the `text` variable, and the page is updated by the code
 - In the 3 `promise` logs, you can see the "life cycle" of this promise
 
+<hr>
 
-### IV. `reject()` and `promise.catch()`
+## IV. `reject()` and `promise.catch()`
 
 - Right now our promise always succeeds, which isn't very realistic. In the real world, a promise might fail if `fetch()` returned a `404` page, or if the server timed out or was offline, or if the wrong password was used to access mongo database. All of the hypotheticale examples would cause the promise to `reject()`
 - Let's add a `reject()` condition to simulate an error - we'll use `Math.random()` to have our "random letter" promise arbitrarily fail about 1/3 of the time
@@ -98,8 +99,8 @@ myButton.onclick = () => {
 if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
 ```
 
-- Test it a few times, at some point the code will trigger a promise `reject()`, and an *uncaught* exception will be thrown. Let's fix that!
-- Add the following, right the end of your `.then()`
+- Test it a few times, at some point the code will trigger a promise `reject()`, and an *uncaught* exception will be thrown - something like `Uncaught (in promise) Nah, I don't have a letter for you this time!`
+- Let's fix the code so that the exception gets caught! Add the following, right the end of your `.then()`
 
 ```js
 .catch(error => { // run if "rejected"
@@ -107,7 +108,26 @@ if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
 });
 ```
 
+- run the code a few times - errors should now be caught - and the UI should be updated with the "Nah, I don't have a letter for you this time!" message
 
+<hr>
+
+## V. Wrap up
+
+- Now that you have created your own promises, go back to the previous 2 Ajax units where we used `then()`, `catch()`, and `await` - do these make a little more sense now?
+
+<hr>
+
+## VI. Optional Extra Credit Checkoff
+
+- This is optional
+- `XHR` uses callbacks, not promises, but could you possibly wrap `XHR` code into a custom promise (written byt you)?
+- You betcha! 
+- Your mission: Rewrite **Ajax-5** or **Ajax-6** (your choice) to use `XHR` instead of `fetch()`, and keep your promise handling code the same. This means you will need to write code that calls `resolve()` when XHR succeeds, and `reject()` when it fails
+- There are a lot of solutions to this problem out on the interwebs, and you are allowed to utilize them for this assignment, with the following three caveats:
+  - don't just copy code "whole cloth" from the web, but instead adapt it to your needs
+  - make sure that you reuse most of the `XHR` code that we wrote in class, and don't just copy/paste code that you found online
+  - if you end up using any of these interwebs sources to figure out this assignment, be sure to cite them in the comments files of the dropbox
 
 <hr><hr>
 
