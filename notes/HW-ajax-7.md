@@ -124,7 +124,7 @@ if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
 - This is optional
 - `XHR` uses callbacks, not promises, but could you possibly wrap `XHR` code into a custom promise (written by you)?
 - You betcha! 
-- Your mission: Rewrite **Ajax-5** or **Ajax-6** (your choice) to use `XHR` instead of `fetch()`, and keep your promise handling code the same. This means you will need to write code that calls `resolve()` when XHR succeeds, and `reject()` when it fails
+- Your mission: Rewrite **Ajax-5** or **Ajax-6** (your choice) to use `XHR` instead of `fetch()`, and keep your promise handling code the same. This means you will need to write code that calls `resolve()` when `XHR` succeeds, and `reject()` when it fails
 - There are a lot of solutions to this problem out on the interwebs, and you are allowed to utilize them for this assignment, with the following three caveats:
   - don't just copy code "whole cloth" from the web, but instead adapt it to your needs
   - make sure that you reuse most of the `XHR` code that we wrote in class, and don't just copy/paste code that you found online
