@@ -115,7 +115,7 @@ if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
 
 ## V. Wrap up
 
-- Now that you have created your own promises, go back to the previous 2 Ajax units where we used `then()`, `catch()`, and `await` - do these make a little more sense now?
+- Now that you have created your own promises, go back to the previous 2 Ajax units where we used `then()`, `catch()`, and `await` - look over that code - doe it make a little more sense now?
 
 <hr>
 
