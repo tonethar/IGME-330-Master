@@ -21,7 +21,7 @@
     - ***Shadow DOM*** - encapsulates CSS (style rules, class names etc are scoped to the component) and HTML (a component's DOM is self-contained and not detectable by `document.querySelector()`
       - https://developers.google.com/web/fundamentals/web-components/shadowdom
     - ***HTML Templates***
-      - *The template element is used to declare fragments of HTML that can be cloned and inserted in the document by script.* - https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+      - *The `<template>` element is used to declare fragments of HTML that can be cloned and inserted in the document by script.* - https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
 
 
 <hr>
