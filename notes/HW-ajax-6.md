@@ -84,4 +84,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   [**HW - Ajax V**](HW-ajax-5.md)  |  [**IGME-330**](../README.md) | :-\
+|   [**HW - Ajax V**](HW-ajax-5.md)  |  [**IGME-330**](../README.md) | [**HW - Ajax VII**](HW-ajax-7.md) 
