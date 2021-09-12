@@ -90,7 +90,15 @@ myButton.onclick = () => {
 
 ### IV. `reject()` and `promise.catch()`
 
-- Go
+- Right now our promise always succeeds, which isn't very realistic. In the real world, a promise might fail if `fetch()` returned a 404 page, or if the server timed out or was offline, or if the wrong password was used to access mongo database. All of the hypotheticale examples would cause the promise to `reject()`
+- Let's add a `reject()` condition to simulate an error - we'll use `Math.random()` to have our "random letter" promise arbitrarily fail about 1/3 of the time
+- add this code to the `window.setTimeout()` handler, right at the top *before* the call to `resolve()`
+
+```js
+if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
+```
+
+- Test it a few times, 
 
 
 
