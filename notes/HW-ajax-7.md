@@ -105,6 +105,7 @@ if(Math.random()<.333) reject("Nah, I don't have a letter for you this time!");
 ```js
 .catch(error => { // run if "rejected"
   output.innerHTML = error;
+  console.log("In promise.catch()", promise);
 });
 ```
 
