@@ -20,6 +20,8 @@
 
 ## II. Start file
 
+**footer-component-start.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -38,13 +40,13 @@
 <p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
 
 <h2>Sub-heading I</h2>
-<rit-footer data-year="2019" data-text="Ace Amway"></rit-footer>
+
 <h2>Sub-heading II</h2>
-<rit-footer data-year="2020" data-text="Babs Babcock"></rit-footer>
+
 <h2>Sub-heading III</h2>
-<rit-footer data-year="2021" data-text="Chris Crinkle"></rit-footer>
+
 <h2>Sub-heading IV</h2>
-<rit-footer></rit-footer>
+
 </body>
 </html>
 ```
