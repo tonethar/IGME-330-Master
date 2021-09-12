@@ -16,7 +16,7 @@
   - https://www.webcomponents.org/introduction
   - https://css-tricks.com/an-introduction-to-web-components/
  - Web Components consist of 3 major technologies that are used together:
-   - ***Custom Elements*** - a way that we can define our own custom DOM elements (tags)
+   - ***Custom Elements*** - a way that we can define our own custom DOM elements (tags), and to also extend built-in elements
      - *"Custom elements provide a way for authors to build their own fully-featured DOM elements. Although authors could always use non-standard elements in their documents, with application-specific behavior added after the fact by scripting or similar ..."* - https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements
     - ***Shadow DOM*** - encapsulates CSS (style rules, class names etc are scoped to the component) and HTML (a component's DOM is self-contained and not detectable by `document.querySelector()`
       - https://developers.google.com/web/fundamentals/web-components/shadowdom
@@ -35,16 +35,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>rit-footer Component 1</title>
+	<title>igm-footer Component 1</title>
 	<script>
+	window.onload = () => {
 	
+	};
 	</script>
 	
 	
 </head>
 <body>
 <h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
-<p>Here we have a new component, <code>&lt;rit-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
+<p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
 <p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
 
 <h2>Sub-heading I</h2>
@@ -61,7 +63,9 @@
 
 <hr>
 
-## III. Get Started
+## III. Get Started by creating a custom HTML element - `<igm-footer>`
+
+- to create our own custom element, we first need to extend 
 
 <hr>
 
