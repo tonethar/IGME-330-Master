@@ -70,9 +70,9 @@
 
 <hr>
 
-## III. An overview of a web component, and a template you can use
+## III. An overview of a web component
 
-- to create our first custom HTML element, we first need to extend the `HTMLElement` class
+- to create a custom HTML element, you first need to extend the `HTMLElement` class
 
 ```js
 <script>
@@ -80,7 +80,7 @@
 class MyElement extends HTMLElement{
   // #1 - constructor called when instance of this class is created
   constructor(){
-  	
+   // setup
   }
   
   // #2 - called when the component is inserted into the DOM
@@ -106,7 +106,7 @@ class MyElement extends HTMLElement{
 		
   // #6 - a helper method (could be named anything) to display the values of the attributes
   render(){
-  
+    // update the DOM in some way based on the value of the attributes
   }
   
 } // end class
