@@ -208,6 +208,8 @@ render(){
 - Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
 - Go ahead and pass in unique values to your 4 `<igm-footer>` elements for `data-year` and `data-text`
 
+![screenshot](_images/_wc/HW-wc-4.png)
+
 ```html
 <h2>1st footer</h2>
 <igm-footer data-year="2019" data-text="Ace Amway"></igm-footer>
@@ -264,6 +266,8 @@ igm-footer{
 
 **footer-component-2.html** - almost all of this HTML is the same as before - just a few small changes in the `<head>`
 
+![screenshot](_images/_wc/HW-wc-5.png)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -309,6 +313,8 @@ igm-footer{
 ```
 
 **src/igm-footer.js** - much of this is the same, it just needs to be moved around
+
+![screenshot](_images/_wc/HW-wc-6.png)
 
 ```js
 const template = document.createElement("template");
