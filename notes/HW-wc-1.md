@@ -209,6 +209,7 @@ this.shadowRoot.append(style);
 ## IV-C. Adding an attribute
 
 - Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
+- Add this code to the `class` definition AFTER (not inside) the `constructor()`
 
 ```js
 // 5 - called when the component is added to the page
@@ -238,13 +239,13 @@ render(){
 
 ```html
 <h2>1st footer</h2>
-<rit-footer data-year="2019" data-text="Ace Amway"></rit-footer>
+<igm-footer data-year="2019" data-text="Ace Amway"></igm-footer>
 <h2>2nd footer</h2>
-<rit-footer data-year="2020" data-text="Babs Babcock"></rit-footer>
+<igm-footer data-year="2020" data-text="Babs Babcock"></igm-footer>
 <h2>3rd footer</h2>
-<rit-footer data-year="2021" data-text="Chris Crinkle"></rit-footer>
+<igm-footer data-year="2021" data-text="Chris Crinkle"></igm-footer>
 <h2>4th footer</h2>
-<rit-footer></rit-footer>
+<igm-footer></igm-footer>
 ```
 
 
