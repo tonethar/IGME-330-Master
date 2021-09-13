@@ -236,6 +236,17 @@ render(){
 - Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
 - Go ahead and pass in unique values for your 4 `<igm-footer>` elements
 
+```html
+<h2>1st footer</h2>
+<rit-footer data-year="2019" data-text="Ace Amway"></rit-footer>
+<h2>2nd footer</h2>
+<rit-footer data-year="2020" data-text="Babs Babcock"></rit-footer>
+<h2>3rd footer</h2>
+<rit-footer data-year="2021" data-text="Chris Crinkle"></rit-footer>
+<h2>4th footer</h2>
+<rit-footer></rit-footer>
+```
+
 
 ## XX. Wrap Up
 
