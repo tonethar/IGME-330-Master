@@ -152,7 +152,7 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-## IV-A. Creating a Shadow DOM
+### IV-A. Creating a Shadow DOM
 
 - Add the following to the `constructor()` above, right after the call to `super()`:
 
@@ -174,7 +174,7 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 
 <hr>
 
-## IV-B. Adding style
+### IV-B. Adding style
 
 - Here we're going to add some style for the component, and a `<span>` (for use in the next part)
 - Update your constructor with these changes (note that the numbering has changed) 
@@ -209,7 +209,7 @@ this.shadowRoot.append(style);
 
 <hr>
 
-## IV-C. Adding attributes
+### IV-C. Adding attributes
 
 - Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
 - Add this code to the `class` definition AFTER (not inside) the `constructor()`
@@ -234,7 +234,7 @@ render(){
 
 <hr>
 
-## IV-D. Passing attribute values to components
+### IV-D. Passing attribute values to components
 
 - Easy! Our code is looking for `data-year` and 'data-text'
 - Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
@@ -256,7 +256,7 @@ render(){
 
 <hr>
 
-## IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
+### IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
 
 - To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
   - add this HTML to the `<body>` tag, wight before the first `<h2>`:
