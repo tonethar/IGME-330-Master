@@ -137,7 +137,7 @@ customElements.define('my-element', MyElement);
 
 <hr>
 
-- Go ahead and preview this in a browser. The `<igm-footer>` is in the browser web inspector, but it isn't drawn to the browser window yet, so we need to do that next
+- Go ahead and preview this in a browser. There are 4 `<igm-footer>`s  in the browser web inspector, but they are not drawn to the browser window yet, so we need to do that next
 
 ## IV. The Shadow DOM
 - Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
@@ -159,9 +159,8 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 ```
 
 - Now preview this in the browser:
-  - you should be able to see the `<hr>` in the browser's window
-  - because we specified `mode: "open"`, some of the internal structure of the compone t is visible
-  - look in the web inspector - we can see some of the internal working of the component
+  - you should be able to see the `<hr>`s in the browser's window
+  - because we specified `mode: "open"`, some of the internal structure of the component is visible. Go ahead and look in the web inspector to see this
   - change the `mode` to `"closed"` and then head back to the inspector to see the change
 
 <hr>
