@@ -85,7 +85,9 @@ class MyElement extends HTMLElement{
   
   // #2 - called when the component is inserted into the DOM
   connectedCallback(){
+    // draw page
     this.render();
+    // we could also hookup some JavaScript to DOM events
   }
   
   // #3 - called when the component is removed from the DOM
