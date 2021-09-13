@@ -240,7 +240,7 @@ render(){
 ```html
 <style>
   span{
-    color:red;
+    color:green;
   }
 </style>
 ```
