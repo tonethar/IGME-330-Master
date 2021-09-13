@@ -75,11 +75,19 @@
 - to create our first custom HTML element, we first need to extend the `HTMLElement` class
 
 ```js
+<script>
+// #1 - create a class and extend HTMLElement
 class IGMFooter extends HTMLElement{
- // do stuff
+ // need some other stuff here
 }
-// define our new custom element so that we can use it on the page
+// #2 - define our new custom element so that we can use it on the page
 customElements.define('igm-footer', IGMFooter);
+</script>
+<body>
+...
+<!-- #3 - use it! -->
+<igm-footer></igm-footer>
+...
 ```
 
 <hr>
