@@ -152,6 +152,9 @@ customElements.define('my-element', MyElement);
 
 - Add the following to the `constructor()` above, right after the call to `super()`:
 
+
+![screenshot](_images/_wc/HW-wc-1.png)
+
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
 this.attachShadow({mode: "open"});
@@ -407,7 +410,7 @@ customElements.define('igm-footer', IGMFooter);
   - In the `render()` method, display the value of the `data-organization` attribute in this new `<span>`
   - If a value is not provided for the `data-organization` attribute in the HTML, display a default value of "IGM"
 
-![screenshot](_images/_web-components/HW-wc-XX.png)
+
 
 <hr>
 
