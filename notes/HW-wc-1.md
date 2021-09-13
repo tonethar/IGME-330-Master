@@ -94,26 +94,25 @@ customElements.define('my-element', MyElement);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>igm-footer Component 1</title>
-	<!-- Web Components Polyfill for older browsers -->
-	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
+  <meta charset="utf-8" />
+  <title>igm-footer Component 1</title>
+  <!-- Web Components Polyfill for older browsers -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
  
-
-	<script>
-	// YOUR CODE GOES HERE
-	class IGMFooter extends HTMLElement{
-		constructor(){
-			super();
-		}
-	} 
+  <script>
+  // YOUR CODE GOES HERE
+  class IGMFooter extends HTMLElement{
+    constructor(){
+      super();
+    }
+  } 
 	
-	customElements.define('igm-footer', IGMFooter);
+  customElements.define('igm-footer', IGMFooter);
 	
-	window.onload = () => {
+  window.onload = () => {
 	 
-	};
-	</script>
+  };
+</script>
 </head>
 <body>
 <h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
