@@ -290,13 +290,96 @@ igm-footer{
 **footer-component-2.html**
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>igm-footer Component 1</title>
+  <style>
+    span{
+      color:green;
+    }
+    igm-footer{
+      border: 3px solid black;
+    }
+  </style>
+  <!-- Web Components Polyfill for older browsers -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
+  <script type="module" src="src/igm-footer.js"></script>
+  <script>
+  // YOUR CODE GOES HERE
+  </script>
+</head>
+<body>
+<h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
+<p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
+<p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
 
+<span>I am a span</span>
+
+<h2>1st footer</h2>
+<igm-footer data-year="2019" data-text="Ace Amway"></igm-footer>
+
+<h2>2nd footer</h2>
+<igm-footer data-year="2020" data-text="Babs Babcock"></igm-footer>
+
+<h2>3rd footer</h2>
+<igm-footer data-year="2021" data-text="Chris Crinkle"></igm-footer>
+
+<h2>4th footer</h2>
+<igm-footer></igm-footer>
+	
+</body>
+</html>
 ```
 
-**igm-footer.js**
+**src/igm-footer.js**
 
 ```js
+const template = document.createElement("template");
+template.innerHTML = `
+<style>
+:host{
+  display: block;
+  background-color: #ddd;
+}
+span{
+  color: #F76902;
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+</style>
+<span></span>
+<hr>
+`;
 
+class IGMFooter extends HTMLElement{
+  constructor(){
+    super();
+    // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
+    this.attachShadow({mode: "open"});
+
+     // 2 - Clone `template` and append it
+   this.shadowRoot.appendChild(template.content.cloneNode(true));
+  }
+  
+  // 3 - called when the component is added to the page
+  connectedCallback(){
+    this.render();
+  }
+
+  // 4 - a helper method to display the values of the attributes
+  render(){
+    // grab the attribute values, and assign a default value if necessary
+    const year = this.getAttribute('data-year') ? this.getAttribute('data-year') : "1995";
+    const text = this.getAttribute('data-text') ? this.getAttribute('data-text') : "Nobody";
+
+    this.shadowRoot.querySelector("span").innerHTML = `&copy; Copyright ${year}, ${text}`;
+  }
+} 
+
+customElements.define('igm-footer', IGMFooter);
 ```
 
 - We will talk about this code works in class
