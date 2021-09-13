@@ -145,7 +145,7 @@ customElements.define('my-element', MyElement);
 - Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
 - For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be uneffected
 
-## IV-A. Creating a Shadown DOM
+## IV-A. Creating a Shadow DOM
 
 - Add the following to the `constructor()` above:
 
@@ -158,19 +158,6 @@ this.shadowRoot.appendChild(document.createElement('span'));
 			
 // 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
 this.shadowRoot.appendChild(document.createElement('hr'));
-			
-// 4 - create the <style> element and add to shadow DOM
-const style = document.createElement('style');
-style.textContent = `
-:host{
-  color: #F76902;
-  display: block;
-  font-variant: small-caps;
-  font-weight: bolder;
-  font-family: sans-serif;
-}
-`;
-this.shadowRoot.append(style);
 ```
 
 - Now preview this in the browser:
@@ -180,10 +167,32 @@ this.shadowRoot.append(style);
 
 <hr>
 
-## IV-A. Rendering dynamic content
+## IV-A. Adding style
+
+- Here we're going to add some style for the component, and a 
 
 ```js
+// 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
+this.attachShadow({mode: "open"});
 
+// 2 - create the <span> element and add to shadow DOM
+this.shadowRoot.appendChild(document.createElement('span'));
+
+// 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
+this.shadowRoot.appendChild(document.createElement('hr'));
+
+// 4 - create the <style> element and add to shadow DOM
+const style = document.createElement('style');
+style.textContent = `
+	:host{
+		color: #F76902;
+		display: block;
+		font-variant: small-caps;
+		font-weight: bolder;
+		font-family: sans-serif;
+	}
+`;
+this.shadowRoot.append(style);
 ```
 
 <hr>
