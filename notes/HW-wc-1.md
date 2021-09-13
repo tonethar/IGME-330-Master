@@ -169,30 +169,6 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/HW-wc-2.png)
 
-```js
-// 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
-this.attachShadow({mode: "open"});
-
-// 2 - NEW - create the <span> element and add to shadow DOM
-this.shadowRoot.appendChild(document.createElement('span'));
-
-// 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
-this.shadowRoot.appendChild(document.createElement('hr'));
-
-// 4 - NEW - create the <style> element and add to shadow DOM
-const style = document.createElement('style');
-style.textContent = `
-	:host{
-		color: #F76902;
-		display: block;
-		font-variant: small-caps;
-		font-weight: bolder;
-		font-family: sans-serif;
-	}
-`;
-this.shadowRoot.append(style);
-```
-
 - preview this in the browser, it shouldn't look different
 - if you look in the inspector, under the `#shadow-root` you'll see the `<span>`, but no `<style>` tag
 - the `host:` CSS pseudo-class is documented here - https://developer.mozilla.org/en-US/docs/Web/CSS/:host
@@ -203,6 +179,8 @@ this.shadowRoot.append(style);
 
 - Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
 - Add this code to the `class` definition AFTER (not inside) the `constructor()`
+
+![screenshot](_images/_wc/HW-wc-3.png)
 
 ```js
 // 5 - called when the component is added to the page
