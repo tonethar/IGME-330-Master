@@ -167,7 +167,7 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 
 <hr>
 
-## IV-A. Adding style
+## IV-B. Adding style
 
 - Here we're going to add some style for the component, and a `<span>` (for use in the next part)
 
@@ -195,10 +195,15 @@ style.textContent = `
 this.shadowRoot.append(style);
 ```
 
-- preview this in the browser
-- preview this in the browser
+- preview this in the browser, it shouldn't look different
+- if you look in the inspector, you'll see the `<span>`, but no `<style>` tag
+- the `host:` CSS pseudo-class is documented here - https://developer.mozilla.org/en-US/docs/Web/CSS/:host
 
 <hr>
+
+## IV-C. Adding an attribute
+
+- Here we 
 
 ## XX. Wrap Up
 
