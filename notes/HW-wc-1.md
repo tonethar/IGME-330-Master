@@ -155,17 +155,6 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/HW-wc-1.png)
 
-```js
-// 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
-this.attachShadow({mode: "open"});
-			
-// 2 - create the <span> element and add to shadow DOM
-this.shadowRoot.appendChild(document.createElement('span'));
-			
-// 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
-this.shadowRoot.appendChild(document.createElement('hr'));
-```
-
 - Now preview this in the browser:
   - you should be able to see the `<hr>`s in the browser's window
   - because we specified `mode: "open"`, some of the internal structure of the component is visible. Go ahead and look in the web inspector for `#shadow-root` to see this
@@ -177,6 +166,8 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 
 - Here we're going to add some style for the component, and a `<span>` (for use in the next part)
 - Update your constructor with these changes (note that the numbering has changed) 
+
+![screenshot](_images/_wc/HW-wc-2.png)
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
