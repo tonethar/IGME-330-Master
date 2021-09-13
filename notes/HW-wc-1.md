@@ -169,7 +169,7 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 
 ## IV-A. Adding style
 
-- Here we're going to add some style for the component, and a 
+- Here we're going to add some style for the component, and a `<span>` (for use in the next part)
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
@@ -194,6 +194,9 @@ style.textContent = `
 `;
 this.shadowRoot.append(style);
 ```
+
+- preview this in the browser
+- preview this in the browser
 
 <hr>
 
