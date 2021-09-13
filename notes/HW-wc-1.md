@@ -169,7 +169,7 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 
 - Now preview this in the browser:
   - you should be able to see the `<hr>`s in the browser's window
-  - because we specified `mode: "open"`, some of the internal structure of the component is visible. Go ahead and look in the web inspector to see this
+  - because we specified `mode: "open"`, some of the internal structure of the component is visible. Go ahead and look in the web inspector for `#shadow-root` to see this
   - change the `mode` to `"closed"` and then head back to the inspector to see the change
 
 <hr>
@@ -204,7 +204,7 @@ this.shadowRoot.append(style);
 ```
 
 - preview this in the browser, it shouldn't look different
-- if you look in the inspector, you'll see the `<span>`, but no `<style>` tag
+- if you look in the inspector, under the `#shadow-root` you'll see the `<span>`, but no `<style>` tag
 - the `host:` CSS pseudo-class is documented here - https://developer.mozilla.org/en-US/docs/Web/CSS/:host
 
 <hr>
