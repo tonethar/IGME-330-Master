@@ -152,7 +152,7 @@ customElements.define('my-element', MyElement);
 
 ## IV-A. Creating a Shadow DOM
 
-- Add the following to the `constructor()` above:
+- Add the following to the `constructor()` above, right after the call to `super()`:
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
@@ -175,18 +175,19 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 ## IV-B. Adding style
 
 - Here we're going to add some style for the component, and a `<span>` (for use in the next part)
+- Update your constructor with these chnages (note that the nnumbering has changed) 
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
 this.attachShadow({mode: "open"});
 
-// 2 - create the <span> element and add to shadow DOM
+// 2 - NEW - create the <span> element and add to shadow DOM
 this.shadowRoot.appendChild(document.createElement('span'));
 
 // 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
 this.shadowRoot.appendChild(document.createElement('hr'));
 
-// 4 - create the <style> element and add to shadow DOM
+// 4 - NEW - create the <style> element and add to shadow DOM
 const style = document.createElement('style');
 style.textContent = `
 	:host{
