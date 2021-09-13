@@ -123,11 +123,14 @@ customElements.define('my-element', MyElement);
 <igm-footer></igm-footer>
 
 <h2>2nd footer</h2>
+<igm-footer></igm-footer>
 
 <h2>3rd footer</h2>
+<igm-footer></igm-footer>
 
 <h2>4th footer</h2>
-
+<igm-footer></igm-footer>
+	
 </body>
 </html>
 ```
@@ -137,13 +140,12 @@ customElements.define('my-element', MyElement);
 - Go ahead and preview this in a browser. The `<igm-footer>` is in the browser web inspector, but it isn't drawn to the browser window yet, so we need to do that next
 
 ## IV. The Shadow DOM
-
-- Althought the Shadown DOM sound kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
+- Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
 - For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be uneffected
 
 ## IV-A. Creating a Shadown DOM
 
-- Add the following to the constructor above:
+- Add the following to the `constructor()` above:
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
@@ -155,6 +157,12 @@ this.shadowRoot.appendChild(document.createElement('span'));
 // 3 - (for illustrative purposes) we will create and add an <hr> to the shadow DOM
 this.shadowRoot.appendChild(document.createElement('hr'));
 ```
+
+- Now preview this in the browser:
+  - you should be able to see the `<hr>` in the browser's window
+  - because we specified `mode: "open"`, some of the internal structure of the compone t is visible
+  - look in the web inspector - we can see some of the internal working of the component
+  - change the `mode` to `"closed"` and then head back to the inspector to see the change
 
 <hr>
 
