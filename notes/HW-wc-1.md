@@ -113,10 +113,6 @@ customElements.define('my-element', MyElement);
   } 
 	
   customElements.define('igm-footer', IGMFooter);
-	
-  window.onload = () => {
-	 
-  };
 </script>
 </head>
 <body>
