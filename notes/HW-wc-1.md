@@ -270,6 +270,7 @@ render(){
   }
 </style>
 ```
+
 - You should see that our `<span>` is green, and that the components are unaffected
 - Of course, we can still style the *entire* component if we want to. Add this to the `<style>` tag:
 
@@ -279,6 +280,8 @@ igm-footer{
 }
 ```
 
+- Now all of the `<igm-footer>` elements have a black border
+
 <hr>
 
 ## V. HTML Templates
@@ -287,14 +290,14 @@ igm-footer{
 - We are also going to move the component code into an external file, and load it
 - Note that `<script type="module" ...` - so that you'll need to run this code off of a web server, or VS Code's live server
 
-**footer-component-2.html**
+**footer-component-2.html** - almost all of this HTML is the same as before - just a few small changes in the `<head>`
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>igm-footer Component 1</title>
+  <title>igm-footer Component 2</title>
   <style>
     span{
       color:green;
@@ -333,7 +336,7 @@ igm-footer{
 </html>
 ```
 
-**src/igm-footer.js**
+**src/igm-footer.js** - much of this is the same, it just needs to be moved around
 
 ```js
 const template = document.createElement("template");
@@ -383,17 +386,26 @@ customElements.define('igm-footer', IGMFooter);
 ```
 
 - We will talk about this code works in class
-- Go ahead and get these typed in and working!
+- We changed the CSS slightly, and moved all of the CSS and HTML into `const template`
+- Go ahead and get these typed in and working! It should appear the same as before, except with a light gray background color for each component element
 
 <hr>
 
 ## VI. Wrap Up
 
 - This might seem like we've done a lot of work above for this simple component, but as we add more capabilities to these web components you will hopefully see the benefits!
+- The last version above is how we will be writing our web component code going forward
 
 <hr>
 
 ## VII. Homework
+
+- ZIP and POST to the dropbox **footer-component-1.html**  & **footer-component-2.html** / **src/igm-footer.js**
+- Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  -the functionality will be the same as the versions above, except:
+  - there must be a custom `data-organization` attribute (the user might pass in a value of "RIT" or "IGM" or "IST" etc
+  - this organization will be displayed in another `<span>` - in the template - that looks like this - `<span id="org"></span>`
+  - In the `render()` method, display the value of the `data-organization` attribute in this new `<span>`
+  - If a value is not provided for the `data-organization` attribute in the HTML, display a default value of "IGM"
 
 ![screenshot](_images/_web-components/HW-wc-XX.png)
 
