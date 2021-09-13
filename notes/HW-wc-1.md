@@ -203,7 +203,34 @@ this.shadowRoot.append(style);
 
 ## IV-C. Adding an attribute
 
-- Here we 
+- Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
+
+```js
+// 5 - called when the component is added to the page
+connectedCallback(){
+  this.render();
+}
+
+// 6 - a helper method to display the values of the attributes
+render(){
+  // grab the attribute values, and assign a default value if necessary
+  const year = this.getAttribute('data-year') ? this.getAttribute('data-year') : "1995";
+  const text = this.getAttribute('data-text') ? this.getAttribute('data-text') : "Nobody";
+	
+  this.shadowRoot.querySelector("span").innerHTML = `&copy; Copyright ${year}, ${text}`;
+}
+```
+
+- reload the page, and you will now see an updated version of the `<igm-footer>` with default values for `year` & `text`
+
+<hr>
+
+## IV-D. Passing attribute values to components
+
+- Easy! Our code is looking for `data-year` and 'data-text'
+- Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
+- Go ahead and pass in unique values for your 4 `<igm-footer>` elements
+
 
 ## XX. Wrap Up
 
