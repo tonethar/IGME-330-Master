@@ -40,7 +40,10 @@
 <head>
 	<meta charset="utf-8" />
 	<title>igm-footer Component 1</title>
+	<!-- Web Components Polyfill for older browsers -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
 	<script>
+	// YOUR CODE GOES HERE
 	window.onload = () => {
 	 
 	};
