@@ -70,24 +70,51 @@
 
 <hr>
 
-## III. Get Started by creating a custom HTML element - `<igm-footer>`
+## III. An overview of a web component, and a template you can use
 
 - to create our first custom HTML element, we first need to extend the `HTMLElement` class
 
 ```js
 <script>
-// #1 - create a class and extend HTMLElement
-class IGMFooter extends HTMLElement{
- // need some other stuff here
-}
-// #2 - define our new custom element so that we can use it on the page
-customElements.define('igm-footer', IGMFooter);
+// Create a class and extend HTMLElement
+class MyElement extends HTMLElement{
+  // #1 - constructor called when instance of this class is created
+  constructor(){
+  	
+  }
+  
+  // #2 - called when the component is inserted into the DOM
+  connectedCallback(){
+    this.render();
+  }
+  
+  // #3 - called when the component is removed from the DOM
+  disconnectedCallback(){
+    
+  }
+  
+  // #4 - this lifecycle method is invoked each time one of the component's "watched" attributes changes
+  attributeChangedCallback(attributeName, oldVal, newVal){
+    console.log(attributeName, oldVal, newVal);
+    this.render();
+  }
+  
+  // #5 - here were specify for which attributes we want to be notified when their values change
+  static get observedAttributes(){
+    return ["data-year", "data-text"];
+  }
+		
+  // #6 - a helper method (could be named anything) to display the values of the attributes
+  render(){
+  
+  }
+  
+} // end class
+
+// #7 - define our new custom element with `customElements.define()` so that we can use it on the page
+customElements.define('my-element', MyElement);
 </script>
 <body>
-...
-<!-- #3 - use it! -->
-<igm-footer></igm-footer>
-...
 ```
 
 <hr>
