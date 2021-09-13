@@ -27,52 +27,17 @@
    - https://github.com/webcomponents/polyfills/tree/master/packages/webcomponentsjs
    - https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-bundle.js
 
-
 <hr>
 
-## II. Start file
-
-**footer-component-start.html**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>igm-footer Component 1</title>
-	<!-- Web Components Polyfill for older browsers -->
-	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
-	<script>
-	// YOUR CODE GOES HERE
-	window.onload = () => {
-	 
-	};
-	</script>
-	
-	
-</head>
-<body>
-<h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
-<p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
-<p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
-
-<h2>Sub-heading I</h2>
-
-<h2>Sub-heading II</h2>
-
-<h2>Sub-heading III</h2>
-
-<h2>Sub-heading IV</h2>
-
-</body>
-</html>
-```
-
-<hr>
-
-## III. An overview of a web component
+## II. An overview of a web component
 
 - to create a custom HTML element, you first need to extend the `HTMLElement` class
+- we then add in some or all of these component *lifecycle* methods
+- `connectedCallback()` - called when the component is inserted into the DOM
+- `disconnectedCallback()` - called when the component is removed from the DOM
+- `attributeChangedCallback()` - called each time one of the component's "watched" attributes changes
+- `static get observedAttributes()` - specifes which attributes we want to be notified when their values change
+
 
 ```js
 <script>
@@ -118,6 +83,50 @@ customElements.define('my-element', MyElement);
 </script>
 <body>
 ```
+
+<hr>
+
+## III. Start file
+
+**footer-component-start.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>igm-footer Component 1</title>
+	<!-- Web Components Polyfill for older browsers -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
+	<script>
+	// YOUR CODE GOES HERE
+		
+	window.onload = () => {
+	 
+	};
+	</script>
+</head>
+<body>
+<h1>Web Component - with attributes and <code>connectedCallback()</code></h1>
+<p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
+<p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
+
+<h2>Sub-heading I</h2>
+
+<h2>Sub-heading II</h2>
+
+<h2>Sub-heading III</h2>
+
+<h2>Sub-heading IV</h2>
+
+</body>
+</html>
+```
+
+<hr>
+
+## III. Create `<igm-footer>`
+
 
 <hr>
 
