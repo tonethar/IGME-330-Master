@@ -304,7 +304,7 @@ igm-footer{
 
 <hr>
 
-## XX. Submission
+## VIII. Submission
 
 - Putting your files in a containing folder named  **wc-1/** probably makes sense
 - See the dropbox for submission instructions
