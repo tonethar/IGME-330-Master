@@ -257,8 +257,13 @@ render(){
 ## IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
 
 - To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
-  - add this HTML to the top of the `<body>` tag - `<span>I am a span</span>`
-  - add this CSS to the `<head>`section of the document:
+  - add this HTML to the top of the `<body>` tag:
+  
+```html
+<span>I am a span</span>
+```
+
+- add this CSS to the `<head>` section of the document:
 
 ```html
 <style>
