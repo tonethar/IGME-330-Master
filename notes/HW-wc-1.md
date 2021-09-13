@@ -148,7 +148,7 @@ customElements.define('my-element', MyElement);
 
 ## IV. The Shadow DOM
 - Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
-- For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be uneffected
+- For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be unaffected
 
 <hr>
 
@@ -272,7 +272,7 @@ render(){
   }
 </style>
 ```
-
+- You should see that our `<span>` is green, and that the components are unaffected
 
 ## XX. Wrap Up
 
