@@ -39,7 +39,7 @@
   - `static get observedAttributes()` - specifes which attributes we want to be notified when their values change
 
 
-```js
+```html
 <script>
 // Create a class and extend HTMLElement
 class MyElement extends HTMLElement{
