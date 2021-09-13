@@ -92,7 +92,7 @@ class MyElement extends HTMLElement{
   
   // #3 - called when the component is removed from the DOM
   disconnectedCallback(){
-    
+    // a good place to clean up, remove event listeners, etc ...
   }
   
   // #4 - this lifecycle method is invoked each time one of the component's "watched" attributes changes
