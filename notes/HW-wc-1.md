@@ -98,9 +98,18 @@ customElements.define('my-element', MyElement);
 	<title>igm-footer Component 1</title>
 	<!-- Web Components Polyfill for older browsers -->
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
+ 
+
 	<script>
 	// YOUR CODE GOES HERE
-		
+	class IGMFooter extends HTMLElement{
+		constructor(){
+			super();
+		}
+	} 
+	
+	customElements.define('igm-footer', IGMFooter);
+	
 	window.onload = () => {
 	 
 	};
@@ -111,13 +120,14 @@ customElements.define('my-element', MyElement);
 <p>Here we have a new component, <code>&lt;igm-footer></code> that has <ode>data-year</code> and <ode>data-text</code> attributes</p>
 <p>We are also utilizing the <code>connectedCallback()</code> lifecycle method, which is invoked each time the custom element is appended into a document-connected element</p>
 
-<h2>Sub-heading I</h2>
+<h2>1st footer</h2>
+<igm-footer></igm-footer>
 
-<h2>Sub-heading II</h2>
+<h2>2nd footer</h2>
 
-<h2>Sub-heading III</h2>
+<h2>3rd footer</h2>
 
-<h2>Sub-heading IV</h2>
+<h2>4th footer</h2>
 
 </body>
 </html>
