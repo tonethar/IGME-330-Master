@@ -243,12 +243,29 @@ render(){
 ```html
 <h2>1st footer</h2>
 <igm-footer data-year="2019" data-text="Ace Amway"></igm-footer>
+
 <h2>2nd footer</h2>
 <igm-footer data-year="2020" data-text="Babs Babcock"></igm-footer>
+
 <h2>3rd footer</h2>
 <igm-footer data-year="2021" data-text="Chris Crinkle"></igm-footer>
+
 <h2>4th footer</h2>
 <igm-footer></igm-footer>
+```
+
+## IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
+
+- To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
+  - add this HTML to the top of the `<body>` tag - `<span>I am a span</span>`
+  - add this CSS to the `<head>`section of the document:
+
+```html
+<style>
+span{
+  color:red;
+}
+</style>
 ```
 
 
