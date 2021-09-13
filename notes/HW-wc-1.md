@@ -93,7 +93,7 @@ customElements.define('my-element', MyElement);
 
 ## III. Start file
 
-**footer-component-start.html**
+**footer-component-1-start.html**
 
 ```html
 <!DOCTYPE html>
@@ -254,6 +254,8 @@ render(){
 <igm-footer></igm-footer>
 ```
 
+<hr>
+
 ## IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
 
 - To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
@@ -273,14 +275,46 @@ render(){
 </style>
 ```
 - You should see that our `<span>` is green, and that the components are unaffected
+- Of course, we can still style the *entire* component if we want to. Add this to the `<style>` tag:
 
-## XX. Wrap Up
+```css
+igm-footer{
+  border: 3px solid black;
+}
+```
+
+<hr>
+
+## V. HTML Templates
+
+- Here is an improved version that is much more elegant and maintainable. It uses HTML template syntax instead of hard-coding the HTML in our class file
+- We are also going to move the component code into an external file, and load it
+- Note that `<script type="module" ...` - so that you'll need to run this code off of a web server, or VS Code's live server
+
+**footer-component-2.html**
+
+```html
+
+```
+
+**igm-footer.js**
+
+```js
+
+```
+
+- We will talk about this code works in class
+- Go ahead and get these typed in and working!
+
+<hr>
+
+## VI. Wrap Up
 
 - This might seem like we've done a lot of work above for this simple component, but as we add more capabilities to these web components you will hopefully see the benefits!
 
 <hr>
 
-## XX. Completed Version
+## VII. Homework
 
 ![screenshot](_images/_web-components/HW-wc-XX.png)
 
