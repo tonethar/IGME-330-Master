@@ -22,6 +22,10 @@
       - https://developers.google.com/web/fundamentals/web-components/shadowdom
     - ***HTML Templates***
       - *"The `<template>` element is used to declare fragments of HTML that can be cloned and inserted in the document by script."* - https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+ - Web Components are supported natively on all modern browsers, and can be used on older browsers with a [*polyfill*](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill):
+   - https://www.webcomponents.org/polyfills
+   - https://github.com/webcomponents/polyfills/tree/master/packages/webcomponentsjs
+   - https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-bundle.js
 
 
 <hr>
@@ -38,7 +42,7 @@
 	<title>igm-footer Component 1</title>
 	<script>
 	window.onload = () => {
-	
+	 
 	};
 	</script>
 	
@@ -65,7 +69,15 @@
 
 ## III. Get Started by creating a custom HTML element - `<igm-footer>`
 
-- to create our own custom element, we first need to extend 
+- to create our first custom HTML element, we first need to extend the `HTMLElement` class
+
+```js
+class IGMFooter extends HTMLElement{
+ // do stuff
+}
+// define our new custom element so that we can use it on the page
+customElements.define('igm-footer', IGMFooter);
+```
 
 <hr>
 
