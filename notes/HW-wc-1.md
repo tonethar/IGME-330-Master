@@ -175,7 +175,7 @@ this.shadowRoot.appendChild(document.createElement('hr'));
 ## IV-B. Adding style
 
 - Here we're going to add some style for the component, and a `<span>` (for use in the next part)
-- Update your constructor with these chnages (note that the nnumbering has changed) 
+- Update your constructor with these changes (note that the numbering has changed) 
 
 ```js
 // 1 - attach a shadow DOM tree to this instance - this creates `.shadowRoot` for us
