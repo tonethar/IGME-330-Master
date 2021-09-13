@@ -33,10 +33,10 @@
 
 - to create a custom HTML element, you first need to extend the `HTMLElement` class
 - we then add in some or all of these component *lifecycle* methods
-- `connectedCallback()` - called when the component is inserted into the DOM
-- `disconnectedCallback()` - called when the component is removed from the DOM
-- `attributeChangedCallback()` - called each time one of the component's "watched" attributes changes
-- `static get observedAttributes()` - specifes which attributes we want to be notified when their values change
+  - `connectedCallback()` - called when the component is inserted into the DOM
+  - `disconnectedCallback()` - called when the component is removed from the DOM
+  - `attributeChangedCallback()` - called each time one of the component's "watched" attributes changes
+  - `static get observedAttributes()` - specifes which attributes we want to be notified when their values change
 
 
 ```js
