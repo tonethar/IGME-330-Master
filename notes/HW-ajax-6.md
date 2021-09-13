@@ -52,7 +52,7 @@
 
 <hr>
 
-### II-C. `async/await` example with `.then()` for error handling
+### II-C. `async/await` example with `.catch()` for error handling
 
 - Below we create a promise with `async` and add a `catch()` to it
 - This version will catch thrown errors the same as the preceding version
