@@ -150,6 +150,8 @@ customElements.define('my-element', MyElement);
 - Althought the *Shadow DOM* sounds kind of mysterious, it is simply a "scoped" DOM that components have that is separate from the main DOM of the document
 - For example, if our component had an `<h1>` in it,  and we wrote a `document.querySelector("h1")` call, or wrote a style rule like this `h1{color:red}` - our component's `<h1>` would be uneffected
 
+<hr>
+
 ## IV-A. Creating a Shadow DOM
 
 - Add the following to the `constructor()` above, right after the call to `super()`:
@@ -207,7 +209,7 @@ this.shadowRoot.append(style);
 
 <hr>
 
-## IV-C. Adding an attribute
+## IV-C. Adding attributes
 
 - Here we are going to utilize the `connectedCallback()` lifecycle method to render the values of 2 attributes into our `<igm-footer>`
 - Add this code to the `class` definition AFTER (not inside) the `constructor()`
@@ -236,7 +238,7 @@ render(){
 
 - Easy! Our code is looking for `data-year` and 'data-text'
 - Note: here we are following the [custom data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) naming conventions, even though we don't have to, so that our attribute names don't collide with existing ones
-- Go ahead and pass in unique values for your 4 `<igm-footer>` elements
+- Go ahead and pass in unique values to your 4 `<igm-footer>` elements for `data-year` and `data-text`
 
 ```html
 <h2>1st footer</h2>
@@ -252,7 +254,7 @@ render(){
 
 ## XX. Wrap Up
 
-- This might seem like we've done a lot of work above, for not much capability, but as we add more capabilities to these web components you will hopefully see the benefits!
+- This might seem like we've done a lot of work above for this simple component, but as we add more capabilities to these web components you will hopefully see the benefits!
 
 <hr>
 
