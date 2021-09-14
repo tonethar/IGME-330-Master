@@ -90,7 +90,7 @@ disconnectedCallback(){
 ```
 
 - Test it!
-- PS - you can get rid of the annoying habit of the footer text to keep being selected with this CSS rule:
+- PS - you can get rid of the annoying habit of the `<igm-footer>` text to keep being selected, with this CSS rule:
 
 ```css
 user-select: none;
@@ -98,16 +98,13 @@ user-select: none;
 
 <hr>
 
-## XX. Completed Version
+## IV. Breakout Activity
 
-![screenshot](_images/_web-components/HW-wc-XX.png)
+
 
 <hr>
 
-## XX. Submission
 
-- Putting your files in a containing folder named  **wc-2/** probably makes sense
-- See the dropbox for submission instructions
 
 <hr><hr>
 
