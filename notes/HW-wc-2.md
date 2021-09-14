@@ -109,20 +109,25 @@ user-select: none;
 this.shadowRoot.querySelector("hr").onclick = () => {
  this.remove();
 }
+
+/* and here's the CSS to make the hr more "clickable"*/
+hr{
+  border: 3px solid red;
+}
 ```
 
 **... moving on ...**
 - What does this line of code do?
   - `let year = +this.dataset.year + 1;`
   - How else could we write it?
-- Change the function that `this.span.onclick` points at from an ES6 arrow function to a regular ES5 function - ex. `funtion(){...}`
-  - test the code - what happens
-  - why?
+- Change the function that `this.span.onclick` points at FROM an *ES6 arrow function* TO a regular *ES5 function declaration* - ex. `funtion(){...}`
+  - test the code - what happens?
+  - why? - the value of `this` in a function depends on how the function was called - [MDN - `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
 <hr>
 
 ## IV. Homework
-- We've added a lot to this component, and it is illustrating a lot of how web componenets work (and it may be the ugliest and most useless thing we've made yet in this course!), but let's make one more chnage
+- We've added a lot to this component, and it is illustrating a lot of how web components work. It's actually been architected pretty nicely (and it may be the ugliest and most useless thing we've made yet in this course!), so let's make one more change and then we're done with it
 - 
 
 
