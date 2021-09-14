@@ -47,6 +47,24 @@ attributeChangedCallback(attributeName, oldVal, newVal){
 
 - Test the code, now the JS should work and allow the component's attributes to be changed, and those changes will be reflected in the visible values of the component
 - Let's pop some breakpoints into the code so that we can see what methods are getting called, and when
+- One more thing - add this to the `window.onload` handler
+
+```js
+// BTW - the `dataset` property is easier to use than `.setAttribute()`
+document.querySelector("igm-footer:first-of-type").dataset.text= "William the Conquerer";
+```
+
+<hr>
+
+## III. JS in our components
+
+- We can easily add JS to our components
+- How about, everytime we click on the `<span>` that contains the year, we increase the value of the year
+
+```js
+
+```
+
 
 <hr>
 
