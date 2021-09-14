@@ -210,20 +210,6 @@ render(){
 
 ![screenshot](_images/_wc/HW-wc-4.png)
 
-```html
-<h2>1st footer</h2>
-<igm-footer data-year="2019" data-text="Ace Amway"></igm-footer>
-
-<h2>2nd footer</h2>
-<igm-footer data-year="2020" data-text="Babs Babcock"></igm-footer>
-
-<h2>3rd footer</h2>
-<igm-footer data-year="2021" data-text="Chris Crinkle"></igm-footer>
-
-<h2>4th footer</h2>
-<igm-footer></igm-footer>
-```
-
 <hr>
 
 ### IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
@@ -293,7 +279,7 @@ igm-footer{
 
 ## VII. Homework
 
-- ZIP and POST to the dropbox **footer-component-1.html**  & **footer-component-2.html** / **src/igm-footer.js**
+- ZIP and POST to the dropbox **footer-component-1.html** & **footer-component-2.html** & **src/igm-footer.js**
 - Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  -the functionality will be the same as the versions above, except:
   - there must be a custom `data-organization` attribute (the user might pass in a value of "RIT" or "IGM" or "IST" etc
   - this organization will be displayed in another `<span>` - in the template - that looks like this - `<span id="org"></span>`
