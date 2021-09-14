@@ -3,7 +3,7 @@
 ## Overview
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
-  - HW - Web Components-1 (XX:XX)
+  - HW - Web Components-1 (15:12)
 
 
 ## I. About Web Components
