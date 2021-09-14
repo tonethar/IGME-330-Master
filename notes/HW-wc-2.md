@@ -25,6 +25,8 @@ window.onload = () =>{
   - Because when attribute values are changed from their starting values, we need to write code that detects that change, and then re-renders the DOM
 - How do we do this? Easy! The `attributeChangedCallback()` lifecycle method!
 
+<hr>
+
 ## II. Implementing `attributeChangedCallback()`
 
 - This is easy - first, tell the component to "watch" both the `data-year` and the `data-text` attributes
@@ -51,6 +53,7 @@ attributeChangedCallback(attributeName, oldVal, newVal){
 
 ```js
 // BTW - the `dataset` property is easier to use than `.setAttribute()`
+// Add this to the `window.onload` handler
 document.querySelector("igm-footer:first-of-type").dataset.text= "William the Conquerer";
 ```
 
@@ -59,13 +62,37 @@ document.querySelector("igm-footer:first-of-type").dataset.text= "William the Co
 ## III. JS in our components
 
 - We can easily add JS to our components
-- How about, everytime we click on the `<span>` that contains the year, we increase the value of the year
+- How about, everytime we click on the `<span>` that contains the year, we increase the value of the year?
+- First, let's give the component default values for `data-year` and `data-text`
 
 ```js
+// put this at the end of the constructor
+if(!this.dataset.year) this.dataset.year = 1989;
+if(!this.dataset.text) this.dataset.text = "Bill & Ted";
 
+// This line of code will create an property named `span` for us, so that we don't have to keep calling this.shadowRoot.querySelector("span");
+this.span = this.shadowRoot.querySelector("span");
 ```
 
+- Add the following to the top of  `connectedCallback()`
 
+```js
+this.span.onclick = () => {
+  let year = +this.dataset.year++; // how does this line work?
+  this.span.dataset.text = year;
+}
+```
+
+- Implement  `disconnectedCallback()`
+
+```js
+disconnectedCallback(){
+  this.span.onclick = null;
+}
+```
+
+- Test it!
+- PS - you can get rid of the selevted text wit 
 <hr>
 
 ## XX. Completed Version
