@@ -132,12 +132,6 @@ hr{
 - Increment `this.count` every time the `<span>` text is clicked
 - Display this value in the `<span>`
 
-
-
-<hr>
-
-
-
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
