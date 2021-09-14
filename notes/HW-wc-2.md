@@ -132,6 +132,9 @@ hr{
 - Increment `this.count` every time the `<span>` text is clicked
 - Display this value in the `<span>`
 
+**Done Version**
+![screenshot](_images/_wc/HW-wc-8.png)
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
