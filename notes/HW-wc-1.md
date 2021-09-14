@@ -286,7 +286,8 @@ igm-footer{
   - In the `render()` method, display the value of the `data-organization` attribute in this new `<span>`
   - If a value is not provided for the `data-organization` attribute in the HTML, display a default value of "IGM"
 
-
+**Screenshot of completed version**
+![screenshot](_images/_wc/HW-wc-7.png)
 
 <hr>
 
