@@ -90,7 +90,12 @@ disconnectedCallback(){
 ```
 
 - Test it!
-- PS - you can get rid of the selevted text wit 
+- PS - you can get rid of the annoying habit of the footer text to keep being selected with this CSS rule:
+
+```css
+user-select: none;
+```
+
 <hr>
 
 ## XX. Completed Version
