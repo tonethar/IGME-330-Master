@@ -184,22 +184,6 @@ customElements.define('my-element', MyElement);
 
 ![screenshot](_images/_wc/HW-wc-3.png)
 
-```js
-// 5 - called when the component is added to the page
-connectedCallback(){
-  this.render();
-}
-
-// 6 - a helper method to display the values of the attributes
-render(){
-  // grab the attribute values, and assign a default value if necessary
-  const year = this.getAttribute('data-year') ? this.getAttribute('data-year') : "1995";
-  const text = this.getAttribute('data-text') ? this.getAttribute('data-text') : "Nobody";
-	
-  this.shadowRoot.querySelector("span").innerHTML = `&copy; Copyright ${year}, ${text}`;
-}
-```
-
 - reload the page, and you will now see an updated version of the `<igm-footer>` with default values for `year` & `text`
 
 <hr>
