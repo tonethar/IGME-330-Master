@@ -21,7 +21,8 @@ window.onload = () =>{
 - The first line of code succeeds in getting rid of the border that we previously added with the document-level `<style>`
 - The second line of code that attempts to change the value of the `data-year` FAILS - why?
   - Because when attribute values are changed from their starting values, we need to write code that detects that change, and then re-renders the DOM
-- How do we do this? Easy! The `attributeChangedCallback()` lifecycle method!
+- Try using the web inspector to change the value of `data-year` directly - and the same thing happens - the text in the component's `<span>` fails to chnage
+- So how do we get the text to update? Easy! The `attributeChangedCallback()` lifecycle method!
 
 <hr>
 
@@ -60,7 +61,7 @@ document.querySelector("igm-footer:first-of-type").dataset.text= "William the Co
 ## III. JS in our components
 
 - We can easily add JS to our components
-- How about, everytime we click on the `<span>` that contains the year, we increase the value of the year?
+- How about, everytime we click on the `<span>` that contains the text & year, we increase the value of the year?
 - First, let's give the component default values for `data-year` and `data-text`
 
 ```js
@@ -82,6 +83,7 @@ this.span.onclick = () => {
 ```
 
 - Implement  `disconnectedCallback()`
+- This will be called when the component is removed from the DOM
 
 ```js
 disconnectedCallback(){
@@ -95,6 +97,10 @@ disconnectedCallback(){
 ```css
 user-select: none;
 ```
+
+- Test it - the year should increase by one every time the component text is clicked
+- In the debugger, let's put some breakpoints in, so we can see the lifecycle of the component
+- From the console, you can test the `disconnectedCallback()` method with this line ``
 
 <hr>
 
