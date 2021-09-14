@@ -120,15 +120,17 @@ hr{
 - What does this line of code do?
   - `let year = +this.dataset.year + 1;`
   - How else could we write it?
-- Change the function that `this.span.onclick` points at FROM an *ES6 arrow function* TO a regular *ES5 function declaration* - ex. `funtion(){...}`
+- Change the function that `this.span.onclick` points at FROM an *ES6 arrow function*, TO a regular *ES5 function declaration* - ex. `funtion(){...}`
   - test the code - what happens?
   - why? - the value of `this` in a function depends on how the function was called - [MDN - `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
 <hr>
 
 ## IV. Homework
-- We've added a lot to this component, and it is illustrating a lot of how web components work. It's actually been architected pretty nicely (and it may be the ugliest and most useless thing we've made yet in this course!), so let's make one more change and then we're done with it
-- 
+- We've added a lot to this component, and it is demoing much of the web component API. It's actually been architected pretty nicely, especially it you are using the version where the HTML is contained in the `template`. It also may be the ugliest and most useless thing we've made yet in this course!, so let's make one more change and then we're done with it
+- Add a property to the constructor - `this.count=0;`
+- Increment `this.count` every time the `<span>` text is clicked
+- Display this value in the `<span>`
 
 
 
