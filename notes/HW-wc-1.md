@@ -12,7 +12,7 @@
 - These 3rd party frameworks allow developers to break their user interfaces (written in HTML/CSS/JS) into reusable *components* such as search boxes, interactive product lists, site headers/footers/naviation systems, and so on. These component contain (encapsulate) the HTML tags, CSS and JS that the component needs to function
 - The major disadvantage of using 3rd party frameworks to design web sites are:
   - your framework specific code will likely go obsolete fairly quickly, which makes ongoing maintenance of a site time-consuming and expensive
-  - most of these frameworks are dependent on 3rd party tooling to transform the HTML/CSS/JS from the framework's proprietary syntax (for example, React's `JSX`), into a form that the browser can understand
+  - most of these frameworks are dependent on 3rd party tooling to transform the code from the framework's proprietary syntax (for example, React's `JSX`), into a form that the browser can understand (standard HTML/CSS/JS)
 - *Web Components* have been standardized for all of the major browsers, and will function "out of the box" without any required third-party tooling:
   - https://developer.mozilla.org/en-US/docs/Web/Web_Components
   - https://www.webcomponents.org/introduction
