@@ -82,7 +82,7 @@ this.span.onclick = () => {
 }
 ```
 
-- Implement  `disconnectedCallback()`
+- Implement `disconnectedCallback()`
 - This will be called when the component is removed from the DOM
 
 ```js
@@ -91,20 +91,39 @@ disconnectedCallback(){
 }
 ```
 
-- Test it!
+- Test it! The year should increase by one every time the component's text is clicked
 - PS - you can get rid of the annoying habit of the `<igm-footer>` text to keep being selected, with this CSS rule - put it in the `IGMFooter` component:
 
 ```css
 user-select: none;
 ```
 
-- Test it - the year should increase by one every time the component text is clicked
-- In the debugger, let's put some breakpoints in, so we can see the lifecycle of the component
-- From the console, you can test the `disconnectedCallback()` method with this line ``
+## III-A. Inspect the code
+- In the debugger, let's put some breakpoints in, so we can see the lifecycle of the component:
+  - put these breakpoints in `constructor()`, `connectedCallback()`, `disconnectedCallback()`, `attributeChangedCallback()` and `observedAttributes()`
+  - it would be a goood idea to comment out the HTML so that there's only one component being added to the page
+- From the console, you can now see the `disconnectedCallback()` method fired - type in this line of code - `document.querySelector("igm-footer:first-of-type").remove()`
+- OR, you could have the component be removed from the DOM when the `<hr>` is clicked on:
+
+```js
+this.shadowRoot.querySelector("hr").onclick = () => {
+ this.remove();
+}
+```
+
+**... moving on ...**
+- What does this line of code do?
+  - `let year = +this.dataset.year + 1;`
+  - How else could we write it?
+- Change the function that `this.span.onclick` points at from an ES6 arrow function to a regular ES5 function - ex. `funtion(){...}`
+  - test the code - what happens
+  - why?
 
 <hr>
 
-## IV. Breakout Activity
+## IV. Homework
+- We've added a lot to this component, and it is illustrating a lot of how web componenets work (and it may be the ugliest and most useless thing we've made yet in this course!), but let's make one more chnage
+- 
 
 
 
