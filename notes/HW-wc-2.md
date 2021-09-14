@@ -7,7 +7,18 @@
 
 <hr>
 
-## I. Start files
+## I. Changing attribute values
+
+- Starting with one of the example files where we built `<igm-footer>` last time, add the following to HTML document's `<script>` tag:
+
+```js
+window.onload = () =>{
+  // get rid of the border of the first <igm-footer> - works!
+  document.querySelector("igm-footer:first-of-type").style.border = "none";
+  // change an attribute of the first <igm-footer> - fails!
+  document.querySelector("igm-footer:first-of-type").setAttribute("data-year",1066);
+}
+```
 
 
 <hr>
