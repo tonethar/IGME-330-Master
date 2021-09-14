@@ -127,7 +127,7 @@ hr{
 <hr>
 
 ## IV. Homework
-- We've added a lot to this component, and it is demoing much of the web component API. It's actually been architected pretty nicely, especially it you are using the version where the HTML is contained in the `template`. It also may be the ugliest and most useless thing we've made yet in this course!, so let's make one more change and then we're done with it
+- We've added a lot to this component, and it is demoing much of the web component API. It's actually been architected pretty nicely, especially it you are using the version where the HTML is contained in the `template`. *It also may be the ugliest and most useless thing we've made yet in this course!* So let's make one more change and then we're done with it
 - Add a property to the constructor - `this.count=0;`
 - Increment `this.count` every time the `<span>` text is clicked
 - Display this value in the `<span>`
