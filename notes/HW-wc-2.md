@@ -1,4 +1,4 @@
-# HW - Web Components-2 - more lifecycle method
+# HW - Web Components-2 - another lifecycle method
 
 ## Overview
 - This time we will add the `attributeChangedCallback()` lifecycle method to our `<igm-footer>`
