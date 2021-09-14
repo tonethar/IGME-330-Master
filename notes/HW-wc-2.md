@@ -1,7 +1,7 @@
-# HW - Web Components-2 - another lifecycle method
+# HW - Web Components-2 - more lifecycle methods
 
 ## Overview
-- This time we will add the `attributeChangedCallback()` lifecycle method to our `<igm-footer>`
+- This time we will add the `attributeChangedCallback()` `disconnectedCallback()` lifecycle methods to our `<igm-footer>`
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
   - HW - Web Components-2 (XX:XX)
 
@@ -78,8 +78,8 @@ this.span = this.shadowRoot.querySelector("span");
 
 ```js
 this.span.onclick = () => {
-  let year = +this.dataset.year++; // how does this line work?
-  this.span.dataset.text = year;
+  let year = +this.dataset.year + 1;
+  this.dataset.year = year;
 }
 ```
 
