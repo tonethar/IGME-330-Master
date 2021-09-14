@@ -90,7 +90,7 @@ disconnectedCallback(){
 ```
 
 - Test it!
-- PS - you can get rid of the annoying habit of the `<igm-footer>` text to keep being selected, with this CSS rule:
+- PS - you can get rid of the annoying habit of the `<igm-footer>` text to keep being selected, with this CSS rule - put it in the `IGMFooter` component:
 
 ```css
 user-select: none;
