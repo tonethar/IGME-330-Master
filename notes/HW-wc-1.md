@@ -31,7 +31,7 @@
 
 <hr>
 
-## II. An overview of a web component
+## II. Overview of a web component
 
 - to create a custom HTML element, you first need to extend the `HTMLElement` class
 - we then add in some or all of these component *lifecycle* methods
