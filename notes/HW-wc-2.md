@@ -15,7 +15,7 @@ window.onload = () =>{
   document.querySelector("igm-footer:first-of-type").style.border = "none";
   // change an attribute of the first <igm-footer> - fails!
   document.querySelector("igm-footer:first-of-type").setAttribute("data-year",1066);
-}
+};
 ```
 
 - The first line of code succeeds in getting rid of the border that we previously added with the document-level `<style>`
