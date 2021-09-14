@@ -40,8 +40,8 @@ static get observedAttributes(){
 
 ```js
 attributeChangedCallback(attributeName, oldVal, newVal){
-	console.log(attributeName, oldVal, newVal);
-	this.render();
+  console.log(attributeName, oldVal, newVal);
+  this.render();
 }
 ```
 
