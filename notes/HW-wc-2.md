@@ -1,7 +1,8 @@
 # HW - Web Components-2 - more lifecycle methods
 
 ## Overview
-- This time we will add the `attributeChangedCallback()` `disconnectedCallback()` lifecycle methods to our `<igm-footer>`
+- This time we will add the `attributeChangedCallback()` & `disconnectedCallback()` lifecycle methods to our `<igm-footer>`
+- We will also see how easy it is to add properties to our components by using vanilla JS in the component's constructor
 
 <hr>
 
