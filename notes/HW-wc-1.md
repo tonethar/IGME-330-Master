@@ -20,7 +20,7 @@
  - Web Components consist of 3 major technologies that are used together:
    - ***Custom Elements*** - a way that we can define our own custom DOM elements (tags), and to also extend built-in elements
      - *"Custom elements provide a way for authors to build their own fully-featured DOM elements. Although authors could always use non-standard elements in their documents, with application-specific behavior added after the fact by scripting or similar ..."* - https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements
-    - ***Shadow DOM*** - encapsulates CSS (style rules, class names etc are scoped to the component) and HTML (a component's DOM is self-contained and not detectable by `document.querySelector()`
+    - ***Shadow DOM*** - encapsulates HTML/CSS - style rules, class names etc are scoped to the component
       - https://developers.google.com/web/fundamentals/web-components/shadowdom
     - ***HTML Templates***
       - *"The `<template>` element is used to declare fragments of HTML that can be cloned and inserted in the document by script."* - https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
