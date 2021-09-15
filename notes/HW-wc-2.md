@@ -22,7 +22,7 @@ window.onload = () =>{
 - The first line of code succeeds in getting rid of the border that we previously added with the document-level `<style>`
 - The second line of code that attempts to change the value of the `data-year` FAILS - why?
   - Because when attribute values are changed from their starting values, we need to write code that detects that change, and then re-renders the DOM
-- Try using the web inspector to change the value of `data-year` directly - and the same thing happens - the text in the component's `<span>` fails to chnage
+- Try using the web inspector to change the value of `data-year` directly - and the same thing happens - the text in the component's `<span>` fails to change
 - So how do we get the text to update? Easy! The `attributeChangedCallback()` lifecycle method!
 
 <hr>
