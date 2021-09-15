@@ -10,7 +10,7 @@
       - https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#high-level_view
   - Custom *element attribute names* (those that start with `data-`) MUST be all lower case:
     - YES! - `<my-header data-subtitle="Intro"></my-header>`
-    - NO! - `<my-header data-suBtitle="Intro"></my-header>`
+    - NO! - `<my-header data-subTitle="Intro"></my-header>`
     - https://html.spec.whatwg.org/multipage//dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
 
 <hr>
