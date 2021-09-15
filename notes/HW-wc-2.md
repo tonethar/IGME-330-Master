@@ -3,6 +3,9 @@
 ## Overview
 - This time we will add the `attributeChangedCallback()` & `disconnectedCallback()` lifecycle methods to our `<igm-footer>`
 - We will also see how easy it is to add properties to our components by using vanilla JS in the component's constructor
+- BTW:
+  - Custom *element names* MUST have a dash in them - ex. `<my-header>` NOT `<myHeader>` - https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#high-level_view
+  - Custom *element attribute names* (thise that start with `data-` MUST be all lower case ex, `<my-header data-subtitle="Intro"></my-header>` NOT `<my-header data-suBtitle="Intro"></my-header>` - https://html.spec.whatwg.org/multipage//dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
 
 <hr>
 
