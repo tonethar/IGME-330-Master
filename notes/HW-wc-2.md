@@ -150,4 +150,4 @@ hr{
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**HW - Web Components I**](HW-wc-1.md)  |  [**IGME-330**](../README.md) | :-\
+|  [**HW - Web Components I**](HW-wc-1.md)  |  [**IGME-330**](../README.md) | [**HW - Web Components III**](HW-wc-3.md) 
