@@ -5,11 +5,13 @@
 - Coming soon!
 - An announcement will be made in Slack once this document has been updated
 
+<hr>
 
 ## II. Start Code
 
 <!--- [](_files/) -->
 
+<hr>
 
 ## III. Screen Shots of completed version
 
@@ -28,3 +30,10 @@
   <sw-footer data-title="Ace Coder" data-year="2021"></sw-footer>
 </body>
 ```
+
+
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|  [**HW - Web Components II**](HW-wc-2.md)  |  [**IGME-330**](../README.md) | :-\
