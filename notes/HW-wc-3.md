@@ -11,7 +11,7 @@
 
 - Start files are here: [sw-start.zip](_files/sw-start.zip)
 - Here's a screenshot of the starting version
-- It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use 3 web components
+- It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use custom 3 web components, created by us
 
 ![screenshot](_images/_wc/HW-wc-9.png)
 
