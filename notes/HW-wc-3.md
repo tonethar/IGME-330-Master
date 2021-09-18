@@ -46,11 +46,24 @@
 ## IV. Walk through start code
 
 - A few newish things in here:
-  - All of the functions in this app (the **src/main.js** file) are [ES 6 Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). Because arrow function can only be called *after* they are declared, the best way to look at how the app is structured is to start at the bottom of the file
+  - All of the functions in this app (the **src/main.js** file) are [ES 6 Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). Because arrow function can only be called *after* they are declared, the best way to look at how the app is structured is to start at the bottom of the file:
+
+<hr>
+
+- `jsonLoaded`:
+  - converts the loaded JSON data structure from an array to an object, so that we can look up the characters by their *key* (`id`)
+  - creates multiple `<option>` tags by looping through all of the keys of the JSON
+  - creates a default character - "Stormtrooper Tim" - and passes it to `showCharacter()`
+
+<hr>
+
+- `loadFile()`:
   - `fetch()` and promises, `async`, `await`:
     -  with no error handling code, and we'll get away with that because it's a local file we are loading
     -  we covered `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
-    - so our Ajaxhelper function is very simple, but does the job:
+    - so our Ajax helper function is very simple, but does the job:
+
+<hr>
 
 ```js
 const loadFile = (url,callback) => {
@@ -62,7 +75,16 @@ const loadFile = (url,callback) => {
 };
 ```
 
-- 
+<hr>
+
+- `selectChange()`:
+  - triggered when the user choose a new row of the `<select>`
+  - does nothing if the first `<option>` is selected, or if for some reason there's no matching character in `swcJSON`
+
+<hr>
+
+`showCharacter()`:
+  - 
 
 <hr><hr>
 
