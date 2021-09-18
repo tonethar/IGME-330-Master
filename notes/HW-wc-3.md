@@ -11,7 +11,7 @@
 
 - Start files are here: [sw-start.zip](_files/sw-start.zip)
 - Here's a screenshot of the starting version
-- It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use custom 3 web components, created by us
+- It has most of the functionality of the completed version, except that we are going to rewrite much of the app to use custom 3 web components, created by us
 
 ![screenshot](_images/_wc/HW-wc-9.png)
 
@@ -48,7 +48,7 @@
 - A few newish things in here:
   - `fetch()`:
     -  with no error handling code, and we'll get away with that because it's a local file we are loading
-    -  we coverd `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
+    -  we covered `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
 
 
 <hr><hr>
