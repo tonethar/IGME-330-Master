@@ -101,9 +101,11 @@ const loadFile = (url,callback) => {
 
 ## VI. Homework
 
+- Get everything working
 - Add 2 more properties of each character to the `<sw-card>`
   - one of these must be an array - for example `apprentices` (so yes you'll need to loop on it)
   - make sure that the code still runs if that array is not present (for example, C-3P0 doesn't have any apprentices)
+- Create a `<sw-footer>` component, and add it to the page
 
 <hr><hr>
 
