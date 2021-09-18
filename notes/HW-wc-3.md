@@ -100,7 +100,7 @@ const loadFile = (url,callback) => {
 - Watch the videos!
   - [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)
   - [HW - Web Components 3B - Implement `<sw-header>` (08:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d72258d0-8419-4735-aeaa-ada7014993b4&start=0)
-  - [HW - Web Components 3C - Implement `<sw-card>` (15:32)]()
+  - [HW - Web Components 3C - Implement `<sw-card>` (15:32)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=066099ca-bd71-444f-a0a6-ada7016144b1&start=0)
  <!-- - [HW - Web Components 3D - Multiple `<sw-card>` instances (XX:XX)]() -->
  
 <hr>
