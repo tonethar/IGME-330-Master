@@ -9,11 +9,14 @@
 
 ## II. Start Code
 
-<!--- [](_files/) -->
+<!--- - Start files are here: [](_files/) -->
+- Here's a screenshot of the starting version. It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use 3 web components
+
+![screenshot](_images/_wc/HW-wc-9.png)
 
 <hr>
 
-## III. Screen Shots of completed version
+## III. Screen Shot of completed version
 
 - Note that we have 3 components below:
 
@@ -33,7 +36,7 @@
 
 <hr>
 
-![screenshot](_images/_wc/HW-wc-9.png)
+![screenshot](_images/_wc/HW-wc-10.png)
 
 <hr><hr>
 
