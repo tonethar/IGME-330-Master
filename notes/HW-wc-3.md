@@ -43,7 +43,7 @@
 
 <hr>
 
-## IV. Walk through start code
+## IV. Walkthrough start code
 
 - A few newish things in here:
   - All of the functions in this app (the **src/main.js** file) are [ES 6 Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). Because arrow function can only be called *after* they are declared, the best way to look at how the app is structured is to start at the bottom of the file:
@@ -85,7 +85,25 @@ const loadFile = (url,callback) => {
   - updates the `innerHTML` of the `<section>` with the character info
   - note `??` - the [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
   - this *is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.*
-  - think of it as a slightly safer way to assign default values than using logical OR like this - `let val = 100 || 42`
+  - think of it as a slightly safer way to assign default values than using logical OR like this - `let name = "Fred" || "No name given"`
+  - try this in the console:
+    - `let input = 0`
+    - `let val = input || 42` - val=42 because zero is falsy
+    - `let val = input ?? 42` - val=0 because zero is not `undefined` or `null`
+
+<hr>
+
+## V. Walkthrough (write) the "done" code
+
+- Watch the videos!
+
+<hr>
+
+## VI. Homework
+
+- Add 2 more properties of each character to the `<sw-card>`
+  - one of these must be an array - for example `apprentices` (so yes you'll need to loop on it)
+  - make sure that the code still runs if that array is not present (for example, C-3P0 doesn't have any apprentices)
 
 <hr><hr>
 
