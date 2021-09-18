@@ -20,7 +20,7 @@
 
 ## III. Screen Shot of completed version
 
-- Most of the app functionality has been broken out into 3 components, and the final version allows us to add multiple `<sw-card>` instances to the page
+- Most of the app functionality has been broken out into 3 components, and the final version allows us to add multiple `<sw-card>` instances to the page, and also remove them
 - Note the HTML below that shows 2 components - `<sw-header>` & `<sw-footer>` and `#cardlist` which is where our `<sw-card>` instances will go
 
 
