@@ -19,8 +19,9 @@
 
 ## III. Screen Shot of completed version
 
-- Note the HTML for the 3 components below
-- The final version allows us to add multiple `<sw-card>` instances to the page
+- Most of the app functionality has been broken out into 3 components, and the final version allows us to add multiple `<sw-card>` instances to the page
+- Note the HTML below that shows 3 components
+
 
 ```html
 <body>
