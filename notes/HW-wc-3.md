@@ -99,7 +99,7 @@ const loadFile = (url,callback) => {
 
 - Watch the videos!
   - [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)
-
+  <!-- - [HW - Web Components 3B - Implement `<sw-header>` (08:31)]() -->
 <hr>
 
 ## VI. Homework
