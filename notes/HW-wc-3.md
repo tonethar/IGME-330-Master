@@ -43,11 +43,12 @@
 
 <hr>
 
-## IV. Walkthrough
+## IV. Walk through start code
 
-### IV-A. Look at start code
-- A few new things in here:
-  - `fetch()` (with no error handling code)
+- A few newish things in here:
+  - `fetch()`:
+    -  with no error handling code, and we'll get away with that because it's a local file we are loading
+    -  we coverd `fetch()` in [Ajax-5](ajax-5.md), [Ajax-6](ajax-6.md) and [Ajax-7](ajax-7.md)
 
 
 <hr><hr>
