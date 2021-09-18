@@ -2,8 +2,8 @@
 
 ## I. Overview
 
-- Coming soon!
-- An announcement will be made in Slack once this document has been updated
+- Video links are below
+- Coming soon! An announcement will be made in Slack once this document has been updated
 
 <hr>
 
