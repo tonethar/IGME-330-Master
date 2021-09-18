@@ -10,7 +10,8 @@
 ## II. Start Code
 
 <!--- - Start files are here: [](_files/) -->
-- Here's a screenshot of the starting version. It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use 3 web components
+- Here's a screenshot of the starting version
+- It has most of the fuctionality of the completed version, except that we are going to rewrite much of the app to use 3 web components
 
 ![screenshot](_images/_wc/HW-wc-9.png)
 
@@ -18,7 +19,8 @@
 
 ## III. Screen Shot of completed version
 
-- Note that we have 3 components below:
+- Note the HTML for the 3 components below
+- The final version allows us to add multiple `<sw-card>` instances to the page
 
 ```html
 <body>
@@ -27,7 +29,7 @@
 		<select id="character-select"></select>
 		<hr>
 		<div class="cardlist">
-			<!-- This is where the sw-cards are displayed -->
+			<!-- This is where the <sw-cards> are displayed -->
 		</div>
 	</main>
 	<sw-footer data-title="Ace Coder" data-year="2021"></sw-footer>
