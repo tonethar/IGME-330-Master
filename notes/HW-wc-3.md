@@ -77,7 +77,7 @@ const loadFile = (url,callback) => {
 <hr>
 
 - `selectChange()`:
-  - triggered when the user choose a new row of the `<select>`
+  - triggered when the user chooses a new row of the `<select>`
   - does nothing if the first `<option>` is selected, or if for some reason there's no matching character in `swcJSON`
 
 <hr>
