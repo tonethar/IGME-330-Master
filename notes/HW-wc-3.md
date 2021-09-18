@@ -21,20 +21,20 @@
 ## III. Screen Shot of completed version
 
 - Most of the app functionality has been broken out into 3 components, and the final version allows us to add multiple `<sw-card>` instances to the page
-- Note the HTML below that shows 3 components
+- Note the HTML below that shows 2 components - `<sw-header>` & `<sw-footer>` and `#cardlist` which is where our `<sw-card>` instances will go
 
 
 ```html
 <body>
-	<sw-header data-title="Star Wars Character Finder"></sw-header>
-	<main>
-		<select id="character-select"></select>
-		<hr>
-		<div class="cardlist">
-			<!-- This is where the <sw-cards> are displayed -->
-		</div>
-	</main>
-	<sw-footer data-title="Ace Coder" data-year="2021"></sw-footer>
+  <sw-header data-title="Star Wars Character Finder"></sw-header>
+  <main>
+    <select id="character-select"></select>
+    <hr>
+    <div class="cardlist">
+      <!-- This is where the <sw-cards> are displayed -->
+    </div>
+  </main>
+  <sw-footer data-title="Ace Coder" data-year="2021"></sw-footer>
 </body>
 ```
 
