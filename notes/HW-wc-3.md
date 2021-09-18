@@ -51,13 +51,6 @@
 
 <hr>
 
-- `jsonLoaded`:
-  - converts the loaded JSON data structure from an array to an object, so that we can look up the characters by their *key* (`id`)
-  - creates multiple `<option>` tags by looping through all of the keys of the JSON
-  - creates a default character - "Stormtrooper Tim" - and passes it to `showCharacter()`
-
-<hr>
-
 - `loadFile()`:
   - `fetch()` and promises, `async`, `await`:
     -  with no error handling code, and we'll get away with that because it's a local file we are loading
@@ -73,6 +66,13 @@ const loadFile = (url,callback) => {
   fetchPromise();
 };
 ```
+
+<hr>
+
+- `jsonLoaded`:
+  - converts the loaded JSON data structure from an array to an object, so that we can look up the characters by their *key* (`id`)
+  - creates multiple `<option>` tags by looping through all of the keys of the JSON
+  - creates a default character - "Stormtrooper Tim" - and passes it to `showCharacter()`
 
 <hr>
 
