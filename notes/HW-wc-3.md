@@ -40,6 +40,15 @@
 
 ![screenshot](_images/_wc/HW-wc-10.png)
 
+<hr>
+
+## IV. Walkthrough
+
+### IV-A. Look at start code
+- A few new things in here:
+  - `fetch()` (with no error handling code)
+
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
