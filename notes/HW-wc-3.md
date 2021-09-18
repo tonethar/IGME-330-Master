@@ -46,10 +46,23 @@
 ## IV. Walk through start code
 
 - A few newish things in here:
-  - `fetch()`:
+  - All of the functions in this app (the **src/main.js** file) are [ES 6 Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). Because arrow function can only be called *after* they are declared, the best way to look at how the app is structured is to start at the bottom of the file
+  - `fetch()` and promises, `async`, `await`:
     -  with no error handling code, and we'll get away with that because it's a local file we are loading
     -  we covered `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
+    - so our Ajaxhelper function is very simple, but does the job:
 
+```js
+const loadFile = (url,callback) => {
+  const fetchPromise = async () => {
+    const response = await fetch(url);
+    callback(await response.json());
+  }
+  fetchPromise();
+};
+```
+
+- 
 
 <hr><hr>
 
