@@ -63,8 +63,6 @@
     -  we covered `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
     - so our Ajax helper function is very simple, but does the job:
 
-<hr>
-
 ```js
 const loadFile = (url,callback) => {
   const fetchPromise = async () => {
@@ -84,7 +82,10 @@ const loadFile = (url,callback) => {
 <hr>
 
 `showCharacter()`:
-  - 
+  - updates the `innerHTML` of the `<section>` with the character info
+  - note `??` - the [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+  - this *is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.*
+  - think of it as a slightly safer way to assign default values than using logical OR like this - `let val = 100 || 42`
 
 <hr><hr>
 
