@@ -101,16 +101,16 @@ const loadFile = (url,callback) => {
   - [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)
   - [HW - Web Components 3B - Implement `<sw-header>` (08:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d72258d0-8419-4735-aeaa-ada7014993b4&start=0)
   - [HW - Web Components 3C - Implement `<sw-card>` (15:32)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=066099ca-bd71-444f-a0a6-ada7016144b1&start=0)
- <!-- - [HW - Web Components 3D - Multiple `<sw-card>` instances (XX:XX)]() -->
+  - [HW - Web Components 3D - Multiple `<sw-card>` instances (06:49)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15b3231b-b7df-40b2-9acc-ada80125d594&start=0)
  
 <hr>
 
 ## VI. Homework
 
-- Get everything working
+- Get everything working that we covered in 3A-3D above
 - Add 2 more properties of each character to the `<sw-card>`
   - one of these must be an array - for example `apprentices` (so yes you'll need to loop on it)
-  - make sure that the code still runs if that array is not present (for example, C-3P0 doesn't have any apprentices)
+  - make sure that the code still runs if that array is not present (for example, C-3P0 doesn't have any apprentices, meaning that the `apprentices` property is `undefined`)
 - Create a `<sw-footer>` component, and add it to the page
 
 <hr><hr>
