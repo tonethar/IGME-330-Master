@@ -2,8 +2,7 @@
 
 ## I. Overview
 
-- Video links are below
-- Coming soon! An announcement will be made in Slack once this document has been updated
+- Let's make a useful app that consists mostly of *web components* - notes and video links are below
 
 <hr>
 
