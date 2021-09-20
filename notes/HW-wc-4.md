@@ -44,6 +44,37 @@
   <!-- Web Components Polyfill for older browsers -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
   <script>
+  // I. <my-list> web component stuff
+  const template = document.createElement("template");
+	template.innerHTML = `
+	<style>
+		:host{
+			background-color: #dfdfdf;
+			display: inline-block;
+			padding: .25rem;
+			width: 100px;
+			font-family: sans-serif;
+			color: black;
+		}
+		h2{
+			font-size: .8rem;
+			text-align: center;
+			margin: 0 auto .2rem auto;
+		}
+		ul{
+			margin: 0 auto auto 16px;
+			padding-left: 0;
+		}
+		ul li{
+			font-size: .7rem;
+		}
+	</style>
+	<div>
+	<h2>???</h2>
+	<ul></ul>
+	<div>
+	`;
+
     class MyList extends HTMLElement{
 		constructor(){
 			super();
