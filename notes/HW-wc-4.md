@@ -18,6 +18,7 @@
     h1{
       font-family: sans-serif;
     }
+	  
     /* https://www.w3schools.com/howto/howto_css_equal_height.asp */
     /* https://stackoverflow.com/questions/18346083/space-between-divs-display-table-cell/18346159 */
     .col-container{
