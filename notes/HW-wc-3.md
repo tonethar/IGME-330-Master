@@ -97,6 +97,7 @@ const loadFile = (url,callback) => {
 ## V. Walk through (write) the "done" code
 
 - Watch the videos!
+- Note the comments, and some errata, for each video
 
 **#1) [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)**
     
@@ -116,6 +117,7 @@ this.quotes = ["I've got a bad feeling about this ...","Will someone get this bi
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+- In the `<style>` section of **sw-card.js**, change `overflow: scroll;` to `overflow: auto;` - because some browsers will add scroll bars even when you don't need them
 
 **#4) [HW - Web Components 3D - Multiple `<sw-card>` instances (06:49)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15b3231b-b7df-40b2-9acc-ada80125d594&start=0)**
  
