@@ -15,25 +15,25 @@
   <meta charset="utf-8" />
   <title>&lt;my-list> Component Demo</title>
   <style>
-		h1{
-			font-family: sans-serif;
-		}
-		/* https://www.w3schools.com/howto/howto_css_equal_height.asp */
-		/* https://stackoverflow.com/questions/18346083/space-between-divs-display-table-cell/18346159 */
-		.col-container{
-			display: table;
-			border-collapse: separate;
-			border-spacing: 10px;
-		}
+    h1{
+      font-family: sans-serif;
+    }
+    /* https://www.w3schools.com/howto/howto_css_equal_height.asp */
+    /* https://stackoverflow.com/questions/18346083/space-between-divs-display-table-cell/18346159 */
+    .col-container{
+      display: table;
+      border-collapse: separate;
+      border-spacing: 10px;
+    }
 
-		.col-container > my-list{
-				display: table-cell;
-				border: 1px solid black;
-				width: 150px;
-				max-width: 150px;
-				overflow: auto;
-		}
-	</style>
+      .col-container > my-list{
+        display: table-cell;
+        border: 1px solid black;
+        width: 150px;
+        max-width: 150px;
+        overflow: auto;
+       }	
+  </style>
   <!-- Web Components Polyfill for older browsers -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
   <script>
