@@ -171,4 +171,4 @@ import {loadFile} from "./utils.js";
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**HW - Web Components II**](HW-wc-2.md)  |  [**IGME-330**](../README.md) | :-\
+|  [**HW - Web Components II**](HW-wc-2.md)  |  [**IGME-330**](../README.md) | [**HW - Web Components IV**](HW-wc-4.md) 
