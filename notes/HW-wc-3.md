@@ -98,8 +98,8 @@ const loadFile = (url,callback) => {
 
 - Watch the videos!
   - [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)
-  - [HW - Web Components 3B - Implement `<sw-header>` (08:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d72258d0-8419-4735-aeaa-ada7014993b4&start=0):
-    - here is some code you can copy (we didn't show this very well in the video)
+  - [HW - Web Components 3B - Implement `<sw-header>` (08:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d72258d0-8419-4735-aeaa-ada7014993b4&start=0)
+    - here is some code you can copy (we didn't show this very well in the video):
 
 ```js
 this.quotes = ["I've got a bad feeling about this ...","Will someone get this big walking carpet out of my way?!","Aren’t you a little short for a stormtrooper?","I hope you know what you’re doing.","Oh, it’s not like that at all. He’s my brother.","We have powerful friends. You’re going to regret this."];
