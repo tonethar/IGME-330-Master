@@ -163,7 +163,10 @@ import {loadFile} from "./utils.js";
 
 - Get everything working that we covered in 3A-3D above
 - Add 2 more properties of each character to the `<sw-card>`
-  - one of these must be an array - for example `apprentices` (so yes you'll need to loop on it)
+  - one of these must be an array - for example `apprentices` (so yes you'll need to loop on it):
+    - there are issues with passing in arrays to attributes - they will get converted to a string - solutions:
+      - In `render()`, use `JSON.parse()` or `string.split()` as is appropriate
+      - OR create a custom JS property - see [**HW-wc-4.md**](HW-wc-4.md) for that
   - make sure that the code still runs if that array is not present (for example, C-3P0 doesn't have any apprentices, meaning that the `apprentices` property is `undefined`)
 - Create a `<sw-footer>` component, and add it to the page
 
