@@ -109,6 +109,29 @@ const loadFile = (url,callback) => {
 
 - The `loadFile()` function is something that we can keep reusing, let's move that into a seperate file and make it an ES6 module
 
+1) Create a file named **src/utils.js** and move `loadFile()` into it. Because all of the code in an ES6 module is scoped to the file it is declared in, we will need to ***`export`*** it so that it can be used in other JS files. Go ahead an move `loadFile()`  from **main.js** to **utils.js**, and add an `export` at the bottom:
+
+```js
+const loadFile = (url,callback) => {
+  const fetchPromise = async () => {
+    const response = await fetch(url);
+    callback(await response.json());
+  }
+  fetchPromise();
+};
+
+export {loadFile};
+```
+
+2) At the top of **main.js**, ***`import*** `loadFile()`:
+
+```js
+import {loadFile} from "./utils.js";
+```
+
+3) Test your program, it should work as before.
+
+
 <hr>
 
 ## VII. Homework
