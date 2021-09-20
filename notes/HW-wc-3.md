@@ -118,6 +118,13 @@ this.quotes = ["I've got a bad feeling about this ...","Will someone get this bi
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
 - In the `<style>` section of **sw-card.js**, change `overflow: scroll;` to `overflow: auto;` - because some browsers will add scroll bars even when you don't need them
+- Around the 12:00 mark on the video, we implemented the `render()` method, followed by the rest of the constructor code:
+  - but it makes more sense to finish the constructor code *first*, then you'll have to deal with fewer error messages. That code is visible at 12:20
+- Finally, the right-most portion of the `render()` method is cut off, so here's a screenshot of the completed version:
+
+![screenshot](_images/_wc/HW-wc-11.png)
+
+
 
 **#4) [HW - Web Components 3D - Multiple `<sw-card>` instances (06:49)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15b3231b-b7df-40b2-9acc-ada80125d594&start=0)**
  
