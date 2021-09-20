@@ -105,7 +105,13 @@ const loadFile = (url,callback) => {
  
 <hr>
 
-## VI. Homework
+## VI. One more thing
+
+- The `loadFile()` function is something that we can keep reusing, let's move that into a seperate file and make it an ES6 module
+
+<hr>
+
+## VII. Homework
 
 - Get everything working that we covered in 3A-3D above
 - Add 2 more properties of each character to the `<sw-card>`
