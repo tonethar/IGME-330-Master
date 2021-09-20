@@ -94,7 +94,7 @@ const loadFile = (url,callback) => {
 
 <hr>
 
-## V. Walkthrough (write) the "done" code
+## V. Walk through (write) the "done" code
 
 - Watch the videos!
 
