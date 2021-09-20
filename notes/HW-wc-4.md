@@ -8,7 +8,7 @@
 - Other new stuff to talk about:
   - arrays in JavaScript are passed by *reference*, but we wanted to have our component to have its own *copy* to work on
   - for that, we used the [JS spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-  - JS Object getter/setter syntax:
+  - JS Object getter/setter syntax with a "backing" property:
     - [get](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
     - [set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)
 
