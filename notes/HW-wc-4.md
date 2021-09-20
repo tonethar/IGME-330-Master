@@ -168,7 +168,10 @@
 ## III. Homework
 
 - None, because right now we want you to focus on Project 1 
-- Consider working on this on your own, and implementing some of the operation that were suggested in the code comments
+- Consider working on this on your own:
+  - implement some of the operation that were suggested in the code comments - `add()`, `addAtIndex()`, `removeAtIndex()`, `clear()` etc
+  - you could also add a form field and buttons so that the user could add items
+  - a way to delete items would be nice too
 
 <hr><hr>
 
