@@ -26,13 +26,13 @@
       border-spacing: 10px;
     }
 
-      .col-container > my-list{
-        display: table-cell;
-        border: 1px solid black;
-        width: 150px;
-        max-width: 150px;
-        overflow: auto;
-       }	
+    .col-container > my-list{
+      display: table-cell;
+      border: 1px solid black;
+      width: 150px;
+      max-width: 150px;
+      overflow: auto;
+     }	
   </style>
   <!-- Web Components Polyfill for older browsers -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.6.0/webcomponents-loader.min.js"></script>
