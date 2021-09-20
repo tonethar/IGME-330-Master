@@ -122,7 +122,7 @@ const loadFile = (url,callback) => {
 export {loadFile};
 ```
 
-2) At the top of **main.js**, ***`import*** `loadFile()`:
+2) At the top of **main.js**, ***`import`*** `loadFile()`:
 
 ```js
 import {loadFile} from "./utils.js";
