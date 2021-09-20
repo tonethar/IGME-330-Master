@@ -100,11 +100,11 @@ const loadFile = (url,callback) => {
 
 #1) [HW - Web Components 3A - Walk Through Start Code (08:46)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9441fc-595e-4589-9ab6-ada701395685&start=0)
     
-    - The walkthrough notes on this are in **section IV.** above
+- The walkthrough notes on this are in **section IV.** above
 
 #2) [HW - Web Components 3B - Implement `<sw-header>` (08:31)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d72258d0-8419-4735-aeaa-ada7014993b4&start=0)
     
-    - here is some code you can copy (we didn't show this very well in the video - you couldn't see the entire array):
+- here is some code you can copy (we didn't show this very well in the video - you couldn't see the entire array):
 
 ```js
 this.quotes = ["I've got a bad feeling about this ...","Will someone get this big walking carpet out of my way?!","Aren’t you a little short for a stormtrooper?","I hope you know what you’re doing.","Oh, it’s not like that at all. He’s my brother.","We have powerful friends. You’re going to regret this."];
@@ -112,10 +112,10 @@ this.quotes = ["I've got a bad feeling about this ...","Will someone get this bi
 
 #3) [HW - Web Components 3C - Implement `<sw-card>` (15:32)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=066099ca-bd71-444f-a0a6-ada7016144b1&start=0)
     
-    - in this video we introduce ES6 modules - you can read about them here:
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+- in this video we introduce ES6 modules - you can read about them here:
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
 
 #4) [HW - Web Components 3D - Multiple `<sw-card>` instances (06:49)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15b3231b-b7df-40b2-9acc-ada80125d594&start=0)
  
