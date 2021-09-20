@@ -2,7 +2,7 @@
 
 ## I. Overview
 
-- This app demos how to pass array and object data to a web component, which is an issue beecause the values of HTML attributes must be strings
+- This app demos how to pass array and object data to a web component, which is an issue beecause the values of HTML attributes must be strings:
   - https://stackoverflow.com/questions/57654383/how-to-pass-objector-associative-array-as-value-of-attribute-to-my-web-compone
 - The simplest solution to this issue is to create a *property* in the component's constructor, and then set it using JavaScript. We did not end up using HTML custom attributes with this component
 - Other new stuff totalk about:
