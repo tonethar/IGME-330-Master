@@ -26,7 +26,11 @@
 
 ## III. Get Started
 
+<hr>
+
 1) Make a copy of **list-component.html** and name it **list-component-with-event.html**
+
+<hr>
 
 2) Add a `clear()` method to the `MyList` class - it empties out the `_items` array - you can test it from the console:
 
@@ -36,6 +40,8 @@ colorList.clear() // empties the `_items` array, which will be visible on the pa
 colorList.items // shows an empty array `[]`
 ```
 
+<hr>
+
 3) Add a `length()` getter method to the `MyList` class - it returns the length of `_items` - you can test it from the console:
 
 ```js
@@ -43,13 +49,21 @@ colorList.items // shows an empty array `[]`
 colorList.length // returns number of items in list
 ```
 
+<hr>
+
 4) Add some HTML to the bottom of the page:
 
 ![screenshot](_images/_wc/HW-wc-13.png)
 
+<hr>
+
 5) Initialize the `inputText` and `outputText` variables (you won't be using the latter variable until the end of this)
 
 ![screenshot](_images/_wc/HW-wc-14.png)
+
+<hr>
+
+6)
 
 <hr><hr>
 
