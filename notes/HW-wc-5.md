@@ -43,7 +43,7 @@ colorList.length // returns number of items in list
 
 4) Add some HTML to the bottom of the page:
 
-![screenshot](_images/_wc/HW-wc-12.png)
+![screenshot](_images/_wc/HW-wc-13.png)
 
 <hr><hr>
 
