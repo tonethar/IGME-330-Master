@@ -16,6 +16,8 @@
 
 ## II. Start Code
 
+**list-component.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
