@@ -28,7 +28,7 @@
 
 1) Make a copy of **list-component.html** and name it **list-component-with-event.html**
 
-2) Add a `clear()` method to the `MyList` class - you can test it from the console:
+2) Add a `clear()` method to the `MyList` class - it empties out the `_items` array - you can test it from the console:
 
 ```js
 // type this in the browser console to test the code you wrote!
