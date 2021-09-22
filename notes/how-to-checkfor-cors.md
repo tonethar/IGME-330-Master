@@ -2,17 +2,15 @@
 
 <hr>
 
-1) First, open the inspector and select the Network tab
+1) **First, open the inspector and select the *Network* tab**
+
+2) **Navigate to your API URL (You should see raw JSON in the browser):**
 
 ![screenshot](_images/cors-1.png)
 
 <hr>
 
-2) Navigate to your API URL (You should see raw JSON in the browser)
-
-<hr>
-
-3) In the Network tab, select the API URL
+3) **In the Network tab, select the API URL:**
 
 - Select the ***Headers*** tab (probably selected by default)
 - Scroll down until you see the ***Response Headers*** section.
