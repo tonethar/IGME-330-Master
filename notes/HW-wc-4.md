@@ -135,7 +135,7 @@
 			}
 		}
 		// ...
-		// for practice, you should implement add(), addAtIndex(), removeAtIndex(), clear() etc
+		// for practice, you should implement addAtIndex(), removeAtIndex(), clear() etc
 	} 
 
 	customElements.define('my-list', MyList);
