@@ -47,6 +47,10 @@ colorList.length // returns number of items in list
 
 ![screenshot](_images/_wc/HW-wc-13.png)
 
+5) Initialize the `inputText` and `outputText` variables (you won't be using the latter variable until the end of this)
+
+![screenshot](_images/_wc/HW-wc-14.png)
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
