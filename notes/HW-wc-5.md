@@ -26,6 +26,9 @@
 
 ## III. Get Started
 
+1) Make a copy of **list-component.html** and name it **list-component-with-event.html**
+
+2) Add a 
 
 
 <hr><hr>
