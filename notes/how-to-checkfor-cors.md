@@ -1,10 +1,16 @@
 # How to check your API for CORS access
 
+<hr>
+
 1) First, open the inspector and select the Network tab
 
 ![screenshot](_images/cors-1.png)
 
+<hr>
+
 2) Navigate to your API URL (You should see raw JSON in the browser)
+
+<hr>
 
 3) In the Network tab, select the API URL
 
@@ -15,3 +21,5 @@
 - If you don’t see any headers, try reloading the page
 
 ![screenshot](_images/cors-2.png)
+
+<hr>
