@@ -18,7 +18,7 @@
 
 ## II. Goal
 
-- We are going to take the `<my-list>` component from last time and give it the ability to emit a `lengthchanged` event, this event will be broadcast by the component whenever the length of the `items` array changes. We can then write code (outside of the component) that will *listen* for this event, and then update the UI with the new length
+- We are going to take the `<my-list>` component from [last time](HW-wc-4.md) and give it the ability to emit a `lengthchanged` event, this event will be broadcast by the component whenever the length of the `items` array changes. We can then write code (outside of the component) that will *listen* for this event, and then update the UI with the new length
 
 ![screenshot](_images/_wc/HW-wc-12.png)
 
@@ -32,4 +32,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**HW - Web Components IX**](HW-wc-4.md)  |  [**IGME-330**](../README.md) | :-\
+|  [**HW - Web Components IV**](HW-wc-4.md)  |  [**IGME-330**](../README.md) | :-\
