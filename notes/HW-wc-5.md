@@ -31,6 +31,7 @@
 2) Add a `clear()` method to the `MyList` class - you can test it from the console:
 
 ```js
+// type this in the browser console to test the code you wrote!
 colorList.clear() // empties the `_items` array, which will be visible on the page
 colorList.items // shows an empty array `[]`
 ```
@@ -38,6 +39,7 @@ colorList.items // shows an empty array `[]`
 3) Add a `length()` getter method to the `MyList` class - it returns the length of `_items` - you can test it from the console:
 
 ```js
+// type this in the browser console to test the code you wrote!
 colorList.length // returns number of items in list
 ```
 
