@@ -11,6 +11,8 @@
   - the concept is the same as listening for `window.onload` or `btnSend.onclick` events, but in this case we are going to listen for `colorList.onlengthchanged` (but we'll have to use the more modern syntax istead - `colorList.addEventListener("lengthchanged", e => doStuff(e)`)
 `)
   - you can get an overview of this here - [MDN-Creating and triggering events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
+- What we are trying to promote here is *loose coupling* of our software components, with minimal dependencies, which makes it easier to reuse and maintain our code
+- BTW - Below we are going to demonstrate the *custom event* technique, but here are other ways to accomplish the same thing, possibly by hard coding global references in the component (BAD), or passing in function references that can be called back later when the array length changes (BETTER)
 
 <hr>
 
