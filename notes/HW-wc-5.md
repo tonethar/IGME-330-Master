@@ -10,7 +10,10 @@
 - One solution to this issue is to have a components emit a *custom event*, and then another part of your program can listen for and respond to these events:
   - the concept is the same as listening for `window.onload` or `btnSend.onclick` events, but in this case we are going to listen for `colorList.onlengthchanged` (but we'll have to use the more modern syntax istead - `colorList.addEventListener("lengthchanged", e => doStuff(e)`)
 `)
-  - you can get an overview of this here - [MDN-Creating and triggering events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
+  - you can get an overview of this here:
+    - [MDN-Creating and triggering events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
+    - [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent)
+    - [EventTarget.dispatchEvent()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent)
 - What we are trying to promote here is *loose coupling* of our software components, with minimal dependencies, which makes it easier to reuse and maintain our code
 - BTW - Below we are going to demonstrate the *custom event* technique, but here are other ways to accomplish the same thing, possibly by hard coding global references in the component (BAD), or passing in function references that can be called back later when the array length changes (BETTER)
 
@@ -84,7 +87,7 @@ document.querySelector("#btn-add").onclick = e => {
 
 <hr><hr>
 
-## IV. The interesting part - "pushing" data from of the component
+## IV. The interesting part - "pushing" data from of the component by dispatching a custom event
 
 - Now we are going to look at one way we can get our component to "push" or "broadcast" data to other parts of the program
 - In this case, we want to have our component let any of its listeners know when the length of the list has changed
@@ -97,7 +100,6 @@ document.querySelector("#btn-add").onclick = e => {
 
 1) In `MyList`, write a `lengthChanged` helper method, it looks like this:
 
-
 ```js
 lengthChanged(){
   this.dispatchEvent(new CustomEvent("lengthchanged", {
@@ -108,6 +110,14 @@ lengthChanged(){
   ); // end dispatchEvent call
 }
 ```
+- here we will broadcast an event named `"lengthchanged"` to any object that is listening for it
+- we are sending along the current length, wraped in a `detail` object, which is a convention that the DOM uses
+- the links to the docs for `dispatchEvent()` and `CustomEvent` are at the top of this document
+
+<hr>
+
+2) Now we need to call this helper at the appropriate times - so go ahead and put a call to `this.lengthChanged();` into `add()` and `clear()`
+
 
 
 <hr><hr>
