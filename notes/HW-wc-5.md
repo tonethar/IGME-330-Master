@@ -111,7 +111,7 @@ lengthChanged(){
 }
 ```
 - here we will broadcast an event named `"lengthchanged"` to any object that is listening for it
-- we are sending along the current length, wraped in a `detail` object, which is a convention that the DOM uses
+- we are sending along the current length, wrapped in a `detail` object, which is a convention that the DOM uses
 - the links to the docs for `dispatchEvent()` and `CustomEvent` are at the top of this document
 
 <hr>
@@ -134,10 +134,17 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 <hr><hr>
 
-## V  Wrap Up
+## V.  Wrap Up
 
 - Just like `window.onload` or `btnSend.onclick` events, that we can hook into with `btnSend.addEventListener("click", doStuff)` ...
 - above we saw that we can also configure our component to send events that other parts of our program can listen for - `colorList.addEventListener("lengthchanged", doStuff);`
+
+<hr>
+
+## VI.  HW
+
+- Get all of the above working - both the "Add" and "Clear" buttons - and the updating of the list component and `#output-text`
+- See dropbox for submission instructions
 
 <hr><hr>
 
