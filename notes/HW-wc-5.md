@@ -63,7 +63,7 @@ colorList.length // returns number of items in list
 
 <hr>
 
-6) Here is the code that gets the `<input>` and `<button>` working, and adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
+6) Here is the code that gets the `<input>` and the `#btn-add` button working, so that clikcing the button adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
 
 ```js
 document.querySelector("#btn-add").onclick = e => {
@@ -76,6 +76,19 @@ document.querySelector("#btn-add").onclick = e => {
 ```
 
 - test the form, you should be able to add items to the Color List now
+
+<hr>
+
+7) Finally, get `#btn-clear` working - we'll let you do that one on your own
+
+<hr>
+
+## IV. The interesting part - "pushing" data from of the component
+
+- Now we are going to look at one way we can get our component to "push" or "broadcast" data to other parts of the program
+- In this case, we want to have our component let any of its listeners know when the length of the list ha changed
+- Below we will use a Custom Event to do so
+
 
 <hr><hr>
 
