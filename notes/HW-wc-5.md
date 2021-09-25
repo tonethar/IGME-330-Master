@@ -118,11 +118,11 @@ lengthChanged(){
 
 2) Now we need to call this helper at the appropriate times:
 
-  - so go ahead and make a call to `this.lengthChanged();` in the `add()` and `clear()` methods (which is when the lenght of the list will chnage)
+  - so go ahead and make a call to `this.lengthChanged();` in the `add()` and `clear()` methods (which is when the length of the list will change)
 
 <hr>
 
-3) Finally, back in the main program in the `window.onload` event handler, add the following code:
+3) Finally, back in the main program, in the `window.onload` event handler, add the following code:
 
 ```js
 // listen for the "lengthchanged" event and then update the #output-text
