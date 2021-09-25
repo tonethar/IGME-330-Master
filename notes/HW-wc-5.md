@@ -116,8 +116,20 @@ lengthChanged(){
 
 <hr>
 
-2) Now we need to call this helper at the appropriate times - so go ahead and put a call to `this.lengthChanged();` into `add()` and `clear()`
+2) Now we need to call this helper at the appropriate times:
 
+  - so go ahead and make a call to `this.lengthChanged();` in the `add()` and `clear()` methods (which is when the lenght of the list will chnage)
+
+<hr>
+
+3) Finally, back in the main program in the `window.onload` event handler, add the following code:
+
+```js
+// listen for the "lengthchanged" event and then update the #output-text
+colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail.length);
+```
+
+- put this code right after the variable initialization, before we start to add items to the list
 
 
 <hr><hr>
