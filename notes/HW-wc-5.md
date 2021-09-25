@@ -129,8 +129,12 @@ lengthChanged(){
 colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail.length);
 ```
 
-- put this code right after the variable initialization, before we start to add items to the list
+- be sure to put this code right **AFTER** the variable initialization, **BEFORE** we start to add items to the list
+- test it, now the `#output-text` should update with the correct length every time we at items to the list, or clear it
 
+<hr><hr>
+
+## V  Wrap Up
 
 <hr><hr>
 
