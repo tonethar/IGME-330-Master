@@ -46,6 +46,7 @@ colorList.items // shows an empty array `[]`
 
 ```js
 // type this in the browser console to test the code you wrote!
+// remember that we call a getter method like it's a property, no parens are needed
 colorList.length // returns number of items in list
 ```
 
@@ -81,13 +82,32 @@ document.querySelector("#btn-add").onclick = e => {
 
 7) Finally, get `#btn-clear` working - we'll let you do that one on your own
 
-<hr>
+<hr><hr>
 
 ## IV. The interesting part - "pushing" data from of the component
 
 - Now we are going to look at one way we can get our component to "push" or "broadcast" data to other parts of the program
-- In this case, we want to have our component let any of its listeners know when the length of the list ha changed
-- Below we will use a Custom Event to do so
+- In this case, we want to have our component let any of its listeners know when the length of the list has changed
+- Below we will use a `CustomEvent` (sent by the component) to do so.
+- There are other ways to do this:
+  - some more elaborate, like creating a separate "Notification Center" object
+  - some easier, like having our code grab the `colorList.length` property every time we click the Add or Clear buttons
+- but we are going to demo custom events below because often it's the best way to solve a particular problem
+
+
+1) In `MyList`, write a `lengthChanged` helper method, it looks like this:
+
+
+```js
+lengthChanged(){
+  this.dispatchEvent(new CustomEvent("lengthchanged", {
+  detail: {
+            length: this.length
+          }
+  })  // end new CustomEvent()
+  ); // end dispatchEvent call
+}
+```
 
 
 <hr><hr>
