@@ -8,7 +8,7 @@
 - One issue that you will run into with web components (and also in other web frameworks) is how to pass information *out* of a web component:
   - how can a web component "communicate" with the rest of your app? how can it pass values to other components?
 - One solution to this issue is to have a components emit a *custom event*, and then another part of your program can listen for and respond to these events:
-  - the concept is the same as listening for `window.onload` or `btnSend.onclick` events, but in this case we are going to listen for `colorList.onlengthchanged` (but we'll have to use the more modern syntax istead - `colorList.addEventListener("lengthchanged", e => doStuff(e)`)
+  - the concept is the same as listening for `window.onload` or `btnSend.onclick` events, but in this case we are going to listen for `colorList.onlengthchanged` (but we'll have to use the more modern syntax instead - `colorList.addEventListener("lengthchanged", e => doStuff(e)`)
 `)
   - you can get an overview of this here:
     - [MDN-Creating and triggering events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
