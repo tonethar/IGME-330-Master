@@ -63,7 +63,17 @@ colorList.length // returns number of items in list
 
 <hr>
 
-6)
+6) Here is the code that gets the `<input>` and `<button>` working, and adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
+
+```js
+document.querySelector("#btn-add").onclick = e => {
+  const item = inputText.value.trim();
+  if(item){
+    colorList.add(item);
+    inputText.value = "";
+  }
+};
+```
 
 <hr><hr>
 
