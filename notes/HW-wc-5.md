@@ -75,6 +75,8 @@ document.querySelector("#btn-add").onclick = e => {
 };
 ```
 
+- test the form, you should be able to add items to the Color List now
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
