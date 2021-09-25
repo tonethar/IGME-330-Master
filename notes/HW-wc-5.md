@@ -69,15 +69,7 @@ colorList.length // returns number of items in list
 
 6) Here is the code that gets the `<input>` and the `#btn-add` button working, so that clikcing the button adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
 
-```js
-document.querySelector("#btn-add").onclick = e => {
-  const item = inputText.value.trim();
-  if(item){
-    colorList.add(item);
-    inputText.value = "";
-  }
-};
-```
+![screenshot](_images/_wc/HW-wc-15.png)
 
 - test the form, you should be able to add items to the Color List now
 
