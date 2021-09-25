@@ -136,7 +136,8 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 ## V  Wrap Up
 
-- Just like `window.onload` or `btnSend.onclick` events, we can 
+- Just like `window.onload` or `btnSend.onclick` events, that we can hook into with `btnSend.addEventListener("click", doStuff)` ...
+- above we saw that we can also configure our component to send events that other parts of our program can listen for - `colorList.addEventListener("lengthchanged", doStuff);`
 
 <hr><hr>
 
