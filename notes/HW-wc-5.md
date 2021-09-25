@@ -136,6 +136,8 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 ## V  Wrap Up
 
+- Just like `window.onload` or `btnSend.onclick` events, we can 
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
