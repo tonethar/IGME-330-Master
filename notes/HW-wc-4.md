@@ -181,4 +181,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**HW - Web Components III**](HW-wc-3.md)  |  [**IGME-330**](../README.md) | :-\
+|  [**HW - Web Components III**](HW-wc-3.md)  |  [**IGME-330**](../README.md) | [**HW - Web Components V**](HW-wc-5.md)
