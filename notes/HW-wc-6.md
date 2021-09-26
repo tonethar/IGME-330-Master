@@ -70,11 +70,12 @@
 ## III. Using the `pubsub` object
 
 - ***publishing*** (broadcasting) a "lengthchanged" event could look like this:
-  - `pubsub.publish("lengthchanged", {target: this, length: this.length});`
-- ***subscribing to*** (listening) for a "lengthchanged" event would look like this:
-  - `pubsub.subscribe("lengthchanged",logger);` // send data to a logging function
-  - `pubsub.subscribe("lengthchanged",(topicName, info) => {if(info.target == colorList) outputText.innerHTML = info.length}); // update the DOM`
 
+```
+pubsub.publish("lengthchanged", {target: this, length: this.length});
+```
+
+- ***subscribing to*** (listening) for a "lengthchanged" event would look like this:
 
 ```js
 const logger =  (topicName, info) => {
@@ -86,6 +87,9 @@ const updateLengthOnPage = (topicName, info) => {
     outputText.innerHTML = info.length;
   }
 };
+
+pubsub.subscribe("lengthchanged",logger); // send data to a logging function
+pubsub.subscribe("lengthchanged",updateLengthOnPage);
 ```
 		
 
