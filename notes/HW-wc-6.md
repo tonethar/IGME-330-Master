@@ -89,14 +89,9 @@ const updateLengthOnPage = (topicName, info) => {
 };
 
 pubsub.subscribe("lengthchanged",logger); // send data to a logging function
-pubsub.subscribe("lengthchanged",updateLengthOnPage);
+pubsub.subscribe("lengthchanged",updateLengthOnPage); // update DOM
 ```
 		
-
-
-
-
-
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
