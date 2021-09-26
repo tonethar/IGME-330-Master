@@ -4,20 +4,26 @@
 
 - The "PubSub" sofware design pattern (aka Publisher/Subscriber) is a pattern that allows developers to create code modules that can communicate with each other without depending directly on each other. "Subscribers" (Observers) are notified automatically when a "publisher" - basically an object - wants to notify its subscribers that there has been a change in *state* 
 - PubSub allows our code modules to be loosely coupled, minimizing the dependencies between them. This improves code reliability, maintenance, and reusability 
+- One advantage of using PubSub instead of a `CustomEvent()` and `.dispatchEvent()` is that *any* object can use PubSub, while only objects that inherit from `EventDispatcher` (like DOM objects) can *dispatch* events
+- One disadvantage of PuubSub is that if it's overused, testing is more difficult, and it becomes hard to keep track dependencies and types of messages that are sent between different parts of the program
+
+### I-A. Reference 
+
 - https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
 - Related patterns:
   - Observer Pattern - https://en.wikipedia.org/wiki/Observer_pattern
-  - Notification Center - https://developer.apple.com/documentation/foundation/notificationcenter
-  - Broadcaster - \
+  - Apple's `NotificationCenter` (unchanged since early NeXT Computer days) - https://developer.apple.com/documentation/foundation/notificationcenter
+  - Flash's ancient `AsBroadcaster` object (2003 or so) - https://open-flash.github.io/mirrors/as2-language-reference/AsBroadcaster.html
   - And hopefully you already know about the seminal "Gang Of Four" book [Design Patterns: Elements of Reusable Object-Oriented Software (1994)](https://en.wikipedia.org/wiki/Design_Patterns#Behavioral)
-  - And, we touched on these Game Programming Design Patterns in IGME-235 (rhe book is a free download) - https://gameprogrammingpatterns.com/
+  - And, we touched on these Game Programming Design Patterns in IGME-235 (the book is a free download) - https://gameprogrammingpatterns.com/
 
 <hr>
 
-## II. Our "pubsub" object
+## II. Our `pubsub` global object
 
 - Below is the source code and comments for our `pubsub` object
-- Bs you can see, there's not much code here, but it really will get the job done
+- We are making it global in scope (i.e. available as `window.pubsub` or just `pubsub` anywhere in our app)
+- As you can see, there's not much code here, but it really will get the job done
 
 ![screenshot](_images/_wc/HW-wc-16.png)
 
@@ -98,7 +104,7 @@ const updateLengthOnPage = (topicName, info) => {
 };
 
 pubsub.subscribe("lengthchanged",logger); // send data to a logging function
-pubsub.subscribe("lengthchanged",updateLengthOnPage); // update DOM
+pubsub.subscribe("lengthchanged",updateLengthOnPage); // also update DOM
 ```
 		
 <hr><hr>
