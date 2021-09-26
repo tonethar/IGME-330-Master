@@ -71,9 +71,22 @@
 
 - ***publishing*** (broadcasting) a "lengthchanged" event could look like this:
   - `pubsub.publish("lengthchanged", {target: this, length: this.length});`
-- ***subscribing to*** (listening) for a "lengthchnaged" event would look like this:
+- ***subscribing to*** (listening) for a "lengthchanged" event would look like this:
   - `pubsub.subscribe("lengthchanged",logger);` // send data to a logging function
   - `pubsub.subscribe("lengthchanged",(topicName, info) => {if(info.target == colorList) outputText.innerHTML = info.length}); // update the DOM`
+
+
+```js
+const logger =  (topicName, info) => {
+  console.log( `Topic Name: ${topicName} - info:`, info);
+};
+
+const updateLengthOnPage = (topicName, info) => {
+  if(info.target == colorList){
+    outputText.innerHTML = info.length;
+  }
+};
+```
 		
 
 
