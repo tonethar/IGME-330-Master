@@ -3,10 +3,12 @@
 ## I. Overview
 
 
+<hr>
+
 ## II. Our "pubsub" object
 
-- below is the source code and comments for our `pubsub` object
-- as you can see, there's not much code here, but it really will get the job done
+- Below is the source code and comments for our `pubsub` object
+- Bs you can see, there's not much code here, but it really will get the job done
 
 ![screenshot](_images/_wc/HW-wc-16.png)
 
@@ -62,6 +64,18 @@
 
  }());
 ``` 
+
+<hr>
+
+## III. Using the `pubsub` object
+
+- ***publishing*** (broadcasting) a "lengthchanged" event could look like this:
+  - `pubsub.publish("lengthchanged", {target: this, length: this.length});`
+- ***subscribing to*** (listening) for a "lengthchnaged" event would look like this:
+  - `pubsub.subscribe("lengthchanged",logger);`
+		
+
+
 
 
 
