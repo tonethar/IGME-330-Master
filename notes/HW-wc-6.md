@@ -13,6 +13,8 @@
 
 ![screenshot](_images/_wc/HW-wc-17.png)
 
+<hr>
+
 ### III-A. Let's save you a little bit of typing
 
 - Here is a stub, with mostly the comments preserved, you can type the rest in on your own:
