@@ -133,7 +133,7 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 <hr>
 
-## VI.  HW
+## VI.  Homework
 
 - Get all of the above working - both the "Add" and "Clear" buttons - and the updating of the list component and `#output-text`
 - See dropbox for submission instructions
