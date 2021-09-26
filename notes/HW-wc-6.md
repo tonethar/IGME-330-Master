@@ -2,6 +2,15 @@
 
 ## I. Overview
 
+- The "PubSub" sofware design pattern (aka Publisher/Subscriber) is a pattern that allows developers to create code modules that can communicate with each other without depending directly on each other. "Subscribers" (Observers) are notified automatically when a "publisher" - basically an object - wants to notify its subscribers that there has been a change in *state* 
+- PubSub allows our code modules to be loosely coupled, minimizing the dependencies between them. This improves code reliability, maintenance, and reusability 
+- https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+- Related patterns:
+  - Observer Pattern - https://en.wikipedia.org/wiki/Observer_pattern
+  - Notification Center - https://developer.apple.com/documentation/foundation/notificationcenter
+  - Broadcaster - \
+  - And hopefully you already know about the seminal "Gang Of Four" book [Design Patterns: Elements of Reusable Object-Oriented Software (1994)](https://en.wikipedia.org/wiki/Design_Patterns#Behavioral)
+  - And, we touched on these Game Programming Design Patterns in IGME-235 (rhe book is a free download) - https://gameprogrammingpatterns.com/
 
 <hr>
 
