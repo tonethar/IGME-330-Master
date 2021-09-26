@@ -103,8 +103,11 @@ const updateLengthOnPage = (topicName, info) => {
   }
 };
 
-pubsub.subscribe("lengthchanged",logger); // send data to a logging function
-pubsub.subscribe("lengthchanged",updateLengthOnPage); // also update DOM
+const sub1 = pubsub.subscribe("lengthchanged",logger); // send data to a logging function
+const sub2 = pubsub.subscribe("lengthchanged",updateLengthOnPage); // also update DOM
+
+// later on
+pubsub.unsubscribe(sub1); // stop subscribing - this ends the calls to `logger` above
 ```
 		
 <hr><hr>
