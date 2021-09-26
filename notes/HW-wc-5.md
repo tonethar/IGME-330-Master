@@ -142,4 +142,4 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**HW - Web Components IV**](HW-wc-4.md)  |  [**IGME-330**](../README.md) |  [**HW - Web Components VI**](HW-wc-5.md)
+|  [**HW - Web Components IV**](HW-wc-4.md)  |  [**IGME-330**](../README.md) |  [**HW - Web Components VI**](HW-wc-6.md)
