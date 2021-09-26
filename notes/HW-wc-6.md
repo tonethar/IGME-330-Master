@@ -109,7 +109,14 @@ const sub2 = pubsub.subscribe("lengthchanged",updateLengthOnPage); // also updat
 // later on
 pubsub.unsubscribe(sub1); // stop subscribing - this ends the calls to `logger` above
 ```
-		
+
+<hr>
+
+## IV. Wrap up
+
+- We'll demo this in class
+- There is not an associated HW assignment for this
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
