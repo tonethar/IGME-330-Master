@@ -174,6 +174,7 @@
   - note use of Emmet & `lorum30`
   - adds padding around the element - check the browser window and web inspector to see how much
   - `section` class can be applied to a `<div>` to, not just a `<section>` tag
+  - note that the `section` class makes the element stretch across the screen
 
 <br>
 
