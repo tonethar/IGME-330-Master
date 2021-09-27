@@ -163,10 +163,10 @@
 - `mb-6` - margin bottom
 - `ml-6` - margin left
 - `mr-6` - margin right
-- `pt-6` 
-- `pb-6`
-- `pl-6`
-- `pr-6`
+- `pt-6` - padding top
+- `pb-6` - padding bottom
+- `pl-6` - padding left
+- `pr-6` - padding right
 - `section` class
 - `container` class - has a max width
 
