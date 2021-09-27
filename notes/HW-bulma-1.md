@@ -62,7 +62,7 @@
 - Make a copy of **index-1.html** and name it **index-2.html**
 - Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from before)
 - Preview **index-2.html** in the browser, note how Bulma has styled all of the text of these elements to be the same size
-- We are going to chnage that - follow along with the video and add the various Bulma classes to the elements below
+- We are going to change that - follow along with the video and add the various Bulma classes to the elements below
 
 ```html
   <!-- fonts -->
