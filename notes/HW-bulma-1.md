@@ -112,3 +112,8 @@
 - `has-text-dark` - dark text
 - `has-text-light` - light text (we can't see it on a white background)
 
+<br>
+
+- `has-text-danger-dark` - dark red text
+- `has-text-danger-light` - light red text
+
