@@ -179,7 +179,6 @@
 <br>
 
 - `container` class:
-  - adds margins
-  - adds centering
+  - adds centering with `margin-right: 0` & `margin-left: 0`
   - has a `max-width` of `960px`
 
