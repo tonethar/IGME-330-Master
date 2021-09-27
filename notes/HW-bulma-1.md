@@ -51,7 +51,7 @@
 </html>
 ```
 
-
+- all of the course files are here (look for th pull-down to access the files for each video): https://github.com/iamshaunjp/bulma-ui-build
 
 
 
