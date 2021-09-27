@@ -24,7 +24,7 @@
   - Not opinionated on how things are done, meaning it has no JS to do things like (for example) changing button states
   - Walks though/quickly demos:
     - installing VSCode’s LiveServer (which you should already have installed)
-    - using Emmet (an autocomplete API that VSCode uses)
+    - using Emmet (an autocomplete API that VSCode uses) - https://emmet.io/
   - Setting up the **index.html** start page:
     - Starter Template is here - https://bulma.io/documentation/overview/start/
     - note that we need the `<link>` tag to import the Bulma library
@@ -167,6 +167,9 @@
 - `pb-6` - padding bottom
 - `pl-6` - padding left
 - `pr-6` - padding right
-- `section` class
+
+<br>
+
+- `section` class - note use of Emmet & `lorum30`
 - `container` class - has a max width
 
