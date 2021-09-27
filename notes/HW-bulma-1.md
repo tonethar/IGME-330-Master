@@ -91,8 +91,11 @@
 
 ### II-A. Summary
 
+**Docs here: https://bulma.io/documentation/helpers/typography-helpers/**
+
 - `is-size-1` through `is-size-7` - 1 is the largest
 - `is-uppercase` & `is-italic` & `is-lowercase` 
 - `has-text-weight-bold` & `has-text-weight-light`
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
+- `has-text-centered` & `has-text-right`
 
