@@ -129,14 +129,14 @@
 - `has-background-primary-dark` - can still use color qualifiers on background
 
 
-**That's It! Be sure to save these changes to index-2.html, and look over the Typography & Color Documentation pages linked above!**
+**That's It! Be sure to save these changes to index-2.html, and look over the Typography & Color documentation pages linked above!**
 
 <hr>
 
 ## III. *#3 - Spacing & Containers*
 
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
-- This tutorial will walk through how
+- This tutorial will walk through how to add maring and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
 - Make a copy of **index-2.html** and name it **index-3.html**
 - Paste the following into the `<body>` of **index-3.html** (get rid of the tags from the previous video)
 
@@ -171,7 +171,7 @@
 <br>
 
 - `section` class:
-  - note use of Emmet & `lorum30`
+  - note use of Emmet & `lorem30`
   - adds padding around the element - check the browser window and web inspector to see how much
   - `section` class can be applied to a `<div>` to, not just a `<section>` tag
   - note that the `section` class makes the element stretch across the screen
@@ -181,4 +181,20 @@
 - `container` class:
   - adds centering with `margin-right: 0` & `margin-left: 0`
   - has a `max-width` of `960px`
+
+
+**That's It! Be sure to save these changes to index-3.html, and look over the Spacing documentation page linked above!**
+
+<hr>
+
+## IV. *#4 - Navbar (desktop)*
+
+- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
+- This tutorial will walk through how
+- Make a copy of **index-3.html** and name it **index-4.html**
+- Paste the following into the `<body>` of **index-3.html** (get rid of the tags from the previous video)
+
+
+
+
 
