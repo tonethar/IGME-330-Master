@@ -51,7 +51,7 @@
 </html>
 ```
 
-- all of the course files are here (look for th pull-down to access the files for each video): https://github.com/iamshaunjp/bulma-ui-build
+- all of the course files are here (look for the pull-down to access the files for each video): https://github.com/iamshaunjp/bulma-ui-build
 - that's it - go ahead and save the changes to **index.html** and move on
 
 <hr>
