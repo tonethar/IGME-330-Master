@@ -170,6 +170,8 @@
 
 <br>
 
-- `section` class - note use of Emmet & `lorum30`
+- `section` class:
+  - note use of Emmet & `lorum30`
+  - adds padding around the element
 - `container` class - has a max width
 
