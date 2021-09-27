@@ -60,7 +60,7 @@
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #2 - Fonts & Colours](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This tutorial will walk through how to specify different font styles and colors
 - Make a copy of **index-1.html** and name it **index-2.html**
-- Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from before)
+- Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from the previous video)
 - Preview **index-2.html** in the browser, note how Bulma has styled all of the text of these elements to be the same size
 - We are going to change that - follow along with the video and add the various Bulma classes to the elements below
 
@@ -137,4 +137,14 @@
 
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
 - This tutorial will walk through how
+- Make a copy of **index-2.html** and name it **index-3.html**
+- Paste the following into the `<body>` of **index-3.html** (get rid of the tags from the previous video)
+
+```html
+<!-- spacing -->
+
+<h1 class="">Hello, Bulma</h1>
+<h1 class="">Hello, Bulma</h1>
+<h1 class="">Hello, Bulma</h1>
+```
 
