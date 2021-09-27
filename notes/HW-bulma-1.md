@@ -60,7 +60,8 @@
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #2 - Fonts & Colors](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This tutorial will walk through how to specify different font styles and colors
 - Make a copy of **index.html** and name it **index-2.html**
-- Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from before):
+- Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from before)
+- Follow along with the video and add the various Bulma classes to the elements below
 
 ```html
   <!-- fonts -->
