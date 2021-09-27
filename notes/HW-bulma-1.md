@@ -91,11 +91,15 @@
 
 ### II-A. Summary
 
-**Docs here: https://bulma.io/documentation/helpers/typography-helpers/**
+**Typography & Color Docs here:**
+- https://bulma.io/documentation/helpers/typography-helpers/
+- https://bulma.io/documentation/helpers/color-helpers/
+
+<br>
 
 - `is-size-1` through `is-size-7` - 1 is the largest
 - `is-uppercase` & `is-italic` & `is-lowercase` 
-- `has-text-weight-bold` & `has-text-weight-light`
+- `has-text-weight-bold` & `has-text-weight-light` - *light* is a color qualifier, *bold* is a text weight qualifier
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
 
 <br>
@@ -121,4 +125,6 @@
 
 - `has-background-light` - light gray background
 - `has-background-danger` - reddish background
+- `has-background-danger-light` - can still use color qualifiers on background
+- `has-background-primary-dark` - can still use color qualifiers on background
 
