@@ -148,3 +148,25 @@
 <h1 class="">Hello, Bulma</h1>
 ```
 
+### III-A. Summary
+
+**Spacing Docs here:**
+- https://bulma.io/documentation/helpers/spacing-helpers/
+
+<br>
+
+- `px-6` - padding x
+- `py-6` - padding y
+- `mx-6` - margin x
+- `my-6` - margin y
+- `mt-6` - margin top
+- `mb-6` - margin bottom
+- `ml-6` - margin left
+- `mr-6` - margin right
+- `pt-6` 
+- `pb-6`
+- `pl-6`
+- `pr-6`
+- `section` class
+- `container` class - has a max width
+
