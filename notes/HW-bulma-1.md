@@ -25,8 +25,28 @@
   - Walks though/quickly demos:
     - installing VSCode’s LiveServer (which you should already have installed)
     - using Emmet (an autocomplete API that VSCode uses)
-  - Starter Template is here:
-    - https://bulma.io/documentation/overview/start/
+  - Setting up the **index.html** start page:
+    - Starter Template is here - https://bulma.io/documentation/overview/start/
+    - note that we need the `<link>` tag to import the Bulma library
+    - note that Bulma has built-in styles that are applied by default - see the chnages in the "Hello Bulma!!!" text
+    - for your convenience, here is the starter code
+
+**index.html**
+
+```html
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ninja Coffee</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+  <h1>Hello Bulma!!!</h1>
+</body>
+</html>
+```
 
 
 
