@@ -1,6 +1,6 @@
 # HW - Intro to Bulma
 
-## I. Overview
+## Overview
 
 - https://bulma.io/
 - "Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces."
@@ -15,7 +15,7 @@
 
 <hr>
 
-## II. Get Started
+## I. Get Started - *#1 - Bulma Intro & Setup*
 
 - Here is the link to the first tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This one you can breeze through pretty quickly, but there are a few things to note (some of this repeats what we wrote above):
@@ -28,8 +28,10 @@
   - Setting up the **index.html** start page:
     - Starter Template is here - https://bulma.io/documentation/overview/start/
     - note that we need the `<link>` tag to import the Bulma library
-    - note that Bulma has built-in styles that are applied by default - see the changes to the "Hello Bulma!!!" text in the window, and in the web inspector as well
-    - for your convenience, here is the starter code
+    - note that Bulma has styles that override the default browser styles - these are applied by default:
+      - see the changes to the `<h1>` "Hello Bulma!!!" text in the window, and in the web inspector as well
+      - also see how links are styled differently - there's no underline, and you have a default `:hover` affect applied
+    - for your convenience, here is the starter code:
 
 **index.html**
 
