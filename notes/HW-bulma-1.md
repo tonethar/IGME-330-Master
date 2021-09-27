@@ -15,7 +15,7 @@
 
 <hr>
 
-## I. Get Started - *#1 - Bulma Intro & Setup*
+## I. Get Started - #1 - *Bulma Intro & Setup*
 
 - Here is the link to the 1st tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This one you can breeze through pretty quickly, but there are a few things to note (some of this repeats what we wrote above):
@@ -56,7 +56,7 @@
 
 <hr>
 
-## II. *#2 - Bulma Fonts & Colours*
+## II. #2 - *Bulma Fonts & Colours*
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #2 - Fonts & Colours](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This tutorial will walk through how to specify different font styles and colors
 - Make a copy of **index-1.html** and name it **index-2.html**
@@ -133,7 +133,7 @@
 
 <hr>
 
-## III. *#3 - Spacing & Containers*
+## III. #3 - *Spacing & Containers*
 
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
 - This tutorial will walk through how to add maring and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
@@ -187,12 +187,12 @@
 
 <hr>
 
-## IV. *#4 - Navbar (desktop)*
+## IV. #4 - *Navbar (desktop)*
 
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
 - This tutorial will walk through how
 - Make a copy of **index-3.html** and name it **index-4.html**
-- Paste the following into the `<body>` of **index-3.html** (get rid of the tags from the previous video)
+- Paste the following into the `<body>` of **index-4.html** (get rid of the tags from the previous video)
 
 
 
