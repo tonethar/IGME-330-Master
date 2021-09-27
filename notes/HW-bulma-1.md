@@ -192,7 +192,7 @@
 - Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
 - This tutorial will walk through how to build a Bulma `Navbar`
 - Make a copy of **index-3.html** and name it **index-4.html**
-- Paste the following into the `<body>` of **index-4.html** (get rid of the tags from the previous video)
+- Delete all of the elements in the `<body>` of **index-4.html** and start fresh
 
 
 ### IV-A. Summary
@@ -200,6 +200,9 @@
 **Navbar Docs here:**
 - https://bulma.io/documentation/components/navbar/
 
+<br>
+
+- Will build a simple `Navbar` with a logo and 2 links 
 
 
 
