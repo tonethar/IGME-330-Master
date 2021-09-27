@@ -107,8 +107,8 @@
 - `has-text-primary` - greenish text
 - `has-text-warning`  - yellowish test
 - `has-text-danger` - redish text
-- `has-text-info`  -
-- `has-text-success`
-- `has-text-dark` 
-- `has-text-light`
+- `has-text-info`  - blueish text
+- `has-text-success` - light-green text
+- `has-text-dark` - dark text
+- `has-text-light` - light text (we can't see it on a white background)
 
