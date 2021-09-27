@@ -155,10 +155,10 @@
 
 <br>
 
-- `px-6` - padding x
-- `py-6` - padding y
-- `mx-6` - margin x
-- `my-6` - margin y
+- `px-6` - padding x (left AND right)
+- `py-6` - padding y (top AND bottom)
+- `mx-6` - margin x (left AND right)
+- `my-6` - margin y (top AND bottom)
 - `mt-6` - margin top
 - `mb-6` - margin bottom
 - `ml-6` - margin left
