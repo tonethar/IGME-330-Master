@@ -178,5 +178,8 @@
 
 <br>
 
-- `container` class - has a max width
+- `container` class:
+  - adds margins
+  - adds centering
+  - has a `max-width` of `960px`
 
