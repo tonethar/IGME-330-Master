@@ -172,6 +172,6 @@
 
 - `section` class:
   - note use of Emmet & `lorum30`
-  - adds padding around the element
+  - adds padding around the element - check the browser window and web inspector to see how much
 - `container` class - has a max width
 
