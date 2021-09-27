@@ -29,7 +29,8 @@
     - Starter Template is here - https://bulma.io/documentation/overview/start/
     - note that we need the `<link>` tag to import the Bulma library
     - note that Bulma has styles that override the default browser styles - these are applied by default:
-      - see the changes to the `<h1>` "Hello Bulma!!!" text in the window, and in the web inspector as well
+      - see the changes to the `<h1>` "Hello Bulma!!!" text in the window
+      - look in the web inspector, you can see that Bulma styles `<h1>`, `<h2>`, `<h3>` through `<h6>` tags the same
       - also see how links are styled differently - there's no underline, and you have a default `:hover` affect applied
     - for your convenience, here is the starter code:
 
