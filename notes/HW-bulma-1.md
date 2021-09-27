@@ -17,7 +17,7 @@
 
 ## I. Get Started - *#1 - Bulma Intro & Setup*
 
-- Here is the link to the first tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
+- Here is the link to the 1st tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This one you can breeze through pretty quickly, but there are a few things to note (some of this repeats what we wrote above):
   - Bulma is CSS only, no JS (unlike bootstrap)
   - Bulma is “mobile first”, so everything generally looks good on mobile by default
@@ -52,8 +52,11 @@
 ```
 
 - all of the course files are here (look for th pull-down to access the files for each video): https://github.com/iamshaunjp/bulma-ui-build
+- that's it - go ahead and save the changes to **index.html** and move on
 
+<hr>
 
+## I. Get Started - *#2 - Bulma Fonts & Colors*
 
-
+- Here is the link to the 2nd tutorial - [](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 
