@@ -133,5 +133,8 @@
 
 <hr>
 
-## III. *#3 - *
+## III. *#3 - Spacing & Containers*
+
+- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
+- This tutorial will walk through how
 
