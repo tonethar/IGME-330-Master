@@ -63,6 +63,27 @@
 - Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from before):
 
 ```html
+  <!-- fonts -->
+  <h1>Hello, Bulma</h1>
+  <h2>Hello, Bulma</h2>
+  <h3>Hello, Bulma</h3>
+  <h4>Hello, Bulma</h4>
 
+  <p>Hello again</p>
+  <p>Hello again</p>
+  <p>Hello again</p>
+  <p>Hello again</p>
+
+  <h2>Title</h2>
+  <h3>Subtitle</h3>
+
+  <!-- colours -->
+  <p>I'm primary text</p>
+  <p>I'm warning text</p>
+  <p>I'm danger text</p>
+  <p>I'm info text</p>
+  <p>I'm success text</p>
+  <p>I'm dark text</p>
+  <p>I'm light text</p>
 ```
 
