@@ -101,6 +101,7 @@
 - `is-uppercase` & `is-italic` & `is-lowercase` - there is also  `is-capitalized` & `is-underlined`
 - `has-text-weight-bold` & `has-text-weight-light` - *light* is a color qualifier, *bold* is a text weight qualifier
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
+- BTW - I don't think it's mentioned in the video, but elements can belong to (i.e. apply) multiple CSS classes - multiple class names will need to be separated by a space
 
 <br>
 
@@ -203,6 +204,17 @@
 <br>
 
 - Will build a simple `Navbar` with a logo and 2 links 
+
+<br>
+
+- `navbar` class
+  - look in web inspector - see that it uses `position: relative`
+- `navbar-brand`
+- `navbar-item`
+  - BTW - the Ninja Coffee logo is here: https://github.com/iamshaunjp/bulma-ui-build/tree/lesson-4/assets
+  - `max-height: 70px` increases the height of the item, and thus the entire navbar
+  - `class="py-2 px-2”` added some padding for us
+
 
 
 
