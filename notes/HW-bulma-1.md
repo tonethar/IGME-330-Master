@@ -98,7 +98,11 @@
 - `has-text-weight-bold` & `has-text-weight-light`
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
 
+<br>
+
 - `has-text-centered` & `has-text-right`
+
+<br>
 
 - `has-text-primary` - greenish text
 - `has-text-warning`  - yellowish test
