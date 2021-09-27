@@ -10,11 +10,11 @@ III. [Try it out!](#section3)
 
 IV. [In-class Demo](#section4)
 
-V. [Homework](#section5)
+V. [Reference](#section5)
 
-VI. [Reference](#section6)
+VI. [Review Questions](#section6)
 
-VII. [Review Questions](#section7)
+VII. [Videos](#section7)
 
 <hr>
 
@@ -353,22 +353,12 @@ In *test.html*:
 </html>
 ```
 
-<hr>
 
 <a id="section5">
-
-## V. Homework
-
- - Now it's your turn:
-   - take the ["Sprity" HW](https://github.com/tonethar/IGME-330-Master/blob/master/notes/canvas-6.md#homework) and refactor it to use ES6 modules
-   - create the following modules: **classes.js**, **utils.js**, **main.js** and **loader.js**
-   - see myCourses for submission instructions
-
+	
 <hr>
 
-<a id="section6" />
-	
-## VI. Reference
+## V. Reference
 - What's a *namespace*?
   - https://en.wikipedia.org/wiki/Namespace
 - ES6 Module resources
@@ -383,17 +373,20 @@ In *test.html*:
 
 <hr>
 
-<a id="section7" />
+<a id="section6" />
 
-## VII. Review Questions
+## VI. Review Questions
 1. Define the software development term *loosely coupled*.
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
 
+	
+<a id="section7" />
+	
 <hr>
 
-## VIII. Videos
+## VII. Videos
 
 - The videos for this lecture are located here:
   - [ES6 Modules - 1 (10:35)](https://video.rit.edu/Watch/es-6-modules-1) - covers Parts I.-III. above
