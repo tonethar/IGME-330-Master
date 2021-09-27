@@ -52,7 +52,7 @@
 ```
 
 - all of the course files are here (look for the pull-down to access the files for each video): https://github.com/iamshaunjp/bulma-ui-build
-- that's it - go ahead and save the changes to **index.html** and move on
+- that's it - go ahead and save the changes to **index-1.html** and move on
 
 <hr>
 
@@ -129,7 +129,7 @@
 - `has-background-primary-dark` - can still use color qualifiers on background
 
 
-**That's It! Be sure to look over the Typography & Color Documentation pages linked above!**
+**That's It! Be sure to save these changes to index-2.html, and look over the Typography & Color Documentation pages linked above!**
 
 <hr>
 
