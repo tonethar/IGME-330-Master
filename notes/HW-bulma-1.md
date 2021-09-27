@@ -203,10 +203,7 @@
 
 <br>
 
-- Will build a simple `Navbar` with a logo and 2 links 
-
-<br>
-
+- In this video will build a simple `Navbar` with a logo and 2 links 
 - `navbar` class - the main container
   - look in web inspector - see that it uses `position: relative`
 - `navbar-brand` - the left side, always visible, which usually contains the logo and optionally some links or icons
