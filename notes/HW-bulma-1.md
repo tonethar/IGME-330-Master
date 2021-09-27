@@ -214,6 +214,9 @@
   - BTW - the Ninja Coffee logo is here: https://github.com/iamshaunjp/bulma-ui-build/tree/lesson-4/assets
   - `max-height: 70px` increases the height of the item, and thus the entire navbar
   - `class="py-2 px-2”` added some padding for us
+- `navbar-menu`
+- `navbar-end`
+- `navbar-start`
 
 
 
