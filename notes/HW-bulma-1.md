@@ -98,7 +98,7 @@
 <br>
 
 - `is-size-1` through `is-size-7` - 1 is the largest
-- `is-uppercase` & `is-italic` & `is-lowercase` 
+- `is-uppercase` & `is-italic` & `is-lowercase` - there is also  `is-capitalized` & `is-underlined`
 - `has-text-weight-bold` & `has-text-weight-light` - *light* is a color qualifier, *bold* is a text weight qualifier
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
 
