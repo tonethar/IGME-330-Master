@@ -89,3 +89,10 @@
   <p>I'm light text</p>
 ```
 
+### II-A. Summary
+
+- `is-size-1` through `is-size-7` - 1 is the largest
+- `is-uppercase` & `is-italic` & `is-lowercase` 
+- `has-text-weight-bold` & `has-text-weight-light`
+- `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
+
