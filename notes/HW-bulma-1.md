@@ -97,5 +97,14 @@
 - `is-uppercase` & `is-italic` & `is-lowercase` 
 - `has-text-weight-bold` & `has-text-weight-light`
 - `title` & `subtitle` - *title* is large and bold, *subtitle* is smaller and less bold
+
 - `has-text-centered` & `has-text-right`
+
+- `has-text-primary` - greenish text
+- `has-text-warning`  - yellowish test
+- `has-text-danger` - redish text
+- `has-text-info`  -
+- `has-text-success`
+- `has-text-dark` 
+- `has-text-light`
 
