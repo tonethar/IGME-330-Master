@@ -28,7 +28,7 @@
   - Setting up the **index.html** start page:
     - Starter Template is here - https://bulma.io/documentation/overview/start/
     - note that we need the `<link>` tag to import the Bulma library
-    - note that Bulma has built-in styles that are applied by default - see the chnages in the "Hello Bulma!!!" text
+    - note that Bulma has built-in styles that are applied by default - see the changes to the "Hello Bulma!!!" text in the window, and in the web inspector as well
     - for your convenience, here is the starter code
 
 **index.html**
