@@ -128,3 +128,10 @@
 - `has-background-danger-light` - can still use color qualifiers on background
 - `has-background-primary-dark` - can still use color qualifiers on background
 
+
+**That's It! Be sure to look over the Typography & Color Documentation pages linked above!**
+
+<hr>
+
+## III. *#3 - *
+
