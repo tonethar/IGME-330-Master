@@ -136,7 +136,7 @@
 
 ## III. #3 - *Spacing & Containers*
 
-- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
+- Here is the link to the 3rd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
 - This tutorial will walk through how to add maring and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
 - Make a copy of **index-2.html** and name it **index-3.html**
 - Paste the following into the `<body>` of **index-3.html** (get rid of the tags from the previous video)
@@ -190,7 +190,7 @@
 
 ## IV. #4 - *Navbar (desktop)*
 
-- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
+- Here is the link to the 4th tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
 - This tutorial will walk through how to build a Bulma `Navbar`
 - Make a copy of **index-3.html** and name it **index-4.html**
 - Delete all of the elements in the `<body>` of **index-4.html** and start fresh
