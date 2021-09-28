@@ -261,10 +261,10 @@
 ## VI. #6 - *Breadcrumbs*
 
 - Here is the link to the 6th tutorial - [Bulma Tutorial (Product Page Build) #6 - Breadcrumbs (05:04)](https://www.youtube.com/watch?v=Kt8_Uu77_tg&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=6)
-- This tutorial will walk through how to build a burger icon to show the `navbar-menu` links on smaller screened mobile devices
+- This tutorial will walk through how to build a breadcrumb navigation system
 - Make a copy of **index-5.html** and name it **index-6.html**
 
-### V-A. Summary
+### VI-A. Summary
 
 **Breadcrumb Docs here:**
 - https://bulma.io/documentation/components/breadcrumb/
@@ -277,4 +277,20 @@
 - `is-active` - You can inform the current page using the `is-active` modifier in a `<li>` tag
 - `has-text-grey`
 
+<br>
 
+- This one won't take too long, save it and move on
+
+<hr>
+
+## VII. #7 - *Grid Columns*
+
+- Here is the link to the 7th tutorial - [Bulma Tutorial (Product Page Build) #7 - Grid Columns (08:24)](https://www.youtube.com/watch?v=feGMqVSRnmI&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=7)
+
+- This tutorial will walk through how to 
+- Make a copy of **index-6.html** and name it **index-7.html**
+
+### VII-A. Summary
+
+**Grid Docs here:**
+- 
