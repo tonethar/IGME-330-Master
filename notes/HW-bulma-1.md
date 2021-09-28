@@ -10,7 +10,7 @@
 - The Bulma library is here: https://bulma.io/
 - "Bulma is a free, open source framework that provides ready-to-use front-end components that you can easily combine to build responsive web interfaces."
 - Bulma is mobile friendly & responsive by default
-- Bulma is modern - built with Flexbox - but with much more intuitive and easy-to-use syntax
+- Bulma is modern - built with Flexbox - but with a much more intuitive and easy-to-use syntax for building a grid system
 - Bulma doesn't use any JavaScript (unlike Bootstrap) - it's up to the developer to add it. This makes it very easy to integrate with VanillaJS, web components, Vue.js, React etc
 - Using Bulma is required for Project 1
 - Below, we are going to take advantage of a pre-existing YouTube tutorial on Bulma:
