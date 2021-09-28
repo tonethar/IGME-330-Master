@@ -59,6 +59,22 @@
 
 ### Step #2 - Create the `<hotdog-footer>` component code
 
+- Below is the `HotdogFooter` component code - the HTML part you can copy/paste from the previous `<footer>` code - and note that we've added a `id="title-element"` to that HTML
+
+![screenshot](_images/_bulma/HW-bulma-7.png)
+
+- Once it's working, it should look like the screenshot below
+- Note that many of the Bulma styles have "broken through" the shadow DOM (where the root styles have been redeclared by Bulma)
+
+![screenshot](_images/_bulma/HW-bulma-8.png)
+
+- ... but ... the alignment and padding are off from what we hand before
+- how to fix it?
+- the simplest way is to import Bulma into the component directly - go ahead and add the `<link>` tag for the Bulma librrary to the top of the `<template>` HTML, right above the `<style>`
+- Preview it one more time, you should be good to go!
+
+![screenshot](_images/_bulma/HW-bulma-9.png)
+
 
 
 <hr><hr>
