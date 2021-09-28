@@ -1,4 +1,4 @@
-# HW - Intro to Bulma
+# HW - Bulma I - Intro to Bulma
 
 ## Overview
 - You are going to build a fully responsive Bulma site that you can use as a starter for Project 1:
@@ -482,5 +482,4 @@
 
 <hr><hr>
 
-Next Unit -->
-[**Bulma II - Bulma & Web Components**](HW-bulma-2.md)  
+Next --> [**Bulma II - Bulma & Web Components**](HW-bulma-2.md)  
