@@ -29,6 +29,14 @@
 </footer>
 ```
 
+- go ahead and preview it - you should see the following - note how the text is centered and that there is a large amount of white space at the bottom of the page
+
+![screenshot](_images/_bulma/HW-bulma-5.png)
+
+### Step #2 - Add some Bulma classes
+
+- let's tighten this up and get rid of some of that white space
+- 
 
 <hr>
 
