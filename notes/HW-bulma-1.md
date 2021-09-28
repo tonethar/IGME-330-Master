@@ -218,7 +218,24 @@
 - added `has-shadow` to `<nav>` to give it a very light shadow on its border
 - added `is-primary` and then `is-white` to `<nav>`
 
+<br>
+
+- all done - be sure to save all of the changes
+- notice that when the window width is less that `1024px` the right side menu items disappear - what happens is that the `<div>` of class `navbar-menu` becomes `display: none`
+- this is normal Bulma behavior, and in the next part we'll add mobile support by putting these links under a hamburger menu
+
+<hr>
+
+## V. #5 - *Navbar (for mobiles)*
+
+- Here is the link to the 5th tutorial - [Bulma Tutorial (Product Page Build) #5 - Navbar (for mobiles)](https://www.youtube.com/watch?v=qvn2SxGvyPs&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=5&pp=QAFIAw%3D%3D)
+- This tutorial will walk through how to build a mobile friendly Bulma `Navbar`
+- Make a copy of **index-4.html** and name it **index-5.html**
 
 
+### V-A. Summary
+
+**Navbar Docs here:**
+- https://bulma.io/documentation/components/navbar/
 
 
