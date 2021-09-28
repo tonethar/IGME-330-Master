@@ -427,4 +427,30 @@
 
 ### Step #4
 
+- Being that this is the home page, let's replace the 3-column layout with a one column layout and a `hero`
+  - https://bulma.io/documentation/layout/hero/
+- Replace the 3 `column` divs with this:
+  
+```html
+<div class="column">  
+	<div class="hero is-large is-info p-2">
+		<div class="hero-head">
+			<p class="title">
+				Hotdog Finder
+			</p>
+			<p class="subtitle">
+				Your first stop for hotdogs!
+			</p>
+			<img class="p-3" style="float:right;width:50%" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Hotdog_-_Evan_Swigart.jpg" alt="dog">
+		</div>
+		<div class="hero-footer">Contact: ace.coder@rit.edu</div>
+	</div>
+</div>
+```
+
+- add `has-background-primary` to the `section`
+
+- Save and load the page, it should look like this
+
+![screenshot](_images/bulma/HW-bulma-2.png)
 
