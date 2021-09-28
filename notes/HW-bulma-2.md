@@ -7,12 +7,13 @@
 ## I. Create a Bulma `footer`
 
 - Let's add a `footer` to our **home.html** file
+- Make a copy of **home.html** and name it **home-wc.html**
 
 ### Step #1 - get the HTML
 
 - We will make it easy for ourselves and grab the `footer` code from the Bulma web site:
   - https://bulma.io/documentation/layout/footer/
-  - grab the example, and paste it into **home.html**, AFTER the closing `<div>` of `columns`
+  - grab the example, and paste it into **home-wc.html**, AFTER the closing `<div>` of `columns`
   - and here it is, just in case the docs get changed anytime soon:
 
 ```html
