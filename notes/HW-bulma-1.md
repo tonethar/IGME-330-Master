@@ -289,7 +289,7 @@
 
 - Here is the link to the 7th tutorial - [Bulma Tutorial (Product Page Build) #7 - Grid Columns (08:24)](https://www.youtube.com/watch?v=feGMqVSRnmI&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=7)
 
-- This tutorial will walk through how to 
+- This tutorial will walk through how to set up a 3 column gird, with different width columns
 - Make a copy of **index-6.html** and name it **index-7.html**
 
 ### VII-A. Summary
@@ -306,6 +306,7 @@
   - Add a columns container
   - Add as many column elements as you want
   - Each column will have an equal width, no matter the number of columns
+  - Below is an example of a 4-column layout (you don't need to type this in)
 
 ```html
 <div class="columns">
@@ -326,6 +327,8 @@
 
 <br>
 
+**Demo code from video:**
+
 - `column` - brings everything into a central column (as mentioned back in Video #3) 
 - `columns`  - a container for 1 or more `column` elements
 - Bulma typically uses a 12 column grid layout, and we can specify the width of the column (as a fraction of 12) if we don't want them all to be the same width
@@ -334,4 +337,5 @@
   - the next video gets into how to get more fine-grained control over how columns display in different screen sizes
 - `has-text-centered`
 - `is-vcentered`
+- BTW - "Product" image is here - https://github.com/iamshaunjp/bulma-ui-build/tree/lesson-7/assets
 
