@@ -200,20 +200,22 @@
 
 **Navbar Docs here:**
 - https://bulma.io/documentation/components/navbar/
+- Structuring these is a little confusing, so pay close attention to the video, and look at the examples in the link above
 
 <br>
 
 - In this video will build a simple `Navbar` with a logo and 2 links 
-- `navbar` class - the main container
+- `navbar` class - the **main** container
   - look in web inspector - see that it uses `position: relative`
-- `navbar-brand` - the left side, always visible, which usually contains the logo and optionally some links or icons
-- `navbar-item` -  each single item of the navbar, which can either be an `<a>` or a `<div>`
+- `navbar-brand` - the **left side**, always visible, which usually contains the logo and optionally some links or icons
+- `navbar-item` -  each **single item** of the navbar, which can either be an `<a>` or a `<div>`
   - BTW - the Ninja Coffee logo is here: https://github.com/iamshaunjp/bulma-ui-build/tree/lesson-4/assets
   - `style="max-height: 70px"` increases the height of the item, and thus the entire navbar
   - `class="py-2 px-2”` added some padding for us
-- `navbar-menu`
-- `navbar-end`
-- `navbar-start`
+- `navbar-menu` - the **right side**, hidden on touch devices, visible on desktop
+- `navbar-start` - the **left part** of the menu, which appears next to the navbar brand on desktop
+- `navbar-end` - the **right part** of the menu, which appears at the end of the navbar
+
 
 
 
