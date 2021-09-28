@@ -1,8 +1,12 @@
 # HW - Intro to Bulma
 
 ## Overview
+- You are going to build a fully responsive Bulma site that you can use as a starter for Project 1:
+  - scroll to the end of this page to see what it will look like
 
-- https://bulma.io/
+<br>
+
+- The Bulma library is here: https://bulma.io/
 - "Bulma is a free, open source framework that provides ready-to-use front-end components that you can easily combine to build responsive web interfaces."
 - Bulma is mobile friendly & responsive by default
 - Bulma is modern - built with Flexbox - but with much more intuitive and easy-to-use syntax
