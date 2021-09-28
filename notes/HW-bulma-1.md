@@ -296,8 +296,29 @@
 
 **Columns Docs here:**
 - https://bulma.io/documentation/columns/
+- https://bulma.io/documentation/columns/basics/
 
 <br>
 
 - Bulma uses CSS flexbox to create a grid system where we can easily specify the number of columns
-- 
+- Building a columns layout with Bulma is very simple:
+  - Add a columns container
+  - Add as many column elements as you want
+  - Each column will have an equal width, no matter the number of columns
+
+```html
+<div class="columns">
+  <div class="column">
+    First column
+  </div>
+  <div class="column">
+    Second column
+  </div>
+  <div class="column">
+    Third column
+  </div>
+  <div class="column">
+    Fourth column
+  </div>
+</div>
+```
