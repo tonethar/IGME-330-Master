@@ -294,3 +294,8 @@
 
 **Grid Docs here:**
 - 
+
+<br>
+
+- Bulma uses CSS flexbox to create a grid system where we can easily specify the number of columns
+- 
