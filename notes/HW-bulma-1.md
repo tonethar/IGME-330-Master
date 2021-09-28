@@ -250,5 +250,5 @@
 
 <br>
 
-- create **index.js**
+- create **index.js** and link to it from your HTML
 - 
