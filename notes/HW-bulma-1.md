@@ -351,6 +351,76 @@
 - There are 8 more videos - covering things such as the styling of form fields and buttons - and you might want to look at these at some point
 - But let's stop watching these videos for now, and build out our Project 1 Bulma Template
 
-- Make a copy of **index-7.html** and name it **p1-template.html**
+- Make a copy of **index-7.html** and name it **home.html** and then go through the following steps:
+
+### Step #1
+
+- Change the page `<title>` to "Hotdog Finder"
+
+<hr>
+
+### Step #2
+
+- Delete the entire breadcrumb `<div>`
+
+<hr>
+
+### Step #3
+
+- Let's work on the `<nav>`
+
+#### Step #3A
+
+- For the `navbar-brand` - let’s use font awesome instead of an image
+- https://fontawesome.com/v5.15/icons/hotdog?style=solid
+- Replace the `navbar-item` (the one inside of `navbar-brand` with:
+
+```html
+<a class="navbar-item" href="home.html">
+  <i class="fas fa-hotdog"></i>
+</a>
+```
+
+- You will also need to import the font-awesome library:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+```
+
+- Test it to be sure that the hotdog icon is appearing on the left side of the navbar
+
+#### Step #3B
+
+- Leave `#burger` alone
+
+#### Step #3C
+
+- Replace the contents of the `#nav-links` div with this:
+
+
+```html
+<div class="navbar-start">
+	<a class="navbar-item">
+		Home
+	</a>
+
+	<a class="navbar-item is-hoverable" href="app.html">
+		App
+	</a>
+
+	<a class="navbar-item is-hoverable" href="favorites.html">
+		Favorites
+	</a>
+
+	<a class="navbar-item is-hoverable" href="documentation.html">
+		Documentation
+	</a>
+</div> <!-- end navbar-start -->
+```
+
+- Note that because we are now using the class of `navbar-start` instead of `navbar-end`, the menu is now on the left side rather than the right side
+- Save and load the page, it should look like this
+
+[screenshot](_images/bulma/HW-bulma-1.png)
 
 
