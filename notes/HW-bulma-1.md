@@ -5,7 +5,7 @@
   - scroll to the end of this page to see what it will look like
   - of course, you will "add some flare" to the fonts and colors!
 
-<br>
+<hr>
 
 - The Bulma library is here: https://bulma.io/
 - "Bulma is a free, open source framework that provides ready-to-use front-end components that you can easily combine to build responsive web interfaces."
