@@ -269,4 +269,12 @@
 **Breadcrumb Docs here:**
 - https://bulma.io/documentation/components/breadcrumb/
 
+<br>
+
+- `breadcrumb` - The Bulma `breadcrumb` is a simple navigation component that only requires a breadcrumb container and a `<ul>` list. The dividers are automatically created in the content of the `::before` pseudo-element of `<li>` tags
+- `has-bullet-separator`
+- `has-arrow-separator`
+- `is-active` - You can inform the current page using the `is-active` modifier in a `<li>` tag
+- `has-text-grey`
+
 
