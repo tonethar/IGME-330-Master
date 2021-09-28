@@ -247,3 +247,8 @@
   - but if `navbar-menu` has an `is-active` class, it IS visible
   - so - all our JS has to do to get the `navbar-menu` to show up is to toggle the `is-active` class
   - we will do this when the burger is clicked
+
+<br>
+
+- create **index.js**
+- 
