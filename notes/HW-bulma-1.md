@@ -339,4 +339,13 @@
 - `has-text-centered` - here we used it to center the image
 - `columns is-vcentered` - used to vertically center all of the `column` elements
 
+<hr>
+
+## Wrapup -let's create a Project 1 Bulma Template
+
+- There are 8 more videos - covering things such as the styling of form fields and buttons - and you might want to look at these at some point
+- But let's stop watching these videos for now, and build out our Project 1 Bulma Template
+
+- Make a copy of **index-7.html** and name it **p1-template.html**
+
 
