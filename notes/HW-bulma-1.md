@@ -330,6 +330,8 @@
 - `columns`  - a container for 1 or more `column` elements
 - Bulma typically uses a 12 column grid layout, and we can specify the width of the column (as a fraction of 12) if we don't want them all to be the same width
   - `column is-2`, `column is-7`, `column is-3` - adds up to 12
+- Note that when we shrink the window to mobile size, these columns aiutomatically stack on top of each other:
+  - the next video gets into how to get more fine-grained control over how columns display in different screen sizes
 - `has-text-centered`
 - `is-vcentered`
 
