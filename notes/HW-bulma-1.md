@@ -297,6 +297,7 @@
 **Columns Docs here:**
 - https://bulma.io/documentation/columns/
 - https://bulma.io/documentation/columns/basics/
+- https://bulma.io/documentation/columns/sizes/
 
 <br>
 
