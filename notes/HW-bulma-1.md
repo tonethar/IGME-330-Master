@@ -349,7 +349,7 @@
 - When you are done, be sure to check out all of that responsiveness you got for free!
 - Save the file and continue
 
-<hr>
+<hr><hr>
 
 ## Wrap up - let's create a Project 1 Bulma Template
 
