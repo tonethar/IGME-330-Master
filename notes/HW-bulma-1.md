@@ -466,6 +466,10 @@
 
 ![screenshot](_images/_bulma/HW-bulma-3.png)
 
+- And here is the responsive version:
+
+![screenshot](_images/_bulma/HW-bulma-4.png)
+
 <hr>
 
 ### Step #5
