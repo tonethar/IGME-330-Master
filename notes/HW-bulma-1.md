@@ -253,3 +253,20 @@
 - Create **index.js** and link to it from your HTML
 - Complete the code, and don't forget to add an `id="burger"` to your HTML
 - **Power Tip** - make sure that the `#burger` link does NOT have an `href` attribute
+- When it's working perfectly, save everything and move on
+
+
+<hr>
+
+## VI. #6 - *Breadcrumbs*
+
+- Here is the link to the 6th tutorial - [Bulma Tutorial (Product Page Build) #6 - Breadcrumbs (05:04)](https://www.youtube.com/watch?v=Kt8_Uu77_tg&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=6)
+- This tutorial will walk through how to build a burger icon to show the `navbar-menu` links on smaller screened mobile devices
+- Make a copy of **index-5.html** and name it **index-6.html**
+
+### V-A. Summary
+
+**Breadcrumb Docs here:**
+- https://bulma.io/documentation/components/breadcrumb/
+
+
