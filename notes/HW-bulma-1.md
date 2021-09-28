@@ -215,6 +215,7 @@
 - `navbar-menu` - the **right side**, hidden on touch devices, visible on desktop
 - `navbar-start` - the **left part** of the menu, which appears next to the navbar brand on desktop
 - `navbar-end` - the **right part** of the menu, which appears at the end of the navbar
+- added `has-shadow` to navbar
 
 
 
