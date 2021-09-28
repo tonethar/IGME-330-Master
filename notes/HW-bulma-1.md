@@ -242,3 +242,4 @@
 <br>
 
 - `navbar-burger` - the **hamburger** icon, which toggles the `navbar-menu` on touch devices
+  - test it in the browser, on window sizes of less than `1024px`, the `navbar-menu` will disappear and be replaced by `navbar-burger` 
