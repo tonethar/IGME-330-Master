@@ -17,7 +17,7 @@
 
 ## I. Get Started - #1 - *Bulma Intro & Setup*
 
-- Here is the link to the 1st tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
+- Here is the link to the 1st tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup (07:07)](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This one you can breeze through pretty quickly, but there are a few things to note (some of this repeats what we wrote above):
   - Bulma is CSS only, no JS (unlike bootstrap)
   - Bulma is “mobile first”, so everything generally looks good on mobile by default
@@ -57,7 +57,7 @@
 <hr>
 
 ## II. #2 - *Bulma Fonts & Colours*
-- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #2 - Fonts & Colours](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
+- Here is the link to the 2nd tutorial - [Bulma Tutorial (Product Page Build) #2 - Fonts & Colours (09:52)](https://www.youtube.com/watch?v=j9ijz7u_M_o&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This tutorial will walk through how to specify different font styles and colors
 - Make a copy of **index-1.html** and name it **index-2.html**
 - Paste the following into the `<body>` of **index-2.html** (get rid of the `<h1>` and `<a>` tags from the previous video)
@@ -136,7 +136,7 @@
 
 ## III. #3 - *Spacing & Containers*
 
-- Here is the link to the 3rd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
+- Here is the link to the 3rd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers (06:18)](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
 - This tutorial will walk through how to add maring and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
 - Make a copy of **index-2.html** and name it **index-3.html**
 - Paste the following into the `<body>` of **index-3.html** (first, get rid of the tags from the previous video)
@@ -190,7 +190,7 @@
 
 ## IV. #4 - *Navbar (desktop)*
 
-- Here is the link to the 4th tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
+- Here is the link to the 4th tutorial - [Bulma Tutorial (Product Page Build) #4 - Navbar (desktop) (06:40)](https://www.youtube.com/watch?v=HmfQq0suMSA&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=4)
 - This tutorial will walk through how to build a Bulma `Navbar`
 - Make a copy of **index-3.html** and name it **index-4.html**
 - Delete all of the elements in the `<body>` of **index-4.html** and start fresh
@@ -228,7 +228,7 @@
 
 ## V. #5 - *Navbar (for mobiles)*
 
-- Here is the link to the 5th tutorial - [Bulma Tutorial (Product Page Build) #5 - Navbar (for mobiles) (04:58)](https://www.youtube.com/watch?v=qvn2SxGvyPs&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=5&pp=QAFIAw%3D%3D)
+- Here is the link to the 5th tutorial - [Bulma Tutorial (Product Page Build) #5 - Navbar (for mobiles) (04:59)](https://www.youtube.com/watch?v=qvn2SxGvyPs&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=5&pp=QAFIAw%3D%3D)
 - This tutorial will walk through how to build a burger icon to show the `navbar-menu` links on smaller screened mobile devices
 - Make a copy of **index-4.html** and name it **index-5.html**
 
