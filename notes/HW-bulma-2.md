@@ -29,14 +29,18 @@
 </footer>
 ```
 
-- go ahead and preview it - you should see the following - note how the text is centered and that there is a large amount of white space at the bottom of the page
+- go ahead and preview it - you should see the following - note how the text is centered and that there is a large amount of white space at the bottom of the page:
 
 ![screenshot](_images/_bulma/HW-bulma-5.png)
 
 ### Step #2 - Add some Bulma classes
 
 - let's tighten this up and get rid of some of that white space
-- 
+- add `pt-0 pb-0` to the `<footer>` element's `class=`
+- look for `has-text-centered` and change it to `has-text-left`
+- it should look like this:
+
+![screenshot](_images/_bulma/HW-bulma-6.png)
 
 <hr>
 
