@@ -457,7 +457,7 @@
 - if the 2-tone landing page leaves you cold:
   - ditch the `<section class="section ...` and `<div class="container">` elements
   - on the `hero`, change `is-info` to `is-primary`
-  - now it should look like thism with a full screen `hero`:
+  - now it should look like this - with a full screen `hero`:
 
 ![screenshot](_images/_bulma/HW-bulma-3.png)
 
