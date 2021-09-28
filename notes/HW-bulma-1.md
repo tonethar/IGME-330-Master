@@ -323,3 +323,13 @@
   </div>
 </div>
 ```
+
+<br>
+
+- `column` - brings everything into a central column (as mentioned back in Video #3) 
+- `columns`  - a container for 1 or more `column` elements
+- Bulma typically uses a 12 column grid layout, and we can specify the width of the column (as a fraction of 12) if we don't want them all to be the same width
+  - `column is-2`, `column is-7`, `column is-3` - adds up to 12
+- `has-text-centered`
+- `is-vcentered`
+
