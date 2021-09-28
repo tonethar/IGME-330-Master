@@ -425,9 +425,10 @@
 
 <hr>
 
-### Step #4
+### Step #4 - Do you want to be a `hero` ?
 
 - Being that this is the home page, let's replace the 3-column layout with a one column layout and a `hero`
+  - A **hero** is an imposing banner to showcase something
   - https://bulma.io/documentation/layout/hero/
 - Replace the 3 `column` divs with this single `column`:
   
