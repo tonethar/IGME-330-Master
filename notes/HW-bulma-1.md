@@ -475,7 +475,7 @@
 
 ### Step #5
 - Now it's all up to you!
-- Duplicate these pages and give them the appropriate names
+- Duplicate these pages and give them the appropriate file names
 - Come up with your own Bulma styles!
 - **IMPORTANT**:  ditch the `hero` on the other 3 pages - and use a multi-column layout where appropriate - refer back to **index-7.html** to recover the necessary HTML/CSS
 - **IMPORTANT**: be sure to have "You are here" cues on each page - hint: `<h1 class="title is-size-4">Hotdog Finder App</h1>` could go on **app.html**
