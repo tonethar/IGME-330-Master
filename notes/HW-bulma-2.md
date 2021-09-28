@@ -68,9 +68,9 @@
 
 ![screenshot](_images/_bulma/HW-bulma-8.png)
 
-- ... but ... the alignment and padding are off from what we had before
+- it's really close ... but ... the alignment is off from what we had before
 - how to fix this?
-- the simplest way is to import Bulma into the component directly - go ahead and add the `<link>` tag for the Bulma librrary to the top of the `<template>` HTML, right above the `<style>`
+- the simplest way is to import Bulma into the component directly - go ahead and add the `<link>` tag for the Bulma library to the top of the `<template>` HTML, right above the `<style>`
 - Preview it one more time, you should be good to go!
 
 ![screenshot](_images/_bulma/HW-bulma-9.png)
