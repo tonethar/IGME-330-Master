@@ -250,5 +250,6 @@
 
 <br>
 
-- create **index.js** and link to it from your HTML
-- 
+- Create **index.js** and link to it from your HTML
+- Complete the code, and don't forget to add an `id="burger"` to your HTML
+- **Power Tip** - make sure that the `#burger` link does NOT have an `href` attribute
