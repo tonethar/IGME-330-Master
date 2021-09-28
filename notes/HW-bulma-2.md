@@ -6,7 +6,8 @@
 
 ## I. Create a Bulma `footer`
 
-- Let's add a `footer` to our **home.html** file
+- Let's add a `footer` to our P1 Bulma Template
+- The Bulma **footer** is a simple container, with lots of bottom padding, making it great as the last element of any webpage.
 - Make a copy of **home.html** and name it **home-wc.html**
 
 ### Step #1 - get the HTML
