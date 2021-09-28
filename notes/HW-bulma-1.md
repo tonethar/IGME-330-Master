@@ -228,8 +228,8 @@
 
 ## V. #5 - *Navbar (for mobiles)*
 
-- Here is the link to the 5th tutorial - [Bulma Tutorial (Product Page Build) #5 - Navbar (for mobiles)](https://www.youtube.com/watch?v=qvn2SxGvyPs&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=5&pp=QAFIAw%3D%3D)
-- This tutorial will walk through how to build a mobile friendly Bulma `Navbar`
+- Here is the link to the 5th tutorial - [Bulma Tutorial (Product Page Build) #5 - Navbar (for mobiles) (04:58)](https://www.youtube.com/watch?v=qvn2SxGvyPs&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=5&pp=QAFIAw%3D%3D)
+- This tutorial will walk through how to build a burger icon to show the `navbar-menu` links on smaller screened mobile devices
 - Make a copy of **index-4.html** and name it **index-5.html**
 
 
@@ -237,5 +237,8 @@
 
 **Navbar Docs here:**
 - https://bulma.io/documentation/components/navbar/
+- We will need to write JavaScript to show/hide the burger icon - Bulma won't do that for us
 
+<br>
 
+- `navbar-burger` - the **hamburger** icon, which toggles the `navbar-menu` on touch devices
