@@ -153,6 +153,8 @@
 
 **Spacing Docs here:**
 - https://bulma.io/documentation/helpers/spacing-helpers/
+- https://bulma.io/documentation/layout/section/
+- https://bulma.io/documentation/layout/container/
 
 <br>
 
@@ -292,8 +294,8 @@
 
 ### VII-A. Summary
 
-**Grid Docs here:**
-- 
+**Columns Docs here:**
+- https://bulma.io/documentation/columns/
 
 <br>
 
