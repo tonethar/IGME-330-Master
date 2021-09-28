@@ -454,3 +454,5 @@
 
 ![screenshot](_images/_bulma/HW-bulma-2.png)
 
+- if the 2-tone landing page leaves you cold, you can ditch the 
+
