@@ -3,6 +3,7 @@
 ## Overview
 - You are going to build a fully responsive Bulma site that you can use as a starter for Project 1:
   - scroll to the end of this page to see what it will look like
+  - of course, you will "add some flare" to the fonts and colors!
 
 <br>
 
