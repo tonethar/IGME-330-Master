@@ -19,7 +19,7 @@
 
 - Here is the link to the 1st tutorial - [Bulma CSS Tutorial (Product Page Build) #1 - Intro & Setup (07:07)](https://www.youtube.com/watch?v=SCSAExGFK1E&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=2)
 - This one you can breeze through pretty quickly, but there are a few things to note (some of this repeats what we wrote above):
-  - Bulma is CSS only, no JS (unlike bootstrap)
+  - Bulma is CSS only, no JS (unlike Bootstrap)
   - Bulma is “mobile first”, so everything generally looks good on mobile by default
   - Not opinionated on how things are done, meaning it has no JS to do things like (for example) changing button states
   - Walks though/quickly demos:
