@@ -337,6 +337,6 @@
   - the next video gets into how to get more fine-grained control over how columns display in different screen sizes
 - BTW - "Product" image is here - https://github.com/iamshaunjp/bulma-ui-build/tree/lesson-7/assets
 - `has-text-centered` - here we used it to center the image
-- `is-vcentered`
+- `columns is-vcentered` - used to vertically center all of the `column` elements
 
 
