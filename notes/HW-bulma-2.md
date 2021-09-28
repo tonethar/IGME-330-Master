@@ -36,15 +36,30 @@
 ### Step #2 - Add some Bulma classes
 
 - let's tighten this up and get rid of some of that white space
-- add `pt-0 pb-0` to the `<footer>` element's `class=`
-- look for `has-text-centered` and change it to `has-text-left`
-- it should look like this:
+  - to remove the top and bottom padding in the `<footer>`,  add `pt-0 pb-0` to the `<footer>` element's `class=`
+  - look for `has-text-centered` and change it to `has-text-left`
+  - it should look like this:
 
 ![screenshot](_images/_bulma/HW-bulma-6.png)
 
 <hr>
 
 ## II. Convert it to a Web Component
+
+- Now we will convert this "Bulma footer" to a web component
+
+### Step #1 - Get ready
+
+- Comment out all the `<footer></footer>` HTML
+- Replace it with:
+
+```html
+<hotdog-footer data-title="Hotdog Finder"></hotdog-footer>
+```
+
+### Step #2 - Create the `<hotdog-footer>` component code
+
+
 
 <hr><hr>
 
