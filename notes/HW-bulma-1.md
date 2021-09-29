@@ -463,6 +463,7 @@
 - if the 2-tone landing page leaves you cold:
   - delete the `<section class="section ...` and `<div class="container">` elements
   - on the `hero`, change `is-info` to `is-primary`
+  - BTW - there is a `hero-body` class that might come in handy in your future "hero" work
   - now it should look like this - with a full-sized `hero` filling the bottom of the page:
 
 ![screenshot](_images/_bulma/HW-bulma-3.png)
