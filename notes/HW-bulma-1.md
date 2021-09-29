@@ -142,7 +142,7 @@
 ## III. #3 - *Spacing & Containers*
 
 - Here is the link to the 3rd tutorial - [Bulma Tutorial (Product Page Build) #3 - Spacing & Containers (06:18)](https://www.youtube.com/watch?v=--gQv_IXcMw&list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a&index=3)
-- This tutorial will walk through how to add maring and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
+- This tutorial will walk through how to add margin and padding to elements using Bulma, and will introduce us to the `section` and `container` classes
 - Make a copy of **index-2.html** and name it **index-3.html**
 - Paste the following into the `<body>` of **index-3.html** (first, get rid of the tags from the previous video)
 
