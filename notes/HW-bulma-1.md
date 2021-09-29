@@ -16,7 +16,7 @@
 - Below, we are going to take advantage of a pre-existing YouTube tutorial on Bulma:
   - the [Net Ninja Bulma Tutorial series](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a)
   - but we're not just going to say "watch this and figure out Bulma on your own"
-  - instead, we'll have some companion notes for you as we walk through the first seven videos in the series, and some tips on how to adapt this tutorial so that you can get Bulma working with Project 1
+  - instead, we'll have some companion notes for you as we walk through the first seven videos in the series, and a walkthrough on how to adapt this tutorial so that you can create a multipage responsive web site with Bulma (as a "starter" for Project 1)
 
 <hr>
 
