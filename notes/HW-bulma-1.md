@@ -423,7 +423,7 @@
 </div> <!-- end navbar-start -->
 ```
 
-- Note that because we are now using the class of `navbar-start` instead of `navbar-end`, the menu is now on the left side rather than the right side
+- Note that because we are now using the class of `navbar-start` instead of `navbar-end`, the menu is now on the left side of the page, rather than the right side
 - Save and load the page, it should look like this
 
 ![screenshot](_images/_bulma/HW-bulma-1.png)
