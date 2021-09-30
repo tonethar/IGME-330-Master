@@ -4,8 +4,8 @@
 
 - The "PubSub" sofware design pattern (aka Publisher/Subscriber) is a pattern that allows developers to create code modules that can communicate with each other without depending directly on each other. "Subscribers" (Observers) are notified automatically when a "publisher" - basically an object - wants to notify its subscribers that there has been a change in *state* 
 - PubSub allows our code modules to be loosely coupled, minimizing the dependencies between them. This improves code reliability, maintenance, and reusability 
-- One advantage of using PubSub instead of a `CustomEvent()` and `.dispatchEvent()` is that *any* object can use PubSub, while only objects that inherit from `EventDispatcher` (like DOM objects) can *dispatch* events
-- One disadvantage of PubSub is that if it's overused, testing is more difficult, and it becomes hard to keep track of dependencies and types of messages that are sent between different parts of the program
+- One *advantage* of using PubSub instead of a `CustomEvent()` and `.dispatchEvent()` is that *any* object can use PubSub, while only objects that inherit from `EventDispatcher` (like DOM objects) can *dispatch* events
+- One *disadvantage* of PubSub is that if it's overused, testing is more difficult, and it becomes hard to keep track of dependencies and types of messages that are sent between different parts of the program
 
 ### I-A. Reference 
 
