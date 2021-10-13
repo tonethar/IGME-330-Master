@@ -165,14 +165,7 @@ function init(){…}
 export {init};
 ```
 
-10) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
-
-- What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
-    - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
-    - https://gist.github.com/jgravois/5e73b56fa7756fd00b89
-    - https://flaviocopes.com/local-web-server/
-
-- Or, you can use the “Live Server” plugins on VSCode
+10) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server, or (even better) you can use the “Live Server” plugin on VSCode
 
 
 <hr><hr>
