@@ -125,23 +125,21 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - you will have some nicely structured "starter code" for Project 2
 
-- Although we like `array.forEach()` as much as the next guy, let’s convert `geojson.features.forEach(…)` to a `for…of` loop - `for (let feature of geojson.features){ …}` and don’t forget to change the parameter name in the code from `marker` to `feature`
+- note the [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) in the `for..of` loop
 
-2) Change both `var` declarations to `let`
+2) Create a folder named **images** and put **mapbox-icon.png**  into it. Adjust your `.marker{...}` CSS so that the icon still shows up on the map
 
-3) Create a folder named **images** and put **mapbox-icon.png**  into it. Adjust your `.marker{...}` CSS so that the icon still shows up on the map
+3) Now create a folder named **styles** and put a file named **default-styles.css** in it
 
-4) Now create a folder named **styles** and put a file named **default-styles.css** in it
+4) Move the style rules from **index.html** to **default-styles.css**, and &lt;link> to it. Fix the URL in your `.marker{...}` CSS again :-|
 
-5) Move the style rules from **index.html** to **default-styles.css**, and &lt;link> to it. Fix the URL in your `.marker{...}` CSS again :-|
+5) Create a **src** folder, and put 2 empty files in it - **loader.js**, and **main.js**,
 
-6) Create a **src** folder, and put 2 empty files in it - **loader.js**, and **main.js**,
-
-7) In **index.html**, add this tag to the &lt;head> section:
+6) In **index.html**, add this tag to the &lt;head> section:
 
 `<script src="./src/loader.js" type="module"></script>`
 
-8) Make **loader.js** look like this:
+7) Make **loader.js** look like this:
 
 ```js
 import * as main from "./main.js";
@@ -152,11 +150,11 @@ window.onload = () => {
 };
 ```
 
-9) Move all of the JS code from **index.html** to **main.js**. Delete the &lt;script> tag that held the JS code as you won’t need it anymore. This is what **index.html** should look like:
+8) Move all of the JS code from **index.html** to **main.js**. Delete the &lt;script> tag that held the JS code as you won’t need it anymore. This is what **index.html** should look like:
 
 ![screenshot](./_images/_map-images/maps-4.jpg)
 
-10) In **main.js**
+9) In **main.js**
 
 - Wrap all of the code in an `init()` function (which is lame, but we’ll improve on that very soon), and `export` that function.
 
@@ -167,14 +165,14 @@ function init(){…}
 export {init};
 ```
 
-11) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
+10) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server
 
 - What - you’ve just been FTPing everything to banjo? You really ought to set up a local testing server so you don’t have to do that:
     - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
     - https://gist.github.com/jgravois/5e73b56fa7756fd00b89
     - https://flaviocopes.com/local-web-server/
 
-- Or, you can use the “Live Server” or “Live Preview” plugins on your favorite IDE
+- Or, you can use the “Live Server” plugins on VSCode
 
 
 <hr><hr>
