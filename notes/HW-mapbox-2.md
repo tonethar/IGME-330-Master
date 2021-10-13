@@ -2,8 +2,6 @@
 
 ***For all of the steps going forward, keep the debugger console open to be sure that you don’t have any errors***
 
-***This exercise could be a nice "starter" for Project 3!***
-
 ## I. Get Started
 
 1) Duplicate the **custom-marker** folder and name the copy **rit-coffee-finder**
