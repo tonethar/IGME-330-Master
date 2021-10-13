@@ -143,11 +143,8 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ```js
 import * as main from "./main.js";
-
-window.onload = () => {
-	// load fonts, sounds, whatever ...
-	main.init();
-};
+// load fonts, sounds, whatever ...
+main.init();
 ```
 
 8) Move all of the JS code from **index.html** to **main.js**. Delete the &lt;script> tag that held the JS code as you won’t need it anymore. This is what **index.html** should look like:
