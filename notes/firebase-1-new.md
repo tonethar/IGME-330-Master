@@ -105,13 +105,17 @@
 
 <hr>
 
+- On the Realtime Database screen, go ahead and click the **Create Database** button
+
+<hr>
+
 
 ### II-H.
 
 - Then scroll down the page, and stop at the **Or choose Realtime Database** heading
 - Click the **Create Database** button, which will open a pop-up window
 
-![screenshot](_images/_firebase/firebase-NEW-5.jpg)
+![screenshot](_images/_firebase/firebase-NEW-8.jpg)
 
 <hr>
 
@@ -121,7 +125,7 @@
 - Click the **Enable** Button
 - You can modify these rules later under the "Rules" tab
 
-![screenshot](_images/_firebase/firebase-NEW-6.jpg)
+![screenshot](_images/_firebase/firebase-NEW-9.jpg)
 
 <hr>
 
@@ -129,7 +133,7 @@
 
 - You should now have created an empty *Realtime Database*
 
-![screenshot](_images/_firebase/firebase-NEW-7.jpg)
+![screenshot](_images/_firebase/firebase-NEW-10.jpg)
 
 <hr>
 
