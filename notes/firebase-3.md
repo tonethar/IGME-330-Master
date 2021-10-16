@@ -29,7 +29,7 @@
 <h1>High Scores</h1>
 <ul id="scoresList"><li>No data yet!</li></ul>
 
-<script>
+<script type="module">
  /* #1 - The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
 
   console.log(firebase); // make sure firebase is loaded
