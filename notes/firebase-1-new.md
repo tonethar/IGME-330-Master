@@ -37,10 +37,11 @@
 
 -->
 
-### II-C. Turn Off Google Analytics
+### II-C. Turn Off Google Analytics and Create the Project
 
 - Uncheck **Enable Google Analytics**
 - Click the **Create Project** button
+- On the next screen, after your **high-scores** project has been created, click the **Continue** Button
 
 ![screenshot](_images/_firebase/firebase-NEW-3.jpg)
 
