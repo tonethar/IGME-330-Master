@@ -78,7 +78,7 @@ clickMeButton.onclick = _ => {
 
 ## III. Save the values to Firebase using `.push()`
 
-- This is very similar to how we did this in the previous section  
+- This is very similar to how we did this last time
 - We will get a reference to a `scores` node, and "push" JSON objects onto it, effectively creating a list
 - The JSON objects will contain the currrent score, and the current typed in user name
 - Go ahead and add this click handler for the "Save High Score" button:
