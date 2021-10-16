@@ -6,7 +6,7 @@
 - Get ready:
   - Make sure that you have some user score data under `scores/` in Firebase - check the Firebase control panel
   - Head back to **firebase-high-score.html** from last time and change the `onclick` code to call `writeHighScoreData()` (instead of `writeHighScoreData2()`)
-  - Test it by adding new user scores, then check the Firebase control panel to verify that this new data is being added to `scores/` 
+  - Test it by adding new user scores with **firebase-high-score.html**, then check the Firebase control panel to verify that this new data is being added to `scores/` 
 
 <hr>
 
@@ -93,6 +93,7 @@
 
 - You will display this data to the user by generating HTML list items - `<li>` elements in the `forEach()` loop above
 - Hint: `childData` is on object that holds the user score - and it has `userId`, `game` and `score` properties
+- Test it by adding new user scores with **firebase-high-score.html** - they should immediately appear in the list 
 
 **When you are done, it should look like this:**
 
