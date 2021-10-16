@@ -211,15 +211,15 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 <hr>
 
 ## IV. Documentation and Examples
-
+- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
-- [Firebase Realtime Database - Installation & Setup in JavaScript](https://firebase.google.com/docs/database/web/start)
+- Firebase Realtime Database Documentation --> https://firebase.google.com/docs/reference/js/database.md
+- Firebase Realtime Database - Installation & Setup in JavaScript --> https://firebase.google.com/docs/database/web/start
+- Firebase Web SDK API Reference --> https://firebase.google.com/docs/reference/js/index-all?authuser=0
 - Methods: 
   - `getDatabase` - https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` - https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` - https://firebase.google.com/docs/reference/js/database.md#set
-- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
-- Firebase Web SDK API Reference --> https://firebase.google.com/docs/reference/js/index-all?authuser=0
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/?authuser=0#web
 
 
