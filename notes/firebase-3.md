@@ -91,8 +91,8 @@
 
 ## IV. Display the score data in the list - YOU DO THIS
 
-- You will display this data to the user by generating HTML list items - `<li>` elements
-- `childData` is on object that holds the user score - and it has `userId`, `game` and `score` properties
+- You will display this data to the user by generating HTML list items - `<li>` elements in the `forEach()` loop above
+- Hint: `childData` is on object that holds the user score - and it has `userId`, `game` and `score` properties
 
 **When you are done, it should look like this:**
 
