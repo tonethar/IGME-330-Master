@@ -158,7 +158,10 @@
 
 <hr>
 
-## III Do some coding
+## III. Do some coding
+
+- First, open **firebase-test.html** and add the folowwing line of code to the end of the `<script>` tag - `console.log(app);`
+- Open the page in a browser and check the console - you should see a log
 
 
 
