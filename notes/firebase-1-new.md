@@ -50,6 +50,14 @@
 
 <hr>
 
+### II-D. Add a *Web App* to your project
+
+- On the Project Overview Screen, click the **Web** button
+
+![screenshot](_images/_firebase/firebase-NEW-4.jpg)
+
+<hr>
+
 ### II-D. Copy the code snippet
 
 - A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
