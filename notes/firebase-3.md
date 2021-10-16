@@ -5,8 +5,8 @@
 - Here we going to create an "admin page" that will subscribe to score updates from Firebase's Realtime Database!
 - Get ready:
   - Make sure that you have some user score data under `scores/` in Firebase - check the Firebase control panel
-  - Head back to **firebase-high-score.html** from last time and change the onclick code to call `writeHighScoreData()` (instead of `writeHighScoreData2()`)
-  - Test it by adding new user scores, then check the Firebase control panel to be sure that you can see this new data is being added to `scores/` 
+  - Head back to **firebase-high-score.html** from last time and change the `onclick` code to call `writeHighScoreData()` (instead of `writeHighScoreData2()`)
+  - Test it by adding new user scores, then check the Firebase control panel to verify that this new data is being added to `scores/` 
 
 <hr>
 
