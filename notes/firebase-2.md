@@ -132,6 +132,12 @@ function writeHighScoreData2(userId, game, score) {
 
 - Overwrite JSON object at path by using `.set()` --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#set
 
+<hr>
+
+## VI. Deliverables?
+- None!
+- Just get this working and move on!
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part I - Intro](firebase-1.md)**
