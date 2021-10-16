@@ -160,8 +160,49 @@
 
 ## III. Do some coding
 
+### III-A. Getting ready
 - First, open **firebase-test.html** and add the folowwing line of code to the end of the `<script>` tag - `console.log(app);`
 - Open the page in a browser and check the console - you should see a log
+
+<hr>
+
+### III-B. `import` the Firebase Realtime Database library
+
+- Add the following code, right after the `initializeApp` ES6 `import`
+
+```js
+import { getDatabase, ref, set, onValue } from  "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+```
+
+- We will only be using the first 3 symbols for this part `getDatabase`, `ref` and  `set`
+
+### III-C. Create a helper function and call it
+
+- Add the following code to the bottom of the `<script>` tag
+
+```js
+function writeUserData(userId, name, email) {
+  const db = getDatabase();
+  set(ref(db, 'users/' + userId), {
+			username: name,
+			email: email
+	});
+}
+
+writeUserData("abc1234","Ace Coder","ace@rit.edu");
+writeUserData("xyz9876","Ima Student","ima@rit.edu");
+```
+
+### III-D. Test it
+
+- Reload the browser, nothing should have happened
+- But go check your Realtime Database - you should see something like this - which means that you have successfully added data to the "cloud"
+
+![screenshot](_images/_firebase/firebase-NEW-13.jpg)
+
+<hr>
+
+### III-E. What does this code do?
 
 
 
