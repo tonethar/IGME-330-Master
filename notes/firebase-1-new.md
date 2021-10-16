@@ -146,6 +146,7 @@
 
 - Click the **+** button
 - Go ahead and add an `owner` key with a `value` of your name (or nickname)
+- The click the **Add** button
 
 
 ![screenshot](_images/_firebase/firebase-NEW-11.jpg)
