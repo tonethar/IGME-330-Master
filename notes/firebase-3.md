@@ -34,7 +34,7 @@
 
   console.log(firebase); // make sure firebase is loaded
 	
-/* #2 - Also bring over your `writeHighScoreData()` helper function */
+/* #2 - Also bring over your `writeHighScoreData2()` helper function */
 	
 	
   // #3 NEW STUFF
