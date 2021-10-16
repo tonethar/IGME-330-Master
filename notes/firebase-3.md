@@ -32,7 +32,7 @@
 <script type="module">
  /* #1 - The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
 
-  console.log(firebase); // make sure firebase is loaded
+  console.log(app); // make sure firebase is loaded
 	
 /* #2 - Also bring over your `writeHighScoreData2()` helper function */
 	
