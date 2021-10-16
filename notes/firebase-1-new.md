@@ -42,8 +42,6 @@
 - Uncheck **Enable Google Analytics**
 - Click the **Create Project** button
 
-<hr>
-
 ![screenshot](_images/_firebase/firebase-NEW-3.jpg)
 
 <hr>
