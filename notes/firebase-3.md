@@ -91,7 +91,8 @@
 
 ## IV. Display the score data in the list - YOU DO THIS
 
-- You will display this data to the user by generating an HTML list items - `<li>` elements
+- You will display this data to the user by generating HTML list items - `<li>` elements
+- `childData` is on obhect that holds the user score - and it has `userId`, `game` and `score` properties
 
 <!--
 Make **dataChanged()** look like this:
@@ -115,11 +116,13 @@ function dataChanged(data){
 
 -->
 
-**When you are done, it hould look like this:**
+**When you are done, it should look like this:**
 
 ![screenshot](_images/_firebase/firebase-NEW-19.jpg)
 
 <hr>
+
+<!--
 
 ### IV-B. Loop through the score data a different way
 
@@ -171,8 +174,12 @@ score= 110
 
 <hr>
 
-## VII. Wrap up
-- that's all you need to know about firebase to fulfill the project 2 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
+-->
+
+<hr>
+
+## V. Wrap up
+- that's all you need to know about firebase to fulfill the project 1 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
   - https://firebase.google.com/docs/database/security/quickstart
   - https://firebase.google.com/docs/database/security/
   - https://medium.com/@dftaiwo/understanding-the-power-of-firebase-security-rules-part-1-f46aae773a24
@@ -180,6 +187,14 @@ score= 110
   - https://stackoverflow.com/questions/35418143/how-to-restrict-firebase-data-modification
   - https://medium.com/google-cloud/how-secure-is-your-firebase-ec4eb882f34b
   - https://javebratt.com/hide-firebase-api/
+
+<hr>
+
+## VI. Submission
+
+- Get everything working and post both the **firebase-high-score.html** and **firebase-admin.html** files to the web
+- See dropbox for submission instructions
+
   
 <hr><hr>
 
