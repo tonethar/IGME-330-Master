@@ -112,8 +112,6 @@
 
 ### II-H. Choose location and Security rules
 
-<hr<
-
 - Choose you location (probably the default) and click the **Next** button
 
 ![screenshot](_images/_firebase/firebase-NEW-8.jpg)
