@@ -194,7 +194,7 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 ### III-D. Test `writeUserData()` and `set()`
 
 - Reload the browser, you should not see any errors in the console, has anything happened?
-- Go check your Realtime Database - you should see something like this - which means that you have successfully pushed data to the "cloud"!
+- Go check your Realtime Database - you should see something like this - which means that you have successfully put data into the "cloud"!
 
 <hr>
 
