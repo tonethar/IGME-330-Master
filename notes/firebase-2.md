@@ -9,7 +9,7 @@
 ## II. Start code
 
 - The code below will create the interface for this "clicking" game
-- Be sure to add your firebase setup code to #1 and #2 below
+- Be sure to add your firebase setup code below
 - Test the app, you should see something like the screenshot below:
   - The "Click Me!" button will work
   - You should see the firebase object logged to the console
@@ -49,9 +49,12 @@
 
 <script type="module">
 
-/* The Firebase setup code goes here */
+/* The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
 	
 console.log(firebase); // make sure firebase is loaded
+	
+	
+/* Also bring over your `writeHighScoreData()` helper function */
 	
 let score = 0;
 	
@@ -83,10 +86,7 @@ clickMeButton.onclick = _ => {
 
 ```js
 saveScoreButton.onclick = _ => {
-	firebase.database().ref('scores').push({
-		userID: nameField.value,
-		score: score
-	});
+  writeHighScoreData(nameField.value,"Clicktastic",score);
 };
 ```
 - Test the app by running up the score, and then clicking the "Save High Score" button
