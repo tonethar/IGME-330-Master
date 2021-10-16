@@ -198,9 +198,10 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 ![screenshot](_images/_firebase/firebase-NEW-13.jpg)
 
-- When writing to the database using `set()` -  each username is a unique key - and can be oveerwritten
+- When writing to the database using `set()` -  each username is a unique key on `users/` - and can be overwritten
 - Add this line of code to the end of the `<script>` tag and see what happens:
   - `writeUserData("xyz9876","Ima Graduate","ima@realworld.com");`
+  - Check the Firebase control panel - you should see that the `xyz9876` values have updated! 
 
 <hr>
 
@@ -212,6 +213,17 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
+
+<hr>
+
+### III-F. Last thing, let's `push` some high scores to the cloud
+
+- Here is our helper function and some code that calls it
+- Add this to the bottom of the `<script>` tag
+
+```js
+
+```
 
 <hr>
 
