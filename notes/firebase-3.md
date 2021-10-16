@@ -71,7 +71,7 @@
 - `scoresChanged` then loops through the contents of the `scores` list (which are stored in `snapshot)` and logs out the unique key and value of each player score
 - The value of each player score in an object literal that contains the `userId`, `game` and `score` values we have previously sent to Firebase
 - This is useful when you want to fetch all children of a list in a single operation
-- The callback function will be triggered for the initial data and again whenever the data changes (that is what `onlyOnce: false` does)
+- The callback function will be triggered for the initial data and again whenever the score data changes (that is what `onlyOnce: false` does)
 
 <!--
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
@@ -89,10 +89,11 @@
 
 <hr>
 
-## IV. Display the score data
+## IV. Display the score data in the list - YOU DO THIS
 
-- We will display this data to the user by generating an HTML list items - `<li>` elements
+- You will display this data to the user by generating an HTML list items - `<li>` elements
 
+<!--
 Make **dataChanged()** look like this:
 
 ```js
@@ -112,7 +113,11 @@ function dataChanged(data){
 - above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 - **You should now see the contents of the `score2` node in the web browser window:**
 
-![screenshot](_images/firebase-13.jpg)
+-->
+
+**When you are done, it hould look like this:**
+
+![screenshot](_images/_firebase/firebase-NEW-19.jpg)
 
 <hr>
 
