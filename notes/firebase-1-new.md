@@ -247,7 +247,7 @@ writeHighScoreData("xyz9876","Tetris",1000);
 
 <hr>
 
-- Now reload the page a few times, check the Firebase control panel, and you will see the *downside* of `set()`
+- Now reload the page a few times, check the Firebase control panel, and you will see the *downside* of `push()`
 
 <hr>
 
