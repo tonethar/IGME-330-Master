@@ -40,15 +40,15 @@
   const db = getDatabase();
   const scoresRef = ref(db, 'scores');
 
-onValue(scoresRef, (snapshot) => {
-  snapshot.forEach((childSnapshot) => {
-    const childKey = childSnapshot.key;
-    const childData = childSnapshot.val();
-    console.log(childKey,childData);
+  onValue(scoresRef, (snapshot) => {
+    snapshot.forEach((childSnapshot) => {
+      const childKey = childSnapshot.key;
+      const childData = childSnapshot.val();
+      console.log(childKey,childData);
+    });
+  }, {
+    onlyOnce: false // because we want to be notified every time anything in the `scores` key chnages
   });
-}, {
-  onlyOnce: false // because we want to be notified every time anything in the `scores` key chnages
-});
 	
 </script>
 </body>
