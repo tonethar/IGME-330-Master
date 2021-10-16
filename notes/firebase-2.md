@@ -17,7 +17,7 @@
 **firebase-high-score.html**
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -47,20 +47,17 @@
 <button id="clickMeButton">Click Me!</button>
 <button id="saveScoreButton">Save High Score</button>
 
-<!-- #1 - link to Firebase goes here  -->
-
-
 <script type="module">
 
-/* #2 - The rest of the Firebase setup code goes here */
+/* The Firebase setup code goes here */
 	
-console.log(firebase); // #3 - make sure firebase is loaded
+console.log(firebase); // make sure firebase is loaded
 	
 let score = 0;
 	
 clickMeButton.onclick = _ => {
-	score++;
-	scoreElement.innerText = score;
+  score++;
+  scoreElement.innerText = score;
 };
 	
 
