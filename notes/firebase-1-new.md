@@ -96,10 +96,18 @@
 
 <hr>
 
-### II-E. Create a Realtime Database
+### II-G. Create a Realtime Database
 
-- After you have copied the code, close the pop-up window
-- To change to the *Database* screen, click on the **Database** tab on the left 
+- Now you should be on the **Project Overview Screen**
+- Go ahead and click on the **Realtime Database** button on the left side of the screen 
+
+![screenshot](_images/_firebase/firebase-NEW-7.jpg)
+
+<hr>
+
+
+### II-H.
+
 - Then scroll down the page, and stop at the **Or choose Realtime Database** heading
 - Click the **Create Database** button, which will open a pop-up window
 
