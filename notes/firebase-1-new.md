@@ -248,6 +248,8 @@ writeHighScoreData("xyz9876","Tetris",1000);
 <hr>
 
 - Now reload the page a few times, check the Firebase control panel, and you will see the *downside* of `push()`
+- `push` --> https://firebase.google.com/docs/reference/js/database.md#push
+- Append to a list of data --> https://firebase.google.com/docs/database/web/lists-of-data#append_to_a_list_of_data
 
 <hr>
 
@@ -260,6 +262,8 @@ writeHighScoreData("xyz9876","Tetris",1000);
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
+  - `push` --> https://firebase.google.com/docs/reference/js/database.md#push
+- Append to a list of data --> https://firebase.google.com/docs/database/web/lists-of-data#append_to_a_list_of_data
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/
 
 <hr>
