@@ -72,7 +72,6 @@
 - The value of each player score in an object literal that contains the `userId`, `game` and `score` values we have previously sent to Firebase
 - This is useful when you want to fetch all children of a list in a single operation
 - The callback will be triggered for the initial data and again whenever the data changes
-- use `ref.off()` to stop receiving updates
 
 <!--
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
