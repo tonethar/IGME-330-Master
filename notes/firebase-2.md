@@ -72,7 +72,7 @@ clickMeButton.onclick = _ => {
 
 **Screenshot:**
 
-![screenshot](_images/firebase-9.jpg)
+![screenshot](_images/_firebase/firebase-NEW-15.jpg)
 
 <hr>
 
