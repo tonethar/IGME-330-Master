@@ -34,19 +34,21 @@
 
   console.log(app); // make sure firebase is loaded
 	
-/* #2 - Also bring over your `writeHighScoreData2()` helper function */
 	
 	
-  // #3 NEW STUFF
-  firebase.database().ref("scores2").on("value", dataChanged, firebaseError);
-	
-  function dataChanged(data){
-    console.log(data.val());
-  }
-	
-  function firebaseError(error){
-    console.log(error);
-  }
+  // #2 NEW STUFF
+  const db = getDatabase();
+  const scoresRef = ref(db, 'scores');
+
+onValue(scoresRef, (snapshot) => {
+  snapshot.forEach((childSnapshot) => {
+    const childKey = childSnapshot.key;
+    const childData = childSnapshot.val();
+    console.log(childKey,childData);
+  });
+}, {
+  onlyOnce: false // because we want to be notified every time anything in the `scores` key chnages
+});
 	
 </script>
 </body>
