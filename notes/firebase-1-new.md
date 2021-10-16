@@ -6,6 +6,8 @@
   - Data is stored as JSON and synchronized in realtime to every connected client
   - Firebase apps remain responsive even when offline because the Firebase Realtime Database SDK persists your data to disk
 
+<hr><hr>
+
 ## II. Setting up a *Realtime Database*
 
 ### II-A. Create a new project
@@ -156,7 +158,7 @@
 
 ![screenshot](_images/_firebase/firebase-NEW-12.jpg)
 
-<hr>
+<hr><hr>
 
 ## III. Do some coding
 
@@ -176,6 +178,8 @@ import { getDatabase, ref, set, onValue } from  "https://www.gstatic.com/firebas
 
 - We will only be using the first 3 symbols for this part `getDatabase`, `ref` and  `set`
 
+<hr>
+
 ### III-C. Create a helper function and call it
 
 - Add the following code to the bottom of the `<script>` tag
@@ -193,10 +197,12 @@ writeUserData("abc1234","Ace Coder","ace@rit.edu");
 writeUserData("xyz9876","Ima Student","ima@rit.edu");
 ```
 
+<hr>
+
 ### III-D. Test it
 
-- Reload the browser, nothing should have happened
-- But go check your Realtime Database - you should see something like this - which means that you have successfully added data to the "cloud"
+- Reload the browser, you should not see any errors in the console, has anything happened?
+- Go check your Realtime Database - you should see something like this - which means that you have successfully pushed data to the "cloud"!
 
 ![screenshot](_images/_firebase/firebase-NEW-13.jpg)
 
@@ -204,7 +210,12 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 ### III-E. What does this code do?
 
+- `getDatabase`
+- `ref`
+- `set`
 
+
+<hr>
 
 <hr><hr><hr><hr><hr><hr>
 ### II-H. Test your Realtime Database
