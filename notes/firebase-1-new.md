@@ -12,7 +12,7 @@
 
 - Head to https://console.firebase.google.com/ and click the *Create Project* or *Add Project* button - this will create a pop-up window where you will name your project
 
-![screenshot](_images/firebase-NEW-1.jpg)
+![screenshot](_images/_firebase/firebase-NEW-1.jpg)
 
 <hr>
 
@@ -20,7 +20,7 @@
 
 - Name the project **high-scores** and click the **Create Project** button
 
-![screenshot](_images/firebase-NEW-2.jpg)
+![screenshot](_images/_firebase/firebase-NEW-2.jpg)
 
 <hr>
 
@@ -30,7 +30,7 @@
 - Click on the *Firebase for Web* button on the right, which creates a pop-up window
 - This creates a new web app for this project. Note that there are other options for creating Android and iOS Apps. The idea here is that the project will have one set of data, and you could have multiple apps (web, Android, iOS) that SHARE this data
 
-![screenshot](_images/firebase-NEW-3.jpg)
+![screenshot](_images/_firebase/firebase-NEW-3.jpg)
 
 <hr>
 
@@ -40,7 +40,7 @@
 - Go ahead and create an HTML file named **firebase-test.html** and copy/paste this JS code into the &lt;head> section of the document
 - **Note:** If you need to get this setup code at a later time, go to **Develop > Authentication** in the [Firebase console](https://console.firebase.google.com), select the project, then click **Web Setup**
 
-![screenshot](_images/firebase-NEW-4.jpg)
+![screenshot](_images/_firebase/firebase-NEW-4.jpg)
 
 <hr>
 
@@ -51,7 +51,7 @@
 - Then scroll down the page, and stop at the **Or choose Realtime Database** heading
 - Click the **Create Database** button, which will open a pop-up window
 
-![screenshot](_images/firebase-NEW-5.jpg)
+![screenshot](_images/_firebase/firebase-NEW-5.jpg)
 
 <hr>
 
@@ -61,7 +61,7 @@
 - Click the **Enable** Button
 - You can modify these rules later under the "Rules" tab
 
-![screenshot](_images/firebase-NEW-6.jpg)
+![screenshot](_images/_firebase/firebase-NEW-6.jpg)
 
 <hr>
 
@@ -69,7 +69,7 @@
 
 - You should now have created an empty *Realtime Database*
 
-![screenshot](_images/firebase-NEW-7.jpg)
+![screenshot](_images/_firebase/firebase-NEW-7.jpg)
 
 <hr>
 
@@ -115,7 +115,7 @@
 - Head back to your high-scores database, you should see the high score has been posted to "the cloud" - oooh!
 - If you reload your HTML page, the data will be posted multiple times, each time with a unique key (UUID)
 
-![screenshot](_images/firebase-NEW-8.jpg)
+![screenshot](_images/_firebase/firebase-NEW-8.jpg)
 
 <hr>
 
