@@ -134,6 +134,23 @@
 
 <hr>
 
+### II-J. Add a little bit of data to your Realtime Database
+
+- All Firebase Realtime Database data is stored as JSON objects, and you can think of the database as a cloud-hosted JSON tree
+- Unlike a SQL database, there are no tables or records
+- When you add data to the JSON tree, it becomes a node in the existing JSON structure with an associated key
+- You can provide your own keys, such as user IDs or semantic names, or they can be provided for you using `push()`
+- The Firebase Realtime Database allows nesting data up to 32 levels deep, but you should avoid nesting data for performance reasons - e.g. when you fetch data at a location in your database, you also retrieve all of its child nodes
+
+<hr>
+
+- Click the **+** button
+- Go ahead and add an `owner` key with a `value` of your name (or nickname)
+
+
+![screenshot](_images/_firebase/firebase-NEW-11.jpg)
+
+<hr><hr><hr><hr><hr><hr>
 ### II-H. Test your Realtime Database
 - We need to write code in **firebase-test.html** to write some values to your database
 - To test your database, add the following to the &lt;script> tag, right after the code that you previously copy/pasted:
@@ -180,7 +197,7 @@
 
 <hr>
 
-### II-J. Discussion
+### II-J. Add a little bit of data to the Realtime Database
 
 - All Firebase Realtime Database data is stored as JSON objects, and you can think of the database as a cloud-hosted JSON tree
 - Unlike a SQL database, there are no tables or records
