@@ -49,13 +49,15 @@
 
 <script type="module">
 
-/* The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
+/* #1 - The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
 	
 console.log(firebase); // make sure firebase is loaded
 	
 	
-/* Also bring over your `writeHighScoreData()` helper function */
+/* #2 - Also bring over your `writeHighScoreData()` helper function */
+
 	
+/* #3 - Here's the new code for our clicker "game" */	
 let score = 0;
 	
 clickMeButton.onclick = _ => {
