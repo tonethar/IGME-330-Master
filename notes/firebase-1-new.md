@@ -204,6 +204,7 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 - Firebase Documentation --> https://firebase.google.com/docs/reference/js/
 - Firebase Realtime Database Documentation --> https://firebase.google.com/docs/reference/js/database.md
 - Go read about these now:
+  - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
@@ -211,10 +212,11 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 <hr>
 
 ## IV. Documentation and Examples
-- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup?authuser=0
+- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
 - Firebase Realtime Database - Installation & Setup in JavaScript --> https://firebase.google.com/docs/database/web/start
 - Methods: 
+  - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
