@@ -65,8 +65,16 @@
 
 <hr>
 
-## III. `firebase.database.ref.on`
+## III. Discussion
 
+- This code - `onValue(scoresRef, ...` - listens for when any of the values in the `scores` list changes - and then it executes a *callback function*
+- The *callback function* hen loops through the contents of the `scores` list (which are stored in `snapshot)` and logs out the unique key and value of each player score
+- The value of each player score in an object literal that contains the `userId`, `game` and `score` values we have previously sent to Firebase
+- This is useful when you want to fetch all children of a list in a single operation
+- The callback will be triggered for the initial data and again whenever the data changes
+- use `ref.off()` to stop receiving updates
+
+<!--
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
   - `firebase.database.ref.on`:
     - is documented here --> https://firebase.google.com/docs/reference/js/firebase.database.Reference?authuser=0#on
@@ -78,18 +86,13 @@
   - `dataChanged` is the "success" function that will be called when the data changes
     - note that `data.val()` is an object (not an array) with named keys like `MADMAX`, `MADMAX2` etc, so we won't be able to `for..of` it later on like we do with arrays
   - `firebaseError` is the "error" function that will be called if there is an error (if the app is offline, for example)
+-->
 
 <hr>
 
-## IV. Our `dataChanged` callback function
+## IV. Display the score data
 
-- when the app (page) first loads, this is called to get an initial list of scores
-- when the data on the `score2` JSON node changes, the changes will be pushed out by firebase to interested applications (i.e. those that setup an "on value" handler for that node
-
-### IV-A. Display the score data
-
-- We will display this data in an "old school" fashion, via DOM manipulation
-- For project 3, you are required to have an admin page like this one, but it will instead use Vue.js to update the page
+- We will display this data to the user by generating an HTML list items - `<li>` elements
 
 Make **dataChanged()** look like this:
 
