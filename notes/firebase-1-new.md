@@ -220,7 +220,7 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
-- Firebase Web Samples --> https://firebase.google.com/docs/samples/?authuser=0#web
+- Firebase Web Samples --> https://firebase.google.com/docs/samples/#web
 
 
 <hr><hr>
