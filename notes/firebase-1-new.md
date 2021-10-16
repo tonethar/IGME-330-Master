@@ -125,28 +125,10 @@
 
 <hr>
 
-
-<hr><hr><hr><hr>
-- Then scroll down the page, and stop at the **Or choose Realtime Database** heading
-- Click the **Create Database** button, which will open a pop-up window
-
-![screenshot](_images/_firebase/firebase-NEW-8.jpg)
-
-<hr>
-
-### II-F. Set the security rules for your database
-
-- Choose **Start in test mode**
-- Click the **Enable** Button
-- You can modify these rules later under the "Rules" tab
-
-![screenshot](_images/_firebase/firebase-NEW-9.jpg)
-
-<hr>
-
-### II-G. Verify
+### II-I. Verify
 
 - You should now have created an empty *Realtime Database*
+- Move the mouse over to where the arrow is until you see the **+** button appear
 
 ![screenshot](_images/_firebase/firebase-NEW-10.jpg)
 
