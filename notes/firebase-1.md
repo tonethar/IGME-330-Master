@@ -191,12 +191,16 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 <hr>
 
-### III-D. Test it
+### III-D. Test `writeUserData()` and `set()`
 
 - Reload the browser, you should not see any errors in the console, has anything happened?
 - Go check your Realtime Database - you should see something like this - which means that you have successfully pushed data to the "cloud"!
 
+<hr>
+
 ![screenshot](_images/_firebase/firebase-NEW-13.jpg)
+
+<hr>
 
 - When writing to the database using `set()` -  each username is a unique key on `users/` - and can be overwritten
 - Add this line of code to the end of the `<script>` tag and see what happens:
@@ -216,7 +220,7 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 <hr>
 
-### III-F. Last thing, let's `push` some high scores to the cloud
+### III-F. Last thing, let's `push()` some high scores to the cloud
 
 - Here is our helper function and some code that calls it
 - Add this to the bottom of the `<script>` tag
@@ -253,7 +257,7 @@ writeHighScoreData("xyz9876","Tetris",1000);
 
 <hr>
 
-## IV. Documentation and Examples
+## IV. Documentation
 - Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup
 - Firebase Realtime Database --> https://firebase.google.com/docs/database/
 - Firebase Realtime Database - Installation & Setup in JavaScript --> https://firebase.google.com/docs/database/web/start
