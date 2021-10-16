@@ -20,7 +20,7 @@
 
 ### II-B. Name the project
 
-- Name the project **high-scores** and click the **Create Project** button
+- Name the project **high-scores** and click the **Continue** button
 
 ![screenshot](_images/_firebase/firebase-NEW-2.jpg)
 
