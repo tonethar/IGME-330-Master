@@ -152,8 +152,15 @@
 <hr>
 
 - Then click the **Add** button
+- Congrats! You'e created your Firebase Realtime Database (finally) and added some data to it!
 
 ![screenshot](_images/_firebase/firebase-NEW-12.jpg)
+
+<hr>
+
+## III Do some coding
+
+
 
 <hr><hr><hr><hr><hr><hr>
 ### II-H. Test your Realtime Database
