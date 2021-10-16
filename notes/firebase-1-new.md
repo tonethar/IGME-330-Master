@@ -210,10 +210,12 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 <hr>
 
 ### III-E. What does this code do?
-
-- `getDatabase`
-- `ref`
-- `set`
+- Firebase Documentation - https://firebase.google.com/docs/reference/js/
+- Firebase Realtime Database Documentation - https://firebase.google.com/docs/reference/js/database.md
+- Go read about these now:
+  - `getDatabase` - https://firebase.google.com/docs/reference/js/database.md#getdatabase
+  - `ref` - https://firebase.google.com/docs/reference/js/database.md#ref
+  - `set` - https://firebase.google.com/docs/reference/js/database.md#set
 
 
 <hr>
