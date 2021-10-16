@@ -58,6 +58,17 @@
 
 <hr>
 
+### II-E. Add Firebase to your web app
+
+- Give the app the nickname of **high-scores-database**
+- Do NOT check the checkbox to set up Firebase Hosting
+- Click the **Register App** button
+
+![screenshot](_images/_firebase/firebase-NEW-5.jpg)
+
+<hr>
+
+
 ### II-D. Copy the code snippet
 
 - A pop-up window will appear that contains the JavaScript set-up code you will need to enable Firebase on a web page
