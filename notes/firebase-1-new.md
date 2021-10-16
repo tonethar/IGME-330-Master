@@ -162,6 +162,8 @@
 
 ## III. Do some coding
 
+- If you get stuck on anything relatd to the Realtime Database, the best place to look is in the [Firebase Realtime Database - Installation & Setup in JavaScript](https://firebase.google.com/docs/database/web/start) page
+
 ### III-A. Getting ready
 - First, open **firebase-test.html** and add this line of code to the end of the `<script>` tag - `console.log(app);`
 - Open the page in a browser and check the console - you should see a log
