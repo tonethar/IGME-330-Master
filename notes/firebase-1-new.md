@@ -198,6 +198,10 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 ![screenshot](_images/_firebase/firebase-NEW-13.jpg)
 
+- When writing to the database using `set()` -  each username is a unique key - and can be oveerwritten
+- Add this line of code to the end of the `<script>` tag and see what happens:
+  - `writeUserData("xyz9876","Ima Graduate","ima@realworld.com");`
+
 <hr>
 
 ### III-E. How does the above code work?
