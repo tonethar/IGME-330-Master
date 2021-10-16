@@ -10,7 +10,7 @@
 
 ### II-A. Create a new project
 
-- Head to https://console.firebase.google.com/ and click the *Add Project* button, this will create a pop-up window where you will name your project
+- Head to https://console.firebase.google.com/ and click the *Create Project* or *Add Project* button - this will create a pop-up window where you will name your project
 
 ![screenshot](_images/firebase-NEW-1.jpg)
 
