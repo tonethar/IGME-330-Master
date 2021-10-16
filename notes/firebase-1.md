@@ -258,17 +258,21 @@ writeHighScoreData("xyz9876","Tetris",1000);
 <hr>
 
 ## IV. Documentation
-- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/web/setup
-- Firebase Realtime Database --> https://firebase.google.com/docs/database/
-- Firebase Realtime Database - Installation & Setup in JavaScript --> https://firebase.google.com/docs/database/web/start
+- Get Started with Firebase for Web Apps --> https://firebase.google.com/docs/database/web/start
+- Firebase Realtime Database Overview --> https://firebase.google.com/docs/database/
+- Realtime Database - Get Started --> https://firebase.google.com/docs/database/web/start
+- Realtime Database - Structure Data --> https://firebase.google.com/docs/database/web/structure-data
+- Realtime Database - Read/Write/Update/Delete --> https://firebase.google.com/docs/database/web/read-and-write
+- Realtime Database - Work with Lists of Data on the Web --> https://firebase.google.com/docs/database/web/lists-of-data
+- Realtime Database - Enable Offline Capabilities --> https://firebase.google.com/docs/database/web/offline-capabilities
+- Firebase Web Samples --> https://firebase.google.com/docs/samples/
+- Firebase API Web Reference --> https://firebase.google.com/docs/reference/js/
 - Methods: 
   - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
   - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
   - `push` --> https://firebase.google.com/docs/reference/js/database.md#push
-- Append to a list of data --> https://firebase.google.com/docs/database/web/lists-of-data#append_to_a_list_of_data
-- Firebase Web Samples --> https://firebase.google.com/docs/samples/
 
 <hr>
 
