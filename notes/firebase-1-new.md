@@ -11,7 +11,7 @@
 ### II-A. Create a new project
 
 - Head to https://console.firebase.google.com/ 
-  - click the *Create Project* or *Add Project* button
+  - click the **Create Project** or **Add Project** button
   - this will create a pop-up window where you will name your project
 
 ![screenshot](_images/_firebase/firebase-NEW-1.jpg)
@@ -39,7 +39,8 @@
 
 ### II-C. Turn Off Google Analytics
 
-- Uncheck **Enable Google Analytics**  and click the **Create Project** button
+- Uncheck **Enable Google Analytics**
+- Click the **Create Project** button
 
 ![screenshot](_images/_firebase/firebase-NEW-3.jpg)
 
