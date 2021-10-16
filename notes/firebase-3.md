@@ -92,7 +92,13 @@
 ## IV. Display the score data in the list - YOU DO THIS
 
 - You will display this data to the user by generating HTML list items - `<li>` elements
-- `childData` is on obhect that holds the user score - and it has `userId`, `game` and `score` properties
+- `childData` is on object that holds the user score - and it has `userId`, `game` and `score` properties
+
+**When you are done, it should look like this:**
+
+![screenshot](_images/_firebase/firebase-NEW-19.jpg)
+
+<hr>
 
 <!--
 Make **dataChanged()** look like this:
@@ -114,15 +120,6 @@ function dataChanged(data){
 - above, recall that `obj` is an object, not an array, so we instead use a `for..in` loop to iterate through the object keys 
 - **You should now see the contents of the `score2` node in the web browser window:**
 
--->
-
-**When you are done, it should look like this:**
-
-![screenshot](_images/_firebase/firebase-NEW-19.jpg)
-
-<hr>
-
-<!--
 
 ### IV-B. Loop through the score data a different way
 
@@ -175,8 +172,6 @@ score= 110
 <hr>
 
 -->
-
-<hr>
 
 ## V. Wrap up
 - that's all you need to know about firebase to fulfill the project 1 requirements - but there's a lot more you could do, such as writing some rules to secure your data (i.e. don't let someone hack your JavaScript to overwrite your `scores` nodes): 
