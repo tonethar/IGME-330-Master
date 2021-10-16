@@ -29,14 +29,15 @@
 <h1>High Scores</h1>
 <ul id="scoresList"><li>No data yet!</li></ul>
 
-<!-- #1 - link to Firebase goes here  -->
-
 <script>
-  /* #2 - The rest of the Firebase setup code goes here */
+ /* #1 - The Firebase setup code goes here  - both imports, `firebaseConfig` and `app` */
 
-  console.log(firebase); // #3 - make sure firebase is loaded
+  console.log(firebase); // make sure firebase is loaded
 	
-  // #4 This is where the magic happens!
+/* #2 - Also bring over your `writeHighScoreData()` helper function */
+	
+	
+  // #3 NEW STUFF
   firebase.database().ref("scores2").on("value", dataChanged, firebaseError);
 	
   function dataChanged(data){
@@ -170,5 +171,3 @@ score= 110
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
-
-**[Next Chapter -> Firebase Part IV - Draw & Share](firebase-4.md)**
