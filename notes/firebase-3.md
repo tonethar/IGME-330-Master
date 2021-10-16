@@ -44,15 +44,15 @@
   const db = getDatabase();
   const scoresRef = ref(db, 'scores');
 
-  onValue(scoresRef, (snapshot) => {
-    snapshot.forEach((childSnapshot) => {
-      const childKey = childSnapshot.key;
-      const childData = childSnapshot.val();
+  function scoresChanged(snapshot){
+    snapshot.forEach(score => {
+      const childKey = score.key;
+      const childData = score.val();
       console.log(childKey,childData);
     });
-  }, {
-    onlyOnce: false // because we want to be notified every time anything in the `scores` key chnages
-  });
+  }
+
+  onValue(scoresRef,scoresChanged, {onlyOnce: false});
 	
 </script>
 </body>
@@ -67,11 +67,11 @@
 
 ## III. Discussion
 
-- This code - `onValue(scoresRef, ...` - listens for when any of the values in the `scores` list changes - and then it executes a *callback function*
-- The *callback function* hen loops through the contents of the `scores` list (which are stored in `snapshot)` and logs out the unique key and value of each player score
+- This code - `onValue(scoresRef,scoresChanged, {onlyOnce: false});` - listens for when any of the values in the `scores` list changes - and then it executes a *callback function* named `scoresChanged`
+- `scoresChanged` then loops through the contents of the `scores` list (which are stored in `snapshot)` and logs out the unique key and value of each player score
 - The value of each player score in an object literal that contains the `userId`, `game` and `score` values we have previously sent to Firebase
 - This is useful when you want to fetch all children of a list in a single operation
-- The callback will be triggered for the initial data and again whenever the data changes
+- The callback function will be triggered for the initial data and again whenever the data changes (that is what `onlyOnce: false` does)
 
 <!--
 - Comment #4 above used this line - `firebase.database().ref("scores2").on("value", dataChanged, firebaseError);` - to listen for changes to our firebase database:
