@@ -94,7 +94,11 @@ saveScoreButton.onclick = _ => {
 
 ![screenshot](_images/_firebase/firebase-NEW-16.jpg)
 
-<hr>
+<hr><hr><hr><hr><hr><hr>
+
+***THE REST OF THE PAGE IS NOT UPDATED YET***
+
+<hr><hr><hr><hr><hr><hr>
 
 ## IV. Save the values to Firebase using `.set()`
 
