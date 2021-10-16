@@ -41,9 +41,14 @@
 
 - Uncheck **Enable Google Analytics**
 - Click the **Create Project** button
-- On the next screen, after your **high-scores** project has been created, click the **Continue** Button
+
+<hr>
 
 ![screenshot](_images/_firebase/firebase-NEW-3.jpg)
+
+<hr>
+
+- On the next screen, after your **high-scores** project has been created, click the **Continue** Button
 
 <hr>
 
