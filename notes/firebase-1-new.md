@@ -110,8 +110,25 @@
 <hr>
 
 
-### II-H.
+### II-H. Choose location and Security rules
 
+<hr<
+
+- Choose you location (probably the default) and click the **Next** button
+
+![screenshot](_images/_firebase/firebase-NEW-8.jpg)
+
+<hr>
+
+- On the next screen, choose the **Start in test mode** radio button
+- Click the **Enable** button
+
+![screenshot](_images/_firebase/firebase-NEW-9.jpg)
+
+<hr>
+
+
+<hr><hr><hr><hr>
 - Then scroll down the page, and stop at the **Or choose Realtime Database** heading
 - Click the **Create Database** button, which will open a pop-up window
 
