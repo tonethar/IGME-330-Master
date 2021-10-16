@@ -163,7 +163,7 @@
 ## III. Do some coding
 
 ### III-A. Getting ready
-- First, open **firebase-test.html** and add the folowwing line of code to the end of the `<script>` tag - `console.log(app);`
+- First, open **firebase-test.html** and add this line of code to the end of the `<script>` tag - `console.log(app);`
 - Open the page in a browser and check the console - you should see a log
 
 <hr>
@@ -176,7 +176,8 @@
 import { getDatabase, ref, set, onValue } from  "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
 ```
 
-- We will only be using the first 3 symbols for this part `getDatabase`, `ref` and  `set`
+- This line of code imports 4 functions from Firebase Realtime Database library so that we can use them
+- We will only be using the first 3 symbols for this part: `getDatabase`, `ref` and  `set`
 
 <hr>
 
