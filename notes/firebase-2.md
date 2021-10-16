@@ -108,22 +108,23 @@ saveScoreButton.onclick = _ => {
 
 ### IV-A. Instructions
 
-- Comment out the old version of `saveScoreButton.onclick = ...`, and use this new version instead:
+- Here is a new `writeHighScoreData2()` helper function that uses `set()`:
+- Call it instead of `writeHighScoreData()` 
 
 ```js
-saveScoreButton.onclick = _ => {
-	let path = 'scores2/' + nameField.value;
-	firebase.database().ref(path).set({ // over-writes old values
-		userID: nameField.value,
-		score: score
-	});
-};
+function writeHighScoreData2(userId, game, score) {
+  const db = getDatabase();
+  set(ref(db, 'scores2/' + userId), {
+    game,
+    score
+  });
+}
 ```
 
 - Note that we are saving everything under a new JSON node named `scores2`
 - Test it by submitting multiple scores under the same username, and then head to the firebase console, you should only see the last score submitted:
 
-![screenshot](_images/firebase-11.jpg)
+![screenshot](_images/_firebase/firebase-NEW-17.jpg)
 
 - Note that the auto-generated key is gone, replaced by the user name
 - Hint: It would probably be better if you generated a GUID as a key, and then saved it in local storage. Then the user's name would not potentially collide with other users that have the same name:
