@@ -255,6 +255,8 @@ writeHighScoreData("xyz9876","Tetris",1000);
 - `push` --> https://firebase.google.com/docs/reference/js/database.md#push
 - Append to a list of data --> https://firebase.google.com/docs/database/web/lists-of-data#append_to_a_list_of_data
 
+<a id="documentation" />
+
 <hr>
 
 ## IV. Documentation
