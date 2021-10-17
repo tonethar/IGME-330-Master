@@ -271,7 +271,7 @@ writeHighScoreData("xyz9876","Tetris",1000);
   - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
   - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
   - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
-  - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
+  - `set` (*writes data to a database location*) --> https://firebase.google.com/docs/reference/js/database.md#set
   - `push` --> https://firebase.google.com/docs/reference/js/database.md#push
 
 <hr>
