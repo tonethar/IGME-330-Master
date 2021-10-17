@@ -268,11 +268,21 @@ writeHighScoreData("xyz9876","Tetris",1000);
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/
 - Firebase API Web Reference --> https://firebase.google.com/docs/reference/js/
 - Methods: 
-  - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
-  - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
-  - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
-  - `set` (*writes data to a database location*) --> https://firebase.google.com/docs/reference/js/database.md#set
-  - `push` --> https://firebase.google.com/docs/reference/js/database.md#push
+  - `initializeApp()`
+    - *Creates and initializes a FirebaseApp instance*
+    - https://firebase.google.com/docs/reference/js/app.md#initializeapp
+  - `getDatabase`
+    - *Returns the instance of the Realtime Database SDK that is associated with the provided FirebaseApp*
+    - https://firebase.google.com/docs/reference/js/database.md#getdatabase
+  - `ref`
+     - *Returns a Reference representing the location in the Database corresponding to the provided path. If no path is provided, the Reference will point to the root of the Database*
+     - https://firebase.google.com/docs/reference/js/database.md#ref
+  - `set`
+    - *writes data to a database location*
+    - https://firebase.google.com/docs/reference/js/database.md#set
+  - `push`
+    - *Generates a new child location using a unique key and returns its Reference. This is the most common pattern for adding data to a collection of items. If you provide a value to push(), the value is written to the generated location.*
+    - https://firebase.google.com/docs/reference/js/database.md#push
 
 <hr>
 
