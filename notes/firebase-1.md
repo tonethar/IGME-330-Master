@@ -212,11 +212,11 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 ### III-E. How does the above code work?
 - Firebase Documentation --> https://firebase.google.com/docs/reference/js/
 - Firebase Realtime Database Documentation --> https://firebase.google.com/docs/reference/js/database.md
-- Go read about these now:
+- Go read about these functions now:
   - `initializeApp()` --> https://firebase.google.com/docs/reference/js/app.md#initializeapp
-  - `getDatabase` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
-  - `ref` --> https://firebase.google.com/docs/reference/js/database.md#ref
-  - `set` --> https://firebase.google.com/docs/reference/js/database.md#set
+  - `getDatabase()` --> https://firebase.google.com/docs/reference/js/database.md#getdatabase
+  - `ref()` --> https://firebase.google.com/docs/reference/js/database.md#ref
+  - `set()` --> https://firebase.google.com/docs/reference/js/database.md#set
 
 <hr>
 
