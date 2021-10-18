@@ -271,7 +271,7 @@ writeHighScoreData("xyz9876","Tetris",1000);
 - Realtime Database - Enable Offline Capabilities --> https://firebase.google.com/docs/database/web/offline-capabilities
 - Firebase Web Samples --> https://firebase.google.com/docs/samples/
 - Firebase API Web Reference --> https://firebase.google.com/docs/reference/js/
-- Methods: 
+- Functions: 
   - `initializeApp()`
     - *Creates and initializes a FirebaseApp instance*
     - https://firebase.google.com/docs/reference/js/app.md#initializeapp
