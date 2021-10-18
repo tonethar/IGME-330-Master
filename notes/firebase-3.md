@@ -52,7 +52,7 @@
     });
   }
 
-  onValue(scoresRef,scoresChanged, {onlyOnce: false});
+  onValue(scoresRef,scoresChanged);
 	
 </script>
 </body>
