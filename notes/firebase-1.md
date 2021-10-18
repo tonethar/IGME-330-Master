@@ -275,16 +275,16 @@ writeHighScoreData("xyz9876","Tetris",1000);
   - `initializeApp()`
     - *Creates and initializes a FirebaseApp instance*
     - https://firebase.google.com/docs/reference/js/app.md#initializeapp
-  - `getDatabase`
+  - `getDatabase()`
     - *Returns the instance of the Realtime Database SDK that is associated with the provided FirebaseApp*
     - https://firebase.google.com/docs/reference/js/database.md#getdatabase
-  - `ref`
+  - `ref()`
      - *Returns a Reference representing the location in the Database corresponding to the provided path. If no path is provided, the Reference will point to the root of the Database*
      - https://firebase.google.com/docs/reference/js/database.md#ref
-  - `set`
+  - `set()`
     - *writes data to a database location*
     - https://firebase.google.com/docs/reference/js/database.md#set
-  - `push`
+  - `push()`
     - *Generates a new child location using a unique key and returns its Reference. This is the most common pattern for adding data to a collection of items. If you provide a value to push(), the value is written to the generated location.*
     - https://firebase.google.com/docs/reference/js/database.md#push
 
