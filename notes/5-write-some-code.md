@@ -1,6 +1,8 @@
 # Canvas 2D Essential Skills #5 - Write some code!
 
 ## I. Overview
+- There isn't a video this time
+- Make a copy of **cs-canvas-4.html** and name it **cs-canvas-5.html**
 - You are going to add code and functionality to **cs-canvas-5.html**
 - In any of the functions that do drawing, be sure that you have a call to `ctx.save()` and `ctx.restore()`
 
