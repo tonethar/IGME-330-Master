@@ -31,7 +31,9 @@
 - there will be 2 more checkboxes called "Draw Arcs" and "Draw Lines":
   - when these are checked, random arcs and lines will be drawn using the above methods
 - there will be a "Clear Screen" button:
-  - when clicked it will clear out all of the existing drawing (you can use `ctx.fillRect()` or just `ctx.fill()` a canvas-sized rectangle with a solid color
+  - when clicked it will clear out all of the existing drawing:
+    - you can use `ctx.fillRect()` or just `ctx.fill()` a canvas-sized rectangle with a solid color
+    - or you could use `ctx.clearRect()`
 
 <hr>
 
