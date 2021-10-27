@@ -77,6 +77,10 @@
 			ctx.restore();
 		}
 		
+		function drawTriangle(){
+		  // (250,35), (350,250), (150,250)
+		}
+		
 	</script>
 </head>
 <body>
