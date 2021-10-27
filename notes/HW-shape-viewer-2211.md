@@ -103,7 +103,7 @@
 			<li>Add a new button titled "Triangle" to the page. Clicking it should fill a magenta triangle with a 10-pixel thick green stroke on the canvas. Be sure that you can see ALL 10-pixels of the stroke.</li>
 			<li>Add a new button titled "Circle" to the page. Clicking it should fill a 100-pixel radius purple circle with a 5-pixel thick white stroke on the canvas. Be sure that you can see ALL 5-pixels of the stroke.</li>
 			<li>Because portions of the triangle and circle shapes may still be visible when you click other buttons, add code to effectively "clear" the image by re-drawing the 500x300-pixel yellow background. Add this to any function where its necessary.</li>
-			<li>Challenge: At this point you have 3 buttons calling three different functions that all do basically the same thing. 
+			<li>At this point you have 3 buttons calling three different functions that all do basically the same thing. 
 			The is wasteful and violates the <abbr>D.R.Y.</abbr> principle of Software engineering ("<b>D</b>on't <b>R</b>epeat <b>Y</b>ourself"). 
 			Generalizing your code so that you have 1 function instead of 3 (i.e. <em>Procedural Abstraction</em>) would probably be a good idea. 
 			Go ahead and replace <code>drawRedBox()</code>, <code>drawGreenBox()</code>, and <code>drawBlueBox()</code> with a function named <code>drawBox()</code>. 
