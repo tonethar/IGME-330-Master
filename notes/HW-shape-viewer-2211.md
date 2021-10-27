@@ -42,9 +42,6 @@
 	</style>
 	
 	<script>
-		// #0 - in this class we will always use ECMAScript 5's "strict" mode
-		// See what 'use strict' does here:
-		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
 		'use strict';
 		
 		// #1 call the init function after the pages loads
