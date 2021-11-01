@@ -4,6 +4,7 @@
 
 - Let's review drawing *rectangles*, *circles* and *lines*
 - New stuff:
+  - change how lines are joined together
   - draw rings (circles with the center punched out)
   - draw polygons
   - draw curvilinear shapes
