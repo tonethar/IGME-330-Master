@@ -13,7 +13,7 @@
   - Canvas properties:
     - `ctx.lineJoin` - <code>round|bevel|miter</code>
 
-
+<hr>
 
 ## II. Obtaining a *drawing context* object
    
@@ -24,7 +24,9 @@
   - we could also turn the above 2 statements into a "one-liner" like this:
       
    `let ctx = document.querySelector('canvas').getContext('2d');`
-      
+
+<hr>
+
 ## III. How to draw a Rectangle
 
   A) Optionally, `ctx.save()` (i.e. save or "push") the current value of all of the drawing state attributes so that you can easily restore them to their original values later. This also saves the CTM (current transformation matrix), which we will discuss soon
@@ -89,6 +91,7 @@ ctx.fill();
 
 ![square image](./_images/square-2.jpg)
 
+<hr>
 
 ## IV. How to draw a Circle
 
@@ -111,6 +114,8 @@ ctx.fill();
  ```
  
 ![circle image](./_images/circle.jpg)
+
+<hr>
  
 ## V. How to draw a Ring
 
@@ -125,7 +130,9 @@ ctx.fill();
   ctx.fill();  
  ```
  
-  ![circle image](./_images/circle-2.jpg)
+![circle image](./_images/circle-2.jpg)
+
+<hr>
 
 ## VI. How to draw a Line
 
@@ -140,7 +147,9 @@ ctx.fill();
 ``` 
    
 ![line image](./_images/line.jpg)
-    
+
+<hr>
+
 ## VI. How to draw a Polygon
 
 - continue adding lines to our path:
