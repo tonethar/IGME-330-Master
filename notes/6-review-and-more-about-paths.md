@@ -215,8 +215,6 @@ ctx.fill();
 - these are some nice reference and interactives about `ctx.arcTo()` here:
   - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
   - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html
-  - in SG-2, you will see how to draw [bezier curves](https://en.wikipedia.org/wiki/Bézier_curve) using `ctx. quadraticCurveTo()` and `ctx.bezierCurveTo()`
-  - **Try It Yourself:** How could you make just the straight line in the shape above *green* in color, while leaving the rest of the stroke *red* ?
 
 <hr>
 
