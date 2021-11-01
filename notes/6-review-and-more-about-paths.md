@@ -218,7 +218,7 @@ ctx.fill();
   - in SG-2, you will see how to draw [bezier curves](https://en.wikipedia.org/wiki/Bézier_curve) using `ctx. quadraticCurveTo()` and `ctx.bezierCurveTo()`
   - **Try It Yourself:** How could you make just the straight line in the shape above *green* in color, while leaving the rest of the stroke *red* ?
 
-<br>
+<hr>
 
 ## VIII. Reference
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
