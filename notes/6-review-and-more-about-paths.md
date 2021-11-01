@@ -151,7 +151,7 @@ ctx.fill();
 
 <hr>
 
-## VI. How to draw a Polygon
+## VII. How to draw a Polygon
 
 - continue adding lines to our path:
      
@@ -196,7 +196,7 @@ ctx.fill();
 
 <hr>
 
-## VII. How to draw a curvilinear shape
+## VIII. How to draw a curvilinear shape
 
 - To draw curves, we can use `ctx.arcTo(CP-1x, CP-1y, CP-2x, CP-2y, radius) // CP = "Control Point"` to build up a path.
     
@@ -218,7 +218,7 @@ ctx.fill();
 
 <hr>
 
-## VIII. Reference
+## IX. Reference
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
 - More on clipping: https://stackoverflow.com/questions/18988118/how-can-i-clip-inside-a-shape-in-html5-canvas
