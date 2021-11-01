@@ -212,9 +212,9 @@ ctx.fill();
     
 ![arc-to image](./_images/arc-to.jpg)
     
-- these are some nice reference and interactives about `ctx.arcTo()` here:
+- these are some references about `ctx.arcTo()` here:
   - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
-  - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html
+  - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html  - How to draw a rounded rectangle using `arcTo()`
 
 <hr>
 
@@ -223,6 +223,13 @@ ctx.fill();
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
 - More on clipping: https://stackoverflow.com/questions/18988118/how-can-i-clip-inside-a-shape-in-html5-canvas
 
+<hr>
+
+## X. Optional Activities (in lieu of HW)
+- In your screensaver:
+  - create a `drawPolygon()` function, and add parameters for `lineJoin` and `lineDash`
+  - create a `drawRoundedRect()` function similar to the example linked above
+  - create a `drawRing()` that accepts `innerRadius` and `outerRadius` parameters
 
 <hr><hr>
 
