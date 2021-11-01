@@ -193,8 +193,11 @@ ctx.fill();
 
 ![triangle image](./_images/triangle-4.jpg)
 
-  - **#5 - How to draw curvilinear shapes**:
-    - To draw curves, we can use `ctx.arcTo(CP-1x, CP-1y, CP-2x, CP-2y, radius) // CP = "Control Point"` to build up a path.
+<hr>
+
+## VII. How to draw a curvilinear shape
+
+- To draw curves, we can use `ctx.arcTo(CP-1x, CP-1y, CP-2x, CP-2y, radius) // CP = "Control Point"` to build up a path.
     
 ```js
   ctx.beginPath();
@@ -213,8 +216,10 @@ ctx.fill();
   - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html
   - in SG-2, you will see how to draw [bezier curves](https://en.wikipedia.org/wiki/Bézier_curve) using `ctx. quadraticCurveTo()` and `ctx.bezierCurveTo()`
   - **Try It Yourself:** How could you make just the straight line in the shape above *green* in color, while leaving the rest of the stroke *red* ?
-      
-## VII. Reference
+
+<br>
+
+## VIII. Reference
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
 - More on clipping: https://stackoverflow.com/questions/18988118/how-can-i-clip-inside-a-shape-in-html5-canvas
