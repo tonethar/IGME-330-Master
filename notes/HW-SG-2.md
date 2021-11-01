@@ -6,7 +6,8 @@
   - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient(`), and `ctx.addColorStop()`
   - creating bezier curvers - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
   
-  
+<hr>
+
 ## II. Submission
 - the start files and instructions are here -> [SG-2-files.zip](_files/SG-2-files.zip)
 - see mycourses.rit.edu for due date
