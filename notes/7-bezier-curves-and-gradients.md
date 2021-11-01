@@ -7,7 +7,7 @@
   - answer:  we did not assign *Canvas Study Guide #1* this semester
 - The major concepts that will be covered in this Study Guide:
   - setting caps and joins on lines - `ctx.lineCap`, `ctx.lineJoin`, `ctx.setLineDash()`
-  - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient(`), and `ctx.addColorStop()`
+  - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
   - creating bezier curves - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
 <hr>
@@ -87,7 +87,29 @@
 </html>
 ```
 
+<hr>
 
+## III. Reference
+
+- Lines:
+ - [`ctx.lineCap`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap)
+ - [`ctx.lineJoin`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin)
+ - [`ctx.setLineDash()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash)
+- Gradients:
+  - [`ctx.createLinearGradient()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
+  - [`ctx.createRadialGradient()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient)
+  - [`ctx.addColorStop()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasGradient/addColorStop)
+- Bezier Curves:
+  - [`ctx.quadraticCurveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo)
+  - [`ctx.bezierCurveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo)
+
+<hr>
+
+## IV. Optional Activities (in lieu of HW)
+- In your screensaver:
+  - create a `drawPolygon()` function, and add parameters for `lineJoin` and `lineDash`
+  - create a `drawRoundedRect()` function similar to the example linked above
+  - create a `drawRing()` that accepts `innerRadius` and `outerRadius` parameters
 
 <hr><hr>
 
