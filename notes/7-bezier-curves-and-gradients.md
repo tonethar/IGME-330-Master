@@ -105,11 +105,12 @@
 
 <hr>
 
-## IV. Optional Activities (in lieu of HW)
+## IV. Optional Activities
 - In your screensaver:
   - create a `drawPolygon()` function, and add parameters for `lineJoin` and `lineDash`
   - create a `drawRoundedRect()` function similar to the example linked above
   - create a `drawRing()` that accepts `innerRadius` and `outerRadius` parameters
+  - create a `makeGradient()` helper function
 
 <hr><hr>
 
