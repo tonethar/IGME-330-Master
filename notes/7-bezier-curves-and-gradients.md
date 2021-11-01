@@ -10,6 +10,84 @@
   - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient(`), and `ctx.addColorStop()`
   - creating bezier curves - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
+<hr>
+
+## II. Gradient Demo Code
+
+**linear-gradient.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Linear Gradient</title>
+</head>
+<body>
+<canvas width="640" height="480"></canvas>
+<script>
+	let ctx = document.querySelector("canvas").getContext("2d");
+	let grad = ctx.createLinearGradient(100, 0, 300, 0);
+	grad.addColorStop(0, 'red');
+	grad.addColorStop(1 / 6, 'orange');
+	grad.addColorStop(2 / 6, 'yellow');
+	grad.addColorStop(3 / 6, 'green')
+	grad.addColorStop(4 / 6, 'aqua');
+	grad.addColorStop(5 / 6, 'blue');
+	grad.addColorStop(1, 'purple');
+	
+	ctx.fillStyle = grad;
+	ctx.fillRect(0,0,640,480);
+
+/*
+	ctx.strokeStyle = "white";
+	ctx.lineWidth = 5;
+	ctx.beginPath();
+	ctx.rect(100, 50, 200,50);
+	ctx.closePath();
+	ctx.stroke();
+	ctx.fill();
+*/
+</script>
+</body>
+</html>
+```
+
+**radial-gradient.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Radial Gradient</title>
+</head>
+<body>
+<canvas width="640" height="480"></canvas>
+<script>
+	let ctx = document.querySelector("canvas").getContext("2d");
+	let grad = ctx.createRadialGradient(150,150, 20, 150, 150, 125);
+	grad.addColorStop(0, 'red');
+	grad.addColorStop(1 / 6, 'orange');
+	grad.addColorStop(2 / 6, 'yellow');
+	grad.addColorStop(3 / 6, 'green')
+	grad.addColorStop(4 / 6, 'aqua');
+	grad.addColorStop(5 / 6, 'blue');
+	grad.addColorStop(1, 'purple');
+	
+	ctx.fillStyle = grad;
+	ctx.fillRect(0,0,640,480);
+	
+// 	ctx.beginPath();
+// 	ctx.arc(150,150,125,0,Math.PI*2,false);
+// 	ctx.closePath();
+// 	ctx.fill();
+</script>
+</body>
+</html>
+```
+
+
 
 <hr><hr>
 
