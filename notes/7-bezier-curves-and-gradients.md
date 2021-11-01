@@ -7,7 +7,7 @@
   - answer:  we did not assign *Canvas Study Guide #1* this semester
 - The major concepts that will be covered in this Study Guide:
   - setting caps and joins on lines - `ctx.lineCap`, `ctx.lineJoin`, `ctx.setLineDash()`
-  - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
+  - creating linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
   - creating bezier curves - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
 <hr>
