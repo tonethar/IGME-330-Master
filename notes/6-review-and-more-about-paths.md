@@ -230,4 +230,4 @@ ctx.fill();
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#5 - Write some code!**](5-write-some-code.md) |  [**IGME-330**](../README.md) | **Skill #7 - TBA**
+|  [**#5 - Write some code!**](5-write-some-code.md) |  [**IGME-330**](../README.md) | [**#7 - Bezier curves and gradients**](7-bezier-curves-and-gradients.md) 
