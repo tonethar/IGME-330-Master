@@ -9,7 +9,7 @@
 - The major concepts that will be covered in this Study Guide:
   - setting caps and joins on lines - `ctx.lineCap`, `ctx.lineJoin`, `ctx.setLineDash()`
   - creating with linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient(`), and `ctx.addColorStop()`
-  - creating bezier curvers - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
+  - creating bezier curves - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
 
 <hr><hr>
