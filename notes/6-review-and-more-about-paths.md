@@ -1,9 +1,12 @@
 # Canvas 2D Essential Skills #6 - Review & More About Paths
 
+## I. Overview
+
 - Let's review drawing *rectangles*, *circles* and *lines*
 - New stuff:
   - draw rings (circles with the center punched out)
   - draw polygons
+  - draw curvilinear shapes
   - Canvas methods:
       - `ctx.arcTo()`
       - `ctx.setLineDash()`
