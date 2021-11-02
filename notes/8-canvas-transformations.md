@@ -272,4 +272,4 @@ We aren't always going to have video links, but here is a re-cap of the canvas t
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#7 - Bezier curves and gradients**](7-bezier-curves-and-gradients.md) |  [**IGME-330**](../README.md) | **Skill #8 - TBA**
+|  [**#7 - Bezier curves and gradients**](7-bezier-curves-and-gradients.md) |  [**IGME-330**](../README.md) | **Skill #9 - TBA**
