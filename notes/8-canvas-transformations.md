@@ -133,7 +133,7 @@ Here's our start file:
 
 ![Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
-<hr<
+<hr>
 
 <a id="demo-B" />
 
