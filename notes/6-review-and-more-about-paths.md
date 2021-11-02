@@ -214,7 +214,7 @@ ctx.fill();
     
 - these are some references about `ctx.arcTo()` here:
   - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
-  - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html  - How to draw a rounded rectangle using `arcTo()`
+  - https://www.rgraph.net/blog/an-interactive-example-of-the-html5-canvas-arcto-function.html  - How to draw a rounded rectangle using `ctx.arcTo()`
 
 <hr>
 
