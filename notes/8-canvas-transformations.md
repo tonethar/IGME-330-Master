@@ -4,6 +4,8 @@
 
 - Here we will look at canvas *transformations* (translate, rotate, scale) and how to combine them with `ctx.save()` and `ctx.restore()` to create interesting effects.
 
+<hr>
+
 ## II. Presentation
 
 1. Manipulating the drawing state stack via `ctx.save()` and `ctx.restore()`
@@ -16,6 +18,8 @@
     - **drawing attributes** (i.e. styles or properties):  `strokeStyle, fillStyle, globalAlpha, lineWidth, lineCap, lineJoin, miterLimit, shadowOffsetX, shadowOffsetY, shadowBlur, shadowColor, globalCompositeOperation, font, textAlign, textBaseline`
     - The **clipping region** - there is a `ctx.clip()` method, and we also saw clipping in action with the "ring" and "donut" we created last time
     - the **CTM** - *current transformation matrix* (translations + rotations + scales via `ctx.translate()`, `ctx.rotate()`, `ctx.scale()`, and `ctx.setTransform()`)
+
+<hr>
 
 ## III. Demo A
 
@@ -116,7 +120,7 @@ Here's our start file:
 ```
 
 
-### Demo A.
+**Demo A. Instructions:**
 
 1. In **canvas-transforms-demo-start.html**, let's make some drawing changes to just our first green square.  We will see that using `ctx.save()` and `ctx.restore` helps to make this easier
 
@@ -129,7 +133,7 @@ Here's our start file:
 ![Drawing State Stack](./_images/canvas-drawing-stack.jpg)
 
 
-### Done Version
+**Done Version:**
 
 ![Screenshot](./_images/canvas-3-screen-saver-2C.gif)
 
@@ -229,15 +233,19 @@ Here's our start file:
 
 ![Screenshot](./_images/canvas-3-screen-saver-2B.gif)
 
+<hr>
 
-## V. Try it yourself
+## V. Try out canvas transformations yourself
 
 - Try It! *(Optional Practice)* --> [HW-try-it.md](./HW-try-it.md)
+
+<hr>
 
 ## VI. Reference
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations
 
+<hr>
 
 ## VII. Videos of lecture & demos
 
