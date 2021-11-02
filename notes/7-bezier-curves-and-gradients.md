@@ -116,4 +116,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|  [**#6 - Review & More About Paths**](6-review-and-more-about-paths.md) |  [**IGME-330**](../README.md) | **Skill #8 - TBA**
+|  [**#6 - Review & More About Paths**](6-review-and-more-about-paths.md) |  [**IGME-330**](../README.md) | [**#8 - Canvas Transformations**](8-canvas-transformations.md)
