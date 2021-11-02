@@ -244,6 +244,10 @@ Here's our start file:
 ## VI. Reference
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Transformations
+- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate
+- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate
+- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale
+- https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform
 
 <hr>
 
