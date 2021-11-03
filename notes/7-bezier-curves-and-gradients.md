@@ -103,14 +103,6 @@
   - [`ctx.quadraticCurveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo)
   - [`ctx.bezierCurveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo)
 
-<hr>
-
-## IV. Optional Activities
-- In your screensaver:
-  - create a `drawPolygon()` function, and add parameters for `lineJoin` and `lineDash`
-  - create a `drawRoundedRect()` function similar to the example linked above
-  - create a `drawRing()` that accepts `innerRadius` and `outerRadius` parameters
-  - create a `makeGradient()` helper function
 
 <hr><hr>
 
