@@ -268,7 +268,7 @@ biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 - Once you are in your room - first make sure that everyone has the examples above successfully running off of their PC's desktop
 - Then, modify the in-class code to make one or more new visual effects:
   - Impress your classmates!
-  - You can work together on a single visualizer, or in parallel on your own indivisual (get it?) creations!
+  - You can work together on a single visualizer, or in parallel on your own *indivisual* (get it?) creations!
   - Find our audio clips a little dull? Try using the sounds from the AV HW instead (see Week-12 of myCourses - **media.zip**)
   - Work Fast! Towards the end of class, we'll bring you back to share what you made!
   - The group with the "most impressive" results will win enternal glory & Internet points that are redeemable for virtual goods and services! (TBD)
