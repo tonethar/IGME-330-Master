@@ -265,7 +265,7 @@ biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 ## VI. Breakout Rooms
 
 - We are going to place you in breakout rooms!
-- Once you are in your room - first make sure that everyone has the examples above successfully running off of their PC's desktop (VS Code can be a little tricky sometimes)
+- Once you are in your room - first make sure that everyone has the examples above successfully running off of their PC's desktop
 - Then, modify the in-class code to make one or more new visual effects:
   - Impress your classmates!
   - You can work together on a single visualizer, or in parallel on your own indivisual (get it?) creations!
