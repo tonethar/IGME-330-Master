@@ -7,7 +7,7 @@
 - We will be looking at the [ml5](https://ml5js.org/) machine learning API
   - this API "wraps" Tensorflow (which you have probably heard of) and makes model loading and training new models easier
 - Components of Machine Learning: 
- - 1. Algorithms  - "neural network"
+ - 1. Algorithms  - *neural network* algorithms deigned to recognize patterns
  - 2. Models - they can be *pre-trained* like ImageNet (which we will use today) or we can train them ourselves (for example with [Teachable Machine](https://teachablemachine.withgoogle.com/))
  - 3. Datasets
    - we will be looking at *supervised learning* in this class - which makes use of *labeled* datasets where we provide the API with training data that consists of an *input* (for example a "vectorized" image or piece of text) and the desired *output* value (ex. a label such as "dog") 
@@ -65,3 +65,4 @@ function modelLoaded(){
 ## IV. Resources
 - https://ml5js.org/
 - https://github.com/ml5js/ml5-library/tree/main/examples/javascript
+- https://wiki.pathmind.com/neural-network#define
