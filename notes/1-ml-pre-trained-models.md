@@ -13,7 +13,7 @@
    - we will be looking at *supervised learning* in this class - which makes use of *labeled* datasets where we provide the API with training data that consists of an *input* (for example a "vectorized" image or piece of text) and the desired *output* value (ex. a label such as "dog") 
 - The trained model is only as "good" as the dataset it's given:
   - https://towardsdatascience.com/a-dataset-is-a-worldview-5328216dd44d
-- Another technique is *transfer learning* - which is the reuse of a pre-trained model on a new problem - which is actaully what Teachable MAchine is doing
+- Another technique is *transfer learning* - which is the reuse of a pre-trained model on a new problem - which is actaully what Teachable Machine is doing
 
 <hr>
 
