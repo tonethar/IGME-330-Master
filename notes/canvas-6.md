@@ -6,13 +6,13 @@
 
 [III. Code](#code)
 
-[IV. Homework - *Sprity!*](#homework)
+[IV. Challenge - *Sprity!* (We aren't collecting this)](#homework)
 
 [V. Spritesheets & Animation](#spritesheet)
 
 [VI. Resources](#resources)
 
-[VII. HW Submission / Extra Credit](#submission)
+[VII. Optional (We aren't collecting this)](#submission)
 
 <a id="overview"></a>
 
@@ -36,12 +36,16 @@
 
 <a id="screenshot"></a>
 
+<hr>
+
 ## II. Screenshot
 
 ![Animated GIF](./_images/canvas-animated-sprites-example.gif)
 
 
 <a id="code"></a>
+
+<hr>
 
 ## III. Code
 
@@ -286,7 +290,9 @@ that value in this example
 
 <a id="homework"></a>
 
-## IV. Homework - *Sprity!*
+<hr>
+
+## IV. Challenge - *Sprity!* (We aren't collecting this)
 
 ***Take the above code, rename the file to **sprity-HW.html**,  and do the following:***
 
@@ -347,6 +353,7 @@ that value in this example
 
 ![screenshot](./_images/sprity-4.jpg)
 
+<hr>
 
 <a id="spritesheet"></a>
 
@@ -356,6 +363,8 @@ that value in this example
 
 ![screenshot](./_images/sprity-5.gif)
 
+<hr>
+
 <a id="resources"></a>
 
 ## VI. Resources
@@ -363,17 +372,17 @@ that value in this example
 - See [Canvas Part V](./canvas-5.md) for help on pre-loading an image and using `ctx.drawImage()` 
 - See [ES6 Class inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Sub_classing_with_extends) if you need help on JS class inheritance
 
+<hr>
+
 <a id="submission"></a>
 
-## VII. HW Submission / Extra Credit
+## VII. Optional (We aren't collecting this)
 
-- Complete the above and get it working perfectly
-- Extra credit opportunities (you MUST document that you did these in the comments field of the myCourses dropbox):
+- Other ideas:
   - Add animated rotations to the `ImageSprite` - give it a `rotationSpeed` property - each sprite gets a random value - and then rotate it by that amount every frame. Recall that this value will represent rotation values in *radians per 1/60th of a second* ***(Up to +25% bonus)***
   - Subclass `Sprite` again - this time have it do some custom drawing using something besides circles and rectangles - maybe a `TriangleSprite` or better yet `PolygonSprite` with an arbitrary number of sides. You could also do something with curves, etc.. or maybe a `SmileySprite` - surprise us! ***(Up to +50% bonus)***
   - Subclass `Sprite` again and overload `update()` to do something interesting. Remember `WrappingCircle` and `SeekingCircle` and the ["subclass sandbox"](https://gameprogrammingpatterns.com/subclass-sandbox.html) design pattern from 235's [HW-Circle Blast IV](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-circle-blast-4.md#section5) assignment? ***(Up to +50% bonus)***
   - Subclass `Sprite` again - this time override `draw()` to do a spritesheet animation - see [V. Spritesheets & Animation](#spritesheet) above for starter code ***(Up to +50% bonus)***
-  - ZIP and POST to dropbox
 
 
 
