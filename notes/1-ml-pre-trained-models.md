@@ -36,7 +36,7 @@
 
 5) Follow along with the class example
 
-- Here are some images you can use ![screenshot](_files/ml-5-images.zip)
+- Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
 
 <hr>
 
