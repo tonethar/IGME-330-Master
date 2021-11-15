@@ -41,5 +41,5 @@
 <hr>
 
 ## IV. Resources
-
-- 
+- https://ml5js.org/
+- https://github.com/ml5js/ml5-library/tree/main/examples/javascript
