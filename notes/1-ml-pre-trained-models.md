@@ -32,11 +32,33 @@
 
 3) Run the code using a web server (Liveserver etc) and be sure that you have a console log that shows that ml5 has loaded correctly
 
-4) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine
+4) Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
 
-5) Follow along with the class example
+5) Here is your HTML:
 
-- Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
+```html
+<h1>Image classification using MobileNet</h1>
+<p>The MobileNet model labeled this as <span id="result">...</span> with a confidence of <span id="probability">...</span>.</p>
+<img id="image" src="ml-5-images/bird.jpg" width="400" />
+```
+
+6) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine
+
+7) Follow along with the class example
+
+```js
+const image = document.querySelector('#image');
+const result = document.querySelector('#result');
+const probability = document.querySelector('#probability');
+
+// callback version first
+let mobilenet = ml5.imageClassifier('MobileNet',modelLoaded);
+
+function modelLoaded(){
+	console.log("Model Loaded ... predicting");
+  // ...
+}
+```
 
 <hr>
 
