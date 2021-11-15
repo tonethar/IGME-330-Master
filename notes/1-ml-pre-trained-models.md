@@ -26,10 +26,20 @@
 
 ## III. Get Started
 
-1) Head to Quickstart: Plain JavaScript here: https://learn.ml5js.org/#/ 
+1) Head to **Quickstart: Plain JavaScript** here: https://learn.ml5js.org/#/ 
 
-2) Copy the code into a file imagenet-1.html
+2) Copy the code into a file **imagenet-1.html**
 
-3) Run the code using a web server (Liveserver etc) and be sure that you have a console.log() that shows ml5 has loaded correctly
+3) Run the code using a web server (Liveserver etc) and be sure that you have a console log that shows that ml5 has loaded correctly
 
 4) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine
+
+5) Follow along with the class example
+
+- Here are some images you can use [!screenshot](_files/ml-5-images.zip)
+
+<hr>
+
+## IV. Resources
+
+- 
