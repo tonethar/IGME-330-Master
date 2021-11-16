@@ -72,29 +72,7 @@ function modelLoaded(){
  - PS - be sure that your colde only creates the `mobilenet` image classifier ***ONCE!***
 
 ```js
-let mobilenet = ml5.imageClassifier('MobileNet',modelLoaded);
-
-function modelLoaded(){
-	console.log("Model Loaded ... predicting");
-	predict();
-}
-
-function predict(){
-	let results = mobilenet.predict(image,predictionComplete);
-}
-
-function predictionComplete(error,results){
-	if(error){
-		console.log(error);
-	}else{
-		console.log(results);
-		result.innerHTML = results[0].label;
-		probability.innerHTML = results[0].confidence.toFixed(4);
-	}
-}
-
-
-// drag/drop
+// drag & drop
 const dropbox = document.querySelector("#image");
 dropbox.ondragover = onDragover;
 dropbox.ondrop = onDrop;
