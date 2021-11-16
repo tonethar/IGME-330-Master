@@ -60,9 +60,73 @@ function modelLoaded(){
 }
 ```
 
+8) Once it's working - try it out with some additional images. You should see that it works very well at identifying certain real-world objects and animals, but it's not so good with other things like people, drawings, art etc ..
+
 <hr>
 
-## IV. Resources
+## IV. Adding Drag & Drop
+
+- What would be a nice improvement to this app is to add drag and drop capability, so that a user drag and drop images from the desktop and get a new prediction
+ - below is most of the code you'll need
+ - you'll need to create a `predict()` function
+ - PS - be sure that your colde only creates the `mobilenet` image classifier ***ONCE!***
+
+```js
+let mobilenet = ml5.imageClassifier('MobileNet',modelLoaded);
+
+function modelLoaded(){
+	console.log("Model Loaded ... predicting");
+	predict();
+}
+
+function predict(){
+	let results = mobilenet.predict(image,predictionComplete);
+}
+
+function predictionComplete(error,results){
+	if(error){
+		console.log(error);
+	}else{
+		console.log(results);
+		result.innerHTML = results[0].label;
+		probability.innerHTML = results[0].confidence.toFixed(4);
+	}
+}
+
+
+// drag/drop
+const dropbox = document.querySelector("#image");
+dropbox.ondragover = onDragover;
+dropbox.ondrop = onDrop;
+
+function onDragover(e){
+  e.stopPropagation();
+  e.preventDefault();
+  e.target.classList.add("hover");
+}
+
+function onDrop(e){
+  e.stopPropagation();
+  e.preventDefault();
+  e.target.classList.remove("hover");
+  const fileList = e.dataTransfer.files;
+  readImage(fileList[0]);
+}
+
+function readImage(file){
+  const reader = new FileReader();
+  reader.onload = e => {
+    const base64Image = e.target.result;
+    dropbox.src = base64Image;
+    predict();
+  };
+  reader.readAsDataURL(file);
+}
+```
+
+<hr>
+
+## V. Resources
 - https://ml5js.org/
 - https://github.com/ml5js/ml5-library/tree/main/examples/javascript
 - https://wiki.pathmind.com/neural-network#define
