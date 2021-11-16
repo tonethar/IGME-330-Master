@@ -5,7 +5,7 @@
 - "A field of study that gives computers the ability to learn without being explicitly programmed" - [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel)
 - https://en.wikipedia.org/wiki/Machine_learning
 - We will be looking at the [ml5](https://ml5js.org/) machine learning API
-  - this API "wraps" Tensorflow (which you have probably heard of) and makes model loading, training new models and memory management a lot easier
+  - this API "wraps" [Tensorflow](https://www.tensorflow.org/overview) (which you have probably heard of) and makes model loading, training new models and memory management a lot easier
 - Components of Machine Learning: 
  - 1. Algorithms  - *neural network* algorithms designed to recognize patterns
  - 2. Models - they can be *pre-trained* like ImageNet (which we will use today) or we can train them ourselves (for example with [Teachable Machine](https://teachablemachine.withgoogle.com/))
