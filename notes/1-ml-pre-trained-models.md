@@ -5,15 +5,15 @@
 - "A field of study that gives computers the ability to learn without being explicitly programmed" - [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel)
 - https://en.wikipedia.org/wiki/Machine_learning
 - We will be looking at the [ml5](https://ml5js.org/) machine learning API
-  - this API "wraps" Tensorflow (which you have probably heard of) and makes model loading and training new models easier
+  - this API "wraps" Tensorflow (which you have probably heard of) and makes model loading, training new models and memory management a lot easier
 - Components of Machine Learning: 
- - 1. Algorithms  - *neural network* algorithms deigned to recognize patterns
+ - 1. Algorithms  - *neural network* algorithms designed to recognize patterns
  - 2. Models - they can be *pre-trained* like ImageNet (which we will use today) or we can train them ourselves (for example with [Teachable Machine](https://teachablemachine.withgoogle.com/))
  - 3. Datasets
    - we will be looking at *supervised learning* in this class - which makes use of *labeled* datasets where we provide the API with training data that consists of an *input* (for example a "vectorized" image or piece of text) and the desired *output* value (ex. a label such as "dog") 
 - The trained model is only as "good" as the dataset it's given:
   - https://towardsdatascience.com/a-dataset-is-a-worldview-5328216dd44d
-- Another technique is *transfer learning* - which is the reuse of a pre-trained model on a new problem - which is actaully what Teachable Machine is doing
+- Another technique is *transfer learning* - which is the reuse of a pre-trained model on a new problem - which is actually what Teachable Machine is doing
 
 <hr>
 
