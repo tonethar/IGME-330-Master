@@ -14,7 +14,7 @@
 - Another technique is *transfer learning* - which is the reuse of a pre-trained model on a new problem - which is actually what Teachable Machine is doing
 - The trained model is only as "good" as the dataset it's given:
   - https://towardsdatascience.com/a-dataset-is-a-worldview-5328216dd44d
-  - ml5 has a *Model and Data Provenance* section for the models it uses - https://learn.ml5js.org/#/reference/image-classifier?id=model-and-data-provenance
+  - ml5 has a *Model and Data Provenance* section for all of the models it uses - https://learn.ml5js.org/#/reference/image-classifier?id=model-and-data-provenance
 
 
 <hr>
