@@ -1,7 +1,7 @@
 # 2 - Machine Learning with ml5 - Object Detection
 
 ## I. Overview
-- The [ml5 Object Detector API](https://learn.ml5js.org/#/reference/object-detector) can detect specific objects, and give us an `x`, `y`, `width`, `height` and a `confidence` value for each object
+- The [ml5 Object Detector API](https://learn.ml5js.org/#/reference/object-detector) can detect multiple specific objects in an image, and give us an `x`, `y`, `width`, `height` and a `confidence` value for each object
 - For a model, we will use the Microsoft [COCO - Common Objects in Context](https://cocodataset.org/#explore) - which contains "complex everyday scenes of common objects in their natural context"
 - What is the COCO Dataset? - https://viso.ai/computer-vision/coco-dataset/
 - List of COCO object classes:
@@ -14,8 +14,11 @@
 
 <hr>
 
-## II. 
-- https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
+## II. Creating an Object Detector that utilizes the webcam
+
+- ml5 `ObjectDetector` documentation & code example:
+  - https://learn.ml5js.org/#/reference/object-detector
+  - https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
 
 
 <hr>
