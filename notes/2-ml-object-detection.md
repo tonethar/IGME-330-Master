@@ -1,8 +1,6 @@
 # 2 - Machine Learning with ml5 - Object Detection
 
-- The [ml5 Object Detector API](https://learn.ml5js.org/#/reference/object-detector) can detect 
-
-Gives us object detection with particular object, (x,y) and (width, height) and confidence score
+- The [ml5 Object Detector API](https://learn.ml5js.org/#/reference/object-detector) can detect specific objects, and gice us  (x,y) and (width, height) and confidence score
 
 Can detect more than 1 thing at a time
 
