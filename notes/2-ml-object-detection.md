@@ -23,8 +23,8 @@
 
 <hr>
 
-## XX. Resources
-- Docs: https://learn.ml5js.org/#/reference/object-detector
-- JS code examples: https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector
-- https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_single_image
-- https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
+## III. Resources
+- COCO - Common Objects in Context - https://cocodataset.org/#explore
+- ml5:
+  - https://learn.ml5js.org/#/reference/object-detector
+  - JS code examples: https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector
