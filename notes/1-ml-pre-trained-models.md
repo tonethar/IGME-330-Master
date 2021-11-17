@@ -121,6 +121,7 @@ function readImage(file){
 - https://ml5js.org/
 - https://github.com/ml5js/ml5-library/tree/main/examples/javascript - all ml5 examples (in VanillaJS)
 - https://wiki.pathmind.com/neural-network#define
+- https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 - Humans of AI (Editorial Essay) by Philipp Schmitt: https://humans-of.ai/editorial/
 - Excavating AI by Kate Crawford and Trevor Paglen: https://www.excavating.ai/
 - Many thanks to [Coding Train YouTube Playlist - A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y) - an intro to ml5 using p5
