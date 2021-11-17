@@ -70,8 +70,9 @@ function modelLoaded(){
 
 - What would be a nice improvement to this app is to add drag and drop capability, so that a user drag and drop images from the desktop and get a new prediction
  - below is most of the code you'll need
+ - make a copy of **imagenet-1.html** and name it  **imagenet-2.html**, and add the follwoing to the bottom
  - you'll need to create a `predict()` function
- - PS - be sure that your colde only creates the `mobilenet` image classifier ***ONCE!***
+ - PS - be sure that your code only creates the `mobilenet` image classifier ***ONCE!***
 
 ```js
 // drag & drop
