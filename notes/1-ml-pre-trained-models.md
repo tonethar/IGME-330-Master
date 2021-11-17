@@ -102,6 +102,17 @@ function readImage(file){
 }
 ```
 
+- And here is some CSS that the drag/drop is using:
+
+```html
+<style>
+.hover{
+  border:1px solid coral;
+  opacity: .7;
+}
+</style>
+```
+
 <hr>
 
 ## V. Resources
