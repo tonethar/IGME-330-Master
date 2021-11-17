@@ -108,4 +108,4 @@ function readImage(file){
 - https://ml5js.org/
 - https://github.com/ml5js/ml5-library/tree/main/examples/javascript
 - https://wiki.pathmind.com/neural-network#define
-- Many thanks to [YouTube Playlist - A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y) - an intro to ml5 using p5
+- Many thanks to [Coding Train YouTube Playlist - A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y) - an intro to ml5 using p5
