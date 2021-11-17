@@ -19,7 +19,123 @@
 - ml5 `ObjectDetector` documentation & code example:
   - https://learn.ml5js.org/#/reference/object-detector
   - https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
+- Here is the start code:
 
+*object-detect-webcam-1.html***
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Real time Object Detection using CocoSsd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+		<style>
+			body{
+				font-family: sans-serif;
+			}
+			canvas{
+				background-color: #ddd;
+				/* transform: scaleX(-1); */
+				/* display:none; */
+			}
+			video{
+				display: none;
+			}
+		</style>
+	
+	</head>
+
+  <body>
+		<h1>Real time Object Detection using CocoSsd</h1>
+		<video></video>
+		<canvas></canvas>
+		<p id="status"></p>
+		
+		<script>
+		// code from https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
+		// Copyright (c) 2019 ml5
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+/* ===
+ml5 Example
+Real time Object Detection using objectDetector
+=== */
+"use strict";
+
+let objectDetector;
+let status;
+let objects = [];
+let video;
+let canvas, ctx;
+const width = 480;
+const height = 360;
+
+window.onload = init;
+
+async function init() {
+	// init status & canvas & ctx
+	status = document.querySelector("#status");
+	status.innerHTML = "... loading model ...";
+  canvas = document.querySelector("canvas");
+	canvas.width = width;
+	canvas.height = height;
+  ctx = canvas.getContext('2d');
+
+  // get the video
+  video = await setupVideo();
+
+	// load ml5 objectDetector model
+  objectDetector = await ml5.objectDetector('cocossd', startDetecting)
+}
+
+function startDetecting(){
+	status.textContent = "Model ready";
+  detect();
+}
+
+function detect() {
+  objectDetector.detect(video, (error, results) => {
+    if(error){
+      console.log(error);
+      return
+    }
+    objects = results;
+
+    if(objects){
+      draw();
+			status.innerHTML = objects.map(obj => `<p><b>${obj.label}</b> - x: ${obj.x.toFixed(0)}, y: ${obj.y.toFixed(0)}, width: ${obj.width.toFixed(0)}, height: ${obj.height.toFixed(0)}, confidence: ${obj.confidence.toFixed(4)}</p>`).join("");
+    }else{
+			status.innerHTML = "... detecting ...";
+		}
+    
+    detect();
+  });
+}
+
+function draw(){
+	// to do
+}
+
+// Helper Functions
+async function setupVideo(){
+	const videoElement = document.querySelector("video");
+  videoElement.width = width;
+  videoElement.height = height;
+
+  // Create a webcam capture
+  const capture = await navigator.mediaDevices.getUserMedia({ video: true })
+  videoElement.srcObject = capture;
+  videoElement.play();
+
+  return videoElement
+}
+  </script>
+  </body>
+</html>
+```
 
 <hr>
 
