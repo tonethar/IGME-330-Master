@@ -21,7 +21,7 @@
   - https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
 - Here is the start code:
 
-*object-detect-webcam-1.html***
+**object-detect-webcam-1.html**
 
 ```html
 <!DOCTYPE html>
