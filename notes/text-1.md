@@ -103,6 +103,7 @@ function doChange(e){
 	<p id="output"></p>
 </section>
 <script>
+"use strict";
 let input = document.querySelector("textarea");
 let output = document.querySelector("#output");
 
