@@ -474,12 +474,14 @@
 
 <hr>
 
-### Step #5
-- Now it's all up to you!
-- Duplicate these pages and give them the appropriate file names
-- Come up with your own styles and custom font(s)!
-- **IMPORTANT**:  ditch the `hero` on the other 3 pages - and use a multi-column layout where appropriate - refer back to **index-7.html** to recover the necessary HTML/CSS
-- **IMPORTANT**: be sure to have "You are here" cues on each page - hint: `<h1 class="title is-size-4">Hotdog Finder App</h1>` could go on **app.html**
+### Step #5 - HW Submission & Beyond
+- Put all the files (index #1-7 and home.html) into a folder, ZIP and POST to myCourses
+- Looking ahead to Project 1 - Checkpoint #1 - what you'll need to start to do in a week or so:
+  - duplicate these pages and give them the appropriate file names (ex. **app.html**, **favorites.html**, **documentation.html**)
+  - Come up with your own styles and custom font(s)!
+  - **IMPORTANT**:  ditch the `hero` on the other 3 pages - and use a multi-column layout where appropriate - refer back to **index-7.html** to recover the necessary HTML/CSS
+  - **IMPORTANT**: be sure to have text that clearly distinguished each page from the others - hint: `<h1 class="title is-size-4">Hotdog Finder App</h1>` could go on **app.html**
+  - **IMPORTANT**: be sure to have "You are here" cues on each page - hint: make the nav item for the current page bold (or change its background color)
 
 <hr><hr>
 
