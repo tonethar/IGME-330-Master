@@ -475,7 +475,7 @@
 <hr>
 
 ### Step #5 - HW Submission & Beyond
-- Put all the files (index #1-7 and home.html) into a folder, ZIP and POST to myCourses
+- ***Put all the files (index #1-7 and home.html) into a folder, ZIP and POST to myCourses***
 - Looking ahead to Project 1 - Checkpoint #1 - what you'll need to start to do in a week or so:
   - duplicate these pages and give them the appropriate file names (ex. **app.html**, **favorites.html**, **documentation.html**)
   - Come up with your own styles and custom font(s)!
