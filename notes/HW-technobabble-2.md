@@ -1,6 +1,6 @@
 # HW - Technobabble Generator II
 
-## Overview & Video Walkthough
+## Overview
 
 - Let's make some changes the Technobabble app and review some commonly used web technologies
 
