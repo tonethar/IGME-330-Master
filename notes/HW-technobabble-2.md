@@ -4,7 +4,6 @@
 
 - Let's make some changes the Technobabble app and review some commonly used web technologies
 
-<iframe src="https://rit.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9e8f800d-6566-4b5f-9a4e-ae1f0110b670&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## I. Stop Page Zooming
 
