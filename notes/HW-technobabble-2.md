@@ -1,10 +1,11 @@
 # HW - Technobabble Generator II
 
-## Overview
+## Overview & Video Walkthrough
 
 - Let's make some changes the Technobabble app and review some commonly used web technologies
+- The walkthrough video for this assignment is here - [Technobabble Generator II (08:22)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fe4be63-b91f-4122-bbbe-ae1f01185750)
 
-
+<hr>
 
 ## I. Stop Page Zooming
 
