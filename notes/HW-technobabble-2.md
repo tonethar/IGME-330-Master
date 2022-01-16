@@ -5,6 +5,7 @@
 - Let's make some changes the Technobabble app and review some commonly used web technologies
 
 
+
 ## I. Stop Page Zooming
 
 First, let's modify the viewport meta tag to more reliably turn off page zooming on mobile devices - we'll do this by adding a `maximum-scale` directive. Change the `<meta>` tag from this:
