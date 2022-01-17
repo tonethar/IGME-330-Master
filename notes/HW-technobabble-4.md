@@ -18,7 +18,7 @@
 - Make sure that there is some default random babble that is displayed to the user when the app first starts up
 - Finally, both of the "babble" buttons from TB-3 will still function as before when they are clicked on
 - Hints:
-  - The individual "babble" words in the XML file will not have quotes around them - you will need to strip those off
+  - The individual "babble" words in the CSV file will not have quotes around them - you will need to strip those off
   - The "default babble" will not be displayed in your `window.onload` function, instead, display this initial babble AFTER the `XHR` has loaded
 
 <hr>
