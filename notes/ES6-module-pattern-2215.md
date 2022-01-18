@@ -62,13 +62,11 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 ### II-B. \*\* Important Restrictions \*\*
 
 ES6 modules have 2 restrictions:
-- as of Fall 2020, they are supported by *recent versions* of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
+- as of Fall 2022, they are supported by *recent versions* (the last 3 years or so) of all major browsers - see this compatibility chart: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
 - they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
   - Most IDEs have a "Live Preview" or "Live Server" mode that launches a web server. Figure out how to get than working for your preferred tool:
     - VSCode Live Server:
       - https://ritwickdey.github.io/vscode-live-server/
-    - Brackets Live Preview:
-      - https://www.granneman.com/webdev/editors/brackets/live-preview
   - OR, put all of your files on banjo and test them from there (kinda a pain to do all the time)
   - OR, use Python and the `SimpleHTTPServer` module to launch a web server locally - installation and usage instructions are here (the lab machines already have Python installed) -->  https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
   - OR, if you are familiar with node and npm, check out the `http-server` module:
@@ -81,6 +79,8 @@ ES6 modules have 2 restrictions:
 	
 ## III. Try it out!
 	
+- A  zipped version is here --> [greeter.zip](_files/greeter.zip)
+- A live version is here --> 
 
 <hr>
 
