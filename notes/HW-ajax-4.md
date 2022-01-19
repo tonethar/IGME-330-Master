@@ -97,6 +97,10 @@
 <hr>
 
 ## V. Submission
+
+- We are not collecting this! Instead, use it as a resource to complete [HW - Technobabble Generator VI - JSON](HW-technobabble-6.md)
+
+<!--
 - Putting your files in a containing folder named **ajax-4/** probably makes sense
 - See the dropbox for submission instructions
 
@@ -111,6 +115,8 @@
 - Worth 1 HW assignment
 - Post this version to the **Ajax-4 - Extra Credit** dropbox
 - Partial credit may be awarded for partially correct solutions
+
+-->
 
 <hr><hr>
 
