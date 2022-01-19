@@ -67,6 +67,8 @@
 <hr>
 
 ## V. Submission
+- We are not collecting this! Instead, use it it as a resource to complete [HW - Technobabble Generator V - XML](HW-technobabble-5.md)
+
 - Putting your files in a containing folder named **ajax-3/** probably makes sense
 - See the dropbox for submission instructions
 
