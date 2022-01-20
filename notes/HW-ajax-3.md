@@ -35,6 +35,7 @@
 
 ## II. About XML
 
+- ***Extensible Markup Language (XML)** is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.* - https://en.wikipedia.org/wiki/XML
 - **pet-names.xml** contains the dog and cat pet names in a structured XML format. The element names that were used in the file are not part of any standard and were chosen because they made sense to the developer
 - XML - Extensible Markup Language - is a set of rules for defining your own markup language
 - The top 5 rules for writing *well-formed* XML (from here https://www.ibm.com/docs/en/scbn?topic=syntax-xml-rules - are:
