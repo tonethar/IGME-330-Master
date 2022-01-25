@@ -81,9 +81,7 @@
 	- `RiTa.singularize("people")`
 	- `RiTa.alliterations("games")`
 	- `RiTa.isRhyme("cat", "hat")`
-	- `RiTa.similarByLetter("rochester")`
-	- `RiTa.similarBySound("institute")`
-	- `RiTa.similarBySoundAndLetter("technology")`
+	- `RiTa.soundsLike("institute")`
 
 - RiTa can also tell us about the parts of speech of a sentence:
 	 - `RiTa.isNoun("computer")`
