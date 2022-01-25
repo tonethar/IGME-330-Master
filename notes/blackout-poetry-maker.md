@@ -30,6 +30,7 @@
 ## III. Start Code
 - [bp-start.zip](_files/bp-start.zip)
   - look in **main.js** for comments that will get you started 
+  - BTW - as we write some of the code, we might get to talk about [JS event bubbling](https://javascript.info/bubbling-and-capturing)
 
 
 <hr>
