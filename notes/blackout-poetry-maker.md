@@ -74,7 +74,7 @@
 
 - We now have a top-level object to work with: `RiTa`
 - Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita1/reference/index.php
-- These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita1/reference/RiLexicon.php
+- These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 30,000 words - https://observablehq.com/@dhowe/rita-lexicon
 	- `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
 	- `RiTa.rhymes("computer")`
 	- `RiTa.pluralize("computer")`
