@@ -86,12 +86,12 @@
 - RiTa can also tell us about the parts of speech of a sentence:
 	 - `RiTa.isNoun("computer")`
 	 - `RiTa.isVerb("take")`
-	 - `RiTa.getPastParticiple("take")`
-	 - `RiTa.getPresentParticiple("take")`
-	 - `let rs = RiString("The elephant took a bite!")` - creates a [`RiString`](http://rednoise.org/rita1/reference/RiString.php) object
-	 - `rs.analyze()` - lot's of info!
-	 - `rs._features.phonemes`
-	 - `rs._features.syllables`
-	 - `rs.pos()` - gets the parts-of-speech of the string in an array
-	 - `rs.posAt(1)` - gets the part-of-speech of the second word
-	 - `rs.words()` - tokenizes the sentence and puts the tokens into an array
+	 - `RiTa.pastPart("take")`
+	 - `RiTa.presentPart("take")`
+	 
+	 - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
+	 - `RiTa._features.phonemes`
+	 - `RiTa._features.syllables`
+	 - `RiTa.pos()` - gets the parts-of-speech of the string in an array
+	 - `RiTa.posAt(1)` - gets the part-of-speech of the second word
+	 - `RiTa.words("The quick brown fox")` - tokenizes the sentence and puts the tokens into an array
