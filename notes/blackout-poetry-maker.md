@@ -52,7 +52,7 @@
 - RiTa is a "software toolkit for computational literature"
 - Documentation of the JavaScript version of RiTa is here: 
   - http://rednoise.org/rita/
-  - https://rednoise.org/rita1/reference/index.php
+  - https://rednoise.org/rita/#reference
   - https://github.com/dhowe/RiTaJS
 - Some of RiTa's capabilities:
   - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
@@ -72,7 +72,7 @@
 
 ### V-C. Testing RiTa
 
-- We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
+- We now have a top-level object to work with: `RiTa`
 - Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita1/reference/index.php
 - These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita1/reference/RiLexicon.php
 	- `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
