@@ -1,4 +1,4 @@
-# Blackout Poetry Maker
+# Blackout Poetry Maker & RiTa.js
 
 ## I. Overview
 
