@@ -19,7 +19,7 @@
 
 <hr>
 
-![screenshot](_images/_bpm/bpm-1.png)
+![screenshot](_images/_bpm/bpm-2.png)
 
 <hr>
 
