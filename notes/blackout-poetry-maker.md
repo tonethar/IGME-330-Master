@@ -13,7 +13,7 @@
 
 ## II. Example App Screenshot
 
-- Let's build a simple web version of a Blackout Poetry - the user can type text into the top `<textarea>`, click the button, and then have clickable blackout text in the bottom paragraph
+- Let's build a simple web version of a Blackout Poetry tool - the user can type text into the top `<textarea>`, click the button, and then have clickable blackout text in the bottom paragraph
 - here's 2 screenshots of our first version:
 
 ![screenshot](_images/_bpm/bpm-1.png)
