@@ -17,6 +17,8 @@
 
 ![screenshot](_images/_bpm/bpm-1.png)
 
+<hr>
+
 ![screenshot](_images/_bpm/bpm-1.png)
 
 <hr>
