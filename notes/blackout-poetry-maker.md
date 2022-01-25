@@ -69,7 +69,7 @@
 ### V-B. Installing RiTa
 
 - Make a copy of your **bp** folder, and name the copy **rhymer**
-- To import the RiTa.js library, add the follwoign to the `<head>` section of the HTML file
+- To import the RiTa.js library, add the following to the `<head>` section of the HTML file
 
 ```html
 <script defer src="https://unpkg.com/rita@2.7.1/dist/rita.js"></script>
