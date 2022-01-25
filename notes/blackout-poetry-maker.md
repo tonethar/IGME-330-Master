@@ -73,7 +73,7 @@
 ### V-C. Testing RiTa
 
 - We now have a top-level global object to work with: `RiTa`
-- Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita1/reference/index.php
+- Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: https://rednoise.org/rita/#reference
 - These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 30,000 words - https://observablehq.com/@dhowe/rita-lexicon
         - `RiTa.VERSION`
 	- `RiTa.randomWord({ pos: "nns"})` - a random plural noun from the lexicon
