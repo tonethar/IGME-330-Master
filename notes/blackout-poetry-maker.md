@@ -100,5 +100,6 @@
 
 - Now we will write a `replaceWithRhyme()` function for **rhymer** - let's do it together!
 
-### V-E. Screenshot of completed version
+### V-E. Screenshot of completed *rhymer*
 
+![screenshot](_images/_bpm/bpm-3.png)
