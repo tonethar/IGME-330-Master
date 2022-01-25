@@ -5,6 +5,9 @@
 - Blackout Poetry is a form of *appropriation art* (the use of pre-existing objects or images) where the artist takes a pieces of text (a book, a newspaper article, a tweet, a speech and so on) and "blacks out" (subtracts) the words they don't want.
 - https://writers.com/what-is-blackout-poetry-examples-and-inspiration
 - https://www.google.com/search?q=blackout+poetry&source=lnms&tbm=isch
+- Related antecedants:
+  - Erasure Poetry - https://poets.org/glossary/erasure
+  - Garfield Minus Garfield - https://garfieldminusgarfield.net/
 
 <hr>
 
@@ -37,3 +40,7 @@
 - https://codepen.io/emmawinston/pen/VqoPEY
 - https://mkremins.github.io/blackout/
 - https://www.poetryfoundation.org/poems
+
+<hr>
+
+## V. Adding more capabilities with RiTa.js
