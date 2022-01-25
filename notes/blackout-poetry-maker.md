@@ -10,9 +10,11 @@
 
 ## II. Example App Screenshot
 
-- Let's build a simple web version of a Blackout Poetry - here's a screenshot of our first version
+- Let's build a simple web version of a Blackout Poetry - here's 2 screenshots of our first version:
 
-![screenshot](_images/bpm-1.png)
+![screenshot](_images/_bpm/bpm-1.png)
+
+![screenshot](_images/_bpm/bpm-1.png)
 
 <hr>
 
