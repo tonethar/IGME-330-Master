@@ -58,8 +58,9 @@
   - https://rednoise.org/rita/#reference
   - https://github.com/dhowe/RiTaJS
 - Some of RiTa's capabilities:
-  - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
+  - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: 
     - https://en.wikipedia.org/wiki/Part-of-speech_tagging
+    - https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
   - *verb conjugation* and *pluralization*
   - word *rhyming* and *alliteration* (we'll use these today)
   - *text generation* via context-free grammars
