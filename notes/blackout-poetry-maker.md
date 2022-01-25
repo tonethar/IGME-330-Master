@@ -3,7 +3,7 @@
 ## I. Overview
 
 - Blackout Poetry is a form of *appropriation art* (the use of pre-existing objects or images) where the artist takes a pieces of text (a book, a newspaper article, a tweet, a speech and so on) and "blacks out" (subtracts) the words they don't want.
-- https://www.google.com/search?q=blackout+poetry
+- https://www.google.com/search?q=blackout+poetry&source=lnms
 
 ## II. Example Screenshot
 
