@@ -46,7 +46,7 @@
 
 <hr>
 
-## V. Adding more capabilities with RiTa.js
+## V. Adding more capabilities with the RiTa.js library
 
 ### V-A. Overview of RiTa
 - RiTa is a "software toolkit for computational literature"
@@ -72,9 +72,10 @@
 
 ### V-C. Testing RiTa
 
-- We now have a top-level object to work with: `RiTa`
+- We now have a top-level global object to work with: `RiTa`
 - Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita1/reference/index.php
 - These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 30,000 words - https://observablehq.com/@dhowe/rita-lexicon
+        - `RiTa.VERSION`
 	- `RiTa.randomWord({ pos: "nns"})` - a random plural noun from the lexicon
 	  - full list of POS tags are here: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
 	- `RiTa.rhymes("computer")`
@@ -93,3 +94,9 @@
 	 - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
 	 - `RiTa.pos("The quick brown fox")` - gets the parts-of-speech of the string in an array
 	
+### V-D. Adding RiTa capabilities to *rhymer*
+
+- Now we will write a `replaceWithRhyme()` function for **rhymer** - let's do it together!
+
+### V-E. Screenshot of completed version
+
