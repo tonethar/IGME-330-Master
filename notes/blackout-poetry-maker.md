@@ -62,3 +62,38 @@
   - *text generation* via context-free grammars
 
 ### V-B. Installing RiTa
+
+- Make a copy of your **bp** folder, and name the copy **rhymer**
+- To import the RiTa.js library, add the follwoign to the `<head>` section of the HTML file
+
+```html
+<script defer src="https://unpkg.com/rita@2.7.1/dist/rita.js"></script>
+```
+
+### V-C. Testing RiTa
+
+- We now have 7 top-level objects to work with: `RiTa`, `RiString`, `RiGrammar`, `RiMarkov`, `RiWordNet`, `RiLexicon` and `RiTaEvent`
+- Let's type in each of the commands listed below into the console, in order to see that they do. The docs for all of the RiTa methods are here: http://rednoise.org/rita1/reference/index.php
+  - These commands use the RiTa *lexicon* - a lexicon is a set of words, and information about these words - their pronunication and part-of-speech for example. RiTa's lexicon is approximately 40,000 words - https://rednoise.org/rita1/reference/RiLexicon.php
+    - `RiTa.randomWord("nn")` - a random noun - full list of POS tags are here: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
+    - `RiTa.rhymes("computer")`
+    - `RiTa.pluralize("computer")`
+    - `RiTa.singularize("people")`
+    - `RiTa.alliterations("games")`
+    - `RiTa.isRhyme("cat", "hat")`
+    - `RiTa.similarByLetter("rochester")`
+    - `RiTa.similarBySound("institute")`
+    - `RiTa.similarBySoundAndLetter("technology")`
+  
+  - RiTa can also tell us about the parts of speech of a sentence:
+     - `RiTa.isNoun("computer")`
+     - `RiTa.isVerb("take")`
+     - `RiTa.getPastParticiple("take")`
+     - `RiTa.getPresentParticiple("take")`
+     - `let rs = RiString("The elephant took a bite!")` - creates a [`RiString`](http://rednoise.org/rita1/reference/RiString.php) object
+     - `rs.analyze()` - lot's of info!
+     - `rs._features.phonemes`
+     - `rs._features.syllables`
+     - `rs.pos()` - gets the parts-of-speech of the string in an array
+     - `rs.posAt(1)` - gets the part-of-speech of the second word
+     - `rs.words()` - tokenizes the sentence and puts the tokens into an array
