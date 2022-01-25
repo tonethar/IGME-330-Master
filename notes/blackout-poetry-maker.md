@@ -88,10 +88,7 @@
 	 - `RiTa.isVerb("take")`
 	 - `RiTa.pastPart("take")`
 	 - `RiTa.presentPart("take")`
-	 
+	 - `RiTa.tokens("The quick brown fox")` - tokenizes the sentence and puts the tokens into an array
 	 - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
-	 - `RiTa._features.phonemes`
-	 - `RiTa._features.syllables`
-	 - `RiTa.pos()` - gets the parts-of-speech of the string in an array
-	 - `RiTa.posAt(1)` - gets the part-of-speech of the second word
-	 - `RiTa.words("The quick brown fox")` - tokenizes the sentence and puts the tokens into an array
+	 - `RiTa.pos("The quick brown fox")` - gets the parts-of-speech of the string in an array
+	
