@@ -46,3 +46,18 @@
 <hr>
 
 ## V. Adding more capabilities with RiTa.js
+
+### V-A. Overview of RiTa
+- RiTa is a "software toolkit for computational literature"
+- Documentation of the JavaScript version of RiTa is here: 
+  - http://rednoise.org/rita/
+  - https://rednoise.org/rita1/reference/index.php
+  - https://github.com/dhowe/RiTaJS
+- Some of RiTa's capabilities:
+  - *text tagging* - get the part of speech of a word - such as *adjective*, *verb*, *noun*, *proper noun*, *pronoun* etc  - from the PENN part of speech tags: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
+    - https://en.wikipedia.org/wiki/Part-of-speech_tagging
+  - *verb conjugation* and *pluralization*
+  - word *rhyming* and *alliteration* (we'll use these today)
+  - *text generation* via context-free grammars
+
+### V-B. Installing RiTa
