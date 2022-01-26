@@ -111,7 +111,7 @@ user-select: none;
 ## III-A. Inspect the code
 - In the debugger, let's put some breakpoints in, so we can see the lifecycle of the component:
   - put these breakpoints in `constructor()`, `connectedCallback()`, `disconnectedCallback()`, `attributeChangedCallback()` and `observedAttributes()`
-  - it would be a goood idea to comment out the HTML so that there's only one component being added to the page
+  - it would be a good idea to comment out the HTML so that there's only one component being added to the page
 - From the console, you can now see the `disconnectedCallback()` method fired - type in this line of code - `document.querySelector("igm-footer:first-of-type").remove()`
 - OR, you could have the component be removed from the DOM when the `<hr>` is clicked on:
 
@@ -130,7 +130,7 @@ hr{
 - What does this line of code do?
   - `let year = +this.dataset.year + 1;`
   - How else could we write it?
-- Change the function that `this.span.onclick` points at FROM an *ES6 arrow function*, TO a regular *ES5 function declaration* - ex. `funtion(){...}`
+- Change the function that `this.span.onclick` points at FROM an *ES6 arrow function*, TO a regular *ES5 function declaration* - ex. `function(){...}`
   - test the code - what happens?
   - why? - the value of `this` in a function depends on how the function was called - [MDN - `this`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
