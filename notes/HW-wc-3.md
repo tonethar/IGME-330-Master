@@ -10,7 +10,7 @@
 
 - Start files are here: [sw-start.zip](_files/sw-start.zip)
 - Here's a screenshot of the starting version
-- It has most of the functionality of the completed version, except that we are going to rewrite much of the app to use custom 3 web components, created by us
+- It has most of the functionality of the completed version, except that we are going to rewrite much of the app to use 3 custom web components, created by us
 - BTW - the embedded fonts came from here - https://www.fontspace.com/sf-distant-galaxy-font-f6436
 
 ![screenshot](_images/_wc/HW-wc-9.png)
