@@ -201,7 +201,7 @@ customElements.define('my-element', MyElement);
 ### IV-E. Show that the Shadow DOM is in fact encapsulated from the regular DOM
 
 - To prove that the CSS we write in the main document will NOT be able to effect the component Shadow DOM do the following:
-  - add this HTML to the `<body>` tag, wight before the first `<h2>`:
+  - add this HTML to the `<body>` tag, right before the first `<h2>`:
   
 ```html
 <span>I am a span</span>
