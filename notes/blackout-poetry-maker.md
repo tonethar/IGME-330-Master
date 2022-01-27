@@ -91,13 +91,13 @@
     - `RiTa.soundsLike("institute")`
 
 - RiTa can also tell us about the parts of speech of a sentence:
-	 - `RiTa.isNoun("computer")`
-	 - `RiTa.isVerb("take")`
-	 - `RiTa.pastPart("take")`
-	 - `RiTa.presentPart("take")`
-	 - `RiTa.tokens("The quick brown fox")` - *tokenizes* the sentence and puts the tokens into an array
-	 - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
-	 - `RiTa.pos("The quick brown fox")` - returns the parts-of-speech of the individual words as an array
+    - `RiTa.isNoun("computer")`
+    - `RiTa.isVerb("take")`
+    - `RiTa.pastPart("take")`
+    - `RiTa.presentPart("take")`
+    - `RiTa.tokens("The quick brown fox")` - *tokenizes* the sentence and puts the tokens into an array
+    - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
+    - `RiTa.pos("The quick brown fox")` - returns the parts-of-speech of the individual words as an array
 	
 ### V-D. Adding RiTa capabilities to *rhymer*
 
