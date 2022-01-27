@@ -24,9 +24,9 @@
 ```js
 window.onload = () =>{
   // get rid of the border of the first <igm-footer> - works!
-  document.querySelector("igm-footer:first-of-type").style.border = "none";
+  document.querySelector("igm-footer").style.border = "none";
   // change an attribute of the first <igm-footer> - fails!
-  document.querySelector("igm-footer:first-of-type").setAttribute("data-year",1066);
+  document.querySelector("igm-footer").setAttribute("data-year",1066);
 };
 ```
 
@@ -65,7 +65,7 @@ attributeChangedCallback(attributeName, oldVal, newVal){
 ```js
 // BTW - the `dataset` property is easier to use than `.setAttribute()`
 // Add this to the `window.onload` handler
-document.querySelector("igm-footer:first-of-type").dataset.text= "William the Conquerer";
+document.querySelector("igm-footer").dataset.text= "William the Conquerer";
 ```
 
 <hr>
