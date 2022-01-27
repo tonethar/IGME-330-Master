@@ -36,8 +36,8 @@
 <hr>
 
 ## IV. Blackout Poetry Resources
-- [YouTube - Coding Tech - Making Blackout Poetry With Computers!](https://www.youtube.com/watch?v=hoxS_tLbqYs)
 - [YouTube - Austin Kleon - How To Make A Newspaper Blackout Poem](https://youtu.be/wKpVgoGr6kE)
+- [YouTube - Coding Tech - Making Blackout Poetry With Computers!](https://www.youtube.com/watch?v=hoxS_tLbqYs)
 - https://authority.pub/blackout-poetry/
 - https://www.miamioh.edu/hcwe/hwc/writing-resources/howe-blackout-poetry/index.html
 - https://powerpoetry.org/actions/5-tips-creating-blackout-poetry
