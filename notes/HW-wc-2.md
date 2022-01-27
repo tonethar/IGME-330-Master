@@ -17,8 +17,8 @@
 
 ## I. Changing attribute values
 
-- Make a copy of the **footer-component-2-PLUS.html** file where we built `<igm-footer>` last time 
-- Be sure that this copy is contained in a folder named **wc2/**
+- Make a copy of the **footer-component-2-PLUS.html** file and the **src/igm-footer.js** file. These are where we built out the `<igm-footer>` code last time 
+- Be sure that these new files are contained in a folder named **wc2/**
 - Now add the following to HTML document's `<script>` tag:
 
 ```js
