@@ -91,7 +91,7 @@ this.span = this.shadowRoot.querySelector("span");
 this.span.onclick = () => {
   let year = +this.dataset.year + 1;
   this.dataset.year = year;
-}
+};
 ```
 
 - Implement `disconnectedCallback()`
