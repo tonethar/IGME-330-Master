@@ -172,7 +172,19 @@ customElements.define('my-element', MyElement);
 ![screenshot](_images/_wc/HW-wc-2.png)
 
 - preview this in the browser, it shouldn't look different
-- if you look in the inspector, under the `#shadow-root` you'll see the `<span>`, but no `<style>` tag
+- **NOTE - there is a mistake in the last line of code above, and in my video I neglected to even use this last line of code. Here's the fix:**
+
+```js
+// Replace
+this.shadowRoot.append(style);
+// With
+this.shadowRoot.appendChild(style);
+
+// Now you will see that the styles are functioning
+// And you will also now see the <style> tag under the #shadow-root
+```
+
+- if you look in the inspector, under the `#shadow-root` you'll see the `<span>` and `<style>` tag
 - the `host:` CSS pseudo-class is documented here - https://developer.mozilla.org/en-US/docs/Web/CSS/:host
 
 <hr>
