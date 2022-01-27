@@ -95,9 +95,9 @@
 	 - `RiTa.isVerb("take")`
 	 - `RiTa.pastPart("take")`
 	 - `RiTa.presentPart("take")`
-	 - `RiTa.tokens("The quick brown fox")` - tokenizes the sentence and puts the tokens into an array
+	 - `RiTa.tokens("The quick brown fox")` - *tokenizes* the sentence and puts the tokens into an array
 	 - `RiTa.analyze("The elephant took a bite!")` - lot's of info!
-	 - `RiTa.pos("The quick brown fox")` - gets the parts-of-speech of the string in an array
+	 - `RiTa.pos("The quick brown fox")` - returns the parts-of-speech of the string in an array
 	
 ### V-D. Adding RiTa capabilities to *rhymer*
 
