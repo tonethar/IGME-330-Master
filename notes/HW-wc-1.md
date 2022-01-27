@@ -173,7 +173,7 @@ customElements.define('my-element', MyElement);
 
 - preview this in the browser, it shouldn't look different
 
-<hr>
+<hr id="fix">
 
 - **NOTE - there is a mistake in the last line of code above, and in my video I neglected to even use this last line of code. Here's the fix:**
 
