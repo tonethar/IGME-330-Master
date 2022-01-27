@@ -114,7 +114,7 @@ user-select: none;
 - In the debugger, let's put some breakpoints in, so we can see the lifecycle of the component:
   - put these breakpoints in `constructor()`, `connectedCallback()`, `disconnectedCallback()`, `attributeChangedCallback()` and `observedAttributes()`
   - it would be a good idea to comment out the HTML so that there's only one component being added to the page
-- From the console, you can now see the `disconnectedCallback()` method fired - type in this line of code - `document.querySelector("igm-footer:first-of-type").remove()`
+- From the console, you can now see the `disconnectedCallback()` method fired - type in this line of code - `document.querySelector("igm-footer").remove()`
 - OR, you could have the component be removed from the DOM when the `<hr>` is clicked on:
 
 ```js
