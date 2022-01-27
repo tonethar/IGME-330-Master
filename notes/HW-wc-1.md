@@ -172,6 +172,9 @@ customElements.define('my-element', MyElement);
 ![screenshot](_images/_wc/HW-wc-2.png)
 
 - preview this in the browser, it shouldn't look different
+
+<hr>
+
 - **NOTE - there is a mistake in the last line of code above, and in my video I neglected to even use this last line of code. Here's the fix:**
 
 ```js
