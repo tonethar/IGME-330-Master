@@ -3,7 +3,7 @@
 <hr>
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
-  - [HW - Web Components-2 (18:07)]()
+  - [HW - Web Components-2 (18:07)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84d40b75-dcd0-4b2e-b2e2-ae2a00358b04)
 
 <hr>
 
