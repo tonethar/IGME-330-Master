@@ -281,7 +281,7 @@ igm-footer{
 ## VII. Homework
 
 - ZIP and POST to the dropbox **footer-component-1.html** & **footer-component-2.html** & **src/igm-footer.js**
-- Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  -the functionality will be the same as the versions above, except:
+- Create **footer-component-2-PLUS.html** / **src/igm-footer-plus.js**  - (and also ZIP and POST these to the dropbox) - the functionality will be the same as the versions above, except:
   - there must be a custom `data-organization` attribute (the user might pass in a value of "RIT" or "IGM" or "IST" etc
   - this organization will be displayed in another `<span>` - in the template - that looks like this - `<span id="org"></span>`
   - In the `render()` method, display the value of the `data-organization` attribute in this new `<span>`
