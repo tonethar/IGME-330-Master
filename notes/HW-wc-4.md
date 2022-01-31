@@ -171,10 +171,6 @@
 
 ## III. Homework
 - There is nothing you need to submit to myCourses, but the above file is the start file for [**HW - Web Components V**](HW-wc-5.md)
-- Consider (optionally) working on this in your copious free time:
-  - implement some of the operation that were suggested in the code comments - `add()`, `addAtIndex()`, `removeAtIndex()`, `clear()`, a `.length` property etc
-  - you could also add a form field and buttons so that the user could add items
-  - a way to delete items would be nice too
 
 <hr><hr>
 
