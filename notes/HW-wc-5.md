@@ -135,7 +135,7 @@ colorList.addEventListener("lengthchanged", e => outputText.innerHTML = e.detail
 
 ## VI.  Homework
 
-- Get all of the above working - both the "Add" and "Clear" buttons - and the updating of the list component and `#output-text`
+- Get all of the above working for `colorList` (don't worry about `movieList`) - both the "Add" and "Clear" buttons - and the updating of the list component and `#output-text`
 - See dropbox for submission instructions
 
 <hr><hr>
