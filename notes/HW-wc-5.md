@@ -15,7 +15,7 @@
     - [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent)
     - [EventTarget.dispatchEvent()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent)
 - What we are trying to promote here is *loose coupling* of our software components, with minimal dependencies, which makes it easier to reuse and maintain our code
-- BTW - Below we are going to demonstrate the *custom event* technique, but here are other ways to accomplish the same thing, possibly by hard coding global references in the component (BAD), or passing in function references that can be called back later when the array length changes (BETTER)
+- BTW - Below we are going to demonstrate the *custom event* technique, but there are other ways to accomplish the same thing, possibly by hard coding global references in the component (BAD), or passing in function references that can be called back later when the array length changes (BETTER)
 
 <hr><hr>
 
