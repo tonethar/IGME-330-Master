@@ -67,7 +67,7 @@ colorList.length // returns number of items in list
 
 <hr>
 
-6) Here is the code that gets the `<input>` and the `#btn-add` button working, so that clikcing the button adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
+6) Here is the code that gets the `<input>` and the `#btn-add` button working, so that clicking the button adds new items to the end of the list. Put this code at the end of the `window.onload` event handler:
 
 ![screenshot](_images/_wc/HW-wc-15.png)
 
