@@ -86,7 +86,7 @@
 
 - ***publishing*** (broadcasting) a "lengthchanged" event could look like this:
 
-```
+```js
 pubsub.publish("lengthchanged", {target: this, length: this.length});
 ```
 
