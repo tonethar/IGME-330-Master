@@ -4,7 +4,7 @@
 
 - So far we have seen that web components are an effective way to encapsulate a user interface (via HTML/CSS) & functionality (extending the `HTMLElement` class):
   - they can easily be reused on the same page - for example `<sw-card>` or between multiple pages/projects `<sw-header>`, `<my-header>`, `<my-footer>` etc
-  - parameters can be passed in via HTML custom `data-` attributes, or via stanard JS object properties
+  - parameters can be passed in via HTML custom `data-` attributes, or via standard JS object properties
 - One issue that you will run into with web components (and also in other web frameworks) is how to pass information *out* of a web component:
   - how can a web component "communicate" with the rest of your app? how can it pass values to other components?
 - One solution to this issue is to have a components emit a *custom event*, and then another part of your program can listen for and respond to these events:
