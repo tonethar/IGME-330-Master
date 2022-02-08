@@ -81,7 +81,7 @@ function loadJsonFetch(){
 <hr>
 
 ## II. Start files & HW
-- You might want to start by first making a copy of your **ajax-4/** folder from last time, and naming the copy **ajax-5/**
+- You might want to start by first making a copy of your **ajax-4/** folder from last time (if you don't have a copy of **ajax-4/**, check myCourses), and naming the copy **ajax-5/**
 - Rename your completed HTML file from last time - from **xhr-get-json.html** to **fetch-get-json.html** 
 - Go ahead and adapt your code from last time to use the `fetch()` API to download **pet-names.json** instead of `XHR`, and display the lists of pets as you did before. Be sure to use `.then()` and `response.ok` like we did in the last demo above
 - See myCourses for submission instructions
