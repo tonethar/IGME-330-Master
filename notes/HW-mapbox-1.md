@@ -170,10 +170,8 @@ export {init};
 ## IV. Submission
 
 - Submit your files and get the credit you deserve:
-  - POST the **custom-marker**  folder to the web
   - ZIP up the **custom-marker** folder and submit it to myCourses
-  - Type the link to the **custom-marker**  in the comments field of the dropbox
-  - Don't forget to ZIP and POST the **mapbox-start.html** file from Part I!
+  - Don't forget to ZIP up the **mapbox-start.html** file from Part I above, and submit it to myCourses!
 
 
 <hr><hr>
