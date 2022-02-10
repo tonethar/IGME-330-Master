@@ -262,7 +262,10 @@ function setupUI(){
 
 - Let's walk through how easy it is to load new data from the Internet and then display it on the map
 
-1) Here's the data we'll be downloading - nothing much - just the the location data for the IGM main office and the GCCIS Dean's office: https://igm.rit.edu/~acjvks/courses/shared/330/maps/igm-points-of-interest.php
+1) Here's the data we'll be downloading - nothing much - just the the location data for the IGM main office and the GCCIS Dean's office: https://people.rit.edu/~acjvks/shared/330/igm-points-of-interest.php
+
+
+<!-- https://igm.rit.edu/~acjvks/courses/shared/330/maps/igm-points-of-interest.php -->
 
 <hr>
 
