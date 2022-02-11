@@ -1,5 +1,10 @@
 # How to check your API for CORS access
 
+I. Overview
+- CORS stands for "Cross-Origin Resource Sharing" - if a web service doesn't have it "turned on", then client-side JS (the kind we are writing in IGME-330) won't be able to downlad that web service
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+- *How do we know if a web service has CORS turned on?* By looking for a `access-control-allow-origin: *` HTTP response header - see below where we demo how to look for that header
+
 <hr>
 
 1) **First, open the inspector and select the *Network* tab**
