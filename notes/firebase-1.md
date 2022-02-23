@@ -155,7 +155,8 @@
 
 ### III-A. Getting ready
 - First, open **firebase-test.html** and add this line of code to the end of the `<script>` tag - `console.log(app);`
-- Open the page in a browser and check the console - you should see a log
+- Open the page in a browser and check the console - you should see a log - sometinh like:
+  - `FirebaseAppImpl {_isDeleted: false, _options: {…}, _config: {…}, _name: '[DEFAULT]', _automaticDataCollectionEnabled: false, …}`
 
 <hr>
 
