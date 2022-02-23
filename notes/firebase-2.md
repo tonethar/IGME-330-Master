@@ -110,13 +110,13 @@ saveScoreButton.onclick = _ => {
 - Call it instead of `writeHighScoreData()` 
 
 ```js
-function writeHighScoreData2(userId, game, score) {
+const writeHighScoreData2 = (userId, game, score) => {
   const db = getDatabase();
   set(ref(db, 'scores2/' + userId), {
     game,
     score
   });
-}
+};
 ```
 
 - Note that we are saving everything under a new JSON node named `scores2`
