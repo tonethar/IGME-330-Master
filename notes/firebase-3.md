@@ -196,7 +196,7 @@ score= 110
 ## VII. One last note - how to listen for changes to only one object
 
 - Sometimes you are only interested in whether or not a single JSON object changed a value
-- To accomplish this you just have to change the node (`ref`) that your `onValue` handler is observing:
+- To accomplish this you just have to change the node `ref()` that your `onValue` handler is observing:
 
 ```js
 const madmaxChanged = (data) => {
