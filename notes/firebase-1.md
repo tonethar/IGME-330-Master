@@ -182,7 +182,7 @@ import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/f
 - Add the following code to the bottom of the `<script>` tag
 
 ```js
-function writeUserData(userId, name, email) {
+const writeUserData = (userId, name, email) => {
   const db = getDatabase();
   set(ref(db, 'users/' + userId), {
     username: name,
