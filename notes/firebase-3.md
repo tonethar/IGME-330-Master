@@ -142,7 +142,7 @@ function madmaxChanged(data){
   console.log(`madmaxChanged = ${obj}`);
   console.log(`userName = ${obj.userID}`);
   console.log(`score= ${obj.score}`);
-}
+};
 ```
 
 - Here we will only get a single "High Score" object back
@@ -191,7 +191,34 @@ score= 110
 - Get everything working and post both the **firebase-high-score.html** and **firebase-admin.html** files to the web
 - See dropbox for submission instructions
 
-  
+<hr>
+
+## VII. One last note - how to listen for changes to only one object
+
+- Sometimes you are only interested in whether or not a single JSON object changed a value
+- To accomplish this you just have to change the node (`ref`) that your `onValue` handler is observing:
+
+```js
+const madmaxChanged = (data) => {
+    let obj = data.val();
+    console.log("scores2/ - madmaxChanged", obj);
+    console.log("game = ", obj.game);
+    console.log("score = ", obj.score);
+  };
+
+const scoresRef2 = ref(db, 'scores2/MADMAX');
+onValue(scoresRef2,madmaxChanged);
+```
+ 
+- Here we will only get a single "High Score" object back
+- When you first load the page, you will see a log like this:
+
+```
+scores2/ - madmaxChanged {game: 'Clicktastic', score: 10}
+firebase-admin.html:55 game =  Clicktastic
+firebase-admin.html:56 score =  10
+```
+ 
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
