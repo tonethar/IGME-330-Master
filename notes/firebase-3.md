@@ -44,7 +44,7 @@
   const db = getDatabase();
   const scoresRef = ref(db, 'scores');
 
-  function scoresChanged(snapshot){
+  const scoresChanged = (snapshot) => {
     snapshot.forEach(score => {
       const childKey = score.key;
       const childData = score.val();
