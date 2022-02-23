@@ -65,7 +65,7 @@
 - Under Add **Firebase SDK** step:
   - choose the **Use a `<script>` tag** radio button
   - go ahead and create an empty HTML file named **firebase-test.html**
-  - copy/paste the Firebase JS code into the document, at the bottom of the `<body>` tag
+  - copy/paste the Firebase JS code into the document, up in the `<head>` section of the document (where we've been putting our code most of this semester)
   - when you are done, click the **Continue to console** button at the bottom of the page
   - **Note:** If you need to get this setup code at a later time, go to **Develop > Authentication** in the [Firebase console](https://console.firebase.google.com), select the project, then click **Web Setup**
 
