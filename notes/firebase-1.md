@@ -231,7 +231,7 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 - Add this to the bottom of the `<script>` tag
 
 ```js
-function writeHighScoreData(userId, game, score) {
+const writeHighScoreData = (userId, game, score) => {
   const db = getDatabase();
   const scoresRef = ref(db, 'scores');
   const newScoreRef = push(scoresRef,{
