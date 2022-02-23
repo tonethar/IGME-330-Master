@@ -218,7 +218,9 @@ scores2/ - madmaxChanged {game: 'Clicktastic', score: 10}
 firebase-admin.html:55 game =  Clicktastic
 firebase-admin.html:56 score =  10
 ```
- 
+
+- And if ``'s `score` or `game` changes at any time in the future - `madmaxChanged()` (above will) get called and the new values will be send along
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
