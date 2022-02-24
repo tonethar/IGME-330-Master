@@ -459,7 +459,7 @@ function setupUI(){
 
 <hr>
 
-4) Call `setupUI()` from the bottom of `loadData()`
+4) Call `setupUI()` from the bottom of `dataLoaded()`
 
 <hr>
 
