@@ -26,11 +26,102 @@ customElements.define("hello-world", HelloWorld);
 
 **Usage:**
 
-`<hello-world></hello-world>`
+```html
+<!-- Put this in HTML file-->
+<hello-world></hello-world>`
+```
 
 <hr>
 
 ## II. A single unnamed *slot*
+
+
+```js
+// this goes in the component
+const template = document.createElement("template");
+template.innerHTML = `
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<style>
+:host{
+  user-select: none;
+}
+</style>
+<header class="hero is-small is-primary is-bold">
+<div class="hero-body">
+  <div class="container">
+    <h1 class="title"><slot></slot></h1>
+  </div>
+</div>
+</header>
+`;
+
+class AppHeader extends HTMLElement{
+  constructor(){
+    super();
+    this.attachShadow({mode: "open"});
+    this.shadowRoot.appendChild(template.content.cloneNode(true));
+  }
+}
+
+customElements.define("app-header", AppHeader);
+```
+
+
+**Usage:**
+
+```html
+<!-- Put this in HTML file-->
+<app-header>Dog Finder</app-header>`
+```
+
+<hr>
+
+## III. Two named *slots*
+
+
+```js
+// this goes in the component
+const template = document.createElement("template");
+template.innerHTML = `
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<style>
+:host{
+  user-select: none;
+}
+</style>
+<header class="hero is-small is-primary is-bold">
+<div class="hero-body">
+  <div class="container">
+    <h1 class="title"><slot name="my-title"></slot></h1>
+    <h2 class="subtitle"><slot name="my-subtitle"></slot></h2>
+  </div>
+</div>
+</header>
+`;
+
+class AppHeader2 extends HTMLElement{
+  constructor(){
+    super();
+    this.attachShadow({mode: "open"});
+    this.shadowRoot.appendChild(template.content.cloneNode(true));
+  }
+}
+
+customElements.define("app-header2", AppHeader2);
+```
+
+
+**Usage:**
+
+```js
+<!-- Put this in HTML file-->
+<app-header2>
+  <span slot="my-title">Greeter with Slots #2</span>	
+  <span slot="my-subtitle">This is a rockin' App!</span>	
+</app-header2>
+```
+
+<hr>
 
 
 
