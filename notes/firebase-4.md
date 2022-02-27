@@ -178,3 +178,8 @@ const writeFavNameData = name => {
    - *Writes multiple values to the Database at once.*
    - https://firebase.google.com/docs/reference/js/database.md#update
    - returns a *Promise* - remember those?
+
+<hr>
+
+
+**[Previous Chapter <- Firebase Part III - Highscore Viewer](firebase-3.md)**
