@@ -28,7 +28,7 @@ customElements.define("hello-world", HelloWorld);
 
 ```html
 <!-- Put this in HTML file-->
-<hello-world></hello-world>`
+<hello-world></hello-world>
 ```
 
 <hr>
@@ -71,7 +71,7 @@ customElements.define("app-header", AppHeader);
 
 ```html
 <!-- Put this in HTML file-->
-<app-header>Dog Finder</app-header>`
+<app-header>Dog Finder</app-header>
 ```
 
 <hr>
@@ -123,5 +123,5 @@ customElements.define("app-header2", AppHeader2);
 
 <hr>
 
-
+## IV. HTML Custom Attributes
 
