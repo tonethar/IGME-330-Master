@@ -1,6 +1,6 @@
 # 4 - More Firebase - creating a `likes` counter for Dog names
 
-- ***There is a video of this Firebase demo here --> [Demo - Firebase "Likes" Counter(13:15)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d89db2ea-9682-4aef-bb54-ae46002bf7ec)***
+- ***There is a video of this Firebase demo here --> [Demo - Firebase "Likes" Counter (13:15)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d89db2ea-9682-4aef-bb54-ae46002bf7ec)***
 
 ## I. Overview
 - What we are going to build is "likes counter" for user submitted dog names
