@@ -179,7 +179,7 @@ const writeFavNameData = name => {
    - https://firebase.google.com/docs/reference/js/database.md#update
    - returns a *Promise* - remember those?
 
-<hr>
+<hr><hr>
 
 
 **[Previous Chapter <- Firebase Part III - Highscore Viewer](firebase-3.md)**
