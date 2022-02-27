@@ -1,5 +1,9 @@
 # Web Component Summary
 
+## Overview
+
+- Below, let's look at a few different "styles" of web components that we could write
+
 
 ## I. "Hello World"
 - The component below takes no parameters of any kind, it simply renders out the same HTML every time it is used on a page
