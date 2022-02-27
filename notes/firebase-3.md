@@ -224,3 +224,5 @@ firebase-admin.html:56 score =  10
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part II - Highscore App](firebase-2.md)**
+
+**[Next Chapter -> Firebase Part IV - creating a `likes` counter for Dog names](firebase-4.md)**
