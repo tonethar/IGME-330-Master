@@ -1,5 +1,6 @@
 # 4 - Firebase "Draw & Share" App
 
+- **\*OLD! NEEDS TO BE UPDATED TO USE ESM SYNTAX\***
 ## I. Overview
 
 - We are going to take a slimmed down version of the [HW-drawing-app.md](./HW-drawing-app.md) we did at the beginning of the semester, and give it the  ability to save to Firebase's Realtime Database!
