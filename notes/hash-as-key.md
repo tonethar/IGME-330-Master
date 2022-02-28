@@ -1,4 +1,4 @@
-# Hashes as keys
+# Creating unique and repeatable keys by *hashing*
 
 
 ## I. A problem that needs to be solved
