@@ -38,9 +38,9 @@
      ... and so on
 ```
 
-- If your web service has an attribute named `id` or `guid` or something like that, you can probably send that over to Firebase as the key
+- If your web service has an attribute named `id` or `guid` or something like that, you can probably send that over to Firebase as the *key* for each result
 - This will work because the web service will return the same `id` for a particular cat GIF, no matter which user favorites that cat.
-- Thus the key will repeat
+- Thus the key will be the same (repeat) for a particular GIF, no matter which user does the searching and favoriting
 
 <hr>
 
@@ -48,4 +48,6 @@
 
 - One solution is to create your own key with a *hashing* function
 - Hashing was briefly discussed in IGME-106 - see slide #17 of this [Dictionaries](https://github.com/tonethar/IGME-330-Master/blob/master/presentations/Dictionaries.pdf) presentation:
-  - 
+  - "Hashing is the process of converting a string into a key that represents the original string"
+  - A very simple hashing algorithm would be to add the ASCI key codes of all of the letters of a string together
+  - Problem: 
