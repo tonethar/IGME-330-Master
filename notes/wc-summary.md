@@ -92,7 +92,7 @@ template.innerHTML = `
   user-select: none;
 }
 </style>
-<header class="hero is-small is-primary is-bold">
+<header class="hero is-small is-warning is-bold">
 <div class="hero-body">
   <div class="container">
     <h1 class="title"><slot name="my-title"></slot></h1>
