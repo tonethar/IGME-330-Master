@@ -116,7 +116,7 @@ customElements.define("app-header2", AppHeader2);
 
 **Usage:**
 
-```js
+```html
 <!-- Put this in HTML file-->
 <app-header2>
   <span slot="my-title">Greeter with Slots #2</span>	
