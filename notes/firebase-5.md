@@ -44,7 +44,7 @@ require user abc1234 xyz9876
 ## III. Creating an admin.html file
 
 
-![screenshot](../_images/_firebase/gabdog-admin.png)
+![screenshot](_images/_firebase/gabdog-admin.png)
 
 <hr><hr>
 
