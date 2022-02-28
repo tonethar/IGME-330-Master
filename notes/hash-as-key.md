@@ -52,7 +52,7 @@
   - A very simple hashing algorithm would be to add the ASCI key codes of all of the letters of a string together
   - Problem: "I am Lord Voldemort" gives the SAME hash as "Tom Marvolo Riddle " (because they are anagrams)
  - A good hashing algorithm needs to have the following characteristics:
-   - It must be *deterministic* - meaning that when given the a particular string, it will always return the same result
+   - It must be *deterministic* - meaning that when given a specific string of characters, it will always return the same result
    - It should minimize duplication of output values (called "collisions")
    - It is desirable that the output of a hash function have fixed size - we'll limit ours to 32-bit `+/- 2,147,483,647`
  - Although there are a lot of server-side JS implementations of common crytography (hashing) algorithms such as `sha1` or `md5`, there are not any that are implemented natively in the browser, so we'll need to write our own.
@@ -104,6 +104,7 @@
 
   // Here is the one-liner of the above code - it does the same thing
   // and is a little bit faster due to the bitshifting instead of multiplication
+  // https://stackoverflow.com/questions/51960331/why-5-bit-left-shift-in-hashing-function
   const hashCode2 = (str) => {
     return str.split("").reduce((prevHash, currVal) => (((prevHash << 5) - prevHash) + currVal.charCodeAt(0)) | 0, 0);
   };
@@ -131,4 +132,13 @@
 </html>
 ```
 
+<hr>
+
+## V. Tips & Resources
+
+- If you end up using a hashing algorithm to generate a unique key for a resource, you may want to add a prefix - maybe your project's "initials" to the hash. That way the key is not numeric, because if you are storing these keys in localStorage, numeric object keys can look like array indexes, which could cause problems with `JSON.parse()` or `JSON.stringify()`
+- If you are looking for a very low chance of collisions, here are some links to some JavaScript implementations of `sha1`, `sha256`, and `md5` - on this page - https://stackoverflow.com/questions/6122571/simple-non-secure-hash-function-for-javascript
+- More:
+ - https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript
+ - https://stackoverflow.com/questions/194846/is-there-any-kind-of-hash-code-function-in-javascript
 
