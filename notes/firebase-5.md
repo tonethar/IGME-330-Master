@@ -39,6 +39,10 @@ require user abc1234 xyz9876
 - Type in the ***correct*** username/password - now you should be able to log in and view the **login/** folder
 - Now close the Private Window and open a regular browser window. Most likely you are already logged into RIT, so you should be able to view the **login/** folder (which is currently empty, BTW, other than the "invisible" **.htaccess file**
 
+<hr>
+
+## III. Creating an admin.html file
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part IV - Creating a `likes` counter for Dog names](firebase-4.md)**
