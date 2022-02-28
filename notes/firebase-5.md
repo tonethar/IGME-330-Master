@@ -43,6 +43,20 @@ require user abc1234 xyz9876
 
 ## III. Creating an admin.html file
 
+- We are going to leave this mostly to you
+- Go ahead and duplicate the GabDog file from last time, name it **gabdog-admin.html**, and place it in the **admin/** folder
+- See the tips about using `remove()` in Part I above
+- When you create your list items and delete buttons, you may find it easiest to use `document.createElement()` and `document.appendChild()` - and then you can have your button `onclick` event handlers point at a `deleteFavorite()` function
+- Delete favorite should start out something like this:
+
+```js
+const deleteFavorite = (keyName) => {
+	console.log("keyName=",keyName);
+	...
+};
+```
+
+- And here is a screenshot of a working example:
 
 ![screenshot](_images/_firebase/gabdog-admin.png)
 
