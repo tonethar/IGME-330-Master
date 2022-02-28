@@ -127,9 +127,7 @@
   console.log(`hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/") = '${hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/")}'`);
   </script>
 </head>
-<body>
-  
-</body>
+<body></body>
 </html>
 ```
 
