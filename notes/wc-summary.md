@@ -74,7 +74,7 @@ customElements.define("app-header", AppHeader);
 
 ```html
 <!-- Put this in HTML file-->
-<app-header>Dog Finder</app-header>
+<app-header>Greeter</app-header>
 ```
 
 <hr>
