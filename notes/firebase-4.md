@@ -183,3 +183,5 @@ const writeFavNameData = name => {
 
 
 **[Previous Chapter <- Firebase Part III - Highscore Viewer](firebase-3.md)**
+
+**[Next Chapter -> Firebase Part V - Firebase - Deleting elements from the cloud](firebase-5.md)**
