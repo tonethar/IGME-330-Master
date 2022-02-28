@@ -41,7 +41,6 @@ customElements.define("hello-world", HelloWorld);
 
 **app-header.js**
 ```js
-// this goes in the component
 const template = document.createElement("template");
 template.innerHTML = `
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
