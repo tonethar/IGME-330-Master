@@ -131,6 +131,60 @@ customElements.define("app-header2", AppHeader2);
 **app-header3.js**
 
 ```js
+/* Custom HTML Attributes */
+const template4 = document.createElement("template");
+template4.innerHTML = `
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<style>
+:host{
+user-select: none;
+}
+</style>
+<header class="hero is-small is-danger is-bold">
+<div class="hero-body">
+<div class="container">
+  <h1 class="title">???</h1>
+  <h2 class="subtitle">???</h2>
+</div>
+</div>
+</header>
+`;
+
+class AppHeader3 extends HTMLElement{
+  constructor(){
+    super();
+    this.attachShadow({mode: "open"});
+    this.shadowRoot.appendChild(template4.content.cloneNode(true));
+  }
+
+  connectedCallback(){
+    this.h1 = this.shadowRoot.querySelector(".title");
+    this.h2 = this.shadowRoot.querySelector(".subtitle");
+    this.render();
+  }
+
+  render(){
+    this.h1.textContent = this.dataset.title || "No title found";
+    this.h2.textContent = this.dataset.subtitle || "No subtitle found";
+  }
+}
+
+customElements.define("app-header3", AppHeader3);
+```
+
+**Usage:**
+
+```html
+<!-- Put this in HTML file-->
+<app-header3></app-header3>
+<app-header3 data-title="Greeter with attributes" data-subtitle="Are we done yet?"></app-header3>
+```
+
+## V. JS Property
+
+**app-result.js**
+
+```js
 
 ```
 
@@ -139,4 +193,3 @@ customElements.define("app-header2", AppHeader2);
 ```html
 
 ```
-
