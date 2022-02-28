@@ -164,8 +164,8 @@ class AppHeader3 extends HTMLElement{
   }
 
   render(){
-    this.h1.textContent = this.dataset.title || "No title found";
-    this.h2.textContent = this.dataset.subtitle || "No subtitle found";
+    this.h1.textContent = this.dataset.mytitle || "No title found";
+    this.h2.textContent = this.dataset.mysubtitle || "No subtitle found";
   }
 }
 
@@ -177,7 +177,7 @@ customElements.define("app-header3", AppHeader3);
 ```html
 <!-- Put this in HTML file-->
 <app-header3></app-header3>
-<app-header3 data-title="Greeter with attributes" data-subtitle="Are we done yet?"></app-header3>
+<app-header3 data-mytitle="Greeter with attributes" data-mysubtitle="Are we done yet?"></app-header3>
 ```
 
 ## V. JS Property
