@@ -180,7 +180,7 @@ customElements.define("app-header3", AppHeader3);
 <app-header3 data-mytitle="Greeter with attributes" data-mysubtitle="Are we done yet?"></app-header3>
 ```
 
-## V. JS Property
+## V. Component with JS Property
 
 **app-result.js**
 
