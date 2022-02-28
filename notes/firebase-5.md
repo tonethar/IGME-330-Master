@@ -9,7 +9,7 @@
 
 <hr>
 
-## II. But first, creating an "admin" folder
+## II. But first, how to create an "admin" folder
 
 - Suppose you wanted to create an "administrator" page - where a user (like you) that was logged in could edit and delete Firebase records
 - Creating login pages/user names/passwords usually involves server-side programming and the creation of session variables - which goes beyond the scope of this course
