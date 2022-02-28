@@ -10,7 +10,7 @@
 
 <hr>
 
-![screenshot](https://github.com/tonethar/IGME-330-Fall-2021/blob/main/_images/gab-dog-1.jpg)
+![screenshot](![screenshot](_images/_firebase/gab-dog-1.jpeg)
 
 <hr>
 
