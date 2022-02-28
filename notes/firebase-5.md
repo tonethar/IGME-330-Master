@@ -35,8 +35,8 @@ require user abc1234 xyz9876
 
 - Test this by by creating a **New Incognito Window** (Chrome) or **New Private Window** (Firefox) and then pointing this window at the **admin/** folder
 - Because you are not logged into RIT in this Private Window,  you should be prompted to login - **RIT Login -  Login to people.rit.edu**
-- Type in an incorrect username/password - you should see an error message and then be unable to view the **login/** folder
-- Type in the correct username/password - now you should be able to log in and view the **login/** folder
+- Type in an ***incorrect*** username/password - you should see an error message and then be unable to view the **login/** folder
+- Type in the ***correct*** username/password - now you should be able to log in and view the **login/** folder
 - Now close the Private Window and open a regular browser window. Most likely you are already logged into RIT, so you should be able to view the **login/** folder (which is currently empty, BTW, other than the "invisible" **.htaccess file**
 
 <hr><hr>
