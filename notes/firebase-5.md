@@ -13,7 +13,11 @@
 
 - Suppose you wanted to create an "administrator" page - where a user (like you) that was logged in could edit and delete Firebase records
 - Creaing login pages/user names/passwords usually involves server-side programming and the creation of session variables - which goes beyond the scope of this course
-- The simplest way to create a protected admin folder on banjo is to use `.htaccess` files and RIT's 
+- The simplest way to create a protected **admin/** folder on banjo is to use `.htaccess` files and RIT's single sign on authentication system - then you can specify exactly which banjo users have have access to your **admin/** folder
+  - RIT's banjo documentation for this is here: https://rit.edu/webdev/authenticating-and-authorizing-rit-users
+- Here is a walkthrough:
+
+1) 
 
 
 
