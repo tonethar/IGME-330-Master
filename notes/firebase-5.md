@@ -43,6 +43,9 @@ require user abc1234 xyz9876
 
 ## III. Creating an admin.html file
 
+
+![screenshot](../_images/_firebase/gabdog-admin.png)
+
 <hr><hr>
 
 **[Previous Chapter <- Firebase Part IV - Creating a `likes` counter for Dog names](firebase-4.md)**
