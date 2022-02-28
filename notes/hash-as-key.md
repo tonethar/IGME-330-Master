@@ -46,8 +46,91 @@
 
 ## III. What if your web service does not provide a unique and/or repeatable key? 
 
-- One solution is to create your own key with a *hashing* function
+- One solution is to create your own unique key with a *hashing* function
 - Hashing was briefly discussed in IGME-106 - see slide #17 of this [Dictionaries](https://github.com/tonethar/IGME-330-Master/blob/master/presentations/Dictionaries.pdf) presentation:
   - "Hashing is the process of converting a string into a key that represents the original string"
   - A very simple hashing algorithm would be to add the ASCI key codes of all of the letters of a string together
-  - Problem: 
+  - Problem: "I am Lord Voldemort" gives the SAME hash as "Tom Marvolo Riddle " (because they are anagrams)
+ - A good hashing algorithm needs to have the following characteristics:
+   - It must be *deterministic* - meaning that when given the a particular string, it will always return the same result
+   - It should minimize duplication of output values (called "collisions")
+   - It is desirable that the output of a hash function have fixed size - we'll limit ours to 32-bit `+/- 2,147,483,647`
+ - Although there are a lot of server-side JS implementations of common crytography (hashing) algorithms such as `sha1` or `md5`, there are not any that are implemented natively in the browser, so we'll need to write our own.
+
+<hr>
+
+## IV. Sample Code
+
+**hashing.html**
+
+```html
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hashing</title>
+  <script>
+  // BAD - because we are just adding together the character codes,
+  // the same letters, but in different order, give us the same key!
+  // also, our hash length is variable depending on the length of the string
+  const badHashCode = (str) => {
+    let hash = 0;
+    if (str.length == 0) {
+        return hash;
+    }
+    for (let i = 0; i < str.length; i++) {
+        let char = str.charCodeAt(i);
+        hash += char;
+    }
+    return hash;
+  }
+
+  // Better - the hashes are all the same length and
+  // and different letter order gives different results
+  // Why multiply times 31?
+  // https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier
+  const hashCode = (str) => {
+    let hash = 0;
+    if (str.length == 0) {
+        return hash;
+    }
+    for (let i = 0; i < str.length; i++) {
+        let char = str.charCodeAt(i);
+        hash = hash * 31 + char;
+    }
+    return hash;
+  }
+
+  // Here is the one-liner of the above code - it does the same thing
+  // and is a little bit faster due to the bitshifting instead of multiplication
+  const hashCode2 = (str) => {
+    return str.split("").reduce((prevHash, currVal) => (((prevHash << 5) - prevHash) + currVal.charCodeAt(0)) | 0, 0);
+  };
+
+
+  console.log(`badHashCode("tony") = '${badHashCode("tony")}'`);
+  console.log(`badHashCode("ynot") = '${badHashCode("ynot")}'`);
+  console.log(`badHashCode("I am Lord Voldemort") = '${badHashCode("I am Lord Voldemort")}'`);
+  console.log(`badHashCode("Tom Marvolo Riddle ") = '${badHashCode("Tom Marvolo Riddle ")}'`);
+  console.log(`hashCode("") = '${hashCode("")}'`);
+  console.log(`hashCode2("") = '${hashCode2("")}'`);
+  console.log(`hashCode("TJ") = '${hashCode("TJ")}'`);
+  console.log(`hashCode2("JT") = '${hashCode2("JT")}'`);
+  console.log(`hashCode("tony") = '${hashCode("tony")}'`);
+  console.log(`hashCode2("tony") = '${hashCode2("tony")}'`);
+  console.log(`hashCode("ynot") = '${hashCode("ynot")}'`);
+  console.log(`hashCode2("ynot") = '${hashCode2("ynot")}'`);
+  console.log(`hashCode("andy") = '${hashCode("andy")}'`);
+  console.log(`hashCode2("andy") = '${hashCode2("andy")}'`);
+  console.log(`hashCode2("https://www.rit.edu/experiential-learning") = '${hashCode2("https://www.rit.edu/experiential-learning")}'`);
+  console.log(`hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/") = '${hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/")}'`);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
+```
+
+
