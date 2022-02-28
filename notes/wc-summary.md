@@ -185,11 +185,64 @@ customElements.define("app-header3", AppHeader3);
 **app-result.js**
 
 ```js
+const template = document.createElement("template");
+  template.innerHTML = `
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <style>
+  .card{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  </style>
+  <div class="card has-background-info-light">
+    <div class="card-header">
+      <div class="card-header-title is-size-5">
+        <span id="title">???</span>
+      </div>
+    </div>
+    <div class="card-content is-size-6">
+      <span id="age">???</span>
+    </div>
+    <div class="card-content">
+      <p><i>A dragon is a snake-like legendary creature that appears in the folklore of many cultures worldwide. The earliest attested reports of draconic creatures resemble giant snakes. Draconic creatures are first described in the mythologies of the ancient Near East and appear in ancient Mesopotamian art and literature.</i></p>
+    </div>
+  </div>
+  `;
 
+  class AppResult extends HTMLElement{
+    constructor(){
+      super();
+      this.attachShadow({mode: "open"});
+      this.shadowRoot.appendChild(template.content.cloneNode(true));
+      this.dragon = {"type": "Ethereal", "age": 40};
+    }
+
+    connectedCallback(){
+      this.titleElement = this.shadowRoot.querySelector("#title");
+      this.ageElement = this.shadowRoot.querySelector("#age");
+      this.render();
+    }
+
+    render(){
+      this.titleElement.textContent = `${this.dragon.type} Dragon`;
+      this.ageElement.textContent = `${this.dragon.age} years old`;
+    }
+  }
+
+  customElements.define("app-result", AppResult);
+
+  window.onload = () => {
+    const newCard = document.createElement("app-result");
+    newCard.dragon = {"type": "Smoke", "age": 80};
+    document.body.appendChild(newCard);
+  };
 ```
 
 **Usage:**
 
 ```html
-
+<app-result></app-result>
 ```
