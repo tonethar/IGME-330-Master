@@ -33,7 +33,7 @@ require user abc1234 xyz9876
 
 3) Now banjo should only let authorized users who are logged in to access to the **admin** folder
 
-  - Test this by by creating a **New Incognito Window** (Chrome) or **New Private Window** (Firefox) and then pointing this window at the **admin/** folder
+  - Test this by creating a **New Incognito Window** (Chrome) or **New Private Window** (Firefox) and then pointing this window at the **admin/** folder
   - Because you are not logged into RIT in this Private Window,  you should be prompted to login - **RIT Login -  Login to people.rit.edu**
   - Type in an ***incorrect*** username/password - you should see an error message and then be unable to view the **login/** folder
   - Type in the ***correct*** username/password - now you should be able to log in and view the **login/** folder
