@@ -217,10 +217,10 @@ const template = document.createElement("template");
       super();
       this.attachShadow({mode: "open"});
       this.shadowRoot.appendChild(template.content.cloneNode(true));
-      this.dragon = {"type": "Ethereal", "age": 40};
     }
 
     connectedCallback(){
+      this.dragon = {"type": "Ethereal", "age": 40};
       this.titleElement = this.shadowRoot.querySelector("#title");
       this.ageElement = this.shadowRoot.querySelector("#age");
       this.render();
