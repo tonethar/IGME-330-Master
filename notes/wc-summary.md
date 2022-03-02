@@ -220,7 +220,7 @@ const template = document.createElement("template");
     }
 
     connectedCallback(){
-      this.dragon = {"type": "Ethereal", "age": 40};
+      this.dragon = this.dragon || {"type": "Ethereal", "age": 40};
       this.titleElement = this.shadowRoot.querySelector("#title");
       this.ageElement = this.shadowRoot.querySelector("#age");
       this.render();
