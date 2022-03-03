@@ -4,6 +4,7 @@
 
 - Below, let's look at a few different "styles" of web components that we could write
 
+<hr><hr>
 
 ## I. "Hello World"
 - The component below takes no parameters of any kind, it simply renders out the same HTML every time it is used on a page
@@ -35,7 +36,7 @@ customElements.define("hello-world", HelloWorld);
 <hello-world></hello-world>
 ```
 
-<hr>
+<hr><hr>
 
 ## II. A single unnamed *slot*
 
@@ -77,7 +78,7 @@ customElements.define("app-header", AppHeader);
 <app-header>Greeter with Slots</app-header>
 ```
 
-<hr>
+<hr><hr>
 
 ## III. Two named *slots*
 
@@ -124,7 +125,7 @@ customElements.define("app-header2", AppHeader2);
 </app-header2>
 ```
 
-<hr>
+<hr><hr>
 
 ## IV. HTML Custom Attributes
 
@@ -179,6 +180,8 @@ customElements.define("app-header3", AppHeader3);
 <app-header3></app-header3>
 <app-header3 data-mytitle="Greeter with attributes" data-mysubtitle="Are we done yet?"></app-header3>
 ```
+
+<hr><hr>
 
 ## V. Component with JS Property
 
@@ -237,7 +240,7 @@ const template = document.createElement("template");
 
 **main.js**
 
-```html
+```js
  window.onload = () => {
     const newCard = document.createElement("app-result");
     newCard.dragon = {"type": "Smoke", "age": 80};
@@ -251,6 +254,7 @@ const template = document.createElement("template");
 <app-result></app-result>
 ```
 
+<hr><hr>
 
 ## VI. Component with JS Property and button and `.callback`
 
