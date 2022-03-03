@@ -233,8 +233,12 @@ const template = document.createElement("template");
   }
 
   customElements.define("app-result", AppResult);
+```
 
-  window.onload = () => {
+**main.js**
+
+```html
+ window.onload = () => {
     const newCard = document.createElement("app-result");
     newCard.dragon = {"type": "Smoke", "age": 80};
     document.body.appendChild(newCard);
@@ -245,4 +249,93 @@ const template = document.createElement("template");
 
 ```html
 <app-result></app-result>
+```
+
+
+## VI. Component with JS Property and button and `.callback`
+
+**app-result2.js**
+
+```js
+const template6 = document.createElement("template");
+  template6.innerHTML = `
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <style>
+  .card{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  </style>
+  <div class="card has-background-info-light">
+    <div class="card-header">
+      <div class="card-header-title is-size-5">
+        <span class="has-text-info" id="title">???</span>
+      </div>
+      <button id="btn-greet" class="button is-small is-info mt-1 mr-1">Do Stuff</button>
+    </div>
+    <div class="card-content is-size-6">
+      <span class="has-text-danger" id="age">???</span>
+    </div>
+    <div class="card-content has-text-info">
+      <p><i>Blue and small, standing only three apples high, the Smurfs might be hard to tell apart at first. However, each Smurf is a distinct individual with his or her own personality, their names say it all!</i></p>
+    </div>
+  </div>
+  `;
+
+  class AppResult2 extends HTMLElement{
+    constructor(){
+      super();
+      this.attachShadow({mode: "open"});
+      this.shadowRoot.appendChild(template6.content.cloneNode(true));
+    }
+
+    connectedCallback(){
+    	this.titleElement = this.shadowRoot.querySelector("#title");
+      this.ageElement = this.shadowRoot.querySelector("#age");
+      this.btnGreet = this.shadowRoot.querySelector("#btn-greet");
+    	this.smurf = this.smurf || {"name": "Handy Smurf", "age": 10};
+    	const defaultCallback = smurf => console.log("In defaultCallback - smurf=",smurf);
+    	this.callback = this.callback || defaultCallback;
+    	this.btnGreet.onclick = () => this.callback(this.smurf);
+      this.render();
+    }
+    
+    disconnectedCallback(){
+    	this.btnGreet.onclick = null;
+    }
+
+    render(){
+      this.titleElement.textContent = `${this.smurf.name}`;
+      this.ageElement.textContent = `Age: ${this.smurf.age} years`;
+    }
+  }
+
+  customElements.define("app-result2", AppResult2);
+```
+
+**main.js**
+
+```js
+ window.addEventListener("load", () => {
+  	const updateAllH2s = smurf => {
+  		console.log("In updateAllH2s - smurf=",smurf);
+  		document.querySelectorAll("h2").forEach(h2 => {
+  			h2.innerHTML = `Hello from ${smurf.name}`;
+  		});
+  	};
+  	
+    const newCard = document.createElement("app-result2");
+    newCard.smurf = {"name": "Papa Smurf", "age": 800};
+    newCard.callback = updateAllH2s;
+    document.querySelector("app-result2").after(newCard);
+  });
+```
+
+**Usage:**
+
+```html
+<app-result2></app-result2>
 ```
