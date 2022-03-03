@@ -260,7 +260,7 @@ const template = document.createElement("template");
 
 **app-result2.js**
 
-```js
+```st
 const template6 = document.createElement("template");
   template6.innerHTML = `
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
