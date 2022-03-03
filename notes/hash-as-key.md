@@ -136,7 +136,7 @@
 
 ## V. Tips & Resources
 
-- If you end up using a hashing algorithm to generate a unique key for a resource, you may want to add a prefix - maybe your project's "initials" to the hash. That way the key is not numeric, because if you are storing these keys in localStorage, numeric object keys can look like array indexes, which could cause problems with `JSON.parse()` or `JSON.stringify()`
+- If you end up using a hashing algorithm to generate a unique key for a resource, you may want to add a prefix - maybe your project's "initials" to the beginning of the hash. That way the key is not numeric, because if you are storing these keys in localStorage, numeric object keys can look like array indexes, which could cause problems with `JSON.parse()` or `JSON.stringify()`
 - If you are looking for a very low chance of collisions, here are some links to some JavaScript implementations of `sha1`, `sha256`, and `md5` - on this page - https://stackoverflow.com/questions/6122571/simple-non-secure-hash-function-for-javascript
 - More:
   - https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript
