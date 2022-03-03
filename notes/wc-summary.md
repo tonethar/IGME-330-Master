@@ -323,13 +323,13 @@ const template6 = document.createElement("template");
 **main.js**
 
 ```js
- window.addEventListener("load", () => {
-   const updateAllH2s = smurf => {
-   console.log("In updateAllH2s - smurf=",smurf);
-   document.querySelectorAll("h2").forEach(h2 => {
-     h2.innerHTML = `Hello from ${smurf.name}`;
-   });
- };
+window.addEventListener("load", () => {
+  const updateAllH2s = smurf => {
+    console.log("In updateAllH2s - smurf=",smurf);
+    document.querySelectorAll("h2").forEach(h2 => {
+      h2.innerHTML = `Hello from ${smurf.name}`;
+    });
+  };
   	
   const newCard = document.createElement("app-result2");
   newCard.smurf = {"name": "Papa Smurf", "age": 800};
