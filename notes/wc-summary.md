@@ -324,18 +324,18 @@ const template6 = document.createElement("template");
 
 ```js
  window.addEventListener("load", () => {
-  	const updateAllH2s = smurf => {
-  		console.log("In updateAllH2s - smurf=",smurf);
-  		document.querySelectorAll("h2").forEach(h2 => {
-  			h2.innerHTML = `Hello from ${smurf.name}`;
-  		});
-  	};
+   const updateAllH2s = smurf => {
+   console.log("In updateAllH2s - smurf=",smurf);
+   document.querySelectorAll("h2").forEach(h2 => {
+     h2.innerHTML = `Hello from ${smurf.name}`;
+   });
+ };
   	
-    const newCard = document.createElement("app-result2");
-    newCard.smurf = {"name": "Papa Smurf", "age": 800};
-    newCard.callback = updateAllH2s;
-    document.querySelector("app-result2").after(newCard);
-  });
+  const newCard = document.createElement("app-result2");
+  newCard.smurf = {"name": "Papa Smurf", "age": 800};
+  newCard.callback = updateAllH2s;
+  document.querySelector("app-result2").after(newCard);
+});
 ```
 
 **Usage:**
