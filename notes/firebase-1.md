@@ -165,7 +165,7 @@
 - Add the following code, right after the `initializeApp` ES6 `import`
 
 ```js
-import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
+import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/firebasejs/9.6.8/firebase-database.js";
 ```
 
 
@@ -173,7 +173,7 @@ import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/f
 - This line of code imports 5 functions from Firebase Realtime Database library so that we can use them
 - We will only be using the first 3 symbols for this part: `getDatabase`, `ref` and `set`
 - **IMPORTANT: If you later get a "Firebase App not created error ...**
-  - **then be sure to change the version number above to the (probably higher) version number that was given to you for the first Firebase import in 2F above**
+  - **then be sure to change the version number above to the (probably higher) firebase version number that was given to you for the `import { initializeApp }`  Firebase import - in 2F above**
 
 <hr>
 
