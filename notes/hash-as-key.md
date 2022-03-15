@@ -90,7 +90,7 @@
   // and different letter order gives different results
   // Why multiply times 31?
   // https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier
-  const hashCode = (str) => {
+  const betterHashCode = (str) => {
     let hash = 0;
     if (str.length == 0) {
         return hash;
@@ -105,7 +105,7 @@
   // Here is the one-liner of the above code - it does the same thing
   // and is a little bit faster due to the bitshifting instead of multiplication
   // https://stackoverflow.com/questions/51960331/why-5-bit-left-shift-in-hashing-function
-  const hashCode2 = (str) => {
+  const hashCode = (str) => {
     return str.split("").reduce((prevHash, currVal) => (((prevHash << 5) - prevHash) + currVal.charCodeAt(0)) | 0, 0);
   };
 
@@ -114,18 +114,18 @@
   console.log(`badHashCode("ynot") = '${badHashCode("ynot")}'`);
   console.log(`badHashCode("I am Lord Voldemort") = '${badHashCode("I am Lord Voldemort")}'`);
   console.log(`badHashCode("Tom Marvolo Riddle ") = '${badHashCode("Tom Marvolo Riddle ")}'`);
+  console.log(`betterHashCode("") = '${betterHashCode("")}'`);
   console.log(`hashCode("") = '${hashCode("")}'`);
-  console.log(`hashCode2("") = '${hashCode2("")}'`);
-  console.log(`hashCode("TJ") = '${hashCode("TJ")}'`);
-  console.log(`hashCode2("JT") = '${hashCode2("JT")}'`);
+  console.log(`betterHashCode("TJ") = '${betterHashCode("TJ")}'`);
+  console.log(`hashCode("JT") = '${hashCode("JT")}'`);
+  console.log(`betterHashCode("tony") = '${betterHashCode("tony")}'`);
   console.log(`hashCode("tony") = '${hashCode("tony")}'`);
-  console.log(`hashCode2("tony") = '${hashCode2("tony")}'`);
+  console.log(`betterHashCode("ynot") = '${betterHashCode("ynot")}'`);
   console.log(`hashCode("ynot") = '${hashCode("ynot")}'`);
-  console.log(`hashCode2("ynot") = '${hashCode2("ynot")}'`);
+  console.log(`betterHashCode("andy") = '${betterHashCode("andy")}'`);
   console.log(`hashCode("andy") = '${hashCode("andy")}'`);
-  console.log(`hashCode2("andy") = '${hashCode2("andy")}'`);
-  console.log(`hashCode2("https://www.rit.edu/experiential-learning") = '${hashCode2("https://www.rit.edu/experiential-learning")}'`);
-  console.log(`hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/") = '${hashCode2("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/")}'`);
+  console.log(`hashCode("https://www.rit.edu/experiential-learning") = '${hashCode("https://www.rit.edu/experiential-learning")}'`);
+  console.log(`hashCode("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/") = '${hashCode("https://www.amazon.com/Cookin-Coolio-Star-Meals-Price/dp/1439117616/")}'`);
   </script>
 </head>
 <body></body>
