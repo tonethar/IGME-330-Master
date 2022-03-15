@@ -29,7 +29,7 @@
 - [`ctx.arc()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc)
 
 
-- Or, we can always look in the Canvas2D spec: https://www.w3.org/TR/2dcontext/#conformance-requirements
+- Or, we can always look in the Canvas2D spec: https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element
 
 <hr>
 
