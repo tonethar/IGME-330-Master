@@ -1,4 +1,4 @@
-# Canvas 2D Essential Skills #1 - Intro to the Drawing Context
+# Canvas 2D Essential Skills \#1 - Intro to the Drawing Context
 
 ## 0. Video & HW
 
@@ -74,7 +74,7 @@
 - You will need HTML, JavaScript, and usually a little bit of CSS
 - Steps to go through before you can draw:
 
-#1 - Put a `<canvas>` element on an HTML page
+\#1 - Put a `<canvas>` element on an HTML page
 
 #2 - Did the HTML page load?
 
