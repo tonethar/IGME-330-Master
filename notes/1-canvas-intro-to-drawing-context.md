@@ -161,25 +161,25 @@
   - you do NOT need to put **cs-canvas-1.html** up on banjo
 - Put the answers to the following questions into the comments field of the dropbox (-1 point for each incorrect answer):
   
-#1 - True or False. The canvas API was invented by Apple Computer
+1 - True or False. The canvas API was invented by Apple Computer
  
-#2 - True or False. The canvas API is hardware accelerated on most modern browsers
+2 - True or False. The canvas API is hardware accelerated on most modern browsers
  
-#3 - True or False. Canvas is a *vector-based* graphics system
+3 - True or False. Canvas is a *vector-based* graphics system
  
-#4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
+4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
 
-#5 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
+5 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
  
-#6 - List the 3 drawing state *properties* we used in this demo
+6 - List the 3 drawing state *properties* we used in this demo
  
-#7 - List the 2 drawing state *methods* we used in this demo
+7 - List the 2 drawing state *methods* we used in this demo
  
-#8 - Give 4 different ways to represent the color *green* as a color in the canvas API
+8 - Give 4 different ways to represent the color *green* as a color in the canvas API
  
-#9 - Write the one line of code that will change the current fill color to *green*
+9 - Write the one line of code that will change the current fill color to *green*
 
-#10 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
+10 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
 
 
 <hr><hr>
