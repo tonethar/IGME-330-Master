@@ -147,6 +147,7 @@ async function setupVideo(){
 
 
 <hr><hr>
+
 **[Previous Chapter <- 1 - Machine Learning with ml5 - Image Classification](1-ml-pre-trained-models.md)**
 
 **[Next Chapter -> 3 - Machine Learning with ml5 - PoseNet](3-ml-posenet.md)**
