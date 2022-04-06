@@ -36,7 +36,7 @@
 
 4) Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
 
-5) Here is your HTML:
+5) Here is your HTML (put it before the `<script>` tag):
 
 ```html
 <h1>Image classification using MobileNet</h1>
@@ -46,7 +46,7 @@
 
 6) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine
 
-7) Follow along with the class example
+7) Follow along with this example - here's the code that will get you started - add this to **imagenet-1.html**:
 
 ```js
 const image = document.querySelector('#image');
@@ -62,6 +62,8 @@ function modelLoaded(){
 }
 ```
 
+- In class, we'll add some code that makes a prediction and then displays the results
+
 8) Once it's working - try it out with some additional images. You should see that it works very well at identifying certain real-world objects and animals, but it's not so good with other things like people, drawings, art etc ..
 
 <hr>
@@ -70,7 +72,7 @@ function modelLoaded(){
 
 - What would be a nice improvement to this app is to add drag and drop capability, so that a user drag and drop images from the desktop and get a new prediction
  - below is most of the code you'll need
- - make a copy of **imagenet-1.html** and name it  **imagenet-2.html**, and add the follwoing to the bottom
+ - make a copy of **imagenet-1.html** and name it  **imagenet-2.html**, and add the following to the bottom
  - you'll need to create a `predict()` function
  - PS - be sure that your code only creates the `mobilenet` image classifier ***ONCE!***
 
