@@ -49,15 +49,14 @@
 7) Follow along with this example - here's the code that will get you started - add this to **imagenet-1.html**:
 
 ```js
-const image = document.querySelector('#image');
-const result = document.querySelector('#result');
-const probability = document.querySelector('#probability');
+const image = document.querySelector("#image");
+const result = document.querySelector("#result");
+const probability = document.querySelector("#probability");
 
-// callback version first
-let mobilenet = ml5.imageClassifier('MobileNet',modelLoaded);
+let mobilenet = ml5.imageClassifier("MobileNet",modelLoaded);
 
 function modelLoaded(){
-	console.log("Model Loaded ... predicting");
+  console.log("Model Loaded ... predicting");
   // ...
 }
 ```
