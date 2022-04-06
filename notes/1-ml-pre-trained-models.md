@@ -110,10 +110,10 @@ function readImage(file){
 
 ```html
 <style>
-.hover{
-  border:1px solid coral;
-  opacity: .7;
-}
+  .hover{
+    border:1px solid coral;
+    opacity: .7;
+  }
 </style>
 ```
 
