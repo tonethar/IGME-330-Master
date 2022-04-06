@@ -144,3 +144,9 @@ async function setupVideo(){
 - ml5:
   - https://learn.ml5js.org/#/reference/object-detector
   - JS code examples: https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector
+
+
+<hr><hr>
+**[Previous Chapter <- 1 - Machine Learning with ml5 - Image Classification](1-ml-pre-trained-models.md)**
+
+**[Next Chapter -> 3 - Machine Learning with ml5 - PoseNet](3-ml-posenet.md)**
