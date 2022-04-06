@@ -126,3 +126,7 @@ function readImage(file){
 - Humans of AI (Editorial Essay) by Philipp Schmitt: https://humans-of.ai/editorial/
 - Excavating AI by Kate Crawford and Trevor Paglen: https://www.excavating.ai/
 - Many thanks to [Coding Train YouTube Playlist - A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y) - an intro to ml5 using p5
+
+<hr><hr>
+
+**[2 - Machine Learning with ml5 - Object Detection](2-ml-object-detection.md)**
