@@ -129,4 +129,4 @@ function readImage(file){
 
 <hr><hr>
 
-**[2 - Machine Learning with ml5 - Object Detection](2-ml-object-detection.md)**
+**[Next Chapter -> 2 - Machine Learning with ml5 - Object Detection](2-ml-object-detection.md)**
