@@ -160,6 +160,7 @@ async function setupVideo(){
   - https://learn.ml5js.org/#/reference/object-detector
   - JS code examples: https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector
 
+<hr>
 
 ## IV. One more thing...
 
