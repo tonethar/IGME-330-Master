@@ -55,9 +55,9 @@ skeleton: Array(1)
 
 ## III. Code
 
-- The PoseNet docs and quic start code are here"
+- The PoseNet docs and quick start code are here:
   - https://learn.ml5js.org/#/reference/posenet?id=quickstart
-- There is some sample code for drawing the skeleton and keypoints utilizing canvas - we adapt it below - it came from here:
+- There is some sample code for drawing the skeleton `drawSkeleton()`,  and keypoints `drawKeypoints()`, both utilizing canvas - we adapt it below - it came from here:
   - https://github.com/ml5js/ml5-library/blob/main/examples/javascript/PoseNet/PoseNet_webcam/sketch.js
 - Here is the demo code, we'll walk throught how it works in class:
 
