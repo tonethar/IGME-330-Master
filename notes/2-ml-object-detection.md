@@ -110,13 +110,28 @@ function detect() {
     }else{
 			status.innerHTML = "... detecting ...";
 		}
-    
+    // keep detecting!
     detect();
   });
 }
 
 function draw(){
-	// to do
+  ctx.save();
+  ctx.fillStyle = "black";
+  ctx.fillRect(0,0, width, height);
+
+  ctx.drawImage(video, 0, 0);
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "red";
+  for (let i = 0; i < objects.length; i += 1) {
+    ctx.fillText(objects[i].label, objects[i].x + 4, objects[i].y + 16); 
+    ctx.beginPath();
+    ctx.rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
+    ctx.strokeStyle = "green";
+    ctx.stroke();
+    ctx.closePath();
+  }
+  ctx.restore();
 }
 
 // Helper Functions
