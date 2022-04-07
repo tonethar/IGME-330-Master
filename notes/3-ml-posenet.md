@@ -11,7 +11,7 @@
 - The pose data we get back from the API looks like this - an `x`, a `y`, and a `confidence` value for multiple locations of a body
 - Below we can see that these lcoations are named:
 
-```json
+```
 pose:
   keypoints: (17) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
   leftAnkle: {x: 599.1597746318416, y: 494.98787727801255, confidence: 0.0012563241180032492}
@@ -36,7 +36,7 @@ pose:
 
 - There is also a `skeleton` array that will have values for body locations at the shoulder level or lower
 
-```json
+```
 pose: {score: 0.39227001670309725, keypoints: Array(17), nose: {…}, leftEye: {…}, rightEye: {…}, …}
 skeleton: Array(1)
   0: Array(2)
