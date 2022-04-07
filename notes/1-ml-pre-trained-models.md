@@ -36,7 +36,7 @@
 
 4) Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
 
-5) Here is your HTML (put it before the `<script>` tag):
+5) Here is your HTML (put it in the `<body>`, right before the `<script>` tag):
 
 ```html
 <h1>Image classification using MobileNet</h1>
