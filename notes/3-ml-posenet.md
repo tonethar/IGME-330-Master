@@ -64,7 +64,261 @@ skeleton: Array(1)
 **posenet-1.html**
 
 ```html
-XXX
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML5 Posenet Test</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/ml5@0.10.6/dist/ml5.min.js"></script> -->
+		<style>
+    	* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family:sans-serif;
+				margin:0; padding:0;
+			}
+
+			div {
+				padding:10px;
+			}
+
+			#image img {
+				width:100%;
+			}
+			
+			video{
+				display: none;
+			}
+			
+			canvas{
+				transform: scaleX(-1);
+			}
+    </style>
+  </head>
+  <body>
+    <canvas width="640" height="360"></canvas> 
+    <video width="640" height="360" autoplay></video>
+    <div id="msg">Loading...</div>
+
+		<script>
+		let canvas, div, ctx, video, poseNet;
+		let poses = [];
+
+
+		// I. CALLBACKS
+		// When the model is loaded
+		const modelLoaded = () => {
+			console.log("Model Loaded!");
+			div.innerHTML = "PoseNet model loaded!";
+		};
+
+
+		// II. SETUP
+		const setupUI = () => {
+			div = document.querySelector("#msg");
+			canvas = document.querySelector("canvas");
+			ctx = canvas.getContext("2d");
+		};
+
+		const setupVideo = () => {
+			// Create a webcam capture
+			video = document.querySelector("video");
+			if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+				navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+					video.srcObject = stream;
+					video.play();
+				
+					/* double check your webcam width / height */
+					const stream_settings = stream.getVideoTracks()[0].getSettings();
+					console.log('Width: ' + stream_settings.width);
+					console.log('Height: ' + stream_settings.height);
+				});
+			}
+		};
+
+		const setupPosenet = () => {
+			// Create a new poseNet instance
+			poseNet = ml5.poseNet(video, modelLoaded);
+			// Listen to new 'pose' events
+			poseNet.on('pose', results => {
+				poses = results;
+			});
+		};
+
+		// III. UTILS
+		// Note that we are drawing eveything from the "center"
+		// which is a good idea becaue the canvas is flipped on its x-axis
+		// meaning that (0,0) is in the upper-right corner
+		const fillRect = (ctx,x,y,width,height,fillStyle="white") => {
+			ctx.save();
+			ctx.translate(x,y);
+			ctx.fillStyle=fillStyle;
+			ctx.fillRect(-width/2,-height/2,width,height)
+			ctx.restore();
+		};
+
+		const strokeRect = (ctx,x,y,width,height,strokeStyle="white",lineWidth=5) =>{
+			ctx.save();
+			ctx.translate(x,y);
+			ctx.strokeStyle=strokeStyle;
+			ctx.lineWidth=lineWidth;
+			ctx.strokeRect(-width/2,-height/2,width,height);
+			ctx.restore();
+		}
+
+		const fillCircle = (ctx,x,y,radius,fillStyle="white",startAngle=0,endAngle=Math.PI*2,counterClockwise=false) =>{
+			ctx.save();
+			ctx.translate(x,y);
+			ctx.fillStyle=fillStyle;
+			ctx.beginPath();
+			ctx.arc(0,0,radius,startAngle,endAngle,counterClockwise);
+			ctx.closePath();
+			ctx.fill();
+			ctx.restore();
+		}
+
+		const strokeCircle = (ctx,x,y,radius,strokeStyle="white",lineWidth=5,startAngle=0,endAngle=Math.PI*2,counterClockwise=false) =>{
+			ctx.save();
+			ctx.translate(x,y);
+			ctx.strokeStyle=strokeStyle;
+			ctx.lineWidth=lineWidth;
+			ctx.beginPath();
+			ctx.arc(0,0,radius,startAngle,endAngle,counterClockwise);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.restore();
+		}
+
+		// IV. MAIN
+
+		const drawKeypoints = () => {
+			// Loop through all the poses detected
+			for (let i = 0; i < poses.length; i += 1) {
+				// For each pose detected, loop through all the keypoints
+				for (let j = 0; j < poses[i].pose.keypoints.length; j += 1) {
+					let keypoint = poses[i].pose.keypoints[j];
+					// Only draw an ellipse is the pose probability is bigger than 0.2
+					if (keypoint.score > 0.2) {
+						strokeCircle(ctx,keypoint.position.x, keypoint.position.y, 10, "red");
+					}
+				}
+			}
+			ctx.restore();
+		};
+
+		// A function to draw the skeletons
+		const drawSkeleton = () => {
+			ctx.save();
+			ctx.strokeStyle = "red";
+			ctx.lineWidth = 3;
+			// Loop through all the skeletons detected
+			for (let i = 0; i < poses.length; i += 1) {
+				// For every skeleton, loop through all body connections
+				for (let j = 0; j < poses[i].skeleton.length; j += 1) {
+					let partA = poses[i].skeleton[j][0];
+					let partB = poses[i].skeleton[j][1];
+					ctx.beginPath();
+					ctx.moveTo(partA.position.x, partA.position.y);
+					ctx.lineTo(partB.position.x, partB.position.y);
+					ctx.stroke();
+				}
+			}
+			ctx.restore();
+		};
+
+		const drawStuff = () => {
+			for (let item of poses){
+				const leftEye = item.pose.leftEye;
+				const rightEye = item.pose.rightEye;
+				
+				// draw a green translucent rectangle over where the eyes are
+				if(leftEye && rightEye){
+					ctx.save();
+					ctx.beginPath();
+					ctx.moveTo(leftEye.x+30,leftEye.y -15);
+					ctx.lineTo(rightEye.x-30,rightEye.y-15);
+					ctx.lineTo(rightEye.x-30,rightEye.y+15);
+					ctx.lineTo(leftEye.x+30,leftEye.y+15);
+					ctx.closePath();
+					ctx.fillStyle = "green";
+					ctx.globalAlpha = .4;
+					ctx.fill();
+					ctx.stroke();
+					ctx.restore();
+				}
+
+				// now draw creepy eyes!
+				if(leftEye){
+					strokeRect(ctx,leftEye.x,leftEye.y,30,30,"yellow",3);
+					fillCircle(ctx,leftEye.x,leftEye.y,10,"white");
+					fillCircle(ctx,leftEye.x,leftEye.y,4,"black");
+				}
+
+				if(rightEye){
+					strokeRect(ctx,rightEye.x,rightEye.y,30,30,"yellow",3);
+					fillCircle(ctx,rightEye.x,rightEye.y,10,"white");
+					fillCircle(ctx,rightEye.x,rightEye.y,4,"black");
+				}
+
+				// draw with your hands!
+				// Head to `loop()` and uncomment/comment some code to try it
+				const leftWrist = item.pose.leftWrist;
+				const rightWrist = item.pose.rightWrist;
+				if(leftWrist && leftWrist.confidence > 0.2){
+					fillCircle(ctx,leftWrist.x,leftWrist.y,50,"rgba(128,0,128,.5)");
+					strokeCircle(ctx,leftWrist.x,leftWrist.y,50,2);
+				}
+				if(rightWrist && rightWrist.confidence > 0.2){
+					fillCircle(ctx,rightWrist.x,rightWrist.y,50,"rgba(0,255,0,.5)");
+					strokeCircle(ctx,rightWrist.x,rightWrist.y,50,2);
+				}
+			}
+		};
+
+		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+		const updateUI = () => {
+			for (let item of poses){
+				div.innerHTML = `
+					<p><b>Left Eye</b>: (${(item.pose.leftEye?.x).toFixed(2)},${(item.pose.leftEye?.y).toFixed(2)}) - confidence = ${(item.pose.leftEye?.confidence)?.toFixed(2)}</p>
+					<p><b>Right Eye</b>: (${(item.pose.rightEye?.x).toFixed(2)},${(item.pose.rightEye?.y).toFixed(2)}) - confidence = ${(item.pose.rightEye?.confidence)?.toFixed(2)}</p>
+					<p><b>Nose</b>: (${(item.pose.nose?.x).toFixed(2)},${(item.pose.nose?.y).toFixed(2)}) - confidence = ${(item.pose.nose?.confidence)?.toFixed(2)}</p>
+					<p><b>Left Ear</b>: (${(item.pose.leftEar?.x).toFixed(2)},${(item.pose.leftEar?.y).toFixed(2)}) - confidence = ${(item.pose.leftEar?.confidence)?.toFixed(2)}</p>
+					<p><b>Right Ear</b>: (${(item.pose.rightEar?.x).toFixed(2)},${(item.pose.rightEar?.y).toFixed(2)}) - confidence = ${(item.pose.rightEar?.confidence)?.toFixed(2)}</p>
+					`;
+			}
+		};
+
+		const loop = () => {
+			requestAnimationFrame(loop);
+			//console.log(poses);
+			ctx.drawImage(video, 0, 0, 640, 360);
+			// ctx.save();
+			// ctx.fillStyle = "rgb(0,0,0,.01)";
+			// ctx.fillRect(0,0,640,360);
+			// ctx.restore();
+			drawKeypoints();
+			drawSkeleton();
+			drawStuff();
+			updateUI();
+		};
+
+		const init = () => {
+			setupUI();
+			setupVideo();
+			setupPosenet();
+			loop();
+		};
+
+		init();
+		</script>
+    
+  </body>
+</html>
 ```
 
 
