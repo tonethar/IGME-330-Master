@@ -161,6 +161,13 @@ async function setupVideo(){
   - JS code examples: https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector
 
 
+## IV. One more thing...
+
+- In the example above we are stuck with a pre-trained dataset
+- Can we train our own datasets?
+- You betcha! An the fastest way to do that is to utilize Teachable Machine - let's try it out right now:
+  - https://teachablemachine.withgoogle.com/
+
 <hr><hr>
 
 **[Previous Chapter <- 1 - Machine Learning with ml5 - Image Classification](1-ml-pre-trained-models.md)**
