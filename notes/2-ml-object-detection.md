@@ -19,7 +19,7 @@
 - ml5 `ObjectDetector` documentation & code example:
   - https://learn.ml5js.org/#/reference/object-detector
   - https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
-- Here is the start code:
+- Here is the completed code:
 
 **object-detect-webcam-1.html**
 
@@ -76,23 +76,23 @@ const height = 360;
 window.onload = init;
 
 async function init() {
-	// init status & canvas & ctx
-	status = document.querySelector("#status");
-	status.innerHTML = "... loading model ...";
+  // init status & canvas & ctx
+  status = document.querySelector("#status");
+  status.innerHTML = "... loading model ...";
   canvas = document.querySelector("canvas");
-	canvas.width = width;
-	canvas.height = height;
+  canvas.width = width;
+  canvas.height = height;
   ctx = canvas.getContext('2d');
 
   // get the video
   video = await setupVideo();
 
-	// load ml5 objectDetector model
+  // load ml5 objectDetector model
   objectDetector = await ml5.objectDetector('cocossd', startDetecting)
 }
 
 function startDetecting(){
-	status.textContent = "Model ready";
+  status.textContent = "Model ready";
   detect();
 }
 
