@@ -166,7 +166,7 @@ async function setupVideo(){
 
 - In the example above we are stuck with a pre-trained dataset
 - Can we train our own datasets?
-- You betcha! An the fastest way to do that is to utilize Teachable Machine - let's try it out right now:
+- You betcha! An the fastest way to do that is to utilize an online tool named *Teachable Machine* - let's try it out right now:
   - https://teachablemachine.withgoogle.com/
 
 <hr><hr>
