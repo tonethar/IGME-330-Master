@@ -44,7 +44,7 @@
 <img id="image" src="ml-5-images/bird.jpg" width="400" />
 ```
 
-6) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine
+6) Look at - https://learn.ml5js.org/#/reference/image-classifier?id=usage  - to see how we create a new `imageClassifier()` and connect it either a pre-existing model or one from Teachable Machine - usually we give the constructor a *model* and a callback function as parameters
 
 7) Follow along with this example - here's the code that will get you started - add this to **imagenet-1.html**:
 
