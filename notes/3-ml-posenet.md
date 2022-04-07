@@ -284,11 +284,11 @@ skeleton: Array(1)
 		const updateUI = () => {
 			for (let item of poses){
 				div.innerHTML = `
-					<p><b>Left Eye</b>: (${(item.pose.leftEye?.x).toFixed(2)},${(item.pose.leftEye?.y).toFixed(2)}) - confidence = ${(item.pose.leftEye?.confidence)?.toFixed(2)}</p>
-					<p><b>Right Eye</b>: (${(item.pose.rightEye?.x).toFixed(2)},${(item.pose.rightEye?.y).toFixed(2)}) - confidence = ${(item.pose.rightEye?.confidence)?.toFixed(2)}</p>
-					<p><b>Nose</b>: (${(item.pose.nose?.x).toFixed(2)},${(item.pose.nose?.y).toFixed(2)}) - confidence = ${(item.pose.nose?.confidence)?.toFixed(2)}</p>
-					<p><b>Left Ear</b>: (${(item.pose.leftEar?.x).toFixed(2)},${(item.pose.leftEar?.y).toFixed(2)}) - confidence = ${(item.pose.leftEar?.confidence)?.toFixed(2)}</p>
-					<p><b>Right Ear</b>: (${(item.pose.rightEar?.x).toFixed(2)},${(item.pose.rightEar?.y).toFixed(2)}) - confidence = ${(item.pose.rightEar?.confidence)?.toFixed(2)}</p>
+					<p><b>Left Eye</b>: (${(item.pose.leftEye?.x)?.toFixed(2)},${(item.pose.leftEye?.y)?.toFixed(2)}) - confidence = ${(item.pose.leftEye?.confidence)?.toFixed(2)}</p>
+					<p><b>Right Eye</b>: (${(item.pose.rightEye?.x)?.toFixed(2)},${(item.pose.rightEye?.y)?.toFixed(2)}) - confidence = ${(item.pose.rightEye?.confidence)?.toFixed(2)}</p>
+					<p><b>Nose</b>: (${(item.pose.nose?.x)?.toFixed(2)},${(item.pose.nose?.y)?.toFixed(2)}) - confidence = ${(item.pose.nose?.confidence)?.toFixed(2)}</p>
+					<p><b>Left Ear</b>: (${(item.pose.leftEar?.x)?.toFixed(2)},${(item.pose.leftEar?.y)?.toFixed(2)}) - confidence = ${(item.pose.leftEar?.confidence)?.toFixed(2)}</p>
+					<p><b>Right Ear</b>: (${(item.pose.rightEar?.x)?.toFixed(2)},${(item.pose.rightEar?.y)?.toFixed(2)}) - confidence = ${(item.pose.rightEar?.confidence)?.toFixed(2)}</p>
 					`;
 			}
 		};
