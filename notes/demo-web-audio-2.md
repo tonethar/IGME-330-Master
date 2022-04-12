@@ -145,8 +145,8 @@ let distortionFilter = audioCtx.createWaveShaper();
 3. The `#distortionSlider` code looks like this (put it in `setupUI()`):
 
 ```js
-document.querySelector('#distortionSlider').value = distortionAmount;
-document.querySelector('#distortionSlider').onchange = e => {
+document.querySelector('#slider-distortion').value = distortionAmount;
+document.querySelector('#slider-distortion').onchange = e => {
   distortionAmount = Number(e.target.value);
   toggleDistortion();
 };
@@ -158,7 +158,7 @@ document.querySelector('#distortionSlider').onchange = e => {
 let distortionAmount = 20;
 ```
 
-5. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#distortionCB` checkbox in `setupUI()`, etc
+5. You should be able to do the rest: set up a `distortion` boolean, set up the `distortionFilter` audio connections, set up the event listeners for the `#cb-distortion` checkbox in `setupUI()`, etc
 
 6. Test it. You should now have the distortion effect working.
 
