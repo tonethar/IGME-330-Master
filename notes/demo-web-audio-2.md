@@ -27,17 +27,17 @@ Here we are going to build on top of what we built in [demo-web-audio-1.md](./de
 ```css
 *{font-family:sans-serif;}
 span{margin-right:2em;}
-#distortionSlider{position:relative;top:.7em;}
+#slider-distortion{position:relative;top:.7em;}
 ```
 
 - here's your HTML - it goes right before the &lt;canvas> tag:
 
 ```html
 <p>
-  <span><label for="highshelfCB">Highshelf Filter (Treble)</label><input type="checkbox" id="highshelfCB"></span>
-  <span><label for="lowshelfCB">Lowshelf Filter (Bass)</label><input type="checkbox" id="lowshelfCB"></span>
-  <span><label for="distortionCB">Distortion</label><input type="checkbox" id="distortionCB"></span>
-  <span>0 <input type="range" min="0" max="100" value="0" id="distortionSlider"> 100</span>
+  <span><label for="cb-highshelf">Highshelf Filter (Treble)</label><input type="checkbox" id="cb-highshelf"></span>
+  <span><label for="cb-lowshelf">Lowshelf Filter (Bass)</label><input type="checkbox" id="cb-lowshelf"></span>
+  <span><label for="cb-distortion">Distortion</label><input type="checkbox" id="cb-distortion"></span>
+  <span>0 <input type="range" min="0" max="100" value="0" id="slider-distortion"> 100</span>
 </p>
 ```
 
@@ -51,10 +51,10 @@ span{margin-right:2em;}
 ```js
 function setupUI(){
   // I. set the initial state of the high shelf checkbox
-  document.querySelector('#highshelfCB').checked = highshelf; // `highshelf` is a boolean we will declare in a second
+  document.querySelector('#cb-highshelf').checked = highshelf; // `highshelf` is a boolean we will declare in a second
   
   // II. change the value of `highshelf` every time the high shelf checkbox changes state
-  document.querySelector('#highshelfCB').onchange = e => {
+  document.querySelector('#cb-highshelf').onchange = e => {
     highshelf = e.target.checked;
     toggleHighshelf(); // turn on or turn off the filter, depending on the value of `highshelf`!
   };
