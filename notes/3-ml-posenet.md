@@ -9,7 +9,7 @@
 ## II. API
 
 - The pose data we get back from the API looks like this - an `x`, a `y`, and a `confidence` value for multiple locations of a body
-- Below we can see that these lcoations are named:
+- Below we can see that these locations are named:
 
 ```
 pose:
