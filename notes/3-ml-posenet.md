@@ -322,7 +322,11 @@ skeleton: Array(1)
 ```
 
 
+<hr>
 
+## IV. Resources
+- https://learn.ml5js.org/#/reference/posenet
+- https://examples.ml5js.org/
 
 
 <hr><hr>
