@@ -66,8 +66,6 @@
 
 1) List 3 best practices for resilient audio and video
 
-1) Resiliency means ensuring the information transfer ______________
-
 
 ## 4 - Resilience Basics
 XX) Progressive enhancement is serving a baseline solution to all browsers and then progressively enhancing the experience with whatever advanced feature the user's browser makes available. *(No answer required)*
