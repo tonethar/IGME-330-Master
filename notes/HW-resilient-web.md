@@ -31,23 +31,23 @@
 
 1) What are the three core materials of the web?
 
-1) Priority of constituents. Place the following constituents in their order of priority, *highest to lowest*:
+2) *Priority of constituents*. Re-order the following constituents to their order of priority, *highest to lowest*:
 
-- authors
-- implementors
-- specifiers
-- theoretical purity
-- users
+    - *authors*
+    - *implementors*
+    - *specifiers*
+    - *theoretical purity*
+    - *users*
 
-1) As the tools we use to write imperative code "distance" us from the code that the user sees, what is "introduced"?
+3) As the tools we use to write imperative code "distance" us from the code that the user sees, what is "introduced"?
 
-1) Which "web stack" layer is the "presentation" layer?
+4) Which "web stack" layer is the "presentation" layer?
 
-1) What is the difference between a "robust" website and a "resilient" one? Which is preferred?
+5) What is the difference between a "robust" website and a "resilient" one? Which is preferred?
 
-1) Do web sites need to be "robust" meaning that they "look the same everywhere"?
+6) Do web sites need to be "robust" meaning that they "look the same everywhere"?
 
-1) What do users "care about"?
+7) What do users "care about"?
 
 
 ## 3 - The Fragile Web
