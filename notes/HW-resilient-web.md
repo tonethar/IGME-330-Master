@@ -11,35 +11,54 @@
 1) What is supposed to happen if a browser encounters a document with HTML and CSS errors?
 
 1) JavaScript errors should _____________________________
-- List the 5 "Known unknowns" of the web
-- If a web site is resilient, how should disabling JavaScript and the default stylesheet of that web page effect it?
-- What are the 4 HTML design principles as specified by the W3C? Briefly summarize each. 
-- HTML and CSS are *declarative* languages - what does that mean?
-- JavaScript is an *imperative* language - what does that mean?
-- Which kind of language is more *resilient* and more fault tolerant?
+
+1) List the 5 "Known unknowns" of the web
+
+1) If a web site is resilient, how should disabling JavaScript and the default stylesheet of that web page effect it?
+
+1) What are the 4 HTML design principles as specified by the W3C? Briefly summarize each. 
+
+1) HTML and CSS are *declarative* languages - what does that mean?
+
+1) JavaScript is an *imperative* language - what does that mean?
+
+1) Which kind of language is more *resilient* and more *fault tolerant*?
 
 
 ## 2 - The Robust Web
 
-- What are the three core materials of the web?
-- Priority of constituents. Place the following constituents in their order of priority, highest to lowest. authors, implementors, specifiers, theoretical purity, users
-- As the tools we use to write imperative code "distance" us from the code that the user sees, what is "introduced"?
-- Which "web stack" layer is the "presentation" layer?
-- What is the difference between a "robust" website and a "resilient" one? Which is preferred?
-- Do web sites need to be "robust" meaning that they "look the same everywhere"?
-- What do users "care about"?
+1) What are the three core materials of the web?
+
+1) Priority of constituents. Place the following constituents in their order of priority, highest to lowest. authors, implementors, specifiers, theoretical purity, users
+
+1) As the tools we use to write imperative code "distance" us from the code that the user sees, what is "introduced"?
+
+1) Which "web stack" layer is the "presentation" layer?
+
+1) What is the difference between a "robust" website and a "resilient" one? Which is preferred?
+
+1) Do web sites need to be "robust" meaning that they "look the same everywhere"?
+
+1) What do users "care about"?
 
 
 ## 3 - The Fragile Web
 
-- Give 2 examples of ways to make sure that *web impermanence* does not result in information loss
-- Give the 3 items from "Morten's Accessibility Checklist"
-- Give one advantage to the "One-way Binding" that HTML links use
-- Resiliency means the ___________  is met for all users in all circumstances
-- Large media files mean _________________
-- List 3 best practices for resilient images
-- List 3 best practices for resilient audio and video
-- Resiliency means ensuring the information transfer ______________
+1) Give 2 examples of ways to make sure that *web impermanence* does not result in information loss
+
+1) Give the 3 items from "Morten's Accessibility Checklist"
+
+1) Give one advantage to the "One-way Binding" that HTML links use
+
+1) Resiliency means the ___________  is met for all users in all circumstances
+
+1) Large media files mean _________________
+
+1) List 3 best practices for resilient images
+
+1) List 3 best practices for resilient audio and video
+
+1) Resiliency means ensuring the information transfer ______________
 
 
 ## 4 - Resilience Basics
