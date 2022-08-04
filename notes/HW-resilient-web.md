@@ -1,7 +1,7 @@
 # HW - Video - Building a Resilient Web
 
 ## Instructions
-- Watch the this LinkedIn Learning course here (1.25x video speed recommended): https://www.linkedin.com/learning/building-a-resilient-web/
+- Watch the this LinkedIn Learning course here (1.25x video speed works well): https://www.linkedin.com/learning/building-a-resilient-web/
 - Copy/paste the questions below into a MS Word DOC and answer the *numbered* questions
 
 <hr><hr>
