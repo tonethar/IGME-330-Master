@@ -4,6 +4,8 @@
 - Watch the this LinkedIn Learning course here (1.25x video speed recommended): https://www.linkedin.com/learning/building-a-resilient-web/
 - Copy/paste the questions below into a MS Word DOC and answer them
 
+<hr><hr>
+
 ## 1 - The Resilient Web - an Introduction
 
 1) According to Jeremy Keith's Resilient Web Design book  - what is the "Core Purpose of the web"?
