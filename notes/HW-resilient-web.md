@@ -86,13 +86,13 @@ XX) Using progressive enhancement in CSS, we can serve up both robust CSS that w
 
 3) Babel, webpack, et cetera, all automatically ________ modern code for older browsers enabling us to write modern code for all browsers knowing it'll work everywhere. 
 
-4) Link persistency - how can you get the server to send all of these status codes? .htaccess files! You covered these in IGME-235. You can also potentially use meta-refresh or JS - https://en.wikipedia.org/wiki/Meta_refresh *(No answer required)*
+XX) Link persistency - how can you get the server to send all of these status codes? .htaccess files! You covered these in IGME-235. You can also potentially use meta-refresh or JS - https://en.wikipedia.org/wiki/Meta_refresh *(No answer required)*
 
-5) What does a JavaScript *service worker* do?
+4) What does a JavaScript *service worker* do?
 
-6) What are *web components*?
+5) What are *web components*?
 
-7) If you serve the browser with a custom element and the browser is unable to interpret it as a web component, it will interpret it as a _______________
+6) If you serve the browser with a custom element and the browser is unable to interpret it as a web component, it will interpret it as a _______________
 
 XX) Make sure the content and information, the intent the component is meant to communicate, is resilient and persistent even if the component doesn't work or JavaScript fails. That way, you can use web components safely and in a resilient way. *(No answer required)*
 
