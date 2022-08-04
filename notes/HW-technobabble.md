@@ -134,7 +134,7 @@ V. [Reference](#reference)
 - #1 - What are the 3 distinct *layers* of a (simple) web browser app? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
 - #2 - What are the 3 *languages* used to program these layers? (***DO NOT "google" the answer - it's in the video, near the start. It's also in the above notes***)
 - #3 - List 3 things that `"use strict";` does? (***see the link in *V. Reference* below below***)
-- #4 - Note that we declared the `words1`, `words2`, and `words3` arrays with `const` -  can elements be added and/or deleted from these arrays?
+- #4 - Note that we declared the `words1`, `words2`, and `words3` arrays with `const` -  can elements be added and/or deleted from these arrays using JavaScript?
 - #5 - Give an example of following the software development **D.R.Y.** principle
 - #6 - Within JavaScript *template literals*, what goes inside the `${}`?
 - #7 - Which symbol does a CSS *id selector* always start with?
