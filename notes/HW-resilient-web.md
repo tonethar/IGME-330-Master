@@ -31,7 +31,13 @@
 
 1) What are the three core materials of the web?
 
-1) Priority of constituents. Place the following constituents in their order of priority, highest to lowest. authors, implementors, specifiers, theoretical purity, users
+1) Priority of constituents. Place the following constituents in their order of priority, *highest to lowest*:
+
+- authors
+- implementors
+- specifiers
+- theoretical purity
+- users
 
 1) As the tools we use to write imperative code "distance" us from the code that the user sees, what is "introduced"?
 
