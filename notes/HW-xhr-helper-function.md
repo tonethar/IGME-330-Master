@@ -1,5 +1,8 @@
 # XHR Helper Function Exercise
 
+## Video
+- There is a video of this lecture here: [IGME-330 - Create XHR Helper Function (14:07)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecbf4388-569e-4bfc-ace6-af0300cc0d9c)
+
 ## I. Overview
 
 - Your first mission is to write code that follows the **DRY** software development principle:
