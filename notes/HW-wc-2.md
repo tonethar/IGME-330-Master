@@ -4,6 +4,7 @@
 
 - The video walkthrough for this assignment is here. You will need to be logged into RIT/myCourses before you can access it:
   - [HW - Web Components-2 (18:07)](https://rit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84d40b75-dcd0-4b2e-b2e2-ae2a00358b04)
+- **IMPORTANT CORRECTION 9/9/22** - ***See the note in our class Slack channel `#questions-webcomponents` that discusses the (possible) need to move some of the code in the `IGMFooter` class from the `constructor()` to `connectedCallback()` in order to get it to function properly***
 
 <hr>
 
