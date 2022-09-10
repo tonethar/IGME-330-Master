@@ -54,7 +54,7 @@
 - `loadFile()`:
   - `fetch()` and promises, `async`, `await`:
     -  with no error handling code, and we'll get away with that because it's a local file we are loading
-    -  we covered `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
+    -  we cover `fetch()` in [HW-Ajax-5](HW-ajax-5.md), [HW-Ajax-6](HW-ajax-6.md) and [HW-Ajax-7](HW-ajax-7.md)
     - so our Ajax helper function is very simple, but does the job:
 
 ```js
