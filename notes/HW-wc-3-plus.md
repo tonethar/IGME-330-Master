@@ -62,7 +62,8 @@ this.p2 = this.shadowRoot.querySelector("#swcMass");
 this.button = this.shadowRoot.querySelector("button");
 ```
 
-- Save the file and test it. There will be an error in the console like before.
+- Save the file and test it. There will be multiple errors in the console, complaining about `Cannot set properties of undefined` like our previous experience with `sw-header`.
+- Head to `render()` and fix the code as we did about for `sw-header`
 
 
 
