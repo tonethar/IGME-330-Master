@@ -2,6 +2,18 @@
 
 - Let's make some improvements to Web Components 3
 
+## Navigation
+
+- [I. Fix the components so that they follow the spec](#I)
+
+- [II. Keep track of our Star Wars cards in an array](#II)
+
+- [III. Persisting application state](#III)
+
+- [IV. The `SWApp` component - one component to rule them all!](#IV)
+
+<a id="I"></a>
+
 ## I. Fix the components so that they follow the spec
 
 - The `sw-card` and `sw-header` code does not reflect a best practice for creating web components, which regards what kind of code belongs (and doesn’t belong) inside of web component class constructors:
@@ -72,10 +84,20 @@ render(){
   // and do the same for this.p1 etc
 ```
 
+<a id="II"></a>
 
+<hr>
 
 ## II. Keep track of our Star Wars cards in an array
 
+<a id="III"></a>
+
+<hr>
+
 ## III. Persisting application state
+
+<hr>
+
+<a id="IV"></a>
 
 ## IV. The `SWApp` component - one component to rule them all!
