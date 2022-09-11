@@ -65,6 +65,13 @@ this.button = this.shadowRoot.querySelector("button");
 - Save the file and test it. There will be multiple errors in the console, complaining about `Cannot set properties of undefined` like our previous experience with `sw-header`.
 - Head to `render()` and fix the code as we did about for `sw-header`
 
+```js
+render(){
+  // ...
+  if (this.h2) this.h2.innerHTML = name;
+  // and do the same for this.p1 etc
+```
+
 
 
 ## II. Keep track of our Star Wars cards in an array
