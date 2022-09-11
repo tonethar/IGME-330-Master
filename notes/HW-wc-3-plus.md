@@ -26,9 +26,20 @@ this.currentQuote = this.randomQuote();
 - Save the file and test it. There will be an error in the console something like this:
 
 ```js
+Uncaught TypeError: Cannot set properties of undefined (setting 'innerHTML')
+at SWHeader.render (sw-header.js:70:23)
+at SWHeader.attributeChangedCallback (sw-header.js:57:10)
+```
+- Line #70 is this `this.h1.innerHTML = `${title}`;`
+- The stack trace above should provide a hint of what the problem is - `SWHeader.attributeChangedCallback()` is now being called *prior* to `SWHeader.render()`, which means that our `h1` property has not yet been initialized, and we get an error when we try to set `undefined.innerHTML`
+- The fix is pretty straightforward - just write some guard code in `render()` that ensures that we don't attempt to set any properties of `this.h1` and `this.span` while they are undefined - it looks something like this:
 
+```js
+if (this.h1) this.h1.innerHTML = `${title}`;
+// now do the same for this.span
 ```
 
+- Test the app. It should run without errors
 
 ## II. Keep track of our Star Wars cards in an array
 
