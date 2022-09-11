@@ -16,7 +16,6 @@
 - First, move the following code from the `SWHeader` constructor to the top of the `SWHeader` `connectedCallback()` method:
 
 ```js
-this.shadowRoot.appendChild(template.content.cloneNode(true));
 this.h1 = this.shadowRoot.querySelector("h1");
 this.span = this.shadowRoot.querySelector("span");
 this.quotes = ["I've got a bad feeling about this ...","Will someone get this big walking carpet out of my way?!","Aren’t you a little short for a stormtrooper?","I hope you know what you’re doing.","Oh, it’s not like that at all. He’s my brother.","We have powerful friends. You’re going to regret this."];
