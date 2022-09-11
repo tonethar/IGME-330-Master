@@ -40,6 +40,19 @@ if (this.h1) this.h1.innerHTML = `${title}`;
 ```
 
 - Test the app. It should run without errors
+- Note: another way to fix this would be to get ride of the `this.h1` and `this.span` properties all together, and move the `querySelector()` calls into `render()` like this:
+
+```js
+render(){
+  // ...
+  const h1 = this.shadowRoot.querySelector("h1");
+  if (h1) h1.innerHTML = title;
+  // do same for span
+}
+```
+
+### II-B. Fix `sw-card`
+
 
 ## II. Keep track of our Star Wars cards in an array
 
