@@ -52,6 +52,19 @@ render(){
 
 ### II-B. Fix `sw-card`
 
+- As above, move the following code from the `SWCard` constructor to the top of the `SWCard` `connectedCallback()` method:
+
+```js
+this.h2 = this.shadowRoot.querySelector("h2");
+this.img = this.shadowRoot.querySelector("img");
+this.p1 = this.shadowRoot.querySelector("#swcHeight");
+this.p2 = this.shadowRoot.querySelector("#swcMass");
+this.button = this.shadowRoot.querySelector("button");
+```
+
+- Save the file and test it. There will be an error in the console like before.
+
+
 
 ## II. Keep track of our Star Wars cards in an array
 
