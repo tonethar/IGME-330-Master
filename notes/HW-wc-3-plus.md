@@ -14,6 +14,8 @@
 
 <a id="I"></a>
 
+<hr><hr>
+
 ## I. Fix the components so that they follow the spec
 
 - The `sw-card` and `sw-header` code does not reflect a best practice for creating web components, which regards what kind of code belongs (and doesn’t belong) inside of web component class constructors:
