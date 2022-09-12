@@ -3,6 +3,8 @@
 ## I. Overview
 
 - Let's make a useful app that consists mostly of *web components* - notes and video links are below
+- ***9/12/2022 - this is extra credit***
+- ***See these notes on refactoring the two web components - [HW-wc-3-plus.md](HW-wc-3-plus.md#I)***
 
 <hr>
 
