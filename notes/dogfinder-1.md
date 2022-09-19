@@ -54,7 +54,9 @@
 
 9) Now change the "footer" on the **home.html** page to display your actual RIT email address
 
-10) Now add "you are here" cues to the navigation systems for all 4 pages:
+10) Now change the `<img>` on the **home.html** page to point at this dog photo - https://upload.wikimedia.org/wikipedia/commons/7/77/Sarabi-dog.jpg
+
+11) Now add "you are here" cues to the navigation systems for all 4 pages:
 
 - In the **home.html** file, in the navbar, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
   - Test it - the "Home" text should now be **bold**
@@ -66,14 +68,14 @@
 - get the **favorites.html** and **documentation.html** pages functioning the same way
   - now all the pages should function as described above
 
-11) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
+12) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
 
 ```html
 
 ```
 
-12) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
+13) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
 
 ```html
 <style>
@@ -86,7 +88,7 @@
 </style>
 ```
 
-13) Now create a **styles/** folder and put a file named **default-styles.css** in it - it will look like this:
+14) Now create a **styles/** folder and put a file named **default-styles.css** in it - it will look like this:
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
@@ -96,10 +98,10 @@ ol{
 }
 ```
 
-14) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
+15) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
 
 
-15) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+16) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
 ```html
 <!-- Main Page -->
@@ -131,7 +133,7 @@ ol{
 </main>
 ```
 
-16) In **documentation.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+17) In **documentation.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
 
 ```html
@@ -156,7 +158,7 @@ ol{
 ```
 
 
-17) When you are done, it will look like this:
+18) When you are done, it will look like this:
 
 
 ![screenshot](_images/df-1.png)
