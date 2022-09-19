@@ -88,7 +88,7 @@
 
 
 - Once you are done typing it in, validate the HTML at https://validator.w3.org/ to help test that you typed it in right - there should not be any errors or warnings
-- Make sure it looks like this: 
+- Make sure that **app.html** looks like this: 
 
 ![screenshot 4](_images/_df-images/dogfinder-4.png)
 
