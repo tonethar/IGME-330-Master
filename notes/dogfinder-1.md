@@ -40,6 +40,7 @@
 5) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
 
     - now head to https://validator.w3.org/ and be sure that **home.html** validates
+    - you should see zero errors or warnings, if you do, fix them
 
 6) Duplicate **home.html** 3 times and name the copies:
 
