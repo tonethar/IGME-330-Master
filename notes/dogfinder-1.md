@@ -155,7 +155,11 @@ ol{
 </main>
 ```
 
-17) In **documentation.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+- **favorites.html** should now look like this 
+
+![screenshot 5](_images/_df-images/dogfinder-5.png)
+
+17) Finally, let's add our default UI to **documentation.html**, go ahead and `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
 
 ```html
@@ -180,10 +184,10 @@ ol{
 ```
 
 
-18) When you are done, it will look like this:
+- When you are done, it will look like this:
 
 
-![screenshot](_images/df-1.png)
+![screenshot 6](_images/_df-images/dogfinder-6.png)
     
   
 
