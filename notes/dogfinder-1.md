@@ -39,13 +39,13 @@
 
 5) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
 
-- now head to https://validator.w3.org/ and be sure that **home.html** validates
+    - now head to https://validator.w3.org/ and be sure that **home.html** validates
 
 6) Duplicate **home.html** 3 times and name the copies:
 
-- **app.html**
-- **favorites.html**
-- **documentation.html**
+    - **app.html**
+    - **favorites.html**
+    - **documentation.html**
 
 6) Now change the contents of each page's `<title>` tag to read "Dogfinder Home", "Dogfinder App" and so on
 
