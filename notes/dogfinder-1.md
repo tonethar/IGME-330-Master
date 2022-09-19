@@ -33,11 +33,15 @@
 
 2) Change the contents of the `<title>` tag (up in the `<head>` section) to "DogFinder" (without the quotes) 
 
-3) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
+3) In the "navbar brand" change the font awesome icon from `fa-hotdog` to `fa-dog`
 
-4) In the "navbar brand" change the font awesome icon from `fa-hotdog` to `fa-dog`
+4) We want to change the background color of the hero to blue - modify `<div class="hero is-large is-primary p-2">` to `<div class="hero is-large is-info p-2">`
 
-5) Duplicate **home.html** 3 times and name the copies:
+5) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
+
+- now head to https://validator.w3.org/ and be sure that **home.html** validates
+
+6) Duplicate **home.html** 3 times and name the copies:
 
 - **app.html**
 - **favorites.html**
@@ -45,11 +49,11 @@
 
 6) Now change the contents of each page's `<title>` tag to read "Dogfinder Home", "Dogfinder App" and so on
 
-7) Now change the "hero" on the **home.html** page to read "Dogfinder Home" and "Your first stop for cute dog photos!"
+8) Now change the "hero" on the **home.html** page to read "Dogfinder Home" and "Your first stop for cute dog photos!"
 
-8) Now change the "footer" on the **home.html** page to display your actual RIT email address
+9) Now change the "footer" on the **home.html** page to display your actual RIT email address
 
-9) Now add "you are here" cues to the navigation systems for all 4 pages:
+10) Now add "you are here" cues to the navigation systems for all 4 pages:
 
 - In the **home.html** file, in the navbar, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
   - Test it - the "Home" text should now be **bold**
@@ -61,14 +65,14 @@
 - get the **favorites.html** and **documentation.html** pages functioning the same way
   - now all the pages should function as described above
 
-10) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
+11) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
 
 ```html
 
 ```
 
-11) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
+12) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
 
 ```html
 <style>
@@ -81,7 +85,7 @@
 </style>
 ```
 
-12) Now create a **styles/** folder and put a file named **default-styles.css** in it - it will look like this:
+13) Now create a **styles/** folder and put a file named **default-styles.css** in it - it will look like this:
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
@@ -91,10 +95,10 @@ ol{
 }
 ```
 
-13) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
+14) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
 
 
-14) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+15) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
 ```html
 <!-- Main Page -->
@@ -126,7 +130,7 @@ ol{
 </main>
 ```
 
-15) In **documentation.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+16) In **documentation.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
 
 ```html
@@ -151,7 +155,7 @@ ol{
 ```
 
 
-16) When you are done, it will look like this:
+17) When you are done, it will look like this:
 
 
 ![screenshot](_images/df-1.png)
