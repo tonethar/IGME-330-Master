@@ -120,7 +120,10 @@ ol{
     - `<link rel="stylesheet" href="styles/default-styles.css">`
     - Test it. The font for "My Results" should change to the Underdog font
 
-16) Now let's stub in a starting UI for our **Favorites** page. In **favorites.html**, `<link>` to the default stylesheet as above, and then replace the entire "columns" div with:
+16) Now let's stub in a starting UI for our **Favorites** page
+
+    - In **favorites.html**, `<link>` to the default stylesheet as above
+    - Now replace the entire "columns" div with (you can copy/paste this):
 
 ```html
 <!-- Main Page -->
