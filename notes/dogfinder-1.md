@@ -80,7 +80,7 @@
 
 
 
-12) Now let's create the main UI for our app. In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
+12) Now let's create the main UI for our **App** page. In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
 ![screenshot 2](_images/_df-images/dogfinder-2.png)
 
@@ -117,9 +117,10 @@ ol{
 
 15) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
 
+    - `<link rel="stylesheet" href="styles/default-styles.css">`
     - Test it. The font for "My Results" should change to the Underdog font
 
-16) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
+16) Now let's stub in a starting UI for our **Favorites** page. In **favorites.html**, `<link>` to the default stylesheet as above, and then replace the entire "columns" div with:
 
 ```html
 <!-- Main Page -->
