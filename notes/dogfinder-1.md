@@ -117,6 +117,7 @@ ol{
 
 15) Add a `<link>` tag to the `<head>` section of **app.html** that links to this stylesheet
 
+    - Test it. The font for "My Results" should change to the Underdog font
 
 16) In **favorites.html**, `<link>` to the default stylesheet, and replace the entire "columns" div with:
 
