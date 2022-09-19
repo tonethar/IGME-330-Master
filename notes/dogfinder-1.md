@@ -71,6 +71,12 @@
     - Test it - you should be able to click on the "Home" and "App" links in the menubar, and switch back and forth between the pages, where the text of the current page is bold and "not clickable"
   - get the **favorites.html** and **documentation.html** pages functioning the same way
     - now all the pages should function as described above
+    - **app.html** should look like this:
+
+
+![screenshot](_images/dogfinder-1.png)
+
+
 
 12) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
