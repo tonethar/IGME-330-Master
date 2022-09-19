@@ -68,7 +68,9 @@
     - add `href="home.html"` to the "Home" link so that it functions, and `is-hoverable` to its class attribute
     - delete `href="app.html"` from the "App" link, and convert it into a `<span>`
     - in the "App" link `class` attribute, replace `is-hoverable` with `has-text-weight-bold`
-    - Test it - you should be able to click on the "Home" and "App" links in the menubar, and switch back and forth between the pages, where the text of the current page is bold and "not clickable"
+    - Test it:
+      - you should be able to click on the "Home" and "App" links in the menubar and switch back and forth between these 2 pages
+      - the text of the current page will be bold and "not clickable"
   - get the **favorites.html** and **documentation.html** pages functioning the same way
     - now all the pages should function as described above
     - example - **app.html** should look like this:
