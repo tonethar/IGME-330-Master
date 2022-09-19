@@ -59,7 +59,7 @@
 
 11) Now add "you are here" cues to the navigation systems for all 4 pages:
 
-  - In the **home.html** file, in the navbar, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
+  - In the **home.html** file, in the navbar, in the `<a>` tag for the "Home" link, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
     - Test it - the "Home" text should now be **bold**
   - Now head to the **app.html** file, and in the navbar:
     - add `href="home.html"` to the "Home" link so that it functions, and `is-hoverable` to its class attribute
