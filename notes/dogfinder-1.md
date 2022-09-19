@@ -84,7 +84,73 @@
 
 
 ```html
+ <!-- Main Page -->
+ <main class="px-1 py-1">
+  <div class="has-background-info mr-1 p-1"> 
+    <div class="is-large p-4">
+      <!-- Row #1 -->
+      <div class="title has-text-light">Dogfinder App</div>
+      
+      <!-- Row #2 - Instructions -->
+      <div class="box mt-2">
+        <p class="mb-5">
+          • Choose a breed of dog and how many images you'd like to see<br>
+          • Then click the button to start the search!
+        </p>
 
+        <!-- Row #2 - Controls -->
+        <div id="box-controls" class="box">
+          <div class="control is-inline-block mr-3">
+            <span class="subtitle has-text-weight-bold">Breed:</span> 
+            <select id="field-breed" class="select is-primary is-small">
+              <option>Dobberman</option>
+              <option>Poodle</option>
+            </select>
+          </div>
+          
+          <div class="control is-inline-block">
+            <span class="subtitle has-text-weight-bold">Number of results:</span> 
+            <select id="field-limit" class="select is-primary is-small">
+              <option>1</option>
+              <option>5</option>
+              <option>10</option> 
+            </select>
+          </div>
+
+          <div class="control is-inline-block ml-6">
+            <button 
+              id="btn-search"
+              class="button is-primary is-medium" 
+              title="Search for some dog pictures!"
+            >
+              Search!
+            </button>
+          </div>
+          <div class="control is-inline-block ml-6">
+            <button 
+              id="btn-clear-all"
+              class="button is-warning is-medium" 
+              title="Clear all Results!"
+            >
+              Clear All Results!
+            </button>
+          </div>
+        </div>
+      </div>
+
+    <!-- Row #3 - Results -->
+      <div class="box has-background-info-dark"> 
+        <div class="is-large p-1">
+          <h2 class="subtitle has-text-weight-bold mb-2 mt-0 has-text-light">My Results</h2>
+          <p id="element-status" class="has-text-warning mb-2">Click the <b>Search</b> button to view dog images</p>
+          <div id="element-card-holder">
+            <!-- Search results go here! -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 ```
 
 13) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
