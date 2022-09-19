@@ -80,14 +80,14 @@
 
 
 
-12) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
+12) Now let's create the main UI for our app. In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
 ![screenshot 2](_images/_df-images/dogfinder-2.png)
 
 ![screenshot 3](_images/_df-images/dogfinder-3.png)
 
 
-- Once you are done typing it in, validate the HTML at https://validator.w3.org/ to help test that you typed it in right
+- Once you are done typing it in, validate the HTML at https://validator.w3.org/ to help test that you typed it in right - there should not be any errors or warnings
 - Make sure it looks like this: 
 
 ![screenshot 4](_images/_df-images/dogfinder-4.png)
