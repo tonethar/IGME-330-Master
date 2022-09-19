@@ -33,9 +33,9 @@
 
 2) Change the contents of the `<title>` tag (up in the `<head>` section) to "DogFinder" (without the quotes) 
 
-3) In the "navbar brand" change the font awesome icon from `fa-hotdog` to `fa-dog`
+3) In the "navbar brand", change the font awesome icon from `fa-hotdog` to `fa-dog`
 
-4) We want to change the background color of the hero to blue - modify `<div class="hero is-large is-primary p-2">` to `<div class="hero is-large is-info p-2">`
+4) We want to change the background color of the hero from green (`is-primary` to blue (`is-info`) - modify `<div class="hero is-large is-primary p-2">` to read `<div class="hero is-large is-info p-2">`
 
 5) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
 
