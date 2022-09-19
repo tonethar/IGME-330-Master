@@ -184,7 +184,7 @@ ol{
 ```
 
 
-- When you are done, it will look like this:
+- When you are done, **documentation.html** will look like this:
 
 
 ![screenshot 6](_images/_df-images/dogfinder-6.png)
