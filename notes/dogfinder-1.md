@@ -59,11 +59,14 @@
 
 11) Now add "you are here" cues to the navigation systems for all 4 pages:
 
-  - In the **home.html** file, in the navbar, in the `<a>` tag for the "Home" link, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
-    - Test it - the "Home" text should now be **bold**
+  - In the **home.html** file, in the navbar, in the `<a>` tag for the "Home" link:
+    -  add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
+    -  convert the `<a>` to a `<span>` - and don't forget the closing tag
+    -  the HTML for "Home" looks like this now: `<span class="navbar-item has-text-weight-bold">Home</span>`
+      - Test it - the "Home" text should now be **bold**
   - Now head to the **app.html** file, and in the navbar:
     - add `href="home.html"` to the "Home" link so that it functions, and `is-hoverable` to its class attribute
-    - delete `href="app.html"` from the "App" link
+    - delete `href="app.html"` from the "App" link, and convert it into a `<span>`
     - in the "App" link `class` attribute, replace `is-hoverable` with `has-text-weight-bold`
     - Test it - you should be able to click on the "Home" and "App" links in the menubar, and switch back and forth between the pages, where the text of the current page is bold and "not clickable"
   - get the **favorites.html** and **documentation.html** pages functioning the same way
