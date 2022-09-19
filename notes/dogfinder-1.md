@@ -39,14 +39,14 @@
 
 5) Add `<!DOCTYPE html>` to the top of **home.html** (so that the page will validate properly)
 
-  - now head to https://validator.w3.org/ and be sure that **home.html** validates
-  - you should see zero errors or warnings. Ff you do get any, fix them
+    - now head to https://validator.w3.org/ and be sure that **home.html** validates
+    - you should see zero errors or warnings. Ff you do get any, fix them
 
 6) Duplicate **home.html** 3 times and name the copies:
 
-  - **app.html**
-  - **favorites.html**
-  - **documentation.html**
+    - **app.html**
+    - **favorites.html**
+    - **documentation.html**
 
 7) Now change the contents of each page's `<title>` tag to read "Dogfinder Home", "Dogfinder App" and so on
 
@@ -58,15 +58,15 @@
 
 11) Now add "you are here" cues to the navigation systems for all 4 pages:
 
-- In the **home.html** file, in the navbar, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
-  - Test it - the "Home" text should now be **bold**
-- Now head to the **app.html** file, and in the navbar:
-  - add `href="home.html"` to the "Home" link so that it functions, and `is-hoverable` to its class attribute
-  - delete `href="app.html"` from the "App" link
-  - in the "App" link `class` attribute, replace `is-hoverable` with `has-text-weight-bold`
-  - Test it - you should be able to click on the "Home" and "App" links in the menubar, and switch back and forth between the pages, where the text of the current page is bold and "not clickable"
-- get the **favorites.html** and **documentation.html** pages functioning the same way
-  - now all the pages should function as described above
+  - In the **home.html** file, in the navbar, add the `has-text-weight-bold` Bulma class right after the `navbar-item` class
+    - Test it - the "Home" text should now be **bold**
+  - Now head to the **app.html** file, and in the navbar:
+    - add `href="home.html"` to the "Home" link so that it functions, and `is-hoverable` to its class attribute
+    - delete `href="app.html"` from the "App" link
+    - in the "App" link `class` attribute, replace `is-hoverable` with `has-text-weight-bold`
+    - Test it - you should be able to click on the "Home" and "App" links in the menubar, and switch back and forth between the pages, where the text of the current page is bold and "not clickable"
+  - get the **favorites.html** and **documentation.html** pages functioning the same way
+    - now all the pages should function as described above
 
 12) In **app.html**, replace the entire "columns" div (which is all the HTML below the `<nav>` area) with:
 
