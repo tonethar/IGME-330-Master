@@ -15,6 +15,7 @@
 - Random image - all breeds: https://dog.ceo/api/breeds/image/random
 - Random Image - specific breed: https://dog.ceo/api/breed/affenpinscher/images/random
 - List of all breeds - https://dog.ceo/api/breeds/list/all
+- BTW - the Bulma docs might come in handy too - https://bulma.io/documentation/
 
 ## III. Start code
 
