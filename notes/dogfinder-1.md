@@ -74,7 +74,7 @@
     - **app.html** should look like this:
 
 
-![screenshot](_images/dogfinder-1.png)
+![screenshot](_images/_df-images/dogfinder-1.png)
 
 
 
