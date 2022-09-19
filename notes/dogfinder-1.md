@@ -159,7 +159,7 @@ ol{
 
 ![screenshot 5](_images/_df-images/dogfinder-5.png)
 
-17) Finally, let's add a simple layout to **documentation.html**
+17) Let's add a simple layout to **documentation.html** (our last page!)
 
     - go ahead and `<link>` to the default stylesheet
     - and replace the entire "columns" div with:
@@ -191,7 +191,7 @@ ol{
 ![screenshot 6](_images/_df-images/dogfinder-6.png)
     
   
-18) Validate the HTML for **favorites.html** and **documentation.html** at https://validator.w3.org/
+18) Lastly, validate the HTML for **favorites.html** and **documentation.html** at https://validator.w3.org/ - there should not be any errors or warnings
 
 
 
