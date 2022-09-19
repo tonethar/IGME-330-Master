@@ -29,7 +29,7 @@
     
 ## IV. Get started - set up the site and navigation
 
-1) Put **home.html** and **index.js** in a folder named ***lastname**-p1-starter** (where *lastname* is your actual last name)
+1) Put **home.html** and **index.js** in a folder named ***lastname*-p1-starter** (where *lastname* is your actual last name)
 
 2) Change the contents of the `<title>` tag (up in the `<head>` section) to "DogFinder" (without the quotes) 
 
