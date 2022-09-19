@@ -153,6 +153,11 @@
 </main>
 ```
 
+- Once you are done typing it in, validate the HTML at https://validator.w3.org/ to help test that you typed it in right
+- Make sure it looks like this: 
+
+![screenshot](_images/_df-images/dogfinder-4.png)
+
 13) Put a `<style>` tag at the top of **app.html** - here it is for your copy/paste pleasure:
 
 ```html
