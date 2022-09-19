@@ -159,8 +159,10 @@ ol{
 
 ![screenshot 5](_images/_df-images/dogfinder-5.png)
 
-17) Finally, let's add our default UI to **documentation.html**, go ahead and `<link>` to the default stylesheet, and replace the entire "columns" div with:
+17) Finally, let's add a simple layout to **documentation.html**
 
+    - go ahead and `<link>` to the default stylesheet
+    - and replace the entire "columns" div with:
 
 ```html
 <!-- Main Page -->
@@ -186,11 +188,10 @@ ol{
 
 - When you are done, **documentation.html** will look like this:
 
-
 ![screenshot 6](_images/_df-images/dogfinder-6.png)
     
   
-
+18) Validate the HTML for **favorites.html** and **documentation.html** at https://validator.w3.org/
 
 
 
