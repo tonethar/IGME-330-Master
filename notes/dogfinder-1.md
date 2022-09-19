@@ -73,7 +73,7 @@
       - the text of the current page will be bold and "not clickable"
   - get the **favorites.html** and **documentation.html** pages functioning the same way
     - now all the pages should function as described above
-    - example - **app.html** should look like this:
+    - example - **home.html** should look like this:
 
 
 ![screenshot](_images/_df-images/dogfinder-1.png)
