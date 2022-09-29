@@ -123,12 +123,17 @@ console.log("app page loaded");
 
 4) You can figure this out on your own, or use the solution below:
 
+<hr>
+
 ![screenshot 10](_images/_df-images/dogfinder-10.png)
 
+<hr>
 
 - **Which give this result on SUCCESS**:
 
 ![screenshot 11](_images/_df-images/dogfinder-11.png)
+
+<hr>
 
 - **And this when NO results are found**:
 
