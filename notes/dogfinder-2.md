@@ -121,7 +121,26 @@ console.log("app page loaded");
 
 3) Loop through `json.message` (it's an array) and create an image for each result and insert it into the `elementCardHolder` `<div>`
 
-4) Here is some HTML that will help you
+4) You can figure this out on your own, or use the solution below:
+
+![screenshot 10](_images/_df-images/dogfinder-10.png)
+
+
+- Which give this result on success:
+
+![screenshot 11](_images/_df-images/dogfinder-11.png)
+
+- And this on an error:
+
+![screenshot 12](_images/_df-images/dogfinder-12.png)
+
+<hr>
+
+## VII. What's next?
+
+- Next time we'll look at prettying up the results with the [Bulma Card Classes](https://bulma.io/documentation/components/card/)
+- We'll also look at app "state saving" such as the search term, as well as the results themselves
+
 
 
 
