@@ -102,59 +102,16 @@ console.log("app page loaded");
 - Leave the app page and then return to it - the log should fire again - because the page has to reload every time we return to it
 - Now add some more code to **app.js**
 
+![screenshot 7](_images/_df-images/dogfinder-7.png)
 
-```js
-import {xhrGetFile} from "./ajax.js";
+![screenshot 8](_images/_df-images/dogfinder-8.png)
 
-// console.log("app page loaded");
+![screenshot 9](_images/_df-images/dogfinder-9.png)
 
-const baseURL = "https://dog.ceo/api/breed/";
-const endURL = "/images/random";
-let limitParam = "1";
-let breedParam = "affenpinscher";
-
-// UI references
-let btnClearAll = null,
-  btnSearch = null,
-  elementCardHolder = null,
-  elementStatus = null,
-  fieldBreed = null,
-  fieldLimit = null;
-
-// note that this is a function that reconstructs the dogURL everytime
-// it is called
-const dogURL = () => `${baseURL}${breedParam}${endURL}/${limitParam}`;
-
-let allDogs = [];
-
-const init = () => {
-  btnClearAll = document.querySelector("#btn-clear-all");
-  btnSearch = document.querySelector("#btn-search");
-  elementCardHolder = document.querySelector("#element-card-holder");
-  elementStatus = document.querySelector("#element-status");
-  fieldBreed = document.querySelector("#field-breed");
-  fieldLimit = document.querySelector("#field-limit");
-
-  /* Event Handlers */
-  btnSearch.onclick = (evt) => {
-    console.log(`downloading ${dogURL()}`);
-    xhrGetFile(dogURL(), showResults);
-    evt.target.classList.add("is-loading");
-  };
-};
-
-const showResults = (evt) => {
-  btnSearch.classList.remove("is-loading");
-  const jsonText = evt.target.responseText;
-  
-  console.log(jsonText);
-};
-
-init();
-```
 
 - Test the app by clicking the Search button - you should see the JSON text logged to the console with an array of urls that point at affenpinscher images (just one image because that's all we asked for)
 - Also utilize the debugger to verify that all of your variables that are supposed to be pointing at DOM elements, are doing so
+- Watch the button - note how it turns into a "spinner" while it is loading data? It's "letting the user know what's going on!" Bravo! Go ahead and look over the code and see how/where that's happening
 
 ## VI. Display the dog images
 
