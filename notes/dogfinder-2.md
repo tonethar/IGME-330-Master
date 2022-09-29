@@ -44,7 +44,7 @@ customElements.define('app-footer', AppFooter);
 
 ## III. Change how you are loading your web components (if necessary)
 
-- Create **src/loader.js** and make it look like this (the exact contents will depend on how you named your components)
+- Create **src/loader.js** and make it look like this (the exact contents will depend on how you named your components, and/or if you created any for Dogfinder)
 
 
 **src/loader.js**
