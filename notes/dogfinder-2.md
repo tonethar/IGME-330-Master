@@ -6,7 +6,7 @@
 ## I. Change how you are loading your hamburger code
 - Test your hamburger menu code, on all 4 HTML pages, to be sure that it works
 - Delete the `<script src="index.js"></script>` tag that's at the bottom of all 4 HTML pages
-- Rename **index.js to **hamburger.js**, and move it into your **src/** folder
+- Rename **index.js** to **hamburger.js**, and move it into your **src/** folder
 - Now put the following `<script>` tag up in the `<head>` section of each HTML page
 
 ```js
