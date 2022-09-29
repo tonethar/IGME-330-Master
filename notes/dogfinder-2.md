@@ -126,11 +126,11 @@ console.log("app page loaded");
 ![screenshot 10](_images/_df-images/dogfinder-10.png)
 
 
-- Which give this result on success:
+- **Which give this result on SUCCESS**:
 
 ![screenshot 11](_images/_df-images/dogfinder-11.png)
 
-- And this on an error:
+- **And this when NO results are found**:
 
 ![screenshot 12](_images/_df-images/dogfinder-12.png)
 
