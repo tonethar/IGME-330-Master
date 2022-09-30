@@ -196,7 +196,7 @@ ol{
 
 <hr><hr>
 
-[**Next Chapter -> Dogfinder App Part II**](dogfinder-2.md)
+[**Next Chapter -> Dogfinder App (part II)**](dogfinder-2.md)
 
 
 
