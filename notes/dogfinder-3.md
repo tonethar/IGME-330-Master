@@ -29,8 +29,8 @@
 ## II. Get the "limit" control working
 
 - Most APIs have a `limit` parameter that indicates the maximum number of results you want returned
-  - **Fun Fact**: why not name this `max` or `num` or ? The limit term actually comes from SQL - in this case the `LIMIT` clause - https://www.w3schools.com/mysql/mysql_limit.asp
-  - **Another Fun Fact**: most APIs accept the limit parameter in the URLs' *query string* like this `music-service.php?band=rush&limit=5`
+  - **Fun Fact**: why not name this `max` or `num` or ? Because of existing convention. The word "limit" actually comes from SQL - in this case the `LIMIT` clause - https://www.w3schools.com/mysql/mysql_limit.asp
+  - **Another Fun Fact**: most APIs accept the "limit" parameter in the URLs' *query string* like this `music-service.php?band=rush&limit=5`
     - but the Dog API we have chosen uses a style called [RESTful](https://www.tutorialspoint.com/restful/restful_introduction.htm) - where the parameters like term and limit are part of the URL. After doing a search, take a look in the console at the URL we are downloading, note how the `breed` and limit are part of the URL, and that there isn't a query string
   - Now let's get to it!
   
