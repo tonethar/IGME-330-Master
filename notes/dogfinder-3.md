@@ -38,7 +38,7 @@
   
   1) Make sure that `limitParam` is set to a value of `"1"`
   
-  <hr>
+ <hr>
     
   ```js
   let limitParam = "1";
