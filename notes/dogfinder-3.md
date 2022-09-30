@@ -37,7 +37,7 @@
     - but the Dog API we have chosen uses a style called [RESTful](https://www.tutorialspoint.com/restful/restful_introduction.htm) - where the parameters like `term` and `limit` are part of the URL. After doing a search, take a look in the console at the URL we are downloading, note how the `breed` and `limit` are part of the URL, and that there isn't a query string
   - Now let's get to it!
   
-  1) Make sure that `limitParam` is set to a value of `"1"`
+1) Make sure that `limitParam` is set to a value of `"1"`
   
  <hr>
     
@@ -47,7 +47,7 @@
   
  <hr>
     
-  2) We need to initialize the `onchange` event for the "limit" control. Add the following code to the **app.js** `init()` function:
+2) We need to initialize the `onchange` event for the "limit" control. Add the following code to the **app.js** `init()` function:
   
  <hr>
     
