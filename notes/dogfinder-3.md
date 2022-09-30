@@ -5,7 +5,7 @@
 
 ## I. Improve the `XHR` Error handling
 
-- Problem: If the dog API server is down, or we are offline, the `xhr.onerror` handler will fire:
+- Problem: If the dog API server is down, or the user's browser is offline, the `xhr.onerror` handler will fire:
   - right now, that error handler is updating the UI with a message, but it's not turning off the button "spinner" 
   - to see this issue in action, change the beginning of the `baseURL` constant (in **app.js**) from `https` to `htt` - then do a search. Check the console to see the error message, and also note that the button spinner never turns off.
   - let's fix that!
