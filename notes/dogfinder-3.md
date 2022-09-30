@@ -22,7 +22,7 @@
   
   - also, head to **app.js**, and at the end of the `showResults()` `catch{}` block, add a `return` statement so that we bail out of the function after catching the error (can't believe I forgot that one)
   - click the button (keeping `baseURL` malformed) and you should now see "There was some kind of error!" printed in the console, and that the button "spinner" effect has been removed
-  - make sure the app still works. Change the beginning of `baseURL` to `https` and clicke the search button - and it should function as before
+  - make sure the app still works! Change the beginning of `baseURL` back to `https` and then click the search button - the app should function correctly as before
   
  <hr>
     
