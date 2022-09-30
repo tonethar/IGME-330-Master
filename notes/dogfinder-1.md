@@ -194,6 +194,7 @@ ol{
 18) Lastly, validate the HTML for **favorites.html** and **documentation.html** at https://validator.w3.org/ - there should not be any errors or warnings
 
 
+<hr><hr>
 
 [**Dogfinder App - Part II -->**](dogfinder-2.md)
 
