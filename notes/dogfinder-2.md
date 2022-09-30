@@ -150,9 +150,9 @@ console.log("app page loaded");
 
 <hr><hr>
 
-[**Previous Chapter <- Dogfinder App (part I)**](dogfinder-1.md) 
+[**Previous Chapter <- Dogfinder App (part 1)**](dogfinder-1.md) 
 
-[**Next Chapter -> Dogfinder App (part III)**](dogfinder-3.md)
+[**Next Chapter -> Dogfinder App (part 3)**](dogfinder-3.md)
 
 
 
