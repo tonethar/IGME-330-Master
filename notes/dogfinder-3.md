@@ -38,19 +38,26 @@
   
   1) Make sure that `limitParam` is set to a value of `"1"`
   
+  <hr>
+    
   ```js
   let limitParam = "1";
   ```
   
-  
+ <hr>
+    
   2) We need to initialize the `onchange` event for the "limit" control. Add the following code to the **app.js** `init()` function:
   
+ <hr>
+    
   ```js
   fieldLimit.onchange = (evt) => {
     limitParam = evt.target.value;
   };
   ```
   
+ <hr>
+   
   3) Now choose 5 on the limit control and click search - you should get 5 results back.
   
   - BTW - this was so easy to do because the `dogURL()` function handles the updating of the url with the new limit value for us
