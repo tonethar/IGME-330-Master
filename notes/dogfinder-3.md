@@ -62,4 +62,4 @@
   
 <hr><hr>
 
-[**<-- Dogfinder App - Part II**](dogfinder-2.md)
+[**Previous Chapter <- Dogfinder App (part II)**](dogfinder-2.md)
