@@ -204,6 +204,8 @@ elementCardHolder.appendChild(resultDiv);
 - That's a lot less code in `createResultCards()` - isn't it?
 - Let's move on and add more to this component
 
+<hr>
+
 ### IV-B. Add the rest of the `df-resultcard` CSS and HTML
 
 - Head back to **df-resultcard.js**
