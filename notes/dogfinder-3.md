@@ -59,13 +59,16 @@
   
  <hr>
    
-  3) Now choose 5 on the limit control and click search - you should get 5 results back.
+3) Now choose 5 on the limit control and click search - you should get 5 results back.
   
   - BTW - this was so easy to do because the `dogURL()` function handles the updating of the url with the new limit value for us
-  
+
+4) Go ahead and get the `fieldBreed` & `breedParam` code working if you want to, and populate `fieldBreed` with more dog breeds
+
+
   <hr>
   
- ## III. Improving the look of our results with a *card*
+ ## III. Improving the look of our results with some *card* HTML and styles
   
  ### III-A. Refactor the code
    
@@ -92,7 +95,10 @@ if( urlArray && Array.isArray(urlArray) && urlArray.length > 0 ){
 - Run the app - it should run as before (with our "meh" styles)
 
 ### III-B. Improve the HTML/CSS
-- in `createResultCards()`
+
+- Below we'll be uing some Bulma card styles to radically improve the look of our results:
+  - https://bulma.io/documentation/components/card/
+- Let's get started ... make some changes in `createResultCards()`
 
 1) Comment out the two lines of code
 
@@ -161,6 +167,17 @@ elementCardHolder.appendChild(resultDiv);
 - Go ahead and do that - you can see that there's `url` and `breed` variables already initialized for you, and that all of the HTML is already inside of a template string, so all you need to do is to add a couple `${}` to the correct places
 
 ![screenshot 15](_images/_df-images/dogfinder-15.png)
+
+<hr>
+
+## IV. Creating a `df-resultcard` component
+
+- While the above code works fine, it's already cluttered with a lot of inline CSS styles, and if we start adding controls such as a favorites button or a close button, and a bunch of JavaScript that goes with it, the `createResultCards()` method is going to start getting pretty bloated
+- So let's instead move this "card" code over to a web component!
+
+1) 
+
+
 
 
 <hr><hr>
