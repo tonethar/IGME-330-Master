@@ -69,7 +69,7 @@
   
  ### III-A. Refactor the code
    
- - In **app.js**, put this function right before `showResults()`:
+ - In **app.js**, put this "helper" function right before `showResults()`. Eventually, this fucntion will create a nice looking "card" for each result (dog picture) that was found:
 
 ```js
 const createResultCards = (array) => {
