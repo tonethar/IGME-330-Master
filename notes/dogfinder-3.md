@@ -109,6 +109,7 @@ for(let url of array){
  - Test it by searching for 5 dogs, you should see the breed name logged to the console 5 times
    - Recall that most APIs will have a lot more info to parse that this - but this API only gives one piece of info to work with, the url of the image!
 
+3) 
   
 <hr><hr>
 
