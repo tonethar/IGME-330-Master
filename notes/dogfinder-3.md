@@ -305,11 +305,24 @@ const addToFavorites = (dogObj) => {
 newCard.callback = addToFavorites; // change the card's callback to point at `addToFavorites()`
 ```
 
+3) One issue though - our current `connectedCallback()` code in the component will replace the `.callback` property we just assigned with its default
+- To fix this, head to the component `connectedCallback()` code and make a small change:
+
+```js
+// Change this
+this.callback = (obj) => console.log(`Breed: ${obj.title}, src: ${obj.src}`);
+
+// To this
+// if app.js doesn't assign a callback, use the default
+this.callback = this.callback || ((obj) => console.log(`Breed: ${obj.title}, src: ${obj.src}`));
+```
+
 - Test it. You should see the new logs to the console
 - You are now successfully "calling up" from the card component to **app.js**
 
 ```js
-
+** In app.js - Now we can call any method we want to here
+dogObj= {title: 'affenpinscher', src: 'https://images.dog.ceo/breeds/affenpinscher/n02110627_12272.jpg'}
 ```
 
 <hr><hr>
