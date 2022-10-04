@@ -170,12 +170,14 @@ elementCardHolder.appendChild(resultDiv);
 
 <hr>
 
-## IV. Creating a `df-resultcard` component
+## IV. Creating a `df-resultcard` web component
 
 - While the above code works fine, it's already cluttered with a lot of inline CSS styles, and if we start adding controls such as a favorites button or a close button, and a bunch of JavaScript that goes with it, the `createResultCards()` method is going to start getting pretty bloated
 - So let's instead move this "card" code over to a web component!
 
-1) 
+1) Create **src/df-resultcard.js** and import it at the top of **app.js** - `import "./df-resultcard.js";`
+
+2) In **df-resultcard.js**, stub in a skeleton of the web component code
 
 
 
