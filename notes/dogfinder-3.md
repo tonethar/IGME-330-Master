@@ -271,7 +271,7 @@ this.shadowRoot.querySelector("#image-main").src = this.dataset.src || Dogfinder
 
 - Do a dog search and then click the favorite button, you will see a log to the console of the `title` and `src` of that component's image. Here is an example:
 
-```js
+```
 Breed: affenpinscher, src: https://images.dog.ceo/breeds/affenpinscher/n02110627_11853.jpg
 ```
 
@@ -320,7 +320,7 @@ this.callback = this.callback || ((obj) => console.log(`Breed: ${obj.title}, src
 - Test it. You should see the new logs to the console
 - You are now successfully "calling up" from the card component to **app.js** - here is an example::
 
-```js
+```
 ** In app.js - Now we can call any method we want to here
 dogObj= {title: 'affenpinscher', src: 'https://images.dog.ceo/breeds/affenpinscher/n02110627_12272.jpg'}
 ```
