@@ -210,8 +210,29 @@ elementCardHolder.appendChild(resultDiv);
 
 - Head back to **df-resultcard.js**
 
-1) 
+1) Here are the CSS rules your component needs - put these in the `<style>` tag:
 
+```css
+#image-main{
+  border:1px solid black;
+  background-color:white;
+  padding:7px;
+  box-shadow: 1px 1px 2px #333;
+  margin:.1rem;
+  width:300px;
+}
+#title::first-letter {
+  text-transform:capitalize;
+}
+.card{
+  height:500px;
+  overflow: auto;
+}
+```
+
+- Do another dog search in the browser, the card title should now be capitalized, and the card will be 500px tall
+
+2) 
 
 
 <hr><hr>
