@@ -244,6 +244,18 @@ elementCardHolder.appendChild(resultDiv);
 
 ![screenshot 20](_images/_df-images/dogfinder-20.png)
 
+<hr>
+
+### IV-C. Displaying the image
+
+1) Pretty easy - just add the following to `connectedCallback()` 
+
+- the code will look for `dataset.src` (or a `data-src` attribute) and assign that value to the image's `src` attribute if one is found, or the placeholder image if it's not
+
+```js
+this.shadowRoot.querySelector("#image-main").src = this.dataset.src || DogfinderResultsCard.defaultImage;
+```
+
 <hr><hr>
 
 [**Previous Chapter <- Dogfinder App (part 2)**](dogfinder-2.md)
