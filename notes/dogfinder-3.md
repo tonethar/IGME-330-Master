@@ -63,7 +63,7 @@
   
   - BTW - this was so easy to do because the `dogURL()` function handles the updating of the url with the new limit value for us
 
-4) Go ahead and get the `fieldBreed` & `breedParam` code working if you want to, and populate `fieldBreed` with more dog breeds
+4) Go ahead and get the `fieldBreed` & `breedParam` code working if you want to, and populate the `fieldBreed` `<select>` with more dog breed HTML
 
 
   <hr>
