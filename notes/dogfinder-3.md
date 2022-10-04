@@ -65,10 +65,33 @@
   
   <hr>
   
-  ## III. Improving the look of our results with a *card*
+ ## III. Improving the look of our results with a *card*
   
-  - coming soon ...
+ ### III-A. Refactor the code
    
+ - In **app.js**, put this function right before `showResults()`:
+
+```js
+const createResultCards = (array) => {
+  const html = array.map(url => `<div><img src="${url}" alt="dog"></div>`).join("");
+  elementCardHolder.innerHTML = `<div class="box">${html}</div>`;
+};
+```
+
+- Now head to `showResults()` and modify the code in the `if( urlArray && Array.isArray(...` statement to instead call `createResultCards()`
+
+```js
+if( urlArray && Array.isArray(urlArray) && urlArray.length > 0 ){
+  // DELETE THIS LINE -> const html = json.message.map(url => `<div><img src="${url}" alt="dog"></div>`).join("");
+  // DELETE THIS LINE TOO -> elementCardHolder.innerHTML = `<div class="box">${html}</div>`;
+  createResultCards(json.message);
+} else {
+...
+```
+ 
+- Run the app - it should run as before (with our "meh" styles)
+
+### III-B. Improve the CSS
   
 <hr><hr>
 
