@@ -172,6 +172,8 @@ elementCardHolder.appendChild(resultDiv);
 
 ## IV. Creating a `df-resultcard` web component
 
+### IV-A. Get started
+
 - While the above code works fine, it's already cluttered with a lot of inline CSS styles, and if we start adding controls such as a favorites button or a close button, and a bunch of JavaScript that goes with it, the `createResultCards()` method is going to start getting pretty bloated
 - So let's instead move this "card" code over to a web component!
 
@@ -187,11 +189,28 @@ elementCardHolder.appendChild(resultDiv);
 
 <hr>
 
-4) Head back to **app.js**, and `createResultCards()` - and make it look like this
+4) Head back to **app.js** and make `createResultCards()` look like this:
 
 ![screenshot 17](_images/_df-images/dogfinder-17.png)
 
 <hr>
+
+5) When you are done it should look like this - a title but no image - note that our flexbox code that make the cards tile left-to-right still functions
+
+![screenshot 18](_images/_df-images/dogfinder-18.png)
+
+<hr>
+
+- That's a lot less code in `createResultCards()` - isn't it?
+- Let's move on and add more to this component
+
+### IV-B. Add the rest of the `df-resultcard` CSS and HTML
+
+- Head back to **df-resultcard.js**
+
+1) 
+
+
 
 <hr><hr>
 
