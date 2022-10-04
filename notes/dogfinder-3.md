@@ -263,8 +263,19 @@ this.shadowRoot.querySelector("#image-main").src = this.dataset.src || Dogfinder
 
 - Now let's get this "Favorite"  button working
 
-1) 
+<hr>
 
+1) Here's the code that will get the Favorite button working:
+
+![screenshot 21](_images/_df-images/dogfinder-21.png)
+
+- Do a dog search and then click the favorite button, you will see a log to the console of the `title` and `src` of that component's image. Here is an example:
+
+```js
+Breed: affenpinscher, src: https://images.dog.ceo/breeds/affenpinscher/n02110627_11853.jpg
+```
+
+<hr>
 
 <hr><hr>
 
