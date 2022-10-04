@@ -275,7 +275,42 @@ this.shadowRoot.querySelector("#image-main").src = this.dataset.src || Dogfinder
 Breed: affenpinscher, src: https://images.dog.ceo/breeds/affenpinscher/n02110627_11853.jpg
 ```
 
+- Also note above how we remove the button event handler when the component is removed from the window (which is when `disconnectedCallback()` is called)
+
 <hr>
+
+### IV-E. Getting the "Favorite" button working in **app.js**
+
+- Right now when the user clicks a result card's favorite button, we get a log to the console
+- But how could we get the component to actually add itself to a favorites list?
+  - there are a lot of potential "clunky" solutions to get this working, and most of them involve adding a bunch of favoriting code (such as accessing `localStorage` directly, or a `storage` library) by adding a lot more of this "business logic" code to the component.
+  - this would make this component a lot more complicated, and it would likely duplicate code that is probably going to be needed in **app.js** anyway
+  - so a better way would be to instead put this "add me to favorites" code into **app.js** and call it from the component
+  - but how should we set up this connection between the result component so that it can "call up" to **app.js**?
+
+
+1) Head to **app.js** and implement the following function, right before `createResultCards()`:
+
+```js
+const addToFavorites = (dogObj) => {
+  console.log("** In app.js - Now we can call any method we want to here");
+  console.log("dogObj=", dogObj);
+  // TODO: now add this dog to favorites
+};
+```
+
+2) Now add the following line to `createResultCards()`, right in the `for` loop:
+
+```js
+newCard.callback = addToFavorites; // change the card's callback to point at `addToFavorites()`
+```
+
+- Test it. You should see the new logs to the console
+- You are now successfully "calling up" from the card component to **app.js**
+
+```js
+
+```
 
 <hr><hr>
 
