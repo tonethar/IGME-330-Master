@@ -179,13 +179,19 @@ elementCardHolder.appendChild(resultDiv);
 
 2) In **app.js**, comment out all of the for loop code in our `createResultCards()` method, except for the first two lines that take care of initializing `breed` for us
 
+<hr>
+
 3) In **df-resultcard.js** - stub in a skeleton of the web component code
 
 ![screenshot 16](_images/_df-images/dogfinder-16.png)
 
+<hr>
+
 4) Head back to **app.js**, and `createResultCards()` - and make it look like this
 
 ![screenshot 17](_images/_df-images/dogfinder-17.png)
+
+<hr>
 
 <hr><hr>
 
