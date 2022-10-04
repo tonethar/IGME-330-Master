@@ -104,13 +104,37 @@ for(let url of array){
   const arr = url.split("/");
   const breed = arr[arr.length - 2];
   console.log(breed);
+  
 }
 ```
  - Test it by searching for 5 dogs, you should see the breed name logged to the console 5 times
    - Recall that most APIs will have a lot more info to parse that this - but this API only gives one piece of info to work with, the url of the image!
 
-3) 
-  
+3) Now let's create the "card" and its HTML (put this in the `for` loop) - here it is for your copy/paste pleasure:
+
+```js
+const resultDiv = document.createElement("div");
+resultDiv.className = "card";
+resultDiv.style = `height:300px;overflow: auto;`;
+resultDiv.innerHTML = `
+  <div class="card-header-title is-size-4">
+    <i class="fas fa-dog mr-3"></i>
+    <span style="text-transform: capitalize" id="title"></span>
+  </div>
+  <div class="card-content">
+    <div class="card-image">
+      <figure class="image">
+        <img style="border:1px solid black; background-color:white; padding:7px;box-shadow: 1px 1px 2px #333; margin:.1rem; width:300px" id="image-main" src="" alt="dog">
+      </figure>
+    </div>
+  </div>`;
+elementCardHolder.appendChild(resultDiv);
+```
+
+- Go ahead and do another search for 5 dogs, you should see 5 "empty" cards (it's a little hard to see the borders of the cards right now):
+
+![screenshot]()
+
 <hr><hr>
 
 [**Previous Chapter <- Dogfinder App (part 2)**](dogfinder-2.md)
