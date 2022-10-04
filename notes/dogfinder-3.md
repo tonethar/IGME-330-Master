@@ -91,7 +91,24 @@ if( urlArray && Array.isArray(urlArray) && urlArray.length > 0 ){
  
 - Run the app - it should run as before (with our "meh" styles)
 
-### III-B. Improve the CSS
+### III-B. Improve the HTML/CSS
+- in `createResultCards()`
+
+1) Comment out the two lines of code
+
+2) Write code that clears the results `<div>`, and then loops through the array of urls and extracts the breed name
+
+```js
+elementCardHolder.innerHTML = "";
+for(let url of array){
+  const arr = url.split("/");
+  const breed = arr[arr.length - 2];
+  console.log(breed);
+}
+```
+ - Test it by searching for 5 dogs, you should see the breed name logged to the console 5 times
+   - Recall that most APIs will have a lot more info to parse that this - but this API only gives one piece of info to work with, the url of the image!
+
   
 <hr><hr>
 
