@@ -232,8 +232,17 @@ elementCardHolder.appendChild(resultDiv);
 
 - Do another dog search in the browser, the card title should now be capitalized, and the card will be 500px tall
 
-2) 
+<hr>
 
+2) Here's the HTML for your component - yes it's a lot of typing - but a lot easier than having to figure it out yourself :-)
+
+![screenshot 19](_images/_df-images/dogfinder-19.png)
+
+<hr>
+
+- Now do another dog search - what a difference - and note that Favorites button - something that will come in handy soon
+
+![screenshot 20](_images/_df-images/dogfinder-20.png)
 
 <hr><hr>
 
