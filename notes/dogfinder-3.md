@@ -177,7 +177,9 @@ elementCardHolder.appendChild(resultDiv);
 
 1) Create **src/df-resultcard.js** and import it at the top of **app.js** - `import "./df-resultcard.js";`
 
-2) In **df-resultcard.js**, stub in a skeleton of the web component code
+2) In **app.js**, comment out all of the for loop code in our `createResultCards()` method, except for the first two lines that take care of initializing `breed` for us
+
+3) In **df-resultcard.js**, stub in a skeleton of the web component code
 
 
 
