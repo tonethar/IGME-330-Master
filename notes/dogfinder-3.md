@@ -149,7 +149,19 @@ elementCardHolder.appendChild(resultDiv);
 }
 ```
 
+<hr>
+
+- Much better!
+
 ![screenshot 14](_images/_df-images/dogfinder-14.png)
+
+<hr>
+
+- I imagine you'd like to see the dog image and the title on each card?
+- Go ahead and do that - you can see that there's `url` and `breed` variables already initialized for you, and that all of the HTML is already inside of a template string, so all you need to do is to add a couple `${}` to the correct places
+
+![screenshot 15](_images/_df-images/dogfinder-15.png)
+
 
 <hr><hr>
 
