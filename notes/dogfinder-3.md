@@ -133,7 +133,19 @@ elementCardHolder.appendChild(resultDiv);
 
 - Go ahead and do another search for 5 dogs, you should see 5 "empty" cards (it's a little hard to see the borders of the cards right now):
 
-![screenshot]()
+![screenshot 13](_images/_df-images/dogfinder-13.png)
+
+- Let's add a little more CSS, this time in the **app.html** file, right up in the `<style>` tag:
+
+```css
+#element-card-holder{
+  display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 0.5em;
+}
+```
+
+![screenshot 14](_images/_df-images/dogfinder-14.png)
 
 <hr><hr>
 
