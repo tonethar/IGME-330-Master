@@ -240,7 +240,7 @@ elementCardHolder.appendChild(resultDiv);
 
 <hr>
 
-- Now do another dog search - what a difference - and note that Favorites button - something that will come in handy soon
+- Now do another dog search - what a difference - and note that "Favorite button" - something that will come in handy soon!
 
 ![screenshot 20](_images/_df-images/dogfinder-20.png)
 
@@ -248,13 +248,23 @@ elementCardHolder.appendChild(resultDiv);
 
 ### IV-C. Displaying the image
 
-1) Pretty easy - just add the following to `connectedCallback()` 
-
-- the code will look for `dataset.src` (or a `data-src` attribute) and assign that value to the image's `src` attribute if one is found, or the placeholder image if it's not
+- Pretty easy - just add the following to `connectedCallback()` 
+- The code will look for `dataset.src` (or a `data-src` attribute) and assign that value to the image's `src` attribute if one is found, or the placeholder image if it's not
 
 ```js
 this.shadowRoot.querySelector("#image-main").src = this.dataset.src || DogfinderResultsCard.defaultImage;
 ```
+
+- Do another dog search, the dog images should now be visible
+
+<hr>
+
+### IV-D. Enabling the "Favorite" button
+
+- Now let's get this "Favorite"  button working
+
+1) 
+
 
 <hr><hr>
 
