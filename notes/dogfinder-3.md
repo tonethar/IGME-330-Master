@@ -318,7 +318,7 @@ this.callback = this.callback || ((obj) => console.log(`Breed: ${obj.title}, src
 ```
 
 - Test it. You should see the new logs to the console
-- You are now successfully "calling up" from the card component to **app.js**
+- You are now successfully "calling up" from the card component to **app.js** - here is an example::
 
 ```js
 ** In app.js - Now we can call any method we want to here
