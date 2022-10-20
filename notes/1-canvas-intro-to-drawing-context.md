@@ -113,13 +113,13 @@
 			// #2 Now that the page has loaded, start drawing!
 			
 			// A - `canvas` variable points at <canvas> tag
-			let canvas = document.querySelector('canvas');
+			let canvas = document.querySelector("canvas");
 			
 			// B - the `ctx` variable points at a "2D drawing context"
-			let ctx = canvas.getContext('2d');
+			let ctx = canvas.getContext("2d");
 			
 			// C - all fill operations are now in red
-			ctx.fillStyle = 'red'; 
+			ctx.fillStyle = "red"; 
 			
 			// D - fill a rectangle with the current fill color
 			ctx.fillRect(20,20,600,440); 
