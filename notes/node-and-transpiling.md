@@ -104,7 +104,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **0) Install Node.js and the *Node Package Manager* (`npm`) - *if you need to***
  
- - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here: https://heynode.com/tutorial/what-packagejson
+ - Head to https://nodejs.org/en/download/ and grab an installer - instructions are here: https://docs.npmjs.com/getting-started/installing-node
  - When **Node.js** is installed, it also installs `npm` (Node Package Manager)
  - On a Mac, open the **Terminal** application. On Windows, head to the command prompt (or **GitBash** if it's installed) to verify that `node` and `npm` (and `npx`, although we don't need it here) are installed by typing:
  
@@ -155,7 +155,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 }
 
  ```
-- You can read about **package.json** here: https://docs.nodejitsu.com/articles/getting-started/npm/what-is-the-file-package-json/
+- You can read about **package.json** here: https://heynode.com/tutorial/what-packagejson
 
 - Note that the default `name` of the project is the name of the folder that **package.json** is contained in. You can change this if you wish
 
