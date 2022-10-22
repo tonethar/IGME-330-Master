@@ -126,7 +126,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **1) Change directory to your project folder**
  
-- Head to the command prompt, and `cd` *into* the **sprity-modular** folder (or whatever you called it)
+- Head to the command prompt, and `cd` *into* the **greeter-modules** folder
 
 <hr>
   
