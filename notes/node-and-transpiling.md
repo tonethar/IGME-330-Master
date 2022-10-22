@@ -37,8 +37,24 @@ Babel is a an ES6 (and future versions of ES) to ES5 transpiler.
 
 Try pasting the following ES6 class code into the Babel REPL at http://babeljs.io/repl - and see what kind of ES5 code you get back.
 
-- You'll need to select the "Force All Transforms" checkbox under ENV PRESET section to see the full ES5 compatible code. 
+- You'll need to select the "Enabled" and "FORCE ALL TRANSFORMS" checkboxes under ENV PRESET section to see the full ES5 compatible code. 
+	
+	
+**Example #1:**
+```
+const doubleIt = num => num * 2;
+const array = [1,2,3];
+```
+	
+**Transpiles to the following, because ES5 doesn't have `const` or arrow functions**	
+```js
+var doubleIt = function doubleIt(num) {
+  return num * 2;
+};
+var array = [1, 2, 3];
+```
 
+**Example #2 - check out what it does because ES5 doesn't have the `class` keyword**	
 ```js
 class Vehicle{
     constructor(year,numWheels){
