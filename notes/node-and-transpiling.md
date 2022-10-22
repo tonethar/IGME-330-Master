@@ -57,7 +57,7 @@ var array = [1, 2, 3];
 
 <hr>
 
-**Example #2 - check out what it does because ES5 doesn't have the `class` keyword**	
+**Example #2 - check out what the code below transpiles to because ES5 doesn't have the `class` keyword**	
 ```js
 class Vehicle{
     constructor(year,numWheels){
