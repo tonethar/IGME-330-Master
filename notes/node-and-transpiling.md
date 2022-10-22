@@ -359,7 +359,7 @@ module: {
 
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
-- Open up **bundle.js** - you should see that all of the code has been jammed onto one line, AND we no longer have arrow functions, template strings and other ES6 feature in the code
+- Open up **bundle.js** - you should see that all of the code has been jammed onto one line, AND we no longer have arrow functions, template strings and other ES6 features in the code
 	
 **bundle.js**
 	
