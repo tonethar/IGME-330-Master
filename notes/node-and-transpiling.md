@@ -1,4 +1,4 @@
-# Transpiling ES6 to ES5
+# Bundling & Transpiling JS
 
 ## Contents
 <!--- Local Navigation --->
