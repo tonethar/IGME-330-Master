@@ -332,7 +332,7 @@ npm install
 	
 ## IX. <a id="section9"> Install `babel-loader`
 - Reference: https://www.npmjs.com/package/babel-loader
-- `npm install --save-dev babel-loader @babel/core @babel/preset-env`
+- To install `babel-loader`, type: `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - check **package.json** to see the `dev-dependencies:` that were added
   - and **node_modules** just got bigger with more babel-related files
 - add the following to the bottom of **webpack.config.js**
