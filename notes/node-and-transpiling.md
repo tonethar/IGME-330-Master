@@ -274,7 +274,7 @@ In **greeter.html** - make the &lt;script> tag look like this:
   - The easiest fix is to move the `<script src="dist/bundle.js"></script>` tag to the bottom of the page
   - Test it again. Now Greeter should work.
 - Note that `webpack` is still running and watching our files, and if we make any changes, it will automatically recompile our files for us
-- Handy tip! When you want to quit the npm/webpack app running in the console, type control-c (or ctrl-c depending on your keyboard)
+- Handy tip! When you want to quit the npm/webpack app running in the console, type **control-c** (or **ctrl-c** depending on your keyboard)
 
 <hr>
 
