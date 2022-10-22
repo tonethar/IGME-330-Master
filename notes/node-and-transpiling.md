@@ -18,9 +18,9 @@ VII. [Reference](#section7)
 
 VIII. [We lied to you!](#section8)
 
-IX. [Install Babel](#section9)
+IX. [Install babel-loader](#section9)
 
-X. [Test Babel](#section10)
+X. [Test babel-loader](#section10)
 
 <hr>
 
@@ -355,7 +355,7 @@ module: {
 
 <hr>
 	
-## X. <a id="section10"> Test Babel
+## X. <a id="section10"> Test babel-loader
 
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
