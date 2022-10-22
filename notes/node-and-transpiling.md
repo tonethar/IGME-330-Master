@@ -154,7 +154,9 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
   "license": "ISC"
 }
  ```
-- You can read about **package.json** here: https://heynode.com/tutorial/what-packagejson
+- You can read about **package.json** here: 
+  - https://docs.npmjs.com/creating-a-package-json-file
+  - https://heynode.com/tutorial/what-packagejson
 
 - Note that the default `name` of the project is the name of the folder that **package.json** is contained in. You can change this if you wish
 
