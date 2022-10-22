@@ -330,7 +330,7 @@ npm install
 ```js
 (()=>{"use strict";const e="Mr. X",o=(o,t,l)=>{const c=`${o} ${t||e}`;return l?`${c.toUpperCase()}!`:c},t=document.querySelector("#input-firstname"),l=document.querySelector("#output"),c=document.querySelector("#cb-forcefully"),n=document.querySelector("#btn-hello"),r=document.querySelector("#btn-goodbye");let u=c.checked;c.onchange=e=>u=e.target.checked,n.onclick=()=>l.innerHTML=o("Hello",t.value.trim(),u),r.onclick=()=>l.innerHTML=o("Goodbye",t.value.trim(),u),console.log("formatGreeting('Hey There') = ",o("Hey there")),console.log("doubleIt(10) = ",20),console.log("defaultName = ",e),console.log("meaningOfLife = ",42),console.log("temp = ","main.js temp value"),console.log("utils.temp = ","utils.js temp value")})();	
 ```
-- This is because that `webpack` does *bundling*, but we need `babel` to do the *transpiling*
+- This is because that `webpack` just does *bundling*, but we need `babel` to do the *transpiling*
 - Let's fix this!
 
 <hr>
