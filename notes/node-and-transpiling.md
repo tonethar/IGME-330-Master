@@ -50,15 +50,17 @@ Try pasting the following ES6 class code into the Babel REPL at http://babeljs.i
 **Example #1:**
 ```js
 const doubleIt = num => num * 2;
-const array = [1,2,3];
+const firstName = "Arthur";
+const greeting = `Hello ${firstName}`;
 ```
 	
-**Transpiles to the following, because ES5 doesn't have `const` or arrow functions**	
+**Transpiles to the following, because ES5 doesn't have `const`, arrow functions or template strings**	
 ```js
 var doubleIt = function doubleIt(num) {
   return num * 2;
 };
-var array = [1, 2, 3];
+var firstName = "Arthur";
+var greeting = "Hello ".concat(firstName);
 ```
 
 <hr>
