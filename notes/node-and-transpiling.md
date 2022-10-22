@@ -249,10 +249,8 @@ You should now see that **dist/bundle.js** has been created. If you open **bundl
 In **index.html** - make the &lt;script> tag look like this:
 
 ```html
-  <!-- <script type="module" src="src/main.js"></script> -->
-  <script src="dist/bundle.js"></script>
-</body>
-</html>
+<!-- <script type="module" src="src/main.js"></script> -->
+<script src="dist/bundle.js"></script>
 ```
 
 - we are now pointing the `<script>` tag at the compiled JS file at **dist/bundle.js** rather than at **loader.js**
@@ -261,9 +259,9 @@ In **index.html** - make the &lt;script> tag look like this:
 <hr>
  
 **8) Final Test**
-- Reload the page, everything should work as before!
-  - But it doesn't! You will likely see an error - `main.js:16 Uncaught TypeError: Cannot read properties of null (reading 'checked')`
-  - This happens because the **bundle.js** code is loading/running BEFORE the page loads!
+- Reload the Greeter HTML page, everything should work as before!
+  - But it doesn't! You will likely see an error in the browser console - `main.js:16 Uncaught TypeError: Cannot read properties of null (reading 'checked')`
+  - This happens because the **bundle.js** code is loading/running BEFORE the page loads! (Remember that problem from ES5?)
   - The easiest fix is to move the `<script src="dist/bundle.js"></script>` tag to the bottom of the page
   - Test it again. Now Greeter should work.
 - Note that `webpack` is still running and watching our files, and if we make any changes, it will automatically recompile our files for us
