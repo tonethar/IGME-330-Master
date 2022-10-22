@@ -307,4 +307,43 @@ npm install
 - [`npm init`](https://docs.npmjs.com/cli/init)
 - [`npm start`](https://docs.npmjs.com/cli/start)
 
+<hr>
+	
+## VIII. We lied to you!
+
+- Yes, your Greeter code has been *bundled* (from 2 files to 1)
+- But it has not yet been *transpiled* from ES5 to ES6 
+- In **webpack.config.js**, change the `mode` from `development` to `production`
+- Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
+- Open up **bundle.js** - you should see that all of the code has been jammed onto one line, but we still have arrow functions, template strings and other ES6 feature in the code
+- Let's fix this!
+
+<hr>
+	
+## IX. Install babel
+	
+- `npm install --save-dev babel-loader @babel/core @babel/preset-env`
+  - check **package.json** to see the `dev-dependencies:` that were added
+  - and **node_modules** just got bigger with more babel-related files
+- add the following to the bottom of **webpack.config.js**
+  - except for the `...`
+
+```js
+...,
+module: {
+  rules: [
+    {
+      test: /\.m?js$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env'],
+        },
+      },
+    },
+  ],
+}	
+```
+	
 
