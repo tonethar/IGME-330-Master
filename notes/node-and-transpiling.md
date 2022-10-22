@@ -262,8 +262,12 @@ In **index.html** - make the &lt;script> tag look like this:
  
 **8) Final Test**
 - Reload the page, everything should work as before!
+  - But it doesn't! You will likely see an error - `main.js:16 Uncaught TypeError: Cannot read properties of null (reading 'checked')`
+  - This happens because the **bundle.js** code is loading/running BEFORE the page loads!
+  - The easiest fix is to move the `<script src="dist/bundle.js"></script>` tag to the bottom of the page
+  - Test it again. Now Greeter should work.
 - Note that `webpack` is still running and watching our files, and if we make any changes, it will automatically recompile our files for us
-- Handy tip! When you want to quit webpack, type control-c (or ctrl-c depending on your keyboard)
+- Handy tip! When you want to quit the npm/webpack app running in the console, type control-c (or ctrl-c depending on your keyboard)
 
 <hr>
 
@@ -271,7 +275,7 @@ In **index.html** - make the &lt;script> tag look like this:
 
 When you post this to the web:
 
-- you need the HTML file, **dist/bundle.js**, and your **images** folder (if applicable)
+- you need the HTML file, **dist/bundle.js** (and your **images** folder, **styles** folder etc if applicable)
 - you don't need your `src` folder - because all that ES6 has been compiled down to ES5 and put into *bundle.js*
 - you don't need any of the other of the other configuration files or **package.json** or the **node_modules** folder
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
@@ -279,23 +283,23 @@ When you post this to the web:
 <hr>
  
 ## V. <a id="section5">Discussion
-
-- Go ahead and make some changes in **main.js**, like increasing the number of sprites. If webpack is still running, it will automatically compile a new **bundle.js** for you!
-
-- And finally, let's say that later on you have deleted the **node_modules** folder, and committed your project to GitHub. Later on when you are working on the project again, is there an easy way to download the modules you need? ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
+- The **node_modules** folder is huge! Once you are done with your transpiling activities, go ahead and delete it.
+- And finally, let's say that you have deleted the **node_modules** folder, and committed Greeter to GitHub
+- Later on when you are working on Greeter again, is there an easy way to download the modules you need? 
+- ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
 
 ```js
 npm install
 ```
 
-- Which will download and install all modules listed as dependencies in *package.json* 
+- Which will download and install all modules listed as dependencies in **package.json**
 - You can then type `npm start` to run the project.
 
 <hr>
  
 ## VI. <a id="section6">Try This
 	
-- We are not collecting this, but you should practice this technique on another ES6 project or HW assignment
+- You should practice this technique on another ES6 project or HW assignment
 
 <hr>
  
