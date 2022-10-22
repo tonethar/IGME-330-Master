@@ -134,7 +134,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  **1) Change directory to your project folder**
  
-- Head to the command prompt, and `cd` *into* the **greeter-modules** folder
+- In your command prompt application (Terminal, GitBash, etc), `cd` *into* the **greeter-modules** folder
 
 <hr>
   
