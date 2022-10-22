@@ -142,7 +142,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
  ```js
  {
-  "name": "sprity-modular",
+  "name": "greeter-modules",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -153,7 +153,6 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
   "author": "",
   "license": "ISC"
 }
-
  ```
 - You can read about **package.json** here: https://heynode.com/tutorial/what-packagejson
 
