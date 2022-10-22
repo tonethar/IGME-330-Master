@@ -178,8 +178,8 @@ npm install webpack-cli --save-dev
 
 ```js
 "devDependencies": {
-  "webpack": "^5.24.2",
-  "webpack-cli": "^4.5.0"
+  "webpack": "^5.74.0",
+  "webpack-cli": "^4.10.0"
 }
 ```
   
