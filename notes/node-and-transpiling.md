@@ -16,6 +16,12 @@ VI. [Try This](#section6)
 
 VII. [Reference](#section7)
 
+VIII. [We lied to you!](#section8)
+
+IX. [Install Babel](#section9)
+
+X. [Test Babel](#section10)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*?
