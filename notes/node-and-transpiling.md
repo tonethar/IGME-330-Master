@@ -255,7 +255,7 @@ You should now see that **dist/bundle.js** has been created. If you open **bundl
  
 **7) Edit your HTML file**
 
-In **index.html** - make the &lt;script> tag look like this:
+In **greeter.html** - make the &lt;script> tag look like this:
 
 ```html
 <!-- <script type="module" src="src/main.js"></script> -->
