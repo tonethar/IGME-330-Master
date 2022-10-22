@@ -39,6 +39,7 @@ Try pasting the following ES6 class code into the Babel REPL at http://babeljs.i
 
 - You'll need to select the "Enabled" and "FORCE ALL TRANSFORMS" checkboxes under ENV PRESET section to see the full ES5 compatible code. 
 	
+<hr>
 	
 **Example #1:**
 ```
@@ -53,6 +54,8 @@ var doubleIt = function doubleIt(num) {
 };
 var array = [1, 2, 3];
 ```
+
+<hr>
 
 **Example #2 - check out what it does because ES5 doesn't have the `class` keyword**	
 ```js
