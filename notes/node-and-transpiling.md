@@ -283,7 +283,7 @@ When you post this to the web:
 ## V. <a id="section5">Discussion
 - The **node_modules** folder is huge! Once you are done with your transpiling activities, go ahead and delete it.
 - And finally, let's say that you have deleted the **node_modules** folder, and committed Greeter to GitHub
-- Later on when you are working on Greeter again, is there an easy way to download the modules you need? 
+- Later on when you are working on Greeter again, and what to be sure that the code changes are being transpiled, is there an easy way to download the modules you need? 
 - ***YES!*** Because these project dependencies are now listed in **package.json**, all you need to do is to change directory to the project folder and type in:
 
 ```js
