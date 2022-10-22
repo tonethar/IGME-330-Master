@@ -315,7 +315,7 @@ npm install
 
 <hr>
 	
-## VIII. <a id="section8" We lied to you!
+## VIII. <a id="section8"> We lied to you!
 
 - Yes, your Greeter code has been *bundled* (from 2 files to 1)
 - But it has not yet been *transpiled* from ES5 to ES6 
@@ -327,7 +327,7 @@ npm install
 
 <hr>
 	
-## IX. <a id="section9" Install Babel
+## IX. <a id="section9"> Install Babel
 	
 - `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - check **package.json** to see the `dev-dependencies:` that were added
@@ -355,7 +355,7 @@ module: {
 
 <hr>
 	
-## X. <a id="section10" Test Babel
+## X. <a id="section10"> Test Babel
 
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
