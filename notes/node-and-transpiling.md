@@ -95,7 +95,7 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
-- Go get your ["ES6 Module Pattern"](ES-6-module-pattern-2195.md#section5) code - this is one where you converted "Sprity" to ES6 modules
+- Go ahead and grab the [greeter-modules.zip](_files/greeter-modules.zip) code - this is the ES6 module version of the Greeter demo
 - Test it in a browser to be sure that it works (it has to run off of a Web Server or Code's Live Server because of the ES6 Modules)
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
 - **Important:** make sure there are not any spaces anywhere in the path (folder names) to your files - that ticks off webpack sometimes
