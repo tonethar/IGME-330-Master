@@ -42,7 +42,7 @@ Try pasting the following ES6 class code into the Babel REPL at http://babeljs.i
 <hr>
 	
 **Example #1:**
-```
+```js
 const doubleIt = num => num * 2;
 const array = [1,2,3];
 ```
