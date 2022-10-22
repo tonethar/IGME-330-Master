@@ -240,7 +240,7 @@ npm start
 ```
 - this executes `webpack --watch` for you
 
-You should now see that **dist/bundle.js** has been created. If you open **bundle.js**, you will see that your 4 JavaScript files have been compiled to ES5 and the results "bundled" into it.
+You should now see that **dist/bundle.js** has been created. If you open **bundle.js**, you will see that your 2 JavaScript files have been compiled to ES5 and the results "bundled" into it.
 
 <hr>
  
@@ -249,7 +249,7 @@ You should now see that **dist/bundle.js** has been created. If you open **bundl
 In **index.html** - make the &lt;script> tag look like this:
 
 ```html
-  <!-- <script src="src/loader.js" type="module"></script> -->
+  <!-- <script type="module" src="src/main.js"></script> -->
   <script src="dist/bundle.js"></script>
 </body>
 </html>
