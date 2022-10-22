@@ -309,18 +309,19 @@ npm install
 
 <hr>
 	
-## VIII. We lied to you!
+## VIII. <a id="section8" We lied to you!
 
 - Yes, your Greeter code has been *bundled* (from 2 files to 1)
 - But it has not yet been *transpiled* from ES5 to ES6 
-- In **webpack.config.js**, change the `mode` from `development` to `production`
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Open up **bundle.js** - you should see that all of the code has been jammed onto one line, but we still have arrow functions, template strings and other ES6 feature in the code
+- This is because that webpack does *bundling*, but we need babel to do the *transpiling*
+- In **webpack.config.js**, change the `mode` from `development` to `production`
 - Let's fix this!
 
 <hr>
 	
-## IX. Install Babel
+## IX. <a id="section9" Install Babel
 	
 - `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - check **package.json** to see the `dev-dependencies:` that were added
@@ -348,7 +349,7 @@ module: {
 
 <hr>
 	
-## X. Test Babel
+## X. <a id="section10" Test Babel
 
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
