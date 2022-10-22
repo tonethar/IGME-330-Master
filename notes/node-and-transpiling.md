@@ -324,7 +324,7 @@ npm install
 - But it has not yet been *transpiled* from ES5 to ES6 
 - In **webpack.config.js**, change the `mode` from `development` to `production`
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load these **webpack.config.js** changes 
-- Open up **bundle.js** - you should see that all of the code has been jammed onto one line, but will still have arrow functions, template strings and other ES6 feature in the code
+- Open up **bundle.js** - you should see that all of the code has been jammed onto one line, but will still have `const`, arrow functions, template strings and other ES6 feature in the code
 
 **bundle.js**
 ```js
