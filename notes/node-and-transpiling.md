@@ -18,9 +18,9 @@ VII. [Reference](#section7)
 
 VIII. [We lied to you!](#section8)
 
-IX. [Install babel-loader](#section9)
+IX. [Install `babel-loader`](#section9)
 
-X. [Test babel-loader](#section10)
+X. [Test `babel-loader`](#section10)
 
 <hr>
 
@@ -327,7 +327,7 @@ npm install
 
 <hr>
 	
-## IX. <a id="section9"> Install babel-loader
+## IX. <a id="section9"> Install `babel-loader`
 - Reference: https://www.npmjs.com/package/babel-loader
 - `npm install --save-dev babel-loader @babel/core @babel/preset-env`
   - check **package.json** to see the `dev-dependencies:` that were added
@@ -355,7 +355,7 @@ module: {
 
 <hr>
 	
-## X. <a id="section10"> Test babel-loader
+## X. <a id="section10"> Test `babel-loader`
 
 - Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
