@@ -22,6 +22,8 @@ IX. [Install `babel-loader`](#section9)
 
 X. [Test `babel-loader`](#section10)
 
+XI. [Bundling and transpiling Project 1](#section11)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*?
@@ -378,7 +380,7 @@ module: {
 
 <hr>
 	
-## XI. Bundling and transpiling Project 1
+## XI. <a id="section11"> Bundling and transpiling Project 1
 - Bundling and transpiling Project is a little bit trickier because it's a *multi-page app*
 - Which means 3 entry points - **app.js**, **community.js** and **favorites.js**
 - And 3 bundled output files - **app-bundle.js**, **community-bundle.js** and **favorites-bundle.js**
