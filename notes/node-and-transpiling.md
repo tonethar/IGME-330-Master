@@ -376,3 +376,46 @@ module: {
 (()=>{"use strict";var e="Mr. X",o=function(o,t,n){var c=t||e,r="".concat(o," ").concat(c);return n?"".concat(r.toUpperCase(),"!"):r},t=document.querySelector("#input-firstname"),n=document.querySelector("#output"),c=document.querySelector("#cb-forcefully"),r=document.querySelector("#btn-hello"),l=document.querySelector("#btn-goodbye"),u=c.checked;c.onchange=function(e){return u=e.target.checked},r.onclick=function(){return n.innerHTML=o("Hello",t.value.trim(),u)},l.onclick=function(){return n.innerHTML=o("Goodbye",t.value.trim(),u)},console.log("formatGreeting('Hey There') = ",o("Hey there")),console.log("doubleIt(10) = ",20),console.log("defaultName = ",e),console.log("meaningOfLife = ",42),console.log("temp = ","main.js temp value"),console.log("utils.temp = ","utils.js temp value")})();
 ```
 
+<hr>
+	
+## XI. Bundling and transpiling Project 1
+- Bundling and transpiling Project is a little bit trickier because it's a *multi-page app*
+- Which means 3 entry points - **app.js**, **community.js** and **favorites.js**
+- And 3 bundled output files - **app-bundle.js**, **community-bundle.js** and **favorites-bundle.js**
+- There's also the matter of the firebase library imports - there's no way to bring those in without using an `import` statement, which means we're not in 100% ES5 land anymore, Toto
+- The following config file worked for me - you might need to change some of the file names depending on how you named things:
+	
+	
+**webpack.config.js**
+```js
+module.exports = {
+  mode: 'production',
+  entry: {
+    app: './src/app.js',
+    community: './src/community.js',
+    favorites: './src/favorites.js'
+  },
+  output: {
+    filename: '[name]-bundle.js',
+    path: __dirname + '/dist',
+  },
+  // https://webpack.js.org/configuration/externals/#externalstypemodule
+  experiments: {
+    outputModule: true, /* Fixes the firebase import issue */
+  },
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  }
+};	
+```
