@@ -186,7 +186,7 @@ npm install webpack-cli --save-dev
 
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
 - the added `--save-dev` flags will also add `"devDependencies"` keys to *package.json* - which makes it easy for you to re-download these libraries later:
-
+  - note: your version #'s will be different, so DO NOT modify what `npm` generated for you
 
 ```js
 "devDependencies": {
