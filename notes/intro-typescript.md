@@ -9,3 +9,20 @@
 
 ## II. Try it out here
 - https://www.typescriptlang.org/play
+
+```js
+const meaningOfLife = 42;
+const defaultName = "Mr. X";
+let temp = "utils.js temp value";
+
+const doubleIt = val =>  val * 2;
+
+const formatGreeting = (greeting, name, forcefully) => {
+  const recipient  = name ? name : defaultName;
+  const str = `${greeting} ${recipient}`;
+  return forcefully ? `${str.toUpperCase()}!` : str;
+};
+
+export { doubleIt, formatGreeting };
+```
+
