@@ -188,9 +188,7 @@ console.log(cowsay.say({
 ## V. Next Steps
 
 - There isn't too much more to do with this example right now, as this web service has but one entry point (i.e. it does 1 thing and accepts no additional parameters)
-- But once you have finished this series, come back to this example and:
-  - use `npm init -y` to create a **package.json** file
-  - using what you learn in Chapter II as a guide, make this script an executable command named `get-joke`
+- Take a look inside of the **package.json** file that was created to see what's stored in there
 
 
 
