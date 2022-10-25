@@ -34,5 +34,18 @@ export { doubleIt, formatGreeting };
 
 - Grab **greeter-modules-ts.zip** start files from myCourses
 - Open up in VSCode
+- In a console app (Terminal, GitBash etc) cd into the **greeter-modules-ts** folder
+- Type some code:
+
+```
+npm init -y
+npm install --save-dev typescript
+npm install --save-dev webpack webpack-cli ts-loader
+npm install --save-dev webpack-dev-server
+```
+
+- Create
+
+
 
 
