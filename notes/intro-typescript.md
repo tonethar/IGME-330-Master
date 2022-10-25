@@ -107,4 +107,5 @@ module.exports = {
 - Double-click on **greeter.html** to test the app (you don't need a web server) -it should work normally
 - Go ahead and make some changes in your main or utils file, and note that webpack is re-compiling the code for you
   - now test your changes in the web browser to sure that they "took"
+- Type ctrl-c to quite node when you are done
 
