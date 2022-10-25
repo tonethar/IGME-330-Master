@@ -29,3 +29,10 @@ export { doubleIt, formatGreeting };
 ```
 
 <hr>
+
+## III. Use node & webpack to transpile a TypeScript app to 
+
+- Grab **greeter-modules-ts.zip** start files from myCourses
+- Open up in VSCode
+
+
