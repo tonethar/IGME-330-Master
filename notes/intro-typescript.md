@@ -44,7 +44,7 @@ npm install --save-dev webpack webpack-cli ts-loader
 npm install --save-dev webpack-dev-server
 ```
 
-- Create **webpack.config.js**
+- In the **greeter-modules-ts** folder, create **webpack.config.js**
 
 ```js
 const path = require('path');
@@ -76,7 +76,7 @@ module.exports = {
 };
 ```
 
-- Create **tsconfig.json**
+- In the **greeter-modules-ts** folder, create **tsconfig.json**
 
 ```json
 {
@@ -105,7 +105,7 @@ module.exports = {
 - Look at **dist/bundle.js** - the TypeScript has been transpiled to JS!
 - Note the `<script>` tag in **greeter.html** has already been modified to point at **dist/bundle.js** 
 - Double-click on **greeter.html** to test the app (you don't need a web server) -it should work normally
-- Go ahead and make some changes in your main or utils file, and note that webpack is re-compiling the code for you
+- Go ahead and make some changes in your **main.ts** or **utils.ts** file, and note that webpack is re-compiling the code for you
   - now test your changes in the web browser to sure that they "took"
 - Type ctrl-c to quite node when you are done
 
