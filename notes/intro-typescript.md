@@ -12,6 +12,7 @@
 ## II. Try it out here
 - https://www.typescriptlang.org/play
 
+**"Starter" code we can add type annotations to:**
 ```js
 const meaningOfLife = 42;
 const defaultName = "Mr. X";
