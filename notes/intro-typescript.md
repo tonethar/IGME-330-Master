@@ -45,7 +45,7 @@ npm install --save-dev webpack webpack-cli ts-loader
 npm install --save-dev webpack-dev-server
 ```
 
-- In the **greeter-modules-ts** folder, create **webpack.config.js**
+- In the **greeter-modules-ts/** folder, create **webpack.config.js**
 
 ```js
 const path = require('path');
@@ -72,7 +72,7 @@ module.exports = {
 };
 ```
 
-- In the **greeter-modules-ts** folder, create **tsconfig.json**
+- In the **greeter-modules-ts/** folder, create **tsconfig.json**
 
 ```json
 {
