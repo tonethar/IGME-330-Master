@@ -89,6 +89,13 @@ module.exports = {
 }
 ```
 
+- In **package.json** make the `"scripts:"` key look like this:
+
+```json
+"scripts": {
+  "build": "webpack --mode production --watch "
+}
+```
 
 
 
