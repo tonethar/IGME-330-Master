@@ -7,6 +7,8 @@
 - https://www.typescriptlang.org/
 - https://basarat.gitbook.io/typescript/
 
+<hr>
+
 ## II. Try it out here
 - https://www.typescriptlang.org/play
 
@@ -26,3 +28,4 @@ const formatGreeting = (greeting, name, forcefully) => {
 export { doubleIt, formatGreeting };
 ```
 
+<hr>
