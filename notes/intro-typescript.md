@@ -33,9 +33,9 @@ export { doubleIt, formatGreeting };
 ## III. Use node & webpack to transpile a TypeScript app to JS
 
 - Grab **greeter-modules-ts.zip** start files from myCourses
-- Open up in VSCode (but don't launch LiveServer)
+- Open it up in VSCode (but don't launch LiveServer) - note that the code is written in TypeScript and thus won't run in a web browser until it is *transpiled*
 - In a console app (Terminal, GitBash etc) `cd` into the **greeter-modules-ts** folder
-- Type some code:
+- Let's install some node packages by typing some code (ONE line at a time):
 
 ```
 npm init -y
@@ -104,5 +104,7 @@ module.exports = {
 - Type: `npm run build`
 - Look at **dist/bundle.js** - the TypeScript has been transpiled to JS!
 - Note the `<script>` tag in **greeter.html** has already been modified to point at **dist/bundle.js** 
-- Double-click on **greeter.html** to test the app (you don't need a web server)
+- Double-click on **greeter.html** to test the app (you don't need a web server) -it should work normally
+- Go ahead and make some changes in your main or utils file, and note that webpack is re-compiling the code for you
+  - now test your changes in the web browser to sure that they "took"
 
