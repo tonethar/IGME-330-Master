@@ -15,7 +15,7 @@ const meaningOfLife = 42;
 const defaultName = "Mr. X";
 let temp = "utils.js temp value";
 
-const doubleIt = val =>  val * 2;
+const doubleIt = (val) =>  val * 2;
 
 const formatGreeting = (greeting, name, forcefully) => {
   const recipient  = name ? name : defaultName;
