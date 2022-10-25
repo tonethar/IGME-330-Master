@@ -103,5 +103,6 @@ module.exports = {
 
 - Type: `npm run build`
 - Look at **dist/bundle.js** - the TypeScript has been transpiled to JS!
-- Note the `<script>` tag has already been modified to point at **dist/bundle.js** 
+- Note the `<script>` tag in **greeter.html** has already been modified to point at **dist/bundle.js** 
+- Double-click on **greeter.html** to test the app (you don't need a web server)
 
