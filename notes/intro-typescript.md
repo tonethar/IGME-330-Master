@@ -33,8 +33,8 @@ export { doubleIt, formatGreeting };
 ## III. Use node & webpack to transpile a TypeScript app to 
 
 - Grab **greeter-modules-ts.zip** start files from myCourses
-- Open up in VSCode
-- In a console app (Terminal, GitBash etc) cd into the **greeter-modules-ts** folder
+- Open up in VSCode (but don't launch LiveServer)
+- In a console app (Terminal, GitBash etc) `cd` into the **greeter-modules-ts** folder
 - Type some code:
 
 ```
