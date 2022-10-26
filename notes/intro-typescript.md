@@ -39,9 +39,13 @@ export { doubleIt, formatGreeting };
 - Let's install some node packages by typing some code (ONE line at a time):
 
 ```
+// 1
 npm init -y
+// 2
 npm install --save-dev typescript
+// 3
 npm install --save-dev webpack webpack-cli ts-loader
+// 4
 npm install --save-dev webpack-dev-server
 ```
 
