@@ -36,10 +36,11 @@ const formatGreeting = (greeting, name, forcefully) => {
 - **TS code to try:**
 
 ```ts
-const stuff:string[] = [];
+const stuff:string[] = []; // typed array
 stuff.push("red");
 stuff.push(10);
 
+// declare the "shape" of an object
 interface Car {
   make:string,
   model:string,
