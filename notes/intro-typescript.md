@@ -9,8 +9,9 @@
 
 <hr>
 
-## II. Try it out here
+## II. Try it out here in a REPL
 - https://www.typescriptlang.org/play
+- Our TypeScript annotations will be transpiled into ES5 VanillaJS
 - We'll look at:
   - *explicit* typing
   - *implicit* typing
@@ -32,6 +33,7 @@ const formatGreeting = (greeting, name, forcefully) => {
 export { doubleIt, formatGreeting };
 ```
 
+### II-A. Discussion
 - disadvantages of TypeScript:
   - tooling
   - writing more code than you would have to with VanillaJS
