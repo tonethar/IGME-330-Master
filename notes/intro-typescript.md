@@ -16,7 +16,7 @@
   - *explicit* typing
   - *implicit* typing
 
-**"Starter" code we can add type annotations to:**
+- **"Starter" code we can add type annotations to:**
 ```js
 const meaningOfLife = 42;
 const defaultName = "Mr. X";
@@ -29,8 +29,14 @@ const formatGreeting = (greeting, name, forcefully) => {
   const str = `${greeting} ${recipient}`;
   return forcefully ? `${str.toUpperCase()}!` : str;
 };
+```
 
-export { doubleIt, formatGreeting };
+- **More code to try:**
+
+```ts
+const stuff:string[] = [];
+stuff.push("red")
+stuff.push(10)
 ```
 
 ### II-A. Discussion
