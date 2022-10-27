@@ -11,6 +11,9 @@
 
 ## II. Try it out here
 - https://www.typescriptlang.org/play
+- We'll look at:
+  - *explicit* typing
+  - *implicit* typing
 
 **"Starter" code we can add type annotations to:**
 ```js
@@ -28,6 +31,15 @@ const formatGreeting = (greeting, name, forcefully) => {
 
 export { doubleIt, formatGreeting };
 ```
+
+- disadvantages of TypeScript:
+  - tooling
+  - writing more code than you would have to with VanillaJS
+- advantages of TypeScript:
+  - catch bugs while you are writing the code, not later on during development or after it is shipped
+  - tooling enables lots of code hints in your IDE
+  - TypeScript is a *superset* of JS, meaning that legal JS is also legal TS
+  - Can write code that uses the latest version of JS, and because of transpilation, you don't need to worry about browser support
 
 <hr>
 
@@ -81,9 +93,8 @@ module.exports = {
 ```json
 {
   "compilerOptions": {
-      "noImplicitAny": true,
       "target": "ES5",
-      "module": "ES2015",
+      "module": "ES6",
       "sourceMap": true
   }
 }
