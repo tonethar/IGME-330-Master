@@ -45,10 +45,11 @@ interface Car {
   make:string,
   model:string,
   cylinders?:number,
-  equipment?: string[]
+  equipment?: string[],
+  [key:string]: any
 }
 
-let car1:Car = {make:"Ford", model:"Bronco", cylinders:8};
+let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
 let car2:Car = {make:"Chevy"};
 
 type RgbColor = "red" | "green" | "blue";  // union type
