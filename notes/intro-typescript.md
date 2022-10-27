@@ -108,5 +108,5 @@ module.exports = {
 - Go ahead and make some changes in your **main.ts** or **utils.ts** file, and note that webpack is re-compiling the code for you
   - now test your changes in the web browser to sure that they "took"
 - Also note that "source mapping" is turned on - you can see that in the Chrome debugger
-- Type ctrl-c to quite node when you are done
+- Type ctrl-c to quit node when you are done
 
