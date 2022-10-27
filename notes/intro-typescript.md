@@ -47,21 +47,27 @@ export { doubleIt, formatGreeting };
 
 - Go ahead and grab the [**greeter-modules-ts.zip**](_files/greeter-modules-ts.zip) code - this is the ES6 module/TypeScript version of the Greeter demo
 - Open it up in VSCode (but don't launch LiveServer) - note that the code in **main.ts** and **utils.ts** is written in TypeScript and thus won't run in a web browser until it is *transpiled*
+- We'll need some node packages:
+  - https://www.npmjs.com/package/typescript
+  - https://www.npmjs.com/package/webpack
+  - https://www.npmjs.com/package/webpack-cli
+  - https://www.npmjs.com/package/webpack-dev-server
 - In a console app (Terminal, GitBash etc) `cd` into the **greeter-modules-ts** folder
-- Let's install some node packages by typing some code (ONE line at a time):
+- Let's install these packages by typing some code (ONE line at a time):
 
 ```
-// 1
+// 1 - generate a package.json file
 npm init -y
-// 2
+// 2 - install typescript
 npm install --save-dev typescript
-// 3
+// 3 - install webpack & webpack-cli
 npm install --save-dev webpack webpack-cli ts-loader
-// 4
+// 4 - install webpack-dev-server
 npm install --save-dev webpack-dev-server
 ```
 
 - In the **greeter-modules-ts/** folder, create **webpack.config.js**
+- Docs at: https://www.typescriptlang.org/tsconfig
 
 ```js
 const path = require('path');
