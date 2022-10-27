@@ -49,6 +49,10 @@ interface Car {
 
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8};
 let car2:Car = {make:"Chevy"};
+
+type RgbColor = "red" | "green" | "blue";  // union type
+let color1:RgbColor = "red";
+let color2:RgbColor = "yellow";
 ```
 
 <hr>
