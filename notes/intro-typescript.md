@@ -9,7 +9,9 @@
 
 <hr>
 
-## II. Try it out here in a REPL
+## II. Try it out
+
+### II-A. Let's see how TS works in a REPL
 - https://www.typescriptlang.org/play
 - Our TypeScript annotations will be transpiled into ES5 VanillaJS
 - We'll look at:
@@ -35,11 +37,23 @@ const formatGreeting = (greeting, name, forcefully) => {
 
 ```ts
 const stuff:string[] = [];
-stuff.push("red")
-stuff.push(10)
+stuff.push("red");
+stuff.push(10);
+
+interface Car {
+  make:string,
+  model:string,
+  cylinders?:number,
+  equipment?: string[]
+}
+
+let car1:Car = {make:"Ford", model:"Bronco", cylinders:8};
+let car2:Car = {make:"Chevy"};
 ```
 
-### II-A. Discussion
+<hr>
+
+### II-B. Discussion
 - disadvantages of TypeScript:
   - tooling
   - writing more code than you would have to with VanillaJS
