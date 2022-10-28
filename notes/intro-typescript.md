@@ -98,6 +98,7 @@ npm install --save-dev webpack-dev-server
 - In the **greeter-modules-ts/** folder, create **webpack.config.js**
 - Docs at: https://www.typescriptlang.org/tsconfig
 
+**webpack.config.js**
 ```js
 const path = require('path');
 
@@ -125,6 +126,7 @@ module.exports = {
 
 - In the **greeter-modules-ts/** folder, create **tsconfig.json**
 
+**tsconfig.json**
 ```json
 {
   "compilerOptions": {
@@ -139,7 +141,7 @@ module.exports = {
 
 ```json
 "scripts": {
-  "build": "webpack --mode production --watch "
+  "build": "webpack --mode production --watch"
 }
 ```
 
