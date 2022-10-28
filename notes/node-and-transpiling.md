@@ -326,7 +326,8 @@ npm install
 - Yes, your Greeter code has been *bundled* (from 2 files to 1)
 - But it has not yet been *transpiled* from ES5 to ES6 
 - In **webpack.config.js**, change the `mode` from `development` to `production`
-- Quit node in the console (if it's running) with control-c, and then type `npm start` to load these **webpack.config.js** changes 
+- Quit node in the console (if it's running) with control-c
+- Type `npm start` to load these **webpack.config.js** changes 
 - Open up **bundle.js** - you should see that all of the code has been jammed onto one line, but will still have `const`, arrow functions, template strings and other ES6 feature in the code
 
 **bundle.js**
@@ -340,10 +341,11 @@ npm install
 	
 ## IX. <a id="section9"> Install `babel-loader`
 - Reference: https://www.npmjs.com/package/babel-loader
-- To install `babel-loader`, type: `npm install --save-dev babel-loader @babel/core @babel/preset-env`
-  - check **package.json** to see the `dev-dependencies:` that were added
-  - and **node_modules** just got bigger with more babel-related files
-- add the following to the bottom of **webpack.config.js**
+- To install `babel-loader`:
+  - type: `npm install --save-dev babel-loader @babel/core @babel/preset-env`
+  - then check **package.json** to see the `dev-dependencies:` that were added
+  - and see that **node_modules** just got bigger with more babel-related files
+- Add the following to the bottom of **webpack.config.js**
   - except for the `...`
 
 ```js
@@ -368,7 +370,8 @@ module: {
 	
 ## X. <a id="section10"> Test `babel-loader`
 
-- Quit node in the console (if it's running) with control-c, and then type `npm start` to load the **webpack.config.js** changes 
+- Quit node in the console (if it's running) with control-c
+- Type `npm start` to load the **webpack.config.js** changes 
 - Make sure that Greeter still works
 - Open up **bundle.js** - you should see that all of the code has been jammed onto one line, AND that it has been *transpiled* to ES5 JS, meaning there are no longer arrow functions, template strings and other ES6 features in the code
 	
