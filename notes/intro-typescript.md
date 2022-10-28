@@ -61,14 +61,14 @@ let color2:RgbColor = "yellow"; // ERROR
 <hr>
 
 ### II-B. Discussion
-- disadvantages of TypeScript:
-  - tooling
+- Disadvantages of TypeScript:
+  - having to download and script the tooling
   - writing more code than you would have to with VanillaJS
-- advantages of TypeScript:
-  - catch bugs while you are writing the code, not later on during development or after it is shipped
+- Advantages of TypeScript:
+  - catch bugs early while you are writing the code, not later on during development or after the code is shipped
   - tooling enables lots of code hints in your IDE
-  - TypeScript is a *superset* of JS, meaning that legal JS is also legal TS
-  - Can write code that uses the latest version of JS, and because of transpilation, you don't need to worry about browser support
+  - TypeScript is a *superset* of JS, meaning that legal JS is also legal TS, meaning that it's easy to build on top of your existing JS knowledge
+  - can write code that uses the latest version of JS, and because of transpilation, you don't need to worry (much) about browser support
 
 <hr>
 
