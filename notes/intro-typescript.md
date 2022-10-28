@@ -84,7 +84,7 @@ let color2:RgbColor = "yellow"; // ERROR
 - In a console app (Terminal, GitBash etc) `cd` into the **greeter-modules-ts** folder
 - Let's install these packages by typing some code (ONE line at a time):
 
-```
+```shell
 // 1 - generate a package.json file
 npm init -y
 // 2 - install typescript
