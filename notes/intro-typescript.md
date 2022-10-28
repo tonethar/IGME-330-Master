@@ -98,7 +98,7 @@ npm install --save-dev webpack-dev-server
 <hr>
 
 - In the **greeter-modules-ts/** folder, create **webpack.config.js**
-- Docs at: https://www.typescriptlang.org/tsconfig
+- Docs at: https://webpack.js.org/configuration/
 
 **webpack.config.js**
 ```js
@@ -129,6 +129,7 @@ module.exports = {
 <hr>
 
 - In the **greeter-modules-ts/** folder, create **tsconfig.json**
+- Docs at: https://www.typescriptlang.org/tsconfig
 
 **tsconfig.json**
 ```json
