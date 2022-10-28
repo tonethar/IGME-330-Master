@@ -20,9 +20,9 @@
 
 - **"Starter" JS code we can add type annotations to:**
 ```js
-const meaningOfLife = 42;
-const defaultName = "Mr. X";
-let temp = "utils.js temp value";
+const meaningOfLife = 42; // will be implicitly typed as a `number`
+const defaultName = "Mr. X"; // will be implicitly typed as a `string`
+let temp = "utils.js temp value"; // will be implicitly typed as a `string`
 
 const doubleIt = (val) =>  val * 2;
 
@@ -38,7 +38,7 @@ const formatGreeting = (greeting, name, forcefully) => {
 ```ts
 const stuff:string[] = []; // typed array
 stuff.push("red");
-stuff.push(10);
+stuff.push(10); // ERROR
 
 // declare the "shape" of an object
 interface Car {
@@ -50,12 +50,12 @@ interface Car {
 }
 
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
-let car2:Car = {make:"Chevy"};
+let car2:Car = {make:"Chevy"}; // ERROR
 
 // union type
 type RgbColor = "red" | "green" | "blue"; 
 let color1:RgbColor = "red";
-let color2:RgbColor = "yellow";
+let color2:RgbColor = "yellow"; // ERROR
 ```
 
 <hr>
