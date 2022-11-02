@@ -34,7 +34,7 @@
 
 3) Run the code using a web server (Liveserver etc) and be sure that you have a console log that shows that ml5 has loaded correctly
 
-4) Here are some images you can use [ml-5-images.zip)](_files/ml-5-images.zip)
+4) Here are some images you can use [ml-5-images.zip](_files/ml-5-images.zip)
 
 5) Here is your HTML (put it in the `<body>`, right before the `<script>` tag):
 
