@@ -28,7 +28,7 @@
 
 ## III. Get Started
 
-1) Head to **Quickstart: Plain JavaScript** here: https://learn.ml5js.org/#/ 
+1) Head to **Quickstart: Plain JavaScript** here: https://learn.ml5js.org/#/?id=quickstart-plain-javascript
 
 2) Copy the code into a file **imagenet-1.html**
 
