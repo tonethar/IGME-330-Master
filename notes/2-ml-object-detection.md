@@ -47,22 +47,19 @@
 	</head>
 
   <body>
-		<h1>Real time Object Detection using CocoSsd</h1>
-		<video></video>
-		<canvas></canvas>
-		<p id="status"></p>
+    <h1>Real time Object Detection using CocoSsd</h1>
+    <video></video>
+    <canvas></canvas>
+    <p id="status"></p>
 		
-		<script>
-		// code from https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
-		// Copyright (c) 2019 ml5
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
+    <script>
+    // code from https://github.com/ml5js/ml5-library/tree/main/examples/javascript/ObjectDetector/COCOSSD_webcam
+    // Copyright (c) 2019 ml5
+    //
+    // This software is released under the MIT License.
+    // https://opensource.org/licenses/MIT
 
-/* ===
-ml5 Example
-Real time Object Detection using objectDetector
-=== */
+/* === ml5 Example Real time Object Detection using objectDetector === */
 "use strict";
 
 let objectDetector;
@@ -106,10 +103,10 @@ function detect() {
 
     if(objects){
       draw();
-			status.innerHTML = objects.map(obj => `<p><b>${obj.label}</b> - x: ${obj.x.toFixed(0)}, y: ${obj.y.toFixed(0)}, width: ${obj.width.toFixed(0)}, height: ${obj.height.toFixed(0)}, confidence: ${obj.confidence.toFixed(4)}</p>`).join("");
+      status.innerHTML = objects.map(obj => `<p><b>${obj.label}</b> - x: ${obj.x.toFixed(0)}, y: ${obj.y.toFixed(0)}, width: ${obj.width.toFixed(0)}, height: ${obj.height.toFixed(0)}, confidence: ${obj.confidence.toFixed(4)}</p>`).join("");
     }else{
-			status.innerHTML = "... detecting ...";
-		}
+      status.innerHTML = "... detecting ...";
+    }
     // keep detecting!
     detect();
   });
