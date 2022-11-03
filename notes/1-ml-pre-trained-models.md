@@ -62,7 +62,7 @@ function modelLoaded(){
 ```
 
 - In class, we'll add some code that makes a prediction and then displays the results:
-  - the results will be an array of *labels* (example `"dog"`) and *probabilities* (example `0.056765`)
+  - the results will be an array of *labels* (example `.label="dog"`) and *probabilities* (example `.confidence=0.056765`)
 
 8) Once it's working - try it out with some additional images. You should see that it works very well at identifying certain real-world objects and animals, but it's not so good with other things like people, drawings, art etc .. It can also identify only ONE object per image.
 
