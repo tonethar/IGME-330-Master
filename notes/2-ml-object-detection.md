@@ -27,25 +27,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-		<title>Real time Object Detection using CocoSsd</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-		<style>
-			body{
-				font-family: sans-serif;
-			}
-			canvas{
-				background-color: #ddd;
-				/* transform: scaleX(-1); */
-				/* display:none; */
-			}
-			video{
-				display: none;
-			}
-		</style>
-	
-	</head>
-
+  <title>Real time Object Detection using CocoSsd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <style>
+    body{
+      font-family: sans-serif;
+    }
+    canvas{
+      background-color: #ddd;
+      /* transform: scaleX(-1); */
+      /* display:none; */
+    }
+    video{
+      display: none;
+    }
+    </style>
+    </head>
   <body>
     <h1>Real time Object Detection using CocoSsd</h1>
     <video></video>
@@ -59,39 +57,39 @@
     // This software is released under the MIT License.
     // https://opensource.org/licenses/MIT
 
-/* === ml5 Example Real time Object Detection using objectDetector === */
-"use strict";
+    /* === ml5 Example Real time Object Detection using objectDetector === */
+    "use strict";
 
-let objectDetector;
-let status;
-let objects = [];
-let video;
-let canvas, ctx;
-const width = 480;
-const height = 360;
+    let objectDetector;
+    let status;
+    let objects = [];
+    let video;
+    let canvas, ctx;
+    const width = 480;
+    const height = 360;
 
-window.onload = init;
+    window.onload = init;
 
-async function init() {
-  // init status & canvas & ctx
-  status = document.querySelector("#status");
-  status.innerHTML = "... loading model ...";
-  canvas = document.querySelector("canvas");
-  canvas.width = width;
-  canvas.height = height;
-  ctx = canvas.getContext('2d');
+    async function init() {
+      // init status & canvas & ctx
+      status = document.querySelector("#status");
+      status.innerHTML = "... loading model ...";
+      canvas = document.querySelector("canvas");
+      canvas.width = width;
+      canvas.height = height;
+      ctx = canvas.getContext('2d');
 
-  // get the video
-  video = await setupVideo();
+      // get the video
+      video = await setupVideo();
 
-  // load ml5 objectDetector model
-  objectDetector = await ml5.objectDetector('cocossd', startDetecting)
-}
+      // load ml5 objectDetector model
+      objectDetector = await ml5.objectDetector('cocossd', startDetecting)
+    }
 
-function startDetecting(){
-  status.textContent = "Model ready";
-  detect();
-}
+    function startDetecting(){
+      status.textContent = "Model ready";
+      detect();
+    }
 
 function detect() {
   objectDetector.detect(video, (error, results) => {
