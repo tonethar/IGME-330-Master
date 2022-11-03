@@ -91,57 +91,57 @@
       detect();
     }
 
-function detect() {
-  objectDetector.detect(video, (error, results) => {
-    if(error){
-      console.log(error);
-      return
+    function detect() {
+      objectDetector.detect(video, (error, results) => {
+        if(error){
+          console.log(error);
+          return;
+        }
+        objects = results;
+
+        if(objects){
+          draw();
+          status.innerHTML = objects.map(obj => `<p><b>${obj.label}</b> - x: ${obj.x.toFixed(0)}, y: ${obj.y.toFixed(0)}, width: ${obj.width.toFixed(0)}, height: ${obj.height.toFixed(0)}, confidence: ${obj.confidence.toFixed(4)}</p>`).join("");
+        }else{
+          status.innerHTML = "... detecting ...";
+        }
+        // keep detecting!
+        detect();
+      });
     }
-    objects = results;
 
-    if(objects){
-      draw();
-      status.innerHTML = objects.map(obj => `<p><b>${obj.label}</b> - x: ${obj.x.toFixed(0)}, y: ${obj.y.toFixed(0)}, width: ${obj.width.toFixed(0)}, height: ${obj.height.toFixed(0)}, confidence: ${obj.confidence.toFixed(4)}</p>`).join("");
-    }else{
-      status.innerHTML = "... detecting ...";
+    function draw(){
+      ctx.save();
+      ctx.fillStyle = "black";
+      ctx.fillRect(0,0, width, height);
+
+      ctx.drawImage(video, 0, 0);
+      ctx.font = "16px Arial";
+      ctx.fillStyle = "red";
+      for (let i = 0; i < objects.length; i += 1) {
+        ctx.fillText(objects[i].label, objects[i].x + 4, objects[i].y + 16); 
+        ctx.beginPath();
+        ctx.rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
+        ctx.strokeStyle = "green";
+        ctx.stroke();
+        ctx.closePath();
+      }
+      ctx.restore();
     }
-    // keep detecting!
-    detect();
-  });
-}
 
-function draw(){
-  ctx.save();
-  ctx.fillStyle = "black";
-  ctx.fillRect(0,0, width, height);
+    // Helper Functions
+    async function setupVideo(){
+      const videoElement = document.querySelector("video");
+      videoElement.width = width;
+      videoElement.height = height;
 
-  ctx.drawImage(video, 0, 0);
-  ctx.font = "16px Arial";
-  ctx.fillStyle = "red";
-  for (let i = 0; i < objects.length; i += 1) {
-    ctx.fillText(objects[i].label, objects[i].x + 4, objects[i].y + 16); 
-    ctx.beginPath();
-    ctx.rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
-    ctx.strokeStyle = "green";
-    ctx.stroke();
-    ctx.closePath();
-  }
-  ctx.restore();
-}
+      // Create a webcam capture
+      const capture = await navigator.mediaDevices.getUserMedia({ video: true });
+      videoElement.srcObject = capture;
+      videoElement.play();
 
-// Helper Functions
-async function setupVideo(){
-	const videoElement = document.querySelector("video");
-  videoElement.width = width;
-  videoElement.height = height;
-
-  // Create a webcam capture
-  const capture = await navigator.mediaDevices.getUserMedia({ video: true })
-  videoElement.srcObject = capture;
-  videoElement.play();
-
-  return videoElement
-}
+      return videoElement;
+    }
   </script>
   </body>
 </html>
