@@ -191,6 +191,7 @@ ctx.fill();
 
 - **The dashes are 5px long, and the spaces between the dashes are 15px**
 - You can see some other patterns here --> https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
+- And `lineDashOffset` (for "marching ants") - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset
 
 ![triangle image](./_images/triangle-4.jpg)
 
