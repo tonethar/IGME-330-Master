@@ -262,7 +262,7 @@ biquadFilter.gain.setValueAtTime(25, audioCtx.currentTime);
 
 <hr>
 
-## VI. Breakout Rooms
+## ~~VI. Breakout Rooms~~
 
 - We are going to place you in breakout rooms!
 - Once you are in your room - first make sure that everyone has the examples above successfully running off of their PC's desktop
