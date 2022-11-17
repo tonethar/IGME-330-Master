@@ -58,7 +58,7 @@ Today we will review:
 		let img = new Image();
 		
 		// 2 - set up event handlers for the Image object
-		img.onload = _=>{
+		img.onload = () => {
 		  // 4 - when the image shows up, call `init(img)`
 		  callback(img)
 		};
