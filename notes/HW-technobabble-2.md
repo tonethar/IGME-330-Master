@@ -166,7 +166,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
   - maybe support those ancient android devices with a min-width of 240? (You can test that in the "responsive" mode of Chrome)
   - you could also support Phablets (large phones, bigger than an iPhone 8, and less than iPad sized)
   - or look at supporting Bulma's "fullhd" resolution, which is `1408px` and up
- - Make sure that you tell us what you did in the comments field of the dropbox
+ - ***Make sure that you tell us what you did in the comments field of the dropbox***
 
 <hr>
 
@@ -175,7 +175,7 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 - You should already know how to do this:
   - head to https://fonts.google.com/
   - pick something distinctive (*Open Sans* and *Roboto* need not apply)
-  - make sure that you tell us what you did in the comments field of the dropbox
+  - ***make sure that you tell us what you did in the comments field of the dropbox***
 
 <hr>
 
@@ -185,17 +185,6 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 - move your CSS to external folder and file named **styles/default-styles.css**  - you have done this before - use the `<link>` tag
 - PS and reminder - don't put the `<style>` or `<script>` tags in the external stylesheet or external JS file - it will break things 
 
-<hr>
-
-## V. Submission & Rubric
-- make sure everything still works!
-- make sure that all the files are in a containing folder
-- see myCourses for submission instructions
-- Rubric (out of 10 points):
-  - Parts I-IIC. are not complete (-1 to -10)
-  - Part IID not done (-5)
-  - Part III not done (-5)
-  - Part IV not done (-5)
 
 <hr><hr>
 
