@@ -155,6 +155,12 @@ V. [Reference](#reference)
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 
+<hr>
+
+## VI. End Note
+
+- To better turn off zooming on mobile, add `", maximum-scale=1.0"` to the viewport meta tag
+
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
