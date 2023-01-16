@@ -172,9 +172,10 @@ Let's go ahead and modify the CSS to improve the user experience on mobile devic
 
 ## III. Embed a font
 
+- Give the `<h1>` a distinctive `font-family`
 - You should already know how to do this:
   - head to https://fonts.google.com/
-  - pick something distinctive (*Open Sans* and *Roboto* need not apply)
+  - pick something *distinctive* (*Open Sans* and *Roboto* need not apply)
   - ***make sure that you tell us what you did in the comments field of the dropbox***
 
 <hr>
