@@ -115,9 +115,10 @@ Bella,Luna,Charlie,Lucy,Cooper,Max,Bailey,Daisy,Sadie,Lola,Buddy,Molly,Stella,Tu
 
 ## VI. Submission
 
-- Putting your files in a containing folder named  **ajax-1/** probably makes sense
-- See the dropbox for submission instructions
 - It is required that you utilize the "one-liner" way of rendering the HTML that we demoed in section III
+- Put your files in a ***containing folder*** named  **lastName-firstInitial-ajax-1**
+- ZIP and post this folder to the myCourses dropbox
+
 
 
 <hr><hr>
