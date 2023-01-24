@@ -10,7 +10,7 @@
 <hr>
 
 ## I. Start files
-- You might want to start by first making a copy of your **ajax-1/** folder from last time, and naming the copy **ajax-2/**
+- You will want to start by first making a copy of your **lastName-firstInitial-ajax-1** folder from last time, and naming the copy **lastName-firstInitial-ajax-2**
 - Go ahead and rename your completed HTML file from last time - from **xhr-get-text.html** to **xhr-get-csv.html** 
 - Below is the plain-text data file **pet-names.csv** that we will use this time
 - **pet-names.csv** contains popular dog and cat pet names on *separate lines*. The pet names are separated by commas
@@ -55,7 +55,7 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 
 ## VI. Submission
 
-- Putting your files in a containing folder named  **ajax-2/** probably makes sense
+- The containing folder must be named **lastName-firstInitial-ajax-2**
 - See the dropbox for submission instructions
 
 
