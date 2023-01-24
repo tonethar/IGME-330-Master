@@ -56,7 +56,7 @@ Oliver,Leo,Milo,Charlie,Simba,Max,Jack,Loki,Tiger,Jasper,Ollie,Oscar,George,Budd
 ## VI. Submission
 
 - The containing folder must be named **lastName-firstInitial-ajax-2**
-- See the dropbox for submission instructions
+- ZIP and post this folder to the myCourses dropbox
 
 
 <hr><hr>
