@@ -1,4 +1,4 @@
-# HW - Ajax-1 - loading and parsing text files
+# Ajax-1 - loading and parsing text files
 
 ## Overview
 
