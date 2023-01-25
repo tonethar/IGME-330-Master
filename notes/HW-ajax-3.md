@@ -69,7 +69,7 @@
 <hr>
 
 ## V. Submission
-
+- Make sure that your files are in a ***containing folder*** named  **lastName-firstInitial-ajax-3**
 
 <hr><hr>
 
