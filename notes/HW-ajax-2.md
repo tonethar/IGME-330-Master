@@ -1,4 +1,4 @@
-# HW - Ajax-2 - loading and parsing CSV files
+# Ajax-2 - loading and parsing CSV files
 
 ## Overview
 
