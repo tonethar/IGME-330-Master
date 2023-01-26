@@ -79,8 +79,7 @@ ES6 modules have 2 restrictions:
 	
 ## III. Try it out!
 	
-- A  zipped version is here --> [greeter.zip](_files/greeter.zip)
-- A live version is here --> http://igm.rit.edu/~acjvks/courses/shared/330/2215/greeter/
+- A  zipped version is here --> [greeter.zip](_files/statz.zip)
 
 <hr>
 
