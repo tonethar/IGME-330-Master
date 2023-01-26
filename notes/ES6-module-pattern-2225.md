@@ -79,7 +79,7 @@ ES6 modules have 2 restrictions:
 	
 ## III. Try it out!
 	
-- A  zipped version is here --> [greeter.zip](_files/statz.zip)
+- A  zipped version is here --> [statz.zip](_files/statz.zip)
 
 <hr>
 
