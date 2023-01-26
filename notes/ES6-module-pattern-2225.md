@@ -103,7 +103,7 @@ ES6 modules have 2 restrictions:
 <a id="section5" />
 
 ## V. Review Questions
-1. Define the software development term *loosely coupled*.
+1. Define the software development term [*loosely coupled*](https://en.wikipedia.org/wiki/Loose_coupling).
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
