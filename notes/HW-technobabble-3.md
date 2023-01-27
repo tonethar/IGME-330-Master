@@ -1,4 +1,4 @@
-# HW - Technobabble Generator III
+# Technobabble Generator III
 
 ## I. Goal
 
