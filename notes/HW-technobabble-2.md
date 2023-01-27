@@ -1,4 +1,4 @@
-# HW - Technobabble Generator II
+# Technobabble Generator II
 
 ## Overview & Video Walkthrough
 
