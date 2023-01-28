@@ -15,7 +15,8 @@
 - The button should be invisible by default - use CSS `display: none` to hide it
 - On screen sizes of `1408px` or higher, the button needs to be visible, so change the `display` property to something appropriate (`inline`, `inline-block`, or `block` should all work, depending on what you are trying to do)
 - In my example below, I moved the `#output` paragraph to be below the button(s) on all of the screen sizes, so that the multiple lines of text displayed better, but you can leave that HTML alone if you prefer
-- Once you have it working, both buttons MUST call the SAME function - named something like `generateTechno(num)`, passing in the number of technobabble that they want to be displayed
+  - P.S. You should change the `#output` `<p>` into a `<div>` instead
+- Once you have it working, both buttons MUST call the SAME function - named something like `generateTechno(num)`, passing in the number of technobabble that the user wants to be displayed
 
 <hr>
 
