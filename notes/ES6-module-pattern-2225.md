@@ -62,10 +62,10 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 ### II-B. \*\* Important Restrictions \*\*
 
 ES6 modules have 2 restrictions:
-- as of Spring 2023, they are supported by *recent versions* (the last 5 years or so) of all major browsers - see thesecompatibility charts: 
+- #1 - as of Spring 2023, they are supported by *recent versions* (the last 5 years or so) of all major browsers - see thesecompatibility charts: 
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
   - https://caniuse.com/es6-module
-- they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
+- #2 - they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
   - Most IDEs have a "Live Preview" or "Live Server" mode that launches a web server. Figure out how to get than working for your preferred tool:
     - VSCode Live Server:
       - https://ritwickdey.github.io/vscode-live-server/
