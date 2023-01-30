@@ -82,10 +82,11 @@ ES6 modules have 2 restrictions:
 ## III. Try it out!
 	
 - A zipped version is here --> [statz.zip](_files/statz.zip)
-- Remember than ES6 modules will only run off of a web server (VSCode's "Live Server" is the easiest way to do this)
-- Utilizing ES6 modules means you have less code floating around in global or "script" scope
-  - The "no module" version of Statz has 13 variables and functions in *script scope*
-  - But the "module" version of Statz has ONLY 6 variables and functions in *module scope*
+  - Remember than ES6 modules will only run off of a web server (VSCode's "Live Server" is the easiest way to do this)
+  - Utilizing ES6 modules means you have less code floating around in global or "script" scope
+    - The "no module" version of Statz has 13 variables and functions in *script scope*
+    - But the "module" version of Statz has ONLY 6 variables and functions in *module scope*
+- Now try out converting an app to ES6 modules --> [doubleIt.zip](_files/doubleIt.zip)
 
 <hr>
 
