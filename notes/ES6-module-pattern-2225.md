@@ -62,7 +62,7 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 ### II-B. \*\* Important Restrictions \*\*
 
 ES6 modules have 2 restrictions:
-- #1 - as of Spring 2023, they are supported by *recent versions* (the last 5 years or so) of all major browsers - see thesecompatibility charts: 
+- #1 - as of Spring 2023, they are supported by *recent versions* (the last 5 years or so) of all major browsers - see these compatibility charts: 
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Browser_compatibility)
   - https://caniuse.com/es6-module
 - #2 - they need be hosted on a web server to function, and thus won't work if opened from the desktop of your computer. How can you deal with this restriction?
