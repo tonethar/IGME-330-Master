@@ -1,4 +1,4 @@
-# HW - Ajax-4 - loading and parsing JSON files
+# Ajax-4 - loading and parsing JSON files
 
 ## Overview
 
