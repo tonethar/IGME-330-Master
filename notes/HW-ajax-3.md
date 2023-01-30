@@ -44,7 +44,7 @@
   - All XML elements must be properly nested
   - All XML documents must have a root element
   - Attribute values must always be quoted
-- When authoring your XML, make sure that you strictly follow these rules. Making even the slightest mistake, such as forgetting to close a tag, will mean that the file is well-formed valid XML and will therefore not be able to be parsed by `XHR`
+- When authoring your XML, make sure that you strictly follow these rules. Making even the slightest mistake, such as forgetting to close a tag, will mean that the file is NOT well-formed XML and will therefore not be able to be parsed by `XHR`
 - An easy way to be sure that your XML is well-formed is to open it up in a web browser like Chrome. If the XML file opens and there are no errors displayed in the browser window, your XML is considered well-formed, and you are all set.
 - N.B. - if we wanted our XML format to be more even more robust, we would also design an [XML *schema*](https://www.w3schools.com/xml/schema_intro.asp) - which is a set of rules about allowable tag names and attributes, legal values, required and optional attributes and so on. These rules allow an XML *validator* to check the *semantics* of your XML (similar to what HTML and CSS validators do). We are not going to worry about XML *validation*  in this simple example.
 	
