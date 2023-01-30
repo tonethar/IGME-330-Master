@@ -80,6 +80,7 @@ ES6 modules have 2 restrictions:
 ## III. Try it out!
 	
 - A  zipped version is here --> [statz.zip](_files/statz.zip)
+- Remember than ES6 modules will only run off of a web server (VSCode's "Live Server" is the easiest way to do this)
 
 <hr>
 
