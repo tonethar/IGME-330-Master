@@ -51,6 +51,7 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 - ES6 is the first time that JavaScript has built-in modules
 - ES6 modules are stored in files
 - ***There is exactly one module per file and one file per module***
+- ***All the variables and functions in a file are private to that file, unless explicitly exported***
 
 ### II-A. `export` and `import`
 [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
