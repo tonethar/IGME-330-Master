@@ -36,7 +36,9 @@
 
 <hr>
 
-- Here is our first attempt at encoding the pet names - not bad, but let's move on and see if we can do better
+- Here is our first attempt at encoding the pet names
+
+**data/simple-pet-names.json**
 
 ```json
 {
@@ -50,7 +52,6 @@
 - Here in an improved version, which has more information in it, for example, a `type`, a `popularity`, and a `title` for each set of names
 - Note that below we are using 4 of JSON's 6 data types: `object`, `string`, `number` and `array`
 - N.B. - I generated a random key (unique identifier) with this - and I shortened them to make the file easier to read -  https://www.guidgenerator.com/online-guid-generator.aspx
-- **USE THIS ONE:**
 
 **data/pet-names.json**
 
