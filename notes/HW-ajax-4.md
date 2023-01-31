@@ -37,7 +37,6 @@
 <hr>
 
 - Here is our first attempt at encoding the pet names - not bad, but let's move on and see if we can do better
-- *DO NOT USE THIS ONE:*
 
 ```json
 {
@@ -94,12 +93,8 @@
 - Write code so that the pet bird names are loaded from the JSON file, and will display on the screen the same as they did in Ajax-3
 - IMPORTANT: You can double-check that **pet-names.json** is still *well-formed* with this tool - https://jsonlint.com
 
-<hr>
 
-## V. Submission
 
-- We are not collecting this! 
-- Instead, use it as a resource to complete [HW - Technobabble Generator VI - JSON](HW-technobabble-6.md)
 
 <!--
 - Putting your files in a containing folder named **ajax-4/** probably makes sense
