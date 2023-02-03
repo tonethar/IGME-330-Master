@@ -57,8 +57,8 @@ We will demo how to draw a variety of shapes in class. Below are some possibile 
 
 ## V. Check it off!
 - Modify the above "screen saver" in some significant ways (so that it draws differently/looks different)
-- ZIP & POST file in myCourses dropbox
-- In comments field of dropbox, tell us what changes you made
+- Rename **cs-canvas-3.html** to ***lastName-firstInitial*-cs-canvas-3.html**
+- Move on to the next skill!
 
  
  
