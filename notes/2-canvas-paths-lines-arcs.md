@@ -3,7 +3,7 @@
 ## 0. Video & HW
 
 - The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part II (10:26)](https://video.rit.edu/Watch/330-essential-skills-2)
-- See the HW assignment at the bottom of the page (Part III.)
+- See the assignment at the bottom of the page (Part III.)
 
 <hr>
 
