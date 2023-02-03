@@ -128,10 +128,9 @@ function canvasClicked(e){
 
 ## VI. Check it off!
 
-- ZIP & POST file in myCourses dropbox
 - Rubric:
-  - (-3) **Play** button still broken - i.e. *spamming the **Play** button still speeds up the animation*
-  - (-5 each) Other broken controls or functionality
+  - (-20%) **Play** button still broken - i.e. *spamming the **Play** button still speeds up the animation*
+  - (-20% each) Other broken controls or functionality
 
 <hr><hr>
 
