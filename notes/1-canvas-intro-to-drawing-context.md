@@ -159,8 +159,22 @@
   - in the comments field of the dropbox, describe the changes you made
 - Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
 - ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox
-- Put the answers to the following questions into the comments field of the dropbox (-10% for each incorrect answer):
-  
+- Put the answers to the following 5 questions into the comments field of the dropbox (-10% for each incorrect answer):
+ 
+1 - List the 3 drawing state *properties* we used in this demo
+ 
+2 - List the 2 drawing state *methods* we used in this demo
+ 
+3 - Give 4 different ways to represent the color *green* as a color in the canvas API
+ 
+4 - Write the one line of code that will change the current fill color to *green*
+
+5 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
+
+<hr>
+
+## VI. Other review questions we'll go over in class
+
 1 - True or False. The canvas API was invented by Apple Computer
  
 2 - True or False. The canvas API is hardware accelerated on most modern browsers
@@ -170,16 +184,6 @@
 4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
 
 5 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
- 
-6 - List the 3 drawing state *properties* we used in this demo
- 
-7 - List the 2 drawing state *methods* we used in this demo
- 
-8 - Give 4 different ways to represent the color *green* as a color in the canvas API
- 
-9 - Write the one line of code that will change the current fill color to *green*
-
-10 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
 
 
 <hr><hr>
