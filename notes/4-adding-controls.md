@@ -131,6 +131,8 @@ function canvasClicked(e){
 - Rubric:
   - (-20%) **Play** button still broken - i.e. *spamming the **Play** button still speeds up the animation*
   - (-20% each) Other broken controls or functionality
+- Rename **cs-canvas-4.html** to ***lastName-firstInitial*-cs-canvas-4.html**
+- Move on to the next skill!
 
 <hr><hr>
 
