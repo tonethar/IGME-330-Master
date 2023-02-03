@@ -19,8 +19,8 @@
   - it will have `x1`, `y1`, `x2`, and `y2` parameters (e.g. the start and end points of the line)
   - the default `lineWidth` will be `1`
   - test code:
-  - `drawLine(ctx,0,100,640,300)` draws a 1-pixel thick black line
-  - `drawLine(ctx,0,100,640,300,10,"coral")` draws a 10-pixel thick coral line
+    - `drawLine(ctx,0,100,640,300)` draws a 1-pixel thick black line
+    - `drawLine(ctx,0,100,640,300,10,"coral")` draws a 10-pixel thick coral line
 - `drawRandomArc()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawArc(...)`
 - `drawRandomLine()` will function similarly to `drawRandomRect()`:
