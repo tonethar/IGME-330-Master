@@ -159,7 +159,7 @@
   - in the comments field of the dropbox, describe the changes you made
 - Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
 - ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox
-- Put the answers to the following questions into the comments field of the dropbox (-1 point for each incorrect answer):
+- Put the answers to the following questions into the comments field of the dropbox (-10% for each incorrect answer):
   
 1 - True or False. The canvas API was invented by Apple Computer
  
