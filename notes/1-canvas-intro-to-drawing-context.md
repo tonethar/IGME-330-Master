@@ -157,8 +157,8 @@
 - Add at least 2 more rectangles to the **cs-canvas-1.html** canvas using both `ctx.fillRect()` and `ctx.strokeRect()`:
   - make sure that the `ctx.strokeStyle` and `ctx.fillStyle` are set so that we can see these new rectangles
   - in the comments field of the dropbox, describe the changes you made
-- Rename **cs-canvas-1.html** to **lastName-firstInitial-cs-canvas-1.html**
-- ZIP and POST **lastName-firstInitial-cs-canvas-1.html** into the dropbox
+- Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
+- ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox
 - Put the answers to the following questions into the comments field of the dropbox (-1 point for each incorrect answer):
   
 1 - True or False. The canvas API was invented by Apple Computer
