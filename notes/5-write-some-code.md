@@ -11,6 +11,9 @@
 - `drawArc(...)` will be similar to `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")` except:
   - it will have a `radius` parameter instead of `width` and `height`
   - it will also have *optional* parameters for `startAngle` and `endAngle`, and these withh default to `0` and `Math.PI *2` respectively
+  - test code: 
+    - `drawArc(ctx,100,100,50,"red")` - will draw a 50 radius red circle at 100,100
+    - `drawArc(ctx,100,100,50,"green",10,"pink",0,Math.PI)` - now that circle is a semi-circle, green, and has a 10-pixel thick pink stroke
 - `drawLine()` will be similar to `drawRectangle(ctx,x,y,width,height,fillStyle="black",lineWidth=0,strokeStyle="black")` except:
   - it will not need `fillStyle` or `width` or `height` parameters
   - it will have `x1`, `y1`, `x2`, and `y2` parameters (e.g. the start and end points of the line)
@@ -21,7 +24,7 @@
   - except that it will call `drawLine(...)`
 - Hints:
   - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
-  - test your code frequently, at each step, just like we did in the last part
+  - test your code frequently, at each step, just like we did in the last part - you will likely need to pause the animation in order to see your new drawing
   - In any of the helper functions that do drawing, be sure that you have calls to `ctx.save()` and `ctx.restore()`
   - (*you don't have to do this, but in my completed version below I gave all of the circles a low opacity by using `ctx.globalAlpha=0.3;`*)
 
