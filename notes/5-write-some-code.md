@@ -4,7 +4,6 @@
 - There isn't a video this time
 - Make a copy of **cs-canvas-4.html** and name it **cs-canvas-5.html**
 - You are going to add code and functionality to **cs-canvas-5.html**
-- In any of the functions that do drawing, be sure that you have a call to `ctx.save()` and `ctx.restore()`
 
 <hr>
 
@@ -23,11 +22,12 @@
 - Hints:
   - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
   - test your code frequently, at each step, just like we did in the last part
-  - you don't have to do this, but in my completed version below I gave all of the circles a low opacity by using `ctx.globalAlpha=0.3;`
+  - In any of the helper functions that do drawing, be sure that you have calls to `ctx.save()` and `ctx.restore()`
+  - (*you don't have to do this, but in my completed version below I gave all of the circles a low opacity by using `ctx.globalAlpha=0.3;`*)
 
 <hr>
 
-## III. Required functionality
+## III. Required new functionality
 - there will be 2 more checkboxes called "Draw Arcs" and "Draw Lines":
   - when these are checked, random arcs and lines will be drawn using the above methods
 - there will be a "Clear Screen" button:
@@ -51,7 +51,7 @@
 
 ## VI. Submission
 
-- ZIP and POST to the dropbox
+- Rename **cs-canvas-5.html** to ***lastName-firstInitial*-cs-canvas-5.html**
 
 <hr><hr>
 
