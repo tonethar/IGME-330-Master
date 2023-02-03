@@ -1,6 +1,6 @@
 # Canvas 2D Essential Skills #4 - Adding Controls
 
-## 0. Video & HW
+## 0. Video & Instructions
 
 - The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part IV (17:26)](https://video.rit.edu/Watch/330-essential-skills-4)
 - See the HW assignment at the bottom of the page (Part VI.)
