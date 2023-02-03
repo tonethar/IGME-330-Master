@@ -26,7 +26,6 @@
 - `drawRandomLine()` will function similarly to `drawRandomRect()`:
   - except that it will call `drawLine(...)`
 - Hints:
-  - similar to `createRectangles`, you will need `createArcs` and `createLines` variables
   - test your code frequently, at each step, just like we did in the last part - you will likely need to pause the animation in order to see your new drawing
   - In any of the helper functions that do drawing, be sure that you have calls to `ctx.save()` and `ctx.restore()`
   - (*you don't have to do this, but in my completed version below I gave all of the circles a low opacity by using `ctx.globalAlpha=0.3;`*)
@@ -36,6 +35,7 @@
 ## III. Required new functionality
 - there will be 2 more checkboxes called "Draw Arcs" and "Draw Lines":
   - when these are checked, random arcs and lines will be drawn using the above methods
+  - hint: similar to `createRectangles`, you will need `createArcs` and `createLines` boolean variables
 - there will be a "Clear Screen" button:
   - when clicked it will clear out all of the existing drawing:
     - you can use `ctx.fillRect()` or just `ctx.fill()` a canvas-sized rectangle with a solid color
