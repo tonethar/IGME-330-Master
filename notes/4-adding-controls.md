@@ -8,7 +8,7 @@
 <hr>
 
 ## I. Overview
-- Here we will interactivity to our screen saver:
+- Here we will add interactivity to our screen saver:
   - Play/Pause buttons
   - The ability to click on the screen to "spray paint" on the canvas
   - A checkbox to turn rectangle creation on and off
