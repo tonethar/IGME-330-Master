@@ -50,7 +50,6 @@
   - Add 1 line to **cs-canvas-2.html**, make it 600 pixels long and give it a width of 20 pixels
 - Rename **cs-canvas-2.html** to ***lastName-firstInitial*-cs-canvas-2.html**
 - Then ZIP and POST ***lastName-firstInitial*-cs-canvas-2.html** to myCourses
-- Don't post this to banjo! We'll make better looking stuff soon!
 
 <hr><hr>
 
