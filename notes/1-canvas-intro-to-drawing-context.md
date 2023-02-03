@@ -1,6 +1,6 @@
 # Canvas 2D Essential Skills 1 - Intro to the Drawing Context
 
-## 0. Video & HW
+## 0. Video & Assignment
 
 - The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part I (09:42)](https://video.rit.edu/Watch/330-essential-skills-1)
 - See the HW assignment at the bottom of the page (Part V.)
