@@ -1,9 +1,9 @@
 # Canvas 2D Essential Skills #3 - Begin making a screensaver
 
-## 0. Video & HW
+## 0. Video & Instructions
 
 - The video for this lecture, which walks through the notes and adds a few details, is here --> [Essential Skills - Part III (07:08)](https://video.rit.edu/Watch/330-essential-skills-3)
-- See the HW assignment at the bottom of the page (Part V.)
+
 
 <hr>
 
