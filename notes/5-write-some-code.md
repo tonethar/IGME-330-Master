@@ -40,6 +40,7 @@
   - when clicked it will clear out all of the existing drawing:
     - you can use `ctx.fillRect()` or just `ctx.fill()` a canvas-sized rectangle with a solid color
     - or you could use `ctx.clearRect()`
+    - or you can use `drawRectangle()`
 
 <hr>
 
