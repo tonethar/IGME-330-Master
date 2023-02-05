@@ -228,7 +228,7 @@ ctx.fill();
 
 <hr>
 
-## X. Optional Activities (in lieu of HW)
+## X. Optional Activities
 - In your screensaver:
   - create a `drawPolygon()` function, and add parameters for `lineJoin` and `lineDash`
   - create a `drawRoundedRect()` function similar to the example linked above
