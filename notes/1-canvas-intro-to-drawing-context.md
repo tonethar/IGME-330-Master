@@ -175,7 +175,7 @@
 
 ## VI. Other review questions we'll go over in class
 
-1 - True or False. The canvas API was invented by Apple Computer
+1 - True or False. The canvas API was invented by Apple Computer (aka Apple Inc.)
  
 2 - True or False. The canvas API is hardware accelerated on most modern browsers
  
