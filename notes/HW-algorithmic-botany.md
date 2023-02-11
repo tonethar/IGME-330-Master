@@ -193,3 +193,12 @@
  - #4 - In the HTML file, so that it's visible in the browser window:
    - document the changes you made for #2
    - describe what your control does
+
+<hr>
+
+### V-A. Tips
+
+
+### V-B. Screenshots
+
+![Screenshot](_images/HW-algorithmic-botany-3.png)
