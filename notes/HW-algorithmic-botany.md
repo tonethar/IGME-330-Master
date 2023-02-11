@@ -33,7 +33,7 @@
 
 <hr>
 
-2. Create a "script scoped" variable named `n` that keeps track of the number of dots (florets) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
+2. Create a "script scoped" variable named `n` that keeps track of the number ("generation") of each dot ("floret") as we draw them. "Script scoped" means that it is declared at the "top level" outside of any functions.
 
     `let n = 0;`
 
