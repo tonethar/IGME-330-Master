@@ -198,7 +198,30 @@
 
 ### V-A. Tips
 
+- Here is the HTML I used for my divergence `<select>` 
+  - you will need to write an `onchange` event handler for this control, and grab its `.value` whenever it changes
+  - Power-tip: 
+    - more than likely your JS needs to get a *numeric* value from the form field, but form values are always of type *string*
+    - what to do? Convert the string to a `Number` before your JS uses it
 
-### V-B. Screenshots
+```html
+<div id="controls">
+	<label>Divergence Angle</label>
+	<select id="ctrl-divergence">
+		<option value="137.1">137.1</option>
+		<option value="137.3">137.3</option>
+		<option value="137.5" selected>137.5</option>
+		<option value="137.7">137.7</option>
+		<option value="137.7">137.9</option>
+	</select>
+	<button id="btn-restart">Restart App</button>
+</div>
+```
+
+- PS - Your version can modify the *divergance angle* as I did above, or can do something else instead
+
+<hr>
+
+### V-B. Screenshot
 
 ![Screenshot](_images/HW-algorithmic-botany-3.png)
