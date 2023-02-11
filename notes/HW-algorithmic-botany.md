@@ -39,7 +39,7 @@
     `const divergence = 137.5;`
 
 
-4. Now create a `loop()` function that looks like this, and call it from the end of the `init()` function:
+4. Now create a `loop()` function that looks like this
 
     ```js
      function loop(){
@@ -49,9 +49,10 @@
        n++;
     }
     ```
+    
+   - to kick off the animation, you will also add a call to `loop()` at the end of the `init()` function
 
-
-5. Each frame we need to draw a new dot (floret) by calculating its polar coordinates (a distance from the center "pole" - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
+5. Each frame we need to draw a new dot (floret) by calculating its [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system) (a distance from the center "pole" - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
 
     ```js
     // each frame draw a new dot
