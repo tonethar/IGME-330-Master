@@ -1,4 +1,4 @@
-# HW - Random Walker
+# Random Walker
 
 Random walks are a process consisting of a sequence of steps of whose characteristics (such as magnitude and direction) is determined by chance - https://en.wikipedia.org/wiki/Random_walk
 
