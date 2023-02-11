@@ -143,7 +143,7 @@
 
 ## IV. A few enhancements
 
-1. Let's try changing the **RGB** color based on the value of `n` - the "age" of a floret basically - run the code and see the changes:
+1. Let's try changing the **RGB** color based on the value of `n` - which is the "generation" or "age" of a floret basically - and run the code to see the changes:
 
     ```js
     let color = `rgb(${n % 256},0,255)`;
