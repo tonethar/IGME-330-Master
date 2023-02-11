@@ -20,7 +20,7 @@
 ## III. Demo Instructions
 
 - For an overview of what we are building and how it works, watch the video - Coding Train [Coding Challenge #30: Phyllotaxis (11:01)](https://thecodingtrain.com/tracks/algorithmic-botany/30-phyllotaxis)
-- Grab the start file from [HW-sine-wave.md](./HW-sine-wave.md), name it **phyllotaxis-1.html**, and start coding!
+- Grab the start file from [Animated Sine Wave](./HW-sine-wave.md), name it **phyllotaxis-1.html**, and start coding!
 
 <hr>
 
