@@ -121,7 +121,7 @@
 
 <hr>
 
-10. We've done enough so that we can now draw the dots - by calling our helper function - here it is:
+10. We've done enough so that we can now draw the dots - by calling our helper function - here it is - go ahead and add the following to `loop()`:
 
     ```js
     drawCircle(ctx,x,y,2,"white");
