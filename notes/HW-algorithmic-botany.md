@@ -179,7 +179,7 @@
 ## V. Try it!
 
 - Convert some of the ["magic numbers"](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants) (unnamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
-- Crank up the framerate - can you get the FPS to 120?
+- Crank up the framerate - 60 FPS makes things happen a little faster
 - Come up with something cool - here are some ideas, or come up with your own:
   - change the values of `c` and `divergence`, one at a time, and see what happens:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
