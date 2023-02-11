@@ -189,7 +189,7 @@
   - for some meaningful divergence angles, see page 101 of this PDF: http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
- - #3 - ***Add at least one user control - below I created a `<select>` that allows the user to
+ - #3 - ***Add at least one user control - below I created a `<select>` that allows the user to***
  - #4 - In the HTML file, so that it's visible in the browser window:
    - document the changes you made for #2
    - describe what your control does
