@@ -28,16 +28,19 @@
 
     - Reload the page, and you should see a black 400 x 300 rectangle filling the canvas
 
+<hr>
 
 2. Create a "script scoped" variable named `n` that keeps track of the number of dots (florets) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
 
     `let n = 0;`
 
+<hr>
 
 3. Also go ahead and declare the "divergence angle" in script scope:
 
     `const divergence = 137.5;`
 
+<hr>
 
 4. Now create a `loop()` function that looks like this
 
@@ -52,6 +55,8 @@
     
    - to kick off the animation, you will need to add a call to `loop()` at the end of the `init()` function
 
+<hr>
+
 5. Each frame we need to draw a new dot (floret) by calculating its [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system) (a distance from the center "pole" - `r` below, and an angle `a` below). Add the following to the top of `loop()` - after the call to `setTimeout()`:
 
     ```js
@@ -64,12 +69,15 @@
     console.log(a,r);
     ```
 
+<hr>
 
 6. `c` is a "script scoped" variable - go declare and initialize it now:
 
     `const c = 4;`
 
    - NB - `c` is the "constant scaling parameter" mentioned in the paper above - it's basically the *padding* between the florets (later on, changing this value or slowly increasing it gives interesting results)
+
+<hr>
 
 7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this:
 
@@ -83,6 +91,8 @@
 
     - Comment out the `console.log()` when you are done
 
+<hr>
+
 8. Now let's use these polar coordinates (angle and rotation) to calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
 
     ```js
@@ -92,6 +102,7 @@
     console.log(x,y);
     ```
 
+<hr>
 
 9. Run this in the browser, and check the console to be sure you're getting the `x` and `y` logged out. You should be seeing numbers something like this:
 
@@ -104,22 +115,28 @@
     ```
 
     - Comment out the `console.log()` when you are done
-    
-10. We've done enough so that we can now draw the dots by calling our helper function - here it is:
+
+<hr>
+
+10. We've done enough so that we can now draw the dots - by calling our helper function - here it is:
 
     ```js
     drawCircle(ctx,x,y,2,"white");
     ```
 
+<hr>
 
 11. Run the app. You should see something like this.
 
 ![Screenshot](_images/HW-algorithmic-botany-1.jpg)
 
+<hr>
 
 12. If your code isn't co-operating, compare your `loop()` to this version.
 
 ![Screenshot](_images/HW-algorithmic-botany-2.jpg)
+
+<hr>
 
 ## IV. A few enhancements
 
@@ -130,13 +147,15 @@
     drawCircle(ctx,x,y,2,color);
     ```
     
-  
+<hr>
+
 2. Try this for `color` instead - here we are changing **RGB** based on the angle of the dot:
 
     ```js
     let aDegrees = (n * divergence) % 256;
     let color = `rgb(${aDegrees},0,255)`;
     ```
+<hr>
 
 3. Here we can vary the hue in **HSL** (Hue-Saturation-Lightness) based on what quadrant the floret is located in. Recall that the first argument of **HSL**, the hue, is a value between 0 and 360:
 
@@ -145,13 +164,17 @@
     let color = `hsl(${aDegrees},100%,50%)`;
     ```
 
-- P.S. Try out the **HSL** color picker here: https://www.w3schools.com/colors/colors_hsl.asp
- 
+    - P.S. Try out the **HSL** color picker here: https://www.w3schools.com/colors/colors_hsl.asp
+
+<hr>
+
 4. Here we slowly ramp the hue based on the value of `n`
 
     ```js
     let color = `hsl(${n/5 % 361},100%,50%)`;
     ```
+
+<hr>
 
 ## V. Try it!
 
