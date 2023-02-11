@@ -6,7 +6,7 @@
  - In botany, phyllotaxy is the arrangement of leaves on a plant stem - these spirals form a distinctive class of patterns in nature.
  - Today we'll look at one of the [Coding Train's coding challenges written for JS/Processing](https://thecodingtrain.com/tracks/algorithmic-botany/30-phyllotaxis), and port it to JS/Canvas.
  - *Thanks to Daniel Shiffman and the Coding Train for creating all of those videos!*
- - One of these "Algorithmic Botany" videos would be a great "starter" for Project 2!
+ - One of these "Algorithmic Botany" videos would be a great "starter" for a personal "passion project"!
  
 ## II. Lecture Resources
  - https://en.wikipedia.org/wiki/Phyllotaxis
