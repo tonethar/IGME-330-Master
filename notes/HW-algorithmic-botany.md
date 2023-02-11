@@ -26,7 +26,7 @@
 
 1. Add your `window.onload = init;` call to the right place.
 
-    - Relaod the page, and you should see a black 400 x 300 rectangle filling the canvas
+    - Reload the page, and you should see a black 400 x 300 rectangle filling the canvas
 
 
 2. Create a "script scoped" variable named `n` that keeps track of the number of dots (florets) as we draw them. "script scoped" means that it is declared at the "top level" outside of any functions.
