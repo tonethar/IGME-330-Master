@@ -1,4 +1,4 @@
-# HW - Algorithmic Botany
+# Algorithmic Botany
 
 
 ## I. Overview
