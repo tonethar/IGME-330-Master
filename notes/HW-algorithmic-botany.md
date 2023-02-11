@@ -7,7 +7,9 @@
  - Today we'll look at one of the [Coding Train's coding challenges written for JS/Processing](https://thecodingtrain.com/tracks/algorithmic-botany/30-phyllotaxis), and port it to JS/Canvas.
  - *Thanks to Daniel Shiffman and the Coding Train for creating all of those videos!*
  - One of these "Algorithmic Botany" videos would be a great "starter" for a personal "passion project"!
- 
+
+<hr>
+
 ## II. Lecture Resources
  - https://en.wikipedia.org/wiki/Phyllotaxis
  - http://www.algorithmicbotany.org
@@ -16,7 +18,8 @@
    - (page 100) - the formula we will use to obtain the [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system) of successive florets
    - (page 101) - an image showing the results of distinct `divergence` values
  
- 
+<hr>
+
 ## III. Demo Instructions
 
 - For an overview of what we are building and how it works, watch the video - Coding Train [Coding Challenge #30: Phyllotaxis (11:01)](https://thecodingtrain.com/tracks/algorithmic-botany/30-phyllotaxis)
