@@ -1,4 +1,4 @@
-# HW - Lorenz Attractor
+# Lorenz Attractor
 
 ## I. Overview
 
