@@ -71,7 +71,7 @@
 
    - NB - `c` is the "constant scaling parameter" mentioned in the paper above - it's basically the *padding* between the florets (later on, changing this value or slowly increasing it gives interesting results)
 
-7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this (comment out the `console.log()` when you are done):
+7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this:
 
     ```
     0 0
@@ -81,6 +81,7 @@
     9.599310885968812 8
     ```
 
+    - Comment out the `console.log()` when you are done
 
 8. Now let's use these polar coordinates (angle and rotation) to calculate the `x` and `y`. To draw everything relative to the center of the window we will add half the width and height of the window to the `x` and `y`. Go ahead and add the following to `loop()`:
 
@@ -92,7 +93,7 @@
     ```
 
 
-9. Run this in the browser, and check the console to be sure you're getting the `x` and `y` logged out. You should be seeing numbers something like this (comment out the `console.log()` when you are done):
+9. Run this in the browser, and check the console to be sure you're getting the `x` and `y` logged out. You should be seeing numbers something like this:
 
     ```
     200 150
@@ -102,7 +103,8 @@
     192.12153797590233 148.61081457866456
     ```
 
-
+    - Comment out the `console.log()` when you are done
+    
 10. We've done enough so that we can now draw the dots by calling our helper function - here it is:
 
     ```js
