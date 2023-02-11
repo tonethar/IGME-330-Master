@@ -69,6 +69,7 @@
 
     `const c = 4;`
 
+   - c is the "constant scaling parameter" mentioned in the paper above - it's basically the *padding* between the florets (later on, changing this value or slowly increasing it gives interesting results)
 
 7. Run this in the browser, and check the console to be sure you're getting the angle (in radians) and radius logged out. You should be seeing numbers something like this (comment out the `console.log()` when you are done):
 
