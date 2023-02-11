@@ -157,7 +157,3 @@
   - for some meaningful divergence angles, see page 101 of this PDF: http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
-
-## VI. Submission
- 
- - See dropbox for submission instructions
