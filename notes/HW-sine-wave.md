@@ -1,4 +1,4 @@
-# HW - Sine Wave
+# Animated Sine Waves
 
 ## I. Overview
 - As we know from Trigomometry, the *sine function* is the ratio of the length of the side that is opposite that angle to the length of the longest side of the triangle (the hypotenuse).
