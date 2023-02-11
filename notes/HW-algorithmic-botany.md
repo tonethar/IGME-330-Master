@@ -199,10 +199,10 @@
 ### V-A. Tips
 
 - Here is the HTML I used for my divergence `<select>` 
-  - you will need to write an `onchange` event handler for this control, and grab its `.value` whenever it changes
-  - Power-tip: 
+  - you will need to write an `onchange` JS event handler for this control, and grab its `.value` whenever it changes
+  - **Power-Tip**: 
     - more than likely your JS needs to get a *numeric* value from the form field, but form values are always of type *string*
-    - what to do? Convert the string to a `Number` before your JS uses it
+    - what to do? Convert the string to a `Number` before your JS uses it!
 
 ```html
 <div id="controls">
