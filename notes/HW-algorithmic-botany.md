@@ -179,13 +179,17 @@
 
 <hr>
 
-## V. Try it!
+## V. Now DO it!
 
 - Convert some of the ["magic numbers"](https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants) (unnamed literals like the radius of the drawn dot, and the fps of the app) to variables or constants
-- Crank up the framerate - 60 FPS makes things happen a little faster
-- Come up with something cool - here are some ideas, or come up with your own:
+- #1 - Crank up the framerate - 60 FPS makes things happen a little faster
+- #2 - Come up with something cool - here are some ideas, or come up with your own:
   - change the values of `c` and `divergence`, one at a time, and see what happens:
   - in `loop()`, slowly ramp up the values of  `c` and `divergence`, and of the radius of the florets
   - for some meaningful divergence angles, see page 101 of this PDF: http://www.algorithmicbotany.org/papers/abop/abop-ch4.pdf
   - periodically clear the screen and start over
   - draw a flower wherever the user clicks on the screen 
+ - #3 - ***Add at least one user control - below I created a `<select>` that allows the user to
+ - #4 - In the HTML file, so that it's visible in the browser window:
+   - document the changes you made for #2
+   - describe what your control does
