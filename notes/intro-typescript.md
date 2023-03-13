@@ -137,7 +137,8 @@ module.exports = {
       "target": "ES5",
       "module": "ES6",
       "sourceMap": true
-  }
+  },
+  "include": ["src/**/*"]
 }
 ```
 
