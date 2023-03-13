@@ -87,12 +87,12 @@ let color2:RgbColor = "yellow"; // ERROR
 
     - #1 - generate a package.json file
       - `npm init -y`
-    - #2 - install typescript (note: `-D` is the shortcut for `--save-dev`)
-      - `npm install -D typescript`
+    - #2 - install typescript (note: `i` is short for `install` and `-D` is the shortcut for `--save-dev`)
+      - `npm i -D typescript`
     - #3 - install webpack & webpack-cli
-      - `npm install -D webpack webpack-cli ts-loader`
+      - `npm i -D webpack webpack-cli ts-loader`
     - #4 - install webpack-dev-server
-      - `npm install -D webpack-dev-server`
+      - `npm i -D webpack-dev-server`
 
 <hr>
 
