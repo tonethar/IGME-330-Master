@@ -84,16 +84,15 @@ let color2:RgbColor = "yellow"; // ERROR
 - In a console app (Terminal, GitBash etc) `cd` into the **greeter-modules-ts** folder
 - Let's install these packages by typing some code (ONE line at a time):
 
-```bash
-// 1 - generate a package.json file
-npm init -y
-// 2 - install typescript
-npm install --save-dev typescript
-// 3 - install webpack & webpack-cli
-npm install --save-dev webpack webpack-cli ts-loader
-// 4 - install webpack-dev-server
-npm install --save-dev webpack-dev-server
-```
+
+- #1 - generate a package.json file
+  `npm init -y`
+- #2 - install typescript
+  - `npm install --save-dev typescript`
+- #3 - install webpack & webpack-cli
+  - `npm install --save-dev webpack webpack-cli ts-loader`
+- #4 - install webpack-dev-server
+  - `npm install --save-dev webpack-dev-server`
 
 <hr>
 
