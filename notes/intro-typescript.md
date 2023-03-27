@@ -52,6 +52,13 @@ interface Car {
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
 let car2:Car = {make:"Chevy"}; // ERROR
 
+// enum
+enum CarMake{
+  Chevy,
+  Ford,
+  Chrysler
+}
+
 // union type
 type RgbColor = "red" | "green" | "blue"; 
 let color1:RgbColor = "red";
