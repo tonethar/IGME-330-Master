@@ -17,6 +17,10 @@
 - We'll look at:
   - *explicit* typing
   - *implicit* typing
+  - interfaces
+  - enumerations
+  - strong typing of variables
+  - strong typing of function parameters and return types
 
 - **"Starter" JS code we can add type annotations to:**
 ```js
