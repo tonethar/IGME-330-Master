@@ -102,9 +102,14 @@ let arthur: NPC = {name: "Arthur", alignment: Alignment.law };
 //let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
 
 // VI. union type
+// only used at compile time
+// here is a union type of string literals
 type RgbColor = "red" | "green" | "blue"; 
 let color1:RgbColor = "red";
 //let color2:RgbColor = "yellow"; // ERROR
+
+// the union type also lets a value be of more than one type.
+const formatHighScore = (val: string | number):string => `Your score is ${val}`;
 ```
 
 <hr>
