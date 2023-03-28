@@ -95,12 +95,12 @@ interface NPC{
 }
 
 let arthur: NPC = {name: "Arthur", alignment: Alignment.law };
-let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
+//let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
 
-// union type
+// VI. union type
 type RgbColor = "red" | "green" | "blue"; 
 let color1:RgbColor = "red";
-let color2:RgbColor = "yellow"; // ERROR
+//let color2:RgbColor = "yellow"; // ERROR
 ```
 
 <hr>
