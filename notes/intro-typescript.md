@@ -75,12 +75,20 @@ interface Car {
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
 //let car2:Car = {make:"Chevy"}; // ERROR
 
-// enum
-enum CarMake{
-  Chevy,
-  Ford,
-  Chrysler
+// V. Enumerations
+enum Alignment{
+  law,
+  chaos,
+  neutral
 }
+
+interface NPC{
+  name: string,
+  alignment:  Alignment
+}
+
+let arthur: NPC = {name: "Arthur", alignment: Alignment.Law };
+let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
 
 // union type
 type RgbColor = "red" | "green" | "blue"; 
