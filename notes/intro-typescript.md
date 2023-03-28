@@ -41,6 +41,7 @@ const defaultName = "Mr. X"; // will be implicitly typed as a `string`
 let temp = "utils.js temp value"; // will be implicitly typed as a `string`
 //temp = 99 // ERROR
 
+
 // III. Function parameters and return types can be typed too
 // Go ahead and "fix" these 2 functions
 const doubleIt = (val) =>  val * 2;
