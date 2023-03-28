@@ -31,13 +31,18 @@ let c: boolean;
 let d: Date;
 let e: string[]; // an array of strings
 //a = "Fred" // ERROR
+e = ["Scooby"];
+//e.push(99); // ERROR
 
 
 // II. Implicitly (i.e. "automatically") typing variables
 const meaningOfLife = 42; // will be implicitly typed as a `number`
 const defaultName = "Mr. X"; // will be implicitly typed as a `string`
 let temp = "utils.js temp value"; // will be implicitly typed as a `string`
+//temp = 99 // ERROR
 
+// III. Function parameters and return types can be typed too
+// Go ahead and "fix" these 2 functions
 const doubleIt = (val) =>  val * 2;
 
 const formatGreeting = (greeting, name, forcefully) => {
