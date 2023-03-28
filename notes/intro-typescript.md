@@ -41,7 +41,9 @@ const defaultName = "Mr. X"; // will be implicitly typed as a `string`
 let temp = "utils.js temp value"; // will be implicitly typed as a `string`
 //temp = 99 // ERROR
 let date = new Date("01-01-2001");
-// date = "01-01-2001"; // ERROR
+//date = "01-01-2001"; // ERROR
+date = new Date()
+console.log("date",date) // click the Run button to see the code execute 
 
 
 // III. Function parameters and return types can be typed too
