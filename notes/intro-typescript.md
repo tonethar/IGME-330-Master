@@ -24,6 +24,15 @@
 
 - **"Starter" JS code we can add type annotations to:**
 ```js
+// Explicitly typing variables
+let a: number;
+let b: string;
+let c: boolean;
+let d: Date;
+let e: string[]; // an array of strings
+a = "Fred" // ERROR
+
+
 const meaningOfLife = 42; // will be implicitly typed as a `number`
 const defaultName = "Mr. X"; // will be implicitly typed as a `string`
 let temp = "utils.js temp value"; // will be implicitly typed as a `string`
