@@ -22,6 +22,7 @@
   - interfaces
   - enumerations
   - unions
+  - type assertions
 
 - **"Starter" JS code we can add type annotations to:**
 ```js
@@ -114,6 +115,16 @@ let color1:RgbColor = "red";
 const formatScore = (val: string | number) => `Your score is ${val}`;
 console.log(formatScore(100));
 console.log(formatScore("100"));
+```
+
+- **Type Assertions**
+  - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
+
+```ts
+// VII. Type Assertions
+// You will often see these when working with document.querySelector() and HTML elements
+// const mainCanvas = document.querySelector(".canvas1") as HTMLCanvasElement;
+// See the next part for more examples of this!
 ```
 
 <hr>
