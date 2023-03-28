@@ -122,8 +122,11 @@ console.log(formatScore("100"));
 
 ```ts
 // VII. Type Assertions
+// Sometimes you will have information about the type of a value that TypeScript can’t know about.
 // You will often see these when working with document.querySelector() and HTML elements
-// const mainCanvas = document.querySelector(".canvas1") as HTMLCanvasElement;
+
+const mainCanvas = document.querySelector(".canvas1") as HTMLCanvasElement;
+
 // See the next part for more examples of this!
 ```
 
