@@ -137,6 +137,7 @@ console.log(formatScore("100"));
 - You may see some errors though - let's fix them!
   - `Type 'HTMLInputElement | null' is not assignable to type 'HTMLInputElement'.`
     - https://bobbyhadz.com/blog/typescript-type-htmlelement-null-not-assignable-to-type
+    - we will use the [non-null assertion operator](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-)
 - We'll need some node packages:
   - https://www.npmjs.com/package/typescript
   - https://www.npmjs.com/package/webpack
