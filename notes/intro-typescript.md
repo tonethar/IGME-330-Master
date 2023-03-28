@@ -65,8 +65,8 @@ const formatGreeting = (greeting, name, forcefully) => {
 // IV. Interfaces
 // declare the "shape" of an object
 interface Car {
-  make:string,
-  model:string,
+  make:string, // required
+  model:string, // required
   cylinders?:number, // optional
   equipment?: string[], // optional
   [key:string]: any // and ANY other property is allowed
