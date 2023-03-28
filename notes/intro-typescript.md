@@ -40,6 +40,8 @@ const meaningOfLife = 42; // will be implicitly typed as a `number`
 const defaultName = "Mr. X"; // will be implicitly typed as a `string`
 let temp = "utils.js temp value"; // will be implicitly typed as a `string`
 //temp = 99 // ERROR
+let date = new Date("01-01-2001");
+// date = "01-01-2001"; // ERROR
 
 
 // III. Function parameters and return types can be typed too
@@ -53,13 +55,10 @@ const formatGreeting = (greeting, name, forcefully) => {
 };
 ```
 
-- **TS code to try:**
+- **More TS code to try:**
 
 ```ts
-const stuff:string[] = []; // typed array
-stuff.push("red");
-stuff.push(10); // ERROR
-
+// IV. Interfaces
 // declare the "shape" of an object
 interface Car {
   make:string,
@@ -70,7 +69,7 @@ interface Car {
 }
 
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
-let car2:Car = {make:"Chevy"}; // ERROR
+//let car2:Car = {make:"Chevy"}; // ERROR
 
 // enum
 enum CarMake{
