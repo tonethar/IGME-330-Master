@@ -67,9 +67,9 @@ const formatGreeting = (greeting, name, forcefully) => {
 interface Car {
   make:string,
   model:string,
-  cylinders?:number,
-  equipment?: string[],
-  [key:string]: any
+  cylinders?:number, // optional
+  equipment?: string[], // optional
+  [key:string]: any // and ANY other property is allowed
 }
 
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
