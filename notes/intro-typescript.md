@@ -65,6 +65,8 @@ const formatGreeting = (greeting, name, forcefully) => {
 ```ts
 // IV. Interfaces
 // declare the "shape" of an object
+// only used at compile time
+// used like any other built-in type
 interface Car {
   make:string, // required
   model:string, // required
@@ -77,6 +79,7 @@ let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
 //let car2:Car = {make:"Chevy"}; // ERROR
 
 // V. Enumerations
+// Enumerable types can be used at runtime
 enum Alignment{
   law,
   chaos,
