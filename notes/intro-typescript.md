@@ -18,7 +18,7 @@
   - *explicit* typing
   - *implicit* typing
   - strong typing of variables
-  - strong typing of function parameters and return types
+  - strong typing of function parameters and return values
   - interfaces
   - enumerations
   - unions
