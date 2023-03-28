@@ -134,6 +134,9 @@ console.log(formatScore("100"));
 
 - Go ahead and grab the [**greeter-modules-ts.zip**](_files/greeter-modules-ts.zip) code - this is the ES6 module/TypeScript version of the Greeter demo
 - Open it up in VSCode (but don't launch LiveServer) - note that the code in **main.ts** and **utils.ts** is written in TypeScript and thus won't run in a web browser until it is *transpiled*
+- You may see some errors though - let's fix them!
+  - `Type 'HTMLInputElement | null' is not assignable to type 'HTMLInputElement'.`
+    - https://bobbyhadz.com/blog/typescript-type-htmlelement-null-not-assignable-to-type
 - We'll need some node packages:
   - https://www.npmjs.com/package/typescript
   - https://www.npmjs.com/package/webpack
