@@ -109,7 +109,9 @@ let color1:RgbColor = "red";
 //let color2:RgbColor = "yellow"; // ERROR
 
 // the union type also lets a value be of more than one type.
-const formatHighScore = (val: string | number):string => `Your score is ${val}`;
+const formatScore = (val: string | number) => `Your score is ${val}`;
+console.log(formatScore(100));
+console.log(formatScore("100"));
 ```
 
 <hr>
