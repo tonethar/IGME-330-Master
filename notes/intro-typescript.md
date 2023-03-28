@@ -82,12 +82,19 @@ enum Alignment{
   neutral
 }
 
+// OR
+// enum Alignment{
+//   law = "lawful",
+//   chaos = "chaotic",
+//   neutral = "neutralty"
+// }
+
 interface NPC{
   name: string,
   alignment:  Alignment
 }
 
-let arthur: NPC = {name: "Arthur", alignment: Alignment.Law };
+let arthur: NPC = {name: "Arthur", alignment: Alignment.law };
 let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
 
 // union type
