@@ -69,15 +69,15 @@ const formatGreeting = (greeting, name, forcefully) => {
 // only used at compile time
 // used like any other built-in type
 interface Car {
-  make:string, // required
-  model:string, // required
-  cylinders?:number, // optional
+  make: string, // required
+  model: string, // required
+  cylinders?: number, // optional
   equipment?: string[], // optional
   [key:string]: any // and ANY other property is allowed
 }
 
-let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
-//let car2:Car = {make:"Chevy"}; // ERROR
+let car1: Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
+//let car2: Car = {make:"Chevy"}; // ERROR
 
 
 // V. Enumerations
@@ -108,8 +108,8 @@ let arthur: NPC = {name: "Arthur", alignment: Alignment.law };
 // only used at compile time
 // here is a union type of string literals
 type RgbColor = "red" | "green" | "blue"; 
-let color1:RgbColor = "red";
-//let color2:RgbColor = "yellow"; // ERROR
+let color1: RgbColor = "red";
+//let color2: RgbColor = "yellow"; // ERROR
 
 // the union type also lets a value be of more than one type.
 const formatScore = (val: string | number) => `Your score is ${val}`;
