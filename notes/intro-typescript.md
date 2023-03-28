@@ -47,8 +47,10 @@ console.log("date",date) // click the Run button to see the code execute
 
 
 // III. Function parameters and return types can be typed too
-// Go ahead and "fix" these 2 functions
+// Go ahead and "fix" these 3 functions
 const doubleIt = (val) =>  val * 2;
+
+const doubleItToString = (val) =>  String(val * 2);
 
 const formatGreeting = (greeting, name, forcefully) => {
   const recipient  = name ? name : defaultName;
