@@ -78,6 +78,7 @@ interface Car {
 let car1:Car = {make:"Ford", model:"Bronco", cylinders:8, coolness: 11};
 //let car2:Car = {make:"Chevy"}; // ERROR
 
+
 // V. Enumerations
 // Enumerable types can be used at runtime
 enum Alignment{
@@ -100,6 +101,7 @@ interface NPC{
 
 let arthur: NPC = {name: "Arthur", alignment: Alignment.law };
 //let bob: NPC = {name: "Bob", alignment: "Nice" }; // ERROR
+
 
 // VI. union type
 // only used at compile time
