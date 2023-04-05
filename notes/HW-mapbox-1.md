@@ -169,9 +169,9 @@ export {init};
 
 ## IV. Submission
 
-- Submit your files and get the credit you deserve:
-  - ZIP up the **custom-marker** folder and submit it to myCourses
-  - Don't forget to ZIP up the **mapbox-start.html** file from Part I above, and submit it to myCourses!
+- Save your files before you move on to the next part:
+  - **mapbox-start.html** 
+  - the **custom-marker** folder and files
 
 
 <hr><hr>
