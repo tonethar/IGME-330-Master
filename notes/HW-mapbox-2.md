@@ -285,6 +285,8 @@ function setupUI(){
 
 5) To **main.js**, let's add a `poi` array as a module scoped variable, and a `loadPOI()` helper function:
 
+    - be sure to use this "people.rit.edu" link instead of the one on line #7 of the screenshot below: https://people.rit.edu/~acjvks/shared/330/igm-points-of-interest.php
+
 ![screenshot](./_images/_map-images/maps-19.jpg)
 
 6) Now let's add some button event handling code to `setupUI()` - this last button will now call the `loadPOI()` function when it is clicked:
