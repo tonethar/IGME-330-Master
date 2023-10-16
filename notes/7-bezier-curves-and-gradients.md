@@ -1,12 +1,12 @@
 # Canvas 2D Essential Skills #7 - Bezier curves and gradients
 
-<hr
+---
 	
 ## I. Creating quadratic & cubic bezier curves
 - Demo file here: [HW-SG-2.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-SG-2.md) (used to be an assignment, not any more ...)
 - Covers creating bezier curves with `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
-<hr>
+---
 
 ## II. Gradient Demo Code
 - Covers creating linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
@@ -84,7 +84,7 @@
 </html>
 ```
 
-<hr>
+---
 
 ## III. Reference
 
@@ -97,7 +97,8 @@
   - [`ctx.bezierCurveTo()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo)
 
 
-<hr><hr>
+---
+---
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
