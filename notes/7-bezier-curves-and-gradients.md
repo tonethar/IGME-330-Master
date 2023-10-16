@@ -3,7 +3,7 @@
 ---
 	
 ## I. Creating quadratic & cubic bezier curves
-- Demo file here: [HW-SG-2.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-SG-2.md) (used to be an assignment, not any more ...)
+- Demo file here: [SG-2-files.zip](https://github.com/tonethar/IGME-330-Master/blob/master/notes/_files/SG-2-files.zip) (used to be an assignment, not any more ...)
 - Covers creating bezier curves with `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
 ---
