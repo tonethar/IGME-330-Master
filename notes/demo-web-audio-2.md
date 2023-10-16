@@ -66,7 +66,7 @@ function setupUI(){
 
 3. Now call `setupUI()` right before the call to `loop()`
 
-4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right after the web audio setup code
+4. You are going to need to declare `highshelf` as a variable that is scoped outside of `setupUI()`. Give it an initial value of `false`. Declare it right before the web audio setup code
 
 5. Now here's `toggleHighshelf()` - which will get called every time the checkbox gets checked or unchecked:
 
