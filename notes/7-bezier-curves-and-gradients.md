@@ -1,15 +1,13 @@
 # Canvas 2D Essential Skills #7 - Bezier curves and gradients
 
-## I. Canvas Study Guide #2-  Overview
-- You will be review these concepts on your own by reviewing [Canvas Study Guide #2](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-SG-2.md) 
-- The major concepts that will be covered in this Study Guide:
-  - setting caps and joins on lines - `ctx.lineCap`, `ctx.lineJoin`, `ctx.setLineDash()`
-  - creating linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
-  - creating bezier curves - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
+## I. Creating quadratic & cubic bezier curves
+- Demo file here: [HW-SG-2.md](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-SG-2.md) (used to be an assignment, not any more ...)
+- Covers creating bezier curves with  - `ctx.quadraticCurveTo()`, `ctx.bezierCurveTo()`
 
 <hr>
 
 ## II. Gradient Demo Code
+- Covers creating linear and radial gradients - `ctx.createLinearGradient()`, `ctx.createRadialGradient()`, and `ctx.addColorStop()`
 
 **linear-gradient.html**
 
@@ -88,10 +86,6 @@
 
 ## III. Reference
 
-- Lines:
-  - [`ctx.lineCap`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap)
-  - [`ctx.lineJoin`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin)
-  - [`ctx.setLineDash()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash)
 - Gradients:
   - [`ctx.createLinearGradient()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
   - [`ctx.createRadialGradient()`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient)
