@@ -235,7 +235,10 @@ module.exports = {
 
 - Type: `npm run build`
 - Look at **dist/bundle.js** - the TypeScript has been transpiled to JS!
-- Note the `<script>` tag in **greeter.html** has already been modified to point at **dist/bundle.js** 
+- Note the `<script>` tag in **greeter.html** has already been:
+  - moved from the `<head>` section to the end of the `</body>`
+  - modified to point at **dist/bundle.js**
+  - it looks like this: `<script src="./dist/bundle.js"></script>`
 - Double-click on **greeter.html** to test the app (you don't need a web server) - it should work normally
 - Go ahead and make some changes in your **main.ts** or **utils.ts** file, and note that webpack is re-compiling the code for you
   - now test your changes in the web browser to sure that they "took"
