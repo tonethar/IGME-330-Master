@@ -8,11 +8,11 @@
   - if this dog name already exists in Firebase, the `likes` property of that dog name is incremented by `1`
   - here is a screenshot of the completed example app (on the left), and the Firebase console (on the right)
 
-<hr>
+---
 
-![screenshot](![screenshot](_images/_firebase/gab-dog-1.jpeg)
+![screenshot](_images/_firebase/gab-dog-1.jpeg)
 
-<hr>
+---
 
 ## II. Start Code
 
@@ -80,7 +80,7 @@ init();
 </html>
 ```
 
-<hr>
+---
 
 ### III. Notes
 
@@ -92,7 +92,7 @@ init();
 - Display the favorite dogs in `#favoritesList` - see screenshot above for an idea of what it should look like - but in this version, we can't record any more "likes" than 1
 - The fact we can't increment `likes` on existing dog names is a problem - so let's fix it!
 
-<hr>
+---
 
 #### 2) - Get "`likes ++`" working the "super easy" way
 
@@ -113,7 +113,7 @@ const writeFavNameData = name => {
 
 - test it - incrementing `likes` should now work!
 
-<hr>
+---
 
 **gab-dog-2.html**
 
@@ -164,7 +164,7 @@ const writeFavNameData = name => {
 ```
 
 
-<hr>
+---
 
 ### IV. Documentation
 - `increment(value)`
@@ -179,7 +179,8 @@ const writeFavNameData = name => {
    - https://firebase.google.com/docs/reference/js/database.md#update
    - returns a *Promise* - remember those?
 
-<hr><hr>
+---
+---
 
 
 **[Previous Chapter <- Firebase Part III - Highscore Viewer](firebase-3.md)**
