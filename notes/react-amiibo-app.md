@@ -453,3 +453,13 @@ Footer.propTypes = {
     - save the contents of the most recent `results` array in `.localStorage`
     - allow users to "favorite" and view previously searched amiibo - and store these in `.localStorage`
     - allow users to "page through" results 5 or 10 at a time
+   
+---
+
+## XVII. Rubric
+
+- 60% - Get through Part XII. with everything working 
+- +10% - get `Footer` working
+- +10% - get `Header` working
+- +10% - get `AmiiboList` working
+- +10% - get `AmiiboSearchUI` working
