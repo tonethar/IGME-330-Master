@@ -74,7 +74,7 @@ export default App;
 
 ---
 
-![screenshot](_images/amiibo-react-app-0.png)
+![screenshot](_images/_react/amiibo-react-app-0.png)
   
 ---
 
@@ -175,7 +175,7 @@ const searchAmiibo = (name, callback) => {
 
 ---
 
-![screenshot](_images/amiibo-react-app-1.png)
+![screenshot](_images/_react/amiibo-react-app-1.png)
 
 ---
 
@@ -254,7 +254,7 @@ useEffect(() => {
 
 ---
 
-![screenshot](_images/amiibo-react-app-2.png)
+![screenshot](_images/_react/amiibo-react-app-2.png)
 
 ---
 
@@ -320,7 +320,7 @@ const savedTerm = useMemo(() => readFromLocalStorage("term") || "", []);
 
 ---
 
-![screenshot](_images/amiibo-react-app-3.png)
+![screenshot](_images/_react/amiibo-react-app-3.png)
 
 ---
 
@@ -404,13 +404,13 @@ Footer.propTypes = {
 
 **React Web Inspector**
 
-![screenshot](_images/amiibo-react-app-4.png)
+![screenshot](_images/_react/amiibo-react-app-4.png)
 
 ---
 
 **App.jsx**
 
-![screenshot](_images/amiibo-react-app-5.png)
+![screenshot](_images/_react/amiibo-react-app-5.png)
 
 ---
 
