@@ -189,7 +189,7 @@
 
 **Completed version:**
 
-![Screenshot](_images/intro-react-1.png)
+![Screenshot](_images/_react/intro-react-1.png)
 
 ---
 
