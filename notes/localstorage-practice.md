@@ -45,7 +45,7 @@
   - Click "Clear List" button to clear the list
   - Whenever changes are made to the list (the 2 actions above) be sure to save the list to `localStorage` using `writeToLocalStorage(key, value)`
   - When the page loads be sure to load in the list from `localStorage` with `readFromLocalStorage(key)`, and display it
-  - See **main.js** and screenshots below for hints
+  - See code comments in **main.js** and screenshots below for hints
 
 ---
 
@@ -61,7 +61,7 @@
 
 ---
 
-#IV. Submission
+## IV. Submission
 - When you are done and it is working perfectly, rename the containing folder to ***lastName*-*firstInitial*-local-storage** and ZIP it up
 - Post to myCourses dropbox
   
