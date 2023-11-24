@@ -2,9 +2,8 @@
 
 ## I. Overview
 
-- The `localStorage` API allows developers to read/write app data to a user's browser
-- this data will persist between browser sessions until deleted by the user, or by JavaScript
-- https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+- The `localStorage` API allows developers to read/write app data to a user's browser, and this data will persist between browser sessions until deleted by the user, or by JavaScript
+  - https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 - Note that `localStorage` is specific to the document's *origin* - which is the domain name, protocol (http or https) and port
   - https://developer.mozilla.org/en-US/docs/Glossary/Origin
   - meaning that `http://localhost:5500` and `http://localhost:5501` have different localStorage objects
