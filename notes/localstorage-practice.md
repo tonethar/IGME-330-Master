@@ -41,8 +41,8 @@
 ## III. Completed Version
 
 - Completed functionality
-  - Click "Add to List" button to add contents of ``<input>`` to THing List
-  - Click "Clear List" button to clear the list
+  - Click "Add to List" button to add contents of `<input>` to Thing List
+  - Click "Clear List" button to clear the list (you will need to create this button yourself)
   - Whenever changes are made to the list (the 2 actions above) be sure to save the list to `localStorage` using `writeToLocalStorage(key, value)`
   - When the page loads be sure to load in the list from `localStorage` with `readFromLocalStorage(key)`, and display it
   - See code comments in **main.js** and screenshots below for hints
