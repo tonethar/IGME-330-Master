@@ -58,7 +58,13 @@ const deleteFavorite = (keyName) => {
 
 - And here is a screenshot of a working example:
 
+---
+
 ![screenshot](_images/_firebase/gabdog-admin.png)
+
+---
+
+- N.B. In a full and working use case, the "Send Name to Server" functionality would be available in a publicly visible file 
 
 <hr><hr>
 
