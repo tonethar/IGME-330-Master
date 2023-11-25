@@ -96,7 +96,7 @@ init();
 
 #### 2) - Get "`likes ++`" working the "super easy" way
 
-- We'll use the [`ServerValue.increment()`](https://firebase.google.com/docs/reference/kotlin/com/google/firebase/database/ServerValue#increment_1)
+- We'll use the [`ServerValue.increment()`](https://firebase.google.com/docs/reference/js/v8/firebase.firestore.FieldValue#increment)
 - You'll need to `import` this function to use it - add `increment` to your ".../firebase-database.js" import
 - Make `writeFavNameData()` look like this - it's only one small change to the code:
 
