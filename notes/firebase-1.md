@@ -165,7 +165,7 @@
 - Add the following code, right after the `initializeApp` ES6 `import`
 
 ```js
-import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/firebasejs/9.10.0/firebase-database.js";
+import { getDatabase, ref, set, push, onValue } from  "https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js";
 ```
 
 
