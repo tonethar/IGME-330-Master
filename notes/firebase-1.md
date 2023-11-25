@@ -136,7 +136,7 @@
 <hr>
 
 - Click the **+** button
-- Go ahead and add an `owner` **Name** with a **Value** of your name (or nickname)
+- Go ahead and add an `owner` **Name**  (or **Key**) with a **Value** of your name (or nickname)
 
 ![screenshot](_images/_firebase/firebase-NEW-11.jpg)
 
