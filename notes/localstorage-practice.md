@@ -63,7 +63,7 @@
 
 ---
 
-## IV. Optional - want material icons for your buttons?
+## IV. Optional - want material icons for your buttons and heading?
 
 - https://developers.google.com/fonts/docs/material_symbols
 
@@ -77,7 +77,14 @@
   <span class="material-symbols-outlined">Add</span>
 </button>
 ```
-  
+
+...
+
+<h2 class="subtitle is-italic">
+  <span class="material-symbols-outlined">edit_note</span> 
+    Add stuff to your list, and see it later!
+  <span class="material-symbols-outlined">edit_note</span> 
+</h2>
 
 ---
 
