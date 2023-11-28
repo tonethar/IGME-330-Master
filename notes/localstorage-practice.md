@@ -66,6 +66,7 @@
 ## IV. Optional - want material icons for your buttons and heading?
 
 - https://developers.google.com/fonts/docs/material_symbols
+- https://fonts.google.com/icons
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
