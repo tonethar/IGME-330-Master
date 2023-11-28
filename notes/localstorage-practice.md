@@ -63,7 +63,25 @@
 
 ---
 
-## IV. Submission
+## IV. Optional - want material icons for your buttons?
+
+- https://developers.google.com/fonts/docs/material_symbols
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+<button id="btn-add" class="button is-success">
+  Add to list
+  <span class="material-symbols-outlined">Add</span>
+</button>
+```
+  
+
+---
+
+## V. Submission
 - When you are done and it is working perfectly, rename the containing folder to ***lastName*-*firstInitial*-local-storage** and ZIP it up
 - Post to myCourses dropbox
+
+
   
