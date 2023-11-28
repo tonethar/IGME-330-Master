@@ -70,6 +70,8 @@
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
+...
+
 <button id="btn-add" class="button is-success">
   Add to list
   <span class="material-symbols-outlined">Add</span>
