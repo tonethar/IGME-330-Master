@@ -63,7 +63,7 @@
 
 ---
 
-## IV. Optional - want material icons for your buttons and heading?
+## IV. Optional - want "material" icons for your buttons and heading?
 
 - https://developers.google.com/fonts/docs/material_symbols
 - https://fonts.google.com/icons
