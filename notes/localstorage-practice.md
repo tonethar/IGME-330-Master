@@ -76,7 +76,7 @@
   Add to list
   <span class="material-symbols-outlined">Add</span>
 </button>
-```
+
 
 ...
 
@@ -85,6 +85,7 @@
     Add stuff to your list, and see it later!
   <span class="material-symbols-outlined">edit_note</span> 
 </h2>
+```
 
 ---
 
