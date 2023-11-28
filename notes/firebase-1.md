@@ -63,7 +63,7 @@
 ### II-F. Copy the code snippet
 
 - Under Add **Firebase SDK** step:
-  - choose the **Use a `<script>` tag** radio button
+  - choose the **Use a `<script>` tag** radio button (it might also show this as the **CDN** option)
   - go ahead and create an empty HTML file named **firebase-test.html**
   - copy/paste the Firebase JS code into the document, up in the `<head>` section of the document (where we've been putting our code most of this semester)
   - when you are done, click the **Continue to console** button at the bottom of the page
