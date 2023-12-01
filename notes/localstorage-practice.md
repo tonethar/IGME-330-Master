@@ -40,7 +40,7 @@
 
 ---
 
-## III. Completed Version Functionality
+## III. Completed *Storage List* Functionality
 - Click "Add to List" button to add contents of `<input>` to the visible *Thing List*
 - Click "Clear List" button to clear the list (empty the array) - you will need to create this button yourself
 - Whenever changes are made to the list (the 2 actions above) be sure to save the current list to `localStorage` using `writeToLocalStorage(key, value)`
