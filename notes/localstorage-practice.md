@@ -49,9 +49,9 @@
     - be sure to change the value of `storeName` (in **storage.js**) to something that's unique
     - be sure to utilize the `items` array while doing all of this
   - Be sure that the app works in a "first run" scenario where the `items` array has not yet been saved to localStorage:
-  - meaning, if the data that was loaded from localStorage is not an array, `items` will be initialized as an empty array
-  - you can use [`Array.isArray()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) to test this
-  - be sure to test your code at some point by deleting the `localStorage` data in the web inspector, and reloading the app. It should still function, with no inital items. And the user should be able to add items and have them saved to `localStorage`
+    - meaning, if the data that was loaded from localStorage is not an array, `items` will be initialized as an empty array
+    - you can use [`Array.isArray()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) to test this
+    - be sure to test your code at some point by deleting the `localStorage` data in the web inspector, and reloading the app. It should still function, with no inital items. And the user should be able to add items and have them saved to `localStorage`
 
 ---
 
