@@ -26,7 +26,9 @@
 - Take a look at **storage.js** -  it's 100% complete - here are the 2 "public" functions you will need to call from **main.js**:
   - `writeToLocalStorage(key, value)`
   - `readFromLocalStorage(key)`
-- Note: this code saves every key/value pair you pass to it as a property on a single JSON object
+- Notes:
+  - this code saves every key/value pair you pass to it as a *property* on a single JSON object
+    - example: `writeToLocalStorage("fname", "Fred")` would add `.fname="Fred"` to this object
   - in the last screenshot of this page you can see that we are saving an array of strings under an `"items"` key
   - you could also add other keys if you wished, for example copies of deleted lists that the user could recover if they wished
 
