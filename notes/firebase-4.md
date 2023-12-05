@@ -7,6 +7,7 @@
   - every time a user submits a new dog name, it is added to the `favorites/` path, and given a property of `likes: 1`
   - if this dog name already exists in Firebase, the `likes` property of that dog name is incremented by `1`
   - here is a screenshot of the completed example app (on the left), and the Firebase console (on the right)
+  - https://console.firebase.google.com/ 
 
 ---
 
