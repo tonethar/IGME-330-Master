@@ -158,7 +158,7 @@
   - make sure that the `ctx.strokeStyle` and `ctx.fillStyle` are set so that we can see these new rectangles
   - in the comments field of the dropbox, describe the changes you made
 - Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
-- ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox
+- ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox (you'll submit this together with the next checkoff in the same zip)
 - Put the answers to the following 5 questions into the comments field of the dropbox (-10% for each incorrect answer):
  
 1 - List the 3 drawing state *properties* we used in this demo
