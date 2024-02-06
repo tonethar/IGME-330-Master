@@ -49,7 +49,7 @@
   - Add 2 more circles to **cs-canvas-2.html**, make them small "eyes" near the center of the screen
   - Add 1 line to **cs-canvas-2.html**, make it 600 pixels long and give it a width of 20 pixels
 - Rename **cs-canvas-2.html** to ***lastName-firstInitial*-cs-canvas-2.html**
-- Then ZIP and POST ***lastName-firstInitial*-cs-canvas-2.html** to myCourses
+- Then ZIP and POST ***lastName-firstInitial*-cs-canvas-2.html** to myCourses (you'll submit this together with the previous check it off in the same zip)
 
 <hr><hr>
 
