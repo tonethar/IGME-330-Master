@@ -159,7 +159,8 @@
   - in the comments field of the dropbox, describe the changes you made
 - Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
 - ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox (you'll submit this together with the next checkoff in the same zip)
-- Put the answers to the following 5 questions into the comments field of the dropbox (-10% for each incorrect answer):
+
+## VI. Study for the next "Practice Quiz"?:  
  
 1 - List the 3 drawing state *properties* we used in this demo
  
@@ -173,17 +174,15 @@
 
 <hr>
 
-## VI. Other review questions we'll go over in class
+6 - True or False. The canvas API was invented by Apple Computer (aka Apple Inc.)
+ 
+7 - True or False. The canvas API is hardware accelerated on most modern browsers
+ 
+8 - True or False. Canvas is a *vector-based* graphics system
+ 
+9 - True or False. Canvas comes with a built-in *scene graph* and *display list*
 
-1 - True or False. The canvas API was invented by Apple Computer (aka Apple Inc.)
- 
-2 - True or False. The canvas API is hardware accelerated on most modern browsers
- 
-3 - True or False. Canvas is a *vector-based* graphics system
- 
-4 - True or False. Canvas comes with a built-in *scene graph* and *display list*
-
-5 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
+10 - True or False. *raster-based* graphics systems represent graphics as a rectangular grid of pixels
 
 
 <hr><hr>
