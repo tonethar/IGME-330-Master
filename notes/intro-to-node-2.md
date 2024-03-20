@@ -189,7 +189,7 @@ light switch, you will be dead before the lightbulb turns on."
 <hr> 
 
 
-## IV. Check It Off
+## IV. Show us your stuff
 - Make sure that everything still works in all 3 of these folders - **hello**, **joke** and **joke-2**
   - take a screenshot of the console output for **joke-2** (showing the cow ASCI art and so on) - save it as a JPEG or PNG file
   - ***IMPORTANT -->*** delete the **node_modules** folders in all 3 of the folders
