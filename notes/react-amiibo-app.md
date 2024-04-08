@@ -241,7 +241,7 @@ export const readFromLocalStorage = (key) => {
 - We are going to use the `useEffect()` hook to do so
 - Go ahead and modify your `react` import to also bring in `useEffect`
   - `import { useEffect, useState } from "react";`
-- Add the following code to the `App` component right after the two `useEffect()` calls
+- Add the following code to the `App` component right after the two `useState()` calls
 
 ```jsx
 useEffect(() => {
