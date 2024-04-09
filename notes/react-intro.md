@@ -1,5 +1,23 @@
 # Intro to React
 
+<details>
+<summary>Table of Contents</summary>
+
+- [I. Overview](#i-overview)
+- [II. React Playground](#ii-react-playground)
+- [III. React in the Browser](#iii-react-in-the-browser)
+- [IV. Production React - Transpiling the React using `npm`, react, webpack, and so on](#iv-production-react---transpiling-the-react-using-npm-react-webpack-and-so-on)
+- [V. Bootstrapping a React Project the Easy Way](#v-bootstrapping-a-react-project-the-easy-way)
+- [VI. Creating a "Todo" App with React and Vite](#vi-creating-a-todo-app-with-react-and-vite)
+  - [VI-A. Create a Vite Project](#vi-a-create-a-vite-project)
+  - [VI-B. Examine Code and Create "Hello World"](#vi-b-examine-code-and-create-hello-world)
+  - [VI-C. Start Building](#vi-c-start-building)
+  - [VI-D. Create Some State and Setters/Getters with `useState()`](#vi-d-create-some-state-and-settersgetters-with-usestate)
+  - [VI-E. Get the "Add Todo" and "Display Todo List" Functionality Working](#vi-e-get-the-add-todo-and-display-todo-list-functionality-working)
+  - [VI-F. Carry On!](#vi-f-carry-on)
+
+</details>
+
 ---
 
 ## I. Overview
