@@ -374,7 +374,7 @@ const handleSubmit = e => {
 
 ---
 
-### VI-E. Carry on!
+### VI-F. Carry on!
  - ***Ok we are going to stop there - this is around 26:00 out of 42 minute video - you can and should finish it on your own!***
    - in the remaining portion of the video, much of the code will be factored *out* of the `App` component, and *into* `TodoItem`, `TodoList` and `NewTodoForm` components
    - data persistance will also be added with `window.localStorage`
