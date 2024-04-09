@@ -416,7 +416,7 @@ Footer.propTypes = {
 
 ## XIV. Publish it
 - To create a transpiled version (React JSX -&gt; Vanilla JS/HTML that you can put on the web:
-  - type ctrl-q to quit `vite`
+  - type ctrl-c to quit `vite`
   - type `npm run build`
   - now you will see the **dist/** folder has been populated with an **index.html** file, a **.js** file and a **.css** file - this is the "transpiled and bundled" version that's ready for distribution
     - you can test it locally by running just this **dist/** folder on Live Server
