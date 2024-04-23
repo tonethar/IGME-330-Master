@@ -123,7 +123,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
 ## III. Refactoring the code to ES6 Modules
 
-1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - you will have some nicely structured "starter code" for Project 2
+1) Next let’s do some code refactoring - believe it or not - when we're done with this (in Maps Part II) - we will have some nicely structured "starter code" for a future project.
 
     - note the [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) in the `for..of` loop
 
