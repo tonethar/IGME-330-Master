@@ -73,7 +73,7 @@ myButton.onclick = () => {
 
 ## III. `resolve()` and `promise.then()`
 
-- Go ahead and run the code above, you will see from the console logs that the promise is originally *pending* right after it was created, and it then show as *fulfilled* after 2 seconds when the `resove()` method is fired
+- Go ahead and run the code above, you will see from the console logs that the promise is originally *pending* right after it was created, and it then show as *fulfilled* after 2 seconds when the `resolve()` method is fired
 - However, outside of these console logs, our program is unaware that the promise has resolved and what value (a random letter) has been sent
 - Add the following code to the end of the promise (where there is a `// end new Promise` comment)
 
