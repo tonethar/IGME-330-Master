@@ -27,7 +27,7 @@
 
 - Create folder named **amiibo-app** and `cd` into it
 - Type: `npm create vite@latest`
-  - for *Project name*: **type a period** (`.`) to create a project in current **todo-app** folder
+  - for *Project name*: **type a period** (`.`) to create a project in current **amiibo-app** folder
   - for *Framework*: choose **React**
   - for *Variant*: choose **JavaScript**
 - `npm i`
