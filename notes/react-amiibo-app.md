@@ -400,7 +400,7 @@ Footer.propTypes = {
   - `searchAmiibo`
   - `parseAmiiboResult`
 - as props
-- Hint: `PropTypes.func` for the 3 functions that are getting passed in
+- Hint: `PropTypes.func.isRequired` for the 3 functions that are getting passed in
 
 ---
 
