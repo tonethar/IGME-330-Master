@@ -204,7 +204,7 @@ const searchAmiibo = (name, callback) => {
 - Create a new file named **src/storage.js** - and make it look like this:
 
 ```js
-const storeName = "abc1234-amiibo-app";
+const storeName = "abc1234-amiibo-app"; // TODO - change `abc1234` to your id
 
 const loadJSONFromLocalStorage = () => {
   const string = localStorage.getItem(storeName);
