@@ -13,6 +13,9 @@
     - [`useContext()`](https://react.dev/reference/react/useContext)
       - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
   - we will also utilize the [`useMemo`](https://react.dev/reference/react/useMemo) React hook to *cache* a value
+- BTW - *You already have some familiarity with React, right?*
+  - if not, see the [Intro to React](react-intro.md) notes, especially [Part VI. Creating a "Todo" app with React and Vite](react-intro.md#vi-creating-a-todo-app-with-react-and-vite)
+  
 ---
 
 ## II. Amiibo API
