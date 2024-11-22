@@ -169,7 +169,7 @@ const searchAmiibo = (name, callback) => {
 
 - Note the React need for a unique `key` when producing lists like this
 - Also note the syntax for the use of an inline `style`
-  - but, using a `class` and the `className` attribute for styling is generally preferred in React!
+  - but, defining a CSS class, and then utilizing the `className` attribute for styling, is generally preferred in React!
 
 ---
   
