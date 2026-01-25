@@ -28,7 +28,7 @@
 
 ### II-A. Simple `async/await` example (no error handling)
 - Now we will convert some of the code from last time from `.then()` syntax, to `async/await`
-- In thus example we aren't doing any error handling
+- In this example we aren't doing any error handling
 - After you get it working, you should test what happens when there are errors:
   - go ahead and change part of the url from "people" to "peep" and see the result
   - you will see that an uncaught exception is thrown, which crashes the program
