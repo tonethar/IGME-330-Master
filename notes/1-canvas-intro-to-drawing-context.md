@@ -158,7 +158,9 @@
   - make sure that the `ctx.strokeStyle` and `ctx.fillStyle` are set so that we can see these new rectangles
   - in the comments field of the dropbox, describe the changes you made
 - Rename **cs-canvas-1.html** to ***lastName-firstInitial*-cs-canvas-1.html**
-- ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox (you'll submit this together with the next checkoff in the same zip)
+- ZIP and POST ***lastName-firstInitial*-cs-canvas-1.html** into the dropbox
+
+---
 
 ## VI. Study for the next "Practice Quiz"?:  
  
