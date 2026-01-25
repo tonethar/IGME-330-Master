@@ -174,8 +174,6 @@
 
 5 - Write the one line of code that will fill a 100x100 rectangle at x=200, y=50
 
-<hr>
-
 6 - True or False. The canvas API was invented by Apple Computer (aka Apple Inc.)
  
 7 - True or False. The canvas API is hardware accelerated on most modern browsers
