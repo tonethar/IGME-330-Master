@@ -225,3 +225,9 @@
 ### V-B. Screenshot
 
 ![Screenshot](_images/HW-algorithmic-botany-3.png)
+
+---
+
+### V-C. More examples
+
+- --> https://tonethar.github.io/projects/procedural-flowers/latest/index.html
