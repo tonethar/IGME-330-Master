@@ -71,8 +71,8 @@ skeleton: Array(1)
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ML5 Posenet Test</title>
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/ml5@0.10.6/dist/ml5.min.js"></script> -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.10.6/dist/ml5.min.js"></script>
 		<style>
     	* {
 				box-sizing: border-box;
