@@ -29,7 +29,7 @@
   <head>
   <title>Real time Object Detection using CocoSsd</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.10.6/dist/ml5.min.js"></script>
   <style>
     body{
       font-family: sans-serif;
