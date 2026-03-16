@@ -175,12 +175,6 @@ request(url, (err, response, body) => {
 - BTW - you can ignore the `request` and other deprecation warnings in the console - and if you are interested you can read about the issue here:
   - https://www.npmjs.com/package/request
   - https://nodesource.com/blog/express-going-into-maintenance-mode
-- Also, the best way to get rid of warnings is to heed them by choosing a different npm package to utilize ... but ... if you just want to hide the warnings and not otherwise deal with them, add the following to the top of **index.js**:
-
-```js
-const process = require('process');
-process.removeAllListeners('warning');
-```
 
 <hr>
 
@@ -199,6 +193,15 @@ process.removeAllListeners('warning');
   ```
 
 ![screenshot](./_images/_node/node-web-services-1.jpeg)
+
+---
+
+- Also, the best way to get rid of warnings is to heed them by choosing a different npm package to utilize ... but ... if you just want to hide the warnings and not otherwise deal with them, add the following to the top of **index.js**:
+
+```js
+const process = require('process');
+process.removeAllListeners('warning');
+```
 
 
 <a id="section4"></a>
