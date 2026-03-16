@@ -196,7 +196,7 @@ request(url, (err, response, body) => {
 
 ---
 
-- Also, the best way to get rid of warnings is to heed them by choosing a different npm package to utilize ... but ... if you just want to hide the warnings and not otherwise deal with them, add the following to the top of **index.js**:
+- ***GOT ANNOYING WARNINGZ?*** The best way to get rid of warnings is to heed them by choosing a different npm package to utilize ... but ... if you just want to hide the warnings and not otherwise deal with them, add the following to the top of **index.js**:
 
 ```js
 const process = require('process');
