@@ -6,6 +6,7 @@
 - https://www.typescriptlang.org/
 - https://www.typescriptlang.org/cheatsheets
 - https://basarat.gitbook.io/typescript/
+- Another solid reference --> https://www.w3schools.com/typescript/typescript_explicit_inference.php
 
 <hr>
 
