@@ -151,8 +151,8 @@ const mainCanvas = document.querySelector(".canvas1") as HTMLCanvasElement;
 - You may see some errors though - let's fix them!
   - `Type 'HTMLInputElement | null' is not assignable to type 'HTMLInputElement'.`
     - https://bobbyhadz.com/blog/typescript-type-htmlelement-null-not-assignable-to-type
-    - we will use the [non-null assertion operator](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-)
-    - we could also use type assertions
+    - we will use the [non-null assertion operator](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#non-null-assertion-operator-postfix-) (i.e. a `!` at the end of the line, which means "I guarantee this value is not null")
+    - we could also use type assertions (e.g. `as HTMLInputElement` at end of line, which means "I guarantee this is an `HTMLInputElement`)
 - We'll need some node packages:
   - https://www.npmjs.com/package/typescript
   - https://www.npmjs.com/package/webpack
