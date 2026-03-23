@@ -157,11 +157,10 @@ const mainCanvas = document.querySelector(".canvas1") as HTMLCanvasElement;
     - we could also use a *type guard* (e.g. write explicit code that will only utilize a value if the results of the querySelector call are non-null). Example:
    
 ```js
-let fakeButton:HTMLButtonElement | null = document.querySelector("#btn-fake");
+let fakeButton:HTMLButtonElement | null = document.querySelector("#btn-fake"); // could be a button, could be null!
 
 if (fakeButton){
-  const button:HTMLButtonElement = fakeButton;
-  button.onclick = () => alert("clicked");
+  fakeButton.onclick = () => alert("clicked");
 }else{
   alert("fake button is null!")
 }
