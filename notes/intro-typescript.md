@@ -227,7 +227,7 @@ module.exports = {
 ```json
 {
   "compilerOptions": {
-      "target": "ES5",
+      "target": "ES6",
       "module": "ES6",
       "sourceMap": true
   },
