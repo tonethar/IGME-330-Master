@@ -14,7 +14,7 @@
 
 ### II-A. Let's see how TS works in a REPL
 - https://www.typescriptlang.org/play
-- Our TypeScript annotations will be transpiled into ES5 VanillaJS
+- Our TypeScript annotations will be transpiled into ES6 VanillaJS
 - We'll look at:
   - *explicit* typing
   - *implicit* typing
