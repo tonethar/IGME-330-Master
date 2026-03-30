@@ -192,11 +192,8 @@ if (fakeButton){
 ***OR, for #1-#4 above, you could use some "one-liners" to install all the packages at once:***
 
 ```js
-# 1 - create a package.json file (do not forget to delete `type : commonjs`)
 npm init -y
-# 2 - install the packages we need
 npm i -D typescript webpack webpack-cli ts-loader webpack-dev-server
-# 3 - create empty config files
 touch webpack.config.js tsconfig.json
 ```
 
