@@ -187,7 +187,15 @@ if (fakeButton){
     - #4 - install webpack-dev-server
       - `npm i -D webpack-dev-server`
 
-<hr>
+---
+
+***OR, for #2-#4 above, you could use a one-liner to install all the packages at once:***
+
+```js
+npm i -D typescript webpack webpack-cli ts-loader webpack-dev-server
+```
+
+---
 
 - In the **greeter-modules-ts/** folder, create **webpack.config.js**
 - Docs at: https://webpack.js.org/configuration/
