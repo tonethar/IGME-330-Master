@@ -178,7 +178,7 @@ if (fakeButton){
 - Let's install these packages by typing some code (ONE line at a time):
 
 
-    - #1 - generate a package.json file
+    - #1 - generate a **package.json** file (don't forget to delete `"type" : "commonjs"`)
       - `npm init -y`
     - #2 - install typescript (note: `i` is short for `install` and `-D` is the shortcut for `--save-dev`)
       - `npm i -D typescript`
