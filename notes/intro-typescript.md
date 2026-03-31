@@ -251,7 +251,7 @@ module.exports = {
 
 ```json
 "scripts": {
-  "build": "webpack --mode production --watch"
+  "build": "webpack --mode production --watch --stats-error-details"
 }
 ```
 
