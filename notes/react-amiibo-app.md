@@ -20,9 +20,9 @@
 
 ## II. Amiibo API
 
-- Docs: https://amiiboapi.com/docs/
-- Playground: https://amiiboapi.com/
-- Sample call: https://www.amiiboapi.com/api/amiibo/?name=mario
+- Docs: https://amiiboapi.org/docs/
+- Playground: https://amiiboapi.org/
+- Sample call: https://www.amiiboapi.org/api/amiibo/?name=mario
 
 ---
 
@@ -87,7 +87,7 @@ export default App;
 
 ```js
 // app "globals" and utils
-const baseurl = "https://www.amiiboapi.com/api/amiibo/?name=";
+const baseurl = "https://www.amiiboapi.org/api/amiibo/?name=";
 ```
 
 - And implement the `loadXHR()` helper function
