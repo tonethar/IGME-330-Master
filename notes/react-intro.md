@@ -319,7 +319,7 @@ export default App;
   - add: `onChange={e => setNewItem(e.target.value)}` as an attribute to the `<input>`
   - try typing a new value into the `<input>`, although you can't see it yet, the value of `newItem` is being changed on every keystroke
   - go ahead and put in a `console.log()` in the correct place to see that this is true
-  - add a paragraph to the JSX that will display the value of `newItem`, like this `<p>{newItem}</p>`
+  - add a paragraph to the JSX that will display the value of `newItem`, like this `<p>{newItem}</p>`, and then test it
   - so, every time a state variable is changed, the `App` component will be re-rendered!
 - Let's add another `useState()` "hook" to keep track of our items:
   - type: `const [todos, setTodos] = useState([]);`
