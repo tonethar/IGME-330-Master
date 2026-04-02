@@ -227,7 +227,7 @@
 
 ### VI-B. Examine code and create "Hello World"
 - Look in **index.html**, **main.js**, and **App.jsx** to see what they do
-  - let's talk about the `useState()` code that the counter uses - we'll see more use of this React "hook" later
+  - let's talk about the [`useState()`](https://react.dev/reference/react/useState) code that the counter uses - we'll see more use of this React "hook" later
 - Look in **package.json**
 - Get rid of most of the web files, but keep:
   - **App.jsx**
