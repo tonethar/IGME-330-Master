@@ -56,6 +56,8 @@
 
 Screenshot of **mapbox-start.html**:
 
+(Actually, it should be the city of Boston that's showing, but you get the idea ...)
+
 <hr>
 
 ![screenshot](./_images/_map-images/maps-1.jpg)
