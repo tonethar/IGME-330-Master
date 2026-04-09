@@ -74,7 +74,9 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 ```
 
 2) Go to this landing page --> https://docs.mapbox.com/mapbox-gl-js/guides/get-started/
-    - Now navigate to the [Add controls](https://docs.mapbox.com/mapbox-gl-js/example/navigation/) page to add a visible controller to your map (it's one line of code)
+    - Now head to the [Examples/] folder - https://docs.mapbox.com/mapbox-gl-js/example/
+    - The navigation example - https://docs.mapbox.com/mapbox-gl-js/example/navigation/ - 
+    will show you how to add a visible controller to your map - it's one line of code!
 
 3) Head back to the landing page
     - Now navigate to [Style Animation](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/) page:
