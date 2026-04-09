@@ -10,7 +10,7 @@
 2. If you get a “What are you interested in Building with MapBox?” window
     - choose “Add a map to a web application” (it probably doesn’t matter what you choose)
 3. Once you are signed in, select under Tools & Resources the Integrate Mapbox.  It will take you to this page: - [https://account.mapbox.com ](https://www.mapbox.com/install/)- click on the “Web JS” button
-    - Choose "Use the Mapbox CDN"
+    - Choose "Get started with CDN"
     - Create an empty HTML page named **mapbox-start.html**
     - Follow the instructions and add the `<link>`and `<script>` tags, as well as the JS and HTML, to the page
     - Note that you will be given your Mapbox access token - keep a copy of it somewhere
