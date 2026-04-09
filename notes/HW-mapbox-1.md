@@ -73,7 +73,7 @@ map.setZoom(9);
 map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude - which is opposite of Google Maps
 ```
 
-2) Go to this landing page --> https://www.mapbox.com/install/js/cdn-complete/
+2) Go to this landing page --> https://docs.mapbox.com/mapbox-gl-js/guides/get-started/
     - Now navigate to the [Add controls](https://docs.mapbox.com/mapbox-gl-js/example/navigation/) page to add a visible controller to your map (it's one line of code)
 
 3) Head back to the landing page
