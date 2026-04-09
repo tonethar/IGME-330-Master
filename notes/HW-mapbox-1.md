@@ -79,7 +79,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
     will show you how to add a visible controller to your map - it's one line of code!
 
 3) Head back to the landing page
-    - Now navigate to [Style Animation](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/) page:
+    - Now navigate to the [Change a map's style](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/) page:
     - You don't need to set up the radio buttons, but go ahead and change you map's style from  `streets-v11` to: 
       - `light-v10` OR
       - `dark-v10` OR
