@@ -23,21 +23,27 @@
 **mapbox-start.html**
 
 ```html
-<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>Map Start</title>
-	<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Start</title>
+  <!-- Includes the Mapbox GL JS CSS stylesheet -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.css" rel="stylesheet">
+  <!-- Imports the Mapbox GL JS bundle -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.js"></script>
 </head>
 <body>
-<div id='map' style='width: 400px; height: 300px;'></div>
-<script>
+  <div id="map" style="width: 800px; height: 600px;"></div>
+  <script>
+  // sets the access token, associating the map with your Mapbox account and its permissions
   mapboxgl.accessToken = 'ACCESS-TOKEN-GOES-HERE-GO-GET-YOUR-OWN!';
-  var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11'
+
+  // creates the map, setting the container to the id of the div you added in step 2, and setting the initial center and zoom level of the map
+  const map = new mapboxgl.Map({
+      container: 'map', // container ID
+      center: [-71.06776, 42.35816], // starting position [lng, lat]. Note that lat must be set between -90 and 90
+      zoom: 9 // starting zoom
   });
 </script>
 </body>
