@@ -18,7 +18,7 @@
 
 **The HTML page will look something like this - and you'll need to add your *access token* to it:**
 
-**(Be sure to use the HTML/JS from the Mapbox instructions above, as it has the latest version numbers!)**
+--> **(Be sure to use the HTML/JS from the Mapbox instructions above, as it has the latest version numbers!)** &lt;--
 
 **mapbox-start.html**
 
