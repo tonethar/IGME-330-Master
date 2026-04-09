@@ -81,10 +81,10 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 3) Head back to the landing page
     - Now navigate to the [Change a map's style](https://docs.mapbox.com/mapbox-gl-js/example/setstyle/) page:
     - You don't need to set up the radio buttons, but go ahead and change you map's style from  `streets-v11` to: 
-      - `light-v10` OR
-      - `dark-v10` OR
-      - `outdoors-v11` OR
-      - `satellite-v9`
+      - `light-v11` OR
+      - `dark-v11` OR
+      - `outdoors-v12` OR
+      - `standard-satellite`
     - You can also write code to change the style like this: `map.setStyle('mapbox://styles/mapbox/satellite-v9');`
   
 4) ZIP and POST the **mapbox-start.html** file to the dropbox
