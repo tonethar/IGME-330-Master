@@ -169,11 +169,11 @@ main.init();
 **main.js**
 
 ```js
-function init(){…}
+const init = () => {...};
 export {init};
 ```
 
-10) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server, or (even better) you can use the “Live Server” plugin on VSCode
+10) Test it in a web browser - it should work the same as before - remember that we’re using ES6 modules now - so you have to run it off of a web server, or you can use the “Live Server” plugin on VSCode
 
 
 <hr><hr>
