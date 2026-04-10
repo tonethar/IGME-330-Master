@@ -43,6 +43,8 @@ let geojson = {
 
 11) This is what **src/main.js** should look like (I’ve folded some code, obviously):
 
+    - P.S. Feel free to use arrow functions in your version, instead of the regular functions seen below
+
 <hr>
 
 ![screenshot](./_images/_map-images/maps-5.jpg)
