@@ -138,7 +138,7 @@ map.setCenter([-77.6799,43.083848]); // note the order - it's longitude,latitude
 
     - note the [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) in the `for..of` loop
 
-2) Create a folder named **images** and put **mapbox-icon.png**  into it (the mapbox-icon.png PNG file is [here](https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png)). Adjust your `.marker{...}` CSS so that the icon still shows up on the map
+2) Create a folder named **images** and put **mapbox-icon.png**  into it (the mapbox-icon.png PNG file is [here](https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png) - right-click and save!). Then adjust your `.marker{...}` CSS so that the icon still shows up on the map
 
 3) Now create a folder named **styles** and put a file named **default-styles.css** in it
 
