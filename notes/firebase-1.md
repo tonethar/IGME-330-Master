@@ -13,10 +13,10 @@
 ### II-A. Create a new project
 - \*\****NOTE: If you run into trouble when you try to set up the Realtime Database (below) with an RIT Gmail account, you may have to instead use your personal Google Account***\*\*
 - Head to https://console.firebase.google.com/ 
-  - click the **Create Project** or **Add Project** button
+  - click the **"Create a new Firebase Project"** button
   - this will create a pop-up window where you will name your project
 
-![screenshot](_images/_firebase/firebase-NEW-1.jpg)
+<!--- ![screenshot](_images/_firebase/firebase-NEW-1.jpg) --->
 
 <hr>
 
