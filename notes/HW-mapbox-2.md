@@ -247,7 +247,7 @@ function setupUI(){
     - The code to do this is straight out of a Mapbox example:
       - the example is here: https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/
       - this is a simple copy/paste - you will need to copy ALL of the code in the "map onload call":
-        - beginning here: `map.on('load', function() {`
+        - beginning here: `map.on('style.load', () => {`
         - and ending here: `});`
     - put this code at the bottom of the `initMap()` function in the **maps.js** module - when you paste this code all of the formatting will be gone, so try to indent and pretty it up at some point
 
