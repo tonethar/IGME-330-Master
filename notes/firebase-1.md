@@ -134,7 +134,8 @@
 - You should now have created an empty *Realtime Database*
 - Move the mouse over to where the arrow is until you see the **+** button appear
 
-![screenshot](_images/_firebase/firebase-NEW-10.jpg)
+<!---![screenshot](_images/_firebase/firebase-NEW-10.jpg)--->
+![screenshot](_images/_firebase/update-spring26-E.png)
 
 <hr>
 
