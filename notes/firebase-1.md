@@ -152,14 +152,18 @@
 - Click the **+** button
 - Go ahead and add an `owner` **Name**  (or **Key**) with a **Value** of your name (or nickname)
 
-![screenshot](_images/_firebase/firebase-NEW-11.jpg)
+<1---![screenshot](_images/_firebase/firebase-NEW-11.jpg)-->
+
+![screenshot](_images/_firebase/update-spring26-EF.png)
 
 <hr>
 
 - Then click the **Add** button
 - Congrats! You'e created your Firebase Realtime Database (finally) and added some data to it!
 
-![screenshot](_images/_firebase/firebase-NEW-12.jpg)
+<!---![screenshot](_images/_firebase/firebase-NEW-12.jpg)--->
+
+![screenshot](_images/_firebase/update-spring26-F.png)
 
 <hr><hr>
 
