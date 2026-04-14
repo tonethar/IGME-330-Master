@@ -97,16 +97,19 @@
 
 ### II-G. Create a Realtime Database
 
-- Now you should be on the **Project Overview Screen**
-- Go ahead and click on the **Realtime Database** button on the left side of the screen 
+- Now you should be back on the **Project Overview Screen**
+- Choose the "Databases & Storage" link on the left side of the page, and then the "Realtime Database" menu item
 
-![screenshot](_images/_firebase/firebase-NEW-7.jpg)
 
-<hr>
+<!---![screenshot](_images/_firebase/firebase-NEW-7.jpg)-->
+
+![screenshot](_images/_firebase/update-spring26-D.png)
+
+---
 
 - On the Realtime Database screen, go ahead and click the **Create Database** button
 
-<hr>
+---
 
 
 ### II-H. Choose location and Security rules
