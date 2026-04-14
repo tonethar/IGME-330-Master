@@ -28,7 +28,7 @@
 
 <hr>
 
-### II-C. Turn Off Gemeni & Google Analytics and Create the Project
+### II-C. Turn Off Gemini & Google Analytics and Create the Project
 - Uncheck **Enable Gemini in Firebase**
 - Uncheck **Enable Google Analytics for this Project**
 - Click the **Create Project** button
