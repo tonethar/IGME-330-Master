@@ -53,7 +53,7 @@
 
 ![screenshot](_images/_firebase/update-spring26-B.png)
 
-<hr>
+---
 
 ### II-E. Add Firebase to your web app
 
@@ -61,9 +61,11 @@
 - Do NOT check the checkbox to set up Firebase Hosting
 - Click the **Register App** button
 
-![screenshot](_images/_firebase/firebase-NEW-5.jpg)
+<!---![screenshot](_images/_firebase/firebase-NEW-5.jpg) --->
 
-<hr>
+![screenshot](_images/_firebase/update-spring26-C.png)
+
+---
 
 
 ### II-F. Copy the code snippet
