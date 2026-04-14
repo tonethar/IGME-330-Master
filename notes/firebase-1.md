@@ -276,7 +276,9 @@ writeHighScoreData("xyz9876","Tetris",1000);
 
 <hr>
 
-![screenshot](_images/_firebase/firebase-NEW-14.jpg)
+<!---![screenshot](_images/_firebase/firebase-NEW-14.jpg)--->
+
+![screenshot](_images/_firebase/update-spring26-H.png)
 
 <hr>
 
