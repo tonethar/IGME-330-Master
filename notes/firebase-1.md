@@ -47,11 +47,11 @@
 
 <!--![screenshot](_images/_firebase/firebase-NEW-4.jpg)-->
 
-![screenshot](_images/_firebase/update-spring26-A.jpg)
+![screenshot](_images/_firebase/update-spring26-A.png)
 
 - And then the **Web** button
 
-![screenshot](_images/_firebase/update-spring26-B.jpg)
+![screenshot](_images/_firebase/update-spring26-B.png)
 
 <hr>
 
