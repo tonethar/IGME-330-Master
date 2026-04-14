@@ -223,7 +223,9 @@ writeUserData("xyz9876","Ima Student","ima@rit.edu");
 
 <hr>
 
-![screenshot](_images/_firebase/firebase-NEW-13.jpg)
+<!---![screenshot](_images/_firebase/firebase-NEW-13.jpg)--->
+
+![screenshot](_images/_firebase/update-spring26-G.png)
 
 <hr>
 
