@@ -159,11 +159,13 @@
 <hr>
 
 - Then click the **Add** button
-- Congrats! You'e created your Firebase Realtime Database (finally) and added some data to it!
+
 
 <!---![screenshot](_images/_firebase/firebase-NEW-12.jpg)--->
 
 ![screenshot](_images/_firebase/update-spring26-F.png)
+
+- ***<big>Congrats! You'e created your Firebase Realtime Database (finally) and added some data to it!</big>***
 
 <hr><hr>
 
