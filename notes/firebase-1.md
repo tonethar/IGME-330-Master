@@ -109,6 +109,8 @@
 
 - On the Realtime Database screen, go ahead and click the **Create Database** button
 
+![screenshot](_images/_firebase/update-spring26-DE.png)
+
 ---
 
 
