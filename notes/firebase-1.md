@@ -152,7 +152,7 @@
 - Click the **+** button
 - Go ahead and add an `owner` **Name**  (or **Key**) with a **Value** of your name (or nickname)
 
-<1---![screenshot](_images/_firebase/firebase-NEW-11.jpg)-->
+<!---![screenshot](_images/_firebase/firebase-NEW-11.jpg)-->
 
 ![screenshot](_images/_firebase/update-spring26-EF.png)
 
