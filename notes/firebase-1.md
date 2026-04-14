@@ -43,9 +43,15 @@
 
 ### II-D. Add a *Web App* to your project
 
-- On the Project Overview Screen, click the **Web** button
+- On the Project Overview Screen, click the **Add App** button
 
-![screenshot](_images/_firebase/firebase-NEW-4.jpg)
+<!--![screenshot](_images/_firebase/firebase-NEW-4.jpg)-->
+
+![screenshot](_images/_firebase/update-spring26-A.jpg)
+
+- And then the **Web** button
+
+![screenshot](_images/_firebase/update-spring26-B.jpg)
 
 <hr>
 
